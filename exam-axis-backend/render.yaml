@@ -1,0 +1,35 @@
+# render.yaml
+
+databases:
+  - name: exam-axis-db
+    databaseName: exam_axis_db
+    user: exam_axis_user
+    plan: free
+
+services:
+  - type: web
+    name: exam-axis-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: exam-axis-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRE
+        value: 7d
+      - key: JWT_COOKIE_EXPIRE
+        value: 7
+      - key: FRONTEND_URL
+        value: https://exam-axis.vercel.app
+      - key: RATE_LIMIT_WINDOW_MS
+        value: 900000
+      - key: RATE_LIMIT_MAX_REQUESTS
+        value: 100
