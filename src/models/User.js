@@ -11,6 +11,11 @@ const User = sequelize.define('User', {
     primaryKey: true,
     autoIncrement: true
   },
+  // Add this field in the User model definition
+role: {
+  type: DataTypes.ENUM('user', 'admin', 'superadmin'),
+  defaultValue: 'user'
+},
   fullName: {
     type: DataTypes.STRING(100),
     allowNull: false,

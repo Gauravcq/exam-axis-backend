@@ -11,19 +11,22 @@ const cookieParser = require('cookie-parser');
 const { sequelize, testConnection } = require('./config/database');
 const { apiLimiter } = require('./middleware/rateLimiter');
 const errorHandler = require('./middleware/errorHandler');
+const Logger = require('./utils/logger');
 
 // Import routes
 const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/user');
 const testRoutes = require('./routes/tests');
+const adminRoutes = require('./routes/admin');           // ← NEW
+const publicTestsRoutes = require('./routes/publicTests'); // ← NEW
 
 // Initialize app
 const app = express();
 
-// Trust proxy (for Render)
+// Trust proxy
 app.set('trust proxy', 1);
 
-// CORS configuration
+// CORS
 const corsOptions = {
   origin: function (origin, callback) {
     const allowedOrigins = [
@@ -34,7 +37,6 @@ const corsOptions = {
       process.env.FRONTEND_URL
     ].filter(Boolean);
     
-    // Allow requests with no origin (mobile apps, Postman, etc.)
     if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
@@ -49,19 +51,21 @@ const corsOptions = {
 // Middleware
 app.use(helmet());
 app.use(cors(corsOptions));
-app.use(express.json({ limit: '10kb' }));
-app.use(express.urlencoded({ extended: true, limit: '10kb' }));
+app.use(express.json({ limit: '50mb' }));  // Increased for questions data
+app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use(cookieParser());
 
-// Logging in development
+// Logging
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
+} else {
+  app.use(morgan('combined'));
 }
 
 // Rate limiting
 app.use('/api', apiLimiter);
 
-// Health check endpoint
+// Health check
 app.get('/', (req, res) => {
   res.json({
     success: true,
@@ -79,6 +83,8 @@ app.get('/health', (req, res) => {
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/tests', testRoutes);
+app.use('/api/admin', adminRoutes);           // ← NEW
+app.use('/api/public/tests', publicTestsRoutes); // ← NEW
 
 // 404 handler
 app.use((req, res) => {
@@ -96,21 +102,20 @@ const PORT = process.env.PORT || 5000;
 
 const startServer = async () => {
   try {
-    // Test database connection
     await testConnection();
+    Logger.success('PostgreSQL Connected!');
     
-    // Sync models (create tables if they don't exist)
     await sequelize.sync({ alter: process.env.NODE_ENV === 'development' });
-    console.log('✅ Database synced');
+    Logger.success('Database synced');
     
-    // Start listening
     app.listen(PORT, () => {
-      console.log(`🚀 Server running on port ${PORT} in ${process.env.NODE_ENV} mode`);
-      console.log(`📍 API URL: http://localhost:${PORT}`);
+      Logger.success(`Server running on port ${PORT}`);
+      console.log(`📍 API: http://localhost:${PORT}`);
+      console.log(`👨‍💼 Admin: http://localhost:${PORT}/api/admin`);
     });
     
   } catch (error) {
-    console.error('❌ Failed to start server:', error);
+    Logger.error('Failed to start server', error);
     process.exit(1);
   }
 };
