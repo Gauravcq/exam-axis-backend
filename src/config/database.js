@@ -8,13 +8,14 @@ const isProduction = process.env.NODE_ENV === 'production';
 const sequelize = new Sequelize(process.env.DATABASE_URL, {
   dialect: 'postgres',
   protocol: 'postgres',
-  logging: isProduction ? false : console.log,
-  dialectOptions: isProduction ? {
+  logging: false, // Cleaner console logs
+  dialectOptions: {
+    // Supabase needs SSL even in development mode
     ssl: {
       require: true,
-      rejectUnauthorized: false
+      rejectUnauthorized: false // Required for Supabase/Fly.io
     }
-  } : {},
+  },
   pool: {
     max: 5,
     min: 0,
@@ -27,7 +28,8 @@ const sequelize = new Sequelize(process.env.DATABASE_URL, {
 const testConnection = async () => {
   try {
     await sequelize.authenticate();
-    console.log('✅ PostgreSQL Connected Successfully!');
+    // Log success but hide the password/url for security
+    console.log('✅ Connected to Supabase PostgreSQL successfully!');
   } catch (error) {
     console.error('❌ Database Connection Failed:', error.message);
     process.exit(1);
