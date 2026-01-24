@@ -1,28 +1,18 @@
 // src/routes/auth.js
 const express = require('express');
 const router = express.Router();
-
 const authController = require('../controllers/authController');
 
-// DEBUG route list test
-// GET /api/auth/test
+// GET /api/auth/test -> check that Express works
 router.get('/test', (req, res) => {
-  res.json({ success: true, message: 'Auth routes working' });
+  res.json({ success: true, message: 'Auth routes working (Express)' });
 });
 
-// POST /api/auth/register   <-- this is what your frontend calls
 router.post('/register', authController.register);
-
-// POST /api/auth/login
 router.post('/login', authController.login);
-
-// POST /api/auth/logout
 router.post('/logout', authController.logout);
-
-// GET /api/auth/me
 router.get('/me', authController.getMe);
 
-// Optional: auth status check
 router.get('/check', (req, res) => {
   res.json({ success: true, data: { isAuthenticated: false } });
 });
