@@ -13,7 +13,6 @@ const { apiLimiter } = require('./middleware/rateLimiter');
 const errorHandler = require('./middleware/errorHandler');
 const Logger = require('./utils/logger');
 
-// Routes
 const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/user');
 const testRoutes = require('./routes/tests');
@@ -28,13 +27,13 @@ app.set('trust proxy', 1);
 // ==================== CORS CONFIG ====================
 
 const allowedOrigins = [
-  'https://exam-axis.vercel.app', // deployed frontend
-  'http://localhost:5500',        // local static frontend
+  'https://exam-axis.vercel.app',
+  'http://localhost:5500',
   'http://127.0.0.1:5500',
-  'http://localhost:3000'         // if you ever run React locally
+  'http://localhost:3000'
 ];
 
-// 1) Manual CORS + preflight handler
+// Manual CORS + preflight
 app.use((req, res, next) => {
   const origin = req.headers.origin;
 
@@ -52,7 +51,6 @@ app.use((req, res, next) => {
     'Origin,X-Requested-With,Content-Type,Accept,Authorization'
   );
 
-  // Handle preflight requests
   if (req.method === 'OPTIONS') {
     return res.sendStatus(200);
   }
@@ -60,15 +58,12 @@ app.use((req, res, next) => {
   next();
 });
 
-// 2) cors package as backup for non-preflight requests
+// Optional cors() as backup
 app.use(
   cors({
     origin(origin, callback) {
-      // Allow requests with no origin (curl, server-side, etc.)
       if (!origin) return callback(null, true);
-      if (allowedOrigins.includes(origin)) {
-        return callback(null, true);
-      }
+      if (allowedOrigins.includes(origin)) return callback(null, true);
       return callback(new Error('Not allowed by CORS'));
     },
     credentials: true
@@ -83,7 +78,6 @@ app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use(cookieParser());
 
-// Logging
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 } else {
@@ -140,7 +134,6 @@ const startServer = async () => {
     app.listen(PORT, () => {
       Logger.success(`Server running on port ${PORT}`);
       console.log(`📍 API: http://localhost:${PORT}`);
-      console.log(`👨‍💼 Admin: http://localhost:${PORT}/api/admin`);
     });
   } catch (error) {
     Logger.error('Failed to start server', error);
@@ -148,10 +141,10 @@ const startServer = async () => {
   }
 };
 
-// Run server only when running locally (node src/app.js / npm run dev)
+// Local only
 if (require.main === module) {
   startServer();
 }
 
-// Export app for Vercel serverless
+// Vercel handler
 module.exports = app;
