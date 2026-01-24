@@ -21,32 +21,41 @@ const adminRoutes = require('./routes/admin');           // ← NEW
 const publicTestsRoutes = require('./routes/publicTests'); // ← NEW
 
 // Initialize app
+// ... existing imports
+
+// Initialize app
 const app = express();
 
 // Trust proxy
 app.set('trust proxy', 1);
 
-// CORS
-const corsOptions = {
+// ==================== FIXED CORS SETUP ====================
+const allowedOrigins = [
+  'https://exam-axis.vercel.app',
+  'http://localhost:5500',
+  'http://127.0.0.1:5500',
+  'http://localhost:3000'
+];
+
+app.use(cors({
   origin: function (origin, callback) {
-    const allowedOrigins = [
-      'https://exam-axis.vercel.app',
-      'http://localhost:5500',
-      'http://127.0.0.1:5500',
-      'http://localhost:3000',
-      process.env.FRONTEND_URL
-    ].filter(Boolean);
+    // Allow requests with no origin (like mobile apps or curl requests)
+    if (!origin) return callback(null, true);
     
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
+    if (allowedOrigins.indexOf(origin) === -1) {
+      const msg = 'The CORS policy for this site does not allow access from the specified Origin.';
+      return callback(new Error(msg), false);
     }
+    return callback(null, true);
   },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
-};
+}));
+
+// Handle Preflight requests explicitly
+app.options('*', cors());
+// ==========================================================
 
 // Middleware
 app.use(helmet());
