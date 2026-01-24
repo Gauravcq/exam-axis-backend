@@ -13,60 +13,73 @@ const { apiLimiter } = require('./middleware/rateLimiter');
 const errorHandler = require('./middleware/errorHandler');
 const Logger = require('./utils/logger');
 
-// Import routes
+// Routes
 const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/user');
 const testRoutes = require('./routes/tests');
-const adminRoutes = require('./routes/admin');           // ← NEW
-const publicTestsRoutes = require('./routes/publicTests'); // ← NEW
+const adminRoutes = require('./routes/admin');
+const publicTestsRoutes = require('./routes/publicTests');
 
-// Initialize app
-// ... existing imports
-
-// Initialize app
 const app = express();
 
-// ==================== CORS FIX START ====================
-// 1. Manually handle OPTIONS requests (Preflight)
+// Needed for secure cookies behind proxy (Vercel)
+app.set('trust proxy', 1);
+
+// ==================== CORS CONFIG ====================
+
+const allowedOrigins = [
+  'https://exam-axis.vercel.app', // deployed frontend
+  'http://localhost:5500',        // local static frontend
+  'http://127.0.0.1:5500',
+  'http://localhost:3000'         // if you ever run React locally
+];
+
+// 1) Manual CORS + preflight handler
 app.use((req, res, next) => {
   const origin = req.headers.origin;
-  const allowedOrigins = [
-    'https://exam-axis.vercel.app',
-    'http://localhost:5500', 
-    'http://127.0.0.1:5500'
-  ];
-  
-  if (allowedOrigins.includes(origin)) {
-    res.setHeader('Access-Control-Allow-Origin', origin);
-  }
-  
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,authorization');
-  res.setHeader('Access-Control-Allow-Credentials', true);
 
-  // If it's a preflight check, return 200 OK immediately
-  if (req.method === 'OPTIONS') {
-    return res.status(200).end();
+  if (origin && allowedOrigins.includes(origin)) {
+    res.header('Access-Control-Allow-Origin', origin);
   }
-  
+
+  res.header('Access-Control-Allow-Credentials', 'true');
+  res.header(
+    'Access-Control-Allow-Methods',
+    'GET,POST,PUT,PATCH,DELETE,OPTIONS'
+  );
+  res.header(
+    'Access-Control-Allow-Headers',
+    'Origin,X-Requested-With,Content-Type,Accept,Authorization'
+  );
+
+  // Handle preflight requests
+  if (req.method === 'OPTIONS') {
+    return res.sendStatus(200);
+  }
+
   next();
 });
 
-// 2. Load standard CORS middleware as backup
-app.use(cors({
-  origin: ['https://exam-axis.vercel.app', 'http://localhost:5500', 'http://127.0.0.1:5500'],
-  credentials: true
-}));
-// ==================== CORS FIX END ====================
+// 2) cors package as backup for non-preflight requests
+app.use(
+  cors({
+    origin(origin, callback) {
+      // Allow requests with no origin (curl, server-side, etc.)
+      if (!origin) return callback(null, true);
+      if (allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+      return callback(new Error('Not allowed by CORS'));
+    },
+    credentials: true
+  })
+);
 
-// Handle Preflight requests explicitly
-app.options('*', cors());
-// ==========================================================
+// ================= END CORS CONFIG ====================
 
-// Middleware
+// Core middleware
 app.use(helmet());
-app.use(cors(corsOptions));
-app.use(express.json({ limit: '50mb' }));  // Increased for questions data
+app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use(cookieParser());
 
@@ -98,8 +111,8 @@ app.get('/health', (req, res) => {
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/tests', testRoutes);
-app.use('/api/admin', adminRoutes);           // ← NEW
-app.use('/api/public/tests', publicTestsRoutes); // ← NEW
+app.use('/api/admin', adminRoutes);
+app.use('/api/public/tests', publicTestsRoutes);
 
 // 404 handler
 app.use((req, res) => {
@@ -112,30 +125,33 @@ app.use((req, res) => {
 // Error handler
 app.use(errorHandler);
 
-// Start server
 const PORT = process.env.PORT || 5000;
 
 const startServer = async () => {
   try {
     await testConnection();
     Logger.success('PostgreSQL Connected!');
-    
-    await sequelize.sync({ alter: true });
+
+    await sequelize.sync({
+      alter: process.env.NODE_ENV === 'development'
+    });
     Logger.success('Database synced');
-    
+
     app.listen(PORT, () => {
       Logger.success(`Server running on port ${PORT}`);
       console.log(`📍 API: http://localhost:${PORT}`);
       console.log(`👨‍💼 Admin: http://localhost:${PORT}/api/admin`);
     });
-    
   } catch (error) {
     Logger.error('Failed to start server', error);
     process.exit(1);
   }
 };
 
+// Run server only when running locally (node src/app.js / npm run dev)
 if (require.main === module) {
   startServer();
 }
+
+// Export app for Vercel serverless
 module.exports = app;
