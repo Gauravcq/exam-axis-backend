@@ -26,32 +26,38 @@ const publicTestsRoutes = require('./routes/publicTests'); // ← NEW
 // Initialize app
 const app = express();
 
-// Trust proxy
-app.set('trust proxy', 1);
+// ==================== CORS FIX START ====================
+// 1. Manually handle OPTIONS requests (Preflight)
+app.use((req, res, next) => {
+  const origin = req.headers.origin;
+  const allowedOrigins = [
+    'https://exam-axis.vercel.app',
+    'http://localhost:5500', 
+    'http://127.0.0.1:5500'
+  ];
+  
+  if (allowedOrigins.includes(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+  }
+  
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type,authorization');
+  res.setHeader('Access-Control-Allow-Credentials', true);
 
-// ==================== FIXED CORS SETUP ====================
-const allowedOrigins = [
-  'https://exam-axis.vercel.app',
-  'http://localhost:5500',
-  'http://127.0.0.1:5500',
-  'http://localhost:3000'
-];
+  // If it's a preflight check, return 200 OK immediately
+  if (req.method === 'OPTIONS') {
+    return res.status(200).end();
+  }
+  
+  next();
+});
 
+// 2. Load standard CORS middleware as backup
 app.use(cors({
-  origin: function (origin, callback) {
-    // Allow requests with no origin (like mobile apps or curl requests)
-    if (!origin) return callback(null, true);
-    
-    if (allowedOrigins.indexOf(origin) === -1) {
-      const msg = 'The CORS policy for this site does not allow access from the specified Origin.';
-      return callback(new Error(msg), false);
-    }
-    return callback(null, true);
-  },
-  credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization']
+  origin: ['https://exam-axis.vercel.app', 'http://localhost:5500', 'http://127.0.0.1:5500'],
+  credentials: true
 }));
+// ==================== CORS FIX END ====================
 
 // Handle Preflight requests explicitly
 app.options('*', cors());
