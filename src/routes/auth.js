@@ -1,9 +1,8 @@
-// src/routes/auth.js
 const express = require('express');
 const router = express.Router();
 const authController = require('../controllers/authController');
 
-// GET /api/auth/test -> check that Express works
+// GET /api/auth/test -> verify Express is running
 router.get('/test', (req, res) => {
   res.json({ success: true, message: 'Auth routes working (Express)' });
 });
