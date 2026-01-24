@@ -1,19 +1,20 @@
 // src/config/database.js
 
 const { Sequelize } = require('sequelize');
+const pg = require('pg'); // <--- 1. ADD THIS LINE
 require('dotenv').config();
 
 const isProduction = process.env.NODE_ENV === 'production';
 
 const sequelize = new Sequelize(process.env.DATABASE_URL, {
   dialect: 'postgres',
+  dialectModule: pg, // <--- 2. ADD THIS LINE (Crucial for Vercel)
   protocol: 'postgres',
-  logging: false, // Cleaner console logs
+  logging: false,
   dialectOptions: {
-    // Supabase needs SSL even in development mode
     ssl: {
       require: true,
-      rejectUnauthorized: false // Required for Supabase/Fly.io
+      rejectUnauthorized: false
     }
   },
   pool: {
@@ -28,11 +29,9 @@ const sequelize = new Sequelize(process.env.DATABASE_URL, {
 const testConnection = async () => {
   try {
     await sequelize.authenticate();
-    // Log success but hide the password/url for security
-    console.log('✅ Connected to Supabase PostgreSQL successfully!');
+    console.log('✅ PostgreSQL Connected Successfully!');
   } catch (error) {
     console.error('❌ Database Connection Failed:', error.message);
-    process.exit(1);
   }
 };
 
