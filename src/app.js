@@ -105,7 +105,7 @@ const startServer = async () => {
     await testConnection();
     Logger.success('PostgreSQL Connected!');
     
-    await sequelize.sync({ alter: process.env.NODE_ENV === 'development' });
+    await sequelize.sync({ alter: true });
     Logger.success('Database synced');
     
     app.listen(PORT, () => {
