@@ -1,192 +1,126 @@
 // src/controllers/authController.js
+const User = require('../models/User');
 
-const { Op } = require('sequelize');
-const { User, LoginLog } = require('../models');
-const { getClientIP, getUserAgent, sendTokenResponse, apiResponse } = require('../utils/helpers');
+// Helper to send token response
+const sendTokenResponse = (user, statusCode, res) => {
+  // Create token
+  const token = user.generateToken();
 
-// @desc    Register new user
-// @route   POST /api/auth/register
-// @access  Public
-exports.register = async (req, res, next) => {
-  try {
-    const { fullName, username, email, phone, password, preferredExam } = req.body;
-    
-    // Check if user exists
-    const existingUser = await User.findOne({
-      where: {
-        [Op.or]: [{ email }, { username }]
+  // Cookie options
+  const options = {
+    expires: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), // 30 days
+    httpOnly: true,
+    secure: true, // Required for Vercel/Production
+    sameSite: 'none' // Required for Cross-Site (Frontend -> Backend)
+  };
+
+  res.status(statusCode)
+    .cookie('token', token, options)
+    .json({
+      success: true,
+      token,
+      data: {
+        user: {
+          id: user.id,
+          username: user.username,
+          email: user.email,
+          fullName: user.fullName,
+          role: user.role,
+          preferredExam: user.preferredExam
+        }
       }
     });
-    
-    if (existingUser) {
-      if (existingUser.email === email) {
-        return apiResponse(res, 400, false, 'Email already registered');
-      }
-      return apiResponse(res, 400, false, 'Username already taken');
-    }
-    
-    // Create user
+};
+
+exports.register = async (req, res, next) => {
+  try {
+    const { fullName, username, email, password, phone, preferredExam } = req.body;
+
     const user = await User.create({
       fullName,
       username,
       email,
-      phone: phone || null,
       password,
-      preferredExam: preferredExam || 'CGL'
+      phone,
+      preferredExam
     });
-    
-    sendTokenResponse(user, 201, res, 'Registration successful! Welcome to Exam-Axis! 🎉');
-    
+
+    sendTokenResponse(user, 201, res);
   } catch (error) {
-    next(error);
+    console.error('Register Error:', error);
+    // Handle duplicate key errors
+    if (error.name === 'SequelizeUniqueConstraintError') {
+      return res.status(400).json({
+        success: false,
+        message: 'Username or Email already exists'
+      });
+    }
+    res.status(500).json({ success: false, message: 'Server Error' });
   }
 };
 
-// @desc    Login user
-// @route   POST /api/auth/login
-// @access  Public
 exports.login = async (req, res, next) => {
   try {
-    const { identifier, password } = req.body;
-    const ip = getClientIP(req);
-    const userAgent = getUserAgent(req);
-    
-    // Find user by email or username
+    const { identifier, password } = req.body; // identifier = email or username
+
+    if (!identifier || !password) {
+      return res.status(400).json({ success: false, message: 'Please provide email and password' });
+    }
+
+    // Check for user (by email OR username)
+    const { Op } = require('sequelize');
     const user = await User.findOne({
       where: {
-        [Op.or]: [
-          { email: identifier },
-          { username: identifier }
-        ]
+        [Op.or]: [{ email: identifier }, { username: identifier }]
       }
     });
-    
-    // User not found
+
     if (!user) {
-      await LoginLog.create({
-        userId: null,
-        ipAddress: ip,
-        userAgent,
-        status: 'failed',
-        failureReason: 'User not found'
-      });
-      return apiResponse(res, 401, false, 'Invalid credentials');
+      return res.status(401).json({ success: false, message: 'Invalid credentials' });
     }
-    
-    // Check if account is locked
-    if (user.isLocked()) {
-      const remainingTime = Math.ceil((new Date(user.lockoutUntil) - new Date()) / 60000);
-      await LoginLog.create({
-        userId: user.id,
-        ipAddress: ip,
-        userAgent,
-        status: 'failed',
-        failureReason: 'Account locked'
-      });
-      return apiResponse(res, 423, false, `Account locked. Try again in ${remainingTime} minutes.`);
-    }
-    
-    // Check if account is active
-    if (!user.isActive) {
-      await LoginLog.create({
-        userId: user.id,
-        ipAddress: ip,
-        userAgent,
-        status: 'failed',
-        failureReason: 'Account inactive'
-      });
-      return apiResponse(res, 401, false, 'Account deactivated. Contact support.');
-    }
-    
+
     // Check password
     const isMatch = await user.comparePassword(password);
-    
     if (!isMatch) {
-      await user.incrementLoginAttempts();
-      await LoginLog.create({
-        userId: user.id,
-        ipAddress: ip,
-        userAgent,
-        status: 'failed',
-        failureReason: 'Invalid password'
-      });
-      
-      const remainingAttempts = 5 - (user.loginAttempts + 1);
-      if (remainingAttempts > 0) {
-        return apiResponse(res, 401, false, `Invalid credentials. ${remainingAttempts} attempts remaining.`);
-      }
-      return apiResponse(res, 401, false, 'Account locked due to too many failed attempts.');
+      return res.status(401).json({ success: false, message: 'Invalid credentials' });
     }
-    
-    // Success - reset login attempts
+
+    // Reset login attempts if successful
     await user.resetLoginAttempts();
-    
-    // Log successful login
-    await LoginLog.create({
-      userId: user.id,
-      ipAddress: ip,
-      userAgent,
-      status: 'success'
-    });
-    
-    sendTokenResponse(user, 200, res, 'Login successful! Welcome back! 🎉');
-    
+
+    sendTokenResponse(user, 200, res);
   } catch (error) {
-    next(error);
+    console.error('Login Error:', error);
+    res.status(500).json({ success: false, message: 'Server Error' });
   }
 };
 
-// @desc    Logout user
-// @route   POST /api/auth/logout
-// @access  Private
 exports.logout = async (req, res, next) => {
-  try {
-    res.cookie('token', 'none', {
-      expires: new Date(Date.now() + 10 * 1000), // 10 seconds
-      httpOnly: true
-    });
-    
-    apiResponse(res, 200, true, 'Logged out successfully');
-    
-  } catch (error) {
-    next(error);
-  }
+  res.cookie('token', 'none', {
+    expires: new Date(Date.now() + 10 * 1000),
+    httpOnly: true
+  });
+
+  res.status(200).json({ success: true, data: {} });
 };
 
-// @desc    Get current logged in user
-// @route   GET /api/auth/me
-// @access  Private
 exports.getMe = async (req, res, next) => {
   try {
     const user = await User.findByPk(req.user.id);
-    
-    apiResponse(res, 200, true, 'User data retrieved', {
-      user: user.toSafeObject()
+    res.status(200).json({
+      success: true,
+      data: {
+        user: {
+          id: user.id,
+          fullName: user.fullName,
+          username: user.username,
+          email: user.email,
+          role: user.role,
+          preferredExam: user.preferredExam
+        }
+      }
     });
-    
   } catch (error) {
-    next(error);
-  }
-};
-
-// @desc    Check if user is authenticated
-// @route   GET /api/auth/check
-// @access  Public
-exports.checkAuth = async (req, res, next) => {
-  try {
-    if (req.user) {
-      return apiResponse(res, 200, true, 'Authenticated', {
-        isAuthenticated: true,
-        user: req.user.toSafeObject()
-      });
-    }
-    
-    apiResponse(res, 200, true, 'Not authenticated', {
-      isAuthenticated: false,
-      user: null
-    });
-    
-  } catch (error) {
-    next(error);
+    res.status(500).json({ success: false, message: 'Server Error' });
   }
 };
