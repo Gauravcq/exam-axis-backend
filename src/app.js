@@ -18,6 +18,8 @@ const userRoutes = require('./routes/user');
 const testRoutes = require('./routes/tests');
 const adminRoutes = require('./routes/admin');
 const publicTestsRoutes = require('./routes/publicTests');
+const questionRoutes = require('./routes/questions');
+
 
 const app = express();
 
@@ -107,6 +109,8 @@ app.use('/api/users', userRoutes);
 app.use('/api/tests', testRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/public/tests', publicTestsRoutes);
+app.use('/api/questions', questionRoutes);
+
 
 // 404 handler
 app.use((req, res) => {
