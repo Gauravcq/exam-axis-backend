@@ -1,14 +1,12 @@
 const express = require('express');
 const router = express.Router();
 const questionController = require('../controllers/questionController');
-const { protect, optionalAuth } = require('../middleware/auth');
+const { protect } = require('../middleware/auth');
 
-// Public routes (no auth required)
-router.get('/check/:testId', questionController.checkTestExists);
-
-// Protected routes (auth required)
-router.get('/list', protect, questionController.getAvailableTests);
+// Get questions (without answers) - requires authentication
 router.get('/:testId', protect, questionController.getQuestions);
+
+// Submit test (get results) - requires authentication  
 router.post('/:testId/submit', protect, questionController.submitTest);
 
 module.exports = router;
