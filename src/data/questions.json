@@ -15659,5 +15659,833 @@
         "hi": "25%"
       }
     }
+  ],
+
+   "ssc_cgl_maths_16_sep_s1": [
+    {
+      "questionNo": 51,
+      "question": {
+        "en": "If P:Q = 6:11, Q:R = 5:4, and R:S = 9:7, find P:Q:R:S.",
+        "hi": "यदि P:Q = 6:11, Q:R = 5:4, तथा R:S = 9:7, तो P:Q:R:S ज्ञात कीजिए।"
+      },
+      "options": [
+        {
+          "en": "270 : 495 : 396 : 308",
+          "hi": "270 : 495 : 396 : 308"
+        },
+        {
+          "en": "6 : 11 : 4 : 7",
+          "hi": "6 : 11 : 4 : 7"
+        },
+        {
+          "en": "30 : 55 : 44 : 35",
+          "hi": "30 : 55 : 44 : 35"
+        },
+        {
+          "en": "270 : 396 : 495 : 308",
+          "hi": "270 : 396 : 495 : 308"
+        }
+      ],
+      "correctAnswer": {
+        "en": "270 : 495 : 396 : 308",
+        "hi": "270 : 495 : 396 : 308"
+      },
+      "explanation": {
+        "en": "P:Q = 6:11, Q:R = 5:4, R:S = 9:7. Make Q equal: P:Q = 30:55, Q:R = 55:44. Make R equal: P:Q:R = 270:495:396, R:S = 396:308. Therefore P:Q:R:S = 270:495:396:308.",
+        "hi": "P:Q = 6:11, Q:R = 5:4, R:S = 9:7। Q को बराबर करें: P:Q = 30:55, Q:R = 55:44। R को बराबर करें: P:Q:R = 270:495:396, R:S = 396:308। इसलिए P:Q:R:S = 270:495:396:308।"
+      }
+    },
+    {
+      "questionNo": 52,
+      "question": {
+        "en": "A bag contains ₹10, ₹5, and ₹2 coins in the ratio 1:2:3. If the total amount of money in the bag is ₹390, find the number of coins of each kind.",
+        "hi": "एक बैग में 1:2:3 के अनुपात में ₹10, ₹5 और ₹2 के सिक्के हैं। यदि बैग में कुल धनराशि ₹390 है, तो प्रत्येक प्रकार के सिक्कों की संख्या ज्ञात कीजिए।"
+      },
+      "options": [
+        {
+          "en": "10 coins of ₹10, 20 of ₹5, and 30 of ₹2",
+          "hi": "₹10 के 10 सिक्के, ₹5 के 20 सिक्के और ₹2 के 30 सिक्के"
+        },
+        {
+          "en": "15 coins of ₹10, 30 of ₹5, and 45 of ₹2",
+          "hi": "₹10 के 15 सिक्के, ₹5 के 30 सिक्के और ₹2 के 45 सिक्के"
+        },
+        {
+          "en": "20 coins of ₹10, 40 of ₹5, and 60 of ₹2",
+          "hi": "₹10 के 20 सिक्के, ₹5 के 40 सिक्के और ₹2 के 60 सिक्के"
+        },
+        {
+          "en": "12 coins of ₹10, 24 of ₹5, and 36 of ₹2",
+          "hi": "₹10 के 12 सिक्के, ₹5 के 24 सिक्के और ₹2 के 36 सिक्के"
+        }
+      ],
+      "correctAnswer": {
+        "en": "15 coins of ₹10, 30 of ₹5, and 45 of ₹2",
+        "hi": "₹10 के 15 सिक्के, ₹5 के 30 सिक्के और ₹2 के 45 सिक्के"
+      },
+      "explanation": {
+        "en": "Let coins be x, 2x, 3x. Value = 10x + 5(2x) + 2(3x) = 26x = 390. So x = 15. Coins are 15, 30, 45.",
+        "hi": "माना सिक्के x, 2x, 3x हैं। मूल्य = 10x + 5(2x) + 2(3x) = 26x = 390। अतः x = 15। सिक्के 15, 30, 45 हैं।"
+      }
+    },
+    {
+      "questionNo": 53,
+      "question": {
+        "en": "A tank holds 53 liters of water. If 2.375 liters are drained twice, how much water remains?",
+        "hi": "एक टैंक में 53 लीटर पानी है। यदि 2.375 लीटर पानी दो बार खाली कर दिया जाए, तो कितना पानी बचेगा?"
+      },
+      "options": [
+        {
+          "en": "48 1/4 liters",
+          "hi": "48 1/4 लीटर"
+        },
+        {
+          "en": "48 1/2 liters",
+          "hi": "48 1/2 लीटर"
+        },
+        {
+          "en": "48 3/4 liters",
+          "hi": "48 3/4 लीटर"
+        },
+        {
+          "en": "49 1/4 liters",
+          "hi": "49 1/4 लीटर"
+        }
+      ],
+      "correctAnswer": {
+        "en": "48 1/4 liters",
+        "hi": "48 1/4 लीटर"
+      },
+      "explanation": {
+        "en": "Water drained = 2.375 × 2 = 4.75 liters. Remaining = 53 - 4.75 = 48.25 = 48 1/4 liters.",
+        "hi": "निकाला गया पानी = 2.375 × 2 = 4.75 लीटर। शेष = 53 - 4.75 = 48.25 = 48 1/4 लीटर।"
+      }
+    },
+    {
+      "questionNo": 54,
+      "question": {
+        "en": "Simplify: [(5/2) + (6 ÷ 5)] ÷ [(5/3) - (4/7 × 9/5)]",
+        "hi": "सरल करें: [(5/2) + (6 ÷ 5)] ÷ [(5/3) - (4/7 × 9/5)]"
+      },
+      "options": [
+        {
+          "en": "416/105",
+          "hi": "416/105"
+        },
+        {
+          "en": "418/110",
+          "hi": "418/110"
+        },
+        {
+          "en": "425/250",
+          "hi": "425/250"
+        },
+        {
+          "en": "526/350",
+          "hi": "526/350"
+        }
+      ],
+      "correctAnswer": {
+        "en": "416/105",
+        "hi": "416/105"
+      },
+      "explanation": {
+        "en": "Numerator = 5/2 + 6/5 = 25/10 + 12/10 = 37/10. Denominator = 5/3 - 36/35 = 175/105 - 108/105 = 67/105. Result = (37/10) × (105/67) = 416/105.",
+        "hi": "अंश = 5/2 + 6/5 = 37/10। हर = 5/3 - 36/35 = 67/105। परिणाम = (37/10) × (105/67) = 416/105।"
+      }
+    },
+    {
+      "questionNo": 55,
+      "question": {
+        "en": "Simplify: (25 + 3.6) ÷ 0.75 + (1.25 × 4/5)",
+        "hi": "सरल करें: (25 + 3.6) ÷ 0.75 + (1.25 × 4/5)"
+      },
+      "options": [
+        {
+          "en": "137/15",
+          "hi": "137/15"
+        },
+        {
+          "en": "160/15",
+          "hi": "160/15"
+        },
+        {
+          "en": "127/15",
+          "hi": "127/15"
+        },
+        {
+          "en": "148/15",
+          "hi": "148/15"
+        }
+      ],
+      "correctAnswer": {
+        "en": "137/15",
+        "hi": "137/15"
+      },
+      "explanation": {
+        "en": "28.6 ÷ 0.75 + 1 = 38.133 + 1 = 137/15 approximately.",
+        "hi": "28.6 ÷ 0.75 + 1 = 38.133 + 1 = लगभग 137/15।"
+      }
+    },
+    {
+      "questionNo": 56,
+      "question": {
+        "en": "A and B invested in a business in the ratio 5:6. The profit ratio was 10:9. If B invested his money for 12 months, for how many months did A invest?",
+        "hi": "A और B ने 5:6 के अनुपात में एक व्यवसाय में निवेश किया। लाभ अनुपात 10:9 था। यदि B ने अपना पैसा 12 महीने के लिए निवेश किया, तो A ने कितने महीनों के लिए निवेश किया?"
+      },
+      "options": [
+        {
+          "en": "15 months",
+          "hi": "15 महीने"
+        },
+        {
+          "en": "16 months",
+          "hi": "16 महीने"
+        },
+        {
+          "en": "17 months",
+          "hi": "17 महीने"
+        },
+        {
+          "en": "18 months",
+          "hi": "18 महीने"
+        }
+      ],
+      "correctAnswer": {
+        "en": "16 months",
+        "hi": "16 महीने"
+      },
+      "explanation": {
+        "en": "Profit ratio = Investment × Time. 5×x : 6×12 = 10:9. 5x/72 = 10/9. x = 16 months.",
+        "hi": "लाभ अनुपात = निवेश × समय। 5×x : 6×12 = 10:9। 5x/72 = 10/9। x = 16 महीने।"
+      }
+    },
+    {
+      "questionNo": 57,
+      "question": {
+        "en": "The average of 9 numbers is 56. When one number is removed, the average becomes 54. What number was removed?",
+        "hi": "9 संख्याओं का औसत 56 है। जब एक संख्या हटा दी जाती है, तो औसत 54 हो जाता है। कौन सी संख्या हटाई गई?"
+      },
+      "options": [
+        {
+          "en": "52",
+          "hi": "52"
+        },
+        {
+          "en": "72",
+          "hi": "72"
+        },
+        {
+          "en": "82",
+          "hi": "82"
+        },
+        {
+          "en": "92",
+          "hi": "92"
+        }
+      ],
+      "correctAnswer": {
+        "en": "72",
+        "hi": "72"
+      },
+      "explanation": {
+        "en": "Total of 9 numbers = 9 × 56 = 504. Total of 8 numbers = 8 × 54 = 432. Removed number = 504 - 432 = 72.",
+        "hi": "9 संख्याओं का योग = 9 × 56 = 504। 8 संख्याओं का योग = 8 × 54 = 432। हटाई गई संख्या = 504 - 432 = 72।"
+      }
+    },
+    {
+      "questionNo": 58,
+      "question": {
+        "en": "Table - Weekly Fuel Usage (litres): Truck1: Mon-18, Tue-20, Wed-22, Thu-21, Fri-19. Truck2: Mon-25, Tue-24, Wed-26, Thu-23, Fri-24. What is the overall average daily fuel usage for both trucks?",
+        "hi": "तालिका - साप्ताहिक ईंधन उपयोग (लीटर): ट्रक1: सोम-18, मंगल-20, बुध-22, गुरु-21, शुक्र-19। ट्रक2: सोम-25, मंगल-24, बुध-26, गुरु-23, शुक्र-24। दोनों ट्रकों के लिए कुल औसत दैनिक ईंधन उपयोग क्या है?"
+      },
+      "options": [
+        {
+          "en": "27 litres",
+          "hi": "27 लीटर"
+        },
+        {
+          "en": "22.2 litres",
+          "hi": "22.2 लीटर"
+        },
+        {
+          "en": "28 litres",
+          "hi": "28 लीटर"
+        },
+        {
+          "en": "21.5 litres",
+          "hi": "21.5 लीटर"
+        }
+      ],
+      "correctAnswer": {
+        "en": "22.2 litres",
+        "hi": "22.2 लीटर"
+      },
+      "explanation": {
+        "en": "Truck1 total = 100, Truck2 total = 122. Combined = 222 for 10 readings. Average = 222/10 = 22.2 litres.",
+        "hi": "ट्रक1 कुल = 100, ट्रक2 कुल = 122। संयुक्त = 222 (10 रीडिंग के लिए)। औसत = 222/10 = 22.2 लीटर।"
+      }
+    },
+    {
+      "questionNo": 59,
+      "question": {
+        "en": "A sum becomes ₹12100 in 2 years at 10% Compound Interest annually. Find the principal.",
+        "hi": "एक धनराशि 10% वार्षिक चक्रवृद्धि ब्याज की दर से 2 वर्ष में ₹12100 हो जाती है। मूलधन ज्ञात कीजिए।"
+      },
+      "options": [
+        {
+          "en": "₹10000",
+          "hi": "₹10000"
+        },
+        {
+          "en": "₹11000",
+          "hi": "₹11000"
+        },
+        {
+          "en": "₹11500",
+          "hi": "₹11500"
+        },
+        {
+          "en": "₹10500",
+          "hi": "₹10500"
+        }
+      ],
+      "correctAnswer": {
+        "en": "₹10000",
+        "hi": "₹10000"
+      },
+      "explanation": {
+        "en": "A = P(1 + r/100)^n. 12100 = P(1.1)². P = 12100/1.21 = ₹10000.",
+        "hi": "A = P(1 + r/100)^n। 12100 = P(1.1)²। P = 12100/1.21 = ₹10000।"
+      }
+    },
+    {
+      "questionNo": 60,
+      "question": {
+        "en": "A grocer purchased 50 kg of rice at ₹40 per kg and 20 kg of another variety at ₹55 per kg. He mixed and sold the entire mixture at ₹48 per kg. Find his total profit or loss.",
+        "hi": "एक पंसारी ने 50 किलो चावल ₹40 प्रति किलो और 20 किलो चावल ₹55 प्रति किलो की दर से खरीदी। उसने मिश्रण को ₹48 प्रति किलो की दर से बेचा। कुल लाभ या हानि ज्ञात कीजिए।"
+      },
+      "options": [
+        {
+          "en": "Loss of ₹260",
+          "hi": "₹260 का नुकसान"
+        },
+        {
+          "en": "Loss of ₹240",
+          "hi": "₹240 का नुकसान"
+        },
+        {
+          "en": "Profit of ₹260",
+          "hi": "₹260 का लाभ"
+        },
+        {
+          "en": "Loss of ₹290",
+          "hi": "₹290 का नुकसान"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Profit of ₹260",
+        "hi": "₹260 का लाभ"
+      },
+      "explanation": {
+        "en": "Cost = 50×40 + 20×55 = 2000 + 1100 = ₹3100. SP = 70×48 = ₹3360. Profit = 3360 - 3100 = ₹260.",
+        "hi": "लागत = 50×40 + 20×55 = 2000 + 1100 = ₹3100। SP = 70×48 = ₹3360। लाभ = 3360 - 3100 = ₹260।"
+      }
+    },
+    {
+      "questionNo": 61,
+      "question": {
+        "en": "A television set has a marked price of ₹20,000. It is sold after two successive discounts. If the first discount is 15% and the final selling price is ₹15,300, what is the percentage of the second discount?",
+        "hi": "एक टेलीविज़न सेट का अंकित मूल्य ₹20,000 है। इसे दो क्रमिक छूट के बाद बेचा जाता है। यदि पहली छूट 15% है और अंतिम विक्रय मूल्य ₹15,300 है, तो दूसरी छूट का प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "en": "10%",
+          "hi": "10%"
+        },
+        {
+          "en": "12%",
+          "hi": "12%"
+        },
+        {
+          "en": "14%",
+          "hi": "14%"
+        },
+        {
+          "en": "15%",
+          "hi": "15%"
+        }
+      ],
+      "correctAnswer": {
+        "en": "10%",
+        "hi": "10%"
+      },
+      "explanation": {
+        "en": "After 15% discount = 20000 × 0.85 = ₹17000. Second discount = (17000-15300)/17000 × 100 = 10%.",
+        "hi": "15% छूट के बाद = 20000 × 0.85 = ₹17000। दूसरी छूट = (17000-15300)/17000 × 100 = 10%।"
+      }
+    },
+    {
+      "questionNo": 62,
+      "question": {
+        "en": "A manufacturer marked a product 30% above its cost price. He provided a discount to a customer, which resulted in him making a profit of 17%. What was the rate of discount given?",
+        "hi": "एक निर्माता ने एक उत्पाद पर उसके लागत मूल्य से 30% अधिक मूल्य अंकित किया। उसने ग्राहक को छूट दी, जिससे उसे 17% का लाभ हुआ। दी गई छूट की दर क्या थी?"
+      },
+      "options": [
+        {
+          "en": "24%",
+          "hi": "24%"
+        },
+        {
+          "en": "50%",
+          "hi": "50%"
+        },
+        {
+          "en": "60%",
+          "hi": "60%"
+        },
+        {
+          "en": "10%",
+          "hi": "10%"
+        }
+      ],
+      "correctAnswer": {
+        "en": "10%",
+        "hi": "10%"
+      },
+      "explanation": {
+        "en": "Let CP = 100. MP = 130. SP = 117 (17% profit). Discount = 130-117 = 13. Discount% = 13/130 × 100 = 10%.",
+        "hi": "माना CP = 100। MP = 130। SP = 117 (17% लाभ)। छूट = 130-117 = 13। छूट% = 13/130 × 100 = 10%।"
+      }
+    },
+    {
+      "questionNo": 63,
+      "question": {
+        "en": "Two containers A and B contain mixtures of alcohol and water. Container A has alcohol:water = 4:1, Container B has 5:2. If 10 liters from A and 14 liters from B are mixed, what is the ratio of alcohol to water in the new mixture?",
+        "hi": "दो कंटेनर A और B में शराब और पानी का मिश्रण है। कंटेनर A में शराब:पानी = 4:1, कंटेनर B में 5:2। यदि A से 10 लीटर और B से 14 लीटर मिलाया जाए, तो नए मिश्रण में शराब और पानी का अनुपात क्या है?"
+      },
+      "options": [
+        {
+          "en": "3:1",
+          "hi": "3:1"
+        },
+        {
+          "en": "7:2",
+          "hi": "7:2"
+        },
+        {
+          "en": "9:4",
+          "hi": "9:4"
+        },
+        {
+          "en": "11:3",
+          "hi": "11:3"
+        }
+      ],
+      "correctAnswer": {
+        "en": "3:1",
+        "hi": "3:1"
+      },
+      "explanation": {
+        "en": "From A: Alcohol = 8L, Water = 2L. From B: Alcohol = 10L, Water = 4L. Total Alcohol = 18L, Water = 6L. Ratio = 18:6 = 3:1.",
+        "hi": "A से: शराब = 8L, पानी = 2L। B से: शराब = 10L, पानी = 4L। कुल शराब = 18L, पानी = 6L। अनुपात = 18:6 = 3:1।"
+      }
+    },
+    {
+      "questionNo": 64,
+      "question": {
+        "en": "If the radius of a sphere is increased to twice its original size, what is the ratio of the new surface area to the original, and the new volume to the original?",
+        "hi": "यदि किसी गोले की त्रिज्या को दोगुना बढ़ा दिया जाए, तो नए पृष्ठीय क्षेत्रफल का मूल से अनुपात और नए आयतन का मूल से अनुपात क्या होगा?"
+      },
+      "options": [
+        {
+          "en": "4:1 and 2:1",
+          "hi": "4:1 और 2:1"
+        },
+        {
+          "en": "4:1 and 8:1",
+          "hi": "4:1 और 8:1"
+        },
+        {
+          "en": "8:1 and 4:1",
+          "hi": "8:1 और 4:1"
+        },
+        {
+          "en": "2:1 and 4:1",
+          "hi": "2:1 और 4:1"
+        }
+      ],
+      "correctAnswer": {
+        "en": "4:1 and 8:1",
+        "hi": "4:1 और 8:1"
+      },
+      "explanation": {
+        "en": "Surface area ∝ r². Ratio = (2r)²:r² = 4:1. Volume ∝ r³. Ratio = (2r)³:r³ = 8:1.",
+        "hi": "पृष्ठीय क्षेत्रफल ∝ r²। अनुपात = (2r)²:r² = 4:1। आयतन ∝ r³। अनुपात = (2r)³:r³ = 8:1।"
+      }
+    },
+    {
+      "questionNo": 65,
+      "question": {
+        "en": "A hemisphere and a cone share the same base and have equal volumes. Given that their common radius is R, determine the height of the cone.",
+        "hi": "एक अर्धगोला और एक शंकु एक ही आधार साझा करते हैं और उनका आयतन बराबर है। यदि उनकी सामान्य त्रिज्या R है, शंकु की ऊँचाई निर्धारित करें।"
+      },
+      "options": [
+        {
+          "en": "2R",
+          "hi": "2R"
+        },
+        {
+          "en": "R",
+          "hi": "R"
+        },
+        {
+          "en": "3R",
+          "hi": "3R"
+        },
+        {
+          "en": "4R",
+          "hi": "4R"
+        }
+      ],
+      "correctAnswer": {
+        "en": "2R",
+        "hi": "2R"
+      },
+      "explanation": {
+        "en": "Volume of hemisphere = (2/3)πR³. Volume of cone = (1/3)πR²h. Equating: (2/3)πR³ = (1/3)πR²h. h = 2R.",
+        "hi": "अर्धगोले का आयतन = (2/3)πR³। शंकु का आयतन = (1/3)πR²h। बराबर करने पर: (2/3)πR³ = (1/3)πR²h। h = 2R।"
+      }
+    },
+    {
+      "questionNo": 66,
+      "question": {
+        "en": "A solid hemisphere of radius 10 cm is melted into two cones of equal height. If each cone's radius is 5 cm, what is the height of each cone?",
+        "hi": "10 सेमी त्रिज्या वाले एक ठोस अर्धगोले को पिघलाकर बराबर ऊँचाई के दो शंकु बनाए गए। यदि प्रत्येक शंकु की त्रिज्या 5 सेमी है, तो प्रत्येक शंकु की ऊँचाई क्या है?"
+      },
+      "options": [
+        {
+          "en": "40 cm",
+          "hi": "40 सेमी"
+        },
+        {
+          "en": "45 cm",
+          "hi": "45 सेमी"
+        },
+        {
+          "en": "50 cm",
+          "hi": "50 सेमी"
+        },
+        {
+          "en": "55 cm",
+          "hi": "55 सेमी"
+        }
+      ],
+      "correctAnswer": {
+        "en": "40 cm",
+        "hi": "40 सेमी"
+      },
+      "explanation": {
+        "en": "Volume of hemisphere = (2/3)π(10)³ = 2000π/3. Volume of 2 cones = 2 × (1/3)π(5)²h = 50πh/3. Equating: 2000π/3 = 50πh/3. h = 40 cm.",
+        "hi": "अर्धगोले का आयतन = (2/3)π(10)³ = 2000π/3। 2 शंकुओं का आयतन = 2 × (1/3)π(5)²h = 50πh/3। बराबर करने पर: h = 40 सेमी।"
+      }
+    },
+    {
+      "questionNo": 67,
+      "question": {
+        "en": "If base perimeter = 40 cm, slant height = 10 cm, what is lateral surface area of square pyramid?",
+        "hi": "यदि आधार परिमाप = 40 सेमी, तिर्यक ऊँचाई = 10 सेमी, तो वर्गाकार पिरामिड का पार्श्व पृष्ठीय क्षेत्रफल क्या है?"
+      },
+      "options": [
+        {
+          "en": "260 cm²",
+          "hi": "260 सेमी²"
+        },
+        {
+          "en": "200 cm²",
+          "hi": "200 सेमी²"
+        },
+        {
+          "en": "400 cm²",
+          "hi": "400 सेमी²"
+        },
+        {
+          "en": "432 cm²",
+          "hi": "432 सेमी²"
+        }
+      ],
+      "correctAnswer": {
+        "en": "200 cm²",
+        "hi": "200 सेमी²"
+      },
+      "explanation": {
+        "en": "LSA of pyramid = (1/2) × perimeter × slant height = (1/2) × 40 × 10 = 200 cm².",
+        "hi": "पिरामिड का LSA = (1/2) × परिमाप × तिर्यक ऊँचाई = (1/2) × 40 × 10 = 200 सेमी²।"
+      }
+    },
+    {
+      "questionNo": 68,
+      "question": {
+        "en": "Two circular pizzas have radii in the ratio 2:3. If the smaller pizza has an area of 100π cm², what is the area of the larger pizza?",
+        "hi": "दो गोलाकार पिज़्ज़ा की त्रिज्याओं का अनुपात 2:3 है। यदि छोटे पिज़्ज़ा का क्षेत्रफल 100π cm² है, तो बड़े पिज़्ज़ा का क्षेत्रफल क्या है?"
+      },
+      "options": [
+        {
+          "en": "265π cm²",
+          "hi": "265π सेमी²"
+        },
+        {
+          "en": "225π cm²",
+          "hi": "225π सेमी²"
+        },
+        {
+          "en": "215π cm²",
+          "hi": "215π सेमी²"
+        },
+        {
+          "en": "250π cm²",
+          "hi": "250π सेमी²"
+        }
+      ],
+      "correctAnswer": {
+        "en": "225π cm²",
+        "hi": "225π सेमी²"
+      },
+      "explanation": {
+        "en": "Area ratio = (2)²:(3)² = 4:9. Larger pizza area = 100π × (9/4) = 225π cm².",
+        "hi": "क्षेत्रफल अनुपात = (2)²:(3)² = 4:9। बड़े पिज़्ज़ा का क्षेत्रफल = 100π × (9/4) = 225π सेमी²।"
+      }
+    },
+    {
+      "questionNo": 69,
+      "question": {
+        "en": "In a triangle ABC, medians AD and BE intersect at G. If the length of median AD is 12 cm, what is the length of the segment AG?",
+        "hi": "त्रिभुज ABC में, माध्यिकाएँ AD और BE, G पर प्रतिच्छेद करती हैं। यदि माध्यिका AD की लंबाई 12 सेमी है, तो AG की लंबाई क्या है?"
+      },
+      "options": [
+        {
+          "en": "4 cm",
+          "hi": "4 सेमी"
+        },
+        {
+          "en": "6 cm",
+          "hi": "6 सेमी"
+        },
+        {
+          "en": "8 cm",
+          "hi": "8 सेमी"
+        },
+        {
+          "en": "9 cm",
+          "hi": "9 सेमी"
+        }
+      ],
+      "correctAnswer": {
+        "en": "8 cm",
+        "hi": "8 सेमी"
+      },
+      "explanation": {
+        "en": "Centroid divides median in ratio 2:1. AG = (2/3) × 12 = 8 cm.",
+        "hi": "केन्द्रक माध्यिका को 2:1 के अनुपात में विभाजित करता है। AG = (2/3) × 12 = 8 सेमी।"
+      }
+    },
+    {
+      "questionNo": 70,
+      "question": {
+        "en": "Two right-angled triangles ABC and DEF have ∠B = ∠E = 90°. If hypotenuses AC = DF and sides AB = DE, are the triangles congruent? If so, by what rule?",
+        "hi": "दो समकोण त्रिभुज ABC और DEF में ∠B = ∠E = 90° है। यदि कर्ण AC = DF और भुजाएँ AB = DE हैं, तो क्या ये त्रिभुज सर्वांगसम हैं? यदि हाँ, तो किस नियम से?"
+      },
+      "options": [
+        {
+          "en": "Yes, by SSS",
+          "hi": "हाँ, SSS द्वारा"
+        },
+        {
+          "en": "Yes, by SAS",
+          "hi": "हाँ, SAS द्वारा"
+        },
+        {
+          "en": "Yes, by RHS",
+          "hi": "हाँ, RHS द्वारा"
+        },
+        {
+          "en": "Yes, by ASA",
+          "hi": "हाँ, ASA द्वारा"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Yes, by RHS",
+        "hi": "हाँ, RHS द्वारा"
+      },
+      "explanation": {
+        "en": "Both triangles are right-angled, have equal hypotenuses and one equal side. This satisfies RHS (Right angle-Hypotenuse-Side) congruence rule.",
+        "hi": "दोनों त्रिभुज समकोण हैं, समान कर्ण और एक समान भुजा है। यह RHS (समकोण-कर्ण-भुजा) सर्वांगसमता नियम को संतुष्ट करता है।"
+      }
+    },
+    {
+      "questionNo": 71,
+      "question": {
+        "en": "A right triangle ABC is inscribed in a circle with diameter 10 cm. An altitude BD is drawn from vertex B to hypotenuse AC. If leg AB = 6 cm, what is the length of segment AD?",
+        "hi": "एक समकोण त्रिभुज ABC 10 सेमी व्यास वाले वृत्त में अंकित है। शीर्ष B से कर्ण AC तक शीर्षलंब BD खींचा गया है। यदि भुजा AB = 6 सेमी है, तो AD की लंबाई क्या है?"
+      },
+      "options": [
+        {
+          "en": "3.6 cm",
+          "hi": "3.6 सेमी"
+        },
+        {
+          "en": "4 cm",
+          "hi": "4 सेमी"
+        },
+        {
+          "en": "4.8 cm",
+          "hi": "4.8 सेमी"
+        },
+        {
+          "en": "6 cm",
+          "hi": "6 सेमी"
+        }
+      ],
+      "correctAnswer": {
+        "en": "3.6 cm",
+        "hi": "3.6 सेमी"
+      },
+      "explanation": {
+        "en": "AC = 10 cm (diameter). BC = √(10² - 6²) = 8 cm. AD = AB²/AC = 36/10 = 3.6 cm.",
+        "hi": "AC = 10 सेमी (व्यास)। BC = √(10² - 6²) = 8 सेमी। AD = AB²/AC = 36/10 = 3.6 सेमी।"
+      }
+    },
+    {
+      "questionNo": 72,
+      "question": {
+        "en": "Two circles intersect at two points. Which of the following statements is true?",
+        "hi": "दो वृत्त दो बिंदुओं पर प्रतिच्छेद करते हैं। निम्नलिखित में से कौन सा कथन सत्य है?"
+      },
+      "options": [
+        {
+          "en": "The internal tangent is longer than the external tangent",
+          "hi": "आंतरिक स्पर्शरेखा बाह्य स्पर्शरेखा से लंबी होती है"
+        },
+        {
+          "en": "Only two common tangents exist",
+          "hi": "केवल दो सामान्य स्पर्शरेखाएँ मौजूद हैं"
+        },
+        {
+          "en": "The number of tangents depends on radii",
+          "hi": "स्पर्शरेखाओं की संख्या त्रिज्याओं पर निर्भर करती है"
+        },
+        {
+          "en": "They must be concentric",
+          "hi": "उन्हें संकेन्द्रित होना चाहिए"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only two common tangents exist",
+        "hi": "केवल दो सामान्य स्पर्शरेखाएँ मौजूद हैं"
+      },
+      "explanation": {
+        "en": "When two circles intersect at two points, only 2 common tangents (both external) exist.",
+        "hi": "जब दो वृत्त दो बिंदुओं पर प्रतिच्छेद करते हैं, तो केवल 2 सामान्य स्पर्शरेखाएँ (दोनों बाह्य) मौजूद होती हैं।"
+      }
+    },
+    {
+      "questionNo": 73,
+      "question": {
+        "en": "Two circles with radii r₁ and r₂ touch each other externally. If the length of their direct common tangent is T, which is the correct relationship?",
+        "hi": "दो वृत्त जिनकी त्रिज्याएँ r₁ और r₂ हैं, एक-दूसरे को बाह्य रूप से स्पर्श करते हैं। यदि उनकी सीधी सामान्य स्पर्शरेखा की लंबाई T है, तो सही संबंध कौन सा है?"
+      },
+      "options": [
+        {
+          "en": "T = r₁ + r₂",
+          "hi": "T = r₁ + r₂"
+        },
+        {
+          "en": "T = 2(r₁ + r₂)",
+          "hi": "T = 2(r₁ + r₂)"
+        },
+        {
+          "en": "T = 2√(r₁r₂)",
+          "hi": "T = 2√(r₁r₂)"
+        },
+        {
+          "en": "T = r₁² + r₂²",
+          "hi": "T = r₁² + r₂²"
+        }
+      ],
+      "correctAnswer": {
+        "en": "T = 2√(r₁r₂)",
+        "hi": "T = 2√(r₁r₂)"
+      },
+      "explanation": {
+        "en": "For externally touching circles, direct common tangent length = √[(r₁+r₂)² - (r₁-r₂)²] = √(4r₁r₂) = 2√(r₁r₂).",
+        "hi": "बाह्य स्पर्श करने वाले वृत्तों के लिए, सीधी सामान्य स्पर्शरेखा की लंबाई = √[(r₁+r₂)² - (r₁-r₂)²] = 2√(r₁r₂)।"
+      }
+    },
+    {
+      "questionNo": 74,
+      "question": {
+        "en": "A chord of a circle has a length of 12 cm. The angle subtended by the chord at a point on the circumference is 30°. What is the distance from the center to the chord?",
+        "hi": "एक वृत्त की जीवा की लंबाई 12 सेमी है। परिधि पर स्थित एक बिंदु पर जीवा द्वारा बनाया गया कोण 30° है। वृत्त के केंद्र से जीवा की दूरी कितनी है?"
+      },
+      "options": [
+        {
+          "en": "6√3 cm",
+          "hi": "6√3 सेमी"
+        },
+        {
+          "en": "34√3 cm",
+          "hi": "34√3 सेमी"
+        },
+        {
+          "en": "6 cm",
+          "hi": "6 सेमी"
+        },
+        {
+          "en": "3 cm",
+          "hi": "3 सेमी"
+        }
+      ],
+      "correctAnswer": {
+        "en": "6√3 cm",
+        "hi": "6√3 सेमी"
+      },
+      "explanation": {
+        "en": "Angle at center = 60°. Using chord = 2r sin(30°), r = 12 cm. Distance from center = r × cos(30°) = 12 × (√3/2) = 6√3 cm.",
+        "hi": "केंद्र पर कोण = 60°। जीवा = 2r sin(30°) का उपयोग करके, r = 12 सेमी। केंद्र से दूरी = r × cos(30°) = 12 × (√3/2) = 6√3 सेमी।"
+      }
+    },
+    {
+      "questionNo": 75,
+      "question": {
+        "en": "What is the area of the segment formed by a chord in a circle of radius 8 cm, if the angle subtended at the center is 60°?",
+        "hi": "8 सेमी त्रिज्या वाले वृत्त में एक जीवा द्वारा बनाए गए वृत्तखंड का क्षेत्रफल क्या है, यदि केंद्र पर अंतरित कोण 60° है?"
+      },
+      "options": [
+        {
+          "en": "32π/3 - 16√3",
+          "hi": "32π/3 - 16√3"
+        },
+        {
+          "en": "64π/3 - 16√3",
+          "hi": "64π/3 - 16√3"
+        },
+        {
+          "en": "32π - 8√3",
+          "hi": "32π - 8√3"
+        },
+        {
+          "en": "8π - 32√3",
+          "hi": "8π - 32√3"
+        }
+      ],
+      "correctAnswer": {
+        "en": "32π/3 - 16√3",
+        "hi": "32π/3 - 16√3"
+      },
+      "explanation": {
+        "en": "Area of sector = (60/360) × π × 64 = 32π/3. Area of triangle = (1/2) × 64 × sin60° = 16√3. Segment area = 32π/3 - 16√3.",
+        "hi": "त्रिज्यखंड का क्षेत्रफल = (60/360) × π × 64 = 32π/3। त्रिभुज का क्षेत्रफल = (1/2) × 64 × sin60° = 16√3। वृत्तखंड क्षेत्रफल = 32π/3 - 16√3।"
+      }
+    }
   ]
 }
