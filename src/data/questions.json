@@ -19794,6 +19794,458 @@
         "hi": "अंश ≈ 0.125125, हर ≈ 0.001001। अनुपात ≈ 125"
       }
     }
+  ],
+  "ssc_cgl_maths_18_sep_s2": [
+    {
+      "questionNo": 51,
+      "question": {
+        "en": "If 30% of m is equal to 18% of n, what is the ratio m : n?",
+        "hi": "यदि m का 30% n के 18% के बराबर है, तो m : n का अनुपात क्या है?"
+      },
+      "options": [
+        { "en": "5:3", "hi": "5:3" },
+        { "en": "2:3", "hi": "2:3" },
+        { "en": "3:5", "hi": "3:5" },
+        { "en": "3:2", "hi": "3:2" }
+      ],
+      "correctAnswer": { "en": "3:5", "hi": "3:5" },
+      "explanation": {
+        "en": "30% of m = 18% of n → 0.30m = 0.18n → m/n = 0.18/0.30 = 18/30 = 3/5 → m:n = 3:5",
+        "hi": "0.30m = 0.18n → m/n = 18/30 = 3/5 → m:n = 3:5"
+      }
+    },
+    {
+      "questionNo": 52,
+      "question": {
+        "en": "Find the value of √(388 + √(127 + √289))",
+        "hi": "√(388 + √(127 + √289)) का मान ज्ञात कीजिए"
+      },
+      "options": [
+        { "en": "20", "hi": "20" },
+        { "en": "30", "hi": "30" },
+        { "en": "40", "hi": "40" },
+        { "en": "50", "hi": "50" }
+      ],
+      "correctAnswer": { "en": "20", "hi": "20" },
+      "explanation": {
+        "en": "√289 = 17 → √(127 + 17) = √144 = 12 → √(388 + 12) = √400 = 20",
+        "hi": "√289 = 17 → √144 = 12 → √400 = 20"
+      }
+    },
+    {
+      "questionNo": 53,
+      "question": {
+        "en": "Identify the incorrect relationship(s): (i) √6 + √2 = √5 + √3 (ii) √6 + √2 < √5 + √3 (iii) √6 + √2 > √5 + √3",
+        "hi": "गलत संबंध पहचानें: (i) √6 + √2 = √5 + √3 (ii) √6 + √2 < √5 + √3 (iii) √6 + √2 > √5 + √3"
+      },
+      "options": [
+        { "en": "(i)", "hi": "(i)" },
+        { "en": "(ii)", "hi": "(ii)" },
+        { "en": "(i) and (iii)", "hi": "(i) और (iii)" },
+        { "en": "(ii) and (iii)", "hi": "(ii) और (iii)" }
+      ],
+      "correctAnswer": { "en": "(i) and (iii)", "hi": "(i) और (iii)" },
+      "explanation": {
+        "en": "√6 ≈ 2.449, √2 ≈ 1.414 → Sum ≈ 3.863. √5 ≈ 2.236, √3 ≈ 1.732 → Sum ≈ 3.968. So √6+√2 < √5+√3. Hence (i) and (iii) are incorrect.",
+        "hi": "√6+√2 ≈ 3.863, √5+√3 ≈ 3.968। अतः √6+√2 < √5+√3। (i) और (iii) गलत हैं।"
+      }
+    },
+    {
+      "questionNo": 54,
+      "question": {
+        "en": "A bookseller purchases 5 novels at the marked price of 4 novels. He sells at 5% discount on MP. His profit %?",
+        "hi": "एक पुस्तक विक्रेता 4 उपन्यासों के अंकित मूल्य पर 5 उपन्यास खरीदता है। 5% छूट पर बेचता है। लाभ %?"
+      },
+      "options": [
+        { "en": "15%", "hi": "15%" },
+        { "en": "18.75%", "hi": "18.75%" },
+        { "en": "20.26%", "hi": "20.26%" },
+        { "en": "25%", "hi": "25%" }
+      ],
+      "correctAnswer": { "en": "18.75%", "hi": "18.75%" },
+      "explanation": {
+        "en": "Let MP of each = ₹100. CP of 5 novels = 4×100 = ₹400. SP = 5×95 = ₹475. Profit = 75. Profit% = (75/400)×100 = 18.75%",
+        "hi": "प्रति उपन्यास MP = ₹100। CP = ₹400। SP = ₹475। लाभ% = 18.75%"
+      }
+    },
+    {
+      "questionNo": 55,
+      "question": {
+        "en": "A and B can finish a job in 28 and 35 days. They started together, A left after some days, B completed remaining in 17 days. How many days did A work?",
+        "hi": "A और B किसी काम को 28 और 35 दिनों में पूरा कर सकते हैं। साथ शुरू किया, A ने कुछ दिन बाद छोड़ा, B ने शेष 17 दिनों में पूरा किया। A ने कितने दिन काम किया?"
+      },
+      "options": [
+        { "en": "8 days", "hi": "8 दिन" },
+        { "en": "5 days", "hi": "5 दिन" },
+        { "en": "6.5 days", "hi": "6.5 दिन" },
+        { "en": "7.5 days", "hi": "7.5 दिन" }
+      ],
+      "correctAnswer": { "en": "8 days", "hi": "8 दिन" },
+      "explanation": {
+        "en": "LCM(28,35) = 140. A's rate = 5/day, B's rate = 4/day. Let A worked x days. Work by A+B in x days + B alone in 17 days = 140. 9x + 4×17 = 140 → 9x = 72 → x = 8 days",
+        "hi": "LCM = 140। A = 5/दिन, B = 4/दिन। 9x + 68 = 140 → x = 8 दिन"
+      }
+    },
+    {
+      "questionNo": 56,
+      "question": {
+        "en": "Given x + 1/x = 4, Find: x⁶ + 1/x⁶ − 3(x⁴ + 1/x⁴) + 4(x² + 1/x²)",
+        "hi": "दिया है x + 1/x = 4, ज्ञात करें: x⁶ + 1/x⁶ − 3(x⁴ + 1/x⁴) + 4(x² + 1/x²)"
+      },
+      "options": [
+        { "en": "2176", "hi": "2176" },
+        { "en": "2087", "hi": "2087" },
+        { "en": "2562", "hi": "2562" },
+        { "en": "2476", "hi": "2476" }
+      ],
+      "correctAnswer": { "en": "2176", "hi": "2176" },
+      "explanation": {
+        "en": "x²+1/x² = (x+1/x)²−2 = 16−2 = 14. x⁴+1/x⁴ = 14²−2 = 194. x⁶+1/x⁶ = (x²+1/x²)(x⁴+1/x⁴) − (x²+1/x²) = 14×194−14 = 2702. Result = 2702 − 3(194) + 4(14) = 2702 − 582 + 56 = 2176",
+        "hi": "x²+1/x² = 14, x⁴+1/x⁴ = 194, x⁶+1/x⁶ = 2702। उत्तर = 2702 − 582 + 56 = 2176"
+      }
+    },
+    {
+      "questionNo": 57,
+      "question": {
+        "en": "Reena borrowed Rs. 1200 at SI for years equal to rate. Paid Rs. 432 interest. What was the rate?",
+        "hi": "रीना ने ₹1200 साधारण ब्याज पर उधार लिए जहाँ वर्ष = दर। ₹432 ब्याज चुकाया। दर क्या थी?"
+      },
+      "options": [
+        { "en": "5%", "hi": "5%" },
+        { "en": "7%", "hi": "7%" },
+        { "en": "8%", "hi": "8%" },
+        { "en": "6%", "hi": "6%" }
+      ],
+      "correctAnswer": { "en": "6%", "hi": "6%" },
+      "explanation": {
+        "en": "SI = PRT/100. Let rate = time = r. 432 = 1200 × r × r / 100 → r² = 36 → r = 6%",
+        "hi": "SI = PRT/100। r² = 432×100/1200 = 36 → r = 6%"
+      }
+    },
+    {
+      "questionNo": 58,
+      "question": {
+        "en": "₹20,000 invested in two schemes. One at 8% SI for 4 years, other at 10% SI for 4 years. Second interest is ₹2,240 more. Amount in second scheme?",
+        "hi": "₹20,000 दो योजनाओं में निवेश। एक 8% पर 4 वर्ष, दूसरी 10% पर 4 वर्ष। दूसरे का ब्याज ₹2,240 अधिक। दूसरी योजना में राशि?"
+      },
+      "options": [
+        { "en": "₹8,000", "hi": "₹8,000" },
+        { "en": "₹10,000", "hi": "₹10,000" },
+        { "en": "₹12,000", "hi": "₹12,000" },
+        { "en": "₹12,500", "hi": "₹12,500" }
+      ],
+      "correctAnswer": { "en": "₹12,000", "hi": "₹12,000" },
+      "explanation": {
+        "en": "Let second = x, first = 20000−x. SI₂ − SI₁ = 2240. (x×10×4)/100 − ((20000−x)×8×4)/100 = 2240 → 0.4x − 0.32(20000−x) = 2240 → 0.72x = 8640 → x = ₹12,000",
+        "hi": "0.4x − 0.32(20000−x) = 2240 → x = ₹12,000"
+      }
+    },
+    {
+      "questionNo": 59,
+      "question": {
+        "en": "A rock climber uses rope to ascend cliff. Vertical height 35m, rope makes 30° with ground. Minimum rope length?",
+        "hi": "एक पर्वतारोही रस्सी से चट्टान चढ़ता है। ऊँचाई 35 मी, रस्सी जमीन से 30° कोण। न्यूनतम रस्सी लंबाई?"
+      },
+      "options": [
+        { "en": "35 m", "hi": "35 मीटर" },
+        { "en": "40 m", "hi": "40 मीटर" },
+        { "en": "60 m", "hi": "60 मीटर" },
+        { "en": "70 m", "hi": "70 मीटर" }
+      ],
+      "correctAnswer": { "en": "70 m", "hi": "70 मीटर" },
+      "explanation": {
+        "en": "sin30° = height/rope = 35/rope → 1/2 = 35/rope → rope = 70 m",
+        "hi": "sin30° = 35/रस्सी → 1/2 = 35/रस्सी → रस्सी = 70 मीटर"
+      }
+    },
+    {
+      "questionNo": 60,
+      "question": {
+        "en": "Marble radius 4 cm placed inside cube of side 10 cm. Volume of cube not occupied by marble?",
+        "hi": "4 सेमी त्रिज्या का मार्बल 10 सेमी भुजा के घन में रखा। घन का खाली आयतन?"
+      },
+      "options": [
+        { "en": "100 cm³", "hi": "100 सेमी³" },
+        { "en": "732.06 cm³", "hi": "732.06 सेमी³" },
+        { "en": "300 cm³", "hi": "300 सेमी³" },
+        { "en": "624.82 cm³", "hi": "624.82 सेमी³" }
+      ],
+      "correctAnswer": { "en": "732.06 cm³", "hi": "732.06 सेमी³" },
+      "explanation": {
+        "en": "Cube volume = 10³ = 1000 cm³. Sphere volume = (4/3)π(4)³ = 256π/3 ≈ 268.08 cm³. Empty = 1000 − 268.08 ≈ 732.06 cm³",
+        "hi": "घन = 1000 सेमी³, गोला = 268.08 सेमी³। खाली = 732.06 सेमी³"
+      }
+    },
+    {
+      "questionNo": 61,
+      "question": {
+        "en": "Two hemispheres of radii 2 cm and 4 cm are melted into one hemisphere. Approximate total surface area of new hemisphere?",
+        "hi": "2 सेमी और 4 सेमी त्रिज्या के दो अर्धगोले पिघलाकर एक अर्धगोला बनाया। नए अर्धगोले का कुल पृष्ठीय क्षेत्रफल?"
+      },
+      "options": [
+        { "en": "160 cm²", "hi": "160 सेमी²" },
+        { "en": "142 cm²", "hi": "142 सेमी²" },
+        { "en": "150 cm²", "hi": "150 सेमी²" },
+        { "en": "138 cm²", "hi": "138 सेमी²" }
+      ],
+      "correctAnswer": { "en": "160 cm²", "hi": "160 सेमी²" },
+      "explanation": {
+        "en": "Volume: (2/3)π(2³) + (2/3)π(4³) = (2/3)π(8+64) = 48π. New radius: (2/3)πR³ = 48π → R³ = 72 → R ≈ 4.16 cm. TSA = 3πR² ≈ 3×3.14×17.3 ≈ 163 cm² ≈ 160 cm²",
+        "hi": "आयतन = 48π → R ≈ 4.16 सेमी। TSA ≈ 160 सेमी²"
+      }
+    },
+    {
+      "questionNo": 62,
+      "question": {
+        "en": "If all three dimensions of a cuboid are increased by 10%, volume increases by what %?",
+        "hi": "यदि घनाभ के तीनों आयाम 10% बढ़ाए जाएं, तो आयतन में कितने % वृद्धि होगी?"
+      },
+      "options": [
+        { "en": "10%", "hi": "10%" },
+        { "en": "21%", "hi": "21%" },
+        { "en": "30%", "hi": "30%" },
+        { "en": "33.1%", "hi": "33.1%" }
+      ],
+      "correctAnswer": { "en": "33.1%", "hi": "33.1%" },
+      "explanation": {
+        "en": "New volume = 1.1 × 1.1 × 1.1 = 1.331 times original. Increase = 33.1%",
+        "hi": "नया आयतन = 1.331 गुना। वृद्धि = 33.1%"
+      }
+    },
+    {
+      "questionNo": 63,
+      "question": {
+        "en": "A cone is sliced parallel to base. Upper section = 1/8 of total volume. Ratio of heights (smaller cone : original cone)?",
+        "hi": "शंकु को आधार के समांतर काटा। ऊपरी भाग = कुल आयतन का 1/8। ऊँचाइयों का अनुपात (छोटा : मूल)?"
+      },
+      "options": [
+        { "en": "1:2", "hi": "1:2" },
+        { "en": "1:7", "hi": "1:7" },
+        { "en": "5:1", "hi": "5:1" },
+        { "en": "6:1", "hi": "6:1" }
+      ],
+      "correctAnswer": { "en": "1:2", "hi": "1:2" },
+      "explanation": {
+        "en": "Volume ratio = (h₁/h₂)³ = 1/8 → h₁/h₂ = 1/2. Ratio = 1:2",
+        "hi": "आयतन अनुपात = (h₁/h₂)³ = 1/8 → h₁/h₂ = 1/2"
+      }
+    },
+    {
+      "questionNo": 64,
+      "question": {
+        "en": "If sinA = 3/5 and cosB = 12/13, A and B ∈ (0, π/2), find sin(A+B)",
+        "hi": "यदि sinA = 3/5 और cosB = 12/13, A और B ∈ (0, π/2), तो sin(A+B) ज्ञात कीजिए"
+      },
+      "options": [
+        { "en": "56/65", "hi": "56/65" },
+        { "en": "63/65", "hi": "63/65" },
+        { "en": "33/65", "hi": "33/65" },
+        { "en": "77/85", "hi": "77/85" }
+      ],
+      "correctAnswer": { "en": "56/65", "hi": "56/65" },
+      "explanation": {
+        "en": "sinA = 3/5 → cosA = 4/5. cosB = 12/13 → sinB = 5/13. sin(A+B) = sinAcosB + cosAsinB = (3/5)(12/13) + (4/5)(5/13) = 36/65 + 20/65 = 56/65",
+        "hi": "sin(A+B) = (3/5)(12/13) + (4/5)(5/13) = 56/65"
+      }
+    },
+    {
+      "questionNo": 65,
+      "question": {
+        "en": "A tower casts 40m shadow when sun's elevation is 45°. Height of tower?",
+        "hi": "एक मीनार की परछाई 40 मी जब सूर्य का उन्नयन कोण 45°। मीनार की ऊँचाई?"
+      },
+      "options": [
+        { "en": "50 m", "hi": "50 मीटर" },
+        { "en": "40 m", "hi": "40 मीटर" },
+        { "en": "20 m", "hi": "20 मीटर" },
+        { "en": "10 m", "hi": "10 मीटर" }
+      ],
+      "correctAnswer": { "en": "40 m", "hi": "40 मीटर" },
+      "explanation": {
+        "en": "tan45° = height/shadow = height/40 → 1 = height/40 → height = 40 m",
+        "hi": "tan45° = ऊँचाई/40 → ऊँचाई = 40 मीटर"
+      }
+    },
+    {
+      "questionNo": 66,
+      "question": {
+        "en": "A line y = mx + 2 passes through (3, 8). Find m.",
+        "hi": "रेखा y = mx + 2, बिंदु (3, 8) से गुजरती है। m ज्ञात कीजिए।"
+      },
+      "options": [
+        { "en": "5", "hi": "5" },
+        { "en": "4", "hi": "4" },
+        { "en": "3", "hi": "3" },
+        { "en": "2", "hi": "2" }
+      ],
+      "correctAnswer": { "en": "2", "hi": "2" },
+      "explanation": {
+        "en": "8 = m(3) + 2 → 3m = 6 → m = 2",
+        "hi": "8 = 3m + 2 → m = 2"
+      }
+    },
+    {
+      "questionNo": 67,
+      "question": {
+        "en": "Sector central angle 120° and radius 5 cm. Another sector central angle 2π/3 radians. Ratio of areas?",
+        "hi": "त्रिज्यखंड केंद्रीय कोण 120° और त्रिज्या 5 सेमी। दूसरे त्रिज्यखंड का कोण 2π/3 रेडियन। क्षेत्रफलों का अनुपात?"
+      },
+      "options": [
+        { "en": "1:1", "hi": "1:1" },
+        { "en": "3:4", "hi": "3:4" },
+        { "en": "2:3", "hi": "2:3" },
+        { "en": "5:6", "hi": "5:6" }
+      ],
+      "correctAnswer": { "en": "1:1", "hi": "1:1" },
+      "explanation": {
+        "en": "120° = 2π/3 radians. Both sectors have same angle and same radius → same area → ratio = 1:1",
+        "hi": "120° = 2π/3 रेडियन। दोनों समान कोण और त्रिज्या → समान क्षेत्रफल → 1:1"
+      }
+    },
+    {
+      "questionNo": 68,
+      "question": {
+        "en": "What is each interior angle of a regular octagon?",
+        "hi": "एक सम अष्टभुज का प्रत्येक आंतरिक कोण क्या है?"
+      },
+      "options": [
+        { "en": "120°", "hi": "120°" },
+        { "en": "135°", "hi": "135°" },
+        { "en": "150°", "hi": "150°" },
+        { "en": "165°", "hi": "165°" }
+      ],
+      "correctAnswer": { "en": "135°", "hi": "135°" },
+      "explanation": {
+        "en": "Interior angle = (n−2)×180°/n = (8−2)×180°/8 = 6×180°/8 = 1080°/8 = 135°",
+        "hi": "आंतरिक कोण = (8−2)×180°/8 = 135°"
+      }
+    },
+    {
+      "questionNo": 69,
+      "question": {
+        "en": "Trapezoid parallel sides ratio 3:5, height 10 cm, area 240 cm². Find parallel sides.",
+        "hi": "समलंब की समांतर भुजाएँ 3:5, ऊँचाई 10 सेमी, क्षेत्रफल 240 सेमी²। समांतर भुजाएँ ज्ञात कीजिए।"
+      },
+      "options": [
+        { "en": "15 cm and 25 cm", "hi": "15 सेमी और 25 सेमी" },
+        { "en": "18 cm and 30 cm", "hi": "18 सेमी और 30 सेमी" },
+        { "en": "20 cm and 40 cm", "hi": "20 सेमी और 40 सेमी" },
+        { "en": "30 cm and 50 cm", "hi": "30 सेमी और 50 सेमी" }
+      ],
+      "correctAnswer": { "en": "18 cm and 30 cm", "hi": "18 सेमी और 30 सेमी" },
+      "explanation": {
+        "en": "Sides = 3x, 5x. Area = (1/2)(3x+5x)(10) = 40x = 240 → x = 6. Sides = 18 cm and 30 cm",
+        "hi": "भुजाएँ = 3x, 5x। 40x = 240 → x = 6। भुजाएँ = 18 और 30 सेमी"
+      }
+    },
+    {
+      "questionNo": 70,
+      "question": {
+        "en": "ΔABC has AB=5 cm, BC=6 cm, AC=7 cm. ΔXYZ is congruent to ΔABC. Perimeter of ΔXYZ?",
+        "hi": "ΔABC में AB=5, BC=6, AC=7 सेमी। ΔXYZ, ΔABC के सर्वांगसम है। ΔXYZ का परिमाप?"
+      },
+      "options": [
+        { "en": "13 cm", "hi": "13 सेमी" },
+        { "en": "18 cm", "hi": "18 सेमी" },
+        { "en": "20 cm", "hi": "20 सेमी" },
+        { "en": "24 cm", "hi": "24 सेमी" }
+      ],
+      "correctAnswer": { "en": "18 cm", "hi": "18 सेमी" },
+      "explanation": {
+        "en": "Congruent triangles have equal sides. Perimeter = 5 + 6 + 7 = 18 cm",
+        "hi": "सर्वांगसम त्रिभुजों की भुजाएँ समान। परिमाप = 5 + 6 + 7 = 18 सेमी"
+      }
+    },
+    {
+      "questionNo": 71,
+      "question": {
+        "en": "Given √x + 1/√x = 4, what is x + 1/x?",
+        "hi": "दिया है √x + 1/√x = 4, तो x + 1/x = ?"
+      },
+      "options": [
+        { "en": "15", "hi": "15" },
+        { "en": "14", "hi": "14" },
+        { "en": "16", "hi": "16" },
+        { "en": "17", "hi": "17" }
+      ],
+      "correctAnswer": { "en": "14", "hi": "14" },
+      "explanation": {
+        "en": "(√x + 1/√x)² = x + 2 + 1/x = 16 → x + 1/x = 14",
+        "hi": "(√x + 1/√x)² = x + 1/x + 2 = 16 → x + 1/x = 14"
+      }
+    },
+    {
+      "questionNo": 72,
+      "question": {
+        "en": "If cotA = 2, then sinA − cosA = ?",
+        "hi": "यदि cotA = 2, तो sinA − cosA = ?"
+      },
+      "options": [
+        { "en": "2/√5", "hi": "2/√5" },
+        { "en": "−1/√5", "hi": "−1/√5" },
+        { "en": "0", "hi": "0" },
+        { "en": "3/5", "hi": "3/5" }
+      ],
+      "correctAnswer": { "en": "−1/√5", "hi": "−1/√5" },
+      "explanation": {
+        "en": "cotA = 2 → tanA = 1/2. In right triangle: opposite = 1, adjacent = 2, hypotenuse = √5. sinA = 1/√5, cosA = 2/√5. sinA − cosA = −1/√5",
+        "hi": "sinA = 1/√5, cosA = 2/√5। sinA − cosA = −1/√5"
+      }
+    },
+    {
+      "questionNo": 73,
+      "question": {
+        "en": "Circle radius 7 cm. Tangent from external point P has length 24 cm. Distance from P to center?",
+        "hi": "वृत्त त्रिज्या 7 सेमी। बाह्य बिंदु P से स्पर्श रेखा 24 सेमी। P से केंद्र की दूरी?"
+      },
+      "options": [
+        { "en": "17 cm", "hi": "17 सेमी" },
+        { "en": "25 cm", "hi": "25 सेमी" },
+        { "en": "31 cm", "hi": "31 सेमी" },
+        { "en": "576 cm", "hi": "576 सेमी" }
+      ],
+      "correctAnswer": { "en": "25 cm", "hi": "25 सेमी" },
+      "explanation": {
+        "en": "Using Pythagoras: d² = r² + t² = 7² + 24² = 49 + 576 = 625 → d = 25 cm",
+        "hi": "d² = 49 + 576 = 625 → d = 25 सेमी"
+      }
+    },
+    {
+      "questionNo": 74,
+      "question": {
+        "en": "Two tangents from external point to circle. One tangent = 12 cm. Length of other tangent?",
+        "hi": "बाह्य बिंदु से वृत्त पर दो स्पर्श रेखाएँ। एक = 12 सेमी। दूसरी की लंबाई?"
+      },
+      "options": [
+        { "en": "10 cm", "hi": "10 सेमी" },
+        { "en": "11 cm", "hi": "11 सेमी" },
+        { "en": "12 cm", "hi": "12 सेमी" },
+        { "en": "14 cm", "hi": "14 सेमी" }
+      ],
+      "correctAnswer": { "en": "12 cm", "hi": "12 सेमी" },
+      "explanation": {
+        "en": "Tangents from same external point to a circle are always equal. Both = 12 cm",
+        "hi": "एक ही बाह्य बिंदु से वृत्त पर स्पर्श रेखाएँ सदैव बराबर होती हैं। दोनों = 12 सेमी"
+      }
+    },
+    {
+      "questionNo": 75,
+      "question": {
+        "en": "Evaluate: (0.04³ + 0.02³) ÷ (0.2³ + 0.1³)",
+        "hi": "मूल्यांकन करें: (0.04³ + 0.02³) ÷ (0.2³ + 0.1³)"
+      },
+      "options": [
+        { "en": "0.008", "hi": "0.008" },
+        { "en": "0.004", "hi": "0.004" },
+        { "en": "0.002", "hi": "0.002" },
+        { "en": "0.001", "hi": "0.001" }
+      ],
+      "correctAnswer": { "en": "0.008", "hi": "0.008" },
+      "explanation": {
+        "en": "Numerator: 0.000064 + 0.000008 = 0.000072. Denominator: 0.008 + 0.001 = 0.009. Result = 0.000072/0.009 = 0.008",
+        "hi": "अंश = 0.000072, हर = 0.009। परिणाम = 0.008"
+      }
+    }
   ]
 }
 
