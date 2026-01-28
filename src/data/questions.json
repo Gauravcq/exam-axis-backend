@@ -16487,5 +16487,832 @@
         "hi": "त्रिज्यखंड का क्षेत्रफल = (60/360) × π × 64 = 32π/3। त्रिभुज का क्षेत्रफल = (1/2) × 64 × sin60° = 16√3। वृत्तखंड क्षेत्रफल = 32π/3 - 16√3।"
       }
     }
+  ],
+  "ssc_cgl_maths_16_sep_s2": [
+    {
+      "questionNo": 51,
+      "question": {
+        "en": "If p:q = 4:1, find (5p+3q):(5p-3q).",
+        "hi": "यदि p:q = 4:1, तो (5p+3q):(5p-3q) ज्ञात करें।"
+      },
+      "options": [
+        {
+          "en": "23:17",
+          "hi": "23:17"
+        },
+        {
+          "en": "17:23",
+          "hi": "17:23"
+        },
+        {
+          "en": "7:17",
+          "hi": "7:17"
+        },
+        {
+          "en": "17:7",
+          "hi": "17:7"
+        }
+      ],
+      "correctAnswer": {
+        "en": "23:17",
+        "hi": "23:17"
+      },
+      "explanation": {
+        "en": "Let p = 4k, q = k. Then 5p+3q = 20k+3k = 23k. 5p-3q = 20k-3k = 17k. Ratio = 23:17.",
+        "hi": "माना p = 4k, q = k। तब 5p+3q = 20k+3k = 23k। 5p-3q = 20k-3k = 17k। अनुपात = 23:17।"
+      }
+    },
+    {
+      "questionNo": 52,
+      "question": {
+        "en": "What is the value of: (√18 + √2)² - (√8 + √2)²",
+        "hi": "इसका मान क्या है: (√18 + √2)² - (√8 + √2)²"
+      },
+      "options": [
+        {
+          "en": "14",
+          "hi": "14"
+        },
+        {
+          "en": "15",
+          "hi": "15"
+        },
+        {
+          "en": "16",
+          "hi": "16"
+        },
+        {
+          "en": "17",
+          "hi": "17"
+        }
+      ],
+      "correctAnswer": {
+        "en": "14",
+        "hi": "14"
+      },
+      "explanation": {
+        "en": "(√18+√2)² = 18+2+2√36 = 20+12 = 32. (√8+√2)² = 8+2+2√16 = 10+8 = 18. Difference = 32-18 = 14.",
+        "hi": "(√18+√2)² = 18+2+2√36 = 20+12 = 32। (√8+√2)² = 8+2+2√16 = 10+8 = 18। अंतर = 32-18 = 14।"
+      }
+    },
+    {
+      "questionNo": 53,
+      "question": {
+        "en": "Simplify: (5/4 + 3/9) ÷ (6/7 - 1/5)",
+        "hi": "सरल करें: (5/4 + 3/9) ÷ (6/7 - 1/5)"
+      },
+      "options": [
+        {
+          "en": "38/13",
+          "hi": "38/13"
+        },
+        {
+          "en": "48/13",
+          "hi": "48/13"
+        },
+        {
+          "en": "58/13",
+          "hi": "58/13"
+        },
+        {
+          "en": "68/13",
+          "hi": "68/13"
+        }
+      ],
+      "correctAnswer": {
+        "en": "48/13",
+        "hi": "48/13"
+      },
+      "explanation": {
+        "en": "Numerator = 5/4 + 1/3 = 15/12 + 4/12 = 19/12. Denominator = 6/7 - 1/5 = 30/35 - 7/35 = 23/35. Result = (19/12) × (35/23) = 48/13 approximately.",
+        "hi": "अंश = 5/4 + 1/3 = 19/12। हर = 6/7 - 1/5 = 23/35। परिणाम = (19/12) × (35/23) = लगभग 48/13।"
+      }
+    },
+    {
+      "questionNo": 54,
+      "question": {
+        "en": "A, B, and C invested ₹24,000, ₹36,000, and ₹40,000 respectively. A's investment was for 12 months, B's for 8 months, and C's for 6 months. The total profit is ₹50,000. What is B's share of the profit?",
+        "hi": "A, B और C ने क्रमशः ₹24,000, ₹36,000 और ₹40,000 का निवेश किया। A का निवेश 12 महीने के लिए था, B का 8 महीने के लिए और C का 6 महीने के लिए। कुल लाभ ₹50,000 है। लाभ में B का हिस्सा क्या है?"
+      },
+      "options": [
+        {
+          "en": "₹17,647.06",
+          "hi": "₹17,647.06"
+        },
+        {
+          "en": "₹27,647.56",
+          "hi": "₹27,647.56"
+        },
+        {
+          "en": "₹23,647.46",
+          "hi": "₹23,647.46"
+        },
+        {
+          "en": "₹21,647.72",
+          "hi": "₹21,647.72"
+        }
+      ],
+      "correctAnswer": {
+        "en": "₹17,647.06",
+        "hi": "₹17,647.06"
+      },
+      "explanation": {
+        "en": "Ratio = 24000×12 : 36000×8 : 40000×6 = 288:288:240 = 6:6:5. B's share = (6/17) × 50000 = ₹17,647.06.",
+        "hi": "अनुपात = 24000×12 : 36000×8 : 40000×6 = 288:288:240 = 6:6:5। B का हिस्सा = (6/17) × 50000 = ₹17,647.06।"
+      }
+    },
+    {
+      "questionNo": 55,
+      "question": {
+        "en": "The average age of a committee of 9 members increases by 3 years when two men aged 42 and 44 years are replaced by two women. What is the average age of these two women?",
+        "hi": "9 सदस्यों वाली एक समिति की औसत आयु 3 वर्ष बढ़ जाती है जब 42 और 44 वर्ष की आयु वाले दो पुरुषों को दो महिलाओं द्वारा प्रतिस्थापित किया जाता है। इन दो महिलाओं की औसत आयु क्या है?"
+      },
+      "options": [
+        {
+          "en": "50.5 years",
+          "hi": "50.5 वर्ष"
+        },
+        {
+          "en": "46.5 years",
+          "hi": "46.5 वर्ष"
+        },
+        {
+          "en": "56.5 years",
+          "hi": "56.5 वर्ष"
+        },
+        {
+          "en": "60.5 years",
+          "hi": "60.5 वर्ष"
+        }
+      ],
+      "correctAnswer": {
+        "en": "56.5 years",
+        "hi": "56.5 वर्ष"
+      },
+      "explanation": {
+        "en": "Total increase = 9 × 3 = 27 years. Sum of women's ages = 42 + 44 + 27 = 113. Average = 113/2 = 56.5 years.",
+        "hi": "कुल वृद्धि = 9 × 3 = 27 वर्ष। महिलाओं की आयु का योग = 42 + 44 + 27 = 113। औसत = 113/2 = 56.5 वर्ष।"
+      }
+    },
+    {
+      "questionNo": 56,
+      "question": {
+        "en": "There are 6 consecutive integers and 5 consecutive integers. The average of the 6 integers is 2 less than the average of the 5 integers. The sum of the 5 integers is 4 more than the sum of the 6 integers. Find the average of the 6 integers.",
+        "hi": "6 क्रमागत पूर्णांक और 5 क्रमागत पूर्णांक हैं। 6 पूर्णांकों का औसत 5 पूर्णांकों के औसत से 2 कम है। 5 पूर्णांकों का योग 6 पूर्णांकों के योग से 4 अधिक है। 6 पूर्णांकों का औसत ज्ञात कीजिए।"
+      },
+      "options": [
+        {
+          "en": "6",
+          "hi": "6"
+        },
+        {
+          "en": "5",
+          "hi": "5"
+        },
+        {
+          "en": "4",
+          "hi": "4"
+        },
+        {
+          "en": "3",
+          "hi": "3"
+        }
+      ],
+      "correctAnswer": {
+        "en": "6",
+        "hi": "6"
+      },
+      "explanation": {
+        "en": "Let average of 6 integers = x, average of 5 integers = x+2. Sum of 6 = 6x, Sum of 5 = 5(x+2). Given: 5(x+2) = 6x + 4. Solving: 5x+10 = 6x+4, x = 6.",
+        "hi": "माना 6 पूर्णांकों का औसत = x, 5 पूर्णांकों का औसत = x+2। 6 का योग = 6x, 5 का योग = 5(x+2)। दिया: 5(x+2) = 6x + 4। हल करने पर: x = 6।"
+      }
+    },
+    {
+      "questionNo": 57,
+      "question": {
+        "en": "Seventy-five percent of a number is 15 more than two-thirds of that number. Find the number.",
+        "hi": "किसी संख्या का पचहत्तर प्रतिशत उस संख्या के दो-तिहाई से 15 अधिक है। संख्या ज्ञात कीजिए।"
+      },
+      "options": [
+        {
+          "en": "120",
+          "hi": "120"
+        },
+        {
+          "en": "150",
+          "hi": "150"
+        },
+        {
+          "en": "180",
+          "hi": "180"
+        },
+        {
+          "en": "210",
+          "hi": "210"
+        }
+      ],
+      "correctAnswer": {
+        "en": "180",
+        "hi": "180"
+      },
+      "explanation": {
+        "en": "0.75x - (2/3)x = 15. (3/4 - 2/3)x = 15. (1/12)x = 15. x = 180.",
+        "hi": "0.75x - (2/3)x = 15। (3/4 - 2/3)x = 15। (1/12)x = 15। x = 180।"
+      }
+    },
+    {
+      "questionNo": 58,
+      "question": {
+        "en": "A TV set is available for ₹19,650 in cash or for ₹3,100 as a cash down payment and three equal annual instalments. If the shopkeeper charges interest at 10% per annum compounded annually, calculate the amount of each instalment.",
+        "hi": "एक टीवी सेट ₹19,650 नकद या ₹3,100 नकद अग्रिम भुगतान और तीन बराबर वार्षिक किश्तों में उपलब्ध है। यदि दुकानदार वार्षिक चक्रवृद्धि 10% की दर से ब्याज लेता है, तो प्रत्येक किश्त की राशि की गणना करें।"
+      },
+      "options": [
+        {
+          "en": "₹9,655",
+          "hi": "₹9,655"
+        },
+        {
+          "en": "₹7,655",
+          "hi": "₹7,655"
+        },
+        {
+          "en": "₹6,655",
+          "hi": "₹6,655"
+        },
+        {
+          "en": "₹8,655",
+          "hi": "₹8,655"
+        }
+      ],
+      "correctAnswer": {
+        "en": "₹6,655",
+        "hi": "₹6,655"
+      },
+      "explanation": {
+        "en": "Principal = 19650 - 3100 = ₹16550. Using annuity formula with r=10%, n=3: x(1/1.1 + 1/1.21 + 1/1.331) = 16550. x = ₹6,655.",
+        "hi": "मूलधन = 19650 - 3100 = ₹16550। r=10%, n=3 के साथ वार्षिकी सूत्र का उपयोग करके: x = ₹6,655।"
+      }
+    },
+    {
+      "questionNo": 59,
+      "question": {
+        "en": "A mobile phone retailer sells a phone for ₹P and earns a profit of 20%. For a special festive offer, he marks the same phone at ₹1.5P. At the offer, he provides a discount of 10%. What will be the percentage profit during the festive offer?",
+        "hi": "एक मोबाइल फोन रिटेलर एक फोन ₹P में बेचता है और 20% का लाभ कमाता है। एक विशेष त्यौहारी ऑफर के लिए, वह उसी फोन को ₹1.5P पर अंकित करता है। ऑफर पर, वह 10% की छूट देता है। त्यौहारी ऑफर के दौरान उसे कितना प्रतिशत लाभ होगा?"
+      },
+      "options": [
+        {
+          "en": "26%",
+          "hi": "26%"
+        },
+        {
+          "en": "56%",
+          "hi": "56%"
+        },
+        {
+          "en": "62%",
+          "hi": "62%"
+        },
+        {
+          "en": "60%",
+          "hi": "60%"
+        }
+      ],
+      "correctAnswer": {
+        "en": "62%",
+        "hi": "62%"
+      },
+      "explanation": {
+        "en": "Let CP = 100. SP = 120 (20% profit), so P = 120. MP = 1.5 × 120 = 180. After 10% discount = 180 × 0.9 = 162. Profit% = (162-100)/100 × 100 = 62%.",
+        "hi": "माना CP = 100। SP = 120 (20% लाभ), तो P = 120। MP = 1.5 × 120 = 180। 10% छूट के बाद = 162। लाभ% = 62%।"
+      }
+    },
+    {
+      "questionNo": 60,
+      "question": {
+        "en": "A gadget is sold at a 15% discount on its marked price. This sale leads to a profit of 20% on its cost price. If the profit earned is ₹450, what would have been the selling price if the gadget was sold at a 25% discount on its marked price?",
+        "hi": "एक गैजेट को उसके अंकित मूल्य पर 15% छूट पर बेचा जाता है। इस बिक्री से उसके क्रय मूल्य पर 20% का लाभ होता है। यदि अर्जित लाभ ₹450 है, तो गैजेट को उसके अंकित मूल्य पर 25% छूट पर बेचने पर विक्रय मूल्य क्या होता?"
+      },
+      "options": [
+        {
+          "en": "₹2,585.36",
+          "hi": "₹2,585.36"
+        },
+        {
+          "en": "₹1,528.24",
+          "hi": "₹1,528.24"
+        },
+        {
+          "en": "₹2,879.45",
+          "hi": "₹2,879.45"
+        },
+        {
+          "en": "₹2,382.35",
+          "hi": "₹2,382.35"
+        }
+      ],
+      "correctAnswer": {
+        "en": "₹2,382.35",
+        "hi": "₹2,382.35"
+      },
+      "explanation": {
+        "en": "Profit = 20% of CP = 450, so CP = 2250. SP = 2700 = 0.85 × MP. MP = 3176.47. At 25% discount: SP = 0.75 × 3176.47 = ₹2,382.35.",
+        "hi": "लाभ = CP का 20% = 450, अतः CP = 2250। SP = 2700 = 0.85 × MP। MP = 3176.47। 25% छूट पर: SP = ₹2,382.35।"
+      }
+    },
+    {
+      "questionNo": 61,
+      "question": {
+        "en": "A, B, and C can complete a certain task in 20, 30, and 60 days, respectively. How many days will it take for A to finish the work if he receives help from B and C every third day?",
+        "hi": "A, B और C किसी कार्य को क्रमशः 20, 30 और 60 दिनों में पूरा कर सकते हैं। यदि A को हर तीसरे दिन B और C से मदद मिलती है, तो उसे कार्य पूरा करने में कितने दिन लगेंगे?"
+      },
+      "options": [
+        {
+          "en": "15 days",
+          "hi": "15 दिन"
+        },
+        {
+          "en": "12 days",
+          "hi": "12 दिन"
+        },
+        {
+          "en": "10 days",
+          "hi": "10 दिन"
+        },
+        {
+          "en": "9 days",
+          "hi": "9 दिन"
+        }
+      ],
+      "correctAnswer": {
+        "en": "15 days",
+        "hi": "15 दिन"
+      },
+      "explanation": {
+        "en": "In 3 days: A works all 3 days = 3/20. B+C work on day 3 = 1/30+1/60 = 1/20. Total = 4/20 = 1/5. For complete work: 5 × 3 = 15 days.",
+        "hi": "3 दिनों में: A तीनों दिन काम करता है = 3/20। B+C तीसरे दिन = 1/30+1/60 = 1/20। कुल = 1/5। पूर्ण कार्य के लिए: 5 × 3 = 15 दिन।"
+      }
+    },
+    {
+      "questionNo": 62,
+      "question": {
+        "en": "Two distinct grades of rice, one priced at ₹80 per kg and the other at ₹120 per kg, are amalgamated. The resultant blend is retailed at ₹132 per kg, securing a profit margin of 20%. Determine the ratio in which the two rice varieties were intermingled.",
+        "hi": "चावल की दो अलग-अलग किस्मों, जिनमें से एक की कीमत ₹80 प्रति किलो और दूसरी की कीमत ₹120 प्रति किलो है, को मिलाया जाता है। परिणामी मिश्रण को ₹132 प्रति किलो पर बेचा जाता है, जिससे 20% का लाभ प्राप्त होता है। चावल की दो किस्मों को किस अनुपात में मिलाया गया?"
+      },
+      "options": [
+        {
+          "en": "1:3",
+          "hi": "1:3"
+        },
+        {
+          "en": "2:1",
+          "hi": "2:1"
+        },
+        {
+          "en": "3:2",
+          "hi": "3:2"
+        },
+        {
+          "en": "4:1",
+          "hi": "4:1"
+        }
+      ],
+      "correctAnswer": {
+        "en": "1:3",
+        "hi": "1:3"
+      },
+      "explanation": {
+        "en": "CP of mixture = 132/1.2 = ₹110. Using alligation: (120-110):(110-80) = 10:30 = 1:3.",
+        "hi": "मिश्रण का CP = 132/1.2 = ₹110। मिश्रण विधि से: (120-110):(110-80) = 10:30 = 1:3।"
+      }
+    },
+    {
+      "questionNo": 63,
+      "question": {
+        "en": "The ratio of the speeds of a car and a bus is 3:4. If the bus covers a distance of 320 km in 4 hours, what is the speed of the car in km/h?",
+        "hi": "एक कार और बस की गति का अनुपात 3:4 है। यदि बस 4 घंटे में 320 किमी की दूरी तय करती है, तो कार की गति किमी/घंटा में क्या है?"
+      },
+      "options": [
+        {
+          "en": "60 km/h",
+          "hi": "60 किमी/घंटा"
+        },
+        {
+          "en": "75 km/h",
+          "hi": "75 किमी/घंटा"
+        },
+        {
+          "en": "80 km/h",
+          "hi": "80 किमी/घंटा"
+        },
+        {
+          "en": "90 km/h",
+          "hi": "90 किमी/घंटा"
+        }
+      ],
+      "correctAnswer": {
+        "en": "60 km/h",
+        "hi": "60 किमी/घंटा"
+      },
+      "explanation": {
+        "en": "Bus speed = 320/4 = 80 km/h. Car:Bus = 3:4. Car speed = (3/4) × 80 = 60 km/h.",
+        "hi": "बस की गति = 320/4 = 80 किमी/घंटा। कार:बस = 3:4। कार की गति = (3/4) × 80 = 60 किमी/घंटा।"
+      }
+    },
+    {
+      "questionNo": 64,
+      "question": {
+        "en": "An individual invested certain amounts in three different schemes P, Q, and R at simple interest rates of 7% p.a., 9% p.a., and 11% p.a. respectively. If the total interest accrued in one year was ₹2520 and the amount invested in Scheme R was 250% of the amount invested in Scheme P and 300% of the amount invested in Scheme Q, what was the amount invested in Scheme P?",
+        "hi": "एक व्यक्ति ने तीन अलग-अलग योजनाओं P, Q और R में क्रमशः 7%, 9% और 11% प्रति वर्ष की साधारण ब्याज दरों पर निवेश किया। यदि एक वर्ष में अर्जित कुल ब्याज ₹2520 था और योजना R में निवेश की गई राशि योजना P में निवेश की गई राशि का 250% और योजना Q में निवेश की गई राशि का 300% थी, तो योजना P में निवेश की गई राशि क्या थी?"
+      },
+      "options": [
+        {
+          "en": "₹5000",
+          "hi": "₹5000"
+        },
+        {
+          "en": "₹5500",
+          "hi": "₹5500"
+        },
+        {
+          "en": "₹6000",
+          "hi": "₹6000"
+        },
+        {
+          "en": "₹6500",
+          "hi": "₹6500"
+        }
+      ],
+      "correctAnswer": {
+        "en": "₹6000",
+        "hi": "₹6000"
+      },
+      "explanation": {
+        "en": "Let P = x. R = 2.5x, Q = R/3 = 5x/6. Interest: 0.07x + 0.09(5x/6) + 0.11(2.5x) = 2520. 0.42x = 2520. x = ₹6000.",
+        "hi": "माना P = x। R = 2.5x, Q = 5x/6। ब्याज: 0.07x + 0.09(5x/6) + 0.11(2.5x) = 2520। 0.42x = 2520। x = ₹6000।"
+      }
+    },
+    {
+      "questionNo": 65,
+      "question": {
+        "en": "A tower stands 50 meters tall. From its peak, the angles of depression to the top and bottom of a nearby building are measured at 30° and 45°, respectively. Determine the approximate height of the building and the horizontal distance separating the tower from the building.",
+        "hi": "एक मीनार 50 मीटर ऊँची है। इसके शिखर से, पास की एक इमारत के ऊपर और नीचे के अवनमन कोण क्रमशः 30° और 45° मापे गए हैं। इमारत की अनुमानित ऊँचाई और मीनार को इमारत से अलग करने वाली क्षैतिज दूरी निर्धारित करें।"
+      },
+      "options": [
+        {
+          "en": "height = 21 m, distance = 50 m",
+          "hi": "ऊंचाई = 21 मीटर, दूरी = 50 मीटर"
+        },
+        {
+          "en": "height = 25 m, distance = 25 m",
+          "hi": "ऊंचाई = 25 मीटर, दूरी = 25 मीटर"
+        },
+        {
+          "en": "height = 28 m, distance = 15 m",
+          "hi": "ऊंचाई = 28 मीटर, दूरी = 15 मीटर"
+        },
+        {
+          "en": "height = 18 m, distance = 15 m",
+          "hi": "ऊंचाई = 18 मीटर, दूरी = 15 मीटर"
+        }
+      ],
+      "correctAnswer": {
+        "en": "height = 21 m, distance = 50 m",
+        "hi": "ऊंचाई = 21 मीटर, दूरी = 50 मीटर"
+      },
+      "explanation": {
+        "en": "tan45° = 50/d → d = 50m. tan30° = (50-h)/50 → 50-h = 50/√3 ≈ 29. h ≈ 21m.",
+        "hi": "tan45° = 50/d → d = 50m। tan30° = (50-h)/50 → 50-h = 50/√3 ≈ 29। h ≈ 21m।"
+      }
+    },
+    {
+      "questionNo": 66,
+      "question": {
+        "en": "A sphere is melted and recast into 8 identical cones, each with radius 3 cm and height 4 cm. What was the radius of the original sphere?",
+        "hi": "एक गोले को पिघलाकर 8 समान शंकुओं में ढाला गया, जिनमें से प्रत्येक की त्रिज्या 3 सेमी और ऊँचाई 4 सेमी है। मूल गोले की त्रिज्या क्या थी?"
+      },
+      "options": [
+        {
+          "en": "4.16 cm",
+          "hi": "4.16 सेमी"
+        },
+        {
+          "en": "5.28 cm",
+          "hi": "5.28 सेमी"
+        },
+        {
+          "en": "6.54 cm",
+          "hi": "6.54 सेमी"
+        },
+        {
+          "en": "7.56 cm",
+          "hi": "7.56 सेमी"
+        }
+      ],
+      "correctAnswer": {
+        "en": "4.16 cm",
+        "hi": "4.16 सेमी"
+      },
+      "explanation": {
+        "en": "Volume of each cone = (1/3)π(3)²(4) = 12π. Total = 96π. (4/3)πR³ = 96π. R³ = 72. R = 4.16 cm.",
+        "hi": "प्रत्येक शंकु का आयतन = (1/3)π(3)²(4) = 12π। कुल = 96π। (4/3)πR³ = 96π। R³ = 72। R = 4.16 सेमी।"
+      }
+    },
+    {
+      "questionNo": 67,
+      "question": {
+        "en": "The area of a regular hexagon is made of how many equilateral triangles?",
+        "hi": "एक नियमित षट्भुज का क्षेत्रफल कितने समबाहु त्रिभुजों से बना होता है?"
+      },
+      "options": [
+        {
+          "en": "3",
+          "hi": "3"
+        },
+        {
+          "en": "4",
+          "hi": "4"
+        },
+        {
+          "en": "5",
+          "hi": "5"
+        },
+        {
+          "en": "6",
+          "hi": "6"
+        }
+      ],
+      "correctAnswer": {
+        "en": "6",
+        "hi": "6"
+      },
+      "explanation": {
+        "en": "A regular hexagon can be divided into 6 equilateral triangles by drawing lines from the center to each vertex.",
+        "hi": "एक नियमित षट्भुज को केंद्र से प्रत्येक शीर्ष तक रेखाएँ खींचकर 6 समबाहु त्रिभुजों में विभाजित किया जा सकता है।"
+      }
+    },
+    {
+      "questionNo": 68,
+      "question": {
+        "en": "A circular fountain with a radius of 7 m is encircled by a grass bed that is 3.5 m wide. Determine the ratio of the area of the grass bed to the area of the fountain.",
+        "hi": "7 मीटर त्रिज्या वाला एक वृत्ताकार फव्वारा 3.5 मीटर चौड़ी घास की क्यारी से घिरा है। घास की क्यारी के क्षेत्रफल और फव्वारे के क्षेत्रफल का अनुपात ज्ञात कीजिए।"
+      },
+      "options": [
+        {
+          "en": "3:2",
+          "hi": "3:2"
+        },
+        {
+          "en": "2:1",
+          "hi": "2:1"
+        },
+        {
+          "en": "5:4",
+          "hi": "5:4"
+        },
+        {
+          "en": "4:1",
+          "hi": "4:1"
+        }
+      ],
+      "correctAnswer": {
+        "en": "5:4",
+        "hi": "5:4"
+      },
+      "explanation": {
+        "en": "Fountain area = π(7)² = 49π. Total area = π(10.5)² = 110.25π. Grass area = 61.25π. Ratio = 61.25:49 = 5:4.",
+        "hi": "फव्वारे का क्षेत्रफल = 49π। कुल क्षेत्रफल = 110.25π। घास का क्षेत्रफल = 61.25π। अनुपात = 5:4।"
+      }
+    },
+    {
+      "questionNo": 69,
+      "question": {
+        "en": "A tent designed as a triangular prism features a triangular base with an area of 20 m² and a height of 6 m. What is the volume of this tent?",
+        "hi": "एक त्रिकोणीय प्रिज्म के रूप में डिज़ाइन किए गए तम्बू का आधार 20 वर्ग मीटर क्षेत्रफल और 6 मीटर ऊँचाई वाला त्रिकोणीय है। इस तम्बू का आयतन क्या है?"
+      },
+      "options": [
+        {
+          "en": "100 m³",
+          "hi": "100 मीटर³"
+        },
+        {
+          "en": "120 m³",
+          "hi": "120 मीटर³"
+        },
+        {
+          "en": "130 m³",
+          "hi": "130 मीटर³"
+        },
+        {
+          "en": "140 m³",
+          "hi": "140 मीटर³"
+        }
+      ],
+      "correctAnswer": {
+        "en": "120 m³",
+        "hi": "120 मीटर³"
+      },
+      "explanation": {
+        "en": "Volume of prism = Base area × Height = 20 × 6 = 120 m³.",
+        "hi": "प्रिज्म का आयतन = आधार क्षेत्रफल × ऊँचाई = 20 × 6 = 120 मीटर³।"
+      }
+    },
+    {
+      "questionNo": 70,
+      "question": {
+        "en": "Which line has slope -1 and passes through (2,3)?",
+        "hi": "किस रेखा का ढलान -1 है और वह (2,3) से होकर गुजरती है?"
+      },
+      "options": [
+        {
+          "en": "y = -x + 5",
+          "hi": "y = -x + 5"
+        },
+        {
+          "en": "y = x + 5",
+          "hi": "y = x + 5"
+        },
+        {
+          "en": "y = 5x + 2",
+          "hi": "y = 5x + 2"
+        },
+        {
+          "en": "y = -5x + 2",
+          "hi": "y = -5x + 2"
+        }
+      ],
+      "correctAnswer": {
+        "en": "y = -x + 5",
+        "hi": "y = -x + 5"
+      },
+      "explanation": {
+        "en": "Using point-slope form: y - 3 = -1(x - 2). y = -x + 2 + 3 = -x + 5.",
+        "hi": "बिंदु-ढलान रूप का उपयोग करके: y - 3 = -1(x - 2)। y = -x + 5।"
+      }
+    },
+    {
+      "questionNo": 71,
+      "question": {
+        "en": "Simplify: √45 + √20 - √5",
+        "hi": "सरलीकरण: √45 + √20 - √5"
+      },
+      "options": [
+        {
+          "en": "4√5",
+          "hi": "4√5"
+        },
+        {
+          "en": "6√5",
+          "hi": "6√5"
+        },
+        {
+          "en": "8√5",
+          "hi": "8√5"
+        },
+        {
+          "en": "7√5",
+          "hi": "7√5"
+        }
+      ],
+      "correctAnswer": {
+        "en": "4√5",
+        "hi": "4√5"
+      },
+      "explanation": {
+        "en": "√45 = 3√5, √20 = 2√5. So 3√5 + 2√5 - √5 = 4√5.",
+        "hi": "√45 = 3√5, √20 = 2√5। अतः 3√5 + 2√5 - √5 = 4√5।"
+      }
+    },
+    {
+      "questionNo": 72,
+      "question": {
+        "en": "Three non-overlapping, non-touching circles are drawn in a plane. What is the maximum number of distinct common tangents that can be drawn to them in total?",
+        "hi": "एक तल में तीन अव्यापनशील, अस्पर्शी वृत्त खींचे गए हैं। उन पर खींची जा सकने वाली अधिकतम स्पष्ट उभयनिष्ठ स्पर्श रेखाओं की संख्या कितनी है?"
+      },
+      "options": [
+        {
+          "en": "17",
+          "hi": "17"
+        },
+        {
+          "en": "16",
+          "hi": "16"
+        },
+        {
+          "en": "9",
+          "hi": "9"
+        },
+        {
+          "en": "12",
+          "hi": "12"
+        }
+      ],
+      "correctAnswer": {
+        "en": "12",
+        "hi": "12"
+      },
+      "explanation": {
+        "en": "For each pair of non-touching circles, 4 common tangents exist. Total pairs = 3. Maximum tangents = 3 × 4 = 12.",
+        "hi": "प्रत्येक जोड़ी अस्पर्शी वृत्तों के लिए 4 उभयनिष्ठ स्पर्श रेखाएँ होती हैं। कुल जोड़े = 3। अधिकतम स्पर्श रेखाएँ = 3 × 4 = 12।"
+      }
+    },
+    {
+      "questionNo": 73,
+      "question": {
+        "en": "In a circle, chord AB and chord CD intersect at E such that AE:EB = 2:3 and CE:ED = 5:2. If AB = x and CD = y, which of the following is true?",
+        "hi": "एक वृत्त में, जीवा AB और जीवा CD बिंदु E पर इस प्रकार प्रतिच्छेद करती हैं कि AE:EB = 2:3 और CE:ED = 5:2 है। यदि AB = x और CD = y है, तो निम्नलिखित में से कौन सा सत्य है?"
+      },
+      "options": [
+        {
+          "en": "x²/y² = 15/106",
+          "hi": "x²/y² = 15/106"
+        },
+        {
+          "en": "x²/y² = 6/15",
+          "hi": "x²/y² = 6/15"
+        },
+        {
+          "en": "x²/y² = 10/9",
+          "hi": "x²/y² = 10/9"
+        },
+        {
+          "en": "x²/y² = 125/147",
+          "hi": "x²/y² = 125/147"
+        }
+      ],
+      "correctAnswer": {
+        "en": "x²/y² = 125/147",
+        "hi": "x²/y² = 125/147"
+      },
+      "explanation": {
+        "en": "AE × EB = CE × ED. (2x/5)(3x/5) = (5y/7)(2y/7). 6x²/25 = 10y²/49. x²/y² = 250/294 = 125/147.",
+        "hi": "AE × EB = CE × ED। (2x/5)(3x/5) = (5y/7)(2y/7)। 6x²/25 = 10y²/49। x²/y² = 125/147।"
+      }
+    },
+    {
+      "questionNo": 74,
+      "question": {
+        "en": "A chord in a circle with radius 10 cm subtends an angle of 90° at the center. What is the area of the minor segment?",
+        "hi": "10 सेमी त्रिज्या वाले एक वृत्त में एक जीवा केंद्र पर 90° का कोण बनाती है। लघु वृत्तखंड का क्षेत्रफल क्या है?"
+      },
+      "options": [
+        {
+          "en": "(25π - 50) sq. cm",
+          "hi": "(25π - 50) वर्ग सेंटीमीटर"
+        },
+        {
+          "en": "(50π - 25) sq. cm",
+          "hi": "(50π - 25) वर्ग सेंटीमीटर"
+        },
+        {
+          "en": "(50π - 50) sq. cm",
+          "hi": "(50π - 50) वर्ग सेंटीमीटर"
+        },
+        {
+          "en": "(100π - 50) sq. cm",
+          "hi": "(100π - 50) वर्ग सेंटीमीटर"
+        }
+      ],
+      "correctAnswer": {
+        "en": "(25π - 50) sq. cm",
+        "hi": "(25π - 50) वर्ग सेंटीमीटर"
+      },
+      "explanation": {
+        "en": "Sector area = (90/360)π(10)² = 25π. Triangle area = (1/2)(10)(10) = 50. Segment = 25π - 50 sq. cm.",
+        "hi": "त्रिज्यखंड क्षेत्रफल = (90/360)π(10)² = 25π। त्रिभुज क्षेत्रफल = 50। वृत्तखंड = 25π - 50 वर्ग सेमी।"
+      }
+    },
+    {
+      "questionNo": 75,
+      "question": {
+        "en": "Evaluate: (0.05³ + 0.01³) ÷ (0.25² + 0.05²)",
+        "hi": "मूल्यांकन करें: (0.05³ + 0.01³) ÷ (0.25² + 0.05²)"
+      },
+      "options": [
+        {
+          "en": "0.008",
+          "hi": "0.008"
+        },
+        {
+          "en": "0.004",
+          "hi": "0.004"
+        },
+        {
+          "en": "0.006",
+          "hi": "0.006"
+        },
+        {
+          "en": "0.002",
+          "hi": "0.002"
+        }
+      ],
+      "correctAnswer": {
+        "en": "0.002",
+        "hi": "0.002"
+      },
+      "explanation": {
+        "en": "Numerator = 0.000125 + 0.000001 = 0.000126. Denominator = 0.0625 + 0.0025 = 0.065. Result ≈ 0.002.",
+        "hi": "अंश = 0.000126। हर = 0.065। परिणाम ≈ 0.002।"
+      }
+    }
   ]
 }
