@@ -21151,6 +21151,7 @@
       }
     }
   ],
+
   "ssc_cgl_maths_19_sep_s2": [
     {
       "questionNo": 51,
@@ -22054,5 +22055,7 @@
         "en": "PA² = PB × PC. Let PB = x, then PC = x+5. So 36 = x(x+5) → x² + 5x - 36 = 0 → (x+9)(x-4) = 0 → x = 4 cm",
         "hi": "PA² = PB × PC → 36 = x(x+5) → x = 4 cm"
            }
-    },
+    }
+  ]
 }
+
