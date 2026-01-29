@@ -4,7 +4,7 @@ const { apiResponse } = require('../utils/helpers');
 
 const QUESTIONS_FILE = path.join(__dirname, '../data/questions.json');
 
-// Get questions WITHOUT answers
+// Get questions WITH answers (for review after submission)
 const getQuestions = async (req, res) => {
     try {
         const { testId } = req.params;
@@ -21,19 +21,20 @@ const getQuestions = async (req, res) => {
             });
         }
 
-        // Remove correct answers and explanations for security
-        const safeQuestions = questions.map((q, index) => ({
+        // ✅ FIXED: Include correctAnswer and explanation
+        const fullQuestions = questions.map((q, index) => ({
             id: index,
             questionNumber: index + 1,
             question: q.question,
-            options: q.options
-            // NOT sending: correctAnswer, explanation
+            options: q.options,
+            correctAnswer: q.correctAnswer,    // ✅ Now included!
+            explanation: q.explanation || ''    // ✅ Now included!
         }));
 
         return apiResponse(res, 200, true, 'Questions fetched successfully', {
             testId,
-            totalQuestions: safeQuestions.length,
-            questions: safeQuestions
+            totalQuestions: fullQuestions.length,
+            questions: fullQuestions
         });
 
     } catch (error) {
@@ -46,7 +47,7 @@ const getQuestions = async (req, res) => {
 const submitTest = async (req, res) => {
     try {
         const { testId } = req.params;
-        const { answers } = req.body; // Array of user's answers [0, 2, 1, 3, ...]
+        const { answers } = req.body;
 
         if (!answers || !Array.isArray(answers)) {
             return apiResponse(res, 400, false, 'Invalid answers format');
@@ -87,13 +88,11 @@ const submitTest = async (req, res) => {
 
         const correctCount = results.filter(r => r.isCorrect).length;
         const incorrectCount = results.length - correctCount;
-        const score = correctCount * 2; // 2 marks per question
+        const score = correctCount * 2;
         const maxScore = questions.length * 2;
         const percentage = parseFloat(((correctCount / questions.length) * 100).toFixed(2));
 
-        // Optionally save attempt to database
         if (req.user && req.user.id) {
-            // You can save to TestAttempt model here if you want
             console.log(`User ${req.user.email} completed test ${testId}: ${percentage}%`);
         }
 
@@ -107,7 +106,7 @@ const submitTest = async (req, res) => {
             score,
             maxScore,
             percentage,
-            passed: percentage >= 60, // Pass if 60% or more
+            passed: percentage >= 60,
             results
         });
 
@@ -117,7 +116,7 @@ const submitTest = async (req, res) => {
     }
 };
 
-// Public route to check if test exists (no auth needed)
+// Public route to check if test exists
 const checkTestExists = async (req, res) => {
     try {
         const { testId } = req.params;
@@ -138,7 +137,7 @@ const checkTestExists = async (req, res) => {
     }
 };
 
-// Get list of available tests (for admin or debugging)
+// Get list of available tests
 const getAvailableTests = async (req, res) => {
     try {
         const data = await fs.readFile(QUESTIONS_FILE, 'utf8');
