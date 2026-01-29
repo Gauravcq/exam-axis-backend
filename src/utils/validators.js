@@ -117,23 +117,47 @@ const changePasswordValidation = [
   validate
 ];
 
-// Test attempt validation
+// ✅ FIXED: Test attempt validation - More flexible
 const testAttemptValidation = [
   body('testId')
-    .notEmpty().withMessage('Test ID is required'),
+    .notEmpty().withMessage('Test ID is required')
+    .isString().withMessage('Test ID must be a string'),
   
   body('examType')
-    .notEmpty().withMessage('Exam type is required')
-    .isIn(['CGL', 'CHSL', 'DP']).withMessage('Invalid exam type'),
+    .optional()  // ✅ Made optional
+    .isString().withMessage('Exam type must be a string'),
   
   body('subject')
-    .notEmpty().withMessage('Subject is required'),
+    .optional()  // ✅ Made optional
+    .isString().withMessage('Subject must be a string'),
   
   body('score')
-    .isInt({ min: 0 }).withMessage('Score must be a positive number'),
+    .optional()  // ✅ Made optional
+    .isNumeric().withMessage('Score must be a number'),
   
   body('totalMarks')
-    .isInt({ min: 0 }).withMessage('Total marks must be a positive number'),
+    .optional()  // ✅ Made optional
+    .isNumeric().withMessage('Total marks must be a number'),
+  
+  body('correctAnswers')
+    .optional()
+    .isInt({ min: 0 }).withMessage('Correct answers must be a non-negative integer'),
+  
+  body('wrongAnswers')
+    .optional()
+    .isInt({ min: 0 }).withMessage('Wrong answers must be a non-negative integer'),
+  
+  body('unanswered')
+    .optional()
+    .isInt({ min: 0 }).withMessage('Unanswered must be a non-negative integer'),
+  
+  body('timeTaken')
+    .optional()
+    .isNumeric().withMessage('Time taken must be a number'),
+  
+  body('answers')
+    .optional()
+    .isObject().withMessage('Answers must be an object'),
   
   validate
 ];

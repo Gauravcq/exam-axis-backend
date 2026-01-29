@@ -14,30 +14,39 @@ exports.saveAttempt = async (req, res, next) => {
       subject,
       score,
       totalMarks,
+      maxScore,
       correctAnswers,
+      correct,
       wrongAnswers,
+      incorrect,
       unanswered,
+      unattempted,
       timeTaken,
+      timeTakenMinutes,
       answers
     } = req.body;
     
+    // Create attempt with flexible field handling
     const attempt = await TestAttempt.create({
       userId: req.user.id,
-      testId,
-      examType,
-      subject,
-      score,
-      totalMarks,
-      correctAnswers: correctAnswers || 0,
-      wrongAnswers: wrongAnswers || 0,
-      unanswered: unanswered || 0,
-      timeTaken: timeTaken || 0,
+      testId: String(testId),
+      examType: examType || 'CGL',  // ✅ Default value
+      subject: subject || 'General',  // ✅ Default value
+      score: Number(score) || 0,
+      totalMarks: totalMarks || maxScore || 50,
+      correctAnswers: correctAnswers ?? correct ?? 0,  // ✅ Accept both names
+      wrongAnswers: wrongAnswers ?? incorrect ?? 0,  // ✅ Accept both names
+      unanswered: unanswered ?? unattempted ?? 0,  // ✅ Accept both names
+      timeTaken: timeTaken ?? timeTakenMinutes ?? 0,  // ✅ Accept both names
       answers: answers || {}
     });
+    
+    console.log(`✅ Attempt saved: User ${req.user.id}, Test ${testId}`);
     
     apiResponse(res, 201, true, 'Test attempt saved', { attempt });
     
   } catch (error) {
+    console.error('Save Attempt Error:', error);
     next(error);
   }
 };
@@ -117,8 +126,8 @@ exports.getLeaderboard = async (req, res, next) => {
     
     const leaderboard = attempts.map((a, index) => ({
       rank: index + 1,
-      username: a.user.username,
-      fullName: a.user.fullName,
+      username: a.user?.username || 'Anonymous',
+      fullName: a.user?.fullName || 'Anonymous',
       score: a.score,
       totalMarks: a.totalMarks,
       timeTaken: a.timeTaken
