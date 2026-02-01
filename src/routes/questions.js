@@ -3,15 +3,17 @@ const router = express.Router();
 const questionController = require('../controllers/questionController');
 const { auth, admin } = require('../middleware/auth');
 
-// Public routes
+// ✅ SPECIFIC routes FIRST (before dynamic :testId)
+router.get('/available/tests', questionController.getAvailableTests);
+router.get('/check/:testId', questionController.checkTestExists);
+
+// Admin routes (specific paths first)
+router.get('/admin/testcards', auth, admin, questionController.getAdminTestCards);
+router.post('/admin/check-format', auth, admin, questionController.checkQuestionFormat);
+router.post('/admin/:testId/bulk', auth, admin, questionController.bulkUploadQuestions);
+
+// ✅ DYNAMIC routes LAST
 router.get('/:testId', questionController.getQuestions);
 router.post('/:testId/submit', auth, questionController.submitTest);
-router.get('/check/:testId', questionController.checkTestExists);
-router.get('/available/tests', questionController.getAvailableTests);
-
-// NEW: Admin routes for bulk management
-router.get('/admin/testcards', auth, admin, questionController.getAdminTestCards);
-router.post('/:testId/bulk', auth, admin, questionController.bulkUploadQuestions);
-router.post('/check/format', auth, admin, questionController.checkQuestionFormat);
 
 module.exports = router;
