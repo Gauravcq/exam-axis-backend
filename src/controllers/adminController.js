@@ -685,5 +685,13 @@ exports.getTestStats = async (req, res, next) => {
   } catch (error) {
     next(error);
   }
+  // At the END of adminController.js, make sure you have:
+
+exports.duplicateTest = async (req, res, next) => { ... }
+exports.bulkUploadQuestions = async (req, res, next) => { ... }
+exports.toggleTestActive = async (req, res, next) => { ... }
+exports.deleteQuestion = async (req, res, next) => { ... }
+exports.updateQuestion = async (req, res, next) => { ... }
+exports.getTestStats = async (req, res, next) => { ... }
 };
 };
