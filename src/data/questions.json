@@ -11979,730 +11979,455 @@
   ],
   "ssc_cgl_maths_15_sep_s3": [
     {
-      "questionNo": 1,
-      "question": {
-        "en": "Simplify: (3.2 × 5 × 2) + (25 + 0.5)",
-        "hi": "सरल करें: (3.2 × 5 × 2) + (25 + 0.5)"
-      },
-      "options": [
-        {
-          "en": "8.2",
-          "hi": "8.2"
-        },
-        {
-          "en": "77",
-          "hi": "77"
-        },
-        {
-          "en": "70.5",
-          "hi": "70.5"
-        },
-        {
-          "en": "57.5",
-          "hi": "57.5"
-        }
-      ],
-      "correctAnswer": {
-        "en": "57.5",
-        "hi": "57.5"
-      }
+    "questionNo": 51,
+    "question": {
+      "en": "Simplify: (3.2 - 1⅗) + (2¼ ÷ 0.5)",
+      "hi": "सरल करें: (3.2 - 1⅗) + (2¼ ÷ 0.5)"
     },
-    {
-      "questionNo": 2,
-      "question": {
-        "en": "A ₹36,000 annual bonus is distributed among Sales, Marketing, and Operations in a 4:5:3 ratio. Marketing uses ₹3,000 for team building and ₹1,500 for an intern, then allocates the rest to two top performers in a 5:4 ratio. How much does the top performer with the smaller share receive?",
-        "hi": "₹36,000 का वार्षिक बोनस बिक्री, विपणन और संचालन के बीच 4:5:3 के अनुपात में वितरित किया जाता है। मार्केटिंग टीम निर्माण के लिए ₹3,000 और एक इंटर्न के लिए ₹1,500 का उपयोग करती है, फिर शेष राशि को 5:4 के अनुपात में दो शीर्ष प्रदर्शनकर्ताओं को आवंटित करती है। कम हिस्से वाले शीर्ष प्रदर्शनकर्ता को कितना मिलता है?"
-      },
-      "options": [
-        {
-          "en": "₹5,833.33",
-          "hi": "₹5,833.33"
-        },
-        {
-          "en": "₹5,250",
-          "hi": "₹5,250"
-        },
-        {
-          "en": "₹4,666.67",
-          "hi": "₹4,666.67"
-        },
-        {
-          "en": "₹4,200",
-          "hi": "₹4,200"
-        }
-      ],
-      "correctAnswer": {
-        "en": "₹4,666.67",
-        "hi": "₹4,666.67"
-      }
-    },
-    {
-      "questionNo": 3,
-      "question": {
-        "en": "Which of the following represents the correct simplified value of the continued fraction: x = 1 + 1/(1 + 1/(1 + 1/...))?",
-        "hi": "निम्नलिखित में से कौन सा सतत भिन्न का सही सरलीकृत मान दर्शाता है: x = 1 + 1/(1 + 1/(1 + 1/...))?"
-      },
-      "options": [
-        {
-          "en": "(1 + √5)/2",
-          "hi": "(1 + √5)/2"
-        },
-        {
-          "en": "(1 - √5)/2",
-          "hi": "(1 - √5)/2"
-        },
-        {
-          "en": "√2",
-          "hi": "√2"
-        },
-        {
-          "en": "2",
-          "hi": "2"
-        }
-      ],
-      "correctAnswer": {
-        "en": "(1 + √5)/2",
-        "hi": "(1 + √5)/2"
-      }
-    },
-    {
-      "questionNo": 4,
-      "question": {
-        "en": "Kapil invested ₹7,00,000 in a business. After 3 months, Manish joined with ₹80,000. After 3 more months, Kapil withdrew ₹40,000. Find their profit ratio at the end of the year.",
-        "hi": "कपिल ने एक व्यवसाय में ₹7,00,000 का निवेश किया। 3 महीने बाद मनीष ₹80,000 के साथ शामिल हो गया। 3 और महीने बाद कपिल ने ₹40,000 निकाल लिए। वर्ष के अंत में उनका लाभ अनुपात ज्ञात कीजिए।"
-      },
-      "options": [
-        {
-          "en": "109:9",
-          "hi": "109:9"
-        },
-        {
-          "en": "100:9",
-          "hi": "100:9"
-        },
-        {
-          "en": "99:8",
-          "hi": "99:8"
-        },
-        {
-          "en": "110:9",
-          "hi": "110:9"
-        }
-      ],
-      "correctAnswer": {
-        "en": "109:9",
-        "hi": "109:9"
-      }
-    },
-    {
-      "questionNo": 5,
-      "question": {
-        "en": "A invests ₹60,000 while B invests ₹90,000, with A's investment lasting for 10 months and B's for 8 months. The total profit amounts to ₹40,000. What is the A's share?",
-        "hi": "A ने ₹60,000 का निवेश किया जबकि B ने ₹90,000 का निवेश किया, जिसमें A का निवेश 10 महीने और B का 8 महीने तक चला। कुल लाभ ₹40,000 है। A का हिस्सा क्या है?"
-      },
-      "options": [
-        {
-          "en": "₹20,187.82",
-          "hi": "₹20,187.82"
-        },
-        {
-          "en": "₹18,787.82",
-          "hi": "₹18,787.82"
-        },
-        {
-          "en": "₹17,778.78",
-          "hi": "₹17,778.78"
-        },
-        {
-          "en": "₹22,187.82",
-          "hi": "₹22,187.82"
-        }
-      ],
-      "correctAnswer": {
-        "en": "₹18,787.82",
-        "hi": "₹18,787.82"
-      }
-    },
-    {
-      "questionNo": 6,
-      "question": {
-        "en": "The overall average salary for all employees in an office is ₹16,000. Officers earn an average salary of ₹28,000, while non-officers make an average of ₹10,000. If there are 15 officers, determine the number of non-officers.",
-        "hi": "एक कार्यालय में सभी कर्मचारियों का कुल औसत वेतन ₹16,000 है। अधिकारी औसतन ₹28,000 कमाते हैं, जबकि गैर-अधिकारी औसतन ₹10,000 कमाते हैं। यदि 15 अधिकारी हैं, तो गैर-अधिकारियों की संख्या निर्धारित करें।"
-      },
-      "options": [
-        {
-          "en": "30",
-          "hi": "30"
-        },
-        {
-          "en": "40",
-          "hi": "40"
-        },
-        {
-          "en": "50",
-          "hi": "50"
-        },
-        {
-          "en": "60",
-          "hi": "60"
-        }
-      ],
-      "correctAnswer": {
-        "en": "30",
-        "hi": "30"
-      }
-    },
-    {
-      "questionNo": 7,
-      "question": {
-        "en": "Three numbers are such that when the sum of any two of them is added to half of the third, the results are 120, 98, and 92 respectively. What is the average of the three numbers?",
-        "hi": "तीन संख्याएँ ऐसी हैं कि जब उनमें से किसी दो का योग तीसरे के आधे में जोड़ा जाता है, तो परिणाम क्रमश: 120, 98 और 92 होते हैं। तीनों संख्याओं का औसत क्या है?"
-      },
-      "options": [
-        {
-          "en": "80",
-          "hi": "80"
-        },
-        {
-          "en": "70",
-          "hi": "70"
-        },
-        {
-          "en": "60",
-          "hi": "60"
-        },
-        {
-          "en": "50",
-          "hi": "50"
-        }
-      ],
-      "correctAnswer": {
-        "en": "60",
-        "hi": "60"
-      }
-    },
-    {
-      "questionNo": 8,
-      "question": {
-        "en": "In a competitive exam with 120 questions, there are three sections: General Knowledge (20 questions), Reasoning (50 questions), and English (50 questions). A candidate answered 70% of General Knowledge, 50% of Reasoning, and 30% of English questions correctly. If the minimum passing score is 60%, how many more questions did the candidate need to answer correctly to pass?",
-        "hi": "120 प्रश्नों वाली एक प्रतियोगी परीक्षा में तीन खंड हैं: सामान्य ज्ञान (20 प्रश्न), तर्क (50 प्रश्न), और अंग्रेजी (50 प्रश्न)। एक उम्मीदवार ने सामान्य ज्ञान के 70%, तर्क के 50% और अंग्रेजी के 30% प्रश्नों का सही उत्तर दिया। यदि न्यूनतम उत्तीर्ण अंक 60% है, तो उम्मीदवार को उत्तीर्ण होने के लिए कितने और प्रश्नों का सही उत्तर देने की आवश्यकता है?"
-      },
-      "options": [
-        {
-          "en": "12",
-          "hi": "12"
-        },
-        {
-          "en": "15",
-          "hi": "15"
-        },
-        {
-          "en": "18",
-          "hi": "18"
-        },
-        {
-          "en": "20",
-          "hi": "20"
-        }
-      ],
-      "correctAnswer": {
-        "en": "18",
-        "hi": "18"
-      }
-    },
-    {
-      "questionNo": 9,
-      "question": {
-        "en": "Find the compound interest on ₹17,000 at 9% p.a. for 1 year 8 months, compounded annually.",
-        "hi": "₹17,000 पर 1 वर्ष 8 महीने के लिए 9% प्रति वर्ष की दर से वार्षिक रूप से संयोजित चक्रवृद्धि ब्याज ज्ञात कीजिए।"
-      },
-      "options": [
-        {
-          "en": "₹2,087.80",
-          "hi": "₹2,087.80"
-        },
-        {
-          "en": "₹1,000.80",
-          "hi": "₹1,000.80"
-        },
-        {
-          "en": "₹1,087.80",
-          "hi": "₹1,087.80"
-        },
-        {
-          "en": "₹2,000.80",
-          "hi": "₹2,000.80"
-        }
-      ],
-      "correctAnswer": {
-        "en": "₹2,087.80",
-        "hi": "₹2,087.80"
-      }
-    },
-    {
-      "questionNo": 10,
-      "question": {
-        "en": "If the amount at the end of the 2nd year and 3rd year on a certain principal at compound interest is ₹72,000 and ₹73,200 respectively, find the rate of interest per annum.",
-        "hi": "यदि किसी मूलधन पर चक्रवृद्धि ब्याज पर दूसरे वर्ष और तीसरे वर्ष के अंत में राशि क्रमश: ₹72,000 और ₹73,200 है, तो प्रति वर्ष ब्याज की दर ज्ञात कीजिए।"
-      },
-      "options": [
-        {
-          "en": "1.67%",
-          "hi": "1.67%"
-        },
-        {
-          "en": "2%",
-          "hi": "2%"
-        },
-        {
-          "en": "2.5%",
-          "hi": "2.5%"
-        },
-        {
-          "en": "3%",
-          "hi": "3%"
-        }
-      ],
-      "correctAnswer": {
-        "en": "1.67%",
-        "hi": "1.67%"
-      }
-    },
-    {
-      "questionNo": 11,
-      "question": {
-        "en": "A stationery shop owner buys three types of notebooks. The first type costs him 5 notebooks for ₹20, the second 2 notebooks for ₹9, and the third 10 notebooks for ₹45. He mixes them in the ratio 3:4:3. If he sells all the notebooks at 4 for ₹19, what is his approximate gain or loss percentage?",
-        "hi": "एक स्टेशनरी की दुकान का मालिक तीन तरह की नोटबुक खरीदता है। पहली तरह की नोटबुक की कीमत 5 नोटबुक ₹20 है, दूसरी नोटबुक की कीमत 2 नोटबुक ₹9 है और तीसरी नोटबुक की कीमत 10 नोटबुक ₹45 है। वह उन्हें 3:4:3 के अनुपात में मिलाता है। यदि वह सभी नोटबुक को 4 नोटबुक ₹19 के हिसाब से बेचता है, तो उसका अनुमानित लाभ या हानि प्रतिशत क्या है?"
-      },
-      "options": [
-        {
-          "en": "Loss of 9.2%",
-          "hi": "9.2% की हानि"
-        },
-        {
-          "en": "Profit of 9.2%",
-          "hi": "9.2% का लाभ"
-        },
-        {
-          "en": "Profit of 10%",
-          "hi": "10% का लाभ"
-        },
-        {
-          "en": "Loss of 10%",
-          "hi": "10% की हानि"
-        }
-      ],
-      "correctAnswer": {
-        "en": "Profit of 9.2%",
-        "hi": "9.2% का लाभ"
-      }
-    },
-    {
-      "questionNo": 12,
-      "question": {
-        "en": "A seller bought three different types of mobile covers, C1, C2, and C3. The ratio of their selling prices was 3:4:5. He made a profit of 25% on C1, 10% on C2, but incurred a loss of 20% on C3. What was his approximate percent gain or loss in the entire transaction?",
-        "hi": "एक विक्रेता ने तीन अलग-अलग प्रकार के मोबाइल कवर खरीदे, C1, C2 और C3। उनके विक्रय मूल्य का अनुपात 3:4:5 था। उसने C1 पर 25%, C2 पर 10% का लाभ कमाया, लेकिन C3 पर 20% की हानि हुई। पूरे लेन-देन में उसका अनुमानित लाभ या हानि प्रतिशत क्या था?"
-      },
-      "options": [
-        {
-          "en": "Profit of 2.33%",
-          "hi": "2.33% का लाभ"
-        },
-        {
-          "en": "Loss of 2.33%",
-          "hi": "2.33% की हानि"
-        },
-        {
-          "en": "Loss of 4.62%",
-          "hi": "4.62% की हानि"
-        },
-        {
-          "en": "Profit of 4.62%",
-          "hi": "4.62% का लाभ"
-        }
-      ],
-      "correctAnswer": {
-        "en": "Profit of 2.33%",
-        "hi": "2.33% का लाभ"
-      }
-    },
-    {
-      "questionNo": 13,
-      "question": {
-        "en": "A high-end watch is initially marked up by 50% above its cost price. During a sale, it is offered at a discount of 20% on its marked price. However, a special customer receives an additional discount of y% on the discounted price, bringing the final selling price to ₹4320. If the shopkeeper still makes a profit of 8% on the cost price after all discounts, what was the original cost price of the watch and the value of y?",
-        "hi": "एक महंगी घड़ी की कीमत शुरू में उसके लागत मूल्य से 50% अधिक है। एक सेल के दौरान, इसे उसके अंकित मूल्य पर 20% की छूट पर पेश किया जाता है। हालांकि, एक विशेष ग्राहक को छूट वाले मूल्य पर y% की अतिरिक्त छूट मिलती है, जिससे अंतिम बिक्री मूल्य ₹4320 हो जाता है। यदि सभी छूट के बाद भी दुकानदार को लागत मूल्य पर 8% का लाभ होता है, तो घड़ी का मूल लागत मूल्य और y का मूल्य क्या था?"
-      },
-      "options": [
-        {
-          "en": "Cost Price = ₹4000, y = 10%",
-          "hi": "क्रय मूल्य = ₹4000, y = 10%"
-        },
-        {
-          "en": "Cost Price = ₹4500, y = 5%",
-          "hi": "क्रय मूल्य = ₹4500, y = 5%"
-        },
-        {
-          "en": "Cost Price = ₹4800, y = 2.5%",
-          "hi": "क्रय मूल्य = ₹4800, y = 2.5%"
-        },
-        {
-          "en": "Cost Price = ₹5000, y = 8%",
-          "hi": "क्रय मूल्य = ₹5000, y = 8%"
-        }
-      ],
-      "correctAnswer": {
-        "en": "Cost Price = ₹4000, y = 10%",
-        "hi": "क्रय मूल्य = ₹4000, y = 10%"
-      }
-    },
-    {
-      "questionNo": 14,
-      "question": {
-        "en": "A and B can complete a task in 12 days and 18 days, respectively. They begin the work together, but B leaves after 4 days. How many more days will A take to finish the remaining work?",
-        "hi": "A और B किसी काम को क्रमशः 12 दिन और 18 दिन में पूरा कर सकते हैं। वे साथ मिलकर काम शुरू करते हैं, लेकिन B 4 दिन बाद काम छोड़ देता है। A को बचा हुआ काम पूरा करने में और कितने दिन लगेंगे?"
-      },
-      "options": [
-        {
-          "en": "5⅓ days",
-          "hi": "5⅓ दिन"
-        },
-        {
-          "en": "2⅓ days",
-          "hi": "2⅓ दिन"
-        },
-        {
-          "en": "4⅓ days",
-          "hi": "4⅓ दिन"
-        },
-        {
-          "en": "8⅓ days",
-          "hi": "8⅓ दिन"
-        }
-      ],
-      "correctAnswer": {
-        "en": "5⅓ days",
-        "hi": "5⅓ दिन"
-      }
-    },
-    {
-      "questionNo": 15,
-      "question": {
-        "en": "A shopkeeper mixes two qualities of tea. The first quality costs ₹50 per kg and is mixed with the second quality in the ratio 4:5. If the mixture is sold at ₹30 per kg (at no profit, no loss), what is the cost per kg of the second quality of tea?",
-        "hi": "एक दुकानदार दो प्रकार की चाय मिलाता है। पहली गुणवत्ता वाली चाय की कीमत ₹50 प्रति किलोग्राम है और इसे दूसरी गुणवत्ता वाली चाय के साथ 4:5 के अनुपात में मिलाया जाता है। यदि मिश्रण को ₹30 प्रति किलोग्राम (न लाभ, न हानि) पर बेचा जाता है, तो दूसरी गुणवत्ता वाली चाय की प्रति किलोग्राम कीमत क्या है?"
-      },
-      "options": [
-        {
-          "en": "₹100",
-          "hi": "₹100"
-        },
-        {
-          "en": "₹10",
-          "hi": "₹10"
-        },
-        {
-          "en": "₹14",
-          "hi": "₹14"
-        },
-        {
-          "en": "₹20",
-          "hi": "₹20"
-        }
-      ],
-      "correctAnswer": {
-        "en": "₹14",
-        "hi": "₹14"
-      }
-    },
-    {
-      "questionNo": 16,
-      "question": {
-        "en": "A and B can complete a certain task together in 30 days. After A works for 16 days, B is left to finish the remaining work by himself in 44 days. How many days would it take for B to complete the entire task on his own?",
-        "hi": "A और B एक निश्चित काम को 30 दिनों में पूरा कर सकते हैं। A द्वारा 16 दिनों तक काम करने के बाद, B को शेष कार्य अकेले 44 दिनों में पूरा करना है। B को अकेले पूरा कार्य पूरा करने में कितने दिन लगेंगे?"
-      },
-      "options": [
-        {
-          "en": "40 days",
-          "hi": "40 दिन"
-        },
-        {
-          "en": "50 days",
-          "hi": "50 दिन"
-        },
-        {
-          "en": "60 days",
-          "hi": "60 दिन"
-        },
-        {
-          "en": "70 days",
-          "hi": "70 दिन"
-        }
-      ],
-      "correctAnswer": {
-        "en": "60 days",
-        "hi": "60 दिन"
-      }
-    },
-    {
-      "questionNo": 17,
-      "question": {
-        "en": "A container holds a mixture of Orange, Apple, and Guava juices in the ratio of 5:7:4 respectively. 24 litres of this mixture is taken out, and then 10 litres of orange juice and 6 litres of guava juice are added to the vessel. If the resultant quantity of apple juice is 14 litres more than the resultant quantity of orange juice, what was the initial quantity of mixture in the vessel (in litres)?",
-        "hi": "एक बर्तन में संतरे, सेब और अमरूद के रस का मिश्रण क्रमश: 5:7:4 के अनुपात में है। इस मिश्रण का 24 लीटर निकाला जाता है, और फिर बर्तन में 10 लीटर संतरे का रस और 6 लीटर अमरूद का रस मिलाया जाता है। यदि सेब के रस की परिणामी मात्रा संतरे के रस की परिणामी मात्रा से 14 लीटर अधिक है, तो बर्तन में मिश्रण की प्रारंभिक मात्रा (लीटर में) क्या थी?"
-      },
-      "options": [
-        {
-          "en": "176",
-          "hi": "176"
-        },
-        {
-          "en": "216",
-          "hi": "216"
-        },
-        {
-          "en": "200",
-          "hi": "200"
-        },
-        {
-          "en": "235",
-          "hi": "235"
-        }
-      ],
-      "correctAnswer": {
-        "en": "176",
-        "hi": "176"
-      }
-    },
-    {
-      "questionNo": 18,
-      "question": {
-        "en": "A delivery van travels at a constant speed of 60 km/h to cover a certain route in 1 hour and 45 minutes. If traffic increases the time taken by 15 minutes, by what percentage must the van's average speed decrease to complete the route?",
-        "hi": "एक डिलीवरी वैन 60 किमी/घंटा की स्थिर गति से यात्रा करते हुए एक निश्चित मार्ग को 1 घंटे और 45 मिनट में पूरा करती है। यदि यातायात के कारण लगने वाला समय 15 मिनट बढ़ जाता है, तो मार्ग को पूरा करने के लिए वैन की औसत गति में कितने प्रतिशत की कमी होनी चाहिए?"
-      },
-      "options": [
-        {
-          "en": "10.5%",
-          "hi": "10.5%"
-        },
-        {
-          "en": "12.5%",
-          "hi": "12.5%"
-        },
-        {
-          "en": "15%",
-          "hi": "15%"
-        },
-        {
-          "en": "20%",
-          "hi": "20%"
-        }
-      ],
-      "correctAnswer": {
-        "en": "12.5%",
-        "hi": "12.5%"
-      }
-    },
-    {
-      "questionNo": 19,
-      "question": {
-        "en": "A student walks from his home to school at a speed of 4 km/h and reaches 5 minutes late. If he increases his speed to 6 km/h, he reaches 5 minutes early. What is the distance (in km) from his home to school?",
-        "hi": "एक छात्र अपने घर से स्कूल 4 किमी/घंटा की गति से चलता है और 5 मिनट देरी से पहुंचता है। यदि वह अपनी गति बढ़ाकर 6 किमी/घंटा कर देता है, तो वह 5 मिनट पहले पहुंच जाता है। उसके घर से स्कूल की दूरी (किमी में) कितनी है?"
-      },
-      "options": [
-        {
-          "en": "2 km",
-          "hi": "2 किमी"
-        },
-        {
-          "en": "4 km",
-          "hi": "4 किमी"
-        },
-        {
-          "en": "6 km",
-          "hi": "6 किमी"
-        },
-        {
-          "en": "8 km",
-          "hi": "8 किमी"
-        }
-      ],
-      "correctAnswer": {
-        "en": "2 km",
-        "hi": "2 किमी"
-      }
-    },
-    {
-      "questionNo": 20,
-      "question": {
-        "en": "The cost of fencing a circular ground at ₹20/m is ₹3,768. Find the radius of the ground.",
-        "hi": "एक वृत्ताकार मैदान पर ₹20/मीटर की दर से बाड़ लगाने की लागत ₹3,768 है। मैदान की त्रिज्या ज्ञात कीजिए।"
-      },
-      "options": [
-        {
-          "en": "15 m",
-          "hi": "15 मी"
-        },
-        {
-          "en": "20 m",
-          "hi": "20 मी"
-        },
-        {
-          "en": "30 m",
-          "hi": "30 मी"
-        },
-        {
-          "en": "25 m",
-          "hi": "25 मी"
-        }
-      ],
-      "correctAnswer": {
-        "en": "30 m",
-        "hi": "30 मी"
-      }
-    },
-    {
-      "questionNo": 21,
-      "question": {
-        "en": "A circular logo of radius 14 cm is fitted perfectly inside a square plaque. Find the area of unused square space around the circle.",
-        "hi": "14 सेमी त्रिज्या वाला एक वृत्ताकार लोगो एक वर्गाकार पट्टिका के अंदर पूरी तरह से फिट किया गया है। वृत्त के चारों ओर अप्रयुक्त वर्गाकार स्थान का क्षेत्रफल ज्ञात कीजिए।"
-      },
-      "options": [
-        {
-          "en": "168 cm²",
-          "hi": "168 सेमी²"
-        },
-        {
-          "en": "56.78 cm²",
-          "hi": "56.78 सेमी²"
-        },
-        {
-          "en": "64.26 cm²",
-          "hi": "64.26 सेमी²"
-        },
-        {
-          "en": "170 cm²",
-          "hi": "170 सेमी²"
-        }
-      ],
-      "correctAnswer": {
-        "en": "168 cm²",
-        "hi": "168 सेमी²"
-      }
-    },
-    {
-      "questionNo": 22,
-      "question": {
-        "en": "A circular clock has a radius of 14 cm. Calculate the distance covered by the tip of the minute hand in 30 minutes, assuming it is positioned at the edge of the clock face? (Use π = 22/7)",
-        "hi": "एक वृत्ताकार घड़ी की त्रिज्या 14 सेमी है। मिनट की सुई की नोक द्वारा 30 मिनट में तय की गई दूरी की गणना कीजिए, यह मानते हुए कि यह घड़ी के मुख के किनारे पर स्थित है? (π = 22/7 का प्रयोग करें)"
-      },
-      "options": [
-        {
-          "en": "44 cm",
-          "hi": "44 सेमी"
-        },
-        {
-          "en": "48 cm",
-          "hi": "48 सेमी"
-        },
-        {
-          "en": "46 cm",
-          "hi": "46 सेमी"
-        },
-        {
-          "en": "42 cm",
-          "hi": "42 सेमी"
-        }
-      ],
-      "correctAnswer": {
-        "en": "44 cm",
-        "hi": "44 सेमी"
-      }
-    },
-    {
-      "questionNo": 23,
-      "question": {
-        "en": "What is the slope of line perpendicular to y = -3x + 7?",
-        "hi": "y = -3x + 7 के लंबवत रेखा का ढलान क्या है?"
-      },
-      "options": [
-        {
-          "en": "-3",
-          "hi": "-3"
-        },
-        {
-          "en": "3",
-          "hi": "3"
-        },
-        {
-          "en": "1/3",
-          "hi": "1/3"
-        },
-        {
-          "en": "-1/3",
-          "hi": "-1/3"
-        }
-      ],
-      "correctAnswer": {
-        "en": "1/3",
-        "hi": "1/3"
-      }
-    },
-    {
-      "questionNo": 24,
-      "question": {
-        "en": "Given, x - 1/x = 3, find the value of x⁴ + 1/x⁴",
-        "hi": "दिया गया है, x - 1/x = 3, x⁴ + 1/x⁴ का मान ज्ञात कीजिए।"
-      },
-      "options": [
-        {
-          "en": "119",
-          "hi": "119"
-        },
-        {
-          "en": "25",
-          "hi": "25"
-        },
-        {
-          "en": "30",
-          "hi": "30"
-        },
-        {
-          "en": "45",
-          "hi": "45"
-        }
-      ],
-      "correctAnswer": {
-        "en": "119",
-        "hi": "119"
-      }
-    },
-    {
-      "questionNo": 25,
-      "question": {
-        "en": "2.5% of 200 = ?",
-        "hi": "200 का 2.5% = ?"
-      },
-      "options": [
-        {
-          "en": "5",
-          "hi": "5"
-        },
-        {
-          "en": "50",
-          "hi": "50"
-        },
-        {
-          "en": "0.5",
-          "hi": "0.5"
-        },
-        {
-          "en": "25",
-          "hi": "25"
-        }
-      ],
-      "correctAnswer": {
-        "en": "5",
-        "hi": "5"
-      }
+    "options": [
+      { "en": "8.2", "hi": "8.2" },
+      { "en": "6.1", "hi": "6.1" },
+      { "en": "7.7", "hi": "7.7" },
+      { "en": "10.5", "hi": "10.5" }
+    ],
+    "correctAnswer": { "en": "6.1", "hi": "6.1" },
+    "explanation": {
+      "en": "Convert to decimals: 1⅗ = 1.6, 2¼ = 2.25\nFirst bracket: 3.2 - 1.6 = 1.6\nSecond bracket: 2.25 ÷ 0.5 = 4.5\nTotal: 1.6 + 4.5 = 6.1",
+      "hi": "दशमलव में बदलें: 1⅗ = 1.6, 2¼ = 2.25\nपहला कोष्ठक: 3.2 - 1.6 = 1.6\nदूसरा कोष्ठक: 2.25 ÷ 0.5 = 4.5\nकुल: 1.6 + 4.5 = 6.1"
     }
+  },
+  {
+    "questionNo": 52,
+    "question": {
+      "en": "A ₹36,000 annual bonus is distributed among Sales, Marketing, and Operations in a 4:5:3 ratio. Marketing uses ₹3,000 for team building and ₹1,500 for an intern, then allocates the rest to two top performers in a 5:4 ratio. How much does the top performer with the smaller share receive?",
+      "hi": "₹36,000 का वार्षिक बोनस बिक्री, विपणन और संचालन के बीच 4:5:3 के अनुपात में वितरित किया जाता है। मार्केटिंग टीम निर्माण के लिए ₹3,000 और एक इंटर्न के लिए ₹1,500 का उपयोग करती है, फिर शेष राशि को 5:4 के अनुपात में दो शीर्ष प्रदर्शनकर्ताओं को आवंटित करती है। कम हिस्से वाले शीर्ष प्रदर्शनकर्ता को कितना मिलता है?"
+    },
+    "options": [
+      { "en": "₹5,833.33", "hi": "₹5,833.33" },
+      { "en": "₹5,250", "hi": "₹5,250" },
+      { "en": "₹4,666.67", "hi": "₹4,666.67" },
+      { "en": "₹4,200", "hi": "₹4,200" }
+    ],
+    "correctAnswer": { "en": "₹4,666.67", "hi": "₹4,666.67" },
+    "explanation": {
+      "en": "Total ratio = 4+5+3 = 12\nMarketing's share = (5/12) × 36000 = ₹15,000\nAfter expenses: 15000 - 3000 - 1500 = ₹10,500\nSmaller share ratio = 4 out of (5+4) = 4/9\nSmaller share = (4/9) × 10500 = ₹4,666.67",
+      "hi": "कुल अनुपात = 4+5+3 = 12\nमार्केटिंग का हिस्सा = (5/12) × 36000 = ₹15,000\nखर्च के बाद: 15000 - 3000 - 1500 = ₹10,500\nछोटा हिस्सा = (4/9) × 10500 = ₹4,666.67"
+    }
+  },
+  {
+    "questionNo": 53,
+    "question": {
+      "en": "Which of the following represents the correct simplified value of the continued fraction: x = 1 + 1 / (2 + 1 / (2 + 1/2))",
+      "hi": "निम्नलिखित में से कौन सा सतत भिन्न का सही सरलीकृत मान दर्शाता है: x = 1 + 1 / (2 + 1 / (2 + 1/2))"
+    },
+    "options": [
+      { "en": "17/12", "hi": "17/12" },
+      { "en": "8/5", "hi": "8/5" },
+      { "en": "7/5", "hi": "7/5" },
+      { "en": "9/7", "hi": "9/7" }
+    ],
+    "correctAnswer": { "en": "17/12", "hi": "17/12" },
+    "explanation": {
+      "en": "Start from innermost: 2 + 1/2 = 5/2\nNext level: 2 + 1/(5/2) = 2 + 2/5 = 12/5\nOutermost: 1 + 1/(12/5) = 1 + 5/12 = 17/12",
+      "hi": "सबसे अंदर से शुरू करें: 2 + 1/2 = 5/2\nअगला स्तर: 2 + 1/(5/2) = 2 + 2/5 = 12/5\nसबसे बाहर: 1 + 1/(12/5) = 1 + 5/12 = 17/12"
+    }
+  },
+  {
+    "questionNo": 54,
+    "question": {
+      "en": "Kapil invested ₹1,00,000 in a business. After 3 months, Manish joined with ₹80,000. After 3 more months, Kapil withdrew ₹40,000. Find their profit ratio at the end of the year.",
+      "hi": "कपिल ने एक व्यवसाय में ₹1,00,000 का निवेश किया। 3 महीने बाद मनीष ₹80,000 के साथ शामिल हो गया। 3 और महीने बाद कपिल ने ₹40,000 निकाल लिए। वर्ष के अंत में उनका लाभ अनुपात ज्ञात कीजिए।"
+    },
+    "options": [
+      { "en": "4:3", "hi": "4:3" },
+      { "en": "2:3", "hi": "2:3" },
+      { "en": "1:3", "hi": "1:3" },
+      { "en": "5:3", "hi": "5:3" }
+    ],
+    "correctAnswer": { "en": "4:3", "hi": "4:3" },
+    "explanation": {
+      "en": "Kapil: 1,00,000 × 6 + 60,000 × 6 = 6,00,000 + 3,60,000 = 9,60,000\nManish: 80,000 × 9 = 7,20,000\nRatio = 9,60,000 : 7,20,000 = 4:3",
+      "hi": "कपिल: 1,00,000 × 6 + 60,000 × 6 = 9,60,000\nमनीष: 80,000 × 9 = 7,20,000\nअनुपात = 9,60,000 : 7,20,000 = 4:3"
+    }
+  },
+  {
+    "questionNo": 55,
+    "question": {
+      "en": "A invests ₹60,000 while B invests ₹90,000, with A's investment lasting for 10 months and B's for 8 months. The total profit amounts to ₹40,000. What is A's share?",
+      "hi": "A ने ₹60,000 का निवेश किया जबकि B ने ₹90,000 का निवेश किया, जिसमें A का निवेश 10 महीने और B का 8 महीने तक चला। कुल लाभ ₹40,000 है। A का हिस्सा क्या है?"
+    },
+    "options": [
+      { "en": "₹20,181.82", "hi": "₹20,181.82" },
+      { "en": "₹18,181.82", "hi": "₹18,181.82" },
+      { "en": "₹21,181.81", "hi": "₹21,181.81" },
+      { "en": "₹22,181.82", "hi": "₹22,181.82" }
+    ],
+    "correctAnswer": { "en": "₹18,181.82", "hi": "₹18,181.82" },
+    "explanation": {
+      "en": "A's investment = 60,000 × 10 = 6,00,000\nB's investment = 90,000 × 8 = 7,20,000\nRatio = 6,00,000 : 7,20,000 = 5:6\nA's share = (5/11) × 40,000 = ₹18,181.82",
+      "hi": "A का निवेश = 60,000 × 10 = 6,00,000\nB का निवेश = 90,000 × 8 = 7,20,000\nअनुपात = 5:6\nA का हिस्सा = (5/11) × 40,000 = ₹18,181.82"
+    }
+  },
+  {
+    "questionNo": 56,
+    "question": {
+      "en": "The overall average salary for all employees in an office is ₹16,000. Officers earn an average salary of ₹28,000, while non-officers make an average of ₹10,000. If there are 15 officers, determine the number of non-officers.",
+      "hi": "एक कार्यालय में सभी कर्मचारियों का कुल औसत वेतन ₹16,000 है। अधिकारी औसतन ₹28,000 कमाते हैं, जबकि गैर-अधिकारी औसतन ₹10,000 कमाते हैं। यदि 15 अधिकारी हैं, तो गैर-अधिकारियों की संख्या निर्धारित करें।"
+    },
+    "options": [
+      { "en": "30", "hi": "30" },
+      { "en": "40", "hi": "40" },
+      { "en": "50", "hi": "50" },
+      { "en": "60", "hi": "60" }
+    ],
+    "correctAnswer": { "en": "30", "hi": "30" },
+    "explanation": {
+      "en": "Let non-officers = n\nTotal salary = 15 × 28000 + n × 10000\nAverage = (420000 + 10000n)/(15 + n) = 16000\n420000 + 10000n = 240000 + 16000n\n180000 = 6000n\nn = 30",
+      "hi": "माना गैर-अधिकारी = n\nकुल वेतन = 15 × 28000 + n × 10000\nऔसत = (420000 + 10000n)/(15 + n) = 16000\n180000 = 6000n\nn = 30"
+    }
+  },
+  {
+    "questionNo": 57,
+    "question": {
+      "en": "Three numbers are such that when the sum of any two of them is added to half of the third, the results are 210, 198, and 192 respectively. What is the average of the three numbers?",
+      "hi": "तीन संख्याएँ ऐसी हैं कि जब उनमें से किसी दो का योग तीसरे के आधे में जोड़ा जाता है, तो परिणाम क्रमशः 210, 198 और 192 होते हैं। तीनों संख्याओं का औसत क्या है?"
+    },
+    "options": [
+      { "en": "80", "hi": "80" },
+      { "en": "70", "hi": "70" },
+      { "en": "60", "hi": "60" },
+      { "en": "50", "hi": "50" }
+    ],
+    "correctAnswer": { "en": "80", "hi": "80" },
+    "explanation": {
+      "en": "Let numbers be a, b, c\na + b + c/2 = 210\nb + c + a/2 = 198\nc + a + b/2 = 192\nAdding all: 2.5(a+b+c) = 600\na + b + c = 240\nAverage = 240/3 = 80",
+      "hi": "माना संख्याएं a, b, c हैं\na + b + c/2 = 210\nb + c + a/2 = 198\nc + a + b/2 = 192\nसभी जोड़ने पर: 2.5(a+b+c) = 600\na + b + c = 240\nऔसत = 240/3 = 80"
+    }
+  },
+  {
+    "questionNo": 58,
+    "question": {
+      "en": "In a competitive exam with 120 questions, there are three sections: General Knowledge (20 questions), Reasoning (50 questions), and English (50 questions). A candidate answered 70% of General Knowledge, 50% of Reasoning, and 30% of English questions correctly. If the minimum passing score is 60%, how many more questions did the candidate need to answer correctly to pass?",
+      "hi": "120 प्रश्नों वाली एक प्रतियोगी परीक्षा में तीन खंड हैं: सामान्य ज्ञान (20 प्रश्न), तर्क (50 प्रश्न), और अंग्रेजी (50 प्रश्न)। एक उम्मीदवार ने सामान्य ज्ञान के 70%, तर्क के 50% और अंग्रेजी के 30% प्रश्नों का सही उत्तर दिया। यदि न्यूनतम उत्तीर्ण अंक 60% है, तो उम्मीदवार को उत्तीर्ण होने के लिए कितने और प्रश्नों का सही उत्तर देने की आवश्यकता है?"
+    },
+    "options": [
+      { "en": "2", "hi": "2" },
+      { "en": "15", "hi": "15" },
+      { "en": "18", "hi": "18" },
+      { "en": "20", "hi": "20" }
+    ],
+    "correctAnswer": { "en": "18", "hi": "18" },
+    "explanation": {
+      "en": "GK correct: 70% of 20 = 14\nReasoning correct: 50% of 50 = 25\nEnglish correct: 30% of 50 = 15\nTotal correct = 14 + 25 + 15 = 54\nPassing marks = 60% of 120 = 72\nMore needed = 72 - 54 = 18",
+      "hi": "GK सही: 20 का 70% = 14\nरीज़निंग सही: 50 का 50% = 25\nअंग्रेज़ी सही: 50 का 30% = 15\nकुल सही = 54\nउत्तीर्ण अंक = 120 का 60% = 72\nऔर चाहिए = 72 - 54 = 18"
+    }
+  },
+  {
+    "questionNo": 59,
+    "question": {
+      "en": "Find the compound interest on ₹7,000 at 9% p.a. for 1 year 8 months, compounded annually.",
+      "hi": "₹7,000 पर 1 वर्ष 8 महीने के लिए 9% प्रति वर्ष की दर से वार्षिक रूप से संयोजित चक्रवृद्धि ब्याज ज्ञात कीजिए।"
+    },
+    "options": [
+      { "en": "₹2,087.80", "hi": "₹2,087.80" },
+      { "en": "₹1,000.80", "hi": "₹1,000.80" },
+      { "en": "₹1,087.80", "hi": "₹1,087.80" },
+      { "en": "₹2,000.80", "hi": "₹2,000.80" }
+    ],
+    "correctAnswer": { "en": "₹1,087.80", "hi": "₹1,087.80" },
+    "explanation": {
+      "en": "Time = 1 year 8 months = 1 + 8/12 = 5/3 years\nFor 1 year: A = 7000 × 1.09 = 7630\nFor remaining 8 months: SI = 7630 × 9% × (8/12) = 457.80\nTotal Amount = 7630 + 457.80 = 8087.80\nCI = 8087.80 - 7000 = ₹1,087.80",
+      "hi": "समय = 1 वर्ष 8 महीने\n1 वर्ष के लिए: A = 7000 × 1.09 = 7630\nशेष 8 महीने: SI = 7630 × 9% × (8/12) = 457.80\nकुल राशि = 8087.80\nCI = 8087.80 - 7000 = ₹1,087.80"
+    }
+  },
+  {
+    "questionNo": 60,
+    "question": {
+      "en": "If the amount at the end of the 2nd year and 3rd year on a certain principal at compound interest is ₹12,000 and ₹13,200 respectively, find the rate of interest per annum.",
+      "hi": "यदि किसी मूलधन पर चक्रवृद्धि ब्याज पर दूसरे वर्ष और तीसरे वर्ष के अंत में राशि क्रमशः ₹12,000 और ₹13,200 है, तो प्रति वर्ष ब्याज की दर ज्ञात कीजिए।"
+    },
+    "options": [
+      { "en": "8%", "hi": "8%" },
+      { "en": "7%", "hi": "7%" },
+      { "en": "10%", "hi": "10%" },
+      { "en": "5%", "hi": "5%" }
+    ],
+    "correctAnswer": { "en": "10%", "hi": "10%" },
+    "explanation": {
+      "en": "Interest for 3rd year = 13200 - 12000 = 1200\nThis interest is on amount at end of 2nd year\nRate = (1200/12000) × 100 = 10%",
+      "hi": "तीसरे वर्ष का ब्याज = 13200 - 12000 = 1200\nयह ब्याज दूसरे वर्ष की राशि पर है\nदर = (1200/12000) × 100 = 10%"
+    }
+  },
+  {
+    "questionNo": 61,
+    "question": {
+      "en": "A stationery shop owner buys three types of notebooks. The first type costs him 5 notebooks for ₹20, the second 2 notebooks for ₹9, and the third 10 notebooks for ₹45. He mixes them in the ratio 3:4:3. If he sells all the notebooks at 4 for ₹19, what is his approximate gain or loss percentage?",
+      "hi": "एक स्टेशनरी की दुकान का मालिक तीन तरह की नोटबुक खरीदता है। पहली तरह की नोटबुक की कीमत 5 नोटबुक ₹20 है, दूसरी नोटबुक की कीमत 2 नोटबुक ₹9 है और तीसरी नोटबुक की कीमत 10 नोटबुक ₹45 है। वह उन्हें 3:4:3 के अनुपात में मिलाता है। यदि वह सभी नोटबुक को 4 नोटबुक ₹19 के हिसाब से बेचता है, तो उसका अनुमानित लाभ या हानि प्रतिशत क्या है?"
+    },
+    "options": [
+      { "en": "Loss of 9.2%", "hi": "9.2% की हानि" },
+      { "en": "Profit of 9.2%", "hi": "9.2% का लाभ" },
+      { "en": "Profit of 10%", "hi": "10% का लाभ" },
+      { "en": "Loss of 10%", "hi": "10% की हानि" }
+    ],
+    "correctAnswer": { "en": "Profit of 9.2%", "hi": "9.2% का लाभ" },
+    "explanation": {
+      "en": "Type 1 CP: ₹20/5 = ₹4 per notebook\nType 2 CP: ₹9/2 = ₹4.50 per notebook\nType 3 CP: ₹45/10 = ₹4.50 per notebook\nMixed CP = (3×4 + 4×4.5 + 3×4.5)/10 = 43.5/10 = ₹4.35\nSP = ₹19/4 = ₹4.75\nProfit% = (0.40/4.35) × 100 ≈ 9.2%",
+      "hi": "टाइप 1 CP: ₹4 प्रति नोटबुक\nटाइप 2 CP: ₹4.50 प्रति नोटबुक\nटाइप 3 CP: ₹4.50 प्रति नोटबुक\nमिश्रित CP = ₹4.35\nSP = ₹4.75\nलाभ% = (0.40/4.35) × 100 ≈ 9.2%"
+    }
+  },
+  {
+    "questionNo": 62,
+    "question": {
+      "en": "A seller bought three different types of mobile covers, C1, C2, and C3. The ratio of their selling prices was 3:4:5. He made a profit of 25% on C1, 10% on C2, but incurred a loss of 20% on C3. What was his approximate percent gain or loss in the entire transaction?",
+      "hi": "एक विक्रेता ने तीन अलग-अलग प्रकार के मोबाइल कवर खरीदे, C1, C2 और C3। उनके विक्रय मूल्य का अनुपात 3:4:5 था। उसने C1 पर 25%, C2 पर 10% का लाभ कमाया, लेकिन C3 पर 20% की हानि हुई। पूरे लेन-देन में उसका अनुमानित लाभ या हानि प्रतिशत क्या था?"
+    },
+    "options": [
+      { "en": "Profit of 2.33%", "hi": "2.33% का लाभ" },
+      { "en": "Loss of 2.33%", "hi": "2.33% की हानि" },
+      { "en": "Loss of 4.62%", "hi": "4.62% की हानि" },
+      { "en": "Profit of 4.62%", "hi": "4.62% का लाभ" }
+    ],
+    "correctAnswer": { "en": "Loss of 2.33%", "hi": "2.33% की हानि" },
+    "explanation": {
+      "en": "Let SP be 3x, 4x, 5x\nC1: CP = 3x/1.25 = 2.4x\nC2: CP = 4x/1.10 = 3.64x\nC3: CP = 5x/0.80 = 6.25x\nTotal CP = 12.29x, Total SP = 12x\nLoss% = (0.29x/12.29x) × 100 ≈ 2.33%",
+      "hi": "माना SP = 3x, 4x, 5x\nC1: CP = 2.4x\nC2: CP = 3.64x\nC3: CP = 6.25x\nकुल CP = 12.29x, कुल SP = 12x\nहानि% ≈ 2.33%"
+    }
+  },
+  {
+    "questionNo": 63,
+    "question": {
+      "en": "A high-end watch is initially marked up by 50% above its cost price. During a sale, it is offered at a discount of 20% on its marked price. However, a special customer receives an additional discount of y% on the discounted price, bringing the final selling price to ₹4320. If the shopkeeper still makes a profit of 8% on the cost price after all discounts, what was the original cost price of the watch and the value of y?",
+      "hi": "एक महंगी घड़ी की कीमत शुरू में उसके लागत मूल्य से 50% अधिक है। एक सेल के दौरान, इसे उसके अंकित मूल्य पर 20% की छूट पर पेश किया जाता है। हालांकि, एक विशेष ग्राहक को छूट वाले मूल्य पर y% की अतिरिक्त छूट मिलती है, जिससे अंतिम बिक्री मूल्य ₹4320 हो जाता है। यदि सभी छूट के बाद भी दुकानदार को लागत मूल्य पर 8% का लाभ होता है, तो घड़ी का मूल लागत मूल्य और y का मूल्य क्या था?"
+    },
+    "options": [
+      { "en": "CP = ₹4000, y = 10%", "hi": "CP = ₹4000, y = 10%" },
+      { "en": "CP = ₹4500, y = 5%", "hi": "CP = ₹4500, y = 5%" },
+      { "en": "CP = ₹4800, y = 12.5%", "hi": "CP = ₹4800, y = 12.5%" },
+      { "en": "CP = ₹5000, y = 8%", "hi": "CP = ₹5000, y = 8%" }
+    ],
+    "correctAnswer": { "en": "CP = ₹4000, y = 10%", "hi": "CP = ₹4000, y = 10%" },
+    "explanation": {
+      "en": "Final SP = ₹4320 with 8% profit\nCP = 4320/1.08 = ₹4000\nMP = 4000 × 1.5 = ₹6000\nAfter 20% discount: 6000 × 0.8 = ₹4800\nAfter y% discount: 4800 × (1-y/100) = 4320\n1-y/100 = 0.9, so y = 10%",
+      "hi": "अंतिम SP = ₹4320, 8% लाभ के साथ\nCP = 4320/1.08 = ₹4000\nMP = 4000 × 1.5 = ₹6000\n20% छूट के बाद: ₹4800\ny% छूट के बाद: 4800 × (1-y/100) = 4320\ny = 10%"
+    }
+  },
+  {
+    "questionNo": 64,
+    "question": {
+      "en": "A and B can complete a task in 12 days and 18 days, respectively. They begin the work together, but B leaves after 4 days. How many more days will A take to finish the remaining work?",
+      "hi": "A और B किसी काम को क्रमशः 12 दिन और 18 दिन में पूरा कर सकते हैं। वे साथ मिलकर काम शुरू करते हैं, लेकिन B 4 दिन बाद काम छोड़ देता है। A को बचा हुआ काम पूरा करने में और कितने दिन लगेंगे?"
+    },
+    "options": [
+      { "en": "5⅓ days", "hi": "5⅓ दिन" },
+      { "en": "2¾ days", "hi": "2¾ दिन" },
+      { "en": "1⅕ days", "hi": "1⅕ दिन" },
+      { "en": "8⁶/₇ days", "hi": "8⁶/₇ दिन" }
+    ],
+    "correctAnswer": { "en": "5⅓ days", "hi": "5⅓ दिन" },
+    "explanation": {
+      "en": "A's 1 day work = 1/12\nB's 1 day work = 1/18\nTogether in 4 days = 4 × (1/12 + 1/18) = 4 × 5/36 = 20/36 = 5/9\nRemaining work = 1 - 5/9 = 4/9\nA alone: (4/9) ÷ (1/12) = 48/9 = 5⅓ days",
+      "hi": "A का 1 दिन का काम = 1/12\nB का 1 दिन का काम = 1/18\n4 दिन में साथ = 4 × 5/36 = 5/9\nशेष काम = 4/9\nA अकेले: (4/9) ÷ (1/12) = 5⅓ दिन"
+    }
+  },
+  {
+    "questionNo": 65,
+    "question": {
+      "en": "A shopkeeper mixes two qualities of tea. The first quality costs ₹150 per kg and is mixed with the second quality in the ratio 4:5. If the mixture is sold at ₹130 per kg (at no profit, no loss), what is the cost per kg of the second quality of tea?",
+      "hi": "एक दुकानदार दो प्रकार की चाय मिलाता है। पहली गुणवत्ता वाली चाय की कीमत ₹150 प्रति किलोग्राम है और इसे दूसरी गुणवत्ता वाली चाय के साथ 4:5 के अनुपात में मिलाया जाता है। यदि मिश्रण को ₹130 प्रति किलोग्राम (न लाभ, न हानि) पर बेचा जाता है, तो दूसरी गुणवत्ता वाली चाय की प्रति किलोग्राम कीमत क्या है?"
+    },
+    "options": [
+      { "en": "₹100", "hi": "₹100" },
+      { "en": "₹110", "hi": "₹110" },
+      { "en": "₹114", "hi": "₹114" },
+      { "en": "₹120", "hi": "₹120" }
+    ],
+    "correctAnswer": { "en": "₹114", "hi": "₹114" },
+    "explanation": {
+      "en": "Let cost of 2nd quality = x\nMixture CP = SP = ₹130 (no profit, no loss)\nUsing alligation: (4×150 + 5×x)/9 = 130\n600 + 5x = 1170\n5x = 570\nx = ₹114",
+      "hi": "माना दूसरी गुणवत्ता की कीमत = x\nमिश्रण CP = SP = ₹130\n(4×150 + 5×x)/9 = 130\n600 + 5x = 1170\nx = ₹114"
+    }
+  },
+  {
+    "questionNo": 66,
+    "question": {
+      "en": "A and B can complete a certain task together in 30 days. After A works for 16 days, B is left to finish the remaining work by himself in 44 days. How many days would it take for B to complete the entire task on his own?",
+      "hi": "A और B एक निश्चित कार्य को 30 दिनों में पूरा कर सकते हैं। A द्वारा 16 दिनों तक काम करने के बाद, B को शेष कार्य अकेले 44 दिनों में पूरा करना है। B को अकेले पूरा कार्य पूरा करने में कितने दिन लगेंगे?"
+    },
+    "options": [
+      { "en": "40 days", "hi": "40 दिन" },
+      { "en": "50 days", "hi": "50 दिन" },
+      { "en": "60 days", "hi": "60 दिन" },
+      { "en": "70 days", "hi": "70 दिन" }
+    ],
+    "correctAnswer": { "en": "60 days", "hi": "60 दिन" },
+    "explanation": {
+      "en": "Let A's rate = a, B's rate = b\na + b = 1/30\nA works 16 days: 16a\nB works 44 days for remaining: 44b\n16a + 44b = 1\nFrom a + b = 1/30: a = 1/30 - b\n16(1/30 - b) + 44b = 1\n16/30 - 16b + 44b = 1\n28b = 1 - 16/30 = 14/30\nb = 1/60\nB alone = 60 days",
+      "hi": "माना A की दर = a, B की दर = b\na + b = 1/30\n16a + 44b = 1\nहल करने पर: b = 1/60\nB अकेले = 60 दिन"
+    }
+  },
+  {
+    "questionNo": 67,
+    "question": {
+      "en": "A container holds a mixture of Orange, Apple, and Guava juices in the ratio of 5:7:4 respectively. 24 litres of this mixture is taken out, and then 10 litres of orange juice and 6 litres of guava juice are added to the vessel. If the resultant quantity of apple juice is 14 litres more than the resultant quantity of orange juice, what was the initial quantity of mixture in the vessel (in litres)?",
+      "hi": "एक बर्तन में संतरे, सेब और अमरूद के रस का मिश्रण क्रमशः 5:7:4 के अनुपात में है। इस मिश्रण का 24 लीटर निकाला जाता है, और फिर बर्तन में 10 लीटर संतरे का रस और 6 लीटर अमरूद का रस मिलाया जाता है। यदि सेब के रस की परिणामी मात्रा संतरे के रस की परिणामी मात्रा से 14 लीटर अधिक है, तो बर्तन में मिश्रण की प्रारंभिक मात्रा (लीटर में) क्या थी?"
+    },
+    "options": [
+      { "en": "216", "hi": "216" },
+      { "en": "210", "hi": "210" },
+      { "en": "214", "hi": "214" },
+      { "en": "235", "hi": "235" }
+    ],
+    "correctAnswer": { "en": "216", "hi": "216" },
+    "explanation": {
+      "en": "Let initial mixture = 16x (since 5+7+4 = 16)\nOrange = 5x, Apple = 7x, Guava = 4x\nAfter removing 24L: Orange = 5x - 24×(5/16), Apple = 7x - 24×(7/16)\nAfter adding: Orange = 5x - 7.5 + 10, Apple = 7x - 10.5\nApple - Orange = 14\n(7x - 10.5) - (5x + 2.5) = 14\n2x - 13 = 14\n2x = 27, x = 13.5\nInitial = 16 × 13.5 = 216 litres",
+      "hi": "माना प्रारंभिक मिश्रण = 16x\n24L निकालने के बाद और जोड़ने के बाद:\nसेब - संतरा = 14\n2x - 13 = 14\nx = 13.5\nप्रारंभिक = 16 × 13.5 = 216 लीटर"
+    }
+  },
+  {
+    "questionNo": 68,
+    "question": {
+      "en": "A delivery van travels at a constant speed of 60 km/h to cover a certain route in 1 hour and 45 minutes. If traffic increases the time taken by 15 minutes, by what percentage must the van's average speed decrease to complete the route?",
+      "hi": "एक डिलीवरी वैन 60 किमी/घंटा की स्थिर गति से यात्रा करते हुए एक निश्चित मार्ग को 1 घंटे और 45 मिनट में पूरा करती है। यदि यातायात के कारण लगने वाला समय 15 मिनट बढ़ जाता है, तो मार्ग को पूरा करने के लिए वैन की औसत गति में कितने प्रतिशत की कमी होनी चाहिए?"
+    },
+    "options": [
+      { "en": "10.5%", "hi": "10.5%" },
+      { "en": "12.5%", "hi": "12.5%" },
+      { "en": "15%", "hi": "15%" },
+      { "en": "20%", "hi": "20%" }
+    ],
+    "correctAnswer": { "en": "12.5%", "hi": "12.5%" },
+    "explanation": {
+      "en": "Original time = 1 hr 45 min = 1.75 hours\nDistance = 60 × 1.75 = 105 km\nNew time = 1.75 + 0.25 = 2 hours\nNew speed = 105/2 = 52.5 km/h\nDecrease = 60 - 52.5 = 7.5 km/h\nDecrease% = (7.5/60) × 100 = 12.5%",
+      "hi": "मूल समय = 1.75 घंटे\nदूरी = 60 × 1.75 = 105 किमी\nनया समय = 2 घंटे\nनई गति = 52.5 किमी/घंटा\nकमी% = (7.5/60) × 100 = 12.5%"
+    }
+  },
+  {
+    "questionNo": 69,
+    "question": {
+      "en": "A student walks from his home to school at a speed of 4 km/h and reaches 15 minutes late. If he increases his speed to 6 km/h, he reaches 5 minutes early. What is the distance (in km) from his home to school?",
+      "hi": "एक छात्र अपने घर से स्कूल 4 किमी/घंटा की गति से चलता है और 15 मिनट देरी से पहुंचता है। यदि वह अपनी गति बढ़ाकर 6 किमी/घंटा कर देता है, तो वह 5 मिनट पहले पहुंच जाता है। उसके घर से स्कूल की दूरी (किमी में) कितनी है?"
+    },
+    "options": [
+      { "en": "4 km", "hi": "4 किमी" },
+      { "en": "6 km", "hi": "6 किमी" },
+      { "en": "8 km", "hi": "8 किमी" },
+      { "en": "10 km", "hi": "10 किमी" }
+    ],
+    "correctAnswer": { "en": "4 km", "hi": "4 किमी" },
+    "explanation": {
+      "en": "Let distance = d km\nTime difference = 15 + 5 = 20 min = 1/3 hour\nd/4 - d/6 = 1/3\n(3d - 2d)/12 = 1/3\nd/12 = 1/3\nd = 4 km",
+      "hi": "माना दूरी = d किमी\nसमय अंतर = 20 मिनट = 1/3 घंटा\nd/4 - d/6 = 1/3\nd = 4 किमी"
+    }
+  },
+  {
+    "questionNo": 70,
+    "question": {
+      "en": "The cost of fencing a circular ground at ₹120/m is ₹3,768. Find the radius of the ground.",
+      "hi": "एक वृत्ताकार मैदान पर ₹120/मीटर की दर से बाड़ लगाने की लागत ₹3,768 है। मैदान की त्रिज्या ज्ञात कीजिए।"
+    },
+    "options": [
+      { "en": "5 m", "hi": "5 मी" },
+      { "en": "10 m", "hi": "10 मी" },
+      { "en": "15 m", "hi": "15 मी" },
+      { "en": "20 m", "hi": "20 मी" }
+    ],
+    "correctAnswer": { "en": "5 m", "hi": "5 मी" },
+    "explanation": {
+      "en": "Perimeter = Total cost / Rate = 3768/120 = 31.4 m\nCircumference = 2πr = 31.4\n2 × 3.14 × r = 31.4\nr = 31.4/6.28 = 5 m",
+      "hi": "परिमाप = कुल लागत / दर = 3768/120 = 31.4 मी\nपरिधि = 2πr = 31.4\nr = 31.4/6.28 = 5 मी"
+    }
+  },
+  {
+    "questionNo": 71,
+    "question": {
+      "en": "A circular logo of radius 14 cm is fitted perfectly inside a square plaque. Find the area of unused square space around the circle.",
+      "hi": "14 सेमी त्रिज्या वाला एक वृत्ताकार लोगो एक वर्गाकार पट्टिका के अंदर पूरी तरह से फिट किया गया है। वृत्त के चारों ओर अप्रयुक्त वर्गाकार स्थान का क्षेत्रफल ज्ञात कीजिए।"
+    },
+    "options": [
+      { "en": "168.25 cm²", "hi": "168.25 सेमी²" },
+      { "en": "56.78 cm²", "hi": "56.78 सेमी²" },
+      { "en": "161.54 cm²", "hi": "161.54 सेमी²" },
+      { "en": "168.0 cm²", "hi": "168.0 सेमी²" }
+    ],
+    "correctAnswer": { "en": "168.25 cm²", "hi": "168.25 सेमी²" },
+    "explanation": {
+      "en": "Diameter = 2 × 14 = 28 cm = Side of square\nArea of square = 28² = 784 cm²\nArea of circle = πr² = (22/7) × 14² = 616 cm²\nUnused area = 784 - 616 = 168 cm² ≈ 168.25 cm²",
+      "hi": "व्यास = 28 सेमी = वर्ग की भुजा\nवर्ग का क्षेत्रफल = 784 सेमी²\nवृत्त का क्षेत्रफल = 616 सेमी²\nअप्रयुक्त क्षेत्रफल = 784 - 616 ≈ 168.25 सेमी²"
+    }
+  },
+  {
+    "questionNo": 72,
+    "question": {
+      "en": "A circular clock has a radius of 14 cm. Calculate the distance covered by the tip of the minute hand in 30 minutes, assuming it is positioned at the edge of the clock face? (Use π = 22/7)",
+      "hi": "एक वृत्ताकार घड़ी की त्रिज्या 14 सेमी है। मिनट की सुई की नोक द्वारा 30 मिनट में तय की गई दूरी की गणना कीजिए, यह मानते हुए कि यह घड़ी के मुख के किनारे पर स्थित है? (π = 22/7 का प्रयोग करें)"
+    },
+    "options": [
+      { "en": "44 cm", "hi": "44 सेमी" },
+      { "en": "48 cm", "hi": "48 सेमी" },
+      { "en": "46 cm", "hi": "46 सेमी" },
+      { "en": "42 cm", "hi": "42 सेमी" }
+    ],
+    "correctAnswer": { "en": "44 cm", "hi": "44 सेमी" },
+    "explanation": {
+      "en": "In 60 minutes, minute hand completes full circle\nIn 30 minutes, it covers half circle = πr\nDistance = (22/7) × 14 = 44 cm",
+      "hi": "60 मिनट में, मिनट की सुई पूरा वृत्त पूरा करती है\n30 मिनट में, यह आधा वृत्त = πr तय करती है\nदूरी = (22/7) × 14 = 44 सेमी"
+    }
+  },
+  {
+    "questionNo": 73,
+    "question": {
+      "en": "What is the slope of line perpendicular to y = -3x + 7?",
+      "hi": "y = -3x + 7 के लंबवत रेखा का ढलान क्या है?"
+    },
+    "options": [
+      { "en": "-1/3", "hi": "-1/3" },
+      { "en": "3", "hi": "3" },
+      { "en": "1/3", "hi": "1/3" },
+      { "en": "-3", "hi": "-3" }
+    ],
+    "correctAnswer": { "en": "1/3", "hi": "1/3" },
+    "explanation": {
+      "en": "Slope of given line = -3\nFor perpendicular lines: m₁ × m₂ = -1\n-3 × m₂ = -1\nm₂ = 1/3",
+      "hi": "दी गई रेखा का ढलान = -3\nलंबवत रेखाओं के लिए: m₁ × m₂ = -1\n-3 × m₂ = -1\nm₂ = 1/3"
+    }
+  },
+  {
+    "questionNo": 74,
+    "question": {
+      "en": "Given x - 1/x = 3, find the value of x⁴ + 1/x⁴.",
+      "hi": "दिया गया है x - 1/x = 3, x⁴ + 1/x⁴ का मान ज्ञात कीजिए।"
+    },
+    "options": [
+      { "en": "119", "hi": "119" },
+      { "en": "125", "hi": "125" },
+      { "en": "130", "hi": "130" },
+      { "en": "145", "hi": "145" }
+    ],
+    "correctAnswer": { "en": "119", "hi": "119" },
+    "explanation": {
+      "en": "x - 1/x = 3\nSquaring: x² + 1/x² - 2 = 9\nx² + 1/x² = 11\nSquaring again: x⁴ + 1/x⁴ + 2 = 121\nx⁴ + 1/x⁴ = 119",
+      "hi": "x - 1/x = 3\nवर्ग करने पर: x² + 1/x² = 11\nफिर वर्ग करने पर: x⁴ + 1/x⁴ + 2 = 121\nx⁴ + 1/x⁴ = 119"
+    }
+  },
+  {
+    "questionNo": 75,
+    "question": {
+      "en": "2.5% of 200 = ?",
+      "hi": "200 का 2.5% = ?"
+    },
+    "options": [
+      { "en": "5", "hi": "5" },
+      { "en": "4", "hi": "4" },
+      { "en": "3", "hi": "3" },
+      { "en": "1", "hi": "1" }
+    ],
+    "correctAnswer": { "en": "5", "hi": "5" },
+    "explanation": {
+      "en": "2.5% of 200 = (2.5/100) × 200\n= 0.025 × 200\n= 5",
+      "hi": "200 का 2.5% = (2.5/100) × 200\n= 0.025 × 200\n= 5"
+    }
+  }
   ],
   "CHSL_TOP_100_MATHS": [
     {
