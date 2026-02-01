@@ -21,8 +21,25 @@ const {
 
 const { protect } = require('../middleware/auth');
 const { requireAdmin, requireSuperAdmin } = require('../middleware/admin');
+const { apiResponse } = require('../utils/helpers');
 
-// All routes require authentication and admin role
+// ============ ADMIN VERIFY ROUTE (No admin middleware here) ============
+// This lets frontend check if user is admin
+router.get('/verify', protect, (req, res) => {
+  const isAdmin = req.user && (req.user.role === 'admin' || req.user.role === 'superadmin');
+  
+  return apiResponse(res, 200, true, 'Admin verification', {
+    isAdmin,
+    user: isAdmin ? {
+      id: req.user.id,
+      email: req.user.email,
+      fullName: req.user.fullName,
+      role: req.user.role
+    } : null
+  });
+});
+
+// ============ ALL ROUTES BELOW REQUIRE ADMIN ============
 router.use(protect);
 router.use(requireAdmin);
 

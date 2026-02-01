@@ -1,36 +1,44 @@
 // src/scripts/createAdmin.js
 
-require('dotenv').config();
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../.env') });
+
 const { sequelize } = require('../config/database');
-const { User } = require('../models');
+const User = require('../models/User');
 
 const createAdmin = async () => {
   try {
+    // Connect to database
     await sequelize.authenticate();
-    console.log('Connected to database');
-    
-    // Find user by email or username
-    const email = process.argv[2]; // Pass email as argument
-    
-    if (!email) {
-      console.log('Usage: node src/scripts/createAdmin.js your@email.com');
-      process.exit(1);
+    console.log('✅ Database connected!\n');
+
+    // Get email from command line
+    const emailToMakeAdmin = process.argv[2];
+
+    if (emailToMakeAdmin) {
+      // Find user by email
+      const user = await User.findOne({ where: { email: emailToMakeAdmin } });
+      
+      if (user) {
+        // Update role to admin
+        await user.update({ role: 'admin' });
+        console.log('✅ SUCCESS! User is now admin:');
+        console.log(`   📧 Email: ${user.email}`);
+        console.log(`   👤 Name: ${user.fullName}`);
+        console.log(`   🔑 Role: admin`);
+      } else {
+        console.log(`❌ User with email "${emailToMakeAdmin}" not found.`);
+        console.log('\n📋 Existing users:');
+        const allUsers = await User.findAll({ attributes: ['email', 'fullName', 'role'] });
+        allUsers.forEach(u => console.log(`   - ${u.email} (${u.role})`));
+      }
+    } else {
+      console.log('❌ Please provide an email!\n');
+      console.log('Usage: node src/scripts/createAdmin.js youremail@example.com');
     }
-    
-    const user = await User.findOne({ where: { email } });
-    
-    if (!user) {
-      console.log('User not found with email:', email);
-      process.exit(1);
-    }
-    
-    await user.update({ role: 'superadmin' });
-    
-    console.log(`✅ User ${user.username} (${user.email}) is now a superadmin!`);
+
     process.exit(0);
-    
   } catch (error) {
-    console.error('Error:', error);
+    console.error('❌ Error:', error.message);
     process.exit(1);
   }
 };
