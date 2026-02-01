@@ -1,14 +1,12 @@
 // src/controllers/adminController.js
 
 const { Op } = require('sequelize');
+const { sequelize } = require('../config/database');
 const { User, Test, TestAttempt, LoginLog, ErrorLog } = require('../models');
 const { apiResponse } = require('../utils/helpers');
 
 // ==================== DASHBOARD ====================
 
-// @desc    Get admin dashboard stats
-// @route   GET /api/admin/dashboard
-// @access  Admin
 exports.getDashboardStats = async (req, res, next) => {
   try {
     const today = new Date();
@@ -56,9 +54,6 @@ exports.getDashboardStats = async (req, res, next) => {
 
 // ==================== USER MANAGEMENT ====================
 
-// @desc    Get all users
-// @route   GET /api/admin/users
-// @access  Admin
 exports.getAllUsers = async (req, res, next) => {
   try {
     const { page = 1, limit = 20, search, role, isActive } = req.query;
@@ -97,9 +92,6 @@ exports.getAllUsers = async (req, res, next) => {
   }
 };
 
-// @desc    Update user role
-// @route   PUT /api/admin/users/:id/role
-// @access  SuperAdmin
 exports.updateUserRole = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -115,23 +107,26 @@ exports.updateUserRole = async (req, res, next) => {
       return apiResponse(res, 404, false, 'User not found');
     }
     
-    // Prevent changing own role
     if (user.id === req.user.id) {
       return apiResponse(res, 400, false, 'Cannot change your own role');
     }
     
     await user.update({ role });
     
-    apiResponse(res, 200, true, 'User role updated', { user: user.toSafeObject() });
+    const userResponse = {
+      id: user.id,
+      email: user.email,
+      fullName: user.fullName,
+      role: user.role
+    };
+    
+    apiResponse(res, 200, true, 'User role updated', { user: userResponse });
     
   } catch (error) {
     next(error);
   }
 };
 
-// @desc    Toggle user active status
-// @route   PUT /api/admin/users/:id/toggle-active
-// @access  Admin
 exports.toggleUserActive = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -148,8 +143,16 @@ exports.toggleUserActive = async (req, res, next) => {
     
     await user.update({ isActive: !user.isActive });
     
+    const userResponse = {
+      id: user.id,
+      email: user.email,
+      fullName: user.fullName,
+      role: user.role,
+      isActive: user.isActive
+    };
+    
     apiResponse(res, 200, true, `User ${user.isActive ? 'activated' : 'deactivated'}`, {
-      user: user.toSafeObject()
+      user: userResponse
     });
     
   } catch (error) {
@@ -157,9 +160,6 @@ exports.toggleUserActive = async (req, res, next) => {
   }
 };
 
-// @desc    Delete user
-// @route   DELETE /api/admin/users/:id
-// @access  SuperAdmin
 exports.deleteUser = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -189,9 +189,6 @@ exports.deleteUser = async (req, res, next) => {
 
 // ==================== TEST MANAGEMENT ====================
 
-// @desc    Get all tests
-// @route   GET /api/admin/tests
-// @access  Admin
 exports.getAllTests = async (req, res, next) => {
   try {
     const { examType, subject, isActive, page = 1, limit = 20 } = req.query;
@@ -207,7 +204,7 @@ exports.getAllTests = async (req, res, next) => {
       order: [['order', 'ASC'], ['createdAt', 'DESC']],
       limit: parseInt(limit),
       offset: parseInt(offset),
-      include: [{ model: User, as: 'creator', attributes: ['username'] }]
+      include: [{ model: User, as: 'creator', attributes: ['username'], required: false }]
     });
     
     apiResponse(res, 200, true, 'Tests retrieved', {
@@ -222,9 +219,6 @@ exports.getAllTests = async (req, res, next) => {
   }
 };
 
-// @desc    Create new test
-// @route   POST /api/admin/tests
-// @access  Admin
 exports.createTest = async (req, res, next) => {
   try {
     const {
@@ -243,7 +237,6 @@ exports.createTest = async (req, res, next) => {
       order
     } = req.body;
     
-    // Check if testId already exists
     const existingTest = await Test.findOne({ where: { testId } });
     if (existingTest) {
       return apiResponse(res, 400, false, 'Test ID already exists');
@@ -273,9 +266,6 @@ exports.createTest = async (req, res, next) => {
   }
 };
 
-// @desc    Update test
-// @route   PUT /api/admin/tests/:id
-// @access  Admin
 exports.updateTest = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -308,9 +298,6 @@ exports.updateTest = async (req, res, next) => {
   }
 };
 
-// @desc    Delete test
-// @route   DELETE /api/admin/tests/:id
-// @access  Admin
 exports.deleteTest = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -330,9 +317,6 @@ exports.deleteTest = async (req, res, next) => {
   }
 };
 
-// @desc    Add questions to test
-// @route   POST /api/admin/tests/:id/questions
-// @access  Admin
 exports.addQuestions = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -348,7 +332,6 @@ exports.addQuestions = async (req, res, next) => {
       return apiResponse(res, 404, false, 'Test not found');
     }
     
-    // Merge with existing questions
     const existingQuestions = test.questions || [];
     const updatedQuestions = [...existingQuestions, ...questions];
     
@@ -366,15 +349,12 @@ exports.addQuestions = async (req, res, next) => {
   }
 };
 
-// @desc    Get single test with questions
-// @route   GET /api/admin/tests/:id
-// @access  Admin
 exports.getTestById = async (req, res, next) => {
   try {
     const { id } = req.params;
     
     const test = await Test.findByPk(id, {
-      include: [{ model: User, as: 'creator', attributes: ['username'] }]
+      include: [{ model: User, as: 'creator', attributes: ['username'], required: false }]
     });
     
     if (!test) {
@@ -388,83 +368,19 @@ exports.getTestById = async (req, res, next) => {
   }
 };
 
-// ==================== LOGS ====================
+// ==================== NEW TEST FEATURES ====================
 
-// @desc    Get error logs
-// @route   GET /api/admin/logs/errors
-// @access  Admin
-exports.getErrorLogs = async (req, res, next) => {
-  try {
-    const { page = 1, limit = 50, level } = req.query;
-    const offset = (page - 1) * limit;
-    
-    const where = {};
-    if (level) where.level = level;
-    
-    const { count, rows } = await ErrorLog.findAndCountAll({
-      where,
-      order: [['createdAt', 'DESC']],
-      limit: parseInt(limit),
-      offset: parseInt(offset)
-    });
-    
-    apiResponse(res, 200, true, 'Error logs retrieved', {
-      total: count,
-      page: parseInt(page),
-      logs: rows
-    });
-    
-  } catch (error) {
-    next(error);
-  }
-};
-
-// @desc    Get login logs
-// @route   GET /api/admin/logs/logins
-// @access  Admin
-exports.getLoginLogs = async (req, res, next) => {
-  try {
-    const { page = 1, limit = 50, status } = req.query;
-    const offset = (page - 1) * limit;
-    
-    const where = {};
-    if (status) where.status = status;
-    
-    const { count, rows } = await LoginLog.findAndCountAll({
-      where,
-      order: [['createdAt', 'DESC']],
-      limit: parseInt(limit),
-      offset: parseInt(offset),
-      include: [{ model: User, as: 'user', attributes: ['username', 'email'] }]
-    });
-    
-    apiResponse(res, 200, true, 'Login logs retrieved', {
-      total: count,
-      page: parseInt(page),
-      logs: rows
-    });
-    
-  } catch (error) {
-    next(error);
-  }
-  // ==================== NEW FEATURES ====================
-
-// @desc    Duplicate a test
-// @route   POST /api/admin/tests/:id/duplicate
-// @access  Admin
 exports.duplicateTest = async (req, res, next) => {
   try {
     const { id } = req.params;
     const { newTestId, title } = req.body;
     
-    // Find original test
     const originalTest = await Test.findByPk(id);
     
     if (!originalTest) {
       return apiResponse(res, 404, false, 'Test not found');
     }
     
-    // Check if newTestId already exists
     if (newTestId) {
       const existing = await Test.findOne({ where: { testId: newTestId } });
       if (existing) {
@@ -472,7 +388,6 @@ exports.duplicateTest = async (req, res, next) => {
       }
     }
     
-    // Create duplicate
     const duplicateData = {
       testId: newTestId || `${originalTest.testId}-copy`,
       title: title || `${originalTest.title} (Copy)`,
@@ -483,8 +398,8 @@ exports.duplicateTest = async (req, res, next) => {
       totalMarks: originalTest.totalMarks,
       duration: originalTest.duration,
       difficulty: originalTest.difficulty,
-      questions: originalTest.questions, // Copy all questions
-      isActive: false, // Start as inactive
+      questions: originalTest.questions,
+      isActive: false,
       isNew: true,
       order: 0,
       createdBy: req.user.id
@@ -499,9 +414,6 @@ exports.duplicateTest = async (req, res, next) => {
   }
 };
 
-// @desc    Bulk upload questions (JSON)
-// @route   POST /api/admin/tests/:id/bulk-questions
-// @access  Admin
 exports.bulkUploadQuestions = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -511,7 +423,6 @@ exports.bulkUploadQuestions = async (req, res, next) => {
       return apiResponse(res, 400, false, 'Questions must be an array');
     }
     
-    // Validate question format
     const validQuestions = questions.every(q => 
       q.question && 
       q.options && 
@@ -521,7 +432,7 @@ exports.bulkUploadQuestions = async (req, res, next) => {
     );
     
     if (!validQuestions) {
-      return apiResponse(res, 400, false, 'Invalid question format. Each question must have: question, options (array), correctAnswer');
+      return apiResponse(res, 400, false, 'Invalid question format');
     }
     
     const test = await Test.findByPk(id);
@@ -530,7 +441,6 @@ exports.bulkUploadQuestions = async (req, res, next) => {
       return apiResponse(res, 404, false, 'Test not found');
     }
     
-    // Replace or append questions
     const updatedQuestions = replace ? questions : [...(test.questions || []), ...questions];
     
     await test.update({
@@ -548,9 +458,6 @@ exports.bulkUploadQuestions = async (req, res, next) => {
   }
 };
 
-// @desc    Toggle test active status
-// @route   PUT /api/admin/tests/:id/toggle-active
-// @access  Admin
 exports.toggleTestActive = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -563,18 +470,13 @@ exports.toggleTestActive = async (req, res, next) => {
     
     await test.update({ isActive: !test.isActive });
     
-    apiResponse(res, 200, true, `Test ${test.isActive ? 'activated' : 'deactivated'}`, {
-      test
-    });
+    apiResponse(res, 200, true, `Test ${test.isActive ? 'activated' : 'deactivated'}`, { test });
     
   } catch (error) {
     next(error);
   }
 };
 
-// @desc    Delete single question from test
-// @route   DELETE /api/admin/tests/:id/questions/:questionIndex
-// @access  Admin
 exports.deleteQuestion = async (req, res, next) => {
   try {
     const { id, questionIndex } = req.params;
@@ -608,9 +510,6 @@ exports.deleteQuestion = async (req, res, next) => {
   }
 };
 
-// @desc    Update single question in test
-// @route   PUT /api/admin/tests/:id/questions/:questionIndex
-// @access  Admin
 exports.updateQuestion = async (req, res, next) => {
   try {
     const { id, questionIndex } = req.params;
@@ -642,9 +541,6 @@ exports.updateQuestion = async (req, res, next) => {
   }
 };
 
-// @desc    Get test statistics
-// @route   GET /api/admin/tests/:id/stats
-// @access  Admin
 exports.getTestStats = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -655,14 +551,14 @@ exports.getTestStats = async (req, res, next) => {
       return apiResponse(res, 404, false, 'Test not found');
     }
     
-    const [totalAttempts, avgScore, highestScore] = await Promise.all([
-      TestAttempt.count({ where: { testId: test.testId } }),
-      TestAttempt.findAll({
-        where: { testId: test.testId },
-        attributes: [[sequelize.fn('AVG', sequelize.col('score')), 'avgScore']]
-      }),
-      TestAttempt.max('score', { where: { testId: test.testId } })
-    ]);
+    const totalAttempts = await TestAttempt.count({ where: { testId: test.testId } });
+    
+    const avgScoreResult = await TestAttempt.findAll({
+      where: { testId: test.testId },
+      attributes: [[sequelize.fn('AVG', sequelize.col('score')), 'avgScore']]
+    });
+    
+    const highestScore = await TestAttempt.max('score', { where: { testId: test.testId } }) || 0;
     
     const recentAttempts = await TestAttempt.findAll({
       where: { testId: test.testId },
@@ -675,8 +571,8 @@ exports.getTestStats = async (req, res, next) => {
       test,
       stats: {
         totalAttempts,
-        avgScore: avgScore[0]?.dataValues?.avgScore || 0,
-        highestScore: highestScore || 0,
+        avgScore: avgScoreResult[0]?.dataValues?.avgScore || 0,
+        highestScore,
         totalQuestions: test.questions?.length || 0
       },
       recentAttempts
@@ -685,13 +581,59 @@ exports.getTestStats = async (req, res, next) => {
   } catch (error) {
     next(error);
   }
-  // At the END of adminController.js, make sure you have:
-
-exports.duplicateTest = async (req, res, next) => { ... }
-exports.bulkUploadQuestions = async (req, res, next) => { ... }
-exports.toggleTestActive = async (req, res, next) => { ... }
-exports.deleteQuestion = async (req, res, next) => { ... }
-exports.updateQuestion = async (req, res, next) => { ... }
-exports.getTestStats = async (req, res, next) => { ... }
 };
+
+// ==================== LOGS ====================
+
+exports.getErrorLogs = async (req, res, next) => {
+  try {
+    const { page = 1, limit = 50, level } = req.query;
+    const offset = (page - 1) * limit;
+    
+    const where = {};
+    if (level) where.level = level;
+    
+    const { count, rows } = await ErrorLog.findAndCountAll({
+      where,
+      order: [['createdAt', 'DESC']],
+      limit: parseInt(limit),
+      offset: parseInt(offset)
+    });
+    
+    apiResponse(res, 200, true, 'Error logs retrieved', {
+      total: count,
+      page: parseInt(page),
+      logs: rows
+    });
+    
+  } catch (error) {
+    next(error);
+  }
+};
+
+exports.getLoginLogs = async (req, res, next) => {
+  try {
+    const { page = 1, limit = 50, status } = req.query;
+    const offset = (page - 1) * limit;
+    
+    const where = {};
+    if (status) where.status = status;
+    
+    const { count, rows } = await LoginLog.findAndCountAll({
+      where,
+      order: [['createdAt', 'DESC']],
+      limit: parseInt(limit),
+      offset: parseInt(offset),
+      include: [{ model: User, as: 'user', attributes: ['username', 'email'] }]
+    });
+    
+    apiResponse(res, 200, true, 'Login logs retrieved', {
+      total: count,
+      page: parseInt(page),
+      logs: rows
+    });
+    
+  } catch (error) {
+    next(error);
+  }
 };
