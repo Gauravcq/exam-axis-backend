@@ -5299,7 +5299,7 @@
     }
   ],
 "ssc_cgl_reasoning_14_sep_s3" : [
-[
+
   {
     "questionNo": 1,
     "question": {
@@ -5750,8 +5750,8 @@
       "hi": "42 और 42 का योग = 42 + 42 = 84\n4 से गुणा = 84 × 4 = 336"
     }
   }
-]
-  ],
+],
+
   "ssc_cgl_13_sep_s1": [
     {
       "question": "<img src='../images/alg.png' alt='Question 01' style='max-width: 100%; height: auto;'>",
