@@ -1,12 +1,44 @@
 // src/middleware/admin.js
-const admin = (req, res, next) => {
-    if (!req.user || !req.user.isAdmin) {
-        return res.status(403).json({
-            success: false,
-            message: 'Admin access required'
-        });
+
+const { apiResponse } = require('../utils/helpers');
+
+/**
+ * Middleware: Require Admin role
+ */
+const requireAdmin = (req, res, next) => {
+    if (!req.user) {
+        return apiResponse(res, 401, false, 'Authentication required');
     }
+    
+    if (req.user.role !== 'admin' && req.user.role !== 'superadmin') {
+        return apiResponse(res, 403, false, 'Admin access required');
+    }
+    
     next();
 };
 
-module.exports = admin;
+/**
+ * Middleware: Require Super Admin role
+ */
+const requireSuperAdmin = (req, res, next) => {
+    if (!req.user) {
+        return apiResponse(res, 401, false, 'Authentication required');
+    }
+    
+    if (req.user.role !== 'superadmin') {
+        return apiResponse(res, 403, false, 'Super Admin access required');
+    }
+    
+    next();
+};
+
+/**
+ * Middleware: Check if admin (legacy/alias)
+ */
+const admin = requireAdmin;
+
+module.exports = {
+    admin,
+    requireAdmin,
+    requireSuperAdmin
+};
