@@ -5408,42 +5408,49 @@
       "hi": "अंतर: 8, 22, 42, 68\nदूसरा अंतर: 14, 20, 26\nपैटर्न: +6\nअगला दूसरा अंतर = 32\nअगला पहला अंतर = 100\nउत्तर = 141+100 = 241"
     }
   },
-  {
-    "questionNo": 7,
-    "question": {
-      "en": "Read the following statement carefully and identify the conclusion that follows.\nStatement: Smoking is prohibited in public places as per the new law.\nConclusions:\nI. People can smoke in private spaces.\nII. Smoking harms public health.",
-      "hi": "निम्नलिखित कथन को ध्यानपूर्वक पढ़ें और निष्कर्ष निकालें।\nकथन: नए कानून के अनुसार सार्वजनिक स्थानों पर धूम्रपान निषिद्ध है।\nनिष्कर्ष:\nI. लोग निजी स्थानों पर धूम्रपान कर सकते हैं।\nII. धूम्रपान जन स्वास्थ्य के लिए हानिकारक है।"
-    },
-    "options": [
-      { "en": "Only Conclusion I follows", "hi": "केवल निष्कर्ष I अनुसरण करता है" },
-      { "en": "Only Conclusion II follows", "hi": "केवल निष्कर्ष II अनुसरण करता है" },
-      { "en": "Both I and II follow", "hi": "I और II दोनों अनुसरण करते हैं" },
-      { "en": "Neither I nor II follows", "hi": "न तो I और न ही II अनुसरण करता है" }
-    ],
-    "correctAnswer": { "en": "Neither I nor II follows", "hi": "न तो I और न ही II अनुसरण करता है" },
-    "explanation": {
-      "en": "The statement only says smoking is prohibited in public places\nConclusion I: Not stated - law doesn't mention private spaces\nConclusion II: Not stated - reason for prohibition is not given\nNeither conclusion directly follows from the statement",
-      "hi": "कथन केवल कहता है कि सार्वजनिक स्थानों पर धूम्रपान निषिद्ध है\nनिष्कर्ष I: नहीं कहा - निजी स्थानों का उल्लेख नहीं\nनिष्कर्ष II: नहीं कहा - निषेध का कारण नहीं दिया\nकोई भी निष्कर्ष सीधे अनुसरण नहीं करता"
-    }
+ {
+  "questionNo": 7,
+  "question": {
+    "en": "Read the following statement carefully and identify the conclusion that follows.\n\nStatement:\nSmoking is prohibited in public places as per the new law.\n\nConclusions:\nI. People can smoke in private spaces.\nII. Smoking harms public health.",
+    "hi": "निम्नलिखित कथन को ध्यानपूर्वक पढ़ें और निष्कर्ष निकालें।\n\nकथन:\nनए कानून के अनुसार सार्वजनिक स्थानों पर धूम्रपान निषिद्ध है।\n\nनिष्कर्ष:\nI. लोग निजी स्थानों पर धूम्रपान कर सकते हैं।\nII. धूम्रपान जन स्वास्थ्य के लिए हानिकारक है।"
   },
-  {
-    "questionNo": 8,
-    "question": {
-      "en": "Instruction: Identify the assumptions that must hold for the statement to be valid, then choose the correct option.\nStatement: The Himalayas act as a natural barrier that prevents the monsoon winds from reaching the northern plains, thereby creating a dry region in the rain shadow area.\nAssumptions:\nI. The Himalayas prevent monsoon winds from reaching certain areas.\nII. The rain shadow effect leads to dry conditions in specific regions.\nIII. Monsoon winds are the sole cause of rainfall in the northern plains.",
-      "hi": "निर्देश: कथन को मान्य बनाने के लिए आवश्यक मान्यताओं की पहचान करें, फिर सही विकल्प चुनें।\nकथन: हिमालय एक प्राकृतिक अवरोध के रूप में कार्य करता है जो मानसूनी हवाओं को उत्तरी मैदानों तक पहुँचने से रोकता है, जिससे वर्षा छाया क्षेत्र में एक शुष्क क्षेत्र बनता है।\nमान्यताएँ:\nI. हिमालय मानसूनी हवाओं को कुछ क्षेत्रों तक पहुँचने से रोकता है।\nII. वर्षा छाया प्रभाव के कारण विशिष्ट क्षेत्रों में शुष्क स्थितियाँ उत्पन्न होती हैं।\nIII. मानसूनी हवाएँ उत्तरी मैदानों में वर्षा का एकमात्र कारण हैं।"
-    },
-    "options": [
-      { "en": "Only I and II are implicit", "hi": "केवल I और II निहित हैं" },
-      { "en": "Only II and III are implicit", "hi": "केवल II और III अंतर्निहित हैं" },
-      { "en": "Only I is implicit", "hi": "केवल I निहित है" },
-      { "en": "All assumptions are implicit", "hi": "सभी धारणाएं अंतर्निहित हैं" }
-    ],
-    "correctAnswer": { "en": "Only I and II are implicit", "hi": "केवल I और II निहित हैं" },
-    "explanation": {
-      "en": "Assumption I: Directly stated in the passage - Himalayas prevent monsoon winds\nAssumption II: Stated - rain shadow creates dry region\nAssumption III: Not implicit - \"sole cause\" is an extreme claim not supported\nOnly I and II are implicit",
-      "hi": "मान्यता I: सीधे कहा गया - हिमालय मानसून रोकता है\nमान्यता II: कहा गया - वर्षा छाया शुष्क क्षेत्र बनाती है\nमान्यता III: निहित नहीं - \"एकमात्र कारण\" अत्यधिक दावा है\nकेवल I और II निहित हैं"
-    }
+  "options": [
+    { "en": "Only Conclusion I follows", "hi": "केवल निष्कर्ष I अनुसरण करता है" },
+    { "en": "Only Conclusion II follows", "hi": "केवल निष्कर्ष II अनुसरण करता है" },
+    { "en": "Both I and II follow", "hi": "I और II दोनों अनुसरण करते हैं" },
+    { "en": "Neither I nor II follows", "hi": "न तो I और न ही II अनुसरण करता है" }
+  ],
+  "correctAnswer": {
+    "en": "Neither I nor II follows",
+    "hi": "न तो I और न ही II अनुसरण करता है"
   },
+  "explanation": {
+    "en": "The statement only says smoking is prohibited in public places.\n\nConclusion I:\nNot stated – law doesn't mention private spaces.\n\nConclusion II:\nNot stated – reason for prohibition is not given.\n\nNeither conclusion directly follows from the statement.",
+    "hi": "कथन केवल कहता है कि सार्वजनिक स्थानों पर धूम्रपान निषिद्ध है।\n\nनिष्कर्ष I:\nनहीं कहा गया – निजी स्थानों का उल्लेख नहीं है।\n\nनिष्कर्ष II:\nनहीं कहा गया – निषेध का कारण नहीं दिया गया है।\n\nकोई भी निष्कर्ष सीधे अनुसरण नहीं करता।"
+  }
+},
+{
+  "questionNo": 8,
+  "question": {
+    "en": "Instruction: Identify the assumptions that must hold for the statement to be valid, then choose the correct option.\n\nStatement:\nThe Himalayas act as a natural barrier that prevents the monsoon winds from reaching the northern plains, thereby creating a dry region in the rain shadow area.\n\nAssumptions:\nI. The Himalayas prevent monsoon winds from reaching certain areas.\nII. The rain shadow effect leads to dry conditions in specific regions.\nIII. Monsoon winds are the sole cause of rainfall in the northern plains.",
+    "hi": "निर्देश: कथन को मान्य बनाने के लिए आवश्यक मान्यताओं की पहचान करें, फिर सही विकल्प चुनें।\n\nकथन:\nहिमालय एक प्राकृतिक अवरोध के रूप में कार्य करता है जो मानसूनी हवाओं को उत्तरी मैदानों तक पहुँचने से रोकता है, जिससे वर्षा छाया क्षेत्र में एक शुष्क क्षेत्र बनता है।\n\nमान्यताएँ:\nI. हिमालय मानसूनी हवाओं को कुछ क्षेत्रों तक पहुँचने से रोकता है।\nII. वर्षा छाया प्रभाव के कारण विशिष्ट क्षेत्रों में शुष्क स्थितियाँ उत्पन्न होती हैं।\nIII. मानसूनी हवाएँ उत्तरी मैदानों में वर्षा का एकमात्र कारण हैं।"
+  },
+  "options": [
+    { "en": "Only I and II are implicit", "hi": "केवल I और II निहित हैं" },
+    { "en": "Only II and III are implicit", "hi": "केवल II और III अंतर्निहित हैं" },
+    { "en": "Only I is implicit", "hi": "केवल I निहित है" },
+    { "en": "All assumptions are implicit", "hi": "सभी धारणाएं अंतर्निहित हैं" }
+  ],
+  "correctAnswer": {
+    "en": "Only I and II are implicit",
+    "hi": "केवल I और II निहित हैं"
+  },
+  "explanation": {
+    "en": "Assumption I:\nDirectly stated in the passage – Himalayas prevent monsoon winds.\n\nAssumption II:\nStated – rain shadow creates a dry region.\n\nAssumption III:\nNot implicit – \"sole cause\" is an extreme claim not supported.\n\nOnly I and II are implicit.",
+    "hi": "मान्यता I:\nसीधे कहा गया – हिमालय मानसूनी हवाओं को रोकता है।\n\nमान्यता II:\nकहा गया – वर्षा छाया शुष्क क्षेत्र बनाती है।\n\nमान्यता III:\nनिहित नहीं – \"एकमात्र कारण\" एक अतिशयोक्तिपूर्ण दावा है।\n\nकेवल I और II निहित हैं।"
+  }
+},
+
   {
     "questionNo": 9,
     "question": {
