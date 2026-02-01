@@ -5480,24 +5480,27 @@
       "hi": "HARMONIOUS → वर्णानुक्रम → AHIMNOORSU\nबाएं से 1ला = A\nदाएं से 4था = O\nA और O के बीच: B,C,D,E,F,G,H,I,J,K,L,M,N\nगिनती = 13 अक्षर"
     }
   },
-  {
-    "questionNo": 11,
-    "question": {
-      "en": "Which of the following is/are identical to the address given: Priya Yadav B-22, Rosewood Heights, Sector 15, Gurgaon, 122002\n1. Priya Yadav B-22, Rosewood Heights, Sector 15, Gurgaon, 122002\n2. Priya Yadav B-22, Rosewood Heights, Sector 15, Gurugram, 122002\n3. Priya Yadav B-22, Rosewood Heights, Sector 15, Gurgaon, 122003\n4. Priya Yadav B-22, Rosewood Heights, Sector 15, Gurgaon, 122001",
-      "hi": "निम्नलिखित में से कौन सा/से दिए गए पते के समान है: प्रिया यादव बी-22, रोज़वुड हाइट्स, सेक्टर 15, गुड़गांव, 122002\n1. प्रिया यादव बी-22, रोज़वुड हाइट्स, सेक्टर 15, गुड़गांव, 122002\n2. प्रिया यादव बी-22, रोज़वुड हाइट्स, सेक्टर 15, गुरुग्राम, 122002\n3. प्रिया यादव बी-22, रोज़वुड हाइट्स, सेक्टर 15, गुड़गांव, 122003\n4. प्रिया यादव बी-22, रोज़वुड हाइट्स, सेक्टर 15, गुड़गांव, 122001"
-    },
-    "options": [
-      { "en": "2 Only", "hi": "केवल 2" },
-      { "en": "1 Only", "hi": "केवल 1" },
-      { "en": "4 Only", "hi": "केवल 4" },
-      { "en": "3 Only", "hi": "केवल 3" }
-    ],
-    "correctAnswer": { "en": "1 Only", "hi": "केवल 1" },
-    "explanation": {
-      "en": "Original: Priya Yadav B-22, Rosewood Heights, Sector 15, Gurgaon, 122002\nOption 1: Exactly matches - Identical ✓\nOption 2: Gurugram ≠ Gurgaon - Different\nOption 3: 122003 ≠ 122002 - Different pincode\nOption 4: 122001 ≠ 122002 - Different pincode\nOnly Option 1 is identical",
-      "hi": "मूल पता के साथ तुलना:\nविकल्प 1: बिल्कुल मेल खाता है ✓\nविकल्प 2: गुरुग्राम ≠ गुड़गांव - अलग\nविकल्प 3: 122003 ≠ 122002 - अलग पिनकोड\nविकल्प 4: 122001 ≠ 122002 - अलग पिनकोड\nकेवल विकल्प 1 समान है"
-    }
+{
+  "questionNo": 11,
+  "question": {
+    "en": "Which of the following is/are identical to the address given:\n\nPriya Yadav B-22, Rosewood Heights, Sector 15, Gurgaon, 122002\n\n1. Priya Yadav B-22, Rosewood Heights, Sector 15, Gurgaon, 122002\n2. Priya Yadav B-22, Rosewood Heights, Sector 15, Gurugram, 122002\n3. Priya Yadav B-22, Rosewood Heights, Sector 15, Gurgaon, 122003\n4. Priya Yadav B-22, Rosewood Heights, Sector 15, Gurgaon, 122001",
+    "hi": "निम्नलिखित में से कौन सा/से दिए गए पते के समान है:\n\nप्रिया यादव बी-22, रोज़वुड हाइट्स, सेक्टर 15, गुड़गांव, 122002\n\n1. प्रिया यादव बी-22, रोज़वुड हाइट्स, सेक्टर 15, गुड़गांव, 122002\n2. प्रिया यादव बी-22, रोज़वुड हाइट्स, सेक्टर 15, गुरुग्राम, 122002\n3. प्रिया यादव बी-22, रोज़वुड हाइट्स, सेक्टर 15, गुड़गांव, 122003\n4. प्रिया यादव बी-22, रोज़वुड हाइट्स, सेक्टर 15, गुड़गांव, 122001"
   },
+  "options": [
+    { "en": "2 Only", "hi": "केवल 2" },
+    { "en": "1 Only", "hi": "केवल 1" },
+    { "en": "4 Only", "hi": "केवल 4" },
+    { "en": "3 Only", "hi": "केवल 3" }
+  ],
+  "correctAnswer": {
+    "en": "1 Only",
+    "hi": "केवल 1"
+  },
+  "explanation": {
+    "en": "Original Address:\nPriya Yadav B-22, Rosewood Heights, Sector 15, Gurgaon, 122002\n\nOption 1: Exactly matches ✓\nOption 2: Gurugram ≠ Gurgaon\nOption 3: 122003 ≠ 122002\nOption 4: 122001 ≠ 122002\n\nOnly Option 1 is identical.",
+    "hi": "मूल पता:\nप्रिया यादव बी-22, रोज़वुड हाइट्स, सेक्टर 15, गुड़गांव, 122002\n\nविकल्प 1: बिल्कुल मेल खाता है ✓\nविकल्प 2: गुरुग्राम ≠ गुड़गांव\nविकल्प 3: 122003 ≠ 122002\nविकल्प 4: 122001 ≠ 122002\n\nकेवल विकल्प 1 समान है।"
+  }
+},
   {
     "questionNo": 12,
     "question": {
