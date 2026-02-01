@@ -16,15 +16,21 @@ const {
   addQuestions,
   getTestById,
   getErrorLogs,
-  getLoginLogs
+  getLoginLogs,
+  // NEW FUNCTIONS
+  duplicateTest,
+  bulkUploadQuestions,
+  toggleTestActive,
+  deleteQuestion,
+  updateQuestion,
+  getTestStats
 } = require('../controllers/adminController');
 
 const { protect } = require('../middleware/auth');
 const { requireAdmin, requireSuperAdmin } = require('../middleware/admin');
 const { apiResponse } = require('../utils/helpers');
 
-// ============ ADMIN VERIFY ROUTE (No admin middleware here) ============
-// This lets frontend check if user is admin
+// ============ ADMIN VERIFY ROUTE ============
 router.get('/verify', protect, (req, res) => {
   const isAdmin = req.user && (req.user.role === 'admin' || req.user.role === 'superadmin');
   
@@ -43,24 +49,34 @@ router.get('/verify', protect, (req, res) => {
 router.use(protect);
 router.use(requireAdmin);
 
-// Dashboard
+// ==================== DASHBOARD ====================
 router.get('/dashboard', getDashboardStats);
 
-// User Management
+// ==================== USER MANAGEMENT ====================
 router.get('/users', getAllUsers);
 router.put('/users/:id/role', requireSuperAdmin, updateUserRole);
 router.put('/users/:id/toggle-active', toggleUserActive);
 router.delete('/users/:id', requireSuperAdmin, deleteUser);
 
-// Test Management
+// ==================== TEST MANAGEMENT ====================
 router.get('/tests', getAllTests);
 router.get('/tests/:id', getTestById);
 router.post('/tests', createTest);
 router.put('/tests/:id', updateTest);
 router.delete('/tests/:id', deleteTest);
-router.post('/tests/:id/questions', addQuestions);
 
-// Logs
+// ==================== TEST QUESTIONS ====================
+router.post('/tests/:id/questions', addQuestions);
+router.post('/tests/:id/bulk-questions', bulkUploadQuestions);
+router.delete('/tests/:id/questions/:questionIndex', deleteQuestion);
+router.put('/tests/:id/questions/:questionIndex', updateQuestion);
+
+// ==================== NEW TEST FEATURES ====================
+router.post('/tests/:id/duplicate', duplicateTest);
+router.put('/tests/:id/toggle-active', toggleTestActive);
+router.get('/tests/:id/stats', getTestStats);
+
+// ==================== LOGS ====================
 router.get('/logs/errors', getErrorLogs);
 router.get('/logs/logins', getLoginLogs);
 

@@ -447,4 +447,243 @@ exports.getLoginLogs = async (req, res, next) => {
   } catch (error) {
     next(error);
   }
+  // ==================== NEW FEATURES ====================
+
+// @desc    Duplicate a test
+// @route   POST /api/admin/tests/:id/duplicate
+// @access  Admin
+exports.duplicateTest = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const { newTestId, title } = req.body;
+    
+    // Find original test
+    const originalTest = await Test.findByPk(id);
+    
+    if (!originalTest) {
+      return apiResponse(res, 404, false, 'Test not found');
+    }
+    
+    // Check if newTestId already exists
+    if (newTestId) {
+      const existing = await Test.findOne({ where: { testId: newTestId } });
+      if (existing) {
+        return apiResponse(res, 400, false, 'Test ID already exists');
+      }
+    }
+    
+    // Create duplicate
+    const duplicateData = {
+      testId: newTestId || `${originalTest.testId}-copy`,
+      title: title || `${originalTest.title} (Copy)`,
+      description: originalTest.description,
+      examType: originalTest.examType,
+      subject: originalTest.subject,
+      totalQuestions: originalTest.totalQuestions,
+      totalMarks: originalTest.totalMarks,
+      duration: originalTest.duration,
+      difficulty: originalTest.difficulty,
+      questions: originalTest.questions, // Copy all questions
+      isActive: false, // Start as inactive
+      isNew: true,
+      order: 0,
+      createdBy: req.user.id
+    };
+    
+    const duplicatedTest = await Test.create(duplicateData);
+    
+    apiResponse(res, 201, true, 'Test duplicated successfully', { test: duplicatedTest });
+    
+  } catch (error) {
+    next(error);
+  }
+};
+
+// @desc    Bulk upload questions (JSON)
+// @route   POST /api/admin/tests/:id/bulk-questions
+// @access  Admin
+exports.bulkUploadQuestions = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const { questions, replace } = req.body;
+    
+    if (!Array.isArray(questions)) {
+      return apiResponse(res, 400, false, 'Questions must be an array');
+    }
+    
+    // Validate question format
+    const validQuestions = questions.every(q => 
+      q.question && 
+      q.options && 
+      Array.isArray(q.options) && 
+      q.options.length >= 2 &&
+      q.correctAnswer !== undefined
+    );
+    
+    if (!validQuestions) {
+      return apiResponse(res, 400, false, 'Invalid question format. Each question must have: question, options (array), correctAnswer');
+    }
+    
+    const test = await Test.findByPk(id);
+    
+    if (!test) {
+      return apiResponse(res, 404, false, 'Test not found');
+    }
+    
+    // Replace or append questions
+    const updatedQuestions = replace ? questions : [...(test.questions || []), ...questions];
+    
+    await test.update({
+      questions: updatedQuestions,
+      totalQuestions: updatedQuestions.length
+    });
+    
+    apiResponse(res, 200, true, `${questions.length} questions uploaded successfully`, {
+      totalQuestions: updatedQuestions.length,
+      added: questions.length
+    });
+    
+  } catch (error) {
+    next(error);
+  }
+};
+
+// @desc    Toggle test active status
+// @route   PUT /api/admin/tests/:id/toggle-active
+// @access  Admin
+exports.toggleTestActive = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    
+    const test = await Test.findByPk(id);
+    
+    if (!test) {
+      return apiResponse(res, 404, false, 'Test not found');
+    }
+    
+    await test.update({ isActive: !test.isActive });
+    
+    apiResponse(res, 200, true, `Test ${test.isActive ? 'activated' : 'deactivated'}`, {
+      test
+    });
+    
+  } catch (error) {
+    next(error);
+  }
+};
+
+// @desc    Delete single question from test
+// @route   DELETE /api/admin/tests/:id/questions/:questionIndex
+// @access  Admin
+exports.deleteQuestion = async (req, res, next) => {
+  try {
+    const { id, questionIndex } = req.params;
+    
+    const test = await Test.findByPk(id);
+    
+    if (!test) {
+      return apiResponse(res, 404, false, 'Test not found');
+    }
+    
+    const questions = test.questions || [];
+    const index = parseInt(questionIndex);
+    
+    if (index < 0 || index >= questions.length) {
+      return apiResponse(res, 400, false, 'Invalid question index');
+    }
+    
+    questions.splice(index, 1);
+    
+    await test.update({
+      questions,
+      totalQuestions: questions.length
+    });
+    
+    apiResponse(res, 200, true, 'Question deleted successfully', {
+      totalQuestions: questions.length
+    });
+    
+  } catch (error) {
+    next(error);
+  }
+};
+
+// @desc    Update single question in test
+// @route   PUT /api/admin/tests/:id/questions/:questionIndex
+// @access  Admin
+exports.updateQuestion = async (req, res, next) => {
+  try {
+    const { id, questionIndex } = req.params;
+    const updatedQuestion = req.body;
+    
+    const test = await Test.findByPk(id);
+    
+    if (!test) {
+      return apiResponse(res, 404, false, 'Test not found');
+    }
+    
+    const questions = test.questions || [];
+    const index = parseInt(questionIndex);
+    
+    if (index < 0 || index >= questions.length) {
+      return apiResponse(res, 400, false, 'Invalid question index');
+    }
+    
+    questions[index] = { ...questions[index], ...updatedQuestion };
+    
+    await test.update({ questions });
+    
+    apiResponse(res, 200, true, 'Question updated successfully', {
+      question: questions[index]
+    });
+    
+  } catch (error) {
+    next(error);
+  }
+};
+
+// @desc    Get test statistics
+// @route   GET /api/admin/tests/:id/stats
+// @access  Admin
+exports.getTestStats = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    
+    const test = await Test.findByPk(id);
+    
+    if (!test) {
+      return apiResponse(res, 404, false, 'Test not found');
+    }
+    
+    const [totalAttempts, avgScore, highestScore] = await Promise.all([
+      TestAttempt.count({ where: { testId: test.testId } }),
+      TestAttempt.findAll({
+        where: { testId: test.testId },
+        attributes: [[sequelize.fn('AVG', sequelize.col('score')), 'avgScore']]
+      }),
+      TestAttempt.max('score', { where: { testId: test.testId } })
+    ]);
+    
+    const recentAttempts = await TestAttempt.findAll({
+      where: { testId: test.testId },
+      order: [['createdAt', 'DESC']],
+      limit: 10,
+      include: [{ model: User, as: 'user', attributes: ['username', 'email'] }]
+    });
+    
+    apiResponse(res, 200, true, 'Test statistics retrieved', {
+      test,
+      stats: {
+        totalAttempts,
+        avgScore: avgScore[0]?.dataValues?.avgScore || 0,
+        highestScore: highestScore || 0,
+        totalQuestions: test.questions?.length || 0
+      },
+      recentAttempts
+    });
+    
+  } catch (error) {
+    next(error);
+  }
+};
 };
