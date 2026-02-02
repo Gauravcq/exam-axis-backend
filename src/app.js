@@ -63,43 +63,57 @@ app.get('/health', (req, res) => {
 });
 
 // ==================== DATABASE (NON-BLOCKING) ====================
+// ==================== DATABASE (NON-BLOCKING) ====================
 let dbConnected = false;
+let dbError = null;
 
 const initDatabase = async () => {
   try {
+    console.log('📊 Attempting database connection...');
+    
     const { sequelize, testConnection } = require('./config/database');
+    
+    // Test connection
     await testConnection();
     
+    // Sync models
     await sequelize.sync({ 
-      alter: process.env.NODE_ENV === 'development' 
+      alter: false  // Don't alter in production!
     });
     
     dbConnected = true;
-    console.log('✅ Database connected');
+    dbError = null;
+    console.log('✅ Database ready');
+    
   } catch (error) {
-    console.error('❌ Database connection failed:', error.message);
+    console.error('❌ Database initialization failed:', error.message);
     dbConnected = false;
-    // Don't crash - continue without DB
+    dbError = error.message;
+    
+    // Retry in 5 seconds
+    setTimeout(initDatabase, 5000);
   }
 };
 
-// Initialize DB in background (don't await)
+// Start DB connection
 initDatabase();
 
-// DB status endpoint
+// DB status endpoint with more details
 app.get('/api/db-status', (req, res) => {
   res.json({ 
     connected: dbConnected,
+    error: dbError,
     timestamp: new Date().toISOString()
   });
 });
 
-// ==================== MIDDLEWARE (DB REQUIRED) ====================
+// Improved DB check middleware
 const requireDB = (req, res, next) => {
   if (!dbConnected) {
     return res.status(503).json({
       success: false,
-      message: 'Database not available. Please try again in a moment.'
+      message: 'Database connection is being established. Please try again in a few seconds.',
+      details: process.env.NODE_ENV === 'development' ? dbError : undefined
     });
   }
   next();

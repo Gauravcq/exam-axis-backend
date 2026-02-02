@@ -1,37 +1,49 @@
 // src/config/database.js
-
 const { Sequelize } = require('sequelize');
-const pg = require('pg'); // <--- 1. ADD THIS LINE
+const pg = require('pg');
 require('dotenv').config();
 
 const isProduction = process.env.NODE_ENV === 'production';
 
-const sequelize = new Sequelize(process.env.DATABASE_URL, {
+// Parse DATABASE_URL
+const databaseUrl = process.env.DATABASE_URL;
+
+if (!databaseUrl) {
+  console.error('❌ DATABASE_URL is not set!');
+}
+
+const sequelize = new Sequelize(databaseUrl, {
   dialect: 'postgres',
-  dialectModule: pg, // <--- 2. ADD THIS LINE (Crucial for Vercel)
+  dialectModule: pg,
   protocol: 'postgres',
   logging: false,
   dialectOptions: {
-    ssl: {
+    ssl: isProduction ? {
       require: true,
       rejectUnauthorized: false
-    }
+    } : false,
+    // For Supabase pooler
+    ...(databaseUrl?.includes('6543') && {
+      statement_timeout: 10000,
+      idle_in_transaction_session_timeout: 10000
+    })
   },
   pool: {
-    max: 5,
+    max: isProduction ? 2 : 5,  // Lower for serverless
     min: 0,
     acquire: 30000,
     idle: 10000
   }
 });
 
-// Test connection
 const testConnection = async () => {
   try {
     await sequelize.authenticate();
     console.log('✅ PostgreSQL Connected Successfully!');
+    return true;
   } catch (error) {
     console.error('❌ Database Connection Failed:', error.message);
+    throw error;
   }
 };
 
