@@ -3,6 +3,7 @@
 const express = require('express');
 const router = express.Router();
 const authController = require('../controllers/authController');
+const { protect } = require('../middleware/auth');
 const { authLimiter } = require('../middleware/rateLimiter');
 const { otpLimiter } = require('../middleware/rateLimiter');
 
@@ -23,7 +24,7 @@ router.post('/login', authLimiter, authController.login);
 router.post('/logout', authController.logout);
 
 // GET /api/auth/me
-router.get('/me', authController.getMe);
+router.get('/me', protect, authController.getMe);
 
 // Auth status check
 router.get('/check', (req, res) => {
