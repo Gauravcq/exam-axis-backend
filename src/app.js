@@ -2,6 +2,8 @@
 require('dotenv').config();
 
 const express = require('express');
+const path = require('path');
+const fs = require('fs');
 const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
@@ -160,6 +162,29 @@ app.get('/api/test', (req, res) => {
     message: 'API is working!',
     cors: req.headers.origin || 'no-origin'
   });
+});
+
+// ==================== SERVE PAYMENT SCREENSHOTS ====================
+// Must match upload dir in src/routes/payment.js (Vercel: /tmp/payments, local: uploads/payments)
+const paymentUploadDir = process.env.NODE_ENV === 'production'
+  ? '/tmp/payments'
+  : path.join(process.cwd(), 'uploads', 'payments');
+
+app.get('/api/uploads/payments/:filename', (req, res) => {
+  const raw = req.params.filename || '';
+  // Prevent path traversal: only allow filename (alphanumeric, dash, dot)
+  const filename = path.basename(raw);
+  if (!filename || filename !== raw || /[^a-zA-Z0-9._-]/.test(filename)) {
+    return res.status(400).json({ success: false, message: 'Invalid filename' });
+  }
+  const filePath = path.join(paymentUploadDir, filename);
+  if (!fs.existsSync(filePath)) {
+    return res.status(404).json({ success: false, message: 'Screenshot not found' });
+  }
+  const ext = path.extname(filename).toLowerCase();
+  const mime = { '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.gif': 'image/gif', '.webp': 'image/webp' }[ext] || 'application/octet-stream';
+  res.setHeader('Content-Type', mime);
+  fs.createReadStream(filePath).pipe(res);
 });
 
 // Import routes (only when needed)

@@ -48,7 +48,7 @@ const upload = multer({
 
 // ================= ADMIN MIDDLEWARE =================
 const isAdmin = (req, res, next) => {
-    if (req.user && req.user.role === 'admin') {
+    if (req.user && (req.user.role === 'admin' || req.user.role === 'superadmin')) {
         next();
     } else {
         return res.status(403).json({
@@ -97,6 +97,10 @@ try {
             message: 'Payment service temporarily unavailable' 
         }),
         rejectPayment: (req, res) => res.status(503).json({ 
+            success: false, 
+            message: 'Payment service temporarily unavailable' 
+        }),
+        revokePremium: (req, res) => res.status(503).json({ 
             success: false, 
             message: 'Payment service temporarily unavailable' 
         })
@@ -194,6 +198,17 @@ router.post('/reject/:id', protect, isAdmin, (req, res, next) => {
     res.status(503).json({ 
         success: false, 
         message: 'Payment rejection temporarily unavailable' 
+    });
+});
+
+// Revoke premium (admin/superadmin)
+router.post('/revoke-premium/:paymentId', protect, isAdmin, (req, res, next) => {
+    if (typeof paymentController.revokePremium === 'function') {
+        return paymentController.revokePremium(req, res, next);
+    }
+    res.status(503).json({ 
+        success: false, 
+        message: 'Revoke premium temporarily unavailable' 
     });
 });
 

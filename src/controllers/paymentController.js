@@ -212,6 +212,22 @@ exports.checkPremiumStatus = async (req, res) => {
     }
 };
 
+// Helper: build full screenshot URL for frontend (screenshot, screenshotUrl, etc.)
+function getScreenshotFields(screenshotUrl, req) {
+    if (!screenshotUrl) return { screenshot: null, screenshotUrl: null, paymentScreenshot: null, image: null, imageUrl: null };
+    const filename = String(screenshotUrl).split('/').pop();
+    if (!filename) return { screenshot: null, screenshotUrl: null, paymentScreenshot: null, image: null, imageUrl: null };
+    const base = process.env.BASE_URL || (req && `${req.protocol}://${req.get('host')}`) || '';
+    const url = base ? `${base}/api/uploads/payments/${filename}` : `/api/uploads/payments/${filename}`;
+    return {
+        screenshot: url,
+        screenshotUrl: url,
+        paymentScreenshot: url,
+        image: url,
+        imageUrl: url
+    };
+}
+
 // ========== Get all pending payments (Admin) ==========
 exports.getPendingPayments = async (req, res) => {
     try {
@@ -220,10 +236,16 @@ exports.getPendingPayments = async (req, res) => {
             order: [['createdAt', 'DESC']]
         });
 
+        const data = payments.map(p => {
+            const json = p.toJSON ? p.toJSON() : p;
+            const screenshotFields = getScreenshotFields(json.screenshotUrl, req);
+            return { ...json, ...screenshotFields };
+        });
+
         res.json({
             success: true,
-            count: payments.length,
-            data: payments
+            count: data.length,
+            data
         });
 
     } catch (error) {
@@ -252,12 +274,18 @@ exports.getAllPayments = async (req, res) => {
             offset: parseInt(offset)
         });
 
+        const data = payments.map(p => {
+            const json = p.toJSON ? p.toJSON() : p;
+            const screenshotFields = getScreenshotFields(json.screenshotUrl, req);
+            return { ...json, ...screenshotFields };
+        });
+
         res.json({
             success: true,
             count,
             totalPages: Math.ceil(count / limit),
             currentPage: parseInt(page),
-            data: payments
+            data
         });
 
     } catch (error) {
@@ -436,6 +464,57 @@ exports.rejectPayment = async (req, res) => {
         res.status(500).json({
             success: false,
             message: 'Failed to reject payment'
+        });
+    }
+};
+
+// ========== Revoke premium (Admin/Superadmin) ==========
+exports.revokePremium = async (req, res) => {
+    try {
+        const { paymentId } = req.params;
+
+        const payment = await PaymentRequest.findByPk(paymentId);
+
+        if (!payment) {
+            return res.status(404).json({
+                success: false,
+                message: 'Payment not found'
+            });
+        }
+
+        if (payment.status !== 'approved') {
+            return res.status(400).json({
+                success: false,
+                message: 'Can only revoke premium for approved payments'
+            });
+        }
+
+        const user = await User.findOne({
+            where: payment.userId ? { id: payment.userId } : { email: payment.email }
+        });
+
+        if (!user) {
+            return res.status(404).json({
+                success: false,
+                message: 'User not found for this payment'
+            });
+        }
+
+        await user.update({
+            isPremium: false,
+            premiumSince: null
+        });
+
+        res.json({
+            success: true,
+            message: 'Premium access revoked'
+        });
+
+    } catch (error) {
+        console.error('Revoke premium error:', error);
+        res.status(500).json({
+            success: false,
+            message: 'Failed to revoke premium'
         });
     }
 };
