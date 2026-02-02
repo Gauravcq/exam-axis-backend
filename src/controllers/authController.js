@@ -1,20 +1,27 @@
 // src/controllers/authController.js
- const { Op } = require('sequelize');
+const { Op } = require('sequelize');
+const bcrypt = require('bcryptjs');
+const crypto = require('crypto');
 const User = require('../models/User');
 const OTP = require('../models/OTP');
-const crypto = require('crypto');
 const { sendOTPEmail, sendPasswordResetSuccessEmail } = require('../utils/emailService');
-const bcrypt = require('bcryptjs');
+
+// ==================== HELPERS ====================
+
+// Generate 6-digit OTP
+const generateOTP = () => {
+    return crypto.randomInt(100000, 999999).toString();
+};
 
 // Helper to send token response
 const sendTokenResponse = (user, statusCode, res) => {
     const token = user.generateToken();
 
     const options = {
-        expires: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+        expires: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), // 30 days
         httpOnly: true,
-        secure: true,
-        sameSite: 'none'
+        secure: process.env.NODE_ENV === 'production',
+        sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax'
     };
 
     res.status(statusCode)
@@ -28,118 +35,217 @@ const sendTokenResponse = (user, statusCode, res) => {
                     username: user.username,
                     email: user.email,
                     fullName: user.fullName,
-                    role: user.role,
+                    role: user.role || 'user',
                     preferredExam: user.preferredExam
                 }
             }
         });
 };
 
-// Generate 6-digit OTP
-const generateOTP = () => {
-    return crypto.randomInt(100000, 999999).toString();
-};
+// ==================== AUTH METHODS ====================
 
-// ========== EXISTING METHODS ==========
-
+/**
+ * @desc    Register user
+ * @route   POST /api/auth/register
+ * @access  Public
+ */
 exports.register = async (req, res, next) => {
     try {
         const { fullName, username, email, password, phone, preferredExam } = req.body;
 
+        // Validate required fields
+        if (!fullName || !username || !email || !password) {
+            return res.status(400).json({
+                success: false,
+                message: 'Please provide all required fields'
+            });
+        }
+
+        // Check if user exists
+        const existingUser = await User.findOne({
+            where: {
+                [Op.or]: [
+                    { email: email.toLowerCase() },
+                    { username: username }
+                ]
+            }
+        });
+
+        if (existingUser) {
+            return res.status(400).json({
+                success: false,
+                message: existingUser.email === email.toLowerCase() 
+                    ? 'Email already registered' 
+                    : 'Username already taken'
+            });
+        }
+
+        // Create user
         const user = await User.create({
             fullName,
             username,
-            email,
+            email: email.toLowerCase(),
             password,
             phone,
             preferredExam
         });
 
         sendTokenResponse(user, 201, res);
+
     } catch (error) {
         console.error('Register Error:', error);
+        
         if (error.name === 'SequelizeUniqueConstraintError') {
             return res.status(400).json({
                 success: false,
                 message: 'Username or Email already exists'
             });
         }
-        res.status(500).json({ success: false, message: 'Server Error' });
+        
+        if (error.name === 'SequelizeValidationError') {
+            return res.status(400).json({
+                success: false,
+                message: error.errors[0]?.message || 'Validation error'
+            });
+        }
+        
+        res.status(500).json({ 
+            success: false, 
+            message: 'Server Error',
+            error: process.env.NODE_ENV === 'development' ? error.message : undefined
+        });
     }
 };
 
-// Add to TOP of authController.js file (with other imports)
-const { Op } = require('sequelize'); // ← MOVE UP HERE!
-
+/**
+ * @desc    Login user
+ * @route   POST /api/auth/login
+ * @access  Public
+ */
 exports.login = async (req, res, next) => {
     try {
         const { identifier, password } = req.body;
 
+        // Validate input
         if (!identifier || !password) {
-            return res.status(400).json({ 
-                success: false, 
-                message: 'Please provide email/username and password' 
+            return res.status(400).json({
+                success: false,
+                message: 'Please provide email/username and password'
             });
         }
 
-        // Find user
+        // Find user by email OR username
         const user = await User.findOne({
             where: {
                 [Op.or]: [
-                    { email: identifier.toLowerCase() }, 
+                    { email: identifier.toLowerCase() },
                     { username: identifier }
                 ]
             }
         });
 
         if (!user) {
-            return res.status(401).json({ 
-                success: false, 
-                message: 'Invalid credentials' 
+            return res.status(401).json({
+                success: false,
+                message: 'Invalid credentials'
             });
         }
 
-        // Simple password check (add bcrypt.compare later)
-        if (user.password !== password) {  // ← TEMP FIX
-            return res.status(401).json({ 
-                success: false, 
-                message: 'Invalid credentials' 
+        // Check if user is active
+        if (!user.isActive) {
+            return res.status(403).json({
+                success: false,
+                message: 'Your account has been deactivated. Please contact support.'
             });
         }
 
-        // Generate simple JWT (add proper JWT later)
-        const token = `jwt.${user.id}.${Date.now()}`; // TEMP
-
-        const options = {
-            expires: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
-            httpOnly: true,
-            secure: process.env.NODE_ENV === 'production', // ← FIXED
-            sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax' // ← FIXED
-        };
-
-        res.status(200)
-            .cookie('token', token, options)
-            .json({
-                success: true,
-                token,
-                data: {
-                    user: {
-                        id: user.id,
-                        username: user.username,
-                        email: user.email,
-                        fullName: user.fullName,
-                        role: user.role || 'user',
-                        preferredExam: user.preferredExam
-                    }
-                }
+        // Verify password using bcrypt
+        const isMatch = await bcrypt.compare(password, user.password);
+        
+        if (!isMatch) {
+            return res.status(401).json({
+                success: false,
+                message: 'Invalid credentials'
             });
+        }
+
+        // Update last login
+        await user.update({ lastLogin: new Date() });
+
+        // Send token response
+        sendTokenResponse(user, 200, res);
+
     } catch (error) {
         console.error('Login Error:', error);
-        res.status(500).json({ success: false, message: 'Server Error', error: error.message });
+        res.status(500).json({
+            success: false,
+            message: 'Server Error',
+            error: process.env.NODE_ENV === 'development' ? error.message : undefined
+        });
     }
 };
 
-// ========== NEW: FORGOT PASSWORD METHODS ==========
+/**
+ * @desc    Logout user
+ * @route   POST /api/auth/logout
+ * @access  Public
+ */
+exports.logout = async (req, res, next) => {
+    try {
+        res.cookie('token', 'none', {
+            expires: new Date(Date.now() + 10 * 1000), // 10 seconds
+            httpOnly: true,
+            secure: process.env.NODE_ENV === 'production',
+            sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax'
+        });
+
+        res.status(200).json({
+            success: true,
+            message: 'Logged out successfully'
+        });
+
+    } catch (error) {
+        console.error('Logout Error:', error);
+        res.status(500).json({
+            success: false,
+            message: 'Server Error'
+        });
+    }
+};
+
+/**
+ * @desc    Get current logged in user
+ * @route   GET /api/auth/me
+ * @access  Private
+ */
+exports.getMe = async (req, res, next) => {
+    try {
+        const user = await User.findByPk(req.user.id, {
+            attributes: { exclude: ['password'] }
+        });
+
+        if (!user) {
+            return res.status(404).json({
+                success: false,
+                message: 'User not found'
+            });
+        }
+
+        res.status(200).json({
+            success: true,
+            data: { user }
+        });
+
+    } catch (error) {
+        console.error('GetMe Error:', error);
+        res.status(500).json({
+            success: false,
+            message: 'Server Error'
+        });
+    }
+};
+
+// ==================== FORGOT PASSWORD METHODS ====================
 
 /**
  * @desc    Request password reset OTP
@@ -168,8 +274,8 @@ exports.forgotPassword = async (req, res) => {
         }
 
         // Find user
-        const user = await User.findOne({ 
-            where: { email: email.toLowerCase() } 
+        const user = await User.findOne({
+            where: { email: email.toLowerCase() }
         });
 
         if (!user) {
@@ -212,7 +318,7 @@ exports.forgotPassword = async (req, res) => {
         } catch (emailError) {
             // Delete OTP if email fails
             await OTP.destroy({ where: { email: email.toLowerCase() } });
-            
+
             console.error('Email sending failed:', emailError);
             return res.status(500).json({
                 success: false,
@@ -297,7 +403,7 @@ exports.verifyOTP = async (req, res) => {
             // Increment attempts
             await otpRecord.update({ attempts: otpRecord.attempts + 1 });
             const remainingAttempts = 5 - otpRecord.attempts - 1;
-            
+
             return res.status(400).json({
                 success: false,
                 message: `Invalid OTP. ${remainingAttempts} attempts remaining.`
@@ -383,7 +489,7 @@ exports.resetPassword = async (req, res) => {
             });
         }
 
-        // Check if OTP session is still valid (within 10 minutes of creation)
+        // Check if OTP session is still valid
         if (new Date() > otpRecord.expiresAt) {
             await otpRecord.destroy();
             return res.status(400).json({
@@ -393,8 +499,8 @@ exports.resetPassword = async (req, res) => {
         }
 
         // Find user
-        const user = await User.findOne({ 
-            where: { email: email.toLowerCase() } 
+        const user = await User.findOne({
+            where: { email: email.toLowerCase() }
         });
 
         if (!user) {
@@ -438,6 +544,5 @@ exports.resetPassword = async (req, res) => {
  * @access  Public
  */
 exports.resendOTP = async (req, res) => {
-    // Reuse forgotPassword logic
     return exports.forgotPassword(req, res);
 };
