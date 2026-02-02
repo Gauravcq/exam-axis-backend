@@ -91,6 +91,8 @@ const updateProfileValidation = [
   
   validate
 ];
+const { body, validationResult } = require('express-validator');
+
 
 // Change password validation
 const changePasswordValidation = [
@@ -161,11 +163,70 @@ const testAttemptValidation = [
   
   validate
 ];
+// Forgot password validation
+const forgotPasswordValidation = [
+    body('email')
+        .trim()
+        .notEmpty().withMessage('Email is required')
+        .isEmail().withMessage('Please provide a valid email')
+        .normalizeEmail(),
+    
+    validate
+];
+
+// OTP verification validation
+const verifyOTPValidation = [
+    body('email')
+        .trim()
+        .notEmpty().withMessage('Email is required')
+        .isEmail().withMessage('Please provide a valid email')
+        .normalizeEmail(),
+    
+    body('otp')
+        .trim()
+        .notEmpty().withMessage('OTP is required')
+        .isLength({ min: 6, max: 6 }).withMessage('OTP must be 6 digits')
+        .isNumeric().withMessage('OTP must contain only numbers'),
+    
+    validate
+];
+
+// Reset password validation
+const resetPasswordValidation = [
+    body('email')
+        .trim()
+        .notEmpty().withMessage('Email is required')
+        .isEmail().withMessage('Please provide a valid email')
+        .normalizeEmail(),
+    
+    body('newPassword')
+        .notEmpty().withMessage('New password is required')
+        .isLength({ min: 8 }).withMessage('Password must be at least 8 characters')
+        .matches(/[A-Z]/).withMessage('Password must contain an uppercase letter')
+        .matches(/[a-z]/).withMessage('Password must contain a lowercase letter')
+        .matches(/[0-9]/).withMessage('Password must contain a number')
+        .matches(/[!@#$%^&*(),.?":{}|<>]/).withMessage('Password must contain a special character'),
+    
+    body('confirmPassword')
+        .optional()
+        .custom((value, { req }) => {
+            if (value && value !== req.body.newPassword) {
+                throw new Error('Passwords do not match');
+            }
+            return true;
+        }),
+    
+    validate
+];
 
 module.exports = {
-  registerValidation,
-  loginValidation,
-  updateProfileValidation,
-  changePasswordValidation,
-  testAttemptValidation
+    registerValidation,
+    loginValidation,
+    updateProfileValidation,
+    changePasswordValidation,
+    testAttemptValidation,
+    // ✨ NEW EXPORTS
+    forgotPasswordValidation,
+    verifyOTPValidation,
+    resetPasswordValidation
 };

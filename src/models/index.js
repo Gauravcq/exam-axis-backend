@@ -1,9 +1,11 @@
 // src/models/index.js
 
 const User = require('./User');
-const LoginLog = require('./LoginLog');
-const TestAttempt = require('./TestAttempt');
 const Test = require('./Test');
+const TestAttempt = require('./TestAttempt');
+const LoginLog = require('./LoginLog');
+const ErrorLog = require('./ErrorLog');
+const OTP = require('./OTP');  // ✨ ADD THIS LINE
 
 // ==================== USER ASSOCIATIONS ====================
 
@@ -63,9 +65,10 @@ const ErrorLog = sequelize.define('ErrorLog', {
 // ==================== EXPORT ALL MODELS ====================
 
 module.exports = {
-  User,
-  LoginLog,
-  TestAttempt,
-  Test,
-  ErrorLog
+    User,
+    Test,
+    TestAttempt,
+    LoginLog,
+    ErrorLog,
+    OTP  // ✨ ADD THIS LINE
 };

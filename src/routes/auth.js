@@ -1,19 +1,23 @@
 // src/routes/auth.js
+
 const express = require('express');
 const router = express.Router();
 const authController = require('../controllers/authController');
+const { authLimiter } = require('../middleware/rateLimiter');
+const { otpLimiter } = require('../middleware/rateLimiter');
 
-// Test route to confirm Express is running on Vercel
-// GET /api/auth/test
+// Test route
 router.get('/test', (req, res) => {
-  res.json({ success: true, message: 'Auth routes working (Express)' });
+    res.json({ success: true, message: 'Auth routes working (Express)' });
 });
+
+// ========== EXISTING ROUTES ==========
 
 // POST /api/auth/register
 router.post('/register', authController.register);
 
 // POST /api/auth/login
-router.post('/login', authController.login);
+router.post('/login', authLimiter, authController.login);
 
 // POST /api/auth/logout
 router.post('/logout', authController.logout);
@@ -21,9 +25,23 @@ router.post('/logout', authController.logout);
 // GET /api/auth/me
 router.get('/me', authController.getMe);
 
-// Optional: auth status
+// Auth status check
 router.get('/check', (req, res) => {
-  res.json({ success: true, data: { isAuthenticated: false } });
+    res.json({ success: true, data: { isAuthenticated: false } });
 });
+
+// ========== NEW: FORGOT PASSWORD ROUTES ==========
+
+// POST /api/auth/forgot-password - Request OTP
+router.post('/forgot-password', otpLimiter, authController.forgotPassword);
+
+// POST /api/auth/verify-otp - Verify OTP
+router.post('/verify-otp', authController.verifyOTP);
+
+// POST /api/auth/reset-password - Reset password
+router.post('/reset-password', authController.resetPassword);
+
+// POST /api/auth/resend-otp - Resend OTP
+router.post('/resend-otp', otpLimiter, authController.resendOTP);
 
 module.exports = router;
