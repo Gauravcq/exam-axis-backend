@@ -1,20 +1,27 @@
 // src/models/index.js
 
-const { DataTypes } = require('sequelize');
-const { sequelize } = require('../config/database');
-
-// ==================== IMPORT MODELS ====================
-
-// User uses factory pattern - needs to be initialized
-const UserFactory = require('./User');
-const User = UserFactory(sequelize, DataTypes);
-
-// These models are already initialized (direct export)
+const User = require('./User');
 const LoginLog = require('./LoginLog');
 const TestAttempt = require('./TestAttempt');
 const Test = require('./Test');
 
-// ==================== ERROR LOG MODEL ====================
+// ==================== USER ASSOCIATIONS ====================
+
+User.hasMany(LoginLog, { foreignKey: 'userId', as: 'loginLogs' });
+LoginLog.belongsTo(User, { foreignKey: 'userId', as: 'user' });
+
+User.hasMany(TestAttempt, { foreignKey: 'userId', as: 'testAttempts' });
+TestAttempt.belongsTo(User, { foreignKey: 'userId', as: 'user' });
+
+// ==================== TEST ASSOCIATIONS ====================
+
+User.hasMany(Test, { foreignKey: 'createdBy', as: 'createdTests' });
+Test.belongsTo(User, { foreignKey: 'createdBy', as: 'creator' });
+
+// ==================== ERROR LOG MODEL (if not exists) ====================
+
+const { DataTypes } = require('sequelize');
+const { sequelize } = require('../config/database');
 
 const ErrorLog = sequelize.define('ErrorLog', {
   id: {
@@ -53,24 +60,9 @@ const ErrorLog = sequelize.define('ErrorLog', {
   underscored: true
 });
 
-// ==================== ASSOCIATIONS ====================
-
-// User <-> LoginLog
-User.hasMany(LoginLog, { foreignKey: 'userId', as: 'loginLogs' });
-LoginLog.belongsTo(User, { foreignKey: 'userId', as: 'user' });
-
-// User <-> TestAttempt
-User.hasMany(TestAttempt, { foreignKey: 'userId', as: 'testAttempts' });
-TestAttempt.belongsTo(User, { foreignKey: 'userId', as: 'user' });
-
-// User <-> Test (creator)
-User.hasMany(Test, { foreignKey: 'createdBy', as: 'createdTests' });
-Test.belongsTo(User, { foreignKey: 'createdBy', as: 'creator' });
-
-// ==================== EXPORT ====================
+// ==================== EXPORT ALL MODELS ====================
 
 module.exports = {
-  sequelize,
   User,
   LoginLog,
   TestAttempt,
