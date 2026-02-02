@@ -1,15 +1,25 @@
 {
   "version": 2,
-  "builds": [
+  "functions": {
+    "src/app.js": {
+      "maxDuration": 30
+    }
+  },
+  "headers": [
     {
-      "src": "src/app.js",
-      "use": "@vercel/node"
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "https://exam-axis.vercel.app" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET,POST,PUT,PATCH,DELETE,OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type,Authorization,X-Requested-With" },
+        { "key": "Access-Control-Allow-Credentials", "value": "true" }
+      ]
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "src/app.js"
+      "src": "/api/(.*)",
+      "dest": "/src/app.js"
     }
   ]
 }

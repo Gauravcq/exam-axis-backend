@@ -55,20 +55,48 @@ app.options('*', (req, res) => {
 });
 
 // ✅ CORS middleware for all other requests
+// ==================== BULLETPROOF CORS (TOP - BEFORE ALL) ====================
+// 1. OPTIONS handler FIRST (catches preflight before crash)
 app.use((req, res, next) => {
-  const origin = req.headers.origin;
-  
-  if (origin && allowedOrigins.includes(origin)) {
-    res.header('Access-Control-Allow-Origin', origin);
+  if (req.method === 'OPTIONS') {
+    const origin = req.headers.origin;
+    const allowedOrigins = [
+      'https://exam-axis.vercel.app',
+      'http://localhost:5500',
+      'http://localhost:3000'
+    ];
+    
+    res.header('Access-Control-Allow-Origin', allowedOrigins.includes(origin) ? origin : 'https://exam-axis.vercel.app');
+    res.header('Access-Control-Allow-Credentials', 'true');
+    res.header('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Origin,X-Requested-With,Content-Type,Accept,Authorization');
+    return res.status(200).end();
   }
-  
-  res.header('Access-Control-Allow-Credentials', 'true');
-  res.header('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
-  res.header('Access-Control-Allow-Headers', 'Origin,X-Requested-With,Content-Type,Accept,Authorization');
-  
   next();
 });
 
+// 2. CORS headers for ALL responses (before routes)
+app.use((req, res, next) => {
+  const origin = req.headers.origin;
+  const allowedOrigins = [
+    'https://exam-axis.vercel.app',
+    'http://localhost:5500',
+    'http://localhost:3000'
+  ];
+  
+  if (origin && allowedOrigins.includes(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+  } else {
+    res.setHeader('Access-Control-Allow-Origin', 'https://exam-axis.vercel.app');
+  }
+  
+  res.setHeader('Access-Control-Allow-Credentials', 'true');
+  res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Origin,X-Requested-With,Content-Type,Accept,Authorization');
+  
+  next();
+});
+// ==================== END CORS ====================
 // ================= END CORS CONFIG ====================
 
 // ✅ Helmet with CORS-safe config
