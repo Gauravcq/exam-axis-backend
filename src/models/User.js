@@ -45,6 +45,7 @@ const User = sequelize.define('User', {
     type: DataTypes.STRING(20),
     defaultValue: 'user'
   },
+  
   isActive: {
     type: DataTypes.BOOLEAN,
     defaultValue: true,
@@ -64,7 +65,19 @@ const User = sequelize.define('User', {
     type: DataTypes.DATE,
     allowNull: true,
     field: 'last_login'
-  }
+  },
+  // Add these fields to your User model schema
+
+isPremium: {
+    type: DataTypes.BOOLEAN,
+    defaultValue: false,
+    field: 'is_premium'
+},
+premiumSince: {
+    type: DataTypes.DATE,
+    allowNull: true,
+    field: 'premium_since'
+},
 }, {
   tableName: 'users',
   timestamps: true,

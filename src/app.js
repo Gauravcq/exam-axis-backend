@@ -19,6 +19,7 @@ const testRoutes = require('./routes/tests');
 const adminRoutes = require('./routes/admin');
 const publicTestsRoutes = require('./routes/publicTests');
 const questionRoutes = require('./routes/questions');
+const paymentRoutes = require('./routes/payment');
 
 
 const app = express();
@@ -74,6 +75,7 @@ app.use(
 );
 
 // ================= END CORS CONFIG ====================
+app.use('/api/payment', paymentRoutes);
 
 // Core middleware
 app.use(helmet());

@@ -6,6 +6,8 @@ const TestAttempt = require('./TestAttempt');
 const LoginLog = require('./LoginLog');
 const ErrorLog = require('./ErrorLog');
 const OTP = require('./OTP');
+const PaymentRequest = require('./PaymentRequest');  // ✨ ADD THIS
+
 
 // ==================== USER ASSOCIATIONS ====================
 
@@ -21,6 +23,8 @@ User.hasMany(Test, { foreignKey: 'createdBy', as: 'createdTests' });
 Test.belongsTo(User, { foreignKey: 'createdBy', as: 'creator' });
 
 // ==================== EXPORT ALL MODELS ====================
+User.hasMany(PaymentRequest, { foreignKey: 'userId', as: 'paymentRequests' });
+PaymentRequest.belongsTo(User, { foreignKey: 'userId', as: 'user' });
 
 module.exports = {
     User,
@@ -28,5 +32,6 @@ module.exports = {
     TestAttempt,
     LoginLog,
     ErrorLog,
-    OTP
+    OTP,
+    PaymentRequest  // ✨ ADD THIS
 };
