@@ -28,17 +28,18 @@ const PaymentRequest = sequelize.define('PaymentRequest', {
     },
     transactionId: {
         type: DataTypes.STRING(100),
-        allowNull: true,
+        allowNull: false,
+        unique: true,
         field: 'transaction_id'
     },
     screenshotUrl: {
         type: DataTypes.TEXT,
-        allowNull: true,
+        allowNull: false,
         field: 'screenshot_url'
     },
     status: {
-        type: DataTypes.STRING(20),
-        defaultValue: 'pending' // pending, approved, rejected
+        type: DataTypes.ENUM('pending', 'approved', 'rejected'),
+        defaultValue: 'pending'
     },
     adminNotes: {
         type: DataTypes.TEXT,

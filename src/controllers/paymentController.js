@@ -20,9 +20,13 @@ try {
 }
 
 // ========== Submit payment request ==========
+// ========== Submit payment request ==========
 exports.submitPaymentRequest = async (req, res) => {
     try {
-        const { email, phone, transactionId, screenshotUrl } = req.body;
+        const { email, phone, transactionId } = req.body;
+
+        // 🔹 Screenshot from multer
+        const screenshot = req.file;
 
         // Validate required fields
         if (!email || !transactionId) {
@@ -32,8 +36,17 @@ exports.submitPaymentRequest = async (req, res) => {
             });
         }
 
+        if (!screenshot) {
+            return res.status(400).json({
+                success: false,
+                message: 'Payment screenshot is required'
+            });
+        }
+
         // Check if user exists
-        const user = await User.findOne({ where: { email: email.toLowerCase() } });
+        const user = await User.findOne({
+            where: { email: email.toLowerCase() }
+        });
 
         if (!user) {
             return res.status(404).json({
@@ -50,7 +63,7 @@ exports.submitPaymentRequest = async (req, res) => {
             });
         }
 
-        // Check for duplicate transaction ID
+        // Check duplicate transaction ID
         const existingRequest = await PaymentRequest.findOne({
             where: { transactionId }
         });
@@ -62,9 +75,9 @@ exports.submitPaymentRequest = async (req, res) => {
             });
         }
 
-        // Check for pending request from same user
+        // Check pending request
         const pendingRequest = await PaymentRequest.findOne({
-            where: { 
+            where: {
                 email: email.toLowerCase(),
                 status: 'pending'
             }
@@ -77,6 +90,9 @@ exports.submitPaymentRequest = async (req, res) => {
             });
         }
 
+        // ✅ Build screenshot URL (public)
+        const screenshotUrl = `/uploads/payments/${screenshot.filename}`;
+
         // Create payment request
         const paymentRequest = await PaymentRequest.create({
             userId: user.id,
@@ -88,7 +104,7 @@ exports.submitPaymentRequest = async (req, res) => {
             status: 'pending'
         });
 
-        // Send email notification to admin
+        // Notify admin
         try {
             await sendPaymentNotificationEmail({
                 userEmail: email,
@@ -98,12 +114,13 @@ exports.submitPaymentRequest = async (req, res) => {
                 phone
             });
         } catch (emailError) {
-            console.error('Failed to send admin notification:', emailError);
+            console.error('Admin email failed:', emailError);
         }
 
         res.status(201).json({
             success: true,
-            message: 'Payment request submitted successfully! We will verify and activate your premium access within 1-2 hours.',
+            message:
+                'Payment request submitted successfully! We will verify and activate your premium access within 1–2 hours.',
             data: {
                 requestId: paymentRequest.id,
                 status: 'pending'
@@ -118,6 +135,7 @@ exports.submitPaymentRequest = async (req, res) => {
         });
     }
 };
+
 
 // ========== Get payment status (for user) ==========
 exports.getPaymentStatus = async (req, res) => {

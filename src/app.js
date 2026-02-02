@@ -91,6 +91,7 @@ if (process.env.NODE_ENV === 'development') {
 
 // Rate limiting
 app.use('/api', apiLimiter);
+app.use('/uploads', express.static('uploads'));
 
 // Health check
 app.get('/', (req, res) => {
