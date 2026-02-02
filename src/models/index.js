@@ -1,37 +1,87 @@
 // src/models/index.js
 
 const User = require('./User');
+const PaymentRequest = require('./PaymentRequest');
 const Test = require('./Test');
 const TestAttempt = require('./TestAttempt');
+const OTP = require('./OTP');
 const LoginLog = require('./LoginLog');
 const ErrorLog = require('./ErrorLog');
-const OTP = require('./OTP');
-const PaymentRequest = require('./PaymentRequest');  // ✨ ADD THIS
 
+// ========== ASSOCIATIONS ==========
 
-// ==================== USER ASSOCIATIONS ====================
+// User <-> PaymentRequest
+User.hasMany(PaymentRequest, {
+    foreignKey: 'userId',
+    as: 'paymentRequests'
+});
 
-User.hasMany(LoginLog, { foreignKey: 'userId', as: 'loginLogs' });
-LoginLog.belongsTo(User, { foreignKey: 'userId', as: 'user' });
+PaymentRequest.belongsTo(User, {
+    foreignKey: 'userId',
+    as: 'user'
+});
 
-User.hasMany(TestAttempt, { foreignKey: 'userId', as: 'testAttempts' });
-TestAttempt.belongsTo(User, { foreignKey: 'userId', as: 'user' });
+// User <-> PaymentRequest (verified by admin)
+User.hasMany(PaymentRequest, {
+    foreignKey: 'verifiedBy',
+    as: 'verifiedPayments'
+});
 
-// ==================== TEST ASSOCIATIONS ====================
+PaymentRequest.belongsTo(User, {
+    foreignKey: 'verifiedBy',
+    as: 'verifiedByAdmin'
+});
 
-User.hasMany(Test, { foreignKey: 'createdBy', as: 'createdTests' });
-Test.belongsTo(User, { foreignKey: 'createdBy', as: 'creator' });
+// User <-> TestAttempt
+User.hasMany(TestAttempt, {
+    foreignKey: 'userId',
+    as: 'testAttempts'
+});
 
-// ==================== EXPORT ALL MODELS ====================
-User.hasMany(PaymentRequest, { foreignKey: 'userId', as: 'paymentRequests' });
-PaymentRequest.belongsTo(User, { foreignKey: 'userId', as: 'user' });
+TestAttempt.belongsTo(User, {
+    foreignKey: 'userId',
+    as: 'user'
+});
+
+// Test <-> TestAttempt
+Test.hasMany(TestAttempt, {
+    foreignKey: 'testId',
+    as: 'attempts'
+});
+
+TestAttempt.belongsTo(Test, {
+    foreignKey: 'testId',
+    as: 'test'
+});
+
+// User <-> LoginLog
+User.hasMany(LoginLog, {
+    foreignKey: 'userId',
+    as: 'loginLogs'
+});
+
+LoginLog.belongsTo(User, {
+    foreignKey: 'userId',
+    as: 'user'
+});
+
+// User <-> OTP
+User.hasMany(OTP, {
+    foreignKey: 'userId',
+    as: 'otps'
+});
+
+OTP.belongsTo(User, {
+    foreignKey: 'userId',
+    as: 'user'
+});
 
 module.exports = {
     User,
+    PaymentRequest,
     Test,
     TestAttempt,
-    LoginLog,
-    ErrorLog,
     OTP,
-    PaymentRequest  // ✨ ADD THIS
+    LoginLog,
+    ErrorLog
 };

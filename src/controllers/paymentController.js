@@ -269,7 +269,8 @@ exports.approvePayment = async (req, res) => {
     }
 };
 
-// Reject payment (Admin)
+// In exports.rejectPayment - Add email notification
+
 exports.rejectPayment = async (req, res) => {
     try {
         const { id } = req.params;
@@ -299,6 +300,22 @@ exports.rejectPayment = async (req, res) => {
             verifiedAt: new Date()
         });
 
+        // ✅ Send rejection email to user
+        try {
+            const { sendPaymentRejectedEmail } = require('../utils/emailService');
+            const user = await User.findOne({ where: { email: payment.email } });
+            
+            if (user) {
+                await sendPaymentRejectedEmail(
+                    payment.email, 
+                    user.fullName || user.username,
+                    reason
+                );
+            }
+        } catch (emailError) {
+            console.error('Failed to send rejection email:', emailError);
+        }
+
         res.json({
             success: true,
             message: 'Payment request rejected',
@@ -310,74 +327,6 @@ exports.rejectPayment = async (req, res) => {
         res.status(500).json({
             success: false,
             message: 'Failed to reject payment'
-        });
-    }
-};
-
-// Get payment stats (Admin)
-exports.getPaymentStats = async (req, res) => {
-    try {
-        const { Op } = require('sequelize');
-        
-        const totalPending = await PaymentRequest.count({ where: { status: 'pending' } });
-        const totalApproved = await PaymentRequest.count({ where: { status: 'approved' } });
-        const totalRejected = await PaymentRequest.count({ where: { status: 'rejected' } });
-        
-        const totalRevenue = await PaymentRequest.sum('amount', { where: { status: 'approved' } }) || 0;
-
-        // Today's stats
-        const today = new Date();
-        today.setHours(0, 0, 0, 0);
-
-        const todayApproved = await PaymentRequest.count({
-            where: {
-                status: 'approved',
-                verifiedAt: { [Op.gte]: today }
-            }
-        });
-
-        res.json({
-            success: true,
-            data: {
-                pending: totalPending,
-                approved: totalApproved,
-                rejected: totalRejected,
-                totalRevenue,
-                todayApproved
-            }
-        });
-
-    } catch (error) {
-        console.error('Get payment stats error:', error);
-        res.status(500).json({
-            success: false,
-            message: 'Failed to get payment stats'
-        });
-    }
-};
-
-// Check premium status
-exports.checkPremiumStatus = async (req, res) => {
-    try {
-        const userId = req.user.id;
-
-        const user = await User.findByPk(userId, {
-            attributes: ['id', 'isPremium', 'premiumSince']
-        });
-
-        res.json({
-            success: true,
-            data: {
-                isPremium: user.isPremium || false,
-                premiumSince: user.premiumSince
-            }
-        });
-
-    } catch (error) {
-        console.error('Check premium status error:', error);
-        res.status(500).json({
-            success: false,
-            message: 'Failed to check premium status'
         });
     }
 };

@@ -1,382 +1,260 @@
 // src/utils/emailService.js
 
-const transporter = require('../config/email');
+const nodemailer = require('nodemailer');
 
-// OTP Email Template
-const getOTPEmailTemplate = (otp, userName = 'User') => {
-    return `
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            body {
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                background: #f4f4f4;
-                margin: 0;
-                padding: 20px;
-            }
-            .container {
-                max-width: 500px;
-                margin: 0 auto;
-                background: white;
-                border-radius: 16px;
-                overflow: hidden;
-                box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-            }
-            .header {
-                background: linear-gradient(135deg, #4A00E0, #8E2DE2);
-                color: white;
-                padding: 40px 30px;
-                text-align: center;
-            }
-            .header h1 {
-                margin: 0;
-                font-size: 28px;
-                font-weight: 800;
-            }
-            .header p {
-                margin: 10px 0 0;
-                opacity: 0.9;
-            }
-            .content {
-                padding: 40px 30px;
-                text-align: center;
-            }
-            .greeting {
-                font-size: 18px;
-                color: #333;
-                margin-bottom: 20px;
-            }
-            .otp-box {
-                background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-                padding: 25px;
-                border-radius: 12px;
-                margin: 25px 0;
-                border: 2px dashed #4A00E0;
-            }
-            .otp {
-                font-size: 42px;
-                letter-spacing: 10px;
-                color: #4A00E0;
-                font-weight: 800;
-                font-family: 'Courier New', monospace;
-            }
-            .expiry {
-                background: #fff3cd;
-                color: #856404;
-                padding: 12px 20px;
-                border-radius: 8px;
-                font-size: 14px;
-                margin: 20px 0;
-                display: inline-block;
-            }
-            .warning {
-                color: #666;
-                font-size: 13px;
-                margin-top: 25px;
-                padding: 15px;
-                background: #f8f9fa;
-                border-radius: 8px;
-                text-align: left;
-            }
-            .footer {
-                background: #f8f9fa;
-                padding: 20px;
-                text-align: center;
-                color: #888;
-                font-size: 12px;
-                border-top: 1px solid #eee;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="header">
-                <h1>🎓 EXAM-AXIS</h1>
-                <p>Password Reset Request</p>
-            </div>
-            <div class="content">
-                <p class="greeting">Hello <strong>${userName}</strong>,</p>
-                <p>We received a request to reset your password. Use the OTP below to proceed:</p>
-                
-                <div class="otp-box">
-                    <div class="otp">${otp}</div>
-                </div>
-                
-                <div class="expiry">
-                    ⏱️ This OTP expires in <strong>10 minutes</strong>
-                </div>
-                
-                <div class="warning">
-                    <strong>🔒 Security Tips:</strong><br>
-                    • Never share this OTP with anyone<br>
-                    • Our team will never ask for your OTP<br>
-                    • If you didn't request this, please ignore this email
-                </div>
-            </div>
-            <div class="footer">
-                <p>© 2024 Exam-Axis. All rights reserved.</p>
-            </div>
-        </div>
-    </body>
-    </html>
-    `;
+// Create transporter
+const createTransporter = () => {
+    return nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+            user: process.env.EMAIL_USER,
+            pass: process.env.EMAIL_PASS
+        }
+    });
 };
 
-// Password Reset Success Email Template
-const getPasswordResetSuccessTemplate = (userName = 'User') => {
-    return `
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <style>
-            body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; margin: 0; }
-            .container { max-width: 500px; margin: 0 auto; background: white; border-radius: 16px; overflow: hidden; }
-            .header { background: linear-gradient(135deg, #27ae60, #2ecc71); color: white; padding: 40px; text-align: center; }
-            .header h1 { margin: 0; font-size: 24px; }
-            .content { padding: 40px; text-align: center; }
-            .icon { font-size: 60px; margin-bottom: 20px; }
-            .footer { background: #f8f9fa; padding: 20px; text-align: center; color: #888; font-size: 12px; }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="header">
-                <h1>🎓 EXAM-AXIS</h1>
-            </div>
-            <div class="content">
-                <div class="icon">✅</div>
-                <h2>Password Reset Successful!</h2>
-                <p>Hello <strong>${userName}</strong>,</p>
-                <p>Your password has been successfully reset. You can now log in with your new password.</p>
-                <p style="color: #e74c3c; margin-top: 20px;">
-                    <strong>⚠️ If you didn't make this change, please contact support immediately.</strong>
-                </p>
-            </div>
-            <div class="footer">
-                <p>© 2024 Exam-Axis. All rights reserved.</p>
-            </div>
-        </div>
-    </body>
-    </html>
-    `;
-};
-
-// Send OTP Email
-const sendOTPEmail = async (email, otp, userName) => {
+// ========== PAYMENT NOTIFICATION TO ADMIN ==========
+exports.sendPaymentNotificationEmail = async ({ userEmail, userName, transactionId, amount, phone }) => {
     try {
+        const transporter = createTransporter();
+        
         const mailOptions = {
             from: `"Exam-Axis" <${process.env.EMAIL_USER}>`,
-            to: email,
-            subject: '🔐 Password Reset OTP - Exam-Axis',
-            html: getOTPEmailTemplate(otp, userName)
+            to: process.env.ADMIN_EMAIL || process.env.EMAIL_USER,
+            subject: '💰 New Payment Request - Exam-Axis',
+            html: `
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <style>
+                        body { font-family: Arial, sans-serif; line-height: 1.6; }
+                        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; text-align: center; border-radius: 10px 10px 0 0; }
+                        .content { background: #f9f9f9; padding: 20px; border: 1px solid #ddd; }
+                        .info-box { background: white; padding: 15px; border-radius: 8px; margin: 10px 0; border-left: 4px solid #667eea; }
+                        .label { font-weight: bold; color: #333; }
+                        .value { color: #667eea; }
+                        .btn { display: inline-block; background: #667eea; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; margin-top: 15px; }
+                        .footer { text-align: center; padding: 15px; color: #666; font-size: 12px; }
+                    </style>
+                </head>
+                <body>
+                    <div class="container">
+                        <div class="header">
+                            <h1>🔔 New Payment Request</h1>
+                        </div>
+                        <div class="content">
+                            <p>A new premium payment request has been submitted:</p>
+                            
+                            <div class="info-box">
+                                <p><span class="label">👤 User:</span> <span class="value">${userName}</span></p>
+                                <p><span class="label">📧 Email:</span> <span class="value">${userEmail}</span></p>
+                                <p><span class="label">📱 Phone:</span> <span class="value">${phone || 'Not provided'}</span></p>
+                                <p><span class="label">💰 Amount:</span> <span class="value">₹${amount}</span></p>
+                                <p><span class="label">🔗 Transaction ID:</span> <span class="value">${transactionId}</span></p>
+                                <p><span class="label">📅 Time:</span> <span class="value">${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}</span></p>
+                            </div>
+                            
+                            <p>Please verify the payment and approve/reject from the admin panel.</p>
+                            
+                            <a href="${process.env.FRONTEND_URL || 'https://exam-axis.vercel.app'}/admin/payments.html" class="btn">
+                                View Payment Requests
+                            </a>
+                        </div>
+                        <div class="footer">
+                            <p>This is an automated notification from Exam-Axis</p>
+                        </div>
+                    </div>
+                </body>
+                </html>
+            `
         };
-
-        const info = await transporter.sendMail(mailOptions);
-        console.log('📧 OTP Email sent to:', email);
-        return { success: true, messageId: info.messageId };
+        
+        await transporter.sendMail(mailOptions);
+        console.log('Payment notification sent to admin');
+        return true;
     } catch (error) {
-        console.error('❌ Email sending failed:', error.message);
+        console.error('Error sending payment notification:', error);
         throw error;
     }
 };
 
-// Send Password Reset Success Email
-const sendPasswordResetSuccessEmail = async (email, userName) => {
+// ========== PREMIUM ACTIVATED EMAIL TO USER ==========
+exports.sendPremiumActivatedEmail = async (email, userName) => {
     try {
+        const transporter = createTransporter();
+        
         const mailOptions = {
             from: `"Exam-Axis" <${process.env.EMAIL_USER}>`,
             to: email,
-            subject: '✅ Password Reset Successful - Exam-Axis',
-            html: getPasswordResetSuccessTemplate(userName)
+            subject: '🎉 Premium Access Activated - Exam-Axis',
+            html: `
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <style>
+                        body { font-family: Arial, sans-serif; line-height: 1.6; }
+                        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                        .header { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); color: white; padding: 30px; text-align: center; border-radius: 10px 10px 0 0; }
+                        .content { background: #f9f9f9; padding: 30px; border: 1px solid #ddd; }
+                        .feature { display: flex; align-items: center; margin: 15px 0; padding: 10px; background: white; border-radius: 8px; }
+                        .feature-icon { font-size: 24px; margin-right: 15px; }
+                        .btn { display: inline-block; background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); color: white; padding: 15px 40px; text-decoration: none; border-radius: 25px; margin-top: 20px; font-weight: bold; }
+                        .footer { text-align: center; padding: 20px; color: #666; font-size: 12px; }
+                    </style>
+                </head>
+                <body>
+                    <div class="container">
+                        <div class="header">
+                            <h1>🎉 Congratulations!</h1>
+                            <h2>Your Premium Access is Now Active</h2>
+                        </div>
+                        <div class="content">
+                            <p>Hi <strong>${userName}</strong>,</p>
+                            
+                            <p>Great news! Your payment has been verified and your premium membership is now active! 🚀</p>
+                            
+                            <h3>What you now have access to:</h3>
+                            
+                            <div class="feature">
+                                <span class="feature-icon">📝</span>
+                                <span>All Premium Mock Tests (CGL, CHSL, MTS, CPO)</span>
+                            </div>
+                            
+                            <div class="feature">
+                                <span class="feature-icon">📊</span>
+                                <span>Detailed Performance Analytics</span>
+                            </div>
+                            
+                            <div class="feature">
+                                <span class="feature-icon">📚</span>
+                                <span>Previous Year Question Papers</span>
+                            </div>
+                            
+                            <div class="feature">
+                                <span class="feature-icon">🏆</span>
+                                <span>All India Ranking & Comparison</span>
+                            </div>
+                            
+                            <div class="feature">
+                                <span class="feature-icon">💡</span>
+                                <span>Detailed Solutions & Explanations</span>
+                            </div>
+                            
+                            <center>
+                                <a href="${process.env.FRONTEND_URL || 'https://exam-axis.vercel.app'}/dashboard.html" class="btn">
+                                    Start Practicing Now →
+                                </a>
+                            </center>
+                            
+                            <p style="margin-top: 30px;">Thank you for choosing Exam-Axis. We wish you all the best for your exam preparation! 💪</p>
+                        </div>
+                        <div class="footer">
+                            <p>If you have any questions, reply to this email.</p>
+                            <p>© 2024 Exam-Axis. All rights reserved.</p>
+                        </div>
+                    </div>
+                </body>
+                </html>
+            `
         };
-
+        
         await transporter.sendMail(mailOptions);
-        return { success: true };
+        console.log('Premium activation email sent to:', email);
+        return true;
     } catch (error) {
-        console.error('❌ Success email failed:', error.message);
-        return { success: false };
-    }
-};
-// Add to src/utils/emailService.js
-
-// Payment Notification Email to Admin
-const getPaymentNotificationTemplate = (data) => {
-    return `
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <style>
-            body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; margin: 0; }
-            .container { max-width: 500px; margin: 0 auto; background: white; border-radius: 16px; overflow: hidden; }
-            .header { background: linear-gradient(135deg, #f39c12, #e74c3c); color: white; padding: 30px; text-align: center; }
-            .header h1 { margin: 0; font-size: 24px; }
-            .content { padding: 30px; }
-            .info-box { background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 20px 0; }
-            .info-row { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #eee; }
-            .info-row:last-child { border-bottom: none; }
-            .label { color: #666; }
-            .value { font-weight: bold; color: #333; }
-            .btn { display: inline-block; background: linear-gradient(135deg, #4A00E0, #8E2DE2); color: white; padding: 15px 30px; text-decoration: none; border-radius: 10px; margin-top: 20px; }
-            .footer { background: #f8f9fa; padding: 20px; text-align: center; color: #888; font-size: 12px; }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="header">
-                <h1>💰 New Payment Request!</h1>
-            </div>
-            <div class="content">
-                <p>A new payment request has been submitted and needs verification:</p>
-                
-                <div class="info-box">
-                    <div class="info-row">
-                        <span class="label">User Name:</span>
-                        <span class="value">${data.userName}</span>
-                    </div>
-                    <div class="info-row">
-                        <span class="label">Email:</span>
-                        <span class="value">${data.userEmail}</span>
-                    </div>
-                    <div class="info-row">
-                        <span class="label">Phone:</span>
-                        <span class="value">${data.phone || 'Not provided'}</span>
-                    </div>
-                    <div class="info-row">
-                        <span class="label">Amount:</span>
-                        <span class="value">₹${data.amount}</span>
-                    </div>
-                    <div class="info-row">
-                        <span class="label">Transaction ID:</span>
-                        <span class="value">${data.transactionId}</span>
-                    </div>
-                </div>
-
-                <p><strong>Action Required:</strong> Please verify this payment in your UPI app and approve/reject in admin dashboard.</p>
-
-                <center>
-                    <a href="https://exam-axis.vercel.app/admin-payments.html" class="btn">
-                        Open Admin Dashboard
-                    </a>
-                </center>
-            </div>
-            <div class="footer">
-                <p>© 2024 Exam-Axis. All rights reserved.</p>
-            </div>
-        </div>
-    </body>
-    </html>
-    `;
-};
-
-// Premium Activated Email
-const getPremiumActivatedTemplate = (userName) => {
-    return `
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <style>
-            body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; margin: 0; }
-            .container { max-width: 500px; margin: 0 auto; background: white; border-radius: 16px; overflow: hidden; }
-            .header { background: linear-gradient(135deg, #27ae60, #2ecc71); color: white; padding: 40px; text-align: center; }
-            .header .icon { font-size: 60px; margin-bottom: 15px; }
-            .header h1 { margin: 0; font-size: 24px; }
-            .content { padding: 30px; text-align: center; }
-            .features { background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 20px 0; text-align: left; }
-            .feature { padding: 10px 0; display: flex; align-items: center; gap: 10px; }
-            .feature-icon { color: #27ae60; }
-            .btn { display: inline-block; background: linear-gradient(135deg, #4A00E0, #8E2DE2); color: white; padding: 15px 30px; text-decoration: none; border-radius: 10px; margin-top: 20px; }
-            .footer { background: #f8f9fa; padding: 20px; text-align: center; color: #888; font-size: 12px; }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="header">
-                <div class="icon">🎉</div>
-                <h1>Welcome to Premium!</h1>
-            </div>
-            <div class="content">
-                <p>Hello <strong>${userName}</strong>,</p>
-                <p>Your payment has been verified and your <strong>Exam-Axis Premium</strong> access is now active!</p>
-                
-                <div class="features">
-                    <div class="feature">
-                        <span class="feature-icon">✅</span>
-                        <span>Unlimited Tests in All Subjects</span>
-                    </div>
-                    <div class="feature">
-                        <span class="feature-icon">✅</span>
-                        <span>Detailed Performance Analytics</span>
-                    </div>
-                    <div class="feature">
-                        <span class="feature-icon">✅</span>
-                        <span>Complete Solutions & Explanations</span>
-                    </div>
-                    <div class="feature">
-                        <span class="feature-icon">✅</span>
-                        <span>All Future Tests & Updates</span>
-                    </div>
-                </div>
-
-                <a href="https://exam-axis.vercel.app/dashboard.html" class="btn">
-                    🚀 Start Learning Now
-                </a>
-            </div>
-            <div class="footer">
-                <p>Thank you for choosing Exam-Axis!</p>
-                <p>© 2024 Exam-Axis. All rights reserved.</p>
-            </div>
-        </div>
-    </body>
-    </html>
-    `;
-};
-
-// Send Payment Notification to Admin
-const sendPaymentNotificationEmail = async (data) => {
-    try {
-        const mailOptions = {
-            from: `"Exam-Axis" <${process.env.EMAIL_USER}>`,
-            to: 'gouravssc77@gmail.com', // Admin email
-            subject: `💰 New Payment Request - ₹${data.amount} from ${data.userName}`,
-            html: getPaymentNotificationTemplate(data)
-        };
-
-        await transporter.sendMail(mailOptions);
-        console.log('📧 Payment notification sent to admin');
-        return { success: true };
-    } catch (error) {
-        console.error('❌ Payment notification email failed:', error.message);
+        console.error('Error sending premium activation email:', error);
         throw error;
     }
 };
 
-// Send Premium Activated Email to User
-const sendPremiumActivatedEmail = async (email, userName) => {
+// ========== PAYMENT REJECTED EMAIL ==========
+exports.sendPaymentRejectedEmail = async (email, userName, reason) => {
     try {
+        const transporter = createTransporter();
+        
         const mailOptions = {
             from: `"Exam-Axis" <${process.env.EMAIL_USER}>`,
             to: email,
-            subject: '🎉 Premium Activated - Welcome to Exam-Axis Premium!',
-            html: getPremiumActivatedTemplate(userName)
+            subject: '❌ Payment Verification Failed - Exam-Axis',
+            html: `
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <style>
+                        body { font-family: Arial, sans-serif; line-height: 1.6; }
+                        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                        .header { background: #e74c3c; color: white; padding: 20px; text-align: center; border-radius: 10px 10px 0 0; }
+                        .content { background: #f9f9f9; padding: 20px; border: 1px solid #ddd; }
+                        .reason-box { background: #fff3cd; padding: 15px; border-radius: 8px; margin: 15px 0; border-left: 4px solid #ffc107; }
+                        .btn { display: inline-block; background: #667eea; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; margin-top: 15px; }
+                        .footer { text-align: center; padding: 15px; color: #666; font-size: 12px; }
+                    </style>
+                </head>
+                <body>
+                    <div class="container">
+                        <div class="header">
+                            <h1>Payment Verification Failed</h1>
+                        </div>
+                        <div class="content">
+                            <p>Hi <strong>${userName}</strong>,</p>
+                            
+                            <p>We were unable to verify your recent payment request.</p>
+                            
+                            <div class="reason-box">
+                                <strong>Reason:</strong> ${reason || 'Payment details could not be verified. Please ensure you entered the correct transaction ID.'}
+                            </div>
+                            
+                            <p>What you can do:</p>
+                            <ul>
+                                <li>Double-check your transaction ID</li>
+                                <li>Ensure the payment was made to the correct UPI ID</li>
+                                <li>Submit a new payment request with correct details</li>
+                                <li>Contact support if you believe this is an error</li>
+                            </ul>
+                            
+                            <a href="${process.env.FRONTEND_URL || 'https://exam-axis.vercel.app'}/premium.html" class="btn">
+                                Try Again
+                            </a>
+                            
+                            <p style="margin-top: 20px; color: #666;">
+                                If you've already made the payment, please contact us at 
+                                <a href="mailto:${process.env.SUPPORT_EMAIL || process.env.EMAIL_USER}">support</a>
+                            </p>
+                        </div>
+                        <div class="footer">
+                            <p>© 2024 Exam-Axis. All rights reserved.</p>
+                        </div>
+                    </div>
+                </body>
+                </html>
+            `
         };
-
+        
         await transporter.sendMail(mailOptions);
-        console.log('📧 Premium activation email sent to:', email);
-        return { success: true };
+        console.log('Payment rejected email sent to:', email);
+        return true;
     } catch (error) {
-        console.error('❌ Premium activation email failed:', error.message);
-        return { success: false };
+        console.error('Error sending payment rejected email:', error);
+        throw error;
     }
 };
 
-// Export all functions
-module.exports = {
-    sendOTPEmail,
-    sendPasswordResetSuccessEmail,
-    sendPaymentNotificationEmail,      // ✨ ADD
-    sendPremiumActivatedEmail          // ✨ ADD
+// ========== EXISTING EMAIL FUNCTIONS (Keep your existing ones) ==========
+
+// OTP Email
+exports.sendOTPEmail = async (email, otp, purpose = 'verification') => {
+    // Your existing OTP email code
 };
 
+// Password Reset Email
+exports.sendPasswordResetEmail = async (email, resetToken) => {
+    // Your existing password reset code
+};
+
+// Welcome Email
+exports.sendWelcomeEmail = async (email, userName) => {
+    // Your existing welcome email code
+};
+
+module.exports = exports;
