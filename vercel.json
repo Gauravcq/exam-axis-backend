@@ -8,6 +8,26 @@
   ],
   "routes": [
     {
+      "src": "/api/(.*)",
+      "methods": ["OPTIONS"],
+      "headers": {
+        "Access-Control-Allow-Origin": "https://exam-axis.vercel.app",
+        "Access-Control-Allow-Methods": "GET,POST,PUT,PATCH,DELETE,OPTIONS",
+        "Access-Control-Allow-Headers": "Origin,X-Requested-With,Content-Type,Accept,Authorization",
+        "Access-Control-Allow-Credentials": "true"
+      },
+      "dest": "src/app.js"
+    },
+    {
+      "src": "/api/(.*)",
+      "methods": ["GET", "POST", "PUT", "PATCH", "DELETE"],
+      "headers": {
+        "Access-Control-Allow-Origin": "https://exam-axis.vercel.app",
+        "Access-Control-Allow-Credentials": "true"
+      },
+      "dest": "src/app.js"
+    },
+    {
       "src": "/(.*)",
       "dest": "src/app.js"
     }

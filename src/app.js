@@ -21,13 +21,12 @@ const publicTestsRoutes = require('./routes/publicTests');
 const questionRoutes = require('./routes/questions');
 const paymentRoutes = require('./routes/payment');
 
-
 const app = express();
 
-// Needed for secure cookies behind proxy (Vercel)
+// Trust proxy for Vercel
 app.set('trust proxy', 1);
 
-// ==================== CORS CONFIG ====================
+// ==================== CORS CONFIG (FIXED) ====================
 
 const allowedOrigins = [
   'https://exam-axis.vercel.app',
@@ -37,52 +36,53 @@ const allowedOrigins = [
   'http://127.0.0.1:3000'
 ];
 
-// Manual CORS + preflight
+// ✅ Handle ALL OPTIONS requests FIRST (before any other middleware)
+app.options('*', (req, res) => {
+  const origin = req.headers.origin;
+  
+  if (origin && allowedOrigins.includes(origin)) {
+    res.header('Access-Control-Allow-Origin', origin);
+  } else {
+    res.header('Access-Control-Allow-Origin', 'https://exam-axis.vercel.app');
+  }
+  
+  res.header('Access-Control-Allow-Credentials', 'true');
+  res.header('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Origin,X-Requested-With,Content-Type,Accept,Authorization');
+  res.header('Access-Control-Max-Age', '86400'); // 24 hours cache
+  
+  return res.status(200).end();
+});
+
+// ✅ CORS middleware for all other requests
 app.use((req, res, next) => {
   const origin = req.headers.origin;
-
+  
   if (origin && allowedOrigins.includes(origin)) {
     res.header('Access-Control-Allow-Origin', origin);
   }
-
+  
   res.header('Access-Control-Allow-Credentials', 'true');
-  res.header(
-    'Access-Control-Allow-Methods',
-    'GET,POST,PUT,PATCH,DELETE,OPTIONS'
-  );
-  res.header(
-    'Access-Control-Allow-Headers',
-    'Origin,X-Requested-With,Content-Type,Accept,Authorization'
-  );
-
-  if (req.method === 'OPTIONS') {
-    return res.sendStatus(200);
-  }
-
+  res.header('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Origin,X-Requested-With,Content-Type,Accept,Authorization');
+  
   next();
 });
 
-// Optional cors() as backup
-app.use(
-  cors({
-    origin(origin, callback) {
-      if (!origin) return callback(null, true);
-      if (allowedOrigins.includes(origin)) return callback(null, true);
-      return callback(new Error('Not allowed by CORS'));
-    },
-    credentials: true
-  })
-);
-
 // ================= END CORS CONFIG ====================
-app.use('/api/payment', paymentRoutes);
 
-// Core middleware
-app.use(helmet());
+// ✅ Helmet with CORS-safe config
+app.use(helmet({
+  crossOriginResourcePolicy: { policy: "cross-origin" },
+  crossOriginOpenerPolicy: { policy: "unsafe-none" }
+}));
+
+// Body parsers
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use(cookieParser());
 
+// Logging
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 } else {
@@ -106,14 +106,23 @@ app.get('/health', (req, res) => {
   res.json({ status: 'OK', uptime: process.uptime() });
 });
 
-// API Routes
+// ✅ CORS Test endpoint (for debugging)
+app.get('/api/cors-test', (req, res) => {
+  res.json({ 
+    success: true, 
+    message: 'CORS is working!',
+    origin: req.headers.origin || 'No origin header'
+  });
+});
+
+// ==================== API ROUTES ====================
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/tests', testRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/public/tests', publicTestsRoutes);
 app.use('/api/questions', questionRoutes);
-
+app.use('/api/payment', paymentRoutes);
 
 // 404 handler
 app.use((req, res) => {
