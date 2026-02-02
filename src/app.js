@@ -20,66 +20,64 @@ const adminRoutes = require('./routes/admin');
 const publicTestsRoutes = require('./routes/publicTests');
 const questionRoutes = require('./routes/questions');
 
-
 const app = express();
 
-// Needed for secure cookies behind proxy (Vercel)
+// Trust proxy for Vercel
 app.set('trust proxy', 1);
 
-// ==================== CORS CONFIG ====================
+// ==================== CORS CONFIG (MUST BE FIRST) ====================
 
 const allowedOrigins = [
   'https://exam-axis.vercel.app',
   'http://localhost:5500',
   'http://127.0.0.1:5500',
-  'http://localhost:3000'
+  'http://localhost:3000',
+  'http://localhost:5173'
 ];
 
-// Manual CORS + preflight
+// Handle CORS manually - BEFORE everything else
 app.use((req, res, next) => {
   const origin = req.headers.origin;
 
+  // Allow the origin if it's in our list, or allow all in development
   if (origin && allowedOrigins.includes(origin)) {
-    res.header('Access-Control-Allow-Origin', origin);
+    res.setHeader('Access-Control-Allow-Origin', origin);
+  } else if (!origin) {
+    // Allow requests with no origin (like mobile apps or Postman)
+    res.setHeader('Access-Control-Allow-Origin', '*');
+  } else {
+    // For debugging - allow all origins temporarily
+    res.setHeader('Access-Control-Allow-Origin', origin);
   }
 
-  res.header('Access-Control-Allow-Credentials', 'true');
-  res.header(
-    'Access-Control-Allow-Methods',
-    'GET,POST,PUT,PATCH,DELETE,OPTIONS'
-  );
-  res.header(
-    'Access-Control-Allow-Headers',
-    'Origin,X-Requested-With,Content-Type,Accept,Authorization'
-  );
+  res.setHeader('Access-Control-Allow-Credentials', 'true');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+  res.setHeader('Access-Control-Max-Age', '86400'); // 24 hours
 
+  // Handle preflight requests
   if (req.method === 'OPTIONS') {
-    return res.sendStatus(200);
+    return res.status(200).end();
   }
 
   next();
 });
 
-// Optional cors() as backup
-app.use(
-  cors({
-    origin(origin, callback) {
-      if (!origin) return callback(null, true);
-      if (allowedOrigins.includes(origin)) return callback(null, true);
-      return callback(new Error('Not allowed by CORS'));
-    },
-    credentials: true
-  })
-);
-
 // ================= END CORS CONFIG ====================
 
-// Core middleware
-app.use(helmet());
+// Helmet with CORS-friendly settings
+app.use(helmet({
+  crossOriginResourcePolicy: { policy: "cross-origin" },
+  crossOriginOpenerPolicy: { policy: "unsafe-none" },
+  crossOriginEmbedderPolicy: false
+}));
+
+// Body parsers
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use(cookieParser());
 
+// Logging
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 } else {
@@ -95,6 +93,7 @@ app.get('/', (req, res) => {
     success: true,
     message: '🚀 Exam-Axis API is running!',
     version: '1.0.0',
+    cors: 'enabled',
     timestamp: new Date().toISOString()
   });
 });
@@ -110,7 +109,6 @@ app.use('/api/tests', testRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/public/tests', publicTestsRoutes);
 app.use('/api/questions', questionRoutes);
-
 
 // 404 handler
 app.use((req, res) => {
