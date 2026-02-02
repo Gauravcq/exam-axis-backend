@@ -62,10 +62,14 @@ app.get('/health', (req, res) => {
   });
 });
 
-// ==================== DATABASE (NON-BLOCKING) ====================
-// ==================== DATABASE (NON-BLOCKING) ====================
+// ==================== DATABASE (SERVERLESS-COMPATIBLE) ====================
 let dbConnected = false;
 let dbError = null;
+
+// Shared promise - multiple concurrent requests await the same connection
+let dbReadyPromise = null;
+let dbInitResolve = null;
+let dbInitReject = null;
 
 const initDatabase = async () => {
   try {
@@ -84,18 +88,30 @@ const initDatabase = async () => {
     dbConnected = true;
     dbError = null;
     console.log('✅ Database ready');
+    if (dbInitResolve) dbInitResolve();
     
   } catch (error) {
     console.error('❌ Database initialization failed:', error.message);
     dbConnected = false;
     dbError = error.message;
+    if (dbInitReject) dbInitReject(error);
     
-    // Retry in 5 seconds
-    setTimeout(initDatabase, 5000);
+    // Retry in 5 seconds (only if not on serverless - Vercel functions are short-lived)
+    if (!process.env.VERCEL) {
+      dbReadyPromise = new Promise((resolve, reject) => {
+        dbInitResolve = resolve;
+        dbInitReject = reject;
+      });
+      setTimeout(initDatabase, 5000);
+    }
   }
 };
 
-// Start DB connection
+// Create promise that resolves when DB is ready
+dbReadyPromise = new Promise((resolve, reject) => {
+  dbInitResolve = resolve;
+  dbInitReject = reject;
+});
 initDatabase();
 
 // DB status endpoint with more details
@@ -107,16 +123,33 @@ app.get('/api/db-status', (req, res) => {
   });
 });
 
-// Improved DB check middleware
-const requireDB = (req, res, next) => {
-  if (!dbConnected) {
-    return res.status(503).json({
-      success: false,
-      message: 'Database connection is being established. Please try again in a few seconds.',
-      details: process.env.NODE_ENV === 'development' ? dbError : undefined
-    });
+// Serverless-friendly DB middleware: WAITS for connection before returning 503
+const requireDB = async (req, res, next) => {
+  if (dbConnected) {
+    return next();
   }
-  next();
+  
+  // Wait for connection (max 15 seconds - Vercel has 10s default, Pro has 60s)
+  const timeout = 15000;
+  const timeoutPromise = new Promise((_, reject) => 
+    setTimeout(() => reject(new Error('Connection timeout')), timeout)
+  );
+  
+  try {
+    await Promise.race([dbReadyPromise, timeoutPromise]);
+    
+    if (dbConnected) {
+      return next();
+    }
+  } catch (err) {
+    // Connection failed or timed out
+  }
+  
+  return res.status(503).json({
+    success: false,
+    message: 'Database connection is being established. Please try again in a few seconds.',
+    details: process.env.NODE_ENV === 'development' ? dbError : undefined
+  });
 };
 
 // ==================== ROUTES ====================
