@@ -3,12 +3,16 @@
 const { DataTypes } = require('sequelize');
 const { sequelize } = require('../config/database');
 
-// ==================== IMPORT & INITIALIZE MODELS ====================
+// ==================== IMPORT MODELS ====================
 
-const User = require('./User')(sequelize, DataTypes);
-const LoginLog = require('./LoginLog')(sequelize, DataTypes);
-const TestAttempt = require('./TestAttempt')(sequelize, DataTypes);
-const Test = require('./Test')(sequelize, DataTypes);
+// User uses factory pattern - needs to be initialized
+const UserFactory = require('./User');
+const User = UserFactory(sequelize, DataTypes);
+
+// These models are already initialized (direct export)
+const LoginLog = require('./LoginLog');
+const TestAttempt = require('./TestAttempt');
+const Test = require('./Test');
 
 // ==================== ERROR LOG MODEL ====================
 
@@ -51,12 +55,15 @@ const ErrorLog = sequelize.define('ErrorLog', {
 
 // ==================== ASSOCIATIONS ====================
 
+// User <-> LoginLog
 User.hasMany(LoginLog, { foreignKey: 'userId', as: 'loginLogs' });
 LoginLog.belongsTo(User, { foreignKey: 'userId', as: 'user' });
 
+// User <-> TestAttempt
 User.hasMany(TestAttempt, { foreignKey: 'userId', as: 'testAttempts' });
 TestAttempt.belongsTo(User, { foreignKey: 'userId', as: 'user' });
 
+// User <-> Test (creator)
 User.hasMany(Test, { foreignKey: 'createdBy', as: 'createdTests' });
 Test.belongsTo(User, { foreignKey: 'createdBy', as: 'creator' });
 
