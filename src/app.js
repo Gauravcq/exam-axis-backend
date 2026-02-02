@@ -1,5 +1,4 @@
 // src/app.js
-
 require('dotenv').config();
 
 const express = require('express');
@@ -13,6 +12,7 @@ const { apiLimiter } = require('./middleware/rateLimiter');
 const errorHandler = require('./middleware/errorHandler');
 const Logger = require('./utils/logger');
 
+// Routes
 const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/user');
 const testRoutes = require('./routes/tests');
@@ -26,8 +26,7 @@ const app = express();
 // Trust proxy for Vercel
 app.set('trust proxy', 1);
 
-// ==================== CORS CONFIG (FIXED) ====================
-
+// ==================== CORS CONFIG (SIMPLE & CLEAN) ====================
 const allowedOrigins = [
   'https://exam-axis.vercel.app',
   'http://localhost:5500',
@@ -36,76 +35,36 @@ const allowedOrigins = [
   'http://127.0.0.1:3000'
 ];
 
-// ✅ Handle ALL OPTIONS requests FIRST (before any other middleware)
-app.options('*', (req, res) => {
-  const origin = req.headers.origin;
-  
-  if (origin && allowedOrigins.includes(origin)) {
-    res.header('Access-Control-Allow-Origin', origin);
-  } else {
-    res.header('Access-Control-Allow-Origin', 'https://exam-axis.vercel.app');
-  }
-  
-  res.header('Access-Control-Allow-Credentials', 'true');
-  res.header('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
-  res.header('Access-Control-Allow-Headers', 'Origin,X-Requested-With,Content-Type,Accept,Authorization');
-  res.header('Access-Control-Max-Age', '86400'); // 24 hours cache
-  
-  return res.status(200).end();
-});
-
-// ✅ CORS middleware for all other requests
-// ==================== BULLETPROOF CORS (TOP - BEFORE ALL) ====================
-// 1. OPTIONS handler FIRST (catches preflight before crash)
-app.use((req, res, next) => {
-  if (req.method === 'OPTIONS') {
-    const origin = req.headers.origin;
-    const allowedOrigins = [
-      'https://exam-axis.vercel.app',
-      'http://localhost:5500',
-      'http://localhost:3000'
-    ];
+const corsOptions = {
+  origin: function (origin, callback) {
+    // Allow requests with no origin (mobile apps, curl, etc.)
+    if (!origin) return callback(null, true);
     
-    res.header('Access-Control-Allow-Origin', allowedOrigins.includes(origin) ? origin : 'https://exam-axis.vercel.app');
-    res.header('Access-Control-Allow-Credentials', 'true');
-    res.header('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
-    res.header('Access-Control-Allow-Headers', 'Origin,X-Requested-With,Content-Type,Accept,Authorization');
-    return res.status(200).end();
-  }
-  next();
-});
+    if (allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      console.log('Blocked origin:', origin);
+      callback(null, false);
+    }
+  },
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin'],
+  optionsSuccessStatus: 200
+};
 
-// 2. CORS headers for ALL responses (before routes)
-app.use((req, res, next) => {
-  const origin = req.headers.origin;
-  const allowedOrigins = [
-    'https://exam-axis.vercel.app',
-    'http://localhost:5500',
-    'http://localhost:3000'
-  ];
-  
-  if (origin && allowedOrigins.includes(origin)) {
-    res.setHeader('Access-Control-Allow-Origin', origin);
-  } else {
-    res.setHeader('Access-Control-Allow-Origin', 'https://exam-axis.vercel.app');
-  }
-  
-  res.setHeader('Access-Control-Allow-Credentials', 'true');
-  res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Origin,X-Requested-With,Content-Type,Accept,Authorization');
-  
-  next();
-});
-// ==================== END CORS ====================
-// ================= END CORS CONFIG ====================
+// Apply CORS
+app.use(cors(corsOptions));
 
-// ✅ Helmet with CORS-safe config
+// Handle preflight for all routes
+app.options('*', cors(corsOptions));
+
+// ==================== SECURITY & PARSING ====================
 app.use(helmet({
   crossOriginResourcePolicy: { policy: "cross-origin" },
   crossOriginOpenerPolicy: { policy: "unsafe-none" }
 }));
 
-// Body parsers
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use(cookieParser());
@@ -117,11 +76,10 @@ if (process.env.NODE_ENV === 'development') {
   app.use(morgan('combined'));
 }
 
-// Rate limiting
-app.use('/api', apiLimiter);
+// Static files
 app.use('/uploads', express.static('uploads'));
 
-// Health check
+// ==================== HEALTH CHECKS ====================
 app.get('/', (req, res) => {
   res.json({
     success: true,
@@ -132,10 +90,13 @@ app.get('/', (req, res) => {
 });
 
 app.get('/health', (req, res) => {
-  res.json({ status: 'OK', uptime: process.uptime() });
+  res.json({ 
+    status: 'OK', 
+    uptime: process.uptime(),
+    timestamp: new Date().toISOString()
+  });
 });
 
-// ✅ CORS Test endpoint (for debugging)
 app.get('/api/cors-test', (req, res) => {
   res.json({ 
     success: true, 
@@ -145,6 +106,9 @@ app.get('/api/cors-test', (req, res) => {
 });
 
 // ==================== API ROUTES ====================
+// Rate limiting for API routes
+app.use('/api', apiLimiter);
+
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/tests', testRoutes);
@@ -153,17 +117,19 @@ app.use('/api/public/tests', publicTestsRoutes);
 app.use('/api/questions', questionRoutes);
 app.use('/api/payment', paymentRoutes);
 
+// ==================== ERROR HANDLING ====================
 // 404 handler
 app.use((req, res) => {
   res.status(404).json({
     success: false,
-    message: `Route ${req.originalUrl} not found`
+    message: `Route ${req.method} ${req.originalUrl} not found`
   });
 });
 
-// Error handler
+// Global error handler
 app.use(errorHandler);
 
+// ==================== SERVER START (Local only) ====================
 const PORT = process.env.PORT || 5000;
 
 const startServer = async () => {
@@ -186,10 +152,10 @@ const startServer = async () => {
   }
 };
 
-// Local only
+// Only start server locally (not on Vercel)
 if (require.main === module) {
   startServer();
 }
 
-// Vercel handler
+// Export for Vercel
 module.exports = app;
