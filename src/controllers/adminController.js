@@ -9,6 +9,8 @@ const { apiResponse } = require('../utils/helpers');
 
 // ==================== DASHBOARD ====================
 
+// ==================== DASHBOARD ====================
+
 exports.getDashboardStats = async (req, res, next) => {
   try {
     const fs = require('fs').promises;
@@ -17,37 +19,72 @@ exports.getDashboardStats = async (req, res, next) => {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     
-    // Get user stats from database
-    const [
-      totalUsers,
-      newUsersToday,
-      paidUsers,
-      totalAttempts,
-      attemptsToday,
-      recentLogins
-    ] = await Promise.all([
-      User.count(),
-      User.count({ where: { createdAt: { [Op.gte]: today } } }),
-      User.count({ where: { isPaid: true } }),
-      TestAttempt.count(),
-      TestAttempt.count({ where: { createdAt: { [Op.gte]: today } } }),
-      LoginLog.findAll({
-        where: { status: 'success' },
-        order: [['createdAt', 'DESC']],
-        limit: 10,
-        include: [{ model: User, as: 'user', attributes: ['username', 'email'] }]
-      })
-    ]);
-
-    // Calculate total revenue
+    // Get basic user stats
+    let totalUsers = 0;
+    let newUsersToday = 0;
+    let paidUsers = 0;
     let totalRevenue = 0;
+    let totalAttempts = 0;
+    let attemptsToday = 0;
+    let recentLogins = [];
+
+    // Count total users
+    try {
+      totalUsers = await User.count();
+    } catch (err) {
+      console.error('Error counting users:', err.message);
+    }
+
+    // Count new users today
+    try {
+      newUsersToday = await User.count({ 
+        where: { createdAt: { [Op.gte]: today } } 
+      });
+    } catch (err) {
+      console.error('Error counting new users:', err.message);
+    }
+
+    // Count paid users (handle if column doesn't exist)
+    try {
+      paidUsers = await User.count({ 
+        where: { isPaid: true } 
+      });
+    } catch (err) {
+      console.log('isPaid column may not exist yet - skipping paid users count');
+      paidUsers = 0;
+    }
+
+    // Calculate total revenue (handle if column doesn't exist)
     try {
       const revenueResult = await User.sum('paidAmount', {
         where: { isPaid: true }
       });
       totalRevenue = revenueResult || 0;
     } catch (err) {
-      console.log('Revenue calculation skipped - field may not exist');
+      console.log('paidAmount column may not exist yet - skipping revenue');
+      totalRevenue = 0;
+    }
+
+    // Count test attempts
+    try {
+      totalAttempts = await TestAttempt.count();
+      attemptsToday = await TestAttempt.count({ 
+        where: { createdAt: { [Op.gte]: today } } 
+      });
+    } catch (err) {
+      console.error('Error counting attempts:', err.message);
+    }
+
+    // Get recent logins
+    try {
+      recentLogins = await LoginLog.findAll({
+        where: { status: 'success' },
+        order: [['createdAt', 'DESC']],
+        limit: 10,
+        include: [{ model: User, as: 'user', attributes: ['username', 'email'] }]
+      });
+    } catch (err) {
+      console.error('Error getting login logs:', err.message);
     }
     
     // Get test stats from questions.json file
@@ -68,12 +105,6 @@ exports.getDashboardStats = async (req, res, next) => {
       });
     } catch (err) {
       console.error('Error reading questions.json:', err.message);
-      // Fallback to database Test model
-      try {
-        totalTests = await Test.count();
-      } catch (dbErr) {
-        console.error('Error counting tests from DB:', dbErr.message);
-      }
     }
     
     apiResponse(res, 200, true, 'Dashboard stats retrieved', {
