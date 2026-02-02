@@ -7,24 +7,28 @@ const { apiResponse } = require('../utils/helpers');
 
 // ==================== DASHBOARD ====================
 
+// ==================== DASHBOARD ====================
+
 exports.getDashboardStats = async (req, res, next) => {
   try {
+    const fs = require('fs').promises;
+    const path = require('path');
+    
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     
+    // Get user stats from database
     const [
       totalUsers,
       newUsersToday,
-      totalTests,
-      activeTests,
+      paidUsers,
       totalAttempts,
       attemptsToday,
       recentLogins
     ] = await Promise.all([
       User.count(),
       User.count({ where: { createdAt: { [Op.gte]: today } } }),
-      Test.count(),
-      Test.count({ where: { isActive: true } }),
+      User.count({ where: { isPaid: true } }),
       TestAttempt.count(),
       TestAttempt.count({ where: { createdAt: { [Op.gte]: today } } }),
       LoginLog.findAll({
@@ -34,13 +38,52 @@ exports.getDashboardStats = async (req, res, next) => {
         include: [{ model: User, as: 'user', attributes: ['username', 'email'] }]
       })
     ]);
+
+    // Calculate total revenue
+    let totalRevenue = 0;
+    try {
+      const revenueResult = await User.sum('paidAmount', {
+        where: { isPaid: true }
+      });
+      totalRevenue = revenueResult || 0;
+    } catch (err) {
+      console.log('Revenue calculation skipped - field may not exist');
+    }
+    
+    // Get test stats from questions.json file
+    let totalTests = 0;
+    let totalQuestions = 0;
+    
+    try {
+      const questionsFile = path.join(__dirname, '../data/questions.json');
+      const data = await fs.readFile(questionsFile, 'utf8');
+      const questions = JSON.parse(data);
+      
+      totalTests = Object.keys(questions).length;
+      
+      Object.values(questions).forEach(testQuestions => {
+        if (Array.isArray(testQuestions)) {
+          totalQuestions += testQuestions.length;
+        }
+      });
+    } catch (err) {
+      console.error('Error reading questions.json:', err.message);
+      // Fallback to database Test model
+      try {
+        totalTests = await Test.count();
+      } catch (dbErr) {
+        console.error('Error counting tests from DB:', dbErr.message);
+      }
+    }
     
     apiResponse(res, 200, true, 'Dashboard stats retrieved', {
       stats: {
         totalUsers,
         newUsersToday,
+        paidUsers,
+        totalRevenue,
         totalTests,
-        activeTests,
+        totalQuestions,
         totalAttempts,
         attemptsToday
       },
@@ -48,6 +91,7 @@ exports.getDashboardStats = async (req, res, next) => {
     });
     
   } catch (error) {
+    console.error('Dashboard stats error:', error);
     next(error);
   }
 };
