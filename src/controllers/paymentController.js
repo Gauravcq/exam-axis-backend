@@ -2,9 +2,24 @@
 
 const PaymentRequest = require('../models/PaymentRequest');
 const User = require('../models/User');
-const { sendPaymentNotificationEmail, sendPremiumActivatedEmail } = require('../utils/emailService');
 
-// Submit payment request
+// Import email functions safely
+let sendPaymentNotificationEmail, sendPremiumActivatedEmail, sendPaymentRejectedEmail;
+
+try {
+    const emailService = require('../utils/emailService');
+    sendPaymentNotificationEmail = emailService.sendPaymentNotificationEmail;
+    sendPremiumActivatedEmail = emailService.sendPremiumActivatedEmail;
+    sendPaymentRejectedEmail = emailService.sendPaymentRejectedEmail;
+} catch (error) {
+    console.log('Email service not fully configured:', error.message);
+    // Fallback functions
+    sendPaymentNotificationEmail = async () => console.log('Email notification skipped');
+    sendPremiumActivatedEmail = async () => console.log('Premium email skipped');
+    sendPaymentRejectedEmail = async () => console.log('Rejection email skipped');
+}
+
+// ========== Submit payment request ==========
 exports.submitPaymentRequest = async (req, res) => {
     try {
         const { email, phone, transactionId, screenshotUrl } = req.body;
@@ -104,7 +119,7 @@ exports.submitPaymentRequest = async (req, res) => {
     }
 };
 
-// Get payment status (for user)
+// ========== Get payment status (for user) ==========
 exports.getPaymentStatus = async (req, res) => {
     try {
         const { email } = req.query;
@@ -146,17 +161,45 @@ exports.getPaymentStatus = async (req, res) => {
     }
 };
 
-// Get all pending payments (Admin)
+// ========== ✅ Check Premium Status (THIS WAS MISSING!) ==========
+exports.checkPremiumStatus = async (req, res) => {
+    try {
+        const userId = req.user.id;
+
+        const user = await User.findByPk(userId, {
+            attributes: ['id', 'isPremium', 'premiumSince']
+        });
+
+        if (!user) {
+            return res.status(404).json({
+                success: false,
+                message: 'User not found'
+            });
+        }
+
+        res.json({
+            success: true,
+            data: {
+                isPremium: user.isPremium || false,
+                premiumSince: user.premiumSince
+            }
+        });
+
+    } catch (error) {
+        console.error('Check premium status error:', error);
+        res.status(500).json({
+            success: false,
+            message: 'Failed to check premium status'
+        });
+    }
+};
+
+// ========== Get all pending payments (Admin) ==========
 exports.getPendingPayments = async (req, res) => {
     try {
         const payments = await PaymentRequest.findAll({
             where: { status: 'pending' },
-            order: [['createdAt', 'DESC']],
-            include: [{
-                model: User,
-                as: 'user',
-                attributes: ['id', 'fullName', 'username', 'email']
-            }]
+            order: [['createdAt', 'DESC']]
         });
 
         res.json({
@@ -174,7 +217,7 @@ exports.getPendingPayments = async (req, res) => {
     }
 };
 
-// Get all payments (Admin)
+// ========== Get all payments (Admin) ==========
 exports.getAllPayments = async (req, res) => {
     try {
         const { status, page = 1, limit = 20 } = req.query;
@@ -208,7 +251,57 @@ exports.getAllPayments = async (req, res) => {
     }
 };
 
-// Approve payment (Admin)
+// ========== ✅ Get Payment Stats (THIS WAS MISSING!) ==========
+exports.getPaymentStats = async (req, res) => {
+    try {
+        const { Op } = require('sequelize');
+        
+        const totalPending = await PaymentRequest.count({ where: { status: 'pending' } });
+        const totalApproved = await PaymentRequest.count({ where: { status: 'approved' } });
+        const totalRejected = await PaymentRequest.count({ where: { status: 'rejected' } });
+        
+        const totalRevenue = await PaymentRequest.sum('amount', { where: { status: 'approved' } }) || 0;
+
+        // Today's stats
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+
+        const todayApproved = await PaymentRequest.count({
+            where: {
+                status: 'approved',
+                verifiedAt: { [Op.gte]: today }
+            }
+        });
+
+        const todayPending = await PaymentRequest.count({
+            where: {
+                status: 'pending',
+                createdAt: { [Op.gte]: today }
+            }
+        });
+
+        res.json({
+            success: true,
+            data: {
+                pending: totalPending,
+                approved: totalApproved,
+                rejected: totalRejected,
+                totalRevenue,
+                todayApproved,
+                todayPending
+            }
+        });
+
+    } catch (error) {
+        console.error('Get payment stats error:', error);
+        res.status(500).json({
+            success: false,
+            message: 'Failed to get payment stats'
+        });
+    }
+};
+
+// ========== Approve payment (Admin) ==========
 exports.approvePayment = async (req, res) => {
     try {
         const { id } = req.params;
@@ -269,8 +362,7 @@ exports.approvePayment = async (req, res) => {
     }
 };
 
-// In exports.rejectPayment - Add email notification
-
+// ========== Reject payment (Admin) ==========
 exports.rejectPayment = async (req, res) => {
     try {
         const { id } = req.params;
@@ -300,9 +392,8 @@ exports.rejectPayment = async (req, res) => {
             verifiedAt: new Date()
         });
 
-        // ✅ Send rejection email to user
+        // Send rejection email to user
         try {
-            const { sendPaymentRejectedEmail } = require('../utils/emailService');
             const user = await User.findOne({ where: { email: payment.email } });
             
             if (user) {
