@@ -5,18 +5,29 @@ const router = express.Router();
 const path = require('path');
 const multer = require('multer');
 const { protect } = require('../middleware/auth');
+const uploadDir = path.join(
+    process.cwd(),   // 👈 project root
+    'uploads',
+    'payments'
+);
+
+// ensure folder exists
+if (!fs.existsSync(uploadDir)) {
+    fs.mkdirSync(uploadDir, { recursive: true });
+}
 
 // ================= MULTER CONFIG =================
 
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
-        cb(null, 'uploads/payments'); // make sure this folder exists
+        cb(null, uploadDir);   // ✅ absolute path
     },
     filename: (req, file, cb) => {
         const uniqueName = Date.now() + '-' + Math.round(Math.random() * 1E9);
         cb(null, uniqueName + path.extname(file.originalname));
     }
 });
+
 
 const fileFilter = (req, file, cb) => {
     if (file.mimetype.startsWith('image/')) {
