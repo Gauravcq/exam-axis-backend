@@ -1,27 +1,17 @@
 // src/models/index.js
 
-const User = require('./User');
-const LoginLog = require('./LoginLog');
-const TestAttempt = require('./TestAttempt');
-const Test = require('./Test');
-
-// ==================== USER ASSOCIATIONS ====================
-
-User.hasMany(LoginLog, { foreignKey: 'userId', as: 'loginLogs' });
-LoginLog.belongsTo(User, { foreignKey: 'userId', as: 'user' });
-
-User.hasMany(TestAttempt, { foreignKey: 'userId', as: 'testAttempts' });
-TestAttempt.belongsTo(User, { foreignKey: 'userId', as: 'user' });
-
-// ==================== TEST ASSOCIATIONS ====================
-
-User.hasMany(Test, { foreignKey: 'createdBy', as: 'createdTests' });
-Test.belongsTo(User, { foreignKey: 'createdBy', as: 'creator' });
-
-// ==================== ERROR LOG MODEL (if not exists) ====================
-
 const { DataTypes } = require('sequelize');
 const { sequelize } = require('../config/database');
+
+// ==================== IMPORT & INITIALIZE MODELS ====================
+
+// Models export functions, so we need to call them with (sequelize, DataTypes)
+const User = require('./User')(sequelize, DataTypes);
+const LoginLog = require('./LoginLog')(sequelize, DataTypes);
+const TestAttempt = require('./TestAttempt')(sequelize, DataTypes);
+const Test = require('./Test')(sequelize, DataTypes);
+
+// ==================== ERROR LOG MODEL ====================
 
 const ErrorLog = sequelize.define('ErrorLog', {
   id: {
@@ -60,9 +50,24 @@ const ErrorLog = sequelize.define('ErrorLog', {
   underscored: true
 });
 
-// ==================== EXPORT ALL MODELS ====================
+// ==================== ASSOCIATIONS ====================
+
+// User <-> LoginLog
+User.hasMany(LoginLog, { foreignKey: 'userId', as: 'loginLogs' });
+LoginLog.belongsTo(User, { foreignKey: 'userId', as: 'user' });
+
+// User <-> TestAttempt
+User.hasMany(TestAttempt, { foreignKey: 'userId', as: 'testAttempts' });
+TestAttempt.belongsTo(User, { foreignKey: 'userId', as: 'user' });
+
+// User <-> Test (creator)
+User.hasMany(Test, { foreignKey: 'createdBy', as: 'createdTests' });
+Test.belongsTo(User, { foreignKey: 'createdBy', as: 'creator' });
+
+// ==================== EXPORT ====================
 
 module.exports = {
+  sequelize,
   User,
   LoginLog,
   TestAttempt,
