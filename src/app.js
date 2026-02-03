@@ -172,13 +172,14 @@ const paymentUploadDir = process.env.NODE_ENV === 'production'
 
 app.get('/api/uploads/payments/:filename', (req, res) => {
   const raw = req.params.filename || '';
-  // Prevent path traversal: only allow filename (alphanumeric, dash, dot)
+  // Prevent path traversal: allow filename with alphanumeric, dash, dot, and numbers
   const filename = path.basename(raw);
-  if (!filename || filename !== raw || /[^a-zA-Z0-9._-]/.test(filename)) {
+  if (!filename || filename !== raw || /[\/\\:*?\"<>|]/.test(filename)) {
     return res.status(400).json({ success: false, message: 'Invalid filename' });
   }
   const filePath = path.join(paymentUploadDir, filename);
   if (!fs.existsSync(filePath)) {
+    console.log('File not found:', filePath); // Debug log
     return res.status(404).json({ success: false, message: 'Screenshot not found' });
   }
   const ext = path.extname(filename).toLowerCase();
