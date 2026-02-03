@@ -266,13 +266,23 @@ exports.deleteUser = async (req, res, next) => {
 
 exports.getAllTests = async (req, res, next) => {
   try {
-    const { examType, subject, isActive, page = 1, limit = 20 } = req.query;
+    const { examType, subject, isActive, isLocked, page = 1, limit = 20, search } = req.query;
     const offset = (page - 1) * limit;
     
     const where = {};
     if (examType) where.examType = examType;
     if (subject) where.subject = subject;
     if (isActive !== undefined) where.isActive = isActive === 'true';
+    if (isLocked !== undefined) where.isLocked = isLocked === 'true';
+    
+    // Add search functionality
+    if (search) {
+      where[Op.or] = [
+        { testId: { [Op.iLike]: `%${search}%` } },
+        { title: { [Op.iLike]: `%${search}%` } },
+        { description: { [Op.iLike]: `%${search}%` } }
+      ];
+    }
     
     const { count, rows } = await Test.findAndCountAll({
       where,
@@ -354,7 +364,8 @@ exports.updateTest = async (req, res, next) => {
     const allowedFields = [
       'title', 'description', 'examType', 'subject',
       'totalQuestions', 'totalMarks', 'duration', 'difficulty',
-      'questions', 'isActive', 'isNew', 'order'
+      'questions', 'isActive', 'isNew', 'order', 'isLocked', 
+      'publishAt', 'publishMessage'
     ];
     
     const updates = {};
@@ -707,6 +718,54 @@ exports.getLoginLogs = async (req, res, next) => {
       page: parseInt(page),
       logs: rows
     });
+    
+  } catch (error) {
+    next(error);
+  }
+};
+
+// ==================== BULK LOCK/UNLOCK TESTS ====================
+
+exports.bulkLockTests = async (req, res, next) => {
+  try {
+    const { examType, subject, locked } = req.body;
+    
+    if (typeof locked !== 'boolean') {
+      return apiResponse(res, 400, false, 'locked field must be boolean');
+    }
+    
+    const where = {};
+    if (examType) where.examType = examType;
+    if (subject) where.subject = subject;
+    
+    const [updatedCount] = await Test.update(
+      { isLocked: locked },
+      { where }
+    );
+    
+    apiResponse(res, 200, true, `${updatedCount} tests ${locked ? 'locked' : 'unlocked'}`, {
+      updatedCount,
+      locked
+    });
+    
+  } catch (error) {
+    next(error);
+  }
+};
+
+exports.toggleTestLock = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    
+    const test = await Test.findByPk(id);
+    
+    if (!test) {
+      return apiResponse(res, 404, false, 'Test not found');
+    }
+    
+    await test.update({ isLocked: !test.isLocked });
+    
+    apiResponse(res, 200, true, `Test ${test.isLocked ? 'locked' : 'unlocked'}`, { test });
     
   } catch (error) {
     next(error);

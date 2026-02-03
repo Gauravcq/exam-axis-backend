@@ -63,6 +63,21 @@ const Test = sequelize.define('Test', {
     defaultValue: true,
     field: 'is_active'
   },
+  isLocked: {
+    type: DataTypes.BOOLEAN,
+    defaultValue: false,
+    field: 'is_locked'
+  },
+  publishAt: {
+    type: DataTypes.DATE,
+    allowNull: true,
+    field: 'publish_at'
+  },
+  publishMessage: {
+    type: DataTypes.TEXT,
+    allowNull: true,
+    field: 'publish_message'
+  },
   isNew: {
     type: DataTypes.BOOLEAN,
     defaultValue: true,

@@ -23,7 +23,9 @@ const {
   toggleTestActive,
   deleteQuestion,
   updateQuestion,
-  getTestStats
+  getTestStats,
+  bulkLockTests,
+  toggleTestLock
 } = require('../controllers/adminController');
 
 const { protect } = require('../middleware/auth');
@@ -75,6 +77,10 @@ router.put('/tests/:id/questions/:questionIndex', updateQuestion);
 router.post('/tests/:id/duplicate', duplicateTest);
 router.put('/tests/:id/toggle-active', toggleTestActive);
 router.get('/tests/:id/stats', getTestStats);
+
+// ==================== BULK LOCK/UNLOCK ====================
+router.post('/tests/bulk-lock', bulkLockTests);
+router.put('/tests/:id/toggle-lock', toggleTestLock);
 
 // ==================== LOGS ====================
 router.get('/logs/errors', getErrorLogs);

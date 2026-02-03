@@ -1,6 +1,6 @@
-import multer from "multer";
-import path from "path";
-import fs from "fs";
+const multer = require("multer");
+const path = require("path");
+const fs = require("fs");
 
 const uploadDir = path.join(
   process.cwd(),      // 👈 project root
@@ -24,4 +24,4 @@ const storage = multer.diskStorage({
 
 const uploadPayment = multer({ storage });
 
-export default uploadPayment;
+module.exports = uploadPayment;

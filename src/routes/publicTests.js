@@ -18,7 +18,7 @@ router.get('/', async (req, res, next) => {
     
     const tests = await Test.findAll({
       where,
-      attributes: ['testId', 'title', 'examType', 'subject', 'totalQuestions', 'totalMarks', 'duration', 'difficulty', 'isNew', 'order'],
+      attributes: ['testId', 'title', 'examType', 'subject', 'totalQuestions', 'totalMarks', 'duration', 'difficulty', 'isNew', 'order', 'isLocked', 'publishAt', 'publishMessage'],
       order: [['order', 'ASC'], ['createdAt', 'DESC']]
     });
     
@@ -38,7 +38,7 @@ router.get('/:testId', async (req, res, next) => {
     
     const test = await Test.findOne({
       where: { testId, isActive: true },
-      attributes: ['testId', 'title', 'examType', 'subject', 'totalQuestions', 'totalMarks', 'duration', 'difficulty', 'questions']
+      attributes: ['testId', 'title', 'examType', 'subject', 'totalQuestions', 'totalMarks', 'duration', 'difficulty', 'questions', 'isLocked', 'publishAt', 'publishMessage']
     });
     
     if (!test) {
