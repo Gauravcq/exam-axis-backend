@@ -43,6 +43,17 @@ TestAttempt.belongsTo(User, {
     as: 'user'
 });
 
+// User <-> Test (creator relationship)
+User.hasMany(Test, {
+    foreignKey: 'createdBy',
+    as: 'createdTests'
+});
+
+Test.belongsTo(User, {
+    foreignKey: 'createdBy',
+    as: 'creator'
+});
+
 // Test <-> TestAttempt
 Test.hasMany(TestAttempt, {
     foreignKey: 'testId',

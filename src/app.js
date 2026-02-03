@@ -227,3 +227,17 @@ app.use((err, req, res, next) => {
 
 // ==================== EXPORT FOR VERCEL ====================
 module.exports = app;
+
+// ==================== START SERVER (FOR LOCAL DEVELOPMENT) ====================
+const PORT = process.env.PORT || 3000;
+
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`🚀 Server running on http://localhost:${PORT}`);
+    console.log(`📚 API Documentation:`);
+    console.log(`   GET  /api/admin/tests - Admin tests management`);
+    console.log(`   POST /api/admin/tests/bulk-lock - Bulk lock/unlock tests`);
+    console.log(`   POST /api/payment/submit - Submit payment request`);
+    console.log(`   GET  /api/public/tests - Get public tests`);
+  });
+}

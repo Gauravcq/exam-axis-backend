@@ -66,18 +66,16 @@ const User = sequelize.define('User', {
     allowNull: true,
     field: 'last_login'
   },
-  // Add these fields to your User model schema
-
-isPremium: {
+  isPremium: {
     type: DataTypes.BOOLEAN,
     defaultValue: false,
     field: 'is_premium'
-},
-premiumSince: {
+  },
+  premiumSince: {
     type: DataTypes.DATE,
     allowNull: true,
     field: 'premium_since'
-},
+  }
 }, {
   tableName: 'users',
   timestamps: true,
