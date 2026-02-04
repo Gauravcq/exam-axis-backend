@@ -1,18 +1,27 @@
 {
   "ssc_cgl_12_sep_s1": [
     {
-      "question": "<img src='../images/q1.png' alt='Math question image' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "Arrange the fractions 5/9, 2/3, 3/5 and 4/7 in ascending order.",
+        "hi": "भिन्नों को आरोही क्रम में व्यवस्थित करें 5/9, 2/3, 3/5 और 4/7"
+      },
       "options": [
-        "3/5 4/7 2/3 5/9",
-        "5/9 4/7 3/5 2/3",
-        "2/3 3/5 4/7 5/9",
-        "4/7 5/9 2/3 3/5"
+        "5/9, 4/7, 3/5, 2/3",
+        "2/3, 5/9, 4/7, 3/5",
+        "4/7, 3/5, 2/3, 5/9",
+        "3/5, 5/9, 2/3, 4/7"
       ],
-      "correctAnswer": "5/9 4/7 3/5 2/3",
-      "explanation": "FILL IN EXPLANATION (Ordering of fractions: 5/9 ≈ 0.556, 4/7 ≈ 0.571, 3/5 = 0.6, 2/3 ≈ 0.667)"
+      "correctAnswer": "5/9, 4/7, 3/5, 2/3",
+      "explanation": {
+        "en": "Convert fractions to decimals:\n• 5/9 = 0.555...\n• 4/7 = 0.571...\n• 3/5 = 0.600\n• 2/3 = 0.666...\n\nAscending order (smallest to largest):\n5/9 < 4/7 < 3/5 < 2/3\n\nAnswer: 5/9, 4/7, 3/5, 2/3",
+        "hi": "भिन्नों को दशमलव में बदलें:\n• 5/9 = 0.555...\n• 4/7 = 0.571...\n• 3/5 = 0.600\n• 2/3 = 0.666...\n\nआरोही क्रम (सबसे छोटे से सबसे बड़े):\n5/9 < 4/7 < 3/5 < 2/3\n\nउत्तर: 5/9, 4/7, 3/5, 2/3"
+      }
     },
     {
-      "question": "<img src='../images/q2.png' alt='Math question image' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "Simplify: (2½ + 3.6) - 1.9",
+        "hi": "सरल करें: (2½ + 3.6) - 1.9"
+      },
       "options": [
         "4.2",
         "5.2",
@@ -20,23 +29,32 @@
         "7.2"
       ],
       "correctAnswer": "4.2",
-      "explanation": "FILL IN EXPLANATION"
-    },
-    {
-      "question": "<img src='../images/q3.png' alt='Question 3' style='max-width: 100%; height: auto;'>",
-      "options": [
-        "3 1/4",
-        "-3 1/4",
-        "2 3/4",
-        "-2 3/4"
-      ],
-      "correctAnswer": "-2 3/4",
-      "explanation": "FILL IN EXPLANATION"
+      "explanation": {
+        "en": "Step-by-step solution:\n• Convert 2½ to decimal = 2.5\n• (2.5 + 3.6) - 1.9\n• = 6.1 - 1.9\n• = 4.2",
+        "hi": "चरण-दर-चरण हल:\n• 2½ को दशमलव में बदलें = 2.5\n• (2.5 + 3.6) - 1.9\n• = 6.1 - 1.9\n• = 4.2"
+      }
     },
     {
       "question": {
-        "en": "<img src='../images/q4.png' alt='Question 3' style='max-width: 100%; height: auto;'>",
-        "hi": "<img src='../images/qhi.png' alt='Question 3' style='max-width: 100%; height: auto;'>"
+        "en": "Evaluate: 7¼ - [5/6 ÷ {1/3 - (1/2 × (3/4 - 1/4))}]",
+        "hi": "7¼ - [5/6 ÷ {1/3 - (1/2 × (3/4 - 1/4))}] का मूल्यांकन करें।"
+      },
+      "options": [
+        "-3¼",
+        "3¼",
+        "-2¾",
+        "2¾"
+      ],
+      "correctAnswer": "-2¾",
+      "explanation": {
+        "en": "Solve using BODMAS (innermost bracket first):\n\nStep 1: (3/4 - 1/4) = 2/4 = 1/2\n\nStep 2: 1/2 × 1/2 = 1/4\n\nStep 3: 1/3 - 1/4 = (4-3)/12 = 1/12\n\nStep 4: 5/6 ÷ 1/12 = 5/6 × 12 = 10\n\nStep 5: 7¼ - 10 = 7.25 - 10 = -2.75 = -2¾",
+        "hi": "BODMAS का उपयोग करके हल करें (सबसे अंदरूनी कोष्ठक पहले):\n\nचरण 1: (3/4 - 1/4) = 2/4 = 1/2\n\nचरण 2: 1/2 × 1/2 = 1/4\n\nचरण 3: 1/3 - 1/4 = (4-3)/12 = 1/12\n\nचरण 4: 5/6 ÷ 1/12 = 5/6 × 12 = 10\n\nचरण 5: 7¼ - 10 = 7.25 - 10 = -2.75 = -2¾"
+      }
+    },
+    {
+      "question": {
+        "en": "From a sample of 200 software engineers, determine the ratio of those proficient in Python to those proficient in Java using the given information:\nProficient in Python and Java: 50\nProficient in Python only: 70\nProficient in Java only: 60\nProficient in neither language: 20",
+        "hi": "200 सॉफ्टवेयर इंजीनियरों के नमूने से, दी गई जानकारी का उपयोग करके पायथन में कुशल लोगों और जावा में कुशल लोगों का अनुपात निर्धारित करें:\nपायथन और जावा में कुशल: 50\nकेवल पायथन में कुशल: 70\nकेवल जावा में कुशल: 60\nकिसी भी भाषा में कुशल नहीं: 20"
       },
       "options": [
         "11:12",
@@ -46,12 +64,15 @@
       ],
       "correctAnswer": "12:11",
       "explanation": {
-        "en": "Step-by-Step CalculationFind the total number of people proficient in Python.This includes those proficient in Python and Java PLUS those proficient in Python only.Total Python Proficient $= (\text{Proficient in Python and Java}) + (\text{Proficient in Python only})$Total Python Proficient $= 50 + 70 = **120**$Find the total number of people proficient in Java.This includes those proficient in Python and Java PLUS those proficient in Java only.Total Java Proficient $= (\text{Proficient in Python and Java}) + (\text{Proficient in Java only})$Total Java Proficient $= 50 + 60 = **110**$Determine the required ratio.The required ratio is: (Total Python Proficient) : (Total Java Proficient)Ratio $= 120 : 110$Simplify the ratio.Divide both sides by the greatest common divisor, which is 10.Ratio $= \frac{120}{10} : \frac{110}{10} = **12 : 11**$The correct option is 12:11.",
-        "hi": "चरण-दर-चरण गणनापायथन (Python) में कुशल लोगों की कुल संख्या ज्ञात करें।इसमें वे लोग शामिल हैं जो पायथन और जावा (Python and Java) में कुशल हैं और वे लोग जो केवल पायथन (Python only) में कुशल हैं।पायथन में कुल कुशल $= (\text{पायथन और जावा में कुशल}) + (\text{केवल पायथन में कुशल})$पायथन में कुल कुशल $= 50 + 70 = **120**$जावा (Java) में कुशल लोगों की कुल संख्या ज्ञात करें।इसमें वे लोग शामिल हैं जो पायथन और जावा (Python and Java) में कुशल हैं और वे लोग जो केवल जावा (Java only) में कुशल हैं।जावा में कुल कुशल $= (\text{पायथन और जावा में कुशल}) + (\text{केवल जावा में कुशल})$जावा में कुल कुशल $= 50 + 60 = **110**$वांछित अनुपात (Ratio) निर्धारित करें।वांछित अनुपात है: (पायथन में कुल कुशल) : (जावा में कुल कुशल)अनुपात $= 120 : 110$अनुपात को सरल (Simplify) करें।दोनों पक्षों को 10 (सबसे बड़े समान भाजक) से भाग दें।अनुपात $= \frac{120}{10} : \frac{110}{10} = **12 : 11**$सही विकल्प 12:11 है।"
+        "en": "Python proficient:\n= Python & Java + Python only\n= 50 + 70 = 120\n\nJava proficient:\n= Python & Java + Java only\n= 50 + 60 = 110\n\nRatio = 120 : 110 = 12 : 11",
+        "hi": "पायथन में कुशल:\n= पायथन और जावा + केवल पायथन\n= 50 + 70 = 120\n\nजावा में कुशल:\n= पायथन और जावा + केवल जावा\n= 50 + 60 = 110\n\nअनुपात = 120 : 110 = 12 : 11"
       }
     },
     {
-      "question": "<img src='../images/q5.png' alt='Question 5' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "Arvind started a business by investing ₹80,000. After 4 months, Bhavin joined with ₹1,20,000. At the end of 8 months from the start, Chandan joined with ₹1,60,000. If the total profit is ₹1,05,000 at the end of the year, find the share of Chandan.",
+        "hi": "अरविंद ने ₹80,000 निवेश करके एक व्यवसाय शुरू किया। 4 महीने बाद, भाविन ₹1,20,000 के साथ शामिल हो गया। शुरुआत से 8 महीने के अंत में, चंदन ₹1,60,000 के साथ शामिल हो गया। यदि वर्ष के अंत में कुल लाभ ₹1,05,000 है, तो चंदन का हिस्सा ज्ञात कीजिए।"
+      },
       "options": [
         "₹26,500",
         "₹26,000",
@@ -59,10 +80,16 @@
         "₹26,250"
       ],
       "correctAnswer": "₹26,250",
-      "explanation": "FILL IN EXPLANATION"
+      "explanation": {
+        "en": "Investment × Time:\n• Arvind: ₹80,000 × 12 months = 9,60,000\n• Bhavin: ₹1,20,000 × 8 months = 9,60,000\n• Chandan: ₹1,60,000 × 4 months = 6,40,000\n\nRatio = 960000 : 960000 : 640000 = 3 : 3 : 2\n\nChandan's share:\n= (2/8) × ₹1,05,000\n= ₹26,250",
+        "hi": "निवेश × समय:\n• अरविंद: ₹80,000 × 12 महीने = 9,60,000\n• भाविन: ₹1,20,000 × 8 महीने = 9,60,000\n• चंदन: ₹1,60,000 × 4 महीने = 6,40,000\n\nअनुपात = 960000 : 960000 : 640000 = 3 : 3 : 2\n\nचंदन का हिस्सा:\n= (2/8) × ₹1,05,000\n= ₹26,250"
+      }
     },
     {
-      "question": "<img src='../images/q6.png' alt='Question 6' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "A and B start a business. A invests ₹80,000 for 9 months, B invests ₹1,20,000 for 6 months. What is B's share of a ₹45,000 profit?",
+        "hi": "A और B एक व्यवसाय शुरू करते हैं। A 9 महीने के लिए ₹80,000 का निवेश करता है, B 6 महीने के लिए ₹1,20,000 का निवेश करता है। ₹45,000 के लाभ में B का हिस्सा क्या है?"
+      },
       "options": [
         "₹26,500",
         "₹28,000",
@@ -70,10 +97,16 @@
         "₹22,500"
       ],
       "correctAnswer": "₹22,500",
-      "explanation": "FILL IN EXPLANATION"
+      "explanation": {
+        "en": "Investment × Time:\n• A: ₹80,000 × 9 = 7,20,000\n• B: ₹1,20,000 × 6 = 7,20,000\n\nRatio = 720000 : 720000 = 1 : 1\n\nB's share:\n= (1/2) × ₹45,000\n= ₹22,500",
+        "hi": "निवेश × समय:\n• A: ₹80,000 × 9 = 7,20,000\n• B: ₹1,20,000 × 6 = 7,20,000\n\nअनुपात = 720000 : 720000 = 1 : 1\n\nB का हिस्सा:\n= (1/2) × ₹45,000\n= ₹22,500"
+      }
     },
     {
-      "question": "<img src='../images/q7.png' alt='Question 7' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "What is the average of all integers between 100 and 250 that are exactly divisible by 11?",
+        "hi": "100 और 250 के बीच उन सभी पूर्णांकों का औसत क्या है जो 11 से पूर्णतः विभाज्य हैं?"
+      },
       "options": [
         "₹176",
         "₹186",
@@ -81,10 +114,16 @@
         "₹146"
       ],
       "correctAnswer": "₹176",
-      "explanation": "FILL IN EXPLANATION"
+      "explanation": {
+        "en": "Numbers divisible by 11 between 100 and 250:\n• First term = 110 (11 × 10)\n• Last term = 242 (11 × 22)\n\nThis forms an A.P. with a = 110, l = 242\n\nAverage = (First + Last) / 2\n= (110 + 242) / 2\n= 352 / 2\n= 176",
+        "hi": "100 और 250 के बीच 11 से विभाज्य संख्याएं:\n• पहला पद = 110 (11 × 10)\n• अंतिम पद = 242 (11 × 22)\n\nयह एक समांतर श्रेणी बनाती है जहां a = 110, l = 242\n\nऔसत = (पहला + अंतिम) / 2\n= (110 + 242) / 2\n= 352 / 2\n= 176"
+      }
     },
     {
-      "question": "<img src='../images/q8.png' alt='Question 8' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "The average of 15 numbers is 80. The average of the first 6 numbers is 72. The average of the next 6 numbers is 25% more than the average of the first 6 numbers. The 13th number is 8 more than the 15th number, and the 14th number is 10 less than the 15th number. What is the average of the 13th and 14th numbers?",
+        "hi": "15 संख्याओं का औसत 80 है। पहली 6 संख्याओं का औसत 72 है। अगली 6 संख्याओं का औसत पहली 6 संख्याओं के औसत से 25% अधिक है। 13वीं संख्या 15वीं संख्या से 8 अधिक है, और 14वीं संख्या 15वीं संख्या से 10 कम है। 13वीं और 14वीं संख्याओं का औसत क्या है?"
+      },
       "options": [
         "70.89",
         "85",
@@ -92,10 +131,16 @@
         "80.65"
       ],
       "correctAnswer": "75.67",
-      "explanation": "FILL IN EXPLANATION"
+      "explanation": {
+        "en": "Step 1: Total sum = 15 × 80 = 1200\n\nStep 2: Sum of first 6 = 6 × 72 = 432\n\nStep 3: Average of next 6 = 72 × 1.25 = 90\nSum of next 6 = 6 × 90 = 540\n\nStep 4: Sum of 13th, 14th, 15th = 1200 - 432 - 540 = 228\n\nStep 5: Let 15th = x\n• 13th = x + 8\n• 14th = x - 10\n• (x + 8) + (x - 10) + x = 228\n• 3x - 2 = 228 → x = 76.67\n\nStep 6: 13th = 84.67, 14th = 66.67\nAverage = (84.67 + 66.67)/2 = 75.67",
+        "hi": "चरण 1: कुल योग = 15 × 80 = 1200\n\nचरण 2: पहली 6 का योग = 6 × 72 = 432\n\nचरण 3: अगली 6 का औसत = 72 × 1.25 = 90\nअगली 6 का योग = 6 × 90 = 540\n\nचरण 4: 13वीं, 14वीं, 15वीं का योग = 1200 - 432 - 540 = 228\n\nचरण 5: माना 15वीं = x\n• 13वीं = x + 8\n• 14वीं = x - 10\n• (x + 8) + (x - 10) + x = 228\n• 3x - 2 = 228 → x = 76.67\n\nचरण 6: 13वीं = 84.67, 14वीं = 66.67\nऔसत = (84.67 + 66.67)/2 = 75.67"
+      }
     },
     {
-      "question": "<img src='../images/q9.png' alt='Question 9' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "A landlord bought a flat for ₹8,00,000. He wants to earn a 9% annual return on his investment after paying ₹2,000 per month for maintenance. What should be the monthly rent he charges?",
+        "hi": "एक मकान मालिक ने ₹8,00,000 में एक फ्लैट खरीदा। वह रखरखाव के लिए हर महीने ₹2,000 का भुगतान करने के बाद अपने निवेश पर 9% वार्षिक रिटर्न कमाना चाहता है। उसे हर महीने कितना किराया लेना चाहिए?"
+      },
       "options": [
         "₹7,000",
         "₹7,500",
@@ -103,10 +148,16 @@
         "₹8,500"
       ],
       "correctAnswer": "₹8,000",
-      "explanation": "FILL IN EXPLANATION"
+      "explanation": {
+        "en": "Annual return needed:\n= 9% of ₹8,00,000\n= ₹72,000\n\nMonthly return = ₹72,000 ÷ 12 = ₹6,000\n\nMonthly rent = Return + Maintenance\n= ₹6,000 + ₹2,000\n= ₹8,000",
+        "hi": "आवश्यक वार्षिक रिटर्न:\n= ₹8,00,000 का 9%\n= ₹72,000\n\nमासिक रिटर्न = ₹72,000 ÷ 12 = ₹6,000\n\nमासिक किराया = रिटर्न + रखरखाव\n= ₹6,000 + ₹2,000\n= ₹8,000"
+      }
     },
     {
-      "question": "<img src='../images/q10.png' alt='Question 10' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "An amount is said to double in 5 years with compound interest. How many years will it take for the amount to grow to 8 times its original value?",
+        "hi": "कहा जाता है कि एक राशि चक्रवृद्धि ब्याज के साथ 5 वर्षों में दोगुनी हो जाती है। राशि को अपने मूल मूल्य से 8 गुना बढ़ने में कितने वर्ष लगेंगे?"
+      },
       "options": [
         "15",
         "16",
@@ -114,10 +165,16 @@
         "18"
       ],
       "correctAnswer": "15",
-      "explanation": "FILL IN EXPLANATION"
+      "explanation": {
+        "en": "Rule: If amount doubles in 'n' years at CI, it becomes 2^k times in (n × k) years.\n\nGiven: Amount doubles in 5 years\n\nTo become 8 times = 2³ times:\nTime = 5 × 3 = 15 years",
+        "hi": "नियम: यदि राशि चक्रवृद्धि ब्याज पर 'n' वर्षों में दोगुनी होती है, तो यह (n × k) वर्षों में 2^k गुना हो जाती है।\n\nदिया गया: राशि 5 वर्षों में दोगुनी होती है\n\n8 गुना होने के लिए = 2³ गुना:\nसमय = 5 × 3 = 15 वर्ष"
+      }
     },
     {
-      "question": "<img src='../images/q11.png' alt='Question 11' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "A sum becomes ₹6,600 in 2 years and ₹7,920 in 3 years at compound interest. What is the original principal?",
+        "hi": "चक्रवृद्धि ब्याज पर एक धनराशि 2 वर्ष में ₹6,600 तथा 3 वर्ष में ₹7,920 हो जाती है। मूल मूलधन क्या है?"
+      },
       "options": [
         "₹4,000.33",
         "₹5,583.33",
@@ -125,32 +182,50 @@
         "₹6,583.33"
       ],
       "correctAnswer": "₹4,583.33",
-      "explanation": "FILL IN EXPLANATION"
+      "explanation": {
+        "en": "Step 1: Find rate of interest\n• CI for 3rd year = ₹7,920 - ₹6,600 = ₹1,320\n• Rate = (1320/6600) × 100 = 20%\n\nStep 2: Find Principal\n• A₂ = P(1 + r)²\n• 6600 = P(1.2)²\n• 6600 = P × 1.44\n• P = 6600/1.44\n• P = ₹4,583.33",
+        "hi": "चरण 1: ब्याज दर ज्ञात करें\n• तीसरे वर्ष का CI = ₹7,920 - ₹6,600 = ₹1,320\n• दर = (1320/6600) × 100 = 20%\n\nचरण 2: मूलधन ज्ञात करें\n• A₂ = P(1 + r)²\n• 6600 = P(1.2)²\n• 6600 = P × 1.44\n• P = 6600/1.44\n• P = ₹4,583.33"
+      }
     },
     {
-      "question": "<img src='../images/q12.png' alt='Question 12' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "Suman purchased 25 liters of milk at ₹45 per liter and another 15 liters of milk at ₹50 per liter. She combined both quantities and then sold the entire mixture at ₹48 per liter. What was her total profit or loss?",
+        "hi": "सुमन ने 25 लीटर दूध ₹45 प्रति लीटर की दर से और 15 लीटर दूध ₹50 प्रति लीटर की दर से खरीदा। उसने दोनों मात्राओं को मिलाया और फिर पूरे मिश्रण को ₹48 प्रति लीटर की दर से बेचा। उसका कुल लाभ या हानि क्या थी?"
+      },
       "options": [
-        "Loss of ₹45",
-        "Profit of ₹45",
-        "Profit of ₹90",
-        "Loss of ₹90"
+        "Loss of ₹45 / ₹45 का नुकसान",
+        "Profit of ₹45 / ₹45 का लाभ",
+        "Profit of ₹90 / ₹90 का लाभ",
+        "Loss of ₹90 / ₹90 का नुकसान"
       ],
-      "correctAnswer": "Profit of ₹45",
-      "explanation": "FILL IN EXPLANATION"
+      "correctAnswer": "Profit of ₹90 / ₹90 का लाभ",
+      "explanation": {
+        "en": "Cost Price:\n• 25 L × ₹45 = ₹1,125\n• 15 L × ₹50 = ₹750\n• Total CP = ₹1,875\n\nSelling Price:\n• 40 L × ₹48 = ₹1,920\n\nProfit = SP - CP\n= ₹1,920 - ₹1,875\n= ₹45 Profit",
+        "hi": "क्रय मूल्य:\n• 25 L × ₹45 = ₹1,125\n• 15 L × ₹50 = ₹750\n• कुल CP = ₹1,875\n\nविक्रय मूल्य:\n• 40 L × ₹48 = ₹1,920\n\nलाभ = SP - CP\n= ₹1,920 - ₹1,875\n= ₹45 लाभ"
+      }
     },
     {
-      "question": "<img src='../images/q13.png' alt='Question 13' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "A toy manufacturer produced 1200 toy cars at a total cost of ₹90,000. He donated 200 cars to a charity event. For the rest, he announced a 10% discount on the market price of ₹120 per car. He also offered 2 toy cars free for every 8 toy cars purchased. If all 1200 toy cars were distributed, what is his overall gain or loss percentage?",
+        "hi": "एक खिलौना निर्माता ने ₹90,000 की कुल लागत से 1200 खिलौना कारें बनाईं। उसने 200 कारें एक चैरिटी कार्यक्रम में दान कर दीं। बाकी के लिए, उसने ₹120 प्रति कार के बाजार मूल्य पर 10% की छूट की घोषणा की। उसने खरीदी गई हर 8 खिलौना कारों के लिए 2 खिलौना कारें मुफ़्त देने की भी पेशकश की। यदि सभी 1200 खिलौना कारें वितरित की गईं, तो उसका कुल लाभ या हानि प्रतिशत क्या है?"
+      },
       "options": [
-        "4% loss",
-        "4% profit",
-        "5% loss",
-        "5% profit"
+        "4% loss / 4% हानि",
+        "4% profit / 4% लाभ",
+        "5% loss / 5% हानि",
+        "5% profit / 5% लाभ"
       ],
-      "correctAnswer": "4% loss",
-      "explanation": "FILL IN EXPLANATION"
+      "correctAnswer": "4% loss / 4% हानि",
+      "explanation": {
+        "en": "Total Cost = ₹90,000 for 1200 cars\n\nDistribution:\n• Donated: 200 cars (no revenue)\n• Remaining: 1000 cars\n\nSelling Price per car:\n• MP = ₹120, Discount = 10%\n• SP = ₹120 × 0.9 = ₹108\n\nScheme: Buy 8 Get 2 Free\n• 1000 cars = 100 sets of 10\n• Paid cars = 100 × 8 = 800\n\nRevenue = 800 × ₹108 = ₹86,400\n\nLoss = ₹90,000 - ₹86,400 = ₹3,600\n\nLoss % = (3600/90000) × 100 = 4%",
+        "hi": "कुल लागत = 1200 कारों के लिए ₹90,000\n\nवितरण:\n• दान: 200 कारें (कोई राजस्व नहीं)\n• शेष: 1000 कारें\n\nप्रति कार विक्रय मूल्य:\n• MP = ₹120, छूट = 10%\n• SP = ₹120 × 0.9 = ₹108\n\nयोजना: 8 खरीदें 2 मुफ्त पाएं\n• 1000 कारें = 10 के 100 सेट\n• भुगतान की गई कारें = 100 × 8 = 800\n\nराजस्व = 800 × ₹108 = ₹86,400\n\nहानि = ₹90,000 - ₹86,400 = ₹3,600\n\nहानि % = (3600/90000) × 100 = 4%"
+      }
     },
     {
-      "question": "<img src='../images/q14.png' alt='Question 14' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "A retailer marks an air conditioner 80% above its cost price. He offers a first discount of 25% on the marked price. During a festive offer, an additional discount of 10% is applied on the already discounted price. If the final selling price is ₹15,552, what is the approximate cost price of the air conditioner?",
+        "hi": "एक खुदरा विक्रेता एक एयर कंडीशनर को उसके लागत मूल्य से 80% अधिक मूल्य पर बेचता है। वह अंकित मूल्य पर 25% की पहली छूट प्रदान करता है। एक त्यौहारी ऑफर के दौरान, पहले से छूट वाले मूल्य पर 10% की अतिरिक्त छूट लागू की जाती है। यदि अंतिम विक्रय मूल्य ₹15,552 है, तो एयर कंडीशनर का अनुमानित लागत मूल्य क्या है?"
+      },
       "options": [
         "₹9,000",
         "₹9,200",
@@ -158,32 +233,50 @@
         "₹10,000"
       ],
       "correctAnswer": "₹12,800",
-      "explanation": "FILL IN EXPLANATION"
+      "explanation": {
+        "en": "Let Cost Price = CP\n\n• Marked Price = CP × 1.80\n• After 25% discount = 1.80CP × 0.75 = 1.35CP\n• After 10% additional = 1.35CP × 0.90 = 1.215CP\n\nGiven: Final SP = ₹15,552\n• 1.215 × CP = 15,552\n• CP = 15,552 ÷ 1.215\n• CP = ₹12,800",
+        "hi": "माना लागत मूल्य = CP\n\n• अंकित मूल्य = CP × 1.80\n• 25% छूट के बाद = 1.80CP × 0.75 = 1.35CP\n• 10% अतिरिक्त छूट के बाद = 1.35CP × 0.90 = 1.215CP\n\nदिया गया: अंतिम SP = ₹15,552\n• 1.215 × CP = 15,552\n• CP = 15,552 ÷ 1.215\n• CP = ₹12,800"
+      }
     },
     {
-      "question": "<img src='../images/q15.png' alt='Question 15' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "A 40-liter mixture contains juice and water in the ratio 5:3. How much water (in liters) must be added to this mixture to change the ratio of juice to water to 2:3?",
+        "hi": "40 लीटर के मिश्रण में जूस और पानी का अनुपात 5:3 है। जूस और पानी का अनुपात 2:3 करने के लिए इस मिश्रण में कितना पानी (लीटर में) मिलाया जाना चाहिए?"
+      },
       "options": [
-        "15.5 litres",
-        "22.5 litres",
-        "25 litres",
-        "30 litres"
+        "15.5 litres / 15.5 लीटर",
+        "22.5 litres / 22.5 लीटर",
+        "25 litres / 25 लीटर",
+        "30 litres / 30 लीटर"
       ],
-      "correctAnswer": "22.5 litres",
-      "explanation": "FILL IN EXPLANATION"
+      "correctAnswer": "22.5 litres / 22.5 लीटर",
+      "explanation": {
+        "en": "In 40L mixture (ratio 5:3):\n• Juice = 40 × 5/8 = 25 L\n• Water = 40 × 3/8 = 15 L\n\nNew ratio required = 2:3\n\nLet water added = x\n• 25 : (15 + x) = 2 : 3\n• 25 × 3 = 2(15 + x)\n• 75 = 30 + 2x\n• 2x = 45\n• x = 22.5 litres",
+        "hi": "40L मिश्रण में (अनुपात 5:3):\n• जूस = 40 × 5/8 = 25 L\n• पानी = 40 × 3/8 = 15 L\n\nनया अनुपात आवश्यक = 2:3\n\nमाना पानी मिलाया = x\n• 25 : (15 + x) = 2 : 3\n• 25 × 3 = 2(15 + x)\n• 75 = 30 + 2x\n• 2x = 45\n• x = 22.5 लीटर"
+      }
     },
     {
-      "question": "<img src='../images/q16.png' alt='Question 16' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "A is able to complete a task in 15 days, while B takes 20 days to finish the same task. If they collaborate and work together for 4 days, what fraction of the work will still remain?",
+        "hi": "A किसी काम को 15 दिन में पूरा कर सकता है, जबकि B को उसी काम को पूरा करने में 20 दिन लगते हैं। यदि वे मिलकर 4 दिन काम करें, तो काम का कितना भाग शेष रह जाएगा?"
+      },
       "options": [
-        "1/4",
+        "14/15",
         "7/15",
         "8/15",
-        "11/15"
+        "1/15"
       ],
       "correctAnswer": "8/15",
-      "explanation": "FILL IN EXPLANATION"
+      "explanation": {
+        "en": "Work rate per day:\n• A = 1/15\n• B = 1/20\n\nCombined rate = 1/15 + 1/20\n= (4 + 3)/60 = 7/60 per day\n\nWork done in 4 days:\n= 4 × 7/60 = 28/60 = 7/15\n\nRemaining work:\n= 1 - 7/15 = 8/15",
+        "hi": "प्रति दिन कार्य दर:\n• A = 1/15\n• B = 1/20\n\nसंयुक्त दर = 1/15 + 1/20\n= (4 + 3)/60 = 7/60 प्रति दिन\n\n4 दिनों में किया गया कार्य:\n= 4 × 7/60 = 28/60 = 7/15\n\nशेष कार्य:\n= 1 - 7/15 = 8/15"
+      }
     },
     {
-      "question": "<img src='../images/q17.png' alt='Question 17' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "Two oils priced at ₹90 per kg and ₹150 per kg are blended and sold at ₹144 per kg, achieving a profit margin of 20%. What is the ratio of the two oils in the mixture?",
+        "hi": "₹90 प्रति किलोग्राम और ₹150 प्रति किलोग्राम की कीमत वाले दो तेलों को मिश्रित करके ₹144 प्रति किलोग्राम की दर से बेचा जाता है, जिससे 20% का लाभ मार्जिन प्राप्त होता है। मिश्रण में दोनों तेलों का अनुपात क्या है?"
+      },
       "options": [
         "1:1",
         "2:1",
@@ -191,54 +284,84 @@
         "4:1"
       ],
       "correctAnswer": "1:1",
-      "explanation": "FILL IN EXPLANATION"
+      "explanation": {
+        "en": "SP = ₹144 with 20% profit\n\nCP of mixture = 144 ÷ 1.20 = ₹120\n\nUsing Allegation Method:\n• Oil 1: ₹90, Oil 2: ₹150, Mean: ₹120\n\n   90          150\n     \\        /\n       120\n     /        \\\n  150-120   120-90\n    30    :   30\n\nRatio = 30 : 30 = 1 : 1",
+        "hi": "SP = ₹144 जिसमें 20% लाभ\n\nमिश्रण का CP = 144 ÷ 1.20 = ₹120\n\nमिश्रण विधि का उपयोग करके:\n• तेल 1: ₹90, तेल 2: ₹150, माध्य: ₹120\n\n   90          150\n     \\        /\n       120\n     /        \\\n  150-120   120-90\n    30    :   30\n\nअनुपात = 30 : 30 = 1 : 1"
+      }
     },
     {
-      "question": "<img src='../images/q18.png' alt='Question 18' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "Three pipes, A, B, and C are capable of filling a tank in 6, 8, and 12 hours, respectively. When all three pipes are opened together, they operate for 2 hours before pipe C is closed. How much additional time will it take to completely fill the tank after that?",
+        "hi": "तीन पाइप, A, B और C एक टैंक को क्रमशः 6, 8 और 12 घंटे में भरने में सक्षम हैं। जब तीनों पाइप एक साथ खोले जाते हैं, तो वे पाइप C बंद होने से पहले 2 घंटे तक काम करते हैं। उसके बाद टैंक को पूरी तरह से भरने में कितना अतिरिक्त समय लगेगा?"
+      },
       "options": [
-        "6/7",
-        "2/6",
-        "3/5",
-        "9/2"
+        "6/7 hours / घंटे",
+        "2/6 hours / घंटे",
+        "3/5 hours / घंटे",
+        "9/2 hours / घंटे"
       ],
-      "correctAnswer": "6/7",
-      "explanation": "FILL IN EXPLANATION"
+      "correctAnswer": "6/7 hours / घंटे",
+      "explanation": {
+        "en": "Rate per hour:\n• A = 1/6, B = 1/8, C = 1/12\n\nCombined rate (A+B+C):\n= 1/6 + 1/8 + 1/12 = (4+3+2)/24 = 9/24 = 3/8\n\nWork in 2 hours = 2 × 3/8 = 3/4\n\nRemaining = 1 - 3/4 = 1/4\n\nAfter C closes (A+B rate):\n= 1/6 + 1/8 = 7/24\n\nTime to fill 1/4:\n= (1/4) ÷ (7/24) = (1/4) × (24/7) = 6/7 hours",
+        "hi": "प्रति घंटे दर:\n• A = 1/6, B = 1/8, C = 1/12\n\nसंयुक्त दर (A+B+C):\n= 1/6 + 1/8 + 1/12 = (4+3+2)/24 = 9/24 = 3/8\n\n2 घंटे में कार्य = 2 × 3/8 = 3/4\n\nशेष = 1 - 3/4 = 1/4\n\nC बंद होने के बाद (A+B दर):\n= 1/6 + 1/8 = 7/24\n\n1/4 भरने का समय:\n= (1/4) ÷ (7/24) = (1/4) × (24/7) = 6/7 घंटे"
+      }
     },
     {
-      "question": "<img src='../images/q19.png' alt='Question 19' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "A bullet train covers a fixed distance in 30 minutes at an average speed of 240 km/h. Due to track maintenance, it needs to be diverted, increasing the distance by 20%. If the train needs to arrive at its destination on time (i.e., in 30 minutes), what should its new average speed be in km/h?",
+        "hi": "एक बुलेट ट्रेन 240 किमी/घंटा की औसत गति से 30 मिनट में एक निश्चित दूरी तय करती है। ट्रैक रखरखाव के कारण, इसे डायवर्ट करने की आवश्यकता है, जिससे दूरी 20% बढ़ जाती है। यदि ट्रेन को समय पर (यानी, 30 मिनट में) अपने गंतव्य पर पहुंचना है, तो इसकी नई औसत गति किमी/घंटा में क्या होनी चाहिए?"
+      },
       "options": [
-        "280 km/h",
-        "300 km/h",
-        "288 km/h",
-        "320 km/h"
+        "280 km/h / 280 किमी/घंटा",
+        "300 km/h / 300 किमी/घंटा",
+        "288 km/h / 288 किमी/घंटा",
+        "320 km/h / 320 किमी/घंटा"
       ],
-      "correctAnswer": "288 km/h",
-      "explanation": "FILL IN EXPLANATION"
+      "correctAnswer": "288 km/h / 288 किमी/घंटा",
+      "explanation": {
+        "en": "Original distance:\n= Speed × Time\n= 240 × 0.5 = 120 km\n\nNew distance (20% increase):\n= 120 × 1.20 = 144 km\n\nTime remains same = 30 min = 0.5 hr\n\nNew speed required:\n= 144 ÷ 0.5\n= 288 km/h",
+        "hi": "मूल दूरी:\n= गति × समय\n= 240 × 0.5 = 120 km\n\nनई दूरी (20% वृद्धि):\n= 120 × 1.20 = 144 km\n\nसमय समान रहता है = 30 मिनट = 0.5 घंटा\n\nआवश्यक नई गति:\n= 144 ÷ 0.5\n= 288 किमी/घंटा"
+      }
     },
     {
-      "question": "<img src='../images/q20.png' alt='Question 20' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "Two cars, X and Y, start from points 360 km apart and travel at constant speeds. If they move towards each other, they meet in 4 hours. If they move in the same direction, they meet in 12 hours. What is the speed of car X? (Assume X is the faster car).",
+        "hi": "दो कारें, X और Y, 360 किमी दूर स्थित बिंदुओं से चलना शुरू करती हैं और समान गति से यात्रा करती हैं। यदि वे एक-दूसरे की ओर बढ़ती हैं, तो वे 4 घंटे में मिलती हैं। यदि वे एक ही दिशा में चलती हैं, तो वे 12 घंटे में मिलती हैं। कार X की गति क्या है? (मान लें कि X तेज़ कार है)।"
+      },
       "options": [
-        "60 km/h",
-        "75 km/h",
-        "45 km/h",
-        "90 km/h"
+        "60 km/h / 60 किमी/घंटा",
+        "75 km/h / 75 किमी/घंटा",
+        "45 km/h / 45 किमी/घंटा",
+        "90 km/h / 90 किमी/घंटा"
       ],
-      "correctAnswer": "60 km/h",
-      "explanation": "FILL IN EXPLANATION"
+      "correctAnswer": "60 km/h / 60 किमी/घंटा",
+      "explanation": {
+        "en": "Let speed of X = x, Y = y\n\nMoving towards each other:\n(x + y) = 360/4 = 90 ... (1)\n\nMoving same direction:\n(x - y) = 360/12 = 30 ... (2)\n\nAdding equations (1) and (2):\n2x = 120\nx = 60 km/h",
+        "hi": "माना X की गति = x, Y की गति = y\n\nएक-दूसरे की ओर चलने पर:\n(x + y) = 360/4 = 90 ... (1)\n\nएक ही दिशा में चलने पर:\n(x - y) = 360/12 = 30 ... (2)\n\nसमीकरण (1) और (2) जोड़ने पर:\n2x = 120\nx = 60 किमी/घंटा"
+      }
     },
     {
-      "question": "<img src='../images/q21.png' alt='Question 21' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "A circular pizza having a radius of 21 cm. If 75% of it is eaten, what is the area of pizza remaining?",
+        "hi": "एक गोलाकार पिज़्ज़ा जिसकी त्रिज्या 21 सेमी है। यदि इसका 75% भाग खा लिया जाता है, तो बचे हुए पिज़्ज़ा का क्षेत्रफल क्या है?"
+      },
       "options": [
-        "173.25 cm2",
-        "346.36 cm2",
-        "432.25 cm2",
-        "115.5 cm2"
+        "173.25 cm²",
+        "346.36 cm²",
+        "432.25 cm²",
+        "115.5 cm²"
       ],
-      "correctAnswer": "346.36 cm2",
-      "explanation": "FILL IN EXPLANATION"
+      "correctAnswer": "346.36 cm²",
+      "explanation": {
+        "en": "Total area of pizza:\n= πr² = (22/7) × 21²\n= (22/7) × 441\n= 1386 cm²\n\nIf 75% eaten, 25% remains:\n= 1386 × 0.25\n= 346.5 ≈ 346.36 cm²",
+        "hi": "पिज़्ज़ा का कुल क्षेत्रफल:\n= πr² = (22/7) × 21²\n= (22/7) × 441\n= 1386 cm²\n\nयदि 75% खाया गया, 25% शेष:\n= 1386 × 0.25\n= 346.5 ≈ 346.36 cm²"
+      }
     },
     {
-      "question": "<img src='../images/q22.png' alt='Question 22' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "A ring-shaped disc has outer radius 10 cm and inner radius 7 cm. What is the approximate ratio of the ring's area to the whole outer circle?",
+        "hi": "एक वलय के आकार की डिस्क की बाहरी त्रिज्या 10 सेमी और आंतरिक त्रिज्या 7 सेमी है। वलय के क्षेत्रफल और पूरे बाहरी वृत्त के क्षेत्रफल का लगभग अनुपात क्या है?"
+      },
       "options": [
         "1:2",
         "2:3",
@@ -246,10 +369,16 @@
         "4:5"
       ],
       "correctAnswer": "1:2",
-      "explanation": "FILL IN EXPLANATION"
+      "explanation": {
+        "en": "Outer circle area = πR² = π(10)² = 100π\n\nInner circle area = πr² = π(7)² = 49π\n\nRing area = 100π - 49π = 51π\n\nRatio = Ring : Outer Circle\n= 51π : 100π\n= 51 : 100\n≈ 1 : 2",
+        "hi": "बाहरी वृत्त का क्षेत्रफल = πR² = π(10)² = 100π\n\nआंतरिक वृत्त का क्षेत्रफल = πr² = π(7)² = 49π\n\nवलय का क्षेत्रफल = 100π - 49π = 51π\n\nअनुपात = वलय : बाहरी वृत्त\n= 51π : 100π\n= 51 : 100\n≈ 1 : 2"
+      }
     },
     {
-      "question": "<img src='../images/q23.png' alt='Question 23' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "A bicycle wheel having a radius of 35 cm. What percentage of its circumference is covered in a quarter turn? (Use π=22/7)",
+        "hi": "एक साइकिल के पहिये की त्रिज्या 35 सेमी है। एक चौथाई चक्कर में इसकी परिधि का कितना प्रतिशत भाग तय होता है? (π=22/7 का प्रयोग करें)"
+      },
       "options": [
         "15%",
         "25%",
@@ -257,10 +386,16 @@
         "35%"
       ],
       "correctAnswer": "25%",
-      "explanation": "FILL IN EXPLANATION"
+      "explanation": {
+        "en": "A quarter turn = 1/4 of full rotation\n\nPercentage of circumference covered:\n= (1/4) × 100%\n= 25%\n\n(The circumference value doesn't matter - a quarter turn always covers 25% of any circle's circumference)",
+        "hi": "एक चौथाई चक्कर = पूर्ण घूर्णन का 1/4\n\nपरिधि का प्रतिशत तय:\n= (1/4) × 100%\n= 25%\n\n(परिधि का मान मायने नहीं रखता - एक चौथाई चक्कर हमेशा किसी भी वृत्त की परिधि का 25% तय करता है)"
+      }
     },
     {
-      "question": "<img src='../images/q24.png' alt='Question 24' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "The line y=mx+5 passes through (1,8). Find m.",
+        "hi": "रेखा y=mx+5 बिन्दु (1,8) से होकर जाती है। m ज्ञात कीजिए।"
+      },
       "options": [
         "5",
         "4",
@@ -268,10 +403,16 @@
         "2"
       ],
       "correctAnswer": "3",
-      "explanation": "FILL IN EXPLANATION"
+      "explanation": {
+        "en": "Line equation: y = mx + 5\n\nPoint (1, 8) lies on the line\n\nSubstituting x = 1, y = 8:\n8 = m(1) + 5\n8 = m + 5\nm = 8 - 5\nm = 3",
+        "hi": "रेखा का समीकरण: y = mx + 5\n\nबिंदु (1, 8) रेखा पर स्थित है\n\nx = 1, y = 8 रखने पर:\n8 = m(1) + 5\n8 = m + 5\nm = 8 - 5\nm = 3"
+      }
     },
     {
-      "question": "<img src='../images/q25.png' alt='Question 25' style='max-width: 100%; height: auto;'>",
+      "question": {
+        "en": "31³ + 18³ - 37³ + 210 is equal to:",
+        "hi": "31³ + 18³ - 37³ + 210 बराबर है:"
+      },
       "options": [
         "-36810",
         "-14820",
@@ -279,9 +420,13 @@
         "-23450"
       ],
       "correctAnswer": "-14820",
-      "explanation": "FILL IN EXPLANATION"
+      "explanation": {
+        "en": "Calculate each cube:\n• 31³ = 29,791\n• 18³ = 5,832\n• 37³ = 50,653\n\nSubstitute:\n= 31³ + 18³ - 37³ + 210\n= 29,791 + 5,832 - 50,653 + 210\n= 35,833 - 50,653 + 210\n= -14,820",
+        "hi": "प्रत्येक घन की गणना करें:\n• 31³ = 29,791\n• 18³ = 5,832\n• 37³ = 50,653\n\nमान रखें:\n= 31³ + 18³ - 37³ + 210\n= 29,791 + 5,832 - 50,653 + 210\n= 35,833 - 50,653 + 210\n= -14,820"
+      }
     }
   ],
+  
   "ssc_cgl_12_sep_s2": [
     {
       "question": {
@@ -21595,4 +21740,5 @@
     }
   ]
 }
+
 
