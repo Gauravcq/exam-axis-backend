@@ -26351,6 +26351,7 @@
       }
     }
   ],
+
   "ssc_cgl_fullmock_12_sep_s1": [
     {
       "id": 1,
@@ -27160,10 +27161,10 @@
     "hi": "निम्नलिखित में से कौन सी विशेषता एलीफेंटा गुफाओं को प्रारंभिक भारत के अन्य चट्टान-कट स्थलों से अलग करती है?"
   },
   "options": [
-    "They are primarily Buddhist caves with large stupas.",
-    "The caves focus on Shaivite themes and feature sculptural depth through light and shadow.",
-    "They contain a mix of Jain and Vaishnavite depictions in pillar halls.",
-    "The caves are entirely monolithic structures from the Mauryan period."
+    "They are primarily Buddhist caves with large stupas. | ये मुख्यतः बड़े स्तूपों वाली बौद्ध गुफाएँ हैं।",
+    "The caves focus on Shaivite themes and feature sculptural depth through light and shadow. | गुफाएँ शैव विषयों पर केंद्रित हैं और प्रकाश‑छाया से मूर्तिकला की गहराई दर्शाती हैं।",
+    "They contain a mix of Jain and Vaishnavite depictions in pillar halls. | इनमें स्तंभ‑मंडपों में जैन और वैष्णव चित्रणों का मिश्रण है।",
+    "The caves are entirely monolithic structures from the Mauryan period. | गुफाएँ पूरी तरह मोनोलिथिक संरचनाएँ हैं और मौर्य काल की हैं।"
   ],
   "correctAnswer": "The caves focus on Shaivite themes and feature sculptural depth through light and shadow.",
   "explanation": {
@@ -27179,10 +27180,10 @@
     "hi": "बस्तर के गोंचा उत्सव के बारे में कथन पढ़ें:<br>1.) तुपकी, बांस से बनी एक नकली बंदूक है, जिसमें गोलियों के रूप में गोंचा फल का उपयोग किया जाता है।<br>2.) रथ यात्रा चालुक्य शासकों द्वारा शुरू की गई थी।<br>3.) रथ यात्रा आषाढ़ शुक्ल दशमी को शुरू होती है और दुतिया पर समाप्त होती है।<br>उपर्युक्त कथनों में से कौन सा सही है?"
   },
   "options": [
-    "Only 1 and 2",
-    "Only 2 and 3",
-    "Only 1 and 3",
-    "1, 2 and 3 are correct"
+    "Only 1 and 2 | केवल 1 और 2",
+    "Only 2 and 3 | केवल 2 और 3",
+    "Only 1 and 3 | केवल 1 और 3",
+    "1, 2 and 3 are correct | 1, 2 और 3 सही हैं"
   ],
   "correctAnswer": "Only 1 and 2",
   "explanation": {
@@ -27198,10 +27199,10 @@
     "hi": "रिक्त स्थान भरें:<br>कर्नाटक संगीत में, पाँच ताल वाले लघु को _____ जाति के नाम से जाना जाता है।"
   },
   "options": [
-    "Tishra",
-    "Chaturashra",
-    "Khanda",
-    "Mishra"
+    "Tishra | तिश्र",
+    "Chaturashra | चतुरश्र",
+    "Khanda | खंड",
+    "Mishra | मिश्र"
   ],
   "correctAnswer": "Khanda",
   "explanation": {
@@ -27217,10 +27218,10 @@
     "hi": "जूडो के बारे में निम्नलिखित में से कौन सा कथन सही है?"
   },
   "options": [
-    "Judo was introduced in 1882 by Jigoro Kano in Japan.",
-    "India's first National Judo Championship was held in 1970 at Delhi University.",
-    "Kalpana Devi won gold at the 2010 Judo World Cup.",
-    "Judo became an Olympic sport in 1965."
+    "Judo was introduced in 1882 by Jigoro Kano in Japan. | जूडो की शुरुआत 1882 में जापान में जिगोरो कानो ने की।",
+    "India's first National Judo Championship was held in 1970 at Delhi University. | भारत की पहली राष्ट्रीय जूडो चैंपियनशिप 1970 में दिल्ली विश्वविद्यालय में आयोजित हुई।",
+    "Kalpana Devi won gold at the 2010 Judo World Cup. | कल्पना देवी ने 2010 जूडो वर्ल्ड कप में स्वर्ण जीता।",
+    "Judo became an Olympic sport in 1965. | जूडो 1965 में ओलंपिक खेल बना।"
   ],
   "correctAnswer": "Judo was introduced in 1882 by Jigoro Kano in Japan.",
   "explanation": {
@@ -27236,10 +27237,10 @@
     "hi": "59वीं राष्ट्रीय क्रॉस कंट्री चैंपियनशिप 2025 कहाँ और कब आयोजित की जाएगी?"
   },
   "options": [
-    "10th January 2025, Lucknow, Uttar Pradesh",
-    "12th January 2025, Meerut, Uttar Pradesh",
-    "15th January 2025, Kanpur, Uttar Pradesh",
-    "12th January 2025, Jaipur, Rajasthan"
+    "10th January 2025, Lucknow, Uttar Pradesh | 10 जनवरी 2025, लखनऊ, उत्तर प्रदेश",
+    "12th January 2025, Meerut, Uttar Pradesh | 12 जनवरी 2025, मेरठ, उत्तर प्रदेश",
+    "15th January 2025, Kanpur, Uttar Pradesh | 15 जनवरी 2025, कानपुर, उत्तर प्रदेश",
+    "12th January 2025, Jaipur, Rajasthan | 12 जनवरी 2025, जयपुर, राजस्थान"
   ],
   "correctAnswer": "12th January 2025, Meerut, Uttar Pradesh",
   "explanation": {
@@ -27255,10 +27256,10 @@
     "hi": "भारत की अंतर्राष्ट्रीय निवेश रणनीति के अंतर्गत 2024 भारत-यूएई द्विपक्षीय निवेश संधि (बीआईटी) का मुख्य संरचनात्मक फोकस क्या है?"
   },
   "options": [
-    "Proposes joint sovereign funds and links INR swap with UAE banks.",
-    "Focuses on pre-establishment rights and UAE-based arbitration.",
-    "Assures post-establishment investor confidence via standard and national treatment.",
-    "Aims at GCC-wide tax regulation under India-led digital framework."
+    "Proposes joint sovereign funds and links INR swap with UAE banks. | संयुक्त संप्रभु निधियों का प्रस्ताव और यूएई बैंकों के साथ INR स्वैप जोड़ता है।",
+    "Focuses on pre-establishment rights and UAE-based arbitration. | पूर्व-स्थापना अधिकारों और यूएई-आधारित मध्यस्थता पर केंद्रित है।",
+    "Assures post-establishment investor confidence via standard and national treatment. | स्थापना के बाद निवेशक विश्वास को मानक और राष्ट्रीय उपचार के माध्यम से आश्वस्त करता है।",
+    "Aims at GCC-wide tax regulation under India-led digital framework. | भारत-नेतृत्व वाले डिजिटल ढांचे के तहत जीसीसी-व्यापी कर विनियमन का लक्ष्य रखता है।"
   ],
   "correctAnswer": "Assures post-establishment investor confidence via standard and national treatment.",
   "explanation": {
@@ -27274,10 +27275,10 @@
     "hi": "रिक्त स्थान भरें:<br>संतोष ट्रॉफी 2022-23 का फाइनल अनोखे ढंग से _____ में आयोजित किया गया, जहाँ कर्नाटक ने मेघालय को हराकर 54 वर्षों के बाद खिताब जीता।"
   },
   "options": [
-    "Dubai",
-    "Riyadh",
-    "Doha",
-    "Muscat"
+    "Dubai | दुबई",
+    "Riyadh | रियाद",
+    "Doha | दोहा",
+    "Muscat | मस्कट"
   ],
   "correctAnswer": "Riyadh",
   "explanation": {
@@ -27293,10 +27294,10 @@
     "hi": "निम्नलिखित में से कौन सा कथन कविता अय्यर द्वारा लिखित \"लैंडस्केप्स ऑफ लॉस: द स्टोरी ऑफ एन इंडियन ड्रॉट\" के सार को सबसे अच्छी तरह से दर्शाता है?"
   },
   "options": [
-    "A study on drought's human and ecological impacts in India.",
-    "A fictional story about a family in a drought-hit area.",
-    "A history of monsoon patterns and ancient agriculture in India.",
-    "A colonial-era policy analysis of water management."
+    "A study on drought's human and ecological impacts in India. | भारत में सूखे के मानवीय और पारिस्थितिक प्रभावों पर अध्ययन।",
+    "A fictional story about a family in a drought-hit area. | सूखा-प्रभावित क्षेत्र में एक परिवार की काल्पनिक कहानी।",
+    "A history of monsoon patterns and ancient agriculture in India. | भारत में मानसून पैटर्न और प्राचीन कृषि का इतिहास।",
+    "A colonial-era policy analysis of water management. | औपनिवेशिक काल की जल प्रबंधन नीति का विश्लेषण।"
   ],
   "correctAnswer": "A study on drought's human and ecological impacts in India.",
   "explanation": {
@@ -27312,10 +27313,10 @@
     "hi": "हिमनदीय भू-आकृतियों के बारे में निम्नलिखित कथनों पर विचार कीजिए:<br>कथन 1: लटकती घाटियाँ प्रायः ऊँचे स्थानों पर मुख्य हिमनदीय घाटियों में खुलती हुई पाई जाती हैं।<br>कथन 2: ऐसी लटकती घाटियों के स्पर प्रायः त्रिकोणीय फलकों में विभाजित हो जाते हैं।<br>निम्नलिखित में से कौन सा/से कथन सत्य है/हैं?"
   },
   "options": [
-    "Only 1",
-    "Only 2",
-    "1 and 2 are correct",
-    "Neither 1 nor 2 are correct"
+    "Only 1 | केवल 1",
+    "Only 2 | केवल 2",
+    "1 and 2 are correct | 1 और 2 सही हैं",
+    "Neither 1 nor 2 are correct | न तो 1 न ही 2 सही हैं"
   ],
   "correctAnswer": "1 and 2 are correct",
   "explanation": {
@@ -27331,10 +27332,10 @@
     "hi": "इसरो के मानव रेटेड एलवीएम3 (एचएलवीएम3) रॉकेट पर क्रू एस्केप सिस्टम (सीईएस) का प्राथमिक कार्य क्या है?"
   },
   "options": [
-    "To guide the crew module into its designated Low Earth Orbit.",
-    "To eject the crew module to safety during launch emergencies.",
-    "To assist in docking the crew module with a space station.",
-    "To provide thermal shielding during re-entry into Earth's atmosphere."
+    "To guide the crew module into its designated Low Earth Orbit. | क्रू मॉड्यूल को निर्दिष्ट निम्न पृथ्वी कक्षा में ले जाना।",
+    "To eject the crew module to safety during launch emergencies. | प्रक्षेपण आपातकाल के दौरान क्रू मॉड्यूल को सुरक्षित रूप से बाहर निकालना।",
+    "To assist in docking the crew module with a space station. | क्रू मॉड्यूल को अंतरिक्ष स्टेशन से डॉक कराने में सहायक होना।",
+    "To provide thermal shielding during re-entry into Earth's atmosphere. | पृथ्वी के वायुमंडल में पुन: प्रवेश के दौरान तापीय सुरक्षा प्रदान करना।"
   ],
   "correctAnswer": "To eject the crew module to safety during launch emergencies.",
   "explanation": {
@@ -27350,10 +27351,10 @@
     "hi": "न्यायमूर्ति संजीव खन्ना के बारे में निम्नलिखित में से कौन सा/से कथन सत्य है/हैं?<br>1. वे भारत के 51वें मुख्य न्यायाधीश हैं।<br>2. उन्होंने न्यायमूर्ति डी.वाई. चंद्रचूड़ का स्थान लिया।<br>3. उन्होंने 2023 से मुख्य न्यायाधीश के रूप में कार्य किया।"
   },
   "options": [
-    "1 and 2 only",
-    "2 and 3 only",
-    "1 and 3 only",
-    "1, 2, and 3 all are true"
+    "1 and 2 only | केवल 1 और 2",
+    "2 and 3 only | केवल 2 और 3",
+    "1 and 3 only | केवल 1 और 3",
+    "1, 2, and 3 all are true | 1, 2 और 3 सभी सत्य हैं"
   ],
   "correctAnswer": "1 and 2 only",
   "explanation": {
@@ -27369,10 +27370,10 @@
     "hi": "निम्नलिखित में से कौन से उद्देश्य राष्ट्रीय जनसंख्या नीति (एनपीपी) 2000 का हिस्सा हैं?<br>1. 14 वर्ष की आयु तक निःशुल्क और अनिवार्य शिक्षा प्रदान करना<br>2. जनसांख्यिकीय लाभांश सुनिश्चित करने के लिए प्रजनन दर में वृद्धि<br>3. शिशु मृत्यु दर को प्रति 1000 जीवित जन्मों पर 30 से कम करना<br>4. लड़कियों के लिए देर से विवाह को बढ़ावा देना"
   },
   "options": [
-    "Only 1 and 2 are correct",
-    "Only 1 and 3 are correct",
-    "Only 1, 3 and 4 are correct",
-    "1, 2, 3 and 4 all are correct"
+    "Only 1 and 2 are correct | केवल 1 और 2 सही हैं",
+    "Only 1 and 3 are correct | केवल 1 और 3 सही हैं",
+    "Only 1, 3 and 4 are correct | केवल 1, 3 और 4 सही हैं",
+    "1, 2, 3 and 4 all are correct | 1, 2, 3 और 4 सभी सही हैं"
   ],
   "correctAnswer": "Only 1, 3 and 4 are correct",
   "explanation": {
@@ -27388,10 +27389,10 @@
     "hi": "कोशिकीय श्वसन में कौन सा मार्ग सबसे अधिक एटीपी उत्पन्न करता है?"
   },
   "options": [
-    "Glycolysis",
-    "Krebs cycle",
-    "Electron transport chain",
-    "Fermentation"
+    "Glycolysis | ग्लाइकोलिसिस",
+    "Krebs cycle | क्रेब्स चक्र",
+    "Electron transport chain | इलेक्ट्रॉन परिवहन श्रृंखला",
+    "Fermentation | किण्वन"
   ],
   "correctAnswer": "Electron transport chain",
   "explanation": {
@@ -27407,10 +27408,10 @@
     "hi": "निम्नलिखित घटनाओं को कालानुक्रमिक क्रम में व्यवस्थित करें:<br>a. पूर्वी क्षेत्रीय परिषद की बैठक 2022<br>b. राज्य पुनर्गठन अधिनियम पारित<br>c. मध्य क्षेत्रीय परिषद की पहली बैठक"
   },
   "options": [
-    "b-c-a",
-    "c-b-a",
-    "a-b-c",
-    "b-a-c"
+    "b-c-a | b-c-a",
+    "c-b-a | c-b-a",
+    "a-b-c | a-b-c",
+    "b-a-c | b-a-c"
   ],
   "correctAnswer": "b-c-a",
   "explanation": {
@@ -27426,10 +27427,10 @@
     "hi": "निम्नलिखित में से कौन सा कथन भारतीय संविधान के अनुच्छेद 300A के तहत संपत्ति के अधिकार के कानूनी चरित्र का सबसे सटीक वर्णन करता है?"
   },
   "options": [
-    "It is a fundamental right that guarantees compensation for all property acquisitions.",
-    "It allows the State to deprive a person of property by any law, even without due process.",
-    "It is a constitutional legal right that permits deprivation only by authority of law.",
-    "It permits citizens to claim property protection under Article 32 before the Supreme Court."
+    "It is a fundamental right that guarantees compensation for all property acquisitions. | यह एक मौलिक अधिकार है जो सभी संपत्ति अधिग्रहणों के लिए क्षतिपूर्ति की गारंटी देता है।",
+    "It allows the State to deprive a person of property by any law, even without due process. | यह राज्य को किसी भी कानून द्वारा, उचित प्रक्रिया के बिना भी, व्यक्ति को संपत्ति से वंचित करने की अनुमति देता है।",
+    "It is a constitutional legal right that permits deprivation only by authority of law. | यह एक संवैधानिक कानूनी अधिकार है जो केवल कानून के प्राधिकार द्वारा वंचित करने की अनुमति देता है।",
+    "It permits citizens to claim property protection under Article 32 before the Supreme Court. | यह नागरिकों को सर्वोच्च न्यायालय में अनुच्छेद 32 के तहत संपत्ति संरक्षण का दावा करने की अनुमति देता है।"
   ],
   "correctAnswer": "It is a constitutional legal right that permits deprivation only by authority of law.",
   "explanation": {
@@ -27445,10 +27446,10 @@
     "hi": "किसी दृढ़ पिंड के लिए, किसी दिए गए घूर्णन अक्ष के परितः किसी कण का कोणीय वेग है:"
   },
   "options": [
-    "Proportional to its distance from the axis",
-    "The same for all particles",
-    "Inversely proportional to its distance from the axis",
-    "Always zero"
+    "Proportional to its distance from the axis | अक्ष से दूरी के अनुपात में",
+    "The same for all particles | सभी कणों के लिए समान",
+    "Inversely proportional to its distance from the axis | अक्ष से दूरी के व्युत्क्रमानुपाती",
+    "Always zero | हमेशा शून्य"
   ],
   "correctAnswer": "The same for all particles",
   "explanation": {
@@ -27464,10 +27465,10 @@
     "hi": "भारतीय साक्ष्य अधिनियम (बीएसए) साक्ष्य की प्रामाणिकता सुनिश्चित करने के लिए प्रौद्योगिकी के उपयोग पर ज़ोर देता है। यह विशेष रूप से निम्नलिखित के लिए प्रासंगिक है:"
   },
   "options": [
-    "Physical exhibits from crime scenes.",
-    "Hand-written diaries.",
-    "Digital and electronic evidence.",
-    "Oral confessions."
+    "Physical exhibits from crime scenes. | अपराध स्थल से भौतिक नमूने।",
+    "Hand-written diaries. | हस्तलिखित डायरी।",
+    "Digital and electronic evidence. | डिजिटल और इलेक्ट्रॉनिक साक्ष्य।",
+    "Oral confessions. | मौखिक स्वीकारोक्ति।"
   ],
   "correctAnswer": "Digital and electronic evidence.",
   "explanation": {
@@ -27483,10 +27484,10 @@
     "hi": "नीचे दिए गए कथनों को अभिकथन (A) और कारण (R) से चिह्नित करके पढ़िए। सही विकल्पों पर निशान लगाइए:<br>अभिकथन (A): एक राष्ट्र एक राशन कार्ड खाद्यान्न की पोर्टेबिलिटी सुनिश्चित करता है।<br>कारण (R): यह आधार-सक्षम बायोमेट्रिक प्रमाणीकरण का उपयोग करता है।"
   },
   "options": [
-    "Both A and R are true, and R is the correct explanation of A",
-    "Both A and R are true, but R is not the correct explanation of A",
-    "A is true, but R is false",
-    "A is false, but R is true"
+    "Both A and R are true, and R is the correct explanation of A | A और R दोनों सत्य हैं, और R A का सही स्पष्टीकरण है",
+    "Both A and R are true, but R is not the correct explanation of A | A और R दोनों सत्य हैं, पर R A का सही स्पष्टीकरण नहीं है",
+    "A is true, but R is false | A सत्य है, पर R असत्य है",
+    "A is false, but R is true | A असत्य है, पर R सत्य है"
   ],
   "correctAnswer": "Both A and R are true, and R is the correct explanation of A",
   "explanation": {
@@ -27502,10 +27503,10 @@
     "hi": "चेराव, बांस की छड़ियों का उपयोग करके किया जाने वाला बांस नृत्य, किस राज्य का लोक नृत्य है?"
   },
   "options": [
-    "Mizoram",
-    "Meghalaya",
-    "Arunachal Pradesh",
-    "Sikkim"
+    "Mizoram | मिज़ोरम",
+    "Meghalaya | मेघालय",
+    "Arunachal Pradesh | अरुणाचल प्रदेश",
+    "Sikkim | सिक्किम"
   ],
   "correctAnswer": "Mizoram",
   "explanation": {
@@ -27521,10 +27522,10 @@
     "hi": "ग्लोबल फायरपावर मिलिट्री स्ट्रेंथ रैंकिंग 2025 में मूल्यांकन किया जाने वाला प्रमुख कारक क्या है?"
   },
   "options": [
-    "Economic Stability",
-    "Cultural Influence",
-    "Defense Budget",
-    "Healthcare Spending"
+    "Economic Stability | आर्थिक स्थिरता",
+    "Cultural Influence | सांस्कृतिक प्रभाव",
+    "Defense Budget | रक्षा बजट",
+    "Healthcare Spending | स्वास्थ्य‑देखभाल व्यय"
   ],
   "correctAnswer": "Defense Budget",
   "explanation": {
@@ -27540,10 +27541,10 @@
     "hi": "निम्नलिखित में से कौन सा सहकारी क्षेत्र के उद्योगों का सही वर्णन करता है?"
   },
   "options": [
-    "Owned and operated by central government agencies.",
-    "Operated solely for export purposes.",
-    "Owned by workers or suppliers sharing profits and losses",
-    "Maintained by foreign companies with Indian partnerships."
+    "Owned and operated by central government agencies. | केंद्रीय सरकारी एजेंसियों द्वारा स्वामित्व और संचालित।",
+    "Operated solely for export purposes. | केवल निर्यात उद्देश्यों के लिए संचालित।",
+    "Owned by workers or suppliers sharing profits and losses | लाभ‑हानि साझा करने वाले श्रमिकों या आपूर्तिकर्ताओं के स्वामित्व में",
+    "Maintained by foreign companies with Indian partnerships. | भारतीय साझेदारी वाली विदेशी कंपनियों द्वारा संचालित।"
   ],
   "correctAnswer": "Owned by workers or suppliers sharing profits and losses",
   "explanation": {
@@ -27559,10 +27560,10 @@
     "hi": "42वें संशोधन के बाद शिक्षा को अब किस सूची में रखा गया है?"
   },
   "options": [
-    "Union List",
-    "State List",
-    "Concurrent List",
-    "Judicial List"
+    "Union List | संघ सूची",
+    "State List | राज्य सूची",
+    "Concurrent List | समवर्ती सूची",
+    "Judicial List | न्यायिक सूची"
   ],
   "correctAnswer": "Concurrent List",
   "explanation": {
@@ -27578,10 +27579,10 @@
     "hi": "2024 में शुरू किए गए जलवायु सेवाओं के लिए राष्ट्रीय ढांचे (एनएफसीएस) का मुख्य उद्देश्य क्या है?"
   },
   "options": [
-    "To set emission trading targets",
-    "To regulate groundwater quality",
-    "To deliver sector-specific climate information services",
-    "To mandate carbon offsetting in the private sector"
+    "To set emission trading targets | उत्सर्जन व्यापार लक्ष्यों को निर्धारित करना",
+    "To regulate groundwater quality | भूजल गुणवत्ता को विनियमित करना",
+    "To deliver sector-specific climate information services | क्षेत्र-विशिष्ट जलवायु सूचना सेवाएँ प्रदान करना",
+    "To mandate carbon offsetting in the private sector | निजी क्षेत्र में कार्बन ऑफसेटिंग को अनिवार्य करना"
   ],
   "correctAnswer": "To deliver sector-specific climate information services",
   "explanation": {
@@ -27597,10 +27598,10 @@
     "hi": "पृथ्वी की पपड़ी में आर्गन का उत्पादन किसके माध्यम से होता है?"
   },
   "options": [
-    "Decay of K-40",
-    "Volcanoes",
-    "Photosynthesis",
-    "Cosmic rays"
+    "Decay of K-40 | K-40 का क्षय",
+    "Volcanoes | ज्वालामुखी",
+    "Photosynthesis | प्रकाश संश्लेषण",
+    "Cosmic rays | ब्रह्मांडीय किरणें"
   ],
   "correctAnswer": "Decay of K-40",
   "explanation": {
@@ -27616,10 +27617,10 @@
     "hi": "मौलिक अधिकारों और डीपीएसपी के बारे में निम्नलिखित में से कौन सा कथन सत्य है?"
   },
   "options": [
-    "Both are justiciable and enforceable by courts",
-    "DPSPs override Fundamental Rights when in conflict",
-    "Fundamental Rights are justiciable, but DPSPs are not",
-    "DPSPs are guaranteed by the Constitution; Fundamental Rights are optional"
+    "Both are justiciable and enforceable by courts | दोनों न्यायनीय हैं और न्यायालयों द्वारा प्रवर्तनीय हैं",
+    "DPSPs override Fundamental Rights when in conflict | संघर्ष होने पर डीपीएसपी मौलिक अधिकारों पर वरीयता रखते हैं",
+    "Fundamental Rights are justiciable, but DPSPs are not | मौलिक अधिकार न्यायनीय हैं, पर डीपीएसपी नहीं",
+    "DPSPs are guaranteed by the Constitution; Fundamental Rights are optional | डीपीएसपी संविधान द्वारा सुनिश्चित हैं; मौलिक अधिकार वैकल्पिक हैं"
   ],
   "correctAnswer": "Fundamental Rights are justiciable, but DPSPs are not",
   "explanation": {
@@ -27635,10 +27636,10 @@
     "hi": "दिए गए विकल्पों में से उस अक्षर-समूह का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) के स्थान पर आ सके। AEI, EIM, IMQ, MQU, ?"
   },
   "options": [
-    "QUY",
-    "QKS",
-    "LMX",
-    "KJS"
+    "QUY | QUY",
+    "QKS | QKS",
+    "LMX | LMX",
+    "KJS | KJS"
   ],
   "correctAnswer": "QUY",
   "explanation": {
@@ -27654,10 +27655,10 @@
     "hi": "दिए गए विकल्पों में से उस अक्षर-समूह का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) के स्थान पर आ सके। <br><b>ACE EIM IOU MUC ?"
   },
   "options": [
-    "QSA",
-    "UHG",
-    "QAK",
-    "CGD"
+    "QSA | QSA",
+    "UHG | UHG",
+    "QAK | QAK",
+    "CGD | CGD"
   ],
   "correctAnswer": "QAK",
   "explanation": {
@@ -27673,10 +27674,10 @@
     "hi": "आगे क्या आएगा: <br><b>12, 30, 56, 90, 132, ?"
   },
   "options": [
-    "182",
-    "250",
-    "190",
-    "293"
+    "182 | 182",
+    "250 | 250",
+    "190 | 190",
+    "293 | 293"
   ],
   "correctAnswer": "182",
   "explanation": {
@@ -27692,10 +27693,10 @@
     "hi": "प्रश्न चिह्न के स्थान पर क्या आएगा? <br><b>1, 2, 5, 26, 677, ?"
   },
   "options": [
-    "458330",
-    "456976",
-    "453625",
-    "458329"
+    "458330 | 458330",
+    "456976 | 456976",
+    "453625 | 453625",
+    "458329 | 458329"
   ],
   "correctAnswer": "458330",
   "explanation": {
@@ -27711,10 +27712,10 @@
     "hi": "वह संख्या ज्ञात करें जो फिट बैठती है: <br><b>2, 5, 10, 17, ?"
   },
   "options": [
-    "26",
-    "24",
-    "21",
-    "20"
+    "26 | 26",
+    "24 | 24",
+    "21 | 21",
+    "20 | 20"
   ],
   "correctAnswer": "26",
   "explanation": {
@@ -27730,10 +27731,10 @@
     "hi": "निर्देश: उन धारणाओं की पहचान करें जो कथन को वैध बनाने के लिए आवश्यक हैं, फिर सही विकल्प चुनें। <br><b>कथन: जबकि दुनिया स्वचालन (Automation) की ओर बढ़ रही है, यह सुनिश्चित करना आवश्यक है कि दुरुपयोग को रोकने के लिए तकनीकी प्रगति के साथ-साथ नैतिक ढाँचे भी विकसित हों। धारणाएँ: <br><b>I. स्वचालन नैतिक दुविधाओं को जन्म दे सकता है। <br><b>II. नैतिक ढाँचों को तकनीकी प्रगति के साथ तालमेल बिठाने के लिए अद्यतन किया जाना चाहिए। <br><b>III. स्वचालन अंततः सभी क्षेत्रों में मानव श्रम को प्रतिस्थापित कर देगा।"
   },
   "options": [
-    "Only I and II are implicit",
-    "Only I and III are implicit",
-    "All are implicit",
-    "Only I is implicit"
+    "Only I and II are implicit | केवल I और II निहित हैं",
+    "Only I and III are implicit | केवल I और III निहित हैं",
+    "All are implicit | सभी निहित हैं",
+    "Only I is implicit | केवल I निहित है"
   ],
   "correctAnswer": "Only I and II are implicit",
   "explanation": {
@@ -27749,10 +27750,10 @@
     "hi": "यदि DEVELOP शब्द के प्रत्येक अक्षर को वर्णानुक्रम में व्यवस्थित किया जाए, तो कितने अक्षरों की स्थिति अपरिवर्तित रहेगी?"
   },
   "options": [
-    "Two",
-    "Four",
-    "Three",
-    "Five"
+    "Two | दो",
+    "Four | चार",
+    "Three | तीन",
+    "Five | पाँच"
   ],
   "correctAnswer": "Two",
   "explanation": {
@@ -27768,10 +27769,10 @@
     "hi": "समान पते की पहचान करें: No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028"
   },
   "options": [
-    "No. 45, 1st Avenue, R.A. Puram, Chennai, TN 600028",
-    "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028",
-    "45, First Avenue, Raja Annamalai Puram, Chennai, Tamil Nadu - 600028",
-    "No. 45/1, First Avenue, R. Annamalaipuram, Chennai, Tamil Nadu - 600028"
+    "No. 45, 1st Avenue, R.A. Puram, Chennai, TN 600028 | नं. 45, प्रथम एवेन्यू, आर.ए. पुरम, चेन्नई, तमिलनाडु 600028",
+    "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028 | नं. 45, फर्स्ट एवेन्यू, राजा अन्नमलैपुरम, चेन्नई, तमिलनाडु - 600028",
+    "45, First Avenue, Raja Annamalai Puram, Chennai, Tamil Nadu - 600028 | 45, फर्स्ट एवेन्यू, राजा अन्नमलाई पुरम, चेन्नई, तमिलनाडु - 600028",
+    "No. 45/1, First Avenue, R. Annamalaipuram, Chennai, Tamil Nadu - 600028 | नं. 45/1, फर्स्ट एवेन्यू, आर. अन्नमलैपुरम, चेन्नई, तमिलनाडु - 600028"
   ],
   "correctAnswer": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028",
   "explanation": {
@@ -27787,10 +27788,10 @@
     "hi": "दिए गए विकल्पों में से, वह शब्द ज्ञात करें जिसे दिए गए शब्द INTELLIGENCE के अक्षरों का उपयोग करके नहीं बनाया जा सकता है।"
   },
   "options": [
-    "CANCEL",
-    "NEGLECT",
-    "GENTLE",
-    "INCITE"
+    "CANCEL | रद्द",
+    "NEGLECT | उपेक्षा",
+    "GENTLE | कोमल",
+    "INCITE | उकसाना"
   ],
   "correctAnswer": "CANCEL",
   "explanation": {
@@ -27806,10 +27807,10 @@
     "hi": "आठ व्यक्ति A, B, C, D, E, F, G, और H एक वृत्त के चारों ओर केंद्र की ओर मुख करके बैठे हैं। C, A के दाएँ से दूसरे स्थान पर है। E, C के विपरीत है। F, E के ठीक बाएँ है। B, A के ठीक दाएँ है। G, D के ठीक बाएँ है। <br><b>D के दाएँ कौन बैठा है?"
   },
   "options": [
-    "H",
-    "U",
-    "B",
-    "F"
+    "H | एच",
+    "U | यू",
+    "B | बी",
+    "F | एफ"
   ],
   "correctAnswer": "F",
   "explanation": {
@@ -27825,10 +27826,10 @@
     "hi": "निम्नलिखित प्रत्येक प्रश्न में, पहले शब्द को दूसरे शब्द को बनाने के लिए एक विशिष्ट वर्णमाला कोडिंग पैटर्न लागू किया गया है। उसी कोडिंग तर्क की पहचान करें और दिए गए विकल्पों में से सही उत्तर निर्धारित करने के लिए इसे तीसरे शब्द पर लागू करें। COUNTRY: FRXQWUB :: EXAMINE: ?"
   },
   "options": [
-    "HAPDLQH",
-    "HADPLQH",
-    "HAHPLDQ",
-    "GBQDVWB"
+    "HAPDLQH | HAPDLQH",
+    "HADPLQH | HADPLQH",
+    "HAHPLDQ | HAHPLDQ",
+    "GBQDVWB | GBQDVWB"
   ],
   "correctAnswer": "HADPLQH",
   "explanation": {
@@ -27844,10 +27845,10 @@
     "hi": "निम्नलिखित प्रत्येक प्रश्न में, दूसरे शब्द को पहले शब्द के अक्षरों को एक विशिष्ट परिवर्तन, जैसे उत्क्रमण या ब्लॉक शिफ्टिंग, का उपयोग करके पुनर्व्यवस्थित करके बनाया जाता है। उस परिवर्तन की पहचान करें और सही विकल्प चुनने के लिए इसे तीसरे शब्द पर लागू करें। KITCAT : CATTIK :: PENTOP: ?"
   },
   "options": [
-    "TOPPEN",
-    "TOPNEP",
-    "POPTEN",
-    "POPNET"
+    "TOPPEN | TOPPEN",
+    "TOPNEP | TOPNEP",
+    "POPTEN | POPTEN",
+    "POPNET | POPNET"
   ],
   "correctAnswer": "TOPNEP",
   "explanation": {
@@ -27863,10 +27864,10 @@
     "hi": "निम्नलिखित प्रत्येक प्रश्न में, प्रत्येक विकल्प में तीन संख्याओं/प्रतीकों का एक समूह दिया गया है। उस समूह की पहचान करें जो दूसरों के समान पैटर्न का पालन नहीं करता है। <br><b>Z1# : Y2@ : X3$ / W4% : V54 : U6& / T7* : S8( : R9) / Q10_: PI@ : 08$"
   },
   "options": [
-    "Z1#: Y2@ : X3$",
-    "W4% : V54 : U6&",
-    "T7* : S8( : R9)",
-    "Q10_: PI@ : 08$"
+    "Z1#: Y2@ : X3$ | Z1#: Y2@ : X3$",
+    "W4% : V54 : U6& | W4% : V54 : U6&",
+    "T7* : S8( : R9) | T7* : S8( : R9)",
+    "Q10_: PI@ : 08$ | Q10_: PI@ : 08$"
   ],
   "correctAnswer": "Q10_: PI@ : 08$",
   "explanation": {
@@ -27882,10 +27883,10 @@
     "hi": "निर्देश: एक निश्चित कोडिंग प्रणाली में: 'dream focus build skill' को 'trq, xnz, hmd, clv' कोडित किया जाता है; 'focus logic dream' को 'trq, jkp, xnz' कोडित किया जाता है; 'trust logic build dream' को 'xnj, clv, jkp, trq' कोडित किया जाता है। प्रश्न: 'build skill logic trust' के लिए कोड क्या है?"
   },
   "options": [
-    "clv, hmd, jkp, xnj",
-    "clv, xnj, jkp, trq",
-    "hmd, xnz, jkp, xnj",
-    "hmd, clv, xnj, xnz"
+    "clv, hmd, jkp, xnj | clv, hmd, jkp, xnj",
+    "clv, xnj, jkp, trq | clv, xnj, jkp, trq",
+    "hmd, xnz, jkp, xnj | hmd, xnz, jkp, xnj",
+    "hmd, clv, xnj, xnz | hmd, clv, xnj, xnz"
   ],
   "correctAnswer": "clv, hmd, jkp, xnj",
   "explanation": {
@@ -27901,10 +27902,10 @@
     "hi": "यदि x+2y=14 और x-y=5 है, तो x ज्ञात कीजिए।"
   },
   "options": [
-    "6",
-    "4",
-    "8",
-    "10"
+    "6 | 6",
+    "4 | 4",
+    "8 | 8",
+    "10 | 10"
   ],
   "correctAnswer": "8",
   "explanation": {
@@ -27920,10 +27921,10 @@
     "hi": "यदि 6$ 2 = 20 और 4 $ 3 = 19 है, तो 5 $ 2 = ?"
   },
   "options": [
-    "18",
-    "17",
-    "16",
-    "15"
+    "18 | 18",
+    "17 | 17",
+    "16 | 16",
+    "15 | 15"
   ],
   "correctAnswer": "17",
   "explanation": {
@@ -27939,10 +27940,10 @@
     "hi": "यदि 'SAVE' को '*3#5' कोडित किया जाता है, और 'VASE' को '#3%5' कोडित किया जाता है, तो 'EVAS' के लिए कोड क्या है?"
   },
   "options": [
-    "5% 3#",
-    "*5#7",
-    "*5#3",
-    "5#3*"
+    "5% 3# | 5% 3#",
+    "*5#7 | *5#7",
+    "*5#3 | *5#3",
+    "5#3* | 5#3*"
   ],
   "correctAnswer": "5#3*",
   "explanation": {
@@ -27958,10 +27959,10 @@
     "hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 64 है, तो संख्याएँ ज्ञात कीजिए।"
   },
   "options": [
-    "24, 40",
-    "20, 44",
-    "18, 46",
-    "16, 48"
+    "24, 40 | 24, 40",
+    "20, 44 | 20, 44",
+    "18, 46 | 18, 46",
+    "16, 48 | 16, 48"
   ],
   "correctAnswer": "24, 40",
   "explanation": {
@@ -27977,10 +27978,10 @@
     "hi": "यदि 5 @ 3 = 28 और 4 @ 2 = 18 है, तो 6 @ 4 क्या है?"
   },
   "options": [
-    "40",
-    "52",
-    "64",
-    "76"
+    "40 | 40",
+    "52 | 52",
+    "64 | 64",
+    "76 | 76"
   ],
   "correctAnswer": "40",
   "explanation": {
@@ -27996,10 +27997,10 @@
     "hi": "एक लड़की की ओर इशारा करते हुए, एक आदमी ने कहा, \"वह मेरी माँ के इकलौते बेटे की बेटी है।\" वह लड़की उस आदमी से किस प्रकार संबंधित है?"
   },
   "options": [
-    "Daughter",
-    "Niece",
-    "Sister",
-    "Cousin"
+    "Daughter | बेटी",
+    "Niece | भतीजी/भांजी",
+    "Sister | बहन",
+    "Cousin | कज़िन"
   ],
   "correctAnswer": "Daughter",
   "explanation": {
@@ -28015,10 +28016,10 @@
     "hi": "यदि P, Q का मामा है, तो Q, P की बहन से किस प्रकार संबंधित है?"
   },
   "options": [
-    "Niece/Nephew",
-    "Cousin",
-    "SON",
-    "Cannot be determined"
+    "Niece/Nephew | भतीजी/भांजा",
+    "Cousin | कज़िन",
+    "SON | पुत्र",
+    "Cannot be determined | निर्धारित नहीं किया जा सकता"
   ],
   "correctAnswer": "Niece/Nephew",
   "explanation": {
@@ -28034,10 +28035,10 @@
     "hi": "+ और x तथा 3 और 9 को आपस में बदलने के बाद, निम्नलिखित में से कौन सा समीकरण सत्य होगा?"
   },
   "options": [
-    "(3+5) x 9 = 48",
-    "(9+2) x 3 = 10",
-    "(3+7) x 9 = 60",
-    "(9+1) x 3 = 15"
+    "(3+5) x 9 = 48 | (3+5) x 9 = 48",
+    "(9+2) x 3 = 10 | (9+2) x 3 = 10",
+    "(3+7) x 9 = 60 | (3+7) x 9 = 60",
+    "(9+1) x 3 = 15 | (9+1) x 3 = 15"
   ],
   "correctAnswer": "(3+5) x 9 = 48",
   "explanation": {
@@ -28053,10 +28054,10 @@
     "hi": "यदि a % b = 37, जहाँ a % b = a + 2b, तो a और b का मान क्या है?"
   },
   "options": [
-    "25, 5",
-    "27, 5",
-    "16, 10",
-    "27, 10"
+    "25, 5 | 25, 5",
+    "27, 5 | 27, 5",
+    "16, 10 | 16, 10",
+    "27, 10 | 27, 10"
   ],
   "correctAnswer": "27, 5",
   "explanation": {
@@ -28072,10 +28073,10 @@
     "hi": "यदि + = x, - = +, x = ÷ है; तो 10+2-4 x 2 = ?"
   },
   "options": [
-    "10",
-    "19",
-    "22",
-    "24"
+    "10 | 10",
+    "19 | 19",
+    "22 | 22",
+    "24 | 24"
   ],
   "correctAnswer": "22",
   "explanation": {
@@ -28091,14 +28092,16 @@
     "hi": "7 खिलाड़ियों के एक टूर्नामेंट में, प्रत्येक खिलाड़ी दूसरे हर खिलाड़ी के साथ एक बार खेलता है। कितने मैच होंगे?"
   },
   "options": [
-    "21",
-    "42",
-    "36",
-    "28"
+    "21 | 21",
+    "42 | 42",
+    "36 | 36",
+    "28 | 28"
   ],
   "correctAnswer": "21",
   "explanation": {
     "en": "This is a combination problem nC2 = n(n-1)/2. The total number of matches is 7 × (7-1)/2 = 7 × 6/2 = 42/2 = **21**.",
     "hi": "यह एक संयोजन समस्या nC2 = n(n-1)/2 है। मैचों की कुल संख्या 7 × (7-1)/2 = 7 × 6/2 = 42/2 = **21** है।"
   }
+  }
+  ]
 }
