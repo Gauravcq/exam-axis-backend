@@ -26736,24 +26736,24 @@
       "options": [
         {
           "en": "Loss of ₹45",
-          "hi": "Loss of ₹45"
+          "hi": "₹45 का नुकसान"
         },
         {
           "en": "Profit of ₹45",
-          "hi": "Profit of ₹45"
+          "hi": "₹45 का लाभ"
         },
         {
           "en": "Profit of ₹90",
-          "hi": "Profit of ₹90"
+          "hi": "₹90 का लाभ"
         },
         {
           "en": "Loss of ₹90",
-          "hi": "Loss of ₹90"
+          "hi": "₹90 का नुकसान"
         }
       ],
       "correctAnswer": {
         "en": "Profit of ₹45",
-        "hi": "Profit of ₹45"
+        "hi": "₹45 का लाभ"
       },
       "explanation": {
         "en": "Cost Price:\n• 25 L × ₹45 = ₹1,125\n• 15 L × ₹50 = ₹750\n• Total CP = ₹1,875\n\nSelling Price:\n• 40 L × ₹48 = ₹1,920\n\nProfit = SP - CP\n= ₹1,920 - ₹1,875\n= ₹45 Profit",
@@ -26770,24 +26770,24 @@
       "options": [
         {
           "en": "4% loss",
-          "hi": "4% loss"
+          "hi": "4% हानि"
         },
         {
           "en": "4% profit",
-          "hi": "4% profit"
+          "hi": "4% लाभ"
         },
         {
           "en": "5% loss",
-          "hi": "5% loss"
+          "hi": "5% हानि"
         },
         {
           "en": "5% profit",
-          "hi": "5% profit"
+          "hi": "5% लाभ"
         }
       ],
       "correctAnswer": {
         "en": "4% loss",
-        "hi": "4% loss"
+        "hi": "4% हानि"
       },
       "explanation": {
         "en": "Total Cost = ₹90,000 for 1200 cars\n\nDistribution:\n• Donated: 200 cars (no revenue)\n• Remaining: 1000 cars\n\nSelling Price per car:\n• MP = ₹120, Discount = 10%\n• SP = ₹120 × 0.9 = ₹108\n\nScheme: Buy 8 Get 2 Free\n• 1000 cars = 100 sets of 10\n• Paid cars = 100 × 8 = 800\n\nRevenue = 800 × ₹108 = ₹86,400\n\nLoss = ₹90,000 - ₹86,400 = ₹3,600\n\nLoss % = (3600/90000) × 100 = 4%",
