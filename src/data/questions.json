@@ -27154,12 +27154,26 @@
       "correctAnswer": "2-1-3-4"
     },
     {
+  "questions": [
+    {
       "id": 51,
       "options": [
-        "They are primarily Buddhist caves with large stupas.",
-        "The caves focus on Shaivite themes and feature sculptural depth through light and shadow.",
-        "They contain a mix of Jain and Vaishnavite depictions in pillar halls.",
-        "The caves are entirely monolithic structures from the Mauryan period."
+        {
+          "en": "They are primarily Buddhist caves with large stupas.",
+          "hi": "वे मुख्य रूप से बड़े स्तूपों वाली बौद्ध गुफाएँ हैं।"
+        },
+        {
+          "en": "The caves focus on Shaivite themes and feature sculptural depth through light and shadow.",
+          "hi": "गुफाएँ शैव विषयों पर केंद्रित हैं और प्रकाश तथा छाया के माध्यम से मूर्तिकला की गहराई प्रदर्शित करती हैं।"
+        },
+        {
+          "en": "They contain a mix of Jain and Vaishnavite depictions in pillar halls.",
+          "hi": "उनमें स्तंभ हॉल में जैन और वैष्णव चित्रणों का मिश्रण है।"
+        },
+        {
+          "en": "The caves are entirely monolithic structures from the Mauryan period.",
+          "hi": "गुफाएँ पूरी तरह से मौर्य काल की एकाश्म संरचनाएँ हैं।"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27170,15 +27184,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "The caves focus on Shaivite themes and feature sculptural depth through light and shadow."
+      "correctAnswer": {
+        "en": "The caves focus on Shaivite themes and feature sculptural depth through light and shadow.",
+        "hi": "गुफाएँ शैव विषयों पर केंद्रित हैं और प्रकाश तथा छाया के माध्यम से मूर्तिकला की गहराई प्रदर्शित करती हैं।"
+      }
     },
     {
       "id": 52,
       "options": [
-        "Only 1 and 2",
-        "Only 2 and 3",
-        "Only 1 and 3",
-        "1, 2 and 3 are correct"
+        {
+          "en": "Only 1 and 2",
+          "hi": "केवल 1 और 2"
+        },
+        {
+          "en": "Only 2 and 3",
+          "hi": "केवल 2 और 3"
+        },
+        {
+          "en": "Only 1 and 3",
+          "hi": "केवल 1 और 3"
+        },
+        {
+          "en": "1, 2 and 3 are correct",
+          "hi": "1, 2 और 3 सही हैं"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27189,15 +27218,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "Only 1 and 2"
+      "correctAnswer": {
+        "en": "Only 1 and 2",
+        "hi": "केवल 1 और 2"
+      }
     },
     {
       "id": 53,
       "options": [
-        "Tishra",
-        "Chaturashra",
-        "Khanda",
-        "Mishra"
+        {
+          "en": "Tishra",
+          "hi": "तिश्र"
+        },
+        {
+          "en": "Chaturashra",
+          "hi": "चतुरश्र"
+        },
+        {
+          "en": "Khanda",
+          "hi": "खंड"
+        },
+        {
+          "en": "Mishra",
+          "hi": "मिश्र"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27208,15 +27252,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "Khanda"
+      "correctAnswer": {
+        "en": "Khanda",
+        "hi": "खंड"
+      }
     },
     {
       "id": 54,
       "options": [
-        "Judo was introduced in 1882 by Jigoro Kano in Japan.",
-        "India's first National Judo Championship was held in 1970 at Delhi University.",
-        "Kalpana Devi won gold at the 2010 Judo World Cup.",
-        "Judo became an Olympic sport in 1965."
+        {
+          "en": "Judo was introduced in 1882 by Jigoro Kano in Japan.",
+          "hi": "जूडो 1882 में जापान में जिगोरो कानो द्वारा शुरू किया गया था।"
+        },
+        {
+          "en": "India's first National Judo Championship was held in 1970 at Delhi University.",
+          "hi": "भारत की पहली राष्ट्रीय जूडो चैंपियनशिप 1970 में दिल्ली विश्वविद्यालय में आयोजित की गई थी।"
+        },
+        {
+          "en": "Kalpana Devi won gold at the 2010 Judo World Cup.",
+          "hi": "कल्पना देवी ने 2010 जूडो विश्व कप में स्वर्ण पदक जीता।"
+        },
+        {
+          "en": "Judo became an Olympic sport in 1965.",
+          "hi": "जूडो 1965 में ओलंपिक खेल बन गया।"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27227,15 +27286,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "Judo was introduced in 1882 by Jigoro Kano in Japan."
+      "correctAnswer": {
+        "en": "Judo was introduced in 1882 by Jigoro Kano in Japan.",
+        "hi": "जूडो 1882 में जापान में जिगोरो कानो द्वारा शुरू किया गया था।"
+      }
     },
     {
       "id": 55,
       "options": [
-        "10th January 2025, Lucknow, Uttar Pradesh",
-        "12th January 2025, Meerut, Uttar Pradesh",
-        "15th January 2025, Kanpur, Uttar Pradesh",
-        "12th January 2025, Jaipur, Rajasthan"
+        {
+          "en": "10th January 2025, Lucknow, Uttar Pradesh",
+          "hi": "10 जनवरी 2025, लखनऊ, उत्तर प्रदेश"
+        },
+        {
+          "en": "12th January 2025, Meerut, Uttar Pradesh",
+          "hi": "12 जनवरी 2025, मेरठ, उत्तर प्रदेश"
+        },
+        {
+          "en": "15th January 2025, Kanpur, Uttar Pradesh",
+          "hi": "15 जनवरी 2025, कानपुर, उत्तर प्रदेश"
+        },
+        {
+          "en": "12th January 2025, Jaipur, Rajasthan",
+          "hi": "12 जनवरी 2025, जयपुर, राजस्थान"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27246,15 +27320,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "12th January 2025, Meerut, Uttar Pradesh"
+      "correctAnswer": {
+        "en": "12th January 2025, Meerut, Uttar Pradesh",
+        "hi": "12 जनवरी 2025, मेरठ, उत्तर प्रदेश"
+      }
     },
     {
       "id": 56,
       "options": [
-        "Proposes joint sovereign funds and links INR swap with UAE banks.",
-        "Focuses on pre-establishment rights and UAE-based arbitration.",
-        "Assures post-establishment investor confidence via standard and national treatment.",
-        "Aims at GCC-wide tax regulation under India-led digital framework."
+        {
+          "en": "Proposes joint sovereign funds and links INR swap with UAE banks.",
+          "hi": "संयुक्त संप्रभु निधि प्रस्तावित करता है और यूएई बैंकों के साथ INR स्वैप को जोड़ता है।"
+        },
+        {
+          "en": "Focuses on pre-establishment rights and UAE-based arbitration.",
+          "hi": "पूर्व-स्थापना अधिकारों और यूएई-आधारित मध्यस्थता पर केंद्रित है।"
+        },
+        {
+          "en": "Assures post-establishment investor confidence via standard and national treatment.",
+          "hi": "मानक और राष्ट्रीय उपचार के माध्यम से स्थापना-पश्चात निवेशक विश्वास सुनिश्चित करता है।"
+        },
+        {
+          "en": "Aims at GCC-wide tax regulation under India-led digital framework.",
+          "hi": "भारत के नेतृत्व वाले डिजिटल ढांचे के तहत GCC-व्यापी कर विनियमन का लक्ष्य रखता है।"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27265,15 +27354,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "Assures post-establishment investor confidence via standard and national treatment."
+      "correctAnswer": {
+        "en": "Assures post-establishment investor confidence via standard and national treatment.",
+        "hi": "मानक और राष्ट्रीय उपचार के माध्यम से स्थापना-पश्चात निवेशक विश्वास सुनिश्चित करता है।"
+      }
     },
     {
       "id": 57,
       "options": [
-        "Dubai",
-        "Riyadh",
-        "Doha",
-        "Muscat"
+        {
+          "en": "Dubai",
+          "hi": "दुबई"
+        },
+        {
+          "en": "Riyadh",
+          "hi": "रियाद"
+        },
+        {
+          "en": "Doha",
+          "hi": "दोहा"
+        },
+        {
+          "en": "Muscat",
+          "hi": "मस्कट"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27284,15 +27388,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "Riyadh"
+      "correctAnswer": {
+        "en": "Riyadh",
+        "hi": "रियाद"
+      }
     },
     {
       "id": 58,
       "options": [
-        "A study on drought's human and ecological impacts in India.",
-        "A fictional story about a family in a drought-hit area.",
-        "A history of monsoon patterns and ancient agriculture in India.",
-        "A colonial-era policy analysis of water management."
+        {
+          "en": "A study on drought's human and ecological impacts in India.",
+          "hi": "भारत में सूखे के मानवीय और पारिस्थितिक प्रभावों पर एक अध्ययन।"
+        },
+        {
+          "en": "A fictional story about a family in a drought-hit area.",
+          "hi": "सूखाग्रस्त क्षेत्र में एक परिवार के बारे में एक काल्पनिक कहानी।"
+        },
+        {
+          "en": "A history of monsoon patterns and ancient agriculture in India.",
+          "hi": "भारत में मानसून पैटर्न और प्राचीन कृषि का इतिहास।"
+        },
+        {
+          "en": "A colonial-era policy analysis of water management.",
+          "hi": "जल प्रबंधन का औपनिवेशिक युग की नीति विश्लेषण।"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27303,15 +27422,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "A study on drought's human and ecological impacts in India."
+      "correctAnswer": {
+        "en": "A study on drought's human and ecological impacts in India.",
+        "hi": "भारत में सूखे के मानवीय और पारिस्थितिक प्रभावों पर एक अध्ययन।"
+      }
     },
     {
       "id": 59,
       "options": [
-        "Only 1",
-        "Only 2",
-        "1 and 2 are correct",
-        "Neither 1 nor 2 are correct"
+        {
+          "en": "Only 1",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "Only 2",
+          "hi": "केवल 2"
+        },
+        {
+          "en": "1 and 2 are correct",
+          "hi": "1 और 2 सही हैं"
+        },
+        {
+          "en": "Neither 1 nor 2 are correct",
+          "hi": "न तो 1 और न ही 2 सही है"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27322,15 +27456,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "1 and 2 are correct"
+      "correctAnswer": {
+        "en": "1 and 2 are correct",
+        "hi": "1 और 2 सही हैं"
+      }
     },
     {
       "id": 60,
       "options": [
-        "To guide the crew module into its designated Low Earth Orbit.",
-        "To eject the crew module to safety during launch emergencies.",
-        "To assist in docking the crew module with a space station.",
-        "To provide thermal shielding during re-entry into Earth's atmosphere."
+        {
+          "en": "To guide the crew module into its designated Low Earth Orbit.",
+          "hi": "क्रू मॉड्यूल को उसकी निर्धारित निम्न पृथ्वी कक्षा में मार्गदर्शन करना।"
+        },
+        {
+          "en": "To eject the crew module to safety during launch emergencies.",
+          "hi": "प्रक्षेपण आपातकाल के दौरान क्रू मॉड्यूल को सुरक्षित स्थान पर निकालना।"
+        },
+        {
+          "en": "To assist in docking the crew module with a space station.",
+          "hi": "क्रू मॉड्यूल को अंतरिक्ष स्टेशन के साथ डॉकिंग में सहायता करना।"
+        },
+        {
+          "en": "To provide thermal shielding during re-entry into Earth's atmosphere.",
+          "hi": "पृथ्वी के वायुमंडल में पुनः प्रवेश के दौरान थर्मल शील्डिंग प्रदान करना।"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27341,15 +27490,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "To eject the crew module to safety during launch emergencies."
+      "correctAnswer": {
+        "en": "To eject the crew module to safety during launch emergencies.",
+        "hi": "प्रक्षेपण आपातकाल के दौरान क्रू मॉड्यूल को सुरक्षित स्थान पर निकालना।"
+      }
     },
     {
       "id": 61,
       "options": [
-        "1 and 2 only",
-        "2 and 3 only",
-        "1 and 3 only",
-        "1, 2, and 3 all are true"
+        {
+          "en": "1 and 2 only",
+          "hi": "केवल 1 और 2"
+        },
+        {
+          "en": "2 and 3 only",
+          "hi": "केवल 2 और 3"
+        },
+        {
+          "en": "1 and 3 only",
+          "hi": "केवल 1 और 3"
+        },
+        {
+          "en": "1, 2, and 3 all are true",
+          "hi": "1, 2 और 3 सभी सत्य हैं"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27360,15 +27524,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "1 and 2 only"
+      "correctAnswer": {
+        "en": "1 and 2 only",
+        "hi": "केवल 1 और 2"
+      }
     },
     {
       "id": 62,
       "options": [
-        "Only 1 and 2 are correct",
-        "Only 1 and 3 are correct",
-        "Only 1, 3 and 4 are correct",
-        "1, 2, 3 and 4 all are correct"
+        {
+          "en": "Only 1 and 2 are correct",
+          "hi": "केवल 1 और 2 सही हैं"
+        },
+        {
+          "en": "Only 1 and 3 are correct",
+          "hi": "केवल 1 और 3 सही हैं"
+        },
+        {
+          "en": "Only 1, 3 and 4 are correct",
+          "hi": "केवल 1, 3 और 4 सही हैं"
+        },
+        {
+          "en": "1, 2, 3 and 4 all are correct",
+          "hi": "1, 2, 3 और 4 सभी सही हैं"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27379,15 +27558,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "Only 1, 3 and 4 are correct"
+      "correctAnswer": {
+        "en": "Only 1, 3 and 4 are correct",
+        "hi": "केवल 1, 3 और 4 सही हैं"
+      }
     },
     {
       "id": 63,
       "options": [
-        "Glycolysis",
-        "Krebs cycle",
-        "Electron transport chain",
-        "Fermentation"
+        {
+          "en": "Glycolysis",
+          "hi": "ग्लाइकोलिसिस"
+        },
+        {
+          "en": "Krebs cycle",
+          "hi": "क्रेब्स चक्र"
+        },
+        {
+          "en": "Electron transport chain",
+          "hi": "इलेक्ट्रॉन परिवहन श्रृंखला"
+        },
+        {
+          "en": "Fermentation",
+          "hi": "किण्वन"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27398,15 +27592,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "Electron transport chain"
+      "correctAnswer": {
+        "en": "Electron transport chain",
+        "hi": "इलेक्ट्रॉन परिवहन श्रृंखला"
+      }
     },
     {
       "id": 64,
       "options": [
-        "b-c-a",
-        "c-b-a",
-        "a-b-c",
-        "b-a-c"
+        {
+          "en": "b-c-a",
+          "hi": "b-c-a"
+        },
+        {
+          "en": "c-b-a",
+          "hi": "c-b-a"
+        },
+        {
+          "en": "a-b-c",
+          "hi": "a-b-c"
+        },
+        {
+          "en": "b-a-c",
+          "hi": "b-a-c"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27417,15 +27626,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "b-c-a"
+      "correctAnswer": {
+        "en": "b-c-a",
+        "hi": "b-c-a"
+      }
     },
     {
       "id": 65,
       "options": [
-        "It is a fundamental right that guarantees compensation for all property acquisitions.",
-        "It allows the State to deprive a person of property by any law, even without due process.",
-        "It is a constitutional legal right that permits deprivation only by authority of law.",
-        "It permits citizens to claim property protection under Article 32 before the Supreme Court."
+        {
+          "en": "It is a fundamental right that guarantees compensation for all property acquisitions.",
+          "hi": "यह एक मौलिक अधिकार है जो सभी संपत्ति अधिग्रहणों के लिए मुआवजे की गारंटी देता है।"
+        },
+        {
+          "en": "It allows the State to deprive a person of property by any law, even without due process.",
+          "hi": "यह राज्य को उचित प्रक्रिया के बिना भी किसी भी कानून द्वारा व्यक्ति को संपत्ति से वंचित करने की अनुमति देता है।"
+        },
+        {
+          "en": "It is a constitutional legal right that permits deprivation only by authority of law.",
+          "hi": "यह एक संवैधानिक कानूनी अधिकार है जो केवल कानून के प्राधिकार द्वारा वंचन की अनुमति देता है।"
+        },
+        {
+          "en": "It permits citizens to claim property protection under Article 32 before the Supreme Court.",
+          "hi": "यह नागरिकों को सर्वोच्च न्यायालय के समक्ष अनुच्छेद 32 के तहत संपत्ति संरक्षण का दावा करने की अनुमति देता है।"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27436,15 +27660,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "It is a constitutional legal right that permits deprivation only by authority of law."
+      "correctAnswer": {
+        "en": "It is a constitutional legal right that permits deprivation only by authority of law.",
+        "hi": "यह एक संवैधानिक कानूनी अधिकार है जो केवल कानून के प्राधिकार द्वारा वंचन की अनुमति देता है।"
+      }
     },
     {
       "id": 66,
       "options": [
-        "Proportional to its distance from the axis",
-        "The same for all particles",
-        "Inversely proportional to its distance from the axis",
-        "Always zero"
+        {
+          "en": "Proportional to its distance from the axis",
+          "hi": "अक्ष से इसकी दूरी के समानुपाती"
+        },
+        {
+          "en": "The same for all particles",
+          "hi": "सभी कणों के लिए समान"
+        },
+        {
+          "en": "Inversely proportional to its distance from the axis",
+          "hi": "अक्ष से इसकी दूरी के व्युत्क्रमानुपाती"
+        },
+        {
+          "en": "Always zero",
+          "hi": "हमेशा शून्य"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27455,15 +27694,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "The same for all particles"
+      "correctAnswer": {
+        "en": "The same for all particles",
+        "hi": "सभी कणों के लिए समान"
+      }
     },
     {
       "id": 67,
       "options": [
-        "Physical exhibits from crime scenes.",
-        "Hand-written diaries.",
-        "Digital and electronic evidence.",
-        "Oral confessions."
+        {
+          "en": "Physical exhibits from crime scenes.",
+          "hi": "अपराध स्थलों से भौतिक प्रदर्शनियाँ।"
+        },
+        {
+          "en": "Hand-written diaries.",
+          "hi": "हस्तलिखित डायरियाँ।"
+        },
+        {
+          "en": "Digital and electronic evidence.",
+          "hi": "डिजिटल और इलेक्ट्रॉनिक साक्ष्य।"
+        },
+        {
+          "en": "Oral confessions.",
+          "hi": "मौखिक स्वीकारोक्ति।"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27474,15 +27728,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "Digital and electronic evidence."
+      "correctAnswer": {
+        "en": "Digital and electronic evidence.",
+        "hi": "डिजिटल और इलेक्ट्रॉनिक साक्ष्य।"
+      }
     },
     {
       "id": 68,
       "options": [
-        "Both A and R are true, and R is the correct explanation of A",
-        "Both A and R are true, but R is not the correct explanation of A",
-        "A is true, but R is false",
-        "A is false, but R is true"
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है"
+        },
+        {
+          "en": "A is true, but R is false",
+          "hi": "A सत्य है, लेकिन R असत्य है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A असत्य है, लेकिन R सत्य है"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27493,15 +27762,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "Both A and R are true, and R is the correct explanation of A"
+      "correctAnswer": {
+        "en": "Both A and R are true, and R is the correct explanation of A",
+        "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है"
+      }
     },
     {
       "id": 69,
       "options": [
-        "Mizoram",
-        "Meghalaya",
-        "Arunachal Pradesh",
-        "Sikkim"
+        {
+          "en": "Mizoram",
+          "hi": "मिजोरम"
+        },
+        {
+          "en": "Meghalaya",
+          "hi": "मेघालय"
+        },
+        {
+          "en": "Arunachal Pradesh",
+          "hi": "अरुणाचल प्रदेश"
+        },
+        {
+          "en": "Sikkim",
+          "hi": "सिक्किम"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27512,15 +27796,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "Mizoram"
+      "correctAnswer": {
+        "en": "Mizoram",
+        "hi": "मिजोरम"
+      }
     },
     {
       "id": 70,
       "options": [
-        "Economic Stability",
-        "Cultural Influence",
-        "Defense Budget",
-        "Healthcare Spending"
+        {
+          "en": "Economic Stability",
+          "hi": "आर्थिक स्थिरता"
+        },
+        {
+          "en": "Cultural Influence",
+          "hi": "सांस्कृतिक प्रभाव"
+        },
+        {
+          "en": "Defense Budget",
+          "hi": "रक्षा बजट"
+        },
+        {
+          "en": "Healthcare Spending",
+          "hi": "स्वास्थ्य व्यय"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27531,15 +27830,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "Defense Budget"
+      "correctAnswer": {
+        "en": "Defense Budget",
+        "hi": "रक्षा बजट"
+      }
     },
     {
       "id": 71,
       "options": [
-        "Owned and operated by central government agencies.",
-        "Operated solely for export purposes.",
-        "Owned by workers or suppliers sharing profits and losses",
-        "Maintained by foreign companies with Indian partnerships."
+        {
+          "en": "Owned and operated by central government agencies.",
+          "hi": "केंद्र सरकार की एजेंसियों द्वारा स्वामित्व और संचालित।"
+        },
+        {
+          "en": "Operated solely for export purposes.",
+          "hi": "केवल निर्यात उद्देश्यों के लिए संचालित।"
+        },
+        {
+          "en": "Owned by workers or suppliers sharing profits and losses",
+          "hi": "लाभ और हानि साझा करने वाले श्रमिकों या आपूर्तिकर्ताओं के स्वामित्व में"
+        },
+        {
+          "en": "Maintained by foreign companies with Indian partnerships.",
+          "hi": "भारतीय साझेदारी के साथ विदेशी कंपनियों द्वारा बनाए रखा गया।"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27550,15 +27864,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "Owned by workers or suppliers sharing profits and losses"
+      "correctAnswer": {
+        "en": "Owned by workers or suppliers sharing profits and losses",
+        "hi": "लाभ और हानि साझा करने वाले श्रमिकों या आपूर्तिकर्ताओं के स्वामित्व में"
+      }
     },
     {
       "id": 72,
       "options": [
-        "Union List",
-        "State List",
-        "Concurrent List",
-        "Judicial List"
+        {
+          "en": "Union List",
+          "hi": "संघ सूची"
+        },
+        {
+          "en": "State List",
+          "hi": "राज्य सूची"
+        },
+        {
+          "en": "Concurrent List",
+          "hi": "समवर्ती सूची"
+        },
+        {
+          "en": "Judicial List",
+          "hi": "न्यायिक सूची"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27569,15 +27898,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "Concurrent List"
+      "correctAnswer": {
+        "en": "Concurrent List",
+        "hi": "समवर्ती सूची"
+      }
     },
     {
       "id": 73,
       "options": [
-        "To set emission trading targets",
-        "To regulate groundwater quality",
-        "To deliver sector-specific climate information services",
-        "To mandate carbon offsetting in the private sector"
+        {
+          "en": "To set emission trading targets",
+          "hi": "उत्सर्जन व्यापार लक्ष्य निर्धारित करना"
+        },
+        {
+          "en": "To regulate groundwater quality",
+          "hi": "भूजल गुणवत्ता को विनियमित करना"
+        },
+        {
+          "en": "To deliver sector-specific climate information services",
+          "hi": "क्षेत्र-विशिष्ट जलवायु सूचना सेवाएं प्रदान करना"
+        },
+        {
+          "en": "To mandate carbon offsetting in the private sector",
+          "hi": "निजी क्षेत्र में कार्बन ऑफसेटिंग को अनिवार्य करना"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27588,15 +27932,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "To deliver sector-specific climate information services"
+      "correctAnswer": {
+        "en": "To deliver sector-specific climate information services",
+        "hi": "क्षेत्र-विशिष्ट जलवायु सूचना सेवाएं प्रदान करना"
+      }
     },
     {
       "id": 74,
       "options": [
-        "Decay of K-40",
-        "Volcanoes",
-        "Photosynthesis",
-        "Cosmic rays"
+        {
+          "en": "Decay of K-40",
+          "hi": "K-40 का क्षय"
+        },
+        {
+          "en": "Volcanoes",
+          "hi": "ज्वालामुखी"
+        },
+        {
+          "en": "Photosynthesis",
+          "hi": "प्रकाश संश्लेषण"
+        },
+        {
+          "en": "Cosmic rays",
+          "hi": "ब्रह्मांडीय किरणें"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27607,15 +27966,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "Decay of K-40"
+      "correctAnswer": {
+        "en": "Decay of K-40",
+        "hi": "K-40 का क्षय"
+      }
     },
     {
       "id": 75,
       "options": [
-        "Both are justiciable and enforceable by courts",
-        "DPSPs override Fundamental Rights when in conflict",
-        "Fundamental Rights are justiciable, but DPSPs are not",
-        "DPSPs are guaranteed by the Constitution; Fundamental Rights are optional"
+        {
+          "en": "Both are justiciable and enforceable by courts",
+          "hi": "दोनों न्यायोचित हैं और न्यायालयों द्वारा प्रवर्तनीय हैं"
+        },
+        {
+          "en": "DPSPs override Fundamental Rights when in conflict",
+          "hi": "संघर्ष होने पर DPSP मौलिक अधिकारों को ओवरराइड करते हैं"
+        },
+        {
+          "en": "Fundamental Rights are justiciable, but DPSPs are not",
+          "hi": "मौलिक अधिकार न्यायोचित हैं, लेकिन DPSP नहीं हैं"
+        },
+        {
+          "en": "DPSPs are guaranteed by the Constitution; Fundamental Rights are optional",
+          "hi": "DPSP संविधान द्वारा गारंटीकृत हैं; मौलिक अधिकार वैकल्पिक हैं"
+        }
       ],
       "subject": "gk",
       "question": {
@@ -27626,15 +28000,30 @@
         "en": "",
         "hi": ""
       },
-      "correctAnswer": "Fundamental Rights are justiciable, but DPSPs are not"
+      "correctAnswer": {
+        "en": "Fundamental Rights are justiciable, but DPSPs are not",
+        "hi": "मौलिक अधिकार न्यायोचित हैं, लेकिन DPSP नहीं हैं"
+      }
     },
     {
       "id": 76,
       "options": [
-        "QUY | QUY",
-        "QKS | QKS",
-        "LMX | LMX",
-        "KJS | KJS"
+        {
+          "en": "QUY",
+          "hi": "QUY"
+        },
+        {
+          "en": "QKS",
+          "hi": "QKS"
+        },
+        {
+          "en": "LMX",
+          "hi": "LMX"
+        },
+        {
+          "en": "KJS",
+          "hi": "KJS"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27645,15 +28034,30 @@
         "en": "The series follows a consistent pattern of **+4** for each letter's alphabetical position. The next cluster is **QUY**.",
         "hi": "श्रृंखला प्रत्येक अक्षर की वर्णमाला स्थिति के लिए **+4** के एक सुसंगत पैटर्न का पालन करती है। अगला समूह **QUY** है।"
       },
-      "correctAnswer": "QUY | QUY"
+      "correctAnswer": {
+        "en": "QUY",
+        "hi": "QUY"
+      }
     },
     {
       "id": 77,
       "options": [
-        "QSA | QSA",
-        "UHG | UHG",
-        "QAK | QAK",
-        "CGD | CGD"
+        {
+          "en": "QSA",
+          "hi": "QSA"
+        },
+        {
+          "en": "UHG",
+          "hi": "UHG"
+        },
+        {
+          "en": "QAK",
+          "hi": "QAK"
+        },
+        {
+          "en": "CGD",
+          "hi": "CGD"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27664,15 +28068,30 @@
         "en": "The pattern involves three different increments based on the letter's position: 1st Letter: +4 (A, E, I, M, **Q**); 2nd Letter: +6 (C, I, O, U, **A**); 3rd Letter: +8 (E, M, U, C, **K**). The next cluster is **QAK**.",
         "hi": "पैटर्न में अक्षर की स्थिति के आधार पर तीन अलग-अलग वृद्धि शामिल है: पहला अक्षर: +4 (A, E, I, M, **Q**); दूसरा अक्षर: +6 (C, I, O, U, **A**); तीसरा अक्षर: +8 (E, M, U, C, **K**)। अगला समूह **QAK** है।"
       },
-      "correctAnswer": "QAK | QAK"
+      "correctAnswer": {
+        "en": "QAK",
+        "hi": "QAK"
+      }
     },
     {
       "id": 78,
       "options": [
-        "182 | 182",
-        "250 | 250",
-        "190 | 190",
-        "293 | 293"
+        {
+          "en": "182",
+          "hi": "182"
+        },
+        {
+          "en": "250",
+          "hi": "250"
+        },
+        {
+          "en": "190",
+          "hi": "190"
+        },
+        {
+          "en": "293",
+          "hi": "293"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27683,15 +28102,30 @@
         "en": "This is a second-level difference series. The first-level differences are: +18, +26, +34, +42. The second-level difference is a constant +8. The next difference is $42 + 8 = 50$. The next term is $132 + 50 = \\mathbf{182}$.",
         "hi": "यह एक दूसरे स्तर की अंतर श्रृंखला है। पहले स्तर के अंतर हैं: +18, +26, +34, +42। दूसरे स्तर का अंतर एक स्थिर +8 है। अगला अंतर $42 + 8 = 50$ है। अगली संख्या $132 + 50 = \\mathbf{182}$ है।"
       },
-      "correctAnswer": "182 | 182"
+      "correctAnswer": {
+        "en": "182",
+        "hi": "182"
+      }
     },
     {
       "id": 79,
       "options": [
-        "458330 | 458330",
-        "456976 | 456976",
-        "453625 | 453625",
-        "458329 | 458329"
+        {
+          "en": "458330",
+          "hi": "458330"
+        },
+        {
+          "en": "456976",
+          "hi": "456976"
+        },
+        {
+          "en": "453625",
+          "hi": "453625"
+        },
+        {
+          "en": "458329",
+          "hi": "458329"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27702,15 +28136,30 @@
         "en": "The pattern is defined by the formula: $T_{n+1} = T_n^2 + 1$. Applying this: $677^2 + 1 = 458329 + 1 = \\mathbf{458330}$.",
         "hi": "पैटर्न सूत्र $T_{n+1} = T_n^2 + 1$ द्वारा परिभाषित किया गया है। इसे लागू करने पर: $677^2 + 1 = 458329 + 1 = \\mathbf{458330}$।"
       },
-      "correctAnswer": "458330 | 458330"
+      "correctAnswer": {
+        "en": "458330",
+        "hi": "458330"
+      }
     },
     {
       "id": 80,
       "options": [
-        "26 | 26",
-        "24 | 24",
-        "21 | 21",
-        "20 | 20"
+        {
+          "en": "26",
+          "hi": "26"
+        },
+        {
+          "en": "24",
+          "hi": "24"
+        },
+        {
+          "en": "21",
+          "hi": "21"
+        },
+        {
+          "en": "20",
+          "hi": "20"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27721,15 +28170,30 @@
         "en": "The pattern is based on $n^2 + 1$, where n starts at 1. The next term is $5^2 + 1 = 25 + 1 = \\mathbf{26}$.",
         "hi": "पैटर्न $n^2 + 1$ पर आधारित है, जहाँ n 1 से शुरू होता है। अगली संख्या $5^2 + 1 = 25 + 1 = \\mathbf{26}$ है।"
       },
-      "correctAnswer": "26 | 26"
+      "correctAnswer": {
+        "en": "26",
+        "hi": "26"
+      }
     },
     {
       "id": 81,
       "options": [
-        "Only I and II are implicit | केवल I और II निहित हैं",
-        "Only I and III are implicit | केवल I और III निहित हैं",
-        "All are implicit | सभी निहित हैं",
-        "Only I is implicit | केवल I निहित है"
+        {
+          "en": "Only I and II are implicit",
+          "hi": "केवल I और II निहित हैं"
+        },
+        {
+          "en": "Only I and III are implicit",
+          "hi": "केवल I और III निहित हैं"
+        },
+        {
+          "en": "All are implicit",
+          "hi": "सभी निहित हैं"
+        },
+        {
+          "en": "Only I is implicit",
+          "hi": "केवल I निहित है"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27740,15 +28204,30 @@
         "en": "The statement requires that ethical problems are possible (Assumption **I**) and that the frameworks need updating (Assumption **II**) to be meaningful. Assumption III is an extreme prediction not required.",
         "hi": "कथन को सार्थक होने के लिए यह आवश्यक है कि नैतिक समस्याएँ संभव हों (धारणा **I**) और ढाँचों को अद्यतन करने की आवश्यकता हो (धारणा **II**)। धारणा III एक अत्यधिक भविष्यवाणी है जिसकी आवश्यकता नहीं है।"
       },
-      "correctAnswer": "Only I and II are implicit | केवल I और II निहित हैं"
+      "correctAnswer": {
+        "en": "Only I and II are implicit",
+        "hi": "केवल I और II निहित हैं"
+      }
     },
     {
       "id": 82,
       "options": [
-        "Two | दो",
-        "Four | चार",
-        "Three | तीन",
-        "Five | पांच"
+        {
+          "en": "Two",
+          "hi": "दो"
+        },
+        {
+          "en": "Four",
+          "hi": "चार"
+        },
+        {
+          "en": "Three",
+          "hi": "तीन"
+        },
+        {
+          "en": "Five",
+          "hi": "पांच"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27759,15 +28238,30 @@
         "en": "Original Word: D (1) E (2) V (3) E (4) L (5) O (6) P (7). Alphabetical Order: **D** (1) **E** (2) E (3) L (4) O (5) P (6) V (7). The letters **D** and **E** (at positions 1 and 2) remain unchanged. Thus, the answer is **Two**.",
         "hi": "मूल शब्द: D (1) E (2) V (3) E (4) L (5) O (6) P (7)। वर्णमाला क्रम: **D** (1) **E** (2) E (3) L (4) O (5) P (6) V (7)। अक्षर **D** और **E** (स्थिति 1 और 2 पर) अपरिवर्तित रहते हैं। इस प्रकार, उत्तर **दो** है।"
       },
-      "correctAnswer": "Two | दो"
+      "correctAnswer": {
+        "en": "Two",
+        "hi": "दो"
+      }
     },
     {
       "id": 83,
       "options": [
-        "No. 45, 1st Avenue, R.A. Puram, Chennai, TN 600028 | No. 45, 1st Avenue, R.A. Puram, Chennai, TN 600028",
-        "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028 | No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028",
-        "45, First Avenue, Raja Annamalai Puram, Chennai, Tamil Nadu - 600028 | 45, First Avenue, Raja Annamalai Puram, Chennai, Tamil Nadu - 600028",
-        "No. 45/1, First Avenue, R. Annamalaipuram, Chennai, Tamil Nadu - 600028 | No. 45/1, First Avenue, R. Annamalaipuram, Chennai, Tamil Nadu - 600028"
+        {
+          "en": "No. 45, 1st Avenue, R.A. Puram, Chennai, TN 600028",
+          "hi": "No. 45, 1st Avenue, R.A. Puram, Chennai, TN 600028"
+        },
+        {
+          "en": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028",
+          "hi": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028"
+        },
+        {
+          "en": "45, First Avenue, Raja Annamalai Puram, Chennai, Tamil Nadu - 600028",
+          "hi": "45, First Avenue, Raja Annamalai Puram, Chennai, Tamil Nadu - 600028"
+        },
+        {
+          "en": "No. 45/1, First Avenue, R. Annamalaipuram, Chennai, Tamil Nadu - 600028",
+          "hi": "No. 45/1, First Avenue, R. Annamalaipuram, Chennai, Tamil Nadu - 600028"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27778,15 +28272,30 @@
         "en": "The correct option is the **exact, identical** duplication of the original address. All other options contain abbreviations or minor changes.",
         "hi": "सही विकल्प मूल पते की **सटीक, समान** प्रतिकृति है। अन्य सभी विकल्पों में संक्षिप्तीकरण या मामूली बदलाव हैं।"
       },
-      "correctAnswer": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028 | No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028"
+      "correctAnswer": {
+        "en": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028",
+        "hi": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028"
+      }
     },
     {
       "id": 84,
       "options": [
-        "CANCEL | CANCEL",
-        "NEGLECT | NEGLECT",
-        "GENTLE | GENTLE",
-        "INCITE | INCITE"
+        {
+          "en": "CANCEL",
+          "hi": "CANCEL"
+        },
+        {
+          "en": "NEGLECT",
+          "hi": "NEGLECT"
+        },
+        {
+          "en": "GENTLE",
+          "hi": "GENTLE"
+        },
+        {
+          "en": "INCITE",
+          "hi": "INCITE"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27797,15 +28306,30 @@
         "en": "The word INTELLIGENCE does not contain the letter **'A'**, which is required to form the word **CANCEL**.",
         "hi": "INTELLIGENCE शब्द में अक्षर **'A'** नहीं है, जिसकी आवश्यकता **CANCEL** शब्द बनाने के लिए है।"
       },
-      "correctAnswer": "CANCEL | CANCEL"
+      "correctAnswer": {
+        "en": "CANCEL",
+        "hi": "CANCEL"
+      }
     },
     {
       "id": 85,
       "options": [
-        "H | H",
-        "U | U",
-        "B | B",
-        "F | F"
+        {
+          "en": "H",
+          "hi": "H"
+        },
+        {
+          "en": "U",
+          "hi": "U"
+        },
+        {
+          "en": "B",
+          "hi": "B"
+        },
+        {
+          "en": "F",
+          "hi": "F"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27816,15 +28340,30 @@
         "en": "The final clockwise arrangement is **A, B, C, H, G, D, E, F**. If everyone faces the center, the person to the right of D is **E** (counter-clockwise movement). Given the provided correct answer **F**, this suggests a complex interpretation or a possible error in the original test's options or question, but **F** is the selected answer.",
         "hi": "सभी शर्तों को पूरा करने वाली अंतिम दक्षिणावर्त व्यवस्था **A, B, C, H, G, D, E, F** है। यदि सभी केंद्र की ओर मुंह करके बैठे हैं, तो D के दाएँ (घड़ी की विपरीत दिशा) बैठा व्यक्ति **E** है। हालाँकि, दिए गए सही उत्तर **F** के अनुसार, यदि यह सही है, तो यह दर्शाता है कि प्रश्न में एक त्रुटि है या बैठने की व्यवस्था की एक जटिल व्याख्या है, लेकिन **F** ही सही उत्तर के रूप में दिया गया है।"
       },
-      "correctAnswer": "F | F"
+      "correctAnswer": {
+        "en": "F",
+        "hi": "F"
+      }
     },
     {
       "id": 86,
       "options": [
-        "HAPDLQH | HAPDLQH",
-        "HADPLQH | HADPLQH",
-        "HAHPLDQ | HAHPLDQ",
-        "GBQDVWB | GBQDVWB"
+        {
+          "en": "HAPDLQH",
+          "hi": "HAPDLQH"
+        },
+        {
+          "en": "HADPLQH",
+          "hi": "HADPLQH"
+        },
+        {
+          "en": "HAHPLDQ",
+          "hi": "HAHPLDQ"
+        },
+        {
+          "en": "GBQDVWB",
+          "hi": "GBQDVWB"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27835,15 +28374,30 @@
         "en": "The coding pattern is a consistent increase of **+3** to the alphabetical position of every letter (wrapping from Z to A). Applying to EXAMINE: E(+3)=H, X(+3)=A, A(+3)=D, M(+3)=P, I(+3)=L, N(+3)=Q, E(+3)=H. The code is **HADPLQH**.",
         "hi": "कोडिंग पैटर्न प्रत्येक अक्षर की वर्णमाला स्थिति में **+3** की एक सुसंगत वृद्धि है (Z से A तक चक्रण)। EXAMINE पर लागू करने पर: E(+3)=H, X(+3)=A, A(+3)=D, M(+3)=P, I(+3)=L, N(+3)=Q, E(+3)=H। कोड **HADPLQH** है।"
       },
-      "correctAnswer": "HADPLQH | HADPLQH"
+      "correctAnswer": {
+        "en": "HADPLQH",
+        "hi": "HADPLQH"
+      }
     },
     {
       "id": 87,
       "options": [
-        "TOPPEN | TOPPEN",
-        "TOPNEP | TOPNEP",
-        "POPTEN | POPTEN",
-        "POPNET | POPNET"
+        {
+          "en": "TOPPEN",
+          "hi": "TOPPEN"
+        },
+        {
+          "en": "TOPNEP",
+          "hi": "TOPNEP"
+        },
+        {
+          "en": "POPTEN",
+          "hi": "POPTEN"
+        },
+        {
+          "en": "POPNET",
+          "hi": "POPNET"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27851,18 +28405,33 @@
         "hi": "निम्नलिखित प्रत्येक प्रश्न में, दूसरे शब्द को पहले शब्द के अक्षरों को एक विशिष्ट परिवर्तन, जैसे उत्क्रमण या ब्लॉक शिफ्टिंग, का उपयोग करके पुनर्व्यवस्थित करके बनाया जाता है। उस परिवर्तन की पहचान करें और सही विकल्प चुनने के लिए इसे तीसरे शब्द पर लागू करें। KITCAT : CATTIK :: PENTOP: ?"
       },
       "explanation": {
-        "en": "The word is split into two equal halves (3 letters each), and the letters in the **first half are reversed** and then the two blocks are **swapped**: KITCAT $\\rightarrow$ (KIT) (CAT) $\rightarrow$ (CAT) (TIK). PENTOP $\\rightarrow$ (PEN) (TOP) $\\rightarrow$ (TOP) (NEP). The answer is **TOPNEP**.",
+        "en": "The word is split into two equal halves (3 letters each), and the letters in the **first half are reversed** and then the two blocks are **swapped**: KITCAT $\\rightarrow$ (KIT) (CAT) $\\rightarrow$ (CAT) (TIK). PENTOP $\\rightarrow$ (PEN) (TOP) $\\rightarrow$ (TOP) (NEP). The answer is **TOPNEP**.",
         "hi": "शब्द को दो बराबर हिस्सों (प्रत्येक 3 अक्षर) में विभाजित किया जाता है, और **पहले आधे भाग के अक्षरों को उलट दिया जाता है** और फिर दोनों ब्लॉकों को **आपस में बदल दिया जाता है**: KITCAT $\\rightarrow$ (KIT) (CAT) $\\rightarrow$ (CAT) (TIK)। PENTOP $\\rightarrow$ (PEN) (TOP) $\\rightarrow$ (TOP) (NEP)। उत्तर **TOPNEP** है।"
       },
-      "correctAnswer": "TOPNEP | TOPNEP"
+      "correctAnswer": {
+        "en": "TOPNEP",
+        "hi": "TOPNEP"
+      }
     },
     {
       "id": 88,
       "options": [
-        "Z1#: Y2@ : X3$ | Z1#: Y2@ : X3$",
-        "W4% : V54 : U6& | W4% : V54 : U6&",
-        "T7* : S8( : R9) | T7* : S8( : R9)",
-        "Q10_: PI@ : 08$ | Q10_: PI@ : 08$"
+        {
+          "en": "Z1#: Y2@ : X3$",
+          "hi": "Z1#: Y2@ : X3$"
+        },
+        {
+          "en": "W4% : V54 : U6&",
+          "hi": "W4% : V54 : U6&"
+        },
+        {
+          "en": "T7* : S8( : R9)",
+          "hi": "T7* : S8( : R9)"
+        },
+        {
+          "en": "Q10_: PI@ : 08$",
+          "hi": "Q10_: PI@ : 08$"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27873,34 +28442,64 @@
         "en": "In options 1, 2, and 3, the letters decrease by **-1** and the numbers **increase by +1**. In option 4, while the letters decrease by -1 (Q, P, O), the numbers **decrease by -1** (10, 9, 8), making it the odd one out.",
         "hi": "विकल्प 1, 2, और 3 में, अक्षर **-1** से घटते हैं और संख्याएँ **+1** से बढ़ती हैं। विकल्प 4 में, अक्षर -1 से घटते हैं (Q, P, O), लेकिन संख्याएँ **-1** से घटती हैं (10, 9, 8), जो इसे विषम बनाता है।"
       },
-      "correctAnswer": "Q10_: PI@ : 08$ | Q10_: PI@ : 08$"
+      "correctAnswer": {
+        "en": "Q10_: PI@ : 08$",
+        "hi": "Q10_: PI@ : 08$"
+      }
     },
     {
       "id": 89,
       "options": [
-        "clv, hmd, jkp, xnj | clv, hmd, jkp, xnj",
-        "clv, xnj, jkp, trq | clv, xnj, jkp, trq",
-        "hmd, xnz, jkp, xnj | hmd, xnz, jkp, xnj",
-        "hmd, clv, xnj, xnz | hmd, clv, xnj, xnz"
+        {
+          "en": "clv, hmd, jkp, xnj",
+          "hi": "clv, hmd, jkp, xnj"
+        },
+        {
+          "en": "clv, xnj, jkp, trq",
+          "hi": "clv, xnj, jkp, trq"
+        },
+        {
+          "en": "hmd, xnz, jkp, xnj",
+          "hi": "hmd, xnz, jkp, xnj"
+        },
+        {
+          "en": "hmd, clv, xnj, xnz",
+          "hi": "hmd, clv, xnj, xnz"
+        }
       ],
       "subject": "reasoning",
       "question": {
-        "en": "Instruction: In a certain coding system: ‘dream focus build skill’ is coded as ‘trq, xnz, hmd, clv’ ‘focus logic dream’ is coded as ‘trq, jkp, xnz’ ‘trust logic build dream’ is coded as ‘xnj, clv, jkp, trq’ <br><b>Question: What is the code for ‘build skill logic trust’?",
+        "en": "Instruction: In a certain coding system: 'dream focus build skill' is coded as 'trq, xnz, hmd, clv' 'focus logic dream' is coded as 'trq, jkp, xnz' 'trust logic build dream' is coded as 'xnj, clv, jkp, trq' <br><b>Question: What is the code for 'build skill logic trust'?",
         "hi": "निर्देश: एक निश्चित कोडिंग प्रणाली में: 'dream focus build skill' को 'trq, xnz, hmd, clv' कोडित किया जाता है; 'focus logic dream' को 'trq, jkp, xnz' कोडित किया जाता है; 'trust logic build dream' को 'xnj, clv, jkp, trq' कोडित किया जाता है। प्रश्न: 'build skill logic trust' के लिए कोड क्या है?"
       },
       "explanation": {
         "en": "By comparing the phrases, the codes are: build = clv, skill = hmd, logic = jkp, trust = xnj. The code for 'build skill logic trust' is **clv, hmd, jkp, xnj** (order may vary).",
         "hi": "वाक्यांशों की तुलना करके, कोड हैं: build = clv, skill = hmd, logic = jkp, trust = xnj। 'build skill logic trust' के लिए कोड **clv, hmd, jkp, xnj** है (क्रम भिन्न हो सकता है)।"
       },
-      "correctAnswer": "clv, hmd, jkp, xnj | clv, hmd, jkp, xnj"
+      "correctAnswer": {
+        "en": "clv, hmd, jkp, xnj",
+        "hi": "clv, hmd, jkp, xnj"
+      }
     },
     {
       "id": 90,
       "options": [
-        "6 | 6",
-        "4 | 4",
-        "8 | 8",
-        "10 | 10"
+        {
+          "en": "6",
+          "hi": "6"
+        },
+        {
+          "en": "4",
+          "hi": "4"
+        },
+        {
+          "en": "8",
+          "hi": "8"
+        },
+        {
+          "en": "10",
+          "hi": "10"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27911,15 +28510,30 @@
         "en": "Solve the system of linear equations: Subtracting $(x - y = 5)$ from $(x + 2y = 14)$ yields $3y = 9$, so $y=3$. Substituting $y=3$ into $x - y = 5$: $x - 3 = 5$, so $x = \\mathbf{8}$.",
         "hi": "रैखिक समीकरणों की प्रणाली को हल करें: $(x + 2y = 14)$ में से $(x - y = 5)$ को घटाने पर $3y = 9$ प्राप्त होता है, इसलिए $y=3$। $y=3$ को $x - y = 5$ में प्रतिस्थापित करने पर: $x - 3 = 5$, इसलिए $x = \\mathbf{8}$।"
       },
-      "correctAnswer": "8 | 8"
+      "correctAnswer": {
+        "en": "8",
+        "hi": "8"
+      }
     },
     {
       "id": 91,
       "options": [
-        "18 | 18",
-        "17 | 17",
-        "16 | 16",
-        "15 | 15"
+        {
+          "en": "18",
+          "hi": "18"
+        },
+        {
+          "en": "17",
+          "hi": "17"
+        },
+        {
+          "en": "16",
+          "hi": "16"
+        },
+        {
+          "en": "15",
+          "hi": "15"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27930,34 +28544,64 @@
         "en": "The pattern is $A \\$ B = (A \\times 3) + B$. Check: $(6 \\times 3) + 2 = 18 + 2 = 20$. Apply: $(5 \\times 3) + 2 = 15 + 2 = \\mathbf{17}$.",
         "hi": "पैटर्न $A \\$ B = (A \\times 3) + B$ है। जाँच करें: $(6 \\times 3) + 2 = 18 + 2 = 20$। लागू करें: $(5 \\times 3) + 2 = 15 + 2 = \\mathbf{17}$।"
       },
-      "correctAnswer": "17 | 17"
+      "correctAnswer": {
+        "en": "17",
+        "hi": "17"
+      }
     },
     {
       "id": 92,
       "options": [
-        "5% 3# | 5% 3#",
-        "*5#7 | *5#7",
-        "*5#3 | *5#3",
-        "5#3* | 5#3*"
+        {
+          "en": "5% 3#",
+          "hi": "5% 3#"
+        },
+        {
+          "en": "*5#7",
+          "hi": "*5#7"
+        },
+        {
+          "en": "*5#3",
+          "hi": "*5#3"
+        },
+        {
+          "en": "5#3*",
+          "hi": "5#3*"
+        }
       ],
       "subject": "reasoning",
       "question": {
-        "en": "If ‘SAVE’ is coded as ‘*3#5’, and ‘VASE’ as ‘#3%5’, then what is the code for ‘EVAS’?",
-        "hi": "यदि ‘SAVE’ को ‘*3#5’ कोडित किया जाता है, और ‘VASE’ को ‘#3%5’ कोडित किया जाता है, तो ‘EVAS’ के लिए कोड क्या है?"
+        "en": "If 'SAVE' is coded as '*3#5', and 'VASE' as '#3%5', then what is the code for 'EVAS'?",
+        "hi": "यदि 'SAVE' को '*3#5' कोडित किया जाता है, और 'VASE' को '#3%5' कोडित किया जाता है, तो 'EVAS' के लिए कोड क्या है?"
       },
       "explanation": {
         "en": "By comparing the codes: S=*, A=3, V=#, E=5 (from SAVE). The code for EVAS is $E(mathbf{5}) V(mathbf{#}) A(mathbf{3}) S(mathbf{*}) = mathbf{5#3*}$.",
         "hi": "कोडों की तुलना करने पर: S=*, A=3, V=#, E=5 (SAVE से)। EVAS के लिए कोड $E(mathbf{5}) V(mathbf{#}) A(mathbf{3}) S(mathbf{*}) = mathbf{5#3*}$ है।"
       },
-      "correctAnswer": "5#3* | 5#3*"
+      "correctAnswer": {
+        "en": "5#3*",
+        "hi": "5#3*"
+      }
     },
     {
       "id": 93,
       "options": [
-        "24, 40 | 24, 40",
-        "20, 44 | 20, 44",
-        "18, 46 | 18, 46",
-        "16, 48 | 16, 48"
+        {
+          "en": "24, 40",
+          "hi": "24, 40"
+        },
+        {
+          "en": "20, 44",
+          "hi": "20, 44"
+        },
+        {
+          "en": "18, 46",
+          "hi": "18, 46"
+        },
+        {
+          "en": "16, 48",
+          "hi": "16, 48"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27968,15 +28612,30 @@
         "en": "The total ratio parts are $3 + 5 = 8$. The value of one part is $64 \\div 8 = 8$. The numbers are $3 \\times 8 = \\mathbf{24}$ and $5 \\times 8 = \\mathbf{40}$.",
         "hi": "कुल अनुपात भाग $3 + 5 = 8$ हैं। एक भाग का मान $64 \\div 8 = 8$ है। संख्याएँ $3 \\times 8 = \\mathbf{24}$ और $5 \\times 8 = \\mathbf{40}$ हैं।"
       },
-      "correctAnswer": "24, 40 | 24, 40"
+      "correctAnswer": {
+        "en": "24, 40",
+        "hi": "24, 40"
+      }
     },
     {
       "id": 94,
       "options": [
-        "40 | 40",
-        "52 | 52",
-        "64 | 64",
-        "76 | 76"
+        {
+          "en": "40",
+          "hi": "40"
+        },
+        {
+          "en": "52",
+          "hi": "52"
+        },
+        {
+          "en": "64",
+          "hi": "64"
+        },
+        {
+          "en": "76",
+          "hi": "76"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -27987,53 +28646,98 @@
         "en": "The pattern is defined by the formula: $A @ B = A^2 + B$. Apply: $6 @ 4 = 6^2 + 4 = 36 + 4 = \\mathbf{40}$.",
         "hi": "पैटर्न सूत्र $A @ B = A^2 + B$ द्वारा परिभाषित किया गया है। लागू करें: $6 @ 4 = 6^2 + 4 = 36 + 4 = \\mathbf{40}$।"
       },
-      "correctAnswer": "40 | 40"
+      "correctAnswer": {
+        "en": "40",
+        "hi": "40"
+      }
     },
     {
       "id": 95,
       "options": [
-        "Daughter | बेटी",
-        "Niece | भतीजी",
-        "Sister | बहन",
-        "Cousin | चचेरी बहन"
+        {
+          "en": "Daughter",
+          "hi": "बेटी"
+        },
+        {
+          "en": "Niece",
+          "hi": "भतीजी"
+        },
+        {
+          "en": "Sister",
+          "hi": "बहन"
+        },
+        {
+          "en": "Cousin",
+          "hi": "चचेरी बहन"
+        }
       ],
       "subject": "reasoning",
       "question": {
-        "en": "Pointing to a girl, a man said, \"She is the daughter of my mother’s only son.\" How is the girl related to the man?",
+        "en": "Pointing to a girl, a man said, \"She is the daughter of my mother's only son.\" How is the girl related to the man?",
         "hi": "एक लड़की की ओर इशारा करते हुए, एक आदमी ने कहा, \"वह मेरी माँ के इकलौते बेटे की बेटी है।\" वह लड़की उस आदमी से किस प्रकार संबंधित है?"
       },
       "explanation": {
-        "en": "The man's 'mother’s only son' is the **man himself**. The girl is the daughter of the man, so she is the man's **Daughter**.",
+        "en": "The man's 'mother's only son' is the **man himself**. The girl is the daughter of the man, so she is the man's **Daughter**.",
         "hi": "आदमी की 'माँ का इकलौता बेटा' **वह आदमी स्वयं** है। लड़की उस आदमी की बेटी है, इसलिए वह आदमी की **बेटी** है।"
       },
-      "correctAnswer": "Daughter | बेटी"
+      "correctAnswer": {
+        "en": "Daughter",
+        "hi": "बेटी"
+      }
     },
     {
       "id": 96,
       "options": [
-        "Niece/Nephew | भतीजी/भांजा",
-        "Cousin | चचेरा भाई/बहन",
-        "SON | बेटा",
-        "Cannot be determined | निर्धारित नहीं किया जा सकता"
+        {
+          "en": "Niece/Nephew",
+          "hi": "भतीजी/भांजा"
+        },
+        {
+          "en": "Cousin",
+          "hi": "चचेरा भाई/बहन"
+        },
+        {
+          "en": "SON",
+          "hi": "बेटा"
+        },
+        {
+          "en": "Cannot be determined",
+          "hi": "निर्धारित नहीं किया जा सकता"
+        }
       ],
       "subject": "reasoning",
       "question": {
-        "en": "If P is the maternal uncle of Q, how is Q related to P’s sister?",
+        "en": "If P is the maternal uncle of Q, how is Q related to P's sister?",
         "hi": "यदि P, Q का मामा है, तो Q, P की बहन से किस प्रकार संबंधित है?"
       },
       "explanation": {
         "en": "Since P is the maternal uncle of Q, P's sister is Q's mother. Therefore, Q is the child of P's sister, meaning Q is the **Niece or Nephew** of P's sister.",
         "hi": "चूंकि P, Q का मामा है, P की बहन Q की माँ है। इसलिए, Q, P की बहन की संतान है, जिसका अर्थ है कि Q **भतीजी या भांजा** (Niece/Nephew) है।"
       },
-      "correctAnswer": "Niece/Nephew | भतीजी/भांजा"
+      "correctAnswer": {
+        "en": "Niece/Nephew",
+        "hi": "भतीजी/भांजा"
+      }
     },
     {
       "id": 97,
       "options": [
-        "(3+5) x 9 = 48 | (3+5) x 9 = 48",
-        "(9+2) x 3 = 10 | (9+2) x 3 = 10",
-        "(3+7) x 9 = 60 | (3+7) x 9 = 60",
-        "(9+1) x 3 = 15 | (9+1) x 3 = 15"
+        {
+          "en": "(3+5) x 9 = 48",
+          "hi": "(3+5) x 9 = 48"
+        },
+        {
+          "en": "(9+2) x 3 = 10",
+          "hi": "(9+2) x 3 = 10"
+        },
+        {
+          "en": "(3+7) x 9 = 60",
+          "hi": "(3+7) x 9 = 60"
+        },
+        {
+          "en": "(9+1) x 3 = 15",
+          "hi": "(9+1) x 3 = 15"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -28044,15 +28748,30 @@
         "en": "Test the correct option by applying the interchanges: Original: $(3+5) \\times 9 = 48$. Interchanged: $(9 \\times 5) + 3 = 48$. Calculation: $45 + 3 = 48$. This equation holds **true**.",
         "hi": "सही विकल्प पर इंटरचेंज लागू करें: मूल: $(3+5) \\times 9 = 48$। इंटरचेंज के बाद: $(9 \\times 5) + 3 = 48$। गणना: $45 + 3 = 48$। यह समीकरण **सत्य** है।"
       },
-      "correctAnswer": "$(3+5) \\times 9 = 48$ | $(3+5) \\times 9 = 48$"
+      "correctAnswer": {
+        "en": "(3+5) x 9 = 48",
+        "hi": "(3+5) x 9 = 48"
+      }
     },
     {
       "id": 98,
       "options": [
-        "25,5 | 25,5",
-        "27,5 | 27,5",
-        "16, 10 | 16, 10",
-        "27,10 | 27,10"
+        {
+          "en": "25, 5",
+          "hi": "25, 5"
+        },
+        {
+          "en": "27, 5",
+          "hi": "27, 5"
+        },
+        {
+          "en": "16, 10",
+          "hi": "16, 10"
+        },
+        {
+          "en": "27, 10",
+          "hi": "27, 10"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -28063,15 +28782,30 @@
         "en": "The operation is $a + 2b = 37$. Test the correct option: $a=27, b=5$: $27 + 2(5) = 27 + 10 = \\mathbf{37}$. This is correct.",
         "hi": "ऑपरेशन $a + 2b = 37$ है। सही विकल्प का परीक्षण करें: $a=27, b=5$: $27 + 2(5) = 27 + 10 = \\mathbf{37}$। यह सही है।"
       },
-      "correctAnswer": "27, 5 | 27, 5"
+      "correctAnswer": {
+        "en": "27, 5",
+        "hi": "27, 5"
+      }
     },
     {
       "id": 99,
       "options": [
-        "10 | 10",
-        "19 | 19",
-        "22 | 22",
-        "24 | 24"
+        {
+          "en": "10",
+          "hi": "10"
+        },
+        {
+          "en": "19",
+          "hi": "19"
+        },
+        {
+          "en": "22",
+          "hi": "22"
+        },
+        {
+          "en": "24",
+          "hi": "24"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -28082,15 +28816,30 @@
         "en": "Substitute the new operators: $10+2-4 \\times 2$ becomes $10 \\times 2 + 4 \\div 2$. Apply BODMAS/PEMDAS: $(10 \\times 2) + (4 \\div 2) = 20 + 2 = \\mathbf{22}$.",
         "hi": "नए ऑपरेटरों को प्रतिस्थापित करें: $10+2-4 \\times 2$ बन जाता है $10 \\times 2 + 4 \\div 2$। BODMAS/PEMDAS लागू करें: $(10 \\times 2) + (4 \\div 2) = 20 + 2 = \\mathbf{22}$।"
       },
-      "correctAnswer": "22 | 22"
+      "correctAnswer": {
+        "en": "22",
+        "hi": "22"
+      }
     },
     {
       "id": 100,
       "options": [
-        "21 | 21",
-        "42 | 42",
-        "36 | 36",
-        "28 | 28"
+        {
+          "en": "21",
+          "hi": "21"
+        },
+        {
+          "en": "42",
+          "hi": "42"
+        },
+        {
+          "en": "36",
+          "hi": "36"
+        },
+        {
+          "en": "28",
+          "hi": "28"
+        }
       ],
       "subject": "reasoning",
       "question": {
@@ -28101,8 +28850,13 @@
         "en": "This is a combination problem $\\text{nC2} = \\frac{n(n-1)}{2}$. The total number of matches is $\\frac{7 \\times (7-1)}{2} = \\frac{7 \\times 6}{2} = \\frac{42}{2} = \\mathbf{21}$.",
         "hi": "यह एक संयोजन समस्या $\\text{nC2} = \\frac{n(n-1)}{2}$ है। मैचों की कुल संख्या $\\frac{7 \\times (7-1)}{2} = \\frac{7 \\times 6}{2} = \\frac{42}{2} = \\mathbf{21}$ है।"
       },
-      "correctAnswer": "21 | 21"
+      "correctAnswer": {
+        "en": "21",
+        "hi": "21"
+      }
     }
+  ]
+}
   ]
 }
 
