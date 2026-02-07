@@ -426,7 +426,6 @@
       }
     }
   ],
-  
   "ssc_cgl_12_sep_s2": [
     {
       "question": {
@@ -26353,481 +26352,481 @@
     }
   ],
   "ssc_cgl_fullmock_12_sep_s1": [
-   {
-    "id": 1,
-    "subject": "maths",
-    "question": {
-      "en": "Arrange the fractions 5/9, 2/3, 3/5 and 4/7 in ascending order.",
-      "hi": "भिन्नों को आरोही क्रम में व्यवस्थित करें 5/9, 2/3, 3/5 और 4/7"
+    {
+      "id": 1,
+      "subject": "maths",
+      "question": {
+        "en": "Arrange the fractions 5/9, 2/3, 3/5 and 4/7 in ascending order.",
+        "hi": "भिन्नों को आरोही क्रम में व्यवस्थित करें 5/9, 2/3, 3/5 और 4/7"
+      },
+      "options": [
+        "5/9, 4/7, 3/5, 2/3",
+        "2/3, 5/9, 4/7, 3/5",
+        "4/7, 3/5, 2/3, 5/9",
+        "3/5, 5/9, 2/3, 4/7"
+      ],
+      "correctAnswer": "5/9, 4/7, 3/5, 2/3",
+      "explanation": {
+        "en": "Convert fractions to decimals:\n• 5/9 = 0.555...\n• 4/7 = 0.571...\n• 3/5 = 0.600\n• 2/3 = 0.666...\n\nAscending order (smallest to largest):\n5/9 < 4/7 < 3/5 < 2/3\n\nAnswer: 5/9, 4/7, 3/5, 2/3",
+        "hi": "भिन्नों को दशमलव में बदलें:\n• 5/9 = 0.555...\n• 4/7 = 0.571...\n• 3/5 = 0.600\n• 2/3 = 0.666...\n\nआरोही क्रम (सबसे छोटे से सबसे बड़े):\n5/9 < 4/7 < 3/5 < 2/3\n\nउत्तर: 5/9, 4/7, 3/5, 2/3"
+      }
     },
-    "options": [
-      "5/9, 4/7, 3/5, 2/3",
-      "2/3, 5/9, 4/7, 3/5",
-      "4/7, 3/5, 2/3, 5/9",
-      "3/5, 5/9, 2/3, 4/7"
-    ],
-    "correctAnswer": "5/9, 4/7, 3/5, 2/3",
-    "explanation": {
-      "en": "Convert fractions to decimals:\n• 5/9 = 0.555...\n• 4/7 = 0.571...\n• 3/5 = 0.600\n• 2/3 = 0.666...\n\nAscending order (smallest to largest):\n5/9 < 4/7 < 3/5 < 2/3\n\nAnswer: 5/9, 4/7, 3/5, 2/3",
-      "hi": "भिन्नों को दशमलव में बदलें:\n• 5/9 = 0.555...\n• 4/7 = 0.571...\n• 3/5 = 0.600\n• 2/3 = 0.666...\n\nआरोही क्रम (सबसे छोटे से सबसे बड़े):\n5/9 < 4/7 < 3/5 < 2/3\n\nउत्तर: 5/9, 4/7, 3/5, 2/3"
-    }
-  },
-  {
-    "id": 2,
-    "subject": "maths",
-    "question": {
-      "en": "Simplify: (2½ + 3.6) - 1.9",
-      "hi": "सरल करें: (2½ + 3.6) - 1.9"
+    {
+      "id": 2,
+      "subject": "maths",
+      "question": {
+        "en": "Simplify: (2½ + 3.6) - 1.9",
+        "hi": "सरल करें: (2½ + 3.6) - 1.9"
+      },
+      "options": [
+        "4.2",
+        "5.2",
+        "6.2",
+        "7.2"
+      ],
+      "correctAnswer": "4.2",
+      "explanation": {
+        "en": "Step-by-step solution:\n• Convert 2½ to decimal = 2.5\n• (2.5 + 3.6) - 1.9\n• = 6.1 - 1.9\n• = 4.2",
+        "hi": "चरण-दर-चरण हल:\n• 2½ को दशमलव में बदलें = 2.5\n• (2.5 + 3.6) - 1.9\n• = 6.1 - 1.9\n• = 4.2"
+      }
     },
-    "options": [
-      "4.2",
-      "5.2",
-      "6.2",
-      "7.2"
-    ],
-    "correctAnswer": "4.2",
-    "explanation": {
-      "en": "Step-by-step solution:\n• Convert 2½ to decimal = 2.5\n• (2.5 + 3.6) - 1.9\n• = 6.1 - 1.9\n• = 4.2",
-      "hi": "चरण-दर-चरण हल:\n• 2½ को दशमलव में बदलें = 2.5\n• (2.5 + 3.6) - 1.9\n• = 6.1 - 1.9\n• = 4.2"
-    }
-  },
-  {
-    "id": 3,
-    "subject": "maths",
-    "question": {
-      "en": "Evaluate: 7¼ - [5/6 ÷ {1/3 - (1/2 × (3/4 - 1/4))}]",
-      "hi": "7¼ - [5/6 ÷ {1/3 - (1/2 × (3/4 - 1/4))}] का मूल्यांकन करें।"
+    {
+      "id": 3,
+      "subject": "maths",
+      "question": {
+        "en": "Evaluate: 7¼ - [5/6 ÷ {1/3 - (1/2 × (3/4 - 1/4))}]",
+        "hi": "7¼ - [5/6 ÷ {1/3 - (1/2 × (3/4 - 1/4))}] का मूल्यांकन करें।"
+      },
+      "options": [
+        "-3¼",
+        "3¼",
+        "-2¾",
+        "2¾"
+      ],
+      "correctAnswer": "-2¾",
+      "explanation": {
+        "en": "Solve using BODMAS (innermost bracket first):\n\nStep 1: (3/4 - 1/4) = 2/4 = 1/2\n\nStep 2: 1/2 × 1/2 = 1/4\n\nStep 3: 1/3 - 1/4 = (4-3)/12 = 1/12\n\nStep 4: 5/6 ÷ 1/12 = 5/6 × 12 = 10\n\nStep 5: 7¼ - 10 = 7.25 - 10 = -2.75 = -2¾",
+        "hi": "BODMAS का उपयोग करके हल करें (सबसे अंदरूनी कोष्ठक पहले):\n\nचरण 1: (3/4 - 1/4) = 2/4 = 1/2\n\nचरण 2: 1/2 × 1/2 = 1/4\n\nचरण 3: 1/3 - 1/4 = (4-3)/12 = 1/12\n\nचरण 4: 5/6 ÷ 1/12 = 5/6 × 12 = 10\n\nचरण 5: 7¼ - 10 = 7.25 - 10 = -2.75 = -2¾"
+      }
     },
-    "options": [
-      "-3¼",
-      "3¼",
-      "-2¾",
-      "2¾"
-    ],
-    "correctAnswer": "-2¾",
-    "explanation": {
-      "en": "Solve using BODMAS (innermost bracket first):\n\nStep 1: (3/4 - 1/4) = 2/4 = 1/2\n\nStep 2: 1/2 × 1/2 = 1/4\n\nStep 3: 1/3 - 1/4 = (4-3)/12 = 1/12\n\nStep 4: 5/6 ÷ 1/12 = 5/6 × 12 = 10\n\nStep 5: 7¼ - 10 = 7.25 - 10 = -2.75 = -2¾",
-      "hi": "BODMAS का उपयोग करके हल करें (सबसे अंदरूनी कोष्ठक पहले):\n\nचरण 1: (3/4 - 1/4) = 2/4 = 1/2\n\nचरण 2: 1/2 × 1/2 = 1/4\n\nचरण 3: 1/3 - 1/4 = (4-3)/12 = 1/12\n\nचरण 4: 5/6 ÷ 1/12 = 5/6 × 12 = 10\n\nचरण 5: 7¼ - 10 = 7.25 - 10 = -2.75 = -2¾"
-    }
-  },
-  {
-    "id": 4,
-    "subject": "maths",
-    "question": {
-      "en": "From a sample of 200 software engineers, determine the ratio of those proficient in Python to those proficient in Java using the given information:\nProficient in Python and Java: 50\nProficient in Python only: 70\nProficient in Java only: 60\nProficient in neither language: 20",
-      "hi": "200 सॉफ्टवेयर इंजीनियरों के नमूने से, दी गई जानकारी का उपयोग करके पायथन में कुशल लोगों और जावा में कुशल लोगों का अनुपात निर्धारित करें:\nपायथन और जावा में कुशल: 50\nकेवल पायथन में कुशल: 70\nकेवल जावा में कुशल: 60\nकिसी भी भाषा में कुशल नहीं: 20"
+    {
+      "id": 4,
+      "subject": "maths",
+      "question": {
+        "en": "From a sample of 200 software engineers, determine the ratio of those proficient in Python to those proficient in Java using the given information:\nProficient in Python and Java: 50\nProficient in Python only: 70\nProficient in Java only: 60\nProficient in neither language: 20",
+        "hi": "200 सॉफ्टवेयर इंजीनियरों के नमूने से, दी गई जानकारी का उपयोग करके पायथन में कुशल लोगों और जावा में कुशल लोगों का अनुपात निर्धारित करें:\nपायथन और जावा में कुशल: 50\nकेवल पायथन में कुशल: 70\nकेवल जावा में कुशल: 60\nकिसी भी भाषा में कुशल नहीं: 20"
+      },
+      "options": [
+        "11:12",
+        "12:11",
+        "7:6",
+        "6:7"
+      ],
+      "correctAnswer": "12:11",
+      "explanation": {
+        "en": "Python proficient:\n= Python & Java + Python only\n= 50 + 70 = 120\n\nJava proficient:\n= Python & Java + Java only\n= 50 + 60 = 110\n\nRatio = 120 : 110 = 12 : 11",
+        "hi": "पायथन में कुशल:\n= पायथन और जावा + केवल पायथन\n= 50 + 70 = 120\n\nजावा में कुशल:\n= पायथन और जावा + केवल जावा\n= 50 + 60 = 110\n\nअनुपात = 120 : 110 = 12 : 11"
+      }
     },
-    "options": [
-      "11:12",
-      "12:11",
-      "7:6",
-      "6:7"
-    ],
-    "correctAnswer": "12:11",
-    "explanation": {
-      "en": "Python proficient:\n= Python & Java + Python only\n= 50 + 70 = 120\n\nJava proficient:\n= Python & Java + Java only\n= 50 + 60 = 110\n\nRatio = 120 : 110 = 12 : 11",
-      "hi": "पायथन में कुशल:\n= पायथन और जावा + केवल पायथन\n= 50 + 70 = 120\n\nजावा में कुशल:\n= पायथन और जावा + केवल जावा\n= 50 + 60 = 110\n\nअनुपात = 120 : 110 = 12 : 11"
-    }
-  },
-  {
-    "id": 5,
-    "subject": "maths",
-    "question": {
-      "en": "Arvind started a business by investing ₹80,000. After 4 months, Bhavin joined with ₹1,20,000. At the end of 8 months from the start, Chandan joined with ₹1,60,000. If the total profit is ₹1,05,000 at the end of the year, find the share of Chandan.",
-      "hi": "अरविंद ने ₹80,000 निवेश करके एक व्यवसाय शुरू किया। 4 महीने बाद, भाविन ₹1,20,000 के साथ शामिल हो गया। शुरुआत से 8 महीने के अंत में, चंदन ₹1,60,000 के साथ शामिल हो गया। यदि वर्ष के अंत में कुल लाभ ₹1,05,000 है, तो चंदन का हिस्सा ज्ञात कीजिए।"
+    {
+      "id": 5,
+      "subject": "maths",
+      "question": {
+        "en": "Arvind started a business by investing ₹80,000. After 4 months, Bhavin joined with ₹1,20,000. At the end of 8 months from the start, Chandan joined with ₹1,60,000. If the total profit is ₹1,05,000 at the end of the year, find the share of Chandan.",
+        "hi": "अरविंद ने ₹80,000 निवेश करके एक व्यवसाय शुरू किया। 4 महीने बाद, भाविन ₹1,20,000 के साथ शामिल हो गया। शुरुआत से 8 महीने के अंत में, चंदन ₹1,60,000 के साथ शामिल हो गया। यदि वर्ष के अंत में कुल लाभ ₹1,05,000 है, तो चंदन का हिस्सा ज्ञात कीजिए।"
+      },
+      "options": [
+        "₹26,500",
+        "₹26,000",
+        "₹26,200",
+        "₹26,250"
+      ],
+      "correctAnswer": "₹26,250",
+      "explanation": {
+        "en": "Investment × Time:\n• Arvind: ₹80,000 × 12 months = 9,60,000\n• Bhavin: ₹1,20,000 × 8 months = 9,60,000\n• Chandan: ₹1,60,000 × 4 months = 6,40,000\n\nRatio = 960000 : 960000 : 640000 = 3 : 3 : 2\n\nChandan's share:\n= (2/8) × ₹1,05,000\n= ₹26,250",
+        "hi": "निवेश × समय:\n• अरविंद: ₹80,000 × 12 महीने = 9,60,000\n• भाविन: ₹1,20,000 × 8 महीने = 9,60,000\n• चंदन: ₹1,60,000 × 4 महीने = 6,40,000\n\nअनुपात = 960000 : 960000 : 640000 = 3 : 3 : 2\n\nचंदन का हिस्सा:\n= (2/8) × ₹1,05,000\n= ₹26,250"
+      }
     },
-    "options": [
-      "₹26,500",
-      "₹26,000",
-      "₹26,200",
-      "₹26,250"
-    ],
-    "correctAnswer": "₹26,250",
-    "explanation": {
-      "en": "Investment × Time:\n• Arvind: ₹80,000 × 12 months = 9,60,000\n• Bhavin: ₹1,20,000 × 8 months = 9,60,000\n• Chandan: ₹1,60,000 × 4 months = 6,40,000\n\nRatio = 960000 : 960000 : 640000 = 3 : 3 : 2\n\nChandan's share:\n= (2/8) × ₹1,05,000\n= ₹26,250",
-      "hi": "निवेश × समय:\n• अरविंद: ₹80,000 × 12 महीने = 9,60,000\n• भाविन: ₹1,20,000 × 8 महीने = 9,60,000\n• चंदन: ₹1,60,000 × 4 महीने = 6,40,000\n\nअनुपात = 960000 : 960000 : 640000 = 3 : 3 : 2\n\nचंदन का हिस्सा:\n= (2/8) × ₹1,05,000\n= ₹26,250"
-    }
-  },
-  {
-    "id": 6,
-    "subject": "maths",
-    "question": {
-      "en": "A and B start a business. A invests ₹80,000 for 9 months, B invests ₹1,20,000 for 6 months. What is B's share of a ₹45,000 profit?",
-      "hi": "A और B एक व्यवसाय शुरू करते हैं। A 9 महीने के लिए ₹80,000 का निवेश करता है, B 6 महीने के लिए ₹1,20,000 का निवेश करता है। ₹45,000 के लाभ में B का हिस्सा क्या है?"
+    {
+      "id": 6,
+      "subject": "maths",
+      "question": {
+        "en": "A and B start a business. A invests ₹80,000 for 9 months, B invests ₹1,20,000 for 6 months. What is B's share of a ₹45,000 profit?",
+        "hi": "A और B एक व्यवसाय शुरू करते हैं। A 9 महीने के लिए ₹80,000 का निवेश करता है, B 6 महीने के लिए ₹1,20,000 का निवेश करता है। ₹45,000 के लाभ में B का हिस्सा क्या है?"
+      },
+      "options": [
+        "₹26,500",
+        "₹28,000",
+        "₹36,000",
+        "₹22,500"
+      ],
+      "correctAnswer": "₹22,500",
+      "explanation": {
+        "en": "Investment × Time:\n• A: ₹80,000 × 9 = 7,20,000\n• B: ₹1,20,000 × 6 = 7,20,000\n\nRatio = 720000 : 720000 = 1 : 1\n\nB's share:\n= (1/2) × ₹45,000\n= ₹22,500",
+        "hi": "निवेश × समय:\n• A: ₹80,000 × 9 = 7,20,000\n• B: ₹1,20,000 × 6 = 7,20,000\n\nअनुपात = 720000 : 720000 = 1 : 1\n\nB का हिस्सा:\n= (1/2) × ₹45,000\n= ₹22,500"
+      }
     },
-    "options": [
-      "₹26,500",
-      "₹28,000",
-      "₹36,000",
-      "₹22,500"
-    ],
-    "correctAnswer": "₹22,500",
-    "explanation": {
-      "en": "Investment × Time:\n• A: ₹80,000 × 9 = 7,20,000\n• B: ₹1,20,000 × 6 = 7,20,000\n\nRatio = 720000 : 720000 = 1 : 1\n\nB's share:\n= (1/2) × ₹45,000\n= ₹22,500",
-      "hi": "निवेश × समय:\n• A: ₹80,000 × 9 = 7,20,000\n• B: ₹1,20,000 × 6 = 7,20,000\n\nअनुपात = 720000 : 720000 = 1 : 1\n\nB का हिस्सा:\n= (1/2) × ₹45,000\n= ₹22,500"
-    }
-  },
-  {
-    "id": 7,
-    "subject": "maths",
-    "question": {
-      "en": "What is the average of all integers between 100 and 250 that are exactly divisible by 11?",
-      "hi": "100 और 250 के बीच उन सभी पूर्णांकों का औसत क्या है जो 11 से पूर्णतः विभाज्य हैं?"
+    {
+      "id": 7,
+      "subject": "maths",
+      "question": {
+        "en": "What is the average of all integers between 100 and 250 that are exactly divisible by 11?",
+        "hi": "100 और 250 के बीच उन सभी पूर्णांकों का औसत क्या है जो 11 से पूर्णतः विभाज्य हैं?"
+      },
+      "options": [
+        "176",
+        "186",
+        "196",
+        "146"
+      ],
+      "correctAnswer": "176",
+      "explanation": {
+        "en": "Numbers divisible by 11 between 100 and 250:\n• First term = 110 (11 × 10)\n• Last term = 242 (11 × 22)\n\nThis forms an A.P. with a = 110, l = 242\n\nAverage = (First + Last) / 2\n= (110 + 242) / 2\n= 352 / 2\n= 176",
+        "hi": "100 और 250 के बीच 11 से विभाज्य संख्याएं:\n• पहला पद = 110 (11 × 10)\n• अंतिम पद = 242 (11 × 22)\n\nयह एक समांतर श्रेणी बनाती है जहां a = 110, l = 242\n\nऔसत = (पहला + अंतिम) / 2\n= (110 + 242) / 2\n= 352 / 2\n= 176"
+      }
     },
-    "options": [
-      "176",
-      "186",
-      "196",
-      "146"
-    ],
-    "correctAnswer": "176",
-    "explanation": {
-      "en": "Numbers divisible by 11 between 100 and 250:\n• First term = 110 (11 × 10)\n• Last term = 242 (11 × 22)\n\nThis forms an A.P. with a = 110, l = 242\n\nAverage = (First + Last) / 2\n= (110 + 242) / 2\n= 352 / 2\n= 176",
-      "hi": "100 और 250 के बीच 11 से विभाज्य संख्याएं:\n• पहला पद = 110 (11 × 10)\n• अंतिम पद = 242 (11 × 22)\n\nयह एक समांतर श्रेणी बनाती है जहां a = 110, l = 242\n\nऔसत = (पहला + अंतिम) / 2\n= (110 + 242) / 2\n= 352 / 2\n= 176"
-    }
-  },
-  {
-    "id": 8,
-    "subject": "maths",
-    "question": {
-      "en": "The average of 15 numbers is 80. The average of the first 6 numbers is 72. The average of the next 6 numbers is 25% more than the average of the first 6 numbers. The 13th number is 8 more than the 15th number, and the 14th number is 10 less than the 15th number. What is the average of the 13th and 14th numbers?",
-      "hi": "15 संख्याओं का औसत 80 है। पहली 6 संख्याओं का औसत 72 है। अगली 6 संख्याओं का औसत पहली 6 संख्याओं के औसत से 25% अधिक है। 13वीं संख्या 15वीं संख्या से 8 अधिक है, और 14वीं संख्या 15वीं संख्या से 10 कम है। 13वीं और 14वीं संख्याओं का औसत क्या है?"
+    {
+      "id": 8,
+      "subject": "maths",
+      "question": {
+        "en": "The average of 15 numbers is 80. The average of the first 6 numbers is 72. The average of the next 6 numbers is 25% more than the average of the first 6 numbers. The 13th number is 8 more than the 15th number, and the 14th number is 10 less than the 15th number. What is the average of the 13th and 14th numbers?",
+        "hi": "15 संख्याओं का औसत 80 है। पहली 6 संख्याओं का औसत 72 है। अगली 6 संख्याओं का औसत पहली 6 संख्याओं के औसत से 25% अधिक है। 13वीं संख्या 15वीं संख्या से 8 अधिक है, और 14वीं संख्या 15वीं संख्या से 10 कम है। 13वीं और 14वीं संख्याओं का औसत क्या है?"
+      },
+      "options": [
+        "70.89",
+        "85",
+        "75.67",
+        "80.65"
+      ],
+      "correctAnswer": "75.67",
+      "explanation": {
+        "en": "Step 1: Total sum = 15 × 80 = 1200\n\nStep 2: Sum of first 6 = 6 × 72 = 432\n\nStep 3: Average of next 6 = 72 × 1.25 = 90\nSum of next 6 = 6 × 90 = 540\n\nStep 4: Sum of 13th, 14th, 15th = 1200 - 432 - 540 = 228\n\nStep 5: Let 15th = x\n• 13th = x + 8\n• 14th = x - 10\n• (x + 8) + (x - 10) + x = 228\n• 3x - 2 = 228 → x = 76.67\n\nStep 6: 13th = 84.67, 14th = 66.67\nAverage = (84.67 + 66.67)/2 = 75.67",
+        "hi": "चरण 1: कुल योग = 15 × 80 = 1200\n\nचरण 2: पहली 6 का योग = 6 × 72 = 432\n\nचरण 3: अगली 6 का औसत = 72 × 1.25 = 90\nअगली 6 का योग = 6 × 90 = 540\n\nचरण 4: 13वीं, 14वीं, 15वीं का योग = 1200 - 432 - 540 = 228\n\nचरण 5: माना 15वीं = x\n• 13वीं = x + 8\n• 14वीं = x - 10\n• (x + 8) + (x - 10) + x = 228\n• 3x - 2 = 228 → x = 76.67\n\nचरण 6: 13वीं = 84.67, 14वीं = 66.67\nऔसत = (84.67 + 66.67)/2 = 75.67"
+      }
     },
-    "options": [
-      "70.89",
-      "85",
-      "75.67",
-      "80.65"
-    ],
-    "correctAnswer": "75.67",
-    "explanation": {
-      "en": "Step 1: Total sum = 15 × 80 = 1200\n\nStep 2: Sum of first 6 = 6 × 72 = 432\n\nStep 3: Average of next 6 = 72 × 1.25 = 90\nSum of next 6 = 6 × 90 = 540\n\nStep 4: Sum of 13th, 14th, 15th = 1200 - 432 - 540 = 228\n\nStep 5: Let 15th = x\n• 13th = x + 8\n• 14th = x - 10\n• (x + 8) + (x - 10) + x = 228\n• 3x - 2 = 228 → x = 76.67\n\nStep 6: 13th = 84.67, 14th = 66.67\nAverage = (84.67 + 66.67)/2 = 75.67",
-      "hi": "चरण 1: कुल योग = 15 × 80 = 1200\n\nचरण 2: पहली 6 का योग = 6 × 72 = 432\n\nचरण 3: अगली 6 का औसत = 72 × 1.25 = 90\nअगली 6 का योग = 6 × 90 = 540\n\nचरण 4: 13वीं, 14वीं, 15वीं का योग = 1200 - 432 - 540 = 228\n\nचरण 5: माना 15वीं = x\n• 13वीं = x + 8\n• 14वीं = x - 10\n• (x + 8) + (x - 10) + x = 228\n• 3x - 2 = 228 → x = 76.67\n\nचरण 6: 13वीं = 84.67, 14वीं = 66.67\nऔसत = (84.67 + 66.67)/2 = 75.67"
-    }
-  },
-  {
-    "id": 9,
-    "subject": "maths",
-    "question": {
-      "en": "A landlord bought a flat for ₹8,00,000. He wants to earn a 9% annual return on his investment after paying ₹2,000 per month for maintenance. What should be the monthly rent he charges?",
-      "hi": "एक मकान मालिक ने ₹8,00,000 में एक फ्लैट खरीदा। वह रखरखाव के लिए हर महीने ₹2,000 का भुगतान करने के बाद अपने निवेश पर 9% वार्षिक रिटर्न कमाना चाहता है। उसे हर महीने कितना किराया लेना चाहिए?"
+    {
+      "id": 9,
+      "subject": "maths",
+      "question": {
+        "en": "A landlord bought a flat for ₹8,00,000. He wants to earn a 9% annual return on his investment after paying ₹2,000 per month for maintenance. What should be the monthly rent he charges?",
+        "hi": "एक मकान मालिक ने ₹8,00,000 में एक फ्लैट खरीदा। वह रखरखाव के लिए हर महीने ₹2,000 का भुगतान करने के बाद अपने निवेश पर 9% वार्षिक रिटर्न कमाना चाहता है। उसे हर महीने कितना किराया लेना चाहिए?"
+      },
+      "options": [
+        "₹7,000",
+        "₹7,500",
+        "₹8,000",
+        "₹8,500"
+      ],
+      "correctAnswer": "₹8,000",
+      "explanation": {
+        "en": "Annual return needed:\n= 9% of ₹8,00,000\n= ₹72,000\n\nMonthly return = ₹72,000 ÷ 12 = ₹6,000\n\nMonthly rent = Return + Maintenance\n= ₹6,000 + ₹2,000\n= ₹8,000",
+        "hi": "आवश्यक वार्षिक रिटर्न:\n= ₹8,00,000 का 9%\n= ₹72,000\n\nमासिक रिटर्न = ₹72,000 ÷ 12 = ₹6,000\n\nमासिक किराया = रिटर्न + रखरखाव\n= ₹6,000 + ₹2,000\n= ₹8,000"
+      }
     },
-    "options": [
-      "₹7,000",
-      "₹7,500",
-      "₹8,000",
-      "₹8,500"
-    ],
-    "correctAnswer": "₹8,000",
-    "explanation": {
-      "en": "Annual return needed:\n= 9% of ₹8,00,000\n= ₹72,000\n\nMonthly return = ₹72,000 ÷ 12 = ₹6,000\n\nMonthly rent = Return + Maintenance\n= ₹6,000 + ₹2,000\n= ₹8,000",
-      "hi": "आवश्यक वार्षिक रिटर्न:\n= ₹8,00,000 का 9%\n= ₹72,000\n\nमासिक रिटर्न = ₹72,000 ÷ 12 = ₹6,000\n\nमासिक किराया = रिटर्न + रखरखाव\n= ₹6,000 + ₹2,000\n= ₹8,000"
-    }
-  },
-  {
-    "id": 10,
-    "subject": "maths",
-    "question": {
-      "en": "An amount is said to double in 5 years with compound interest. How many years will it take for the amount to grow to 8 times its original value?",
-      "hi": "कहा जाता है कि एक राशि चक्रवृद्धि ब्याज के साथ 5 वर्षों में दोगुनी हो जाती है। राशि को अपने मूल मूल्य से 8 गुना बढ़ने में कितने वर्ष लगेंगे?"
+    {
+      "id": 10,
+      "subject": "maths",
+      "question": {
+        "en": "An amount is said to double in 5 years with compound interest. How many years will it take for the amount to grow to 8 times its original value?",
+        "hi": "कहा जाता है कि एक राशि चक्रवृद्धि ब्याज के साथ 5 वर्षों में दोगुनी हो जाती है। राशि को अपने मूल मूल्य से 8 गुना बढ़ने में कितने वर्ष लगेंगे?"
+      },
+      "options": [
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "correctAnswer": "15",
+      "explanation": {
+        "en": "Rule: If amount doubles in 'n' years at CI, it becomes 2^k times in (n × k) years.\n\nGiven: Amount doubles in 5 years\n\nTo become 8 times = 2³ times:\nTime = 5 × 3 = 15 years",
+        "hi": "नियम: यदि राशि चक्रवृद्धि ब्याज पर 'n' वर्षों में दोगुनी होती है, तो यह (n × k) वर्षों में 2^k गुना हो जाती है।\n\nदिया गया: राशि 5 वर्षों में दोगुनी होती है\n\n8 गुना होने के लिए = 2³ गुना:\nसमय = 5 × 3 = 15 वर्ष"
+      }
     },
-    "options": [
-      "15",
-      "16",
-      "17",
-      "18"
-    ],
-    "correctAnswer": "15",
-    "explanation": {
-      "en": "Rule: If amount doubles in 'n' years at CI, it becomes 2^k times in (n × k) years.\n\nGiven: Amount doubles in 5 years\n\nTo become 8 times = 2³ times:\nTime = 5 × 3 = 15 years",
-      "hi": "नियम: यदि राशि चक्रवृद्धि ब्याज पर 'n' वर्षों में दोगुनी होती है, तो यह (n × k) वर्षों में 2^k गुना हो जाती है।\n\nदिया गया: राशि 5 वर्षों में दोगुनी होती है\n\n8 गुना होने के लिए = 2³ गुना:\nसमय = 5 × 3 = 15 वर्ष"
-    }
-  },
-  {
-    "id": 11,
-    "subject": "maths",
-    "question": {
-      "en": "A sum becomes ₹6,600 in 2 years and ₹7,920 in 3 years at compound interest. What is the original principal?",
-      "hi": "चक्रवृद्धि ब्याज पर एक धनराशि 2 वर्ष में ₹6,600 तथा 3 वर्ष में ₹7,920 हो जाती है। मूल मूलधन क्या है?"
+    {
+      "id": 11,
+      "subject": "maths",
+      "question": {
+        "en": "A sum becomes ₹6,600 in 2 years and ₹7,920 in 3 years at compound interest. What is the original principal?",
+        "hi": "चक्रवृद्धि ब्याज पर एक धनराशि 2 वर्ष में ₹6,600 तथा 3 वर्ष में ₹7,920 हो जाती है। मूल मूलधन क्या है?"
+      },
+      "options": [
+        "₹4,000.33",
+        "₹5,583.33",
+        "₹4,583.33",
+        "₹6,583.33"
+      ],
+      "correctAnswer": "₹4,583.33",
+      "explanation": {
+        "en": "Step 1: Find rate of interest\n• CI for 3rd year = ₹7,920 - ₹6,600 = ₹1,320\n• Rate = (1320/6600) × 100 = 20%\n\nStep 2: Find Principal\n• A₂ = P(1 + r)²\n• 6600 = P(1.2)²\n• 6600 = P × 1.44\n• P = 6600/1.44\n• P = ₹4,583.33",
+        "hi": "चरण 1: ब्याज दर ज्ञात करें\n• तीसरे वर्ष का CI = ₹7,920 - ₹6,600 = ₹1,320\n• दर = (1320/6600) × 100 = 20%\n\nचरण 2: मूलधन ज्ञात करें\n• A₂ = P(1 + r)²\n• 6600 = P(1.2)²\n• 6600 = P × 1.44\n• P = 6600/1.44\n• P = ₹4,583.33"
+      }
     },
-    "options": [
-      "₹4,000.33",
-      "₹5,583.33",
-      "₹4,583.33",
-      "₹6,583.33"
-    ],
-    "correctAnswer": "₹4,583.33",
-    "explanation": {
-      "en": "Step 1: Find rate of interest\n• CI for 3rd year = ₹7,920 - ₹6,600 = ₹1,320\n• Rate = (1320/6600) × 100 = 20%\n\nStep 2: Find Principal\n• A₂ = P(1 + r)²\n• 6600 = P(1.2)²\n• 6600 = P × 1.44\n• P = 6600/1.44\n• P = ₹4,583.33",
-      "hi": "चरण 1: ब्याज दर ज्ञात करें\n• तीसरे वर्ष का CI = ₹7,920 - ₹6,600 = ₹1,320\n• दर = (1320/6600) × 100 = 20%\n\nचरण 2: मूलधन ज्ञात करें\n• A₂ = P(1 + r)²\n• 6600 = P(1.2)²\n• 6600 = P × 1.44\n• P = 6600/1.44\n• P = ₹4,583.33"
-    }
-  },
-  {
-    "id": 12,
-    "subject": "maths",
-    "question": {
-      "en": "Suman purchased 25 liters of milk at ₹45 per liter and another 15 liters of milk at ₹50 per liter. She combined both quantities and then sold the entire mixture at ₹48 per liter. What was her total profit or loss?",
-      "hi": "सुमन ने 25 लीटर दूध ₹45 प्रति लीटर की दर से और 15 लीटर दूध ₹50 प्रति लीटर की दर से खरीदा। उसने दोनों मात्राओं को मिलाया और फिर पूरे मिश्रण को ₹48 प्रति लीटर की दर से बेचा। उसका कुल लाभ या हानि क्या थी?"
+    {
+      "id": 12,
+      "subject": "maths",
+      "question": {
+        "en": "Suman purchased 25 liters of milk at ₹45 per liter and another 15 liters of milk at ₹50 per liter. She combined both quantities and then sold the entire mixture at ₹48 per liter. What was her total profit or loss?",
+        "hi": "सुमन ने 25 लीटर दूध ₹45 प्रति लीटर की दर से और 15 लीटर दूध ₹50 प्रति लीटर की दर से खरीदा। उसने दोनों मात्राओं को मिलाया और फिर पूरे मिश्रण को ₹48 प्रति लीटर की दर से बेचा। उसका कुल लाभ या हानि क्या थी?"
+      },
+      "options": [
+        "Loss of ₹45",
+        "Profit of ₹45",
+        "Profit of ₹90",
+        "Loss of ₹90"
+      ],
+      "correctAnswer": "Profit of ₹45",
+      "explanation": {
+        "en": "Cost Price:\n• 25 L × ₹45 = ₹1,125\n• 15 L × ₹50 = ₹750\n• Total CP = ₹1,875\n\nSelling Price:\n• 40 L × ₹48 = ₹1,920\n\nProfit = SP - CP\n= ₹1,920 - ₹1,875\n= ₹45 Profit",
+        "hi": "क्रय मूल्य:\n• 25 L × ₹45 = ₹1,125\n• 15 L × ₹50 = ₹750\n• कुल CP = ₹1,875\n\nविक्रय मूल्य:\n• 40 L × ₹48 = ₹1,920\n\nलाभ = SP - CP\n= ₹1,920 - ₹1,875\n= ₹45 लाभ"
+      }
     },
-    "options": [
-      "Loss of ₹45",
-      "Profit of ₹45",
-      "Profit of ₹90",
-      "Loss of ₹90"
-    ],
-    "correctAnswer": "Profit of ₹45",
-    "explanation": {
-      "en": "Cost Price:\n• 25 L × ₹45 = ₹1,125\n• 15 L × ₹50 = ₹750\n• Total CP = ₹1,875\n\nSelling Price:\n• 40 L × ₹48 = ₹1,920\n\nProfit = SP - CP\n= ₹1,920 - ₹1,875\n= ₹45 Profit",
-      "hi": "क्रय मूल्य:\n• 25 L × ₹45 = ₹1,125\n• 15 L × ₹50 = ₹750\n• कुल CP = ₹1,875\n\nविक्रय मूल्य:\n• 40 L × ₹48 = ₹1,920\n\nलाभ = SP - CP\n= ₹1,920 - ₹1,875\n= ₹45 लाभ"
-    }
-  },
-  {
-    "id": 13,
-    "subject": "maths",
-    "question": {
-      "en": "A toy manufacturer produced 1200 toy cars at a total cost of ₹90,000. He donated 200 cars to a charity event. For the rest, he announced a 10% discount on the market price of ₹120 per car. He also offered 2 toy cars free for every 8 toy cars purchased. If all 1200 toy cars were distributed, what is his overall gain or loss percentage?",
-      "hi": "एक खिलौना निर्माता ने ₹90,000 की कुल लागत से 1200 खिलौना कारें बनाईं। उसने 200 कारें एक चैरिटी कार्यक्रम में दान कर दीं। बाकी के लिए, उसने ₹120 प्रति कार के बाजार मूल्य पर 10% की छूट की घोषणा की। उसने खरीदी गई हर 8 खिलौना कारों के लिए 2 खिलौना कारें मुफ़्त देने की भी पेशकश की। यदि सभी 1200 खिलौना कारें वितरित की गईं, तो उसका कुल लाभ या हानि प्रतिशत क्या है?"
+    {
+      "id": 13,
+      "subject": "maths",
+      "question": {
+        "en": "A toy manufacturer produced 1200 toy cars at a total cost of ₹90,000. He donated 200 cars to a charity event. For the rest, he announced a 10% discount on the market price of ₹120 per car. He also offered 2 toy cars free for every 8 toy cars purchased. If all 1200 toy cars were distributed, what is his overall gain or loss percentage?",
+        "hi": "एक खिलौना निर्माता ने ₹90,000 की कुल लागत से 1200 खिलौना कारें बनाईं। उसने 200 कारें एक चैरिटी कार्यक्रम में दान कर दीं। बाकी के लिए, उसने ₹120 प्रति कार के बाजार मूल्य पर 10% की छूट की घोषणा की। उसने खरीदी गई हर 8 खिलौना कारों के लिए 2 खिलौना कारें मुफ़्त देने की भी पेशकश की। यदि सभी 1200 खिलौना कारें वितरित की गईं, तो उसका कुल लाभ या हानि प्रतिशत क्या है?"
+      },
+      "options": [
+        "4% loss",
+        "4% profit",
+        "5% loss",
+        "5% profit"
+      ],
+      "correctAnswer": "4% loss",
+      "explanation": {
+        "en": "Total Cost = ₹90,000 for 1200 cars\n\nDistribution:\n• Donated: 200 cars (no revenue)\n• Remaining: 1000 cars\n\nSelling Price per car:\n• MP = ₹120, Discount = 10%\n• SP = ₹120 × 0.9 = ₹108\n\nScheme: Buy 8 Get 2 Free\n• 1000 cars = 100 sets of 10\n• Paid cars = 100 × 8 = 800\n\nRevenue = 800 × ₹108 = ₹86,400\n\nLoss = ₹90,000 - ₹86,400 = ₹3,600\n\nLoss % = (3600/90000) × 100 = 4%",
+        "hi": "कुल लागत = 1200 कारों के लिए ₹90,000\n\nवितरण:\n• दान: 200 कारें (कोई राजस्व नहीं)\n• शेष: 1000 कारें\n\nप्रति कार विक्रय मूल्य:\n• MP = ₹120, छूट = 10%\n• SP = ₹120 × 0.9 = ₹108\n\nयोजना: 8 खरीदें 2 मुफ्त पाएं\n• 1000 कारें = 10 के 100 सेट\n• भुगतान की गई कारें = 100 × 8 = 800\n\nराजस्व = 800 × ₹108 = ₹86,400\n\nहानि = ₹90,000 - ₹86,400 = ₹3,600\n\nहानि % = (3600/90000) × 100 = 4%"
+      }
     },
-    "options": [
-      "4% loss",
-      "4% profit",
-      "5% loss",
-      "5% profit"
-    ],
-    "correctAnswer": "4% loss",
-    "explanation": {
-      "en": "Total Cost = ₹90,000 for 1200 cars\n\nDistribution:\n• Donated: 200 cars (no revenue)\n• Remaining: 1000 cars\n\nSelling Price per car:\n• MP = ₹120, Discount = 10%\n• SP = ₹120 × 0.9 = ₹108\n\nScheme: Buy 8 Get 2 Free\n• 1000 cars = 100 sets of 10\n• Paid cars = 100 × 8 = 800\n\nRevenue = 800 × ₹108 = ₹86,400\n\nLoss = ₹90,000 - ₹86,400 = ₹3,600\n\nLoss % = (3600/90000) × 100 = 4%",
-      "hi": "कुल लागत = 1200 कारों के लिए ₹90,000\n\nवितरण:\n• दान: 200 कारें (कोई राजस्व नहीं)\n• शेष: 1000 कारें\n\nप्रति कार विक्रय मूल्य:\n• MP = ₹120, छूट = 10%\n• SP = ₹120 × 0.9 = ₹108\n\nयोजना: 8 खरीदें 2 मुफ्त पाएं\n• 1000 कारें = 10 के 100 सेट\n• भुगतान की गई कारें = 100 × 8 = 800\n\nराजस्व = 800 × ₹108 = ₹86,400\n\nहानि = ₹90,000 - ₹86,400 = ₹3,600\n\nहानि % = (3600/90000) × 100 = 4%"
-    }
-  },
-  {
-    "id": 14,
-    "subject": "maths",
-    "question": {
-      "en": "A retailer marks an air conditioner 80% above its cost price. He offers a first discount of 25% on the marked price. During a festive offer, an additional discount of 10% is applied on the already discounted price. If the final selling price is ₹15,552, what is the approximate cost price of the air conditioner?",
-      "hi": "एक खुदरा विक्रेता एक एयर कंडीशनर को उसके लागत मूल्य से 80% अधिक मूल्य पर बेचता है। वह अंकित मूल्य पर 25% की पहली छूट प्रदान करता है। एक त्यौहारी ऑफर के दौरान, पहले से छूट वाले मूल्य पर 10% की अतिरिक्त छूट लागू की जाती है। यदि अंतिम विक्रय मूल्य ₹15,552 है, तो एयर कंडीशनर का अनुमानित लागत मूल्य क्या है?"
+    {
+      "id": 14,
+      "subject": "maths",
+      "question": {
+        "en": "A retailer marks an air conditioner 80% above its cost price. He offers a first discount of 25% on the marked price. During a festive offer, an additional discount of 10% is applied on the already discounted price. If the final selling price is ₹15,552, what is the approximate cost price of the air conditioner?",
+        "hi": "एक खुदरा विक्रेता एक एयर कंडीशनर को उसके लागत मूल्य से 80% अधिक मूल्य पर बेचता है। वह अंकित मूल्य पर 25% की पहली छूट प्रदान करता है। एक त्यौहारी ऑफर के दौरान, पहले से छूट वाले मूल्य पर 10% की अतिरिक्त छूट लागू की जाती है। यदि अंतिम विक्रय मूल्य ₹15,552 है, तो एयर कंडीशनर का अनुमानित लागत मूल्य क्या है?"
+      },
+      "options": [
+        "₹9,000",
+        "₹9,200",
+        "₹12,800",
+        "₹10,000"
+      ],
+      "correctAnswer": "₹12,800",
+      "explanation": {
+        "en": "Let Cost Price = CP\n\n• Marked Price = CP × 1.80\n• After 25% discount = 1.80CP × 0.75 = 1.35CP\n• After 10% additional = 1.35CP × 0.90 = 1.215CP\n\nGiven: Final SP = ₹15,552\n• 1.215 × CP = 15,552\n• CP = 15,552 ÷ 1.215\n• CP = ₹12,800",
+        "hi": "माना लागत मूल्य = CP\n\n• अंकित मूल्य = CP × 1.80\n• 25% छूट के बाद = 1.80CP × 0.75 = 1.35CP\n• 10% अतिरिक्त छूट के बाद = 1.35CP × 0.90 = 1.215CP\n\nदिया गया: अंतिम SP = ₹15,552\n• 1.215 × CP = 15,552\n• CP = 15,552 ÷ 1.215\n• CP = ₹12,800"
+      }
     },
-    "options": [
-      "₹9,000",
-      "₹9,200",
-      "₹12,800",
-      "₹10,000"
-    ],
-    "correctAnswer": "₹12,800",
-    "explanation": {
-      "en": "Let Cost Price = CP\n\n• Marked Price = CP × 1.80\n• After 25% discount = 1.80CP × 0.75 = 1.35CP\n• After 10% additional = 1.35CP × 0.90 = 1.215CP\n\nGiven: Final SP = ₹15,552\n• 1.215 × CP = 15,552\n• CP = 15,552 ÷ 1.215\n• CP = ₹12,800",
-      "hi": "माना लागत मूल्य = CP\n\n• अंकित मूल्य = CP × 1.80\n• 25% छूट के बाद = 1.80CP × 0.75 = 1.35CP\n• 10% अतिरिक्त छूट के बाद = 1.35CP × 0.90 = 1.215CP\n\nदिया गया: अंतिम SP = ₹15,552\n• 1.215 × CP = 15,552\n• CP = 15,552 ÷ 1.215\n• CP = ₹12,800"
-    }
-  },
-  {
-    "id": 15,
-    "subject": "maths",
-    "question": {
-      "en": "A 40-liter mixture contains juice and water in the ratio 5:3. How much water (in liters) must be added to this mixture to change the ratio of juice to water to 2:3?",
-      "hi": "40 लीटर के मिश्रण में जूस और पानी का अनुपात 5:3 है। जूस और पानी का अनुपात 2:3 करने के लिए इस मिश्रण में कितना पानी (लीटर में) मिलाया जाना चाहिए?"
+    {
+      "id": 15,
+      "subject": "maths",
+      "question": {
+        "en": "A 40-liter mixture contains juice and water in the ratio 5:3. How much water (in liters) must be added to this mixture to change the ratio of juice to water to 2:3?",
+        "hi": "40 लीटर के मिश्रण में जूस और पानी का अनुपात 5:3 है। जूस और पानी का अनुपात 2:3 करने के लिए इस मिश्रण में कितना पानी (लीटर में) मिलाया जाना चाहिए?"
+      },
+      "options": [
+        "15.5 litres",
+        "22.5 litres",
+        "25 litres",
+        "30 litres"
+      ],
+      "correctAnswer": "22.5 litres",
+      "explanation": {
+        "en": "In 40L mixture (ratio 5:3):\n• Juice = 40 × 5/8 = 25 L\n• Water = 40 × 3/8 = 15 L\n\nNew ratio required = 2:3\n\nLet water added = x\n• 25 : (15 + x) = 2 : 3\n• 25 × 3 = 2(15 + x)\n• 75 = 30 + 2x\n• 2x = 45\n• x = 22.5 litres",
+        "hi": "40L मिश्रण में (अनुपात 5:3):\n• जूस = 40 × 5/8 = 25 L\n• पानी = 40 × 3/8 = 15 L\n\nनया अनुपात आवश्यक = 2:3\n\nमाना पानी मिलाया = x\n• 25 : (15 + x) = 2 : 3\n• 25 × 3 = 2(15 + x)\n• 75 = 30 + 2x\n• 2x = 45\n• x = 22.5 लीटर"
+      }
     },
-    "options": [
-      "15.5 litres",
-      "22.5 litres",
-      "25 litres",
-      "30 litres"
-    ],
-    "correctAnswer": "22.5 litres",
-    "explanation": {
-      "en": "In 40L mixture (ratio 5:3):\n• Juice = 40 × 5/8 = 25 L\n• Water = 40 × 3/8 = 15 L\n\nNew ratio required = 2:3\n\nLet water added = x\n• 25 : (15 + x) = 2 : 3\n• 25 × 3 = 2(15 + x)\n• 75 = 30 + 2x\n• 2x = 45\n• x = 22.5 litres",
-      "hi": "40L मिश्रण में (अनुपात 5:3):\n• जूस = 40 × 5/8 = 25 L\n• पानी = 40 × 3/8 = 15 L\n\nनया अनुपात आवश्यक = 2:3\n\nमाना पानी मिलाया = x\n• 25 : (15 + x) = 2 : 3\n• 25 × 3 = 2(15 + x)\n• 75 = 30 + 2x\n• 2x = 45\n• x = 22.5 लीटर"
-    }
-  },
-  {
-    "id": 16,
-    "subject": "maths",
-    "question": {
-      "en": "A is able to complete a task in 15 days, while B takes 20 days to finish the same task. If they collaborate and work together for 4 days, what fraction of the work will still remain?",
-      "hi": "A किसी काम को 15 दिन में पूरा कर सकता है, जबकि B को उसी काम को पूरा करने में 20 दिन लगते हैं। यदि वे मिलकर 4 दिन काम करें, तो काम का कितना भाग शेष रह जाएगा?"
+    {
+      "id": 16,
+      "subject": "maths",
+      "question": {
+        "en": "A is able to complete a task in 15 days, while B takes 20 days to finish the same task. If they collaborate and work together for 4 days, what fraction of the work will still remain?",
+        "hi": "A किसी काम को 15 दिन में पूरा कर सकता है, जबकि B को उसी काम को पूरा करने में 20 दिन लगते हैं। यदि वे मिलकर 4 दिन काम करें, तो काम का कितना भाग शेष रह जाएगा?"
+      },
+      "options": [
+        "14/15",
+        "7/15",
+        "8/15",
+        "1/15"
+      ],
+      "correctAnswer": "8/15",
+      "explanation": {
+        "en": "Work rate per day:\n• A = 1/15\n• B = 1/20\n\nCombined rate = 1/15 + 1/20\n= (4 + 3)/60 = 7/60 per day\n\nWork done in 4 days:\n= 4 × 7/60 = 28/60 = 7/15\n\nRemaining work:\n= 1 - 7/15 = 8/15",
+        "hi": "प्रति दिन कार्य दर:\n• A = 1/15\n• B = 1/20\n\nसंयुक्त दर = 1/15 + 1/20\n= (4 + 3)/60 = 7/60 प्रति दिन\n\n4 दिनों में किया गया कार्य:\n= 4 × 7/60 = 28/60 = 7/15\n\nशेष कार्य:\n= 1 - 7/15 = 8/15"
+      }
     },
-    "options": [
-      "14/15",
-      "7/15",
-      "8/15",
-      "1/15"
-    ],
-    "correctAnswer": "8/15",
-    "explanation": {
-      "en": "Work rate per day:\n• A = 1/15\n• B = 1/20\n\nCombined rate = 1/15 + 1/20\n= (4 + 3)/60 = 7/60 per day\n\nWork done in 4 days:\n= 4 × 7/60 = 28/60 = 7/15\n\nRemaining work:\n= 1 - 7/15 = 8/15",
-      "hi": "प्रति दिन कार्य दर:\n• A = 1/15\n• B = 1/20\n\nसंयुक्त दर = 1/15 + 1/20\n= (4 + 3)/60 = 7/60 प्रति दिन\n\n4 दिनों में किया गया कार्य:\n= 4 × 7/60 = 28/60 = 7/15\n\nशेष कार्य:\n= 1 - 7/15 = 8/15"
-    }
-  },
-  {
-    "id": 17,
-    "subject": "maths",
-    "question": {
-      "en": "Two oils priced at ₹90 per kg and ₹150 per kg are blended and sold at ₹144 per kg, achieving a profit margin of 20%. What is the ratio of the two oils in the mixture?",
-      "hi": "₹90 प्रति किलोग्राम और ₹150 प्रति किलोग्राम की कीमत वाले दो तेलों को मिश्रित करके ₹144 प्रति किलोग्राम की दर से बेचा जाता है, जिससे 20% का लाभ मार्जिन प्राप्त होता है। मिश्रण में दोनों तेलों का अनुपात क्या है?"
+    {
+      "id": 17,
+      "subject": "maths",
+      "question": {
+        "en": "Two oils priced at ₹90 per kg and ₹150 per kg are blended and sold at ₹144 per kg, achieving a profit margin of 20%. What is the ratio of the two oils in the mixture?",
+        "hi": "₹90 प्रति किलोग्राम और ₹150 प्रति किलोग्राम की कीमत वाले दो तेलों को मिश्रित करके ₹144 प्रति किलोग्राम की दर से बेचा जाता है, जिससे 20% का लाभ मार्जिन प्राप्त होता है। मिश्रण में दोनों तेलों का अनुपात क्या है?"
+      },
+      "options": [
+        "1:1",
+        "2:1",
+        "3:2",
+        "4:1"
+      ],
+      "correctAnswer": "1:1",
+      "explanation": {
+        "en": "SP = ₹144 with 20% profit\n\nCP of mixture = 144 ÷ 1.20 = ₹120\n\nUsing Allegation Method:\n• Oil 1: ₹90, Oil 2: ₹150, Mean: ₹120\n\n   90          150\n     \\        /\n       120\n     /        \\\n  150-120   120-90\n    30    :   30\n\nRatio = 30 : 30 = 1 : 1",
+        "hi": "SP = ₹144 जिसमें 20% लाभ\n\nमिश्रण का CP = 144 ÷ 1.20 = ₹120\n\nमिश्रण विधि का उपयोग करके:\n• तेल 1: ₹90, तेल 2: ₹150, माध्य: ₹120\n\n   90          150\n     \\        /\n       120\n     /        \\\n  150-120   120-90\n    30    :   30\n\nअनुपात = 30 : 30 = 1 : 1"
+      }
     },
-    "options": [
-      "1:1",
-      "2:1",
-      "3:2",
-      "4:1"
-    ],
-    "correctAnswer": "1:1",
-    "explanation": {
-      "en": "SP = ₹144 with 20% profit\n\nCP of mixture = 144 ÷ 1.20 = ₹120\n\nUsing Allegation Method:\n• Oil 1: ₹90, Oil 2: ₹150, Mean: ₹120\n\n   90          150\n     \\        /\n       120\n     /        \\\n  150-120   120-90\n    30    :   30\n\nRatio = 30 : 30 = 1 : 1",
-      "hi": "SP = ₹144 जिसमें 20% लाभ\n\nमिश्रण का CP = 144 ÷ 1.20 = ₹120\n\nमिश्रण विधि का उपयोग करके:\n• तेल 1: ₹90, तेल 2: ₹150, माध्य: ₹120\n\n   90          150\n     \\        /\n       120\n     /        \\\n  150-120   120-90\n    30    :   30\n\nअनुपात = 30 : 30 = 1 : 1"
-    }
-  },
-  {
-    "id": 18,
-    "subject": "maths",
-    "question": {
-      "en": "Three pipes, A, B, and C are capable of filling a tank in 6, 8, and 12 hours, respectively. When all three pipes are opened together, they operate for 2 hours before pipe C is closed. How much additional time will it take to completely fill the tank after that?",
-      "hi": "तीन पाइप, A, B और C एक टैंक को क्रमशः 6, 8 और 12 घंटे में भरने में सक्षम हैं। जब तीनों पाइप एक साथ खोले जाते हैं, तो वे पाइप C बंद होने से पहले 2 घंटे तक काम करते हैं। उसके बाद टैंक को पूरी तरह से भरने में कितना अतिरिक्त समय लगेगा?"
+    {
+      "id": 18,
+      "subject": "maths",
+      "question": {
+        "en": "Three pipes, A, B, and C are capable of filling a tank in 6, 8, and 12 hours, respectively. When all three pipes are opened together, they operate for 2 hours before pipe C is closed. How much additional time will it take to completely fill the tank after that?",
+        "hi": "तीन पाइप, A, B और C एक टैंक को क्रमशः 6, 8 और 12 घंटे में भरने में सक्षम हैं। जब तीनों पाइप एक साथ खोले जाते हैं, तो वे पाइप C बंद होने से पहले 2 घंटे तक काम करते हैं। उसके बाद टैंक को पूरी तरह से भरने में कितना अतिरिक्त समय लगेगा?"
+      },
+      "options": [
+        "6/7 hours",
+        "2/6 hours",
+        "3/5 hours",
+        "9/2 hours"
+      ],
+      "correctAnswer": "6/7 hours",
+      "explanation": {
+        "en": "Rate per hour:\n• A = 1/6, B = 1/8, C = 1/12\n\nCombined rate (A+B+C):\n= 1/6 + 1/8 + 1/12 = (4+3+2)/24 = 9/24 = 3/8\n\nWork in 2 hours = 2 × 3/8 = 3/4\n\nRemaining = 1 - 3/4 = 1/4\n\nAfter C closes (A+B rate):\n= 1/6 + 1/8 = 7/24\n\nTime to fill 1/4:\n= (1/4) ÷ (7/24) = (1/4) × (24/7) = 6/7 hours",
+        "hi": "प्रति घंटे दर:\n• A = 1/6, B = 1/8, C = 1/12\n\nसंयुक्त दर (A+B+C):\n= 1/6 + 1/8 + 1/12 = (4+3+2)/24 = 9/24 = 3/8\n\n2 घंटे में कार्य = 2 × 3/8 = 3/4\n\nशेष = 1 - 3/4 = 1/4\n\nC बंद होने के बाद (A+B दर):\n= 1/6 + 1/8 = 7/24\n\n1/4 भरने का समय:\n= (1/4) ÷ (7/24) = (1/4) × (24/7) = 6/7 घंटे"
+      }
     },
-    "options": [
-      "6/7 hours",
-      "2/6 hours",
-      "3/5 hours",
-      "9/2 hours"
-    ],
-    "correctAnswer": "6/7 hours",
-    "explanation": {
-      "en": "Rate per hour:\n• A = 1/6, B = 1/8, C = 1/12\n\nCombined rate (A+B+C):\n= 1/6 + 1/8 + 1/12 = (4+3+2)/24 = 9/24 = 3/8\n\nWork in 2 hours = 2 × 3/8 = 3/4\n\nRemaining = 1 - 3/4 = 1/4\n\nAfter C closes (A+B rate):\n= 1/6 + 1/8 = 7/24\n\nTime to fill 1/4:\n= (1/4) ÷ (7/24) = (1/4) × (24/7) = 6/7 hours",
-      "hi": "प्रति घंटे दर:\n• A = 1/6, B = 1/8, C = 1/12\n\nसंयुक्त दर (A+B+C):\n= 1/6 + 1/8 + 1/12 = (4+3+2)/24 = 9/24 = 3/8\n\n2 घंटे में कार्य = 2 × 3/8 = 3/4\n\nशेष = 1 - 3/4 = 1/4\n\nC बंद होने के बाद (A+B दर):\n= 1/6 + 1/8 = 7/24\n\n1/4 भरने का समय:\n= (1/4) ÷ (7/24) = (1/4) × (24/7) = 6/7 घंटे"
-    }
-  },
-  {
-    "id": 19,
-    "subject": "maths",
-    "question": {
-      "en": "A bullet train covers a fixed distance in 30 minutes at an average speed of 240 km/h. Due to track maintenance, it needs to be diverted, increasing the distance by 20%. If the train needs to arrive at its destination on time (i.e., in 30 minutes), what should its new average speed be in km/h?",
-      "hi": "एक बुलेट ट्रेन 240 किमी/घंटा की औसत गति से 30 मिनट में एक निश्चित दूरी तय करती है। ट्रैक रखरखाव के कारण, इसे डायवर्ट करने की आवश्यकता है, जिससे दूरी 20% बढ़ जाती है। यदि ट्रेन को समय पर (यानी, 30 मिनट में) अपने गंतव्य पर पहुंचना है, तो इसकी नई औसत गति किमी/घंटा में क्या होनी चाहिए?"
+    {
+      "id": 19,
+      "subject": "maths",
+      "question": {
+        "en": "A bullet train covers a fixed distance in 30 minutes at an average speed of 240 km/h. Due to track maintenance, it needs to be diverted, increasing the distance by 20%. If the train needs to arrive at its destination on time (i.e., in 30 minutes), what should its new average speed be in km/h?",
+        "hi": "एक बुलेट ट्रेन 240 किमी/घंटा की औसत गति से 30 मिनट में एक निश्चित दूरी तय करती है। ट्रैक रखरखाव के कारण, इसे डायवर्ट करने की आवश्यकता है, जिससे दूरी 20% बढ़ जाती है। यदि ट्रेन को समय पर (यानी, 30 मिनट में) अपने गंतव्य पर पहुंचना है, तो इसकी नई औसत गति किमी/घंटा में क्या होनी चाहिए?"
+      },
+      "options": [
+        "280 km/h",
+        "300 km/h",
+        "288 km/h",
+        "320 km/h"
+      ],
+      "correctAnswer": "288 km/h",
+      "explanation": {
+        "en": "Original distance:\n= Speed × Time\n= 240 × 0.5 = 120 km\n\nNew distance (20% increase):\n= 120 × 1.20 = 144 km\n\nTime remains same = 30 min = 0.5 hr\n\nNew speed required:\n= 144 ÷ 0.5\n= 288 km/h",
+        "hi": "मूल दूरी:\n= गति × समय\n= 240 × 0.5 = 120 km\n\nनई दूरी (20% वृद्धि):\n= 120 × 1.20 = 144 km\n\nसमय समान रहता है = 30 मिनट = 0.5 घंटा\n\nआवश्यक नई गति:\n= 144 ÷ 0.5\n= 288 किमी/घंटा"
+      }
     },
-    "options": [
-      "280 km/h",
-      "300 km/h",
-      "288 km/h",
-      "320 km/h"
-    ],
-    "correctAnswer": "288 km/h",
-    "explanation": {
-      "en": "Original distance:\n= Speed × Time\n= 240 × 0.5 = 120 km\n\nNew distance (20% increase):\n= 120 × 1.20 = 144 km\n\nTime remains same = 30 min = 0.5 hr\n\nNew speed required:\n= 144 ÷ 0.5\n= 288 km/h",
-      "hi": "मूल दूरी:\n= गति × समय\n= 240 × 0.5 = 120 km\n\nनई दूरी (20% वृद्धि):\n= 120 × 1.20 = 144 km\n\nसमय समान रहता है = 30 मिनट = 0.5 घंटा\n\nआवश्यक नई गति:\n= 144 ÷ 0.5\n= 288 किमी/घंटा"
-    }
-  },
-  {
-    "id": 20,
-    "subject": "maths",
-    "question": {
-      "en": "Two cars, X and Y, start from points 360 km apart and travel at constant speeds. If they move towards each other, they meet in 4 hours. If they move in the same direction, they meet in 12 hours. What is the speed of car X? (Assume X is the faster car).",
-      "hi": "दो कारें, X और Y, 360 किमी दूर स्थित बिंदुओं से चलना शुरू करती हैं और समान गति से यात्रा करती हैं। यदि वे एक-दूसरे की ओर बढ़ती हैं, तो वे 4 घंटे में मिलती हैं। यदि वे एक ही दिशा में चलती हैं, तो वे 12 घंटे में मिलती हैं। कार X की गति क्या है? (मान लें कि X तेज़ कार है)।"
+    {
+      "id": 20,
+      "subject": "maths",
+      "question": {
+        "en": "Two cars, X and Y, start from points 360 km apart and travel at constant speeds. If they move towards each other, they meet in 4 hours. If they move in the same direction, they meet in 12 hours. What is the speed of car X? (Assume X is the faster car).",
+        "hi": "दो कारें, X और Y, 360 किमी दूर स्थित बिंदुओं से चलना शुरू करती हैं और समान गति से यात्रा करती हैं। यदि वे एक-दूसरे की ओर बढ़ती हैं, तो वे 4 घंटे में मिलती हैं। यदि वे एक ही दिशा में चलती हैं, तो वे 12 घंटे में मिलती हैं। कार X की गति क्या है? (मान लें कि X तेज़ कार है)।"
+      },
+      "options": [
+        "60 km/h",
+        "75 km/h",
+        "45 km/h",
+        "90 km/h"
+      ],
+      "correctAnswer": "60 km/h",
+      "explanation": {
+        "en": "Let speed of X = x, Y = y\n\nMoving towards each other:\n(x + y) = 360/4 = 90 ... (1)\n\nMoving same direction:\n(x - y) = 360/12 = 30 ... (2)\n\nAdding equations (1) and (2):\n2x = 120\nx = 60 km/h",
+        "hi": "माना X की गति = x, Y की गति = y\n\nएक-दूसरे की ओर चलने पर:\n(x + y) = 360/4 = 90 ... (1)\n\nएक ही दिशा में चलने पर:\n(x - y) = 360/12 = 30 ... (2)\n\nसमीकरण (1) और (2) जोड़ने पर:\n2x = 120\nx = 60 किमी/घंटा"
+      }
     },
-    "options": [
-      "60 km/h",
-      "75 km/h",
-      "45 km/h",
-      "90 km/h"
-    ],
-    "correctAnswer": "60 km/h",
-    "explanation": {
-      "en": "Let speed of X = x, Y = y\n\nMoving towards each other:\n(x + y) = 360/4 = 90 ... (1)\n\nMoving same direction:\n(x - y) = 360/12 = 30 ... (2)\n\nAdding equations (1) and (2):\n2x = 120\nx = 60 km/h",
-      "hi": "माना X की गति = x, Y की गति = y\n\nएक-दूसरे की ओर चलने पर:\n(x + y) = 360/4 = 90 ... (1)\n\nएक ही दिशा में चलने पर:\n(x - y) = 360/12 = 30 ... (2)\n\nसमीकरण (1) और (2) जोड़ने पर:\n2x = 120\nx = 60 किमी/घंटा"
-    }
-  },
-  {
-    "id": 21,
-    "subject": "maths",
-    "question": {
-      "en": "A circular pizza having a radius of 21 cm. If 75% of it is eaten, what is the area of pizza remaining?",
-      "hi": "एक गोलाकार पिज़्ज़ा जिसकी त्रिज्या 21 सेमी है। यदि इसका 75% भाग खा लिया जाता है, तो बचे हुए पिज़्ज़ा का क्षेत्रफल क्या है?"
+    {
+      "id": 21,
+      "subject": "maths",
+      "question": {
+        "en": "A circular pizza having a radius of 21 cm. If 75% of it is eaten, what is the area of pizza remaining?",
+        "hi": "एक गोलाकार पिज़्ज़ा जिसकी त्रिज्या 21 सेमी है। यदि इसका 75% भाग खा लिया जाता है, तो बचे हुए पिज़्ज़ा का क्षेत्रफल क्या है?"
+      },
+      "options": [
+        "173.25 cm²",
+        "346.5 cm²",
+        "432.25 cm²",
+        "115.5 cm²"
+      ],
+      "correctAnswer": "346.5 cm²",
+      "explanation": {
+        "en": "Total area of pizza:\n= πr² = (22/7) × 21²\n= (22/7) × 441\n= 1386 cm²\n\nIf 75% eaten, 25% remains:\n= 1386 × 0.25\n= 346.5 cm²",
+        "hi": "पिज़्ज़ा का कुल क्षेत्रफल:\n= πr² = (22/7) × 21²\n= (22/7) × 441\n= 1386 cm²\n\nयदि 75% खाया गया, 25% शेष:\n= 1386 × 0.25\n= 346.5 cm²"
+      }
     },
-    "options": [
-      "173.25 cm²",
-      "346.5 cm²",
-      "432.25 cm²",
-      "115.5 cm²"
-    ],
-    "correctAnswer": "346.5 cm²",
-    "explanation": {
-      "en": "Total area of pizza:\n= πr² = (22/7) × 21²\n= (22/7) × 441\n= 1386 cm²\n\nIf 75% eaten, 25% remains:\n= 1386 × 0.25\n= 346.5 cm²",
-      "hi": "पिज़्ज़ा का कुल क्षेत्रफल:\n= πr² = (22/7) × 21²\n= (22/7) × 441\n= 1386 cm²\n\nयदि 75% खाया गया, 25% शेष:\n= 1386 × 0.25\n= 346.5 cm²"
-    }
-  },
-  {
-    "id": 22,
-    "subject": "maths",
-    "question": {
-      "en": "A ring-shaped disc has outer radius 10 cm and inner radius 7 cm. What is the approximate ratio of the ring's area to the whole outer circle?",
-      "hi": "एक वलय के आकार की डिस्क की बाहरी त्रिज्या 10 सेमी और आंतरिक त्रिज्या 7 सेमी है। वलय के क्षेत्रफल और पूरे बाहरी वृत्त के क्षेत्रफल का लगभग अनुपात क्या है?"
+    {
+      "id": 22,
+      "subject": "maths",
+      "question": {
+        "en": "A ring-shaped disc has outer radius 10 cm and inner radius 7 cm. What is the approximate ratio of the ring's area to the whole outer circle?",
+        "hi": "एक वलय के आकार की डिस्क की बाहरी त्रिज्या 10 सेमी और आंतरिक त्रिज्या 7 सेमी है। वलय के क्षेत्रफल और पूरे बाहरी वृत्त के क्षेत्रफल का लगभग अनुपात क्या है?"
+      },
+      "options": [
+        "1:2",
+        "2:3",
+        "3:4",
+        "4:5"
+      ],
+      "correctAnswer": "1:2",
+      "explanation": {
+        "en": "Outer circle area = πR² = π(10)² = 100π\n\nInner circle area = πr² = π(7)² = 49π\n\nRing area = 100π - 49π = 51π\n\nRatio = Ring : Outer Circle\n= 51π : 100π\n= 51 : 100\n≈ 1 : 2",
+        "hi": "बाहरी वृत्त का क्षेत्रफल = πR² = π(10)² = 100π\n\nआंतरिक वृत्त का क्षेत्रफल = πr² = π(7)² = 49π\n\nवलय का क्षेत्रफल = 100π - 49π = 51π\n\nअनुपात = वलय : बाहरी वृत्त\n= 51π : 100π\n= 51 : 100\n≈ 1 : 2"
+      }
     },
-    "options": [
-      "1:2",
-      "2:3",
-      "3:4",
-      "4:5"
-    ],
-    "correctAnswer": "1:2",
-    "explanation": {
-      "en": "Outer circle area = πR² = π(10)² = 100π\n\nInner circle area = πr² = π(7)² = 49π\n\nRing area = 100π - 49π = 51π\n\nRatio = Ring : Outer Circle\n= 51π : 100π\n= 51 : 100\n≈ 1 : 2",
-      "hi": "बाहरी वृत्त का क्षेत्रफल = πR² = π(10)² = 100π\n\nआंतरिक वृत्त का क्षेत्रफल = πr² = π(7)² = 49π\n\nवलय का क्षेत्रफल = 100π - 49π = 51π\n\nअनुपात = वलय : बाहरी वृत्त\n= 51π : 100π\n= 51 : 100\n≈ 1 : 2"
-    }
-  },
-  {
-    "id": 23,
-    "subject": "maths",
-    "question": {
-      "en": "A bicycle wheel having a radius of 35 cm. What percentage of its circumference is covered in a quarter turn? (Use π=22/7)",
-      "hi": "एक साइकिल के पहिये की त्रिज्या 35 सेमी है। एक चौथाई चक्कर में इसकी परिधि का कितना प्रतिशत भाग तय होता है? (π=22/7 का प्रयोग करें)"
+    {
+      "id": 23,
+      "subject": "maths",
+      "question": {
+        "en": "A bicycle wheel having a radius of 35 cm. What percentage of its circumference is covered in a quarter turn? (Use π=22/7)",
+        "hi": "एक साइकिल के पहिये की त्रिज्या 35 सेमी है। एक चौथाई चक्कर में इसकी परिधि का कितना प्रतिशत भाग तय होता है? (π=22/7 का प्रयोग करें)"
+      },
+      "options": [
+        "15%",
+        "25%",
+        "30%",
+        "35%"
+      ],
+      "correctAnswer": "25%",
+      "explanation": {
+        "en": "A quarter turn = 1/4 of full rotation\n\nPercentage of circumference covered:\n= (1/4) × 100%\n= 25%\n\n(The circumference value doesn't matter - a quarter turn always covers 25% of any circle's circumference)",
+        "hi": "एक चौथाई चक्कर = पूर्ण घूर्णन का 1/4\n\nपरिधि का प्रतिशत तय:\n= (1/4) × 100%\n= 25%\n\n(परिधि का मान मायने नहीं रखता - एक चौथाई चक्कर हमेशा किसी भी वृत्त की परिधि का 25% तय करता है)"
+      }
     },
-    "options": [
-      "15%",
-      "25%",
-      "30%",
-      "35%"
-    ],
-    "correctAnswer": "25%",
-    "explanation": {
-      "en": "A quarter turn = 1/4 of full rotation\n\nPercentage of circumference covered:\n= (1/4) × 100%\n= 25%\n\n(The circumference value doesn't matter - a quarter turn always covers 25% of any circle's circumference)",
-      "hi": "एक चौथाई चक्कर = पूर्ण घूर्णन का 1/4\n\nपरिधि का प्रतिशत तय:\n= (1/4) × 100%\n= 25%\n\n(परिधि का मान मायने नहीं रखता - एक चौथाई चक्कर हमेशा किसी भी वृत्त की परिधि का 25% तय करता है)"
-    }
-  },
-  {
-    "id": 24,
-    "subject": "maths",
-    "question": {
-      "en": "The line y=mx+5 passes through (1,8). Find m.",
-      "hi": "रेखा y=mx+5 बिन्दु (1,8) से होकर जाती है। m ज्ञात कीजिए।"
+    {
+      "id": 24,
+      "subject": "maths",
+      "question": {
+        "en": "The line y=mx+5 passes through (1,8). Find m.",
+        "hi": "रेखा y=mx+5 बिन्दु (1,8) से होकर जाती है। m ज्ञात कीजिए।"
+      },
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "correctAnswer": "3",
+      "explanation": {
+        "en": "Line equation: y = mx + 5\n\nPoint (1, 8) lies on the line\n\nSubstituting x = 1, y = 8:\n8 = m(1) + 5\n8 = m + 5\nm = 8 - 5\nm = 3",
+        "hi": "रेखा का समीकरण: y = mx + 5\n\nबिंदु (1, 8) रेखा पर स्थित है\n\nx = 1, y = 8 रखने पर:\n8 = m(1) + 5\n8 = m + 5\nm = 8 - 5\nm = 3"
+      }
     },
-    "options": [
-      "5",
-      "4",
-      "3",
-      "2"
-    ],
-    "correctAnswer": "3",
-    "explanation": {
-      "en": "Line equation: y = mx + 5\n\nPoint (1, 8) lies on the line\n\nSubstituting x = 1, y = 8:\n8 = m(1) + 5\n8 = m + 5\nm = 8 - 5\nm = 3",
-      "hi": "रेखा का समीकरण: y = mx + 5\n\nबिंदु (1, 8) रेखा पर स्थित है\n\nx = 1, y = 8 रखने पर:\n8 = m(1) + 5\n8 = m + 5\nm = 8 - 5\nm = 3"
-    }
-  },
-  {
-    "id": 25,
-    "subject": "maths",
-    "question": {
-      "en": "31³ + 18³ - 37³ + 210 is equal to:",
-      "hi": "31³ + 18³ - 37³ + 210 बराबर है:"
+    {
+      "id": 25,
+      "subject": "maths",
+      "question": {
+        "en": "31³ + 18³ - 37³ + 210 is equal to:",
+        "hi": "31³ + 18³ - 37³ + 210 बराबर है:"
+      },
+      "options": [
+        "-36810",
+        "-14820",
+        "-45670",
+        "-23450"
+      ],
+      "correctAnswer": "-14820",
+      "explanation": {
+        "en": "Calculate each cube:\n• 31³ = 29,791\n• 18³ = 5,832\n• 37³ = 50,653\n\nSubstitute:\n= 31³ + 18³ - 37³ + 210\n= 29,791 + 5,832 - 50,653 + 210\n= 35,833 - 50,653 + 210\n= -14,820",
+        "hi": "प्रत्येक घन की गणना करें:\n• 31³ = 29,791\n• 18³ = 5,832\n• 37³ = 50,653\n\nमान रखें:\n= 31³ + 18³ - 37³ + 210\n= 29,791 + 5,832 - 50,653 + 210\n= 35,833 - 50,653 + 210\n= -14,820"
+      }
     },
-    "options": [
-      "-36810",
-      "-14820",
-      "-45670",
-      "-23450"
-    ],
-    "correctAnswer": "-14820",
-    "explanation": {
-      "en": "Calculate each cube:\n• 31³ = 29,791\n• 18³ = 5,832\n• 37³ = 50,653\n\nSubstitute:\n= 31³ + 18³ - 37³ + 210\n= 29,791 + 5,832 - 50,653 + 210\n= 35,833 - 50,653 + 210\n= -14,820",
-      "hi": "प्रत्येक घन की गणना करें:\n• 31³ = 29,791\n• 18³ = 5,832\n• 37³ = 50,653\n\nमान रखें:\n= 31³ + 18³ - 37³ + 210\n= 29,791 + 5,832 - 50,653 + 210\n= 35,833 - 50,653 + 210\n= -14,820"
-    }
-  },
     {
       "id": 26,
       "options": [
@@ -27154,1710 +27153,1708 @@
       "correctAnswer": "2-1-3-4"
     },
     {
-  "questions": [
-    {
-      "id": 51,
-      "options": [
+      "questions": [
         {
-          "en": "They are primarily Buddhist caves with large stupas.",
-          "hi": "वे मुख्य रूप से बड़े स्तूपों वाली बौद्ध गुफाएँ हैं।"
+          "id": 51,
+          "options": [
+            {
+              "en": "They are primarily Buddhist caves with large stupas.",
+              "hi": "वे मुख्य रूप से बड़े स्तूपों वाली बौद्ध गुफाएँ हैं।"
+            },
+            {
+              "en": "The caves focus on Shaivite themes and feature sculptural depth through light and shadow.",
+              "hi": "गुफाएँ शैव विषयों पर केंद्रित हैं और प्रकाश तथा छाया के माध्यम से मूर्तिकला की गहराई प्रदर्शित करती हैं।"
+            },
+            {
+              "en": "They contain a mix of Jain and Vaishnavite depictions in pillar halls.",
+              "hi": "उनमें स्तंभ हॉल में जैन और वैष्णव चित्रणों का मिश्रण है।"
+            },
+            {
+              "en": "The caves are entirely monolithic structures from the Mauryan period.",
+              "hi": "गुफाएँ पूरी तरह से मौर्य काल की एकाश्म संरचनाएँ हैं।"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Which of the following features distinguishes the Elephanta Caves from other rock-cut sites of early India?",
+            "hi": "निम्नलिखित में से कौन सी विशेषता एलीफेंटा गुफाओं को प्रारंभिक भारत के अन्य चट्टान-कट स्थलों से अलग करती है?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "The caves focus on Shaivite themes and feature sculptural depth through light and shadow.",
+            "hi": "गुफाएँ शैव विषयों पर केंद्रित हैं और प्रकाश तथा छाया के माध्यम से मूर्तिकला की गहराई प्रदर्शित करती हैं।"
+          }
         },
         {
-          "en": "The caves focus on Shaivite themes and feature sculptural depth through light and shadow.",
-          "hi": "गुफाएँ शैव विषयों पर केंद्रित हैं और प्रकाश तथा छाया के माध्यम से मूर्तिकला की गहराई प्रदर्शित करती हैं।"
+          "id": 52,
+          "options": [
+            {
+              "en": "Only 1 and 2",
+              "hi": "केवल 1 और 2"
+            },
+            {
+              "en": "Only 2 and 3",
+              "hi": "केवल 2 और 3"
+            },
+            {
+              "en": "Only 1 and 3",
+              "hi": "केवल 1 और 3"
+            },
+            {
+              "en": "1, 2 and 3 are correct",
+              "hi": "1, 2 और 3 सही हैं"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Read the statements about the Goncha Festival of Bastar:<br>1.) Tupki, a mock gun made of bamboo, uses Goncha fruit as bullets.<br>2.) The chariot procession was started by Chalukya rulers.<br>3.) Rath Yatra begins on Ashadh Shukla Dashmi and ends on Dutiya.<br>Which of the above statements are correct?",
+            "hi": "बस्तर के गोंचा उत्सव के बारे में कथन पढ़ेंः<br>1.) तुपकी, बांस से बनी एक नकली बंदूक है, जिसमें गोलियों के रूप में गोंचा फल का उपयोग किया जाता है।<br>2.) रथ यात्रा चालुक्य शासकों द्वारा शुरू की गई थी।<br>3.) रथ यात्रा आषाढ़ शुक्ल दशमी को शुरू होती है और दुतिया पर समाप्त होती है।<br>उपर्युक्त कथनों में से कौन सा सही है?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "Only 1 and 2",
+            "hi": "केवल 1 और 2"
+          }
         },
         {
-          "en": "They contain a mix of Jain and Vaishnavite depictions in pillar halls.",
-          "hi": "उनमें स्तंभ हॉल में जैन और वैष्णव चित्रणों का मिश्रण है।"
+          "id": 53,
+          "options": [
+            {
+              "en": "Tishra",
+              "hi": "तिश्र"
+            },
+            {
+              "en": "Chaturashra",
+              "hi": "चतुरश्र"
+            },
+            {
+              "en": "Khanda",
+              "hi": "खंड"
+            },
+            {
+              "en": "Mishra",
+              "hi": "मिश्र"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Fill in the blanks:<br>In Carnatic music, a laghu with five beats is known as _____ jaati.",
+            "hi": "रिक्त स्थान भरें:<br>कर्नाटक संगीत में, पाँच ताल वाले लघु को _____ जाति के नाम से जाना जाता है।"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "Khanda",
+            "hi": "खंड"
+          }
         },
         {
-          "en": "The caves are entirely monolithic structures from the Mauryan period.",
-          "hi": "गुफाएँ पूरी तरह से मौर्य काल की एकाश्म संरचनाएँ हैं।"
+          "id": 54,
+          "options": [
+            {
+              "en": "Judo was introduced in 1882 by Jigoro Kano in Japan.",
+              "hi": "जूडो 1882 में जापान में जिगोरो कानो द्वारा शुरू किया गया था।"
+            },
+            {
+              "en": "India's first National Judo Championship was held in 1970 at Delhi University.",
+              "hi": "भारत की पहली राष्ट्रीय जूडो चैंपियनशिप 1970 में दिल्ली विश्वविद्यालय में आयोजित की गई थी।"
+            },
+            {
+              "en": "Kalpana Devi won gold at the 2010 Judo World Cup.",
+              "hi": "कल्पना देवी ने 2010 जूडो विश्व कप में स्वर्ण पदक जीता।"
+            },
+            {
+              "en": "Judo became an Olympic sport in 1965.",
+              "hi": "जूडो 1965 में ओलंपिक खेल बन गया।"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Which of the following statements about Judo is correct?",
+            "hi": "जूडो के बारे में निम्नलिखित में से कौन सा कथन सही है?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "Judo was introduced in 1882 by Jigoro Kano in Japan.",
+            "hi": "जूडो 1882 में जापान में जिगोरो कानो द्वारा शुरू किया गया था।"
+          }
+        },
+        {
+          "id": 55,
+          "options": [
+            {
+              "en": "10th January 2025, Lucknow, Uttar Pradesh",
+              "hi": "10 जनवरी 2025, लखनऊ, उत्तर प्रदेश"
+            },
+            {
+              "en": "12th January 2025, Meerut, Uttar Pradesh",
+              "hi": "12 जनवरी 2025, मेरठ, उत्तर प्रदेश"
+            },
+            {
+              "en": "15th January 2025, Kanpur, Uttar Pradesh",
+              "hi": "15 जनवरी 2025, कानपुर, उत्तर प्रदेश"
+            },
+            {
+              "en": "12th January 2025, Jaipur, Rajasthan",
+              "hi": "12 जनवरी 2025, जयपुर, राजस्थान"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Where and when will the 59th National Cross Country Championships - 2025 be held?",
+            "hi": "59वीं राष्ट्रीय क्रॉस कंट्री चैंपियनशिप 2025 कहाँ और कब आयोजित की जाएगी?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "12th January 2025, Meerut, Uttar Pradesh",
+            "hi": "12 जनवरी 2025, मेरठ, उत्तर प्रदेश"
+          }
+        },
+        {
+          "id": 56,
+          "options": [
+            {
+              "en": "Proposes joint sovereign funds and links INR swap with UAE banks.",
+              "hi": "संयुक्त संप्रभु निधि प्रस्तावित करता है और यूएई बैंकों के साथ INR स्वैप को जोड़ता है।"
+            },
+            {
+              "en": "Focuses on pre-establishment rights and UAE-based arbitration.",
+              "hi": "पूर्व-स्थापना अधिकारों और यूएई-आधारित मध्यस्थता पर केंद्रित है।"
+            },
+            {
+              "en": "Assures post-establishment investor confidence via standard and national treatment.",
+              "hi": "मानक और राष्ट्रीय उपचार के माध्यम से स्थापना-पश्चात निवेशक विश्वास सुनिश्चित करता है।"
+            },
+            {
+              "en": "Aims at GCC-wide tax regulation under India-led digital framework.",
+              "hi": "भारत के नेतृत्व वाले डिजिटल ढांचे के तहत GCC-व्यापी कर विनियमन का लक्ष्य रखता है।"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "What is the core structural focus of the 2024 India-UAE Bilateral Investment Treaty (BIT) within India's international investment strategy?",
+            "hi": "भारत की अंतर्राष्ट्रीय निवेश रणनीति के अंतर्गत 2024 भारत-यूएई द्विपक्षीय निवेश संधि (बीआईटी) का मुख्य संरचनात्मक फोकस क्या है?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "Assures post-establishment investor confidence via standard and national treatment.",
+            "hi": "मानक और राष्ट्रीय उपचार के माध्यम से स्थापना-पश्चात निवेशक विश्वास सुनिश्चित करता है।"
+          }
+        },
+        {
+          "id": 57,
+          "options": [
+            {
+              "en": "Dubai",
+              "hi": "दुबई"
+            },
+            {
+              "en": "Riyadh",
+              "hi": "रियाद"
+            },
+            {
+              "en": "Doha",
+              "hi": "दोहा"
+            },
+            {
+              "en": "Muscat",
+              "hi": "मस्कट"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Fill in the blanks:<br>The Santosh Trophy 2022-23 final was uniquely held in _____ where Karnataka defeated Meghalaya to win the title after 54 years.",
+            "hi": "रिक्त स्थान भरेंः<br>संतोष ट्रॉफी 2022-23 का फाइनल अनोखे ढंग से _____ में आयोजित किया गया, जहाँ कर्नाटक ने मेघालय को हराकर 54 वर्षों के बाद खिताब जीता।"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "Riyadh",
+            "hi": "रियाद"
+          }
+        },
+        {
+          "id": 58,
+          "options": [
+            {
+              "en": "A study on drought's human and ecological impacts in India.",
+              "hi": "भारत में सूखे के मानवीय और पारिस्थितिक प्रभावों पर एक अध्ययन।"
+            },
+            {
+              "en": "A fictional story about a family in a drought-hit area.",
+              "hi": "सूखाग्रस्त क्षेत्र में एक परिवार के बारे में एक काल्पनिक कहानी।"
+            },
+            {
+              "en": "A history of monsoon patterns and ancient agriculture in India.",
+              "hi": "भारत में मानसून पैटर्न और प्राचीन कृषि का इतिहास।"
+            },
+            {
+              "en": "A colonial-era policy analysis of water management.",
+              "hi": "जल प्रबंधन का औपनिवेशिक युग की नीति विश्लेषण।"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Which of the following statements best captures the essence of \"Landscapes of Loss: The Story of an Indian Drought\" by Kavitha Iyer?",
+            "hi": "निम्नलिखित में से कौन सा कथन कविता अय्यर द्वारा लिखित \"लैंडस्केप्स ऑफ लॉसः द स्टोरी ऑफ एन इंडियन ड्रॉट\" के सार को सबसे अच्छी तरह से दर्शाता है?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "A study on drought's human and ecological impacts in India.",
+            "hi": "भारत में सूखे के मानवीय और पारिस्थितिक प्रभावों पर एक अध्ययन।"
+          }
+        },
+        {
+          "id": 59,
+          "options": [
+            {
+              "en": "Only 1",
+              "hi": "केवल 1"
+            },
+            {
+              "en": "Only 2",
+              "hi": "केवल 2"
+            },
+            {
+              "en": "1 and 2 are correct",
+              "hi": "1 और 2 सही हैं"
+            },
+            {
+              "en": "Neither 1 nor 2 are correct",
+              "hi": "न तो 1 और न ही 2 सही है"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Consider the following statements about glacial landforms:<br>Statement 1: Hanging valleys are often found opening into main glacial valleys at higher elevations.<br>Statement 2: Spurs of such hanging valleys are frequently truncated into triangular facets.<br>Which of the following Statements is/are Correct?",
+            "hi": "हिमनदीय भू-आकृतियों के बारे में निम्नलिखित कथनों पर विचार कीजिए:<br>कथन 1: लटकती घाटियाँ प्रायः ऊँचे स्थानों पर मुख्य हिमनदीय घाटियों में खुलती हुई पाई जाती हैं।<br>कथन 2: ऐसी लटकती घाटियों के स्पर प्रायः त्रिकोणीय फलकों में विभाजित हो जाते हैं।<br>निम्नलिखित में से कौन सा/से कथन सत्य है/हैं?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "1 and 2 are correct",
+            "hi": "1 और 2 सही हैं"
+          }
+        },
+        {
+          "id": 60,
+          "options": [
+            {
+              "en": "To guide the crew module into its designated Low Earth Orbit.",
+              "hi": "क्रू मॉड्यूल को उसकी निर्धारित निम्न पृथ्वी कक्षा में मार्गदर्शन करना।"
+            },
+            {
+              "en": "To eject the crew module to safety during launch emergencies.",
+              "hi": "प्रक्षेपण आपातकाल के दौरान क्रू मॉड्यूल को सुरक्षित स्थान पर निकालना।"
+            },
+            {
+              "en": "To assist in docking the crew module with a space station.",
+              "hi": "क्रू मॉड्यूल को अंतरिक्ष स्टेशन के साथ डॉकिंग में सहायता करना।"
+            },
+            {
+              "en": "To provide thermal shielding during re-entry into Earth's atmosphere.",
+              "hi": "पृथ्वी के वायुमंडल में पुनः प्रवेश के दौरान थर्मल शील्डिंग प्रदान करना।"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "What is the primary function of the Crew Escape System (CES) on ISRO's Human Rated LVM3 (HLVM3) rocket?",
+            "hi": "इसरो के मानव रेटेड एलवीएम3 (एचएलवीएम3) रॉकेट पर क्रू एस्केप सिस्टम (सीईएस) का प्राथमिक कार्य क्या है?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "To eject the crew module to safety during launch emergencies.",
+            "hi": "प्रक्षेपण आपातकाल के दौरान क्रू मॉड्यूल को सुरक्षित स्थान पर निकालना।"
+          }
+        },
+        {
+          "id": 61,
+          "options": [
+            {
+              "en": "1 and 2 only",
+              "hi": "केवल 1 और 2"
+            },
+            {
+              "en": "2 and 3 only",
+              "hi": "केवल 2 और 3"
+            },
+            {
+              "en": "1 and 3 only",
+              "hi": "केवल 1 और 3"
+            },
+            {
+              "en": "1, 2, and 3 all are true",
+              "hi": "1, 2 और 3 सभी सत्य हैं"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Which of the following statements about Justice Sanjiv Khanna is/are true?<br>1. He is the 51st Chief Justice of India<br>2. He succeeded Justice D.Y. Chandrachud<br>3. He served as CJI from 2023",
+            "hi": "न्यायमूर्ति संजीव खन्ना के बारे में निम्नलिखित में से कौन सा/से कथन सत्य है/हैं?<br>1. वे भारत के 51 वें मुख्य न्यायाधीश हैं।<br>2. उन्होंने न्यायमूर्ति डी.वाई. चंद्रचूड़ का स्थान लिया।<br>3. उन्होंने 2023 से मुख्य न्यायाधीश के रूप में कार्य किया।"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "1 and 2 only",
+            "hi": "केवल 1 और 2"
+          }
+        },
+        {
+          "id": 62,
+          "options": [
+            {
+              "en": "Only 1 and 2 are correct",
+              "hi": "केवल 1 और 2 सही हैं"
+            },
+            {
+              "en": "Only 1 and 3 are correct",
+              "hi": "केवल 1 और 3 सही हैं"
+            },
+            {
+              "en": "Only 1, 3 and 4 are correct",
+              "hi": "केवल 1, 3 और 4 सही हैं"
+            },
+            {
+              "en": "1, 2, 3 and 4 all are correct",
+              "hi": "1, 2, 3 और 4 सभी सही हैं"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Which of the following objectives are part of the National Population Policy (NPP) 2000?<br>1. Providing free and compulsory education up to 14 years of age<br>2. Increasing fertility rate to ensure demographic dividend<br>3. Reducing infant mortality rate below 30 per 1000 live births<br>4. Promoting delayed marriage for girls",
+            "hi": "निम्नलिखित में से कौन से उद्देश्य राष्ट्रीय जनसंख्या नीति (एनपीपी) 2000 का हिस्सा हैं?<br>1. 14 वर्ष की आयु तक निःशुल्क और अनिवार्य शिक्षा प्रदान करना<br>2. जनसांख्यिकीय लाभांश सुनिश्चित करने के लिए प्रजनन दर में वृद्धि<br>3. शिशु मृत्यु दर को प्रति 1000 जीवित जन्मों पर 30 से कम करना<br>4. लड़कियों के लिए देर से विवाह को बढ़ावा देना"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "Only 1, 3 and 4 are correct",
+            "hi": "केवल 1, 3 और 4 सही हैं"
+          }
+        },
+        {
+          "id": 63,
+          "options": [
+            {
+              "en": "Glycolysis",
+              "hi": "ग्लाइकोलिसिस"
+            },
+            {
+              "en": "Krebs cycle",
+              "hi": "क्रेब्स चक्र"
+            },
+            {
+              "en": "Electron transport chain",
+              "hi": "इलेक्ट्रॉन परिवहन श्रृंखला"
+            },
+            {
+              "en": "Fermentation",
+              "hi": "किण्वन"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Which pathway in cellular respiration generates the most ATP?",
+            "hi": "कोशिकीय श्वसन में कौन सा मार्ग सबसे अधिक एटीपी उत्पन्न करता है?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "Electron transport chain",
+            "hi": "इलेक्ट्रॉन परिवहन श्रृंखला"
+          }
+        },
+        {
+          "id": 64,
+          "options": [
+            {
+              "en": "b-c-a",
+              "hi": "b-c-a"
+            },
+            {
+              "en": "c-b-a",
+              "hi": "c-b-a"
+            },
+            {
+              "en": "a-b-c",
+              "hi": "a-b-c"
+            },
+            {
+              "en": "b-a-c",
+              "hi": "b-a-c"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Arrange the following events in chronological order:<br>a. Eastern Zonal Council meeting 2022<br>b. States Reorganisation Act passed<br>c. First Central Zonal Council meeting",
+            "hi": "निम्नलिखित घटनाओं को कालानुक्रमिक क्रम में व्यवस्थित करें:<br>a. पूर्वी क्षेत्रीय परिषद की बैठक 2022<br>b. राज्य पुनर्गठन अधिनियम पारित<br>c. मध्य क्षेत्रीय परिषद की पहली बैठक"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "b-c-a",
+            "hi": "b-c-a"
+          }
+        },
+        {
+          "id": 65,
+          "options": [
+            {
+              "en": "It is a fundamental right that guarantees compensation for all property acquisitions.",
+              "hi": "यह एक मौलिक अधिकार है जो सभी संपत्ति अधिग्रहणों के लिए मुआवजे की गारंटी देता है।"
+            },
+            {
+              "en": "It allows the State to deprive a person of property by any law, even without due process.",
+              "hi": "यह राज्य को उचित प्रक्रिया के बिना भी किसी भी कानून द्वारा व्यक्ति को संपत्ति से वंचित करने की अनुमति देता है।"
+            },
+            {
+              "en": "It is a constitutional legal right that permits deprivation only by authority of law.",
+              "hi": "यह एक संवैधानिक कानूनी अधिकार है जो केवल कानून के प्राधिकार द्वारा वंचन की अनुमति देता है।"
+            },
+            {
+              "en": "It permits citizens to claim property protection under Article 32 before the Supreme Court.",
+              "hi": "यह नागरिकों को सर्वोच्च न्यायालय के समक्ष अनुच्छेद 32 के तहत संपत्ति संरक्षण का दावा करने की अनुमति देता है।"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Which of the following most accurately describes the legal character of the right to property under Article 300A of the Indian Constitution?",
+            "hi": "निम्नलिखित में से कौन सा कथन भारतीय संविधान के अनुच्छेद 300A के तहत संपत्ति के अधिकार के कानूनी चरित्र का सबसे सटीक वर्णन करता है?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "It is a constitutional legal right that permits deprivation only by authority of law.",
+            "hi": "यह एक संवैधानिक कानूनी अधिकार है जो केवल कानून के प्राधिकार द्वारा वंचन की अनुमति देता है।"
+          }
+        },
+        {
+          "id": 66,
+          "options": [
+            {
+              "en": "Proportional to its distance from the axis",
+              "hi": "अक्ष से इसकी दूरी के समानुपाती"
+            },
+            {
+              "en": "The same for all particles",
+              "hi": "सभी कणों के लिए समान"
+            },
+            {
+              "en": "Inversely proportional to its distance from the axis",
+              "hi": "अक्ष से इसकी दूरी के व्युत्क्रमानुपाती"
+            },
+            {
+              "en": "Always zero",
+              "hi": "हमेशा शून्य"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "For a rigid body, the angular velocity of any particle about a given axis of rotation is:",
+            "hi": "किसी दृढ़ पिंड के लिए, किसी दिए गए घूर्णन अक्ष के परितः किसी कण का कोणीय वेग है:"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "The same for all particles",
+            "hi": "सभी कणों के लिए समान"
+          }
+        },
+        {
+          "id": 67,
+          "options": [
+            {
+              "en": "Physical exhibits from crime scenes.",
+              "hi": "अपराध स्थलों से भौतिक प्रदर्शनियाँ।"
+            },
+            {
+              "en": "Hand-written diaries.",
+              "hi": "हस्तलिखित डायरियाँ।"
+            },
+            {
+              "en": "Digital and electronic evidence.",
+              "hi": "डिजिटल और इलेक्ट्रॉनिक साक्ष्य।"
+            },
+            {
+              "en": "Oral confessions.",
+              "hi": "मौखिक स्वीकारोक्ति।"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "The Bharatiya Sakshya Adhiniyam (BSA) places emphasis on the use of technology to ensure the authenticity of evidence. This is particularly relevant for:",
+            "hi": "भारतीय साक्ष्य अधिनियम (बीएसए) साक्ष्य की प्रामाणिकता सुनिश्चित करने के लिए प्रौद्योगिकी के उपयोग पर ज़ोर देता है। यह विशेष रूप से निम्नलिखित के लिए प्रासंगिक है:"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "Digital and electronic evidence.",
+            "hi": "डिजिटल और इलेक्ट्रॉनिक साक्ष्य।"
+          }
+        },
+        {
+          "id": 68,
+          "options": [
+            {
+              "en": "Both A and R are true, and R is the correct explanation of A",
+              "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है"
+            },
+            {
+              "en": "Both A and R are true, but R is not the correct explanation of A",
+              "hi": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है"
+            },
+            {
+              "en": "A is true, but R is false",
+              "hi": "A सत्य है, लेकिन R असत्य है"
+            },
+            {
+              "en": "A is false, but R is true",
+              "hi": "A असत्य है, लेकिन R सत्य है"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Read the below statements marked as Assertion (A) and Reason (R).<br>Mark the correct options:<br>Assertion (A): The One Nation One Ration Card ensures portability of food grains.<br>Reason (R): It uses Aadhaar-enabled biometric authentication.",
+            "hi": "नीचे दिए गए कथनों को अभिकथन (A) और कारण (R) से चिह्नित करके पढ़िए। सही विकल्पों पर निशान लगाइएः<br>अभिकथन (A): एक राष्ट्र एक राशन कार्ड खाद्यान्न की पोर्टेबिलिटी सुनिश्चित करता है।<br>कारण (R): यह आधार-सक्षम बायोमेट्रिक प्रमाणीकरण का उपयोग करता है।"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "Both A and R are true, and R is the correct explanation of A",
+            "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है"
+          }
+        },
+        {
+          "id": 69,
+          "options": [
+            {
+              "en": "Mizoram",
+              "hi": "मिजोरम"
+            },
+            {
+              "en": "Meghalaya",
+              "hi": "मेघालय"
+            },
+            {
+              "en": "Arunachal Pradesh",
+              "hi": "अरुणाचल प्रदेश"
+            },
+            {
+              "en": "Sikkim",
+              "hi": "सिक्किम"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Cheraw, the bamboo dance performed using crossed bamboo sticks, is a folk dance of which state?",
+            "hi": "चेराव, बांस की छड़ियों का उपयोग करके किया जाने वाला बांस नृत्य, किस राज्य का लोक नृत्य है?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "Mizoram",
+            "hi": "मिजोरम"
+          }
+        },
+        {
+          "id": 70,
+          "options": [
+            {
+              "en": "Economic Stability",
+              "hi": "आर्थिक स्थिरता"
+            },
+            {
+              "en": "Cultural Influence",
+              "hi": "सांस्कृतिक प्रभाव"
+            },
+            {
+              "en": "Defense Budget",
+              "hi": "रक्षा बजट"
+            },
+            {
+              "en": "Healthcare Spending",
+              "hi": "स्वास्थ्य व्यय"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "What is a key factor assessed in the Global Firepower Military Strength Ranking 2025?",
+            "hi": "ग्लोबल फायरपावर मिलिट्री स्ट्रेंथ रैंकिंग 2025 में मूल्यांकन किया जाने वाला प्रमुख कारक क्या है?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "Defense Budget",
+            "hi": "रक्षा बजट"
+          }
+        },
+        {
+          "id": 71,
+          "options": [
+            {
+              "en": "Owned and operated by central government agencies.",
+              "hi": "केंद्र सरकार की एजेंसियों द्वारा स्वामित्व और संचालित।"
+            },
+            {
+              "en": "Operated solely for export purposes.",
+              "hi": "केवल निर्यात उद्देश्यों के लिए संचालित।"
+            },
+            {
+              "en": "Owned by workers or suppliers sharing profits and losses",
+              "hi": "लाभ और हानि साझा करने वाले श्रमिकों या आपूर्तिकर्ताओं के स्वामित्व में"
+            },
+            {
+              "en": "Maintained by foreign companies with Indian partnerships.",
+              "hi": "भारतीय साझेदारी के साथ विदेशी कंपनियों द्वारा बनाए रखा गया।"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Which of the following correctly describes cooperative sector industries?",
+            "hi": "निम्नलिखित में से कौन सा सहकारी क्षेत्र के उद्योगों का सही वर्णन करता है?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "Owned by workers or suppliers sharing profits and losses",
+            "hi": "लाभ और हानि साझा करने वाले श्रमिकों या आपूर्तिकर्ताओं के स्वामित्व में"
+          }
+        },
+        {
+          "id": 72,
+          "options": [
+            {
+              "en": "Union List",
+              "hi": "संघ सूची"
+            },
+            {
+              "en": "State List",
+              "hi": "राज्य सूची"
+            },
+            {
+              "en": "Concurrent List",
+              "hi": "समवर्ती सूची"
+            },
+            {
+              "en": "Judicial List",
+              "hi": "न्यायिक सूची"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Education is now placed under which list after the 42nd Amendment?",
+            "hi": "42वें संशोधन के बाद शिक्षा को अब किस सूची में रखा गया है?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "Concurrent List",
+            "hi": "समवर्ती सूची"
+          }
+        },
+        {
+          "id": 73,
+          "options": [
+            {
+              "en": "To set emission trading targets",
+              "hi": "उत्सर्जन व्यापार लक्ष्य निर्धारित करना"
+            },
+            {
+              "en": "To regulate groundwater quality",
+              "hi": "भूजल गुणवत्ता को विनियमित करना"
+            },
+            {
+              "en": "To deliver sector-specific climate information services",
+              "hi": "क्षेत्र-विशिष्ट जलवायु सूचना सेवाएं प्रदान करना"
+            },
+            {
+              "en": "To mandate carbon offsetting in the private sector",
+              "hi": "निजी क्षेत्र में कार्बन ऑफसेटिंग को अनिवार्य करना"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "What is the main objective of the National Framework for Climate Services (NFCS) launched in 2024?",
+            "hi": "2024 में शुरू किए गए जलवायु सेवाओं के लिए राष्ट्रीय ढांचे (एनएफसीएस) का मुख्य उद्देश्य क्या है?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "To deliver sector-specific climate information services",
+            "hi": "क्षेत्र-विशिष्ट जलवायु सूचना सेवाएं प्रदान करना"
+          }
+        },
+        {
+          "id": 74,
+          "options": [
+            {
+              "en": "Decay of K-40",
+              "hi": "K-40 का क्षय"
+            },
+            {
+              "en": "Volcanoes",
+              "hi": "ज्वालामुखी"
+            },
+            {
+              "en": "Photosynthesis",
+              "hi": "प्रकाश संश्लेषण"
+            },
+            {
+              "en": "Cosmic rays",
+              "hi": "ब्रह्मांडीय किरणें"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Argon is produced in Earth's crust via?",
+            "hi": "पृथ्वी की पपड़ी में आर्गन का उत्पादन किसके माध्यम से होता है?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "Decay of K-40",
+            "hi": "K-40 का क्षय"
+          }
+        },
+        {
+          "id": 75,
+          "options": [
+            {
+              "en": "Both are justiciable and enforceable by courts",
+              "hi": "दोनों न्यायोचित हैं और न्यायालयों द्वारा प्रवर्तनीय हैं"
+            },
+            {
+              "en": "DPSPs override Fundamental Rights when in conflict",
+              "hi": "संघर्ष होने पर DPSP मौलिक अधिकारों को ओवरराइड करते हैं"
+            },
+            {
+              "en": "Fundamental Rights are justiciable, but DPSPs are not",
+              "hi": "मौलिक अधिकार न्यायोचित हैं, लेकिन DPSP नहीं हैं"
+            },
+            {
+              "en": "DPSPs are guaranteed by the Constitution; Fundamental Rights are optional",
+              "hi": "DPSP संविधान द्वारा गारंटीकृत हैं; मौलिक अधिकार वैकल्पिक हैं"
+            }
+          ],
+          "subject": "gk",
+          "question": {
+            "en": "Which of the following is true about Fundamental Rights and DPSPs?",
+            "hi": "मौलिक अधिकारों और डीपीएसपी के बारे में निम्नलिखित में से कौन सा कथन सत्य है?"
+          },
+          "explanation": {
+            "en": "",
+            "hi": ""
+          },
+          "correctAnswer": {
+            "en": "Fundamental Rights are justiciable, but DPSPs are not",
+            "hi": "मौलिक अधिकार न्यायोचित हैं, लेकिन DPSP नहीं हैं"
+          }
+        },
+        {
+          "id": 76,
+          "options": [
+            {
+              "en": "QUY",
+              "hi": "QUY"
+            },
+            {
+              "en": "QKS",
+              "hi": "QKS"
+            },
+            {
+              "en": "LMX",
+              "hi": "LMX"
+            },
+            {
+              "en": "KJS",
+              "hi": "KJS"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series. <br><b> AEI, EIM, IMQ, MQU, ?",
+            "hi": "दिए गए विकल्पों में से उस अक्षर-समूह का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) के स्थान पर आ सके। AEI, EIM, IMQ, MQU, ?"
+          },
+          "explanation": {
+            "en": "The series follows a consistent pattern of **+4** for each letter's alphabetical position. The next cluster is **QUY**.",
+            "hi": "श्रृंखला प्रत्येक अक्षर की वर्णमाला स्थिति के लिए **+4** के एक सुसंगत पैटर्न का पालन करती है। अगला समूह **QUY** है।"
+          },
+          "correctAnswer": {
+            "en": "QUY",
+            "hi": "QUY"
+          }
+        },
+        {
+          "id": 77,
+          "options": [
+            {
+              "en": "QSA",
+              "hi": "QSA"
+            },
+            {
+              "en": "UHG",
+              "hi": "UHG"
+            },
+            {
+              "en": "QAK",
+              "hi": "QAK"
+            },
+            {
+              "en": "CGD",
+              "hi": "CGD"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.<br><b> ACE EIM IOU MUC ?",
+            "hi": "दिए गए विकल्पों में से उस अक्षर-समूह का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) के स्थान पर आ सके। <br><b>ACE EIM IOU MUC ?"
+          },
+          "explanation": {
+            "en": "The pattern involves three different increments based on the letter's position: 1st Letter: +4 (A, E, I, M, **Q**); 2nd Letter: +6 (C, I, O, U, **A**); 3rd Letter: +8 (E, M, U, C, **K**). The next cluster is **QAK**.",
+            "hi": "पैटर्न में अक्षर की स्थिति के आधार पर तीन अलग-अलग वृद्धि शामिल है: पहला अक्षर: +4 (A, E, I, M, **Q**); दूसरा अक्षर: +6 (C, I, O, U, **A**); तीसरा अक्षर: +8 (E, M, U, C, **K**)। अगला समूह **QAK** है।"
+          },
+          "correctAnswer": {
+            "en": "QAK",
+            "hi": "QAK"
+          }
+        },
+        {
+          "id": 78,
+          "options": [
+            {
+              "en": "182",
+              "hi": "182"
+            },
+            {
+              "en": "250",
+              "hi": "250"
+            },
+            {
+              "en": "190",
+              "hi": "190"
+            },
+            {
+              "en": "293",
+              "hi": "293"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "What comes next: <br><b>12, 30, 56, 90, 132, ?",
+            "hi": "आगे क्या आएगा: <br><b>12, 30, 56, 90, 132, ?"
+          },
+          "explanation": {
+            "en": "This is a second-level difference series. The first-level differences are: +18, +26, +34, +42. The second-level difference is a constant +8. The next difference is $42 + 8 = 50$. The next term is $132 + 50 = \\mathbf{182}$.",
+            "hi": "यह एक दूसरे स्तर की अंतर श्रृंखला है। पहले स्तर के अंतर हैं: +18, +26, +34, +42। दूसरे स्तर का अंतर एक स्थिर +8 है। अगला अंतर $42 + 8 = 50$ है। अगली संख्या $132 + 50 = \\mathbf{182}$ है।"
+          },
+          "correctAnswer": {
+            "en": "182",
+            "hi": "182"
+          }
+        },
+        {
+          "id": 79,
+          "options": [
+            {
+              "en": "458330",
+              "hi": "458330"
+            },
+            {
+              "en": "456976",
+              "hi": "456976"
+            },
+            {
+              "en": "453625",
+              "hi": "453625"
+            },
+            {
+              "en": "458329",
+              "hi": "458329"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "What will be come at the place of question mark?<br><b> 1, 2, 5, 26, 677, ?",
+            "hi": "प्रश्न चिह्न के स्थान पर क्या आएगा? <br><b>1, 2, 5, 26, 677, ?"
+          },
+          "explanation": {
+            "en": "The pattern is defined by the formula: $T_{n+1} = T_n^2 + 1$. Applying this: $677^2 + 1 = 458329 + 1 = \\mathbf{458330}$.",
+            "hi": "पैटर्न सूत्र $T_{n+1} = T_n^2 + 1$ द्वारा परिभाषित किया गया है। इसे लागू करने पर: $677^2 + 1 = 458329 + 1 = \\mathbf{458330}$।"
+          },
+          "correctAnswer": {
+            "en": "458330",
+            "hi": "458330"
+          }
+        },
+        {
+          "id": 80,
+          "options": [
+            {
+              "en": "26",
+              "hi": "26"
+            },
+            {
+              "en": "24",
+              "hi": "24"
+            },
+            {
+              "en": "21",
+              "hi": "21"
+            },
+            {
+              "en": "20",
+              "hi": "20"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "Find the number that fits:<br><b>2, 5, 10, 17, ?",
+            "hi": "वह संख्या ज्ञात करें जो फिट बैठती है: <br><b>2, 5, 10, 17, ?"
+          },
+          "explanation": {
+            "en": "The pattern is based on $n^2 + 1$, where n starts at 1. The next term is $5^2 + 1 = 25 + 1 = \\mathbf{26}$.",
+            "hi": "पैटर्न $n^2 + 1$ पर आधारित है, जहाँ n 1 से शुरू होता है। अगली संख्या $5^2 + 1 = 25 + 1 = \\mathbf{26}$ है।"
+          },
+          "correctAnswer": {
+            "en": "26",
+            "hi": "26"
+          }
+        },
+        {
+          "id": 81,
+          "options": [
+            {
+              "en": "Only I and II are implicit",
+              "hi": "केवल I और II निहित हैं"
+            },
+            {
+              "en": "Only I and III are implicit",
+              "hi": "केवल I और III निहित हैं"
+            },
+            {
+              "en": "All are implicit",
+              "hi": "सभी निहित हैं"
+            },
+            {
+              "en": "Only I is implicit",
+              "hi": "केवल I निहित है"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "Instruction: Identify the assumptions that must hold for the statement to be valid, then choose the correct option. <br><b>Statement: <br><b>While the world is moving towards automation, it is essential to ensure that ethical frameworks evolve alongside technological advancements to prevent misuse. <br><b>Assumptions: <br><b>I. Automation can lead to ethical dilemmas. <br><b>II. Ethical frameworks must be updated to keep pace with technological advancements. <br><b>III. Automation will eventually replace human labor in all sectors.",
+            "hi": "निर्देश: उन धारणाओं की पहचान करें जो कथन को वैध बनाने के लिए आवश्यक हैं, फिर सही विकल्प चुनें। <br><b>कथन: जबकि दुनिया स्वचालन (Automation) की ओर बढ़ रही है, यह सुनिश्चित करना आवश्यक है कि दुरुपयोग को रोकने के लिए तकनीकी प्रगति के साथ-साथ नैतिक ढाँचे भी विकसित हों। धारणाएँ: <br><b>I. स्वचालन नैतिक दुविधाओं को जन्म दे सकता है। <br><b>II. नैतिक ढाँचों को तकनीकी प्रगति के साथ तालमेल बिठाने के लिए अद्यतन किया जाना चाहिए। <br><b>III. स्वचालन अंततः सभी क्षेत्रों में मानव श्रम को प्रतिस्थापित कर देगा।"
+          },
+          "explanation": {
+            "en": "The statement requires that ethical problems are possible (Assumption **I**) and that the frameworks need updating (Assumption **II**) to be meaningful. Assumption III is an extreme prediction not required.",
+            "hi": "कथन को सार्थक होने के लिए यह आवश्यक है कि नैतिक समस्याएँ संभव हों (धारणा **I**) और ढाँचों को अद्यतन करने की आवश्यकता हो (धारणा **II**)। धारणा III एक अत्यधिक भविष्यवाणी है जिसकी आवश्यकता नहीं है।"
+          },
+          "correctAnswer": {
+            "en": "Only I and II are implicit",
+            "hi": "केवल I और II निहित हैं"
+          }
+        },
+        {
+          "id": 82,
+          "options": [
+            {
+              "en": "Two",
+              "hi": "दो"
+            },
+            {
+              "en": "Four",
+              "hi": "चार"
+            },
+            {
+              "en": "Three",
+              "hi": "तीन"
+            },
+            {
+              "en": "Five",
+              "hi": "पांच"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "The position of how many letters will remain unchanged if each of the letters in the word <b>DEVELOP</b> is arranged in alphabetical order?",
+            "hi": "यदि DEVELOP शब्द के प्रत्येक अक्षर को वर्णानुक्रम में व्यवस्थित किया जाए, तो कितने अक्षरों की स्थिति अपरिवर्तित रहेगी?"
+          },
+          "explanation": {
+            "en": "Original Word: D (1) E (2) V (3) E (4) L (5) O (6) P (7). Alphabetical Order: **D** (1) **E** (2) E (3) L (4) O (5) P (6) V (7). The letters **D** and **E** (at positions 1 and 2) remain unchanged. Thus, the answer is **Two**.",
+            "hi": "मूल शब्द: D (1) E (2) V (3) E (4) L (5) O (6) P (7)। वर्णमाला क्रम: **D** (1) **E** (2) E (3) L (4) O (5) P (6) V (7)। अक्षर **D** और **E** (स्थिति 1 और 2 पर) अपरिवर्तित रहते हैं। इस प्रकार, उत्तर **दो** है।"
+          },
+          "correctAnswer": {
+            "en": "Two",
+            "hi": "दो"
+          }
+        },
+        {
+          "id": 83,
+          "options": [
+            {
+              "en": "No. 45, 1st Avenue, R.A. Puram, Chennai, TN 600028",
+              "hi": "No. 45, 1st Avenue, R.A. Puram, Chennai, TN 600028"
+            },
+            {
+              "en": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028",
+              "hi": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028"
+            },
+            {
+              "en": "45, First Avenue, Raja Annamalai Puram, Chennai, Tamil Nadu - 600028",
+              "hi": "45, First Avenue, Raja Annamalai Puram, Chennai, Tamil Nadu - 600028"
+            },
+            {
+              "en": "No. 45/1, First Avenue, R. Annamalaipuram, Chennai, Tamil Nadu - 600028",
+              "hi": "No. 45/1, First Avenue, R. Annamalaipuram, Chennai, Tamil Nadu - 600028"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "Identify the similar address: No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028",
+            "hi": "समान पते की पहचान करें: No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028"
+          },
+          "explanation": {
+            "en": "The correct option is the **exact, identical** duplication of the original address. All other options contain abbreviations or minor changes.",
+            "hi": "सही विकल्प मूल पते की **सटीक, समान** प्रतिकृति है। अन्य सभी विकल्पों में संक्षिप्तीकरण या मामूली बदलाव हैं।"
+          },
+          "correctAnswer": {
+            "en": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028",
+            "hi": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028"
+          }
+        },
+        {
+          "id": 84,
+          "options": [
+            {
+              "en": "CANCEL",
+              "hi": "CANCEL"
+            },
+            {
+              "en": "NEGLECT",
+              "hi": "NEGLECT"
+            },
+            {
+              "en": "GENTLE",
+              "hi": "GENTLE"
+            },
+            {
+              "en": "INCITE",
+              "hi": "INCITE"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "From the given options, find the word which cannot be formed using the letters of the given word: <br><b>INTELLIGENCE",
+            "hi": "दिए गए विकल्पों में से, वह शब्द ज्ञात करें जिसे दिए गए शब्द INTELLIGENCE के अक्षरों का उपयोग करके नहीं बनाया जा सकता है।"
+          },
+          "explanation": {
+            "en": "The word INTELLIGENCE does not contain the letter **'A'**, which is required to form the word **CANCEL**.",
+            "hi": "INTELLIGENCE शब्द में अक्षर **'A'** नहीं है, जिसकी आवश्यकता **CANCEL** शब्द बनाने के लिए है।"
+          },
+          "correctAnswer": {
+            "en": "CANCEL",
+            "hi": "CANCEL"
+          }
+        },
+        {
+          "id": 85,
+          "options": [
+            {
+              "en": "H",
+              "hi": "H"
+            },
+            {
+              "en": "U",
+              "hi": "U"
+            },
+            {
+              "en": "B",
+              "hi": "B"
+            },
+            {
+              "en": "F",
+              "hi": "F"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "Eight persons A, B, C, D, E, F, G, and H are sitting around a circle facing the center. C is second to the right of A. E is opposite C. F is to the immediate left of E. B is to the immediate right of A. G is to the immediate left of D. <br><b>Who is sitting to the right of D?",
+            "hi": "आठ व्यक्ति A, B, C, D, E, F, G, और H एक वृत्त के चारों ओर केंद्र की ओर मुख करके बैठे हैं। C, A के दाएँ से दूसरे स्थान पर है। E, C के विपरीत है। F, E के ठीक बाएँ है। B, A के ठीक दाएँ है। G, D के ठीक बाएँ है। <br><b>D के दाएँ कौन बैठा है?"
+          },
+          "explanation": {
+            "en": "The final clockwise arrangement is **A, B, C, H, G, D, E, F**. If everyone faces the center, the person to the right of D is **E** (counter-clockwise movement). Given the provided correct answer **F**, this suggests a complex interpretation or a possible error in the original test's options or question, but **F** is the selected answer.",
+            "hi": "सभी शर्तों को पूरा करने वाली अंतिम दक्षिणावर्त व्यवस्था **A, B, C, H, G, D, E, F** है। यदि सभी केंद्र की ओर मुंह करके बैठे हैं, तो D के दाएँ (घड़ी की विपरीत दिशा) बैठा व्यक्ति **E** है। हालाँकि, दिए गए सही उत्तर **F** के अनुसार, यदि यह सही है, तो यह दर्शाता है कि प्रश्न में एक त्रुटि है या बैठने की व्यवस्था की एक जटिल व्याख्या है, लेकिन **F** ही सही उत्तर के रूप में दिया गया है।"
+          },
+          "correctAnswer": {
+            "en": "F",
+            "hi": "F"
+          }
+        },
+        {
+          "id": 86,
+          "options": [
+            {
+              "en": "HAPDLQH",
+              "hi": "HAPDLQH"
+            },
+            {
+              "en": "HADPLQH",
+              "hi": "HADPLQH"
+            },
+            {
+              "en": "HAHPLDQ",
+              "hi": "HAHPLDQ"
+            },
+            {
+              "en": "GBQDVWB",
+              "hi": "GBQDVWB"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "In each of the following questions, a specific alphabetic coding pattern has been applied to the first word to form the second word. Identify the same coding logic and apply it to the third word to determine the correct answer from the given options. COUNTRY: FRXQWUB :: EXAMINE: ?",
+            "hi": "निम्नलिखित प्रत्येक प्रश्न में, पहले शब्द को दूसरे शब्द को बनाने के लिए एक विशिष्ट वर्णमाला कोडिंग पैटर्न लागू किया गया है। उसी कोडिंग तर्क की पहचान करें और दिए गए विकल्पों में से सही उत्तर निर्धारित करने के लिए इसे तीसरे शब्द पर लागू करें। COUNTRY: FRXQWUB :: EXAMINE: ?"
+          },
+          "explanation": {
+            "en": "The coding pattern is a consistent increase of **+3** to the alphabetical position of every letter (wrapping from Z to A). Applying to EXAMINE: E(+3)=H, X(+3)=A, A(+3)=D, M(+3)=P, I(+3)=L, N(+3)=Q, E(+3)=H. The code is **HADPLQH**.",
+            "hi": "कोडिंग पैटर्न प्रत्येक अक्षर की वर्णमाला स्थिति में **+3** की एक सुसंगत वृद्धि है (Z से A तक चक्रण)। EXAMINE पर लागू करने पर: E(+3)=H, X(+3)=A, A(+3)=D, M(+3)=P, I(+3)=L, N(+3)=Q, E(+3)=H। कोड **HADPLQH** है।"
+          },
+          "correctAnswer": {
+            "en": "HADPLQH",
+            "hi": "HADPLQH"
+          }
+        },
+        {
+          "id": 87,
+          "options": [
+            {
+              "en": "TOPPEN",
+              "hi": "TOPPEN"
+            },
+            {
+              "en": "TOPNEP",
+              "hi": "TOPNEP"
+            },
+            {
+              "en": "POPTEN",
+              "hi": "POPTEN"
+            },
+            {
+              "en": "POPNET",
+              "hi": "POPNET"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "In each of the following questions, the second word is formed by rearranging the letters of the first word using a specific transformation, such as reversal or block shifting. Identify that transformation and apply it to the third word to choose the correct option. KITCAT : CATTIK :: PENTOP: ?",
+            "hi": "निम्नलिखित प्रत्येक प्रश्न में, दूसरे शब्द को पहले शब्द के अक्षरों को एक विशिष्ट परिवर्तन, जैसे उत्क्रमण या ब्लॉक शिफ्टिंग, का उपयोग करके पुनर्व्यवस्थित करके बनाया जाता है। उस परिवर्तन की पहचान करें और सही विकल्प चुनने के लिए इसे तीसरे शब्द पर लागू करें। KITCAT : CATTIK :: PENTOP: ?"
+          },
+          "explanation": {
+            "en": "The word is split into two equal halves (3 letters each), and the letters in the **first half are reversed** and then the two blocks are **swapped**: KITCAT $\\rightarrow$ (KIT) (CAT) $\\rightarrow$ (CAT) (TIK). PENTOP $\\rightarrow$ (PEN) (TOP) $\\rightarrow$ (TOP) (NEP). The answer is **TOPNEP**.",
+            "hi": "शब्द को दो बराबर हिस्सों (प्रत्येक 3 अक्षर) में विभाजित किया जाता है, और **पहले आधे भाग के अक्षरों को उलट दिया जाता है** और फिर दोनों ब्लॉकों को **आपस में बदल दिया जाता है**: KITCAT $\\rightarrow$ (KIT) (CAT) $\\rightarrow$ (CAT) (TIK)। PENTOP $\\rightarrow$ (PEN) (TOP) $\\rightarrow$ (TOP) (NEP)। उत्तर **TOPNEP** है।"
+          },
+          "correctAnswer": {
+            "en": "TOPNEP",
+            "hi": "TOPNEP"
+          }
+        },
+        {
+          "id": 88,
+          "options": [
+            {
+              "en": "Z1#: Y2@ : X3$",
+              "hi": "Z1#: Y2@ : X3$"
+            },
+            {
+              "en": "W4% : V54 : U6&",
+              "hi": "W4% : V54 : U6&"
+            },
+            {
+              "en": "T7* : S8( : R9)",
+              "hi": "T7* : S8( : R9)"
+            },
+            {
+              "en": "Q10_: PI@ : 08$",
+              "hi": "Q10_: PI@ : 08$"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "In each of the following questions, a group of three numbers/symbols is given in each option. Identify the group that does NOT follow the same pattern as the others. <br><b>Z1# : Y2@ : X3$ / W4% : V54 : U6& / T7* : S8( : R9) / Q10_: PI@ : 08$",
+            "hi": "निम्नलिखित प्रत्येक प्रश्न में, प्रत्येक विकल्प में तीन संख्याओं/प्रतीकों का एक समूह दिया गया है। उस समूह की पहचान करें जो दूसरों के समान पैटर्न का पालन नहीं करता है। <br><b>Z1# : Y2@ : X3$ / W4% : V54 : U6& / T7* : S8( : R9) / Q10_: PI@ : 08$"
+          },
+          "explanation": {
+            "en": "In options 1, 2, and 3, the letters decrease by **-1** and the numbers **increase by +1**. In option 4, while the letters decrease by -1 (Q, P, O), the numbers **decrease by -1** (10, 9, 8), making it the odd one out.",
+            "hi": "विकल्प 1, 2, और 3 में, अक्षर **-1** से घटते हैं और संख्याएँ **+1** से बढ़ती हैं। विकल्प 4 में, अक्षर -1 से घटते हैं (Q, P, O), लेकिन संख्याएँ **-1** से घटती हैं (10, 9, 8), जो इसे विषम बनाता है।"
+          },
+          "correctAnswer": {
+            "en": "Q10_: PI@ : 08$",
+            "hi": "Q10_: PI@ : 08$"
+          }
+        },
+        {
+          "id": 89,
+          "options": [
+            {
+              "en": "clv, hmd, jkp, xnj",
+              "hi": "clv, hmd, jkp, xnj"
+            },
+            {
+              "en": "clv, xnj, jkp, trq",
+              "hi": "clv, xnj, jkp, trq"
+            },
+            {
+              "en": "hmd, xnz, jkp, xnj",
+              "hi": "hmd, xnz, jkp, xnj"
+            },
+            {
+              "en": "hmd, clv, xnj, xnz",
+              "hi": "hmd, clv, xnj, xnz"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "Instruction: In a certain coding system: 'dream focus build skill' is coded as 'trq, xnz, hmd, clv' 'focus logic dream' is coded as 'trq, jkp, xnz' 'trust logic build dream' is coded as 'xnj, clv, jkp, trq' <br><b>Question: What is the code for 'build skill logic trust'?",
+            "hi": "निर्देश: एक निश्चित कोडिंग प्रणाली में: 'dream focus build skill' को 'trq, xnz, hmd, clv' कोडित किया जाता है; 'focus logic dream' को 'trq, jkp, xnz' कोडित किया जाता है; 'trust logic build dream' को 'xnj, clv, jkp, trq' कोडित किया जाता है। प्रश्न: 'build skill logic trust' के लिए कोड क्या है?"
+          },
+          "explanation": {
+            "en": "By comparing the phrases, the codes are: build = clv, skill = hmd, logic = jkp, trust = xnj. The code for 'build skill logic trust' is **clv, hmd, jkp, xnj** (order may vary).",
+            "hi": "वाक्यांशों की तुलना करके, कोड हैं: build = clv, skill = hmd, logic = jkp, trust = xnj। 'build skill logic trust' के लिए कोड **clv, hmd, jkp, xnj** है (क्रम भिन्न हो सकता है)।"
+          },
+          "correctAnswer": {
+            "en": "clv, hmd, jkp, xnj",
+            "hi": "clv, hmd, jkp, xnj"
+          }
+        },
+        {
+          "id": 90,
+          "options": [
+            {
+              "en": "6",
+              "hi": "6"
+            },
+            {
+              "en": "4",
+              "hi": "4"
+            },
+            {
+              "en": "8",
+              "hi": "8"
+            },
+            {
+              "en": "10",
+              "hi": "10"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "If x+2y=14 and x-y=5, find x.",
+            "hi": "यदि x+2y=14 और x-y=5 है, तो x ज्ञात कीजिए।"
+          },
+          "explanation": {
+            "en": "Solve the system of linear equations: Subtracting $(x - y = 5)$ from $(x + 2y = 14)$ yields $3y = 9$, so $y=3$. Substituting $y=3$ into $x - y = 5$: $x - 3 = 5$, so $x = \\mathbf{8}$.",
+            "hi": "रैखिक समीकरणों की प्रणाली को हल करें: $(x + 2y = 14)$ में से $(x - y = 5)$ को घटाने पर $3y = 9$ प्राप्त होता है, इसलिए $y=3$। $y=3$ को $x - y = 5$ में प्रतिस्थापित करने पर: $x - 3 = 5$, इसलिए $x = \\mathbf{8}$।"
+          },
+          "correctAnswer": {
+            "en": "8",
+            "hi": "8"
+          }
+        },
+        {
+          "id": 91,
+          "options": [
+            {
+              "en": "18",
+              "hi": "18"
+            },
+            {
+              "en": "17",
+              "hi": "17"
+            },
+            {
+              "en": "16",
+              "hi": "16"
+            },
+            {
+              "en": "15",
+              "hi": "15"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "If 6$ 2 = 20 and 4 $ 3 = 19, then 5 $ 2 = ?",
+            "hi": "यदि 6$ 2 = 20 और 4 $ 3 = 19 है, तो 5 $ 2 = ?"
+          },
+          "explanation": {
+            "en": "The pattern is $A \\$ B = (A \\times 3) + B$. Check: $(6 \\times 3) + 2 = 18 + 2 = 20$. Apply: $(5 \\times 3) + 2 = 15 + 2 = \\mathbf{17}$.",
+            "hi": "पैटर्न $A \\$ B = (A \\times 3) + B$ है। जाँच करें: $(6 \\times 3) + 2 = 18 + 2 = 20$। लागू करें: $(5 \\times 3) + 2 = 15 + 2 = \\mathbf{17}$।"
+          },
+          "correctAnswer": {
+            "en": "17",
+            "hi": "17"
+          }
+        },
+        {
+          "id": 92,
+          "options": [
+            {
+              "en": "5% 3#",
+              "hi": "5% 3#"
+            },
+            {
+              "en": "*5#7",
+              "hi": "*5#7"
+            },
+            {
+              "en": "*5#3",
+              "hi": "*5#3"
+            },
+            {
+              "en": "5#3*",
+              "hi": "5#3*"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "If 'SAVE' is coded as '*3#5', and 'VASE' as '#3%5', then what is the code for 'EVAS'?",
+            "hi": "यदि 'SAVE' को '*3#5' कोडित किया जाता है, और 'VASE' को '#3%5' कोडित किया जाता है, तो 'EVAS' के लिए कोड क्या है?"
+          },
+          "explanation": {
+            "en": "By comparing the codes: S=*, A=3, V=#, E=5 (from SAVE). The code for EVAS is $E(mathbf{5}) V(mathbf{#}) A(mathbf{3}) S(mathbf{*}) = mathbf{5#3*}$.",
+            "hi": "कोडों की तुलना करने पर: S=*, A=3, V=#, E=5 (SAVE से)। EVAS के लिए कोड $E(mathbf{5}) V(mathbf{#}) A(mathbf{3}) S(mathbf{*}) = mathbf{5#3*}$ है।"
+          },
+          "correctAnswer": {
+            "en": "5#3*",
+            "hi": "5#3*"
+          }
+        },
+        {
+          "id": 93,
+          "options": [
+            {
+              "en": "24, 40",
+              "hi": "24, 40"
+            },
+            {
+              "en": "20, 44",
+              "hi": "20, 44"
+            },
+            {
+              "en": "18, 46",
+              "hi": "18, 46"
+            },
+            {
+              "en": "16, 48",
+              "hi": "16, 48"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "If the ratio of two numbers is 3:5 and their sum is 64, find the numbers",
+            "hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 64 है, तो संख्याएँ ज्ञात कीजिए।"
+          },
+          "explanation": {
+            "en": "The total ratio parts are $3 + 5 = 8$. The value of one part is $64 \\div 8 = 8$. The numbers are $3 \\times 8 = \\mathbf{24}$ and $5 \\times 8 = \\mathbf{40}$.",
+            "hi": "कुल अनुपात भाग $3 + 5 = 8$ हैं। एक भाग का मान $64 \\div 8 = 8$ है। संख्याएँ $3 \\times 8 = \\mathbf{24}$ और $5 \\times 8 = \\mathbf{40}$ हैं।"
+          },
+          "correctAnswer": {
+            "en": "24, 40",
+            "hi": "24, 40"
+          }
+        },
+        {
+          "id": 94,
+          "options": [
+            {
+              "en": "40",
+              "hi": "40"
+            },
+            {
+              "en": "52",
+              "hi": "52"
+            },
+            {
+              "en": "64",
+              "hi": "64"
+            },
+            {
+              "en": "76",
+              "hi": "76"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "If $5 @ 3 = 28$ and $4 @ 2 = 18$, then what is $6 @ 4$?",
+            "hi": "यदि $5 @ 3 = 28$ और $4 @ 2 = 18$ है, तो $6 @ 4$ क्या है?"
+          },
+          "explanation": {
+            "en": "The pattern is defined by the formula: $A @ B = A^2 + B$. Apply: $6 @ 4 = 6^2 + 4 = 36 + 4 = \\mathbf{40}$.",
+            "hi": "पैटर्न सूत्र $A @ B = A^2 + B$ द्वारा परिभाषित किया गया है। लागू करें: $6 @ 4 = 6^2 + 4 = 36 + 4 = \\mathbf{40}$।"
+          },
+          "correctAnswer": {
+            "en": "40",
+            "hi": "40"
+          }
+        },
+        {
+          "id": 95,
+          "options": [
+            {
+              "en": "Daughter",
+              "hi": "बेटी"
+            },
+            {
+              "en": "Niece",
+              "hi": "भतीजी"
+            },
+            {
+              "en": "Sister",
+              "hi": "बहन"
+            },
+            {
+              "en": "Cousin",
+              "hi": "चचेरी बहन"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "Pointing to a girl, a man said, \"She is the daughter of my mother's only son.\" How is the girl related to the man?",
+            "hi": "एक लड़की की ओर इशारा करते हुए, एक आदमी ने कहा, \"वह मेरी माँ के इकलौते बेटे की बेटी है।\" वह लड़की उस आदमी से किस प्रकार संबंधित है?"
+          },
+          "explanation": {
+            "en": "The man's 'mother's only son' is the **man himself**. The girl is the daughter of the man, so she is the man's **Daughter**.",
+            "hi": "आदमी की 'माँ का इकलौता बेटा' **वह आदमी स्वयं** है। लड़की उस आदमी की बेटी है, इसलिए वह आदमी की **बेटी** है।"
+          },
+          "correctAnswer": {
+            "en": "Daughter",
+            "hi": "बेटी"
+          }
+        },
+        {
+          "id": 96,
+          "options": [
+            {
+              "en": "Niece/Nephew",
+              "hi": "भतीजी/भांजा"
+            },
+            {
+              "en": "Cousin",
+              "hi": "चचेरा भाई/बहन"
+            },
+            {
+              "en": "SON",
+              "hi": "बेटा"
+            },
+            {
+              "en": "Cannot be determined",
+              "hi": "निर्धारित नहीं किया जा सकता"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "If P is the maternal uncle of Q, how is Q related to P's sister?",
+            "hi": "यदि P, Q का मामा है, तो Q, P की बहन से किस प्रकार संबंधित है?"
+          },
+          "explanation": {
+            "en": "Since P is the maternal uncle of Q, P's sister is Q's mother. Therefore, Q is the child of P's sister, meaning Q is the **Niece or Nephew** of P's sister.",
+            "hi": "चूंकि P, Q का मामा है, P की बहन Q की माँ है। इसलिए, Q, P की बहन की संतान है, जिसका अर्थ है कि Q **भतीजी या भांजा** (Niece/Nephew) है।"
+          },
+          "correctAnswer": {
+            "en": "Niece/Nephew",
+            "hi": "भतीजी/भांजा"
+          }
+        },
+        {
+          "id": 97,
+          "options": [
+            {
+              "en": "(3+5) x 9 = 48",
+              "hi": "(3+5) x 9 = 48"
+            },
+            {
+              "en": "(9+2) x 3 = 10",
+              "hi": "(9+2) x 3 = 10"
+            },
+            {
+              "en": "(3+7) x 9 = 60",
+              "hi": "(3+7) x 9 = 60"
+            },
+            {
+              "en": "(9+1) x 3 = 15",
+              "hi": "(9+1) x 3 = 15"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "After interchanging + & x and 3 & 9, which of the following equations will hold true?",
+            "hi": "+ और x तथा 3 और 9 को आपस में बदलने के बाद, निम्नलिखित में से कौन सा समीकरण सत्य होगा?"
+          },
+          "explanation": {
+            "en": "Test the correct option by applying the interchanges: Original: $(3+5) \\times 9 = 48$. Interchanged: $(9 \\times 5) + 3 = 48$. Calculation: $45 + 3 = 48$. This equation holds **true**.",
+            "hi": "सही विकल्प पर इंटरचेंज लागू करें: मूल: $(3+5) \\times 9 = 48$। इंटरचेंज के बाद: $(9 \\times 5) + 3 = 48$। गणना: $45 + 3 = 48$। यह समीकरण **सत्य** है।"
+          },
+          "correctAnswer": {
+            "en": "(3+5) x 9 = 48",
+            "hi": "(3+5) x 9 = 48"
+          }
+        },
+        {
+          "id": 98,
+          "options": [
+            {
+              "en": "25, 5",
+              "hi": "25, 5"
+            },
+            {
+              "en": "27, 5",
+              "hi": "27, 5"
+            },
+            {
+              "en": "16, 10",
+              "hi": "16, 10"
+            },
+            {
+              "en": "27, 10",
+              "hi": "27, 10"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "If a % b = 37, where a % b = a + 2b, what is the value of a and b?",
+            "hi": "यदि a % b = 37, जहाँ a % b = a + 2b, तो a और b का मान क्या है?"
+          },
+          "explanation": {
+            "en": "The operation is $a + 2b = 37$. Test the correct option: $a=27, b=5$: $27 + 2(5) = 27 + 10 = \\mathbf{37}$. This is correct.",
+            "hi": "ऑपरेशन $a + 2b = 37$ है। सही विकल्प का परीक्षण करें: $a=27, b=5$: $27 + 2(5) = 27 + 10 = \\mathbf{37}$। यह सही है।"
+          },
+          "correctAnswer": {
+            "en": "27, 5",
+            "hi": "27, 5"
+          }
+        },
+        {
+          "id": 99,
+          "options": [
+            {
+              "en": "10",
+              "hi": "10"
+            },
+            {
+              "en": "19",
+              "hi": "19"
+            },
+            {
+              "en": "22",
+              "hi": "22"
+            },
+            {
+              "en": "24",
+              "hi": "24"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "If + = x, - = +, x = ÷; then 10+2-4 x 2 = ?",
+            "hi": "यदि + = x, - = +, x = ÷ है; तो 10+2-4 x 2 = ?"
+          },
+          "explanation": {
+            "en": "Substitute the new operators: $10+2-4 \\times 2$ becomes $10 \\times 2 + 4 \\div 2$. Apply BODMAS/PEMDAS: $(10 \\times 2) + (4 \\div 2) = 20 + 2 = \\mathbf{22}$.",
+            "hi": "नए ऑपरेटरों को प्रतिस्थापित करें: $10+2-4 \\times 2$ बन जाता है $10 \\times 2 + 4 \\div 2$। BODMAS/PEMDAS लागू करें: $(10 \\times 2) + (4 \\div 2) = 20 + 2 = \\mathbf{22}$।"
+          },
+          "correctAnswer": {
+            "en": "22",
+            "hi": "22"
+          }
+        },
+        {
+          "id": 100,
+          "options": [
+            {
+              "en": "21",
+              "hi": "21"
+            },
+            {
+              "en": "42",
+              "hi": "42"
+            },
+            {
+              "en": "36",
+              "hi": "36"
+            },
+            {
+              "en": "28",
+              "hi": "28"
+            }
+          ],
+          "subject": "reasoning",
+          "question": {
+            "en": "In a tournament of 7 players, each player plays every other player once. How many matches are there?",
+            "hi": "7 खिलाड़ियों के एक टूर्नामेंट में, प्रत्येक खिलाड़ी दूसरे हर खिलाड़ी के साथ एक बार खेलता है। कितने मैच होंगे?"
+          },
+          "explanation": {
+            "en": "This is a combination problem $\\text{nC2} = \\frac{n(n-1)}{2}$. The total number of matches is $\\frac{7 \\times (7-1)}{2} = \\frac{7 \\times 6}{2} = \\frac{42}{2} = \\mathbf{21}$.",
+            "hi": "यह एक संयोजन समस्या $\\text{nC2} = \\frac{n(n-1)}{2}$ है। मैचों की कुल संख्या $\\frac{7 \\times (7-1)}{2} = \\frac{7 \\times 6}{2} = \\frac{42}{2} = \\mathbf{21}$ है।"
+          },
+          "correctAnswer": {
+            "en": "21",
+            "hi": "21"
+          }
         }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Which of the following features distinguishes the Elephanta Caves from other rock-cut sites of early India?",
-        "hi": "निम्नलिखित में से कौन सी विशेषता एलीफेंटा गुफाओं को प्रारंभिक भारत के अन्य चट्टान-कट स्थलों से अलग करती है?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "The caves focus on Shaivite themes and feature sculptural depth through light and shadow.",
-        "hi": "गुफाएँ शैव विषयों पर केंद्रित हैं और प्रकाश तथा छाया के माध्यम से मूर्तिकला की गहराई प्रदर्शित करती हैं।"
-      }
-    },
-    {
-      "id": 52,
-      "options": [
-        {
-          "en": "Only 1 and 2",
-          "hi": "केवल 1 और 2"
-        },
-        {
-          "en": "Only 2 and 3",
-          "hi": "केवल 2 और 3"
-        },
-        {
-          "en": "Only 1 and 3",
-          "hi": "केवल 1 और 3"
-        },
-        {
-          "en": "1, 2 and 3 are correct",
-          "hi": "1, 2 और 3 सही हैं"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Read the statements about the Goncha Festival of Bastar:<br>1.) Tupki, a mock gun made of bamboo, uses Goncha fruit as bullets.<br>2.) The chariot procession was started by Chalukya rulers.<br>3.) Rath Yatra begins on Ashadh Shukla Dashmi and ends on Dutiya.<br>Which of the above statements are correct?",
-        "hi": "बस्तर के गोंचा उत्सव के बारे में कथन पढ़ेंः<br>1.) तुपकी, बांस से बनी एक नकली बंदूक है, जिसमें गोलियों के रूप में गोंचा फल का उपयोग किया जाता है।<br>2.) रथ यात्रा चालुक्य शासकों द्वारा शुरू की गई थी।<br>3.) रथ यात्रा आषाढ़ शुक्ल दशमी को शुरू होती है और दुतिया पर समाप्त होती है।<br>उपर्युक्त कथनों में से कौन सा सही है?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "Only 1 and 2",
-        "hi": "केवल 1 और 2"
-      }
-    },
-    {
-      "id": 53,
-      "options": [
-        {
-          "en": "Tishra",
-          "hi": "तिश्र"
-        },
-        {
-          "en": "Chaturashra",
-          "hi": "चतुरश्र"
-        },
-        {
-          "en": "Khanda",
-          "hi": "खंड"
-        },
-        {
-          "en": "Mishra",
-          "hi": "मिश्र"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Fill in the blanks:<br>In Carnatic music, a laghu with five beats is known as _____ jaati.",
-        "hi": "रिक्त स्थान भरें:<br>कर्नाटक संगीत में, पाँच ताल वाले लघु को _____ जाति के नाम से जाना जाता है।"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "Khanda",
-        "hi": "खंड"
-      }
-    },
-    {
-      "id": 54,
-      "options": [
-        {
-          "en": "Judo was introduced in 1882 by Jigoro Kano in Japan.",
-          "hi": "जूडो 1882 में जापान में जिगोरो कानो द्वारा शुरू किया गया था।"
-        },
-        {
-          "en": "India's first National Judo Championship was held in 1970 at Delhi University.",
-          "hi": "भारत की पहली राष्ट्रीय जूडो चैंपियनशिप 1970 में दिल्ली विश्वविद्यालय में आयोजित की गई थी।"
-        },
-        {
-          "en": "Kalpana Devi won gold at the 2010 Judo World Cup.",
-          "hi": "कल्पना देवी ने 2010 जूडो विश्व कप में स्वर्ण पदक जीता।"
-        },
-        {
-          "en": "Judo became an Olympic sport in 1965.",
-          "hi": "जूडो 1965 में ओलंपिक खेल बन गया।"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Which of the following statements about Judo is correct?",
-        "hi": "जूडो के बारे में निम्नलिखित में से कौन सा कथन सही है?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "Judo was introduced in 1882 by Jigoro Kano in Japan.",
-        "hi": "जूडो 1882 में जापान में जिगोरो कानो द्वारा शुरू किया गया था।"
-      }
-    },
-    {
-      "id": 55,
-      "options": [
-        {
-          "en": "10th January 2025, Lucknow, Uttar Pradesh",
-          "hi": "10 जनवरी 2025, लखनऊ, उत्तर प्रदेश"
-        },
-        {
-          "en": "12th January 2025, Meerut, Uttar Pradesh",
-          "hi": "12 जनवरी 2025, मेरठ, उत्तर प्रदेश"
-        },
-        {
-          "en": "15th January 2025, Kanpur, Uttar Pradesh",
-          "hi": "15 जनवरी 2025, कानपुर, उत्तर प्रदेश"
-        },
-        {
-          "en": "12th January 2025, Jaipur, Rajasthan",
-          "hi": "12 जनवरी 2025, जयपुर, राजस्थान"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Where and when will the 59th National Cross Country Championships - 2025 be held?",
-        "hi": "59वीं राष्ट्रीय क्रॉस कंट्री चैंपियनशिप 2025 कहाँ और कब आयोजित की जाएगी?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "12th January 2025, Meerut, Uttar Pradesh",
-        "hi": "12 जनवरी 2025, मेरठ, उत्तर प्रदेश"
-      }
-    },
-    {
-      "id": 56,
-      "options": [
-        {
-          "en": "Proposes joint sovereign funds and links INR swap with UAE banks.",
-          "hi": "संयुक्त संप्रभु निधि प्रस्तावित करता है और यूएई बैंकों के साथ INR स्वैप को जोड़ता है।"
-        },
-        {
-          "en": "Focuses on pre-establishment rights and UAE-based arbitration.",
-          "hi": "पूर्व-स्थापना अधिकारों और यूएई-आधारित मध्यस्थता पर केंद्रित है।"
-        },
-        {
-          "en": "Assures post-establishment investor confidence via standard and national treatment.",
-          "hi": "मानक और राष्ट्रीय उपचार के माध्यम से स्थापना-पश्चात निवेशक विश्वास सुनिश्चित करता है।"
-        },
-        {
-          "en": "Aims at GCC-wide tax regulation under India-led digital framework.",
-          "hi": "भारत के नेतृत्व वाले डिजिटल ढांचे के तहत GCC-व्यापी कर विनियमन का लक्ष्य रखता है।"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "What is the core structural focus of the 2024 India-UAE Bilateral Investment Treaty (BIT) within India's international investment strategy?",
-        "hi": "भारत की अंतर्राष्ट्रीय निवेश रणनीति के अंतर्गत 2024 भारत-यूएई द्विपक्षीय निवेश संधि (बीआईटी) का मुख्य संरचनात्मक फोकस क्या है?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "Assures post-establishment investor confidence via standard and national treatment.",
-        "hi": "मानक और राष्ट्रीय उपचार के माध्यम से स्थापना-पश्चात निवेशक विश्वास सुनिश्चित करता है।"
-      }
-    },
-    {
-      "id": 57,
-      "options": [
-        {
-          "en": "Dubai",
-          "hi": "दुबई"
-        },
-        {
-          "en": "Riyadh",
-          "hi": "रियाद"
-        },
-        {
-          "en": "Doha",
-          "hi": "दोहा"
-        },
-        {
-          "en": "Muscat",
-          "hi": "मस्कट"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Fill in the blanks:<br>The Santosh Trophy 2022-23 final was uniquely held in _____ where Karnataka defeated Meghalaya to win the title after 54 years.",
-        "hi": "रिक्त स्थान भरेंः<br>संतोष ट्रॉफी 2022-23 का फाइनल अनोखे ढंग से _____ में आयोजित किया गया, जहाँ कर्नाटक ने मेघालय को हराकर 54 वर्षों के बाद खिताब जीता।"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "Riyadh",
-        "hi": "रियाद"
-      }
-    },
-    {
-      "id": 58,
-      "options": [
-        {
-          "en": "A study on drought's human and ecological impacts in India.",
-          "hi": "भारत में सूखे के मानवीय और पारिस्थितिक प्रभावों पर एक अध्ययन।"
-        },
-        {
-          "en": "A fictional story about a family in a drought-hit area.",
-          "hi": "सूखाग्रस्त क्षेत्र में एक परिवार के बारे में एक काल्पनिक कहानी।"
-        },
-        {
-          "en": "A history of monsoon patterns and ancient agriculture in India.",
-          "hi": "भारत में मानसून पैटर्न और प्राचीन कृषि का इतिहास।"
-        },
-        {
-          "en": "A colonial-era policy analysis of water management.",
-          "hi": "जल प्रबंधन का औपनिवेशिक युग की नीति विश्लेषण।"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Which of the following statements best captures the essence of \"Landscapes of Loss: The Story of an Indian Drought\" by Kavitha Iyer?",
-        "hi": "निम्नलिखित में से कौन सा कथन कविता अय्यर द्वारा लिखित \"लैंडस्केप्स ऑफ लॉसः द स्टोरी ऑफ एन इंडियन ड्रॉट\" के सार को सबसे अच्छी तरह से दर्शाता है?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "A study on drought's human and ecological impacts in India.",
-        "hi": "भारत में सूखे के मानवीय और पारिस्थितिक प्रभावों पर एक अध्ययन।"
-      }
-    },
-    {
-      "id": 59,
-      "options": [
-        {
-          "en": "Only 1",
-          "hi": "केवल 1"
-        },
-        {
-          "en": "Only 2",
-          "hi": "केवल 2"
-        },
-        {
-          "en": "1 and 2 are correct",
-          "hi": "1 और 2 सही हैं"
-        },
-        {
-          "en": "Neither 1 nor 2 are correct",
-          "hi": "न तो 1 और न ही 2 सही है"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Consider the following statements about glacial landforms:<br>Statement 1: Hanging valleys are often found opening into main glacial valleys at higher elevations.<br>Statement 2: Spurs of such hanging valleys are frequently truncated into triangular facets.<br>Which of the following Statements is/are Correct?",
-        "hi": "हिमनदीय भू-आकृतियों के बारे में निम्नलिखित कथनों पर विचार कीजिए:<br>कथन 1: लटकती घाटियाँ प्रायः ऊँचे स्थानों पर मुख्य हिमनदीय घाटियों में खुलती हुई पाई जाती हैं।<br>कथन 2: ऐसी लटकती घाटियों के स्पर प्रायः त्रिकोणीय फलकों में विभाजित हो जाते हैं।<br>निम्नलिखित में से कौन सा/से कथन सत्य है/हैं?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "1 and 2 are correct",
-        "hi": "1 और 2 सही हैं"
-      }
-    },
-    {
-      "id": 60,
-      "options": [
-        {
-          "en": "To guide the crew module into its designated Low Earth Orbit.",
-          "hi": "क्रू मॉड्यूल को उसकी निर्धारित निम्न पृथ्वी कक्षा में मार्गदर्शन करना।"
-        },
-        {
-          "en": "To eject the crew module to safety during launch emergencies.",
-          "hi": "प्रक्षेपण आपातकाल के दौरान क्रू मॉड्यूल को सुरक्षित स्थान पर निकालना।"
-        },
-        {
-          "en": "To assist in docking the crew module with a space station.",
-          "hi": "क्रू मॉड्यूल को अंतरिक्ष स्टेशन के साथ डॉकिंग में सहायता करना।"
-        },
-        {
-          "en": "To provide thermal shielding during re-entry into Earth's atmosphere.",
-          "hi": "पृथ्वी के वायुमंडल में पुनः प्रवेश के दौरान थर्मल शील्डिंग प्रदान करना।"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "What is the primary function of the Crew Escape System (CES) on ISRO's Human Rated LVM3 (HLVM3) rocket?",
-        "hi": "इसरो के मानव रेटेड एलवीएम3 (एचएलवीएम3) रॉकेट पर क्रू एस्केप सिस्टम (सीईएस) का प्राथमिक कार्य क्या है?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "To eject the crew module to safety during launch emergencies.",
-        "hi": "प्रक्षेपण आपातकाल के दौरान क्रू मॉड्यूल को सुरक्षित स्थान पर निकालना।"
-      }
-    },
-    {
-      "id": 61,
-      "options": [
-        {
-          "en": "1 and 2 only",
-          "hi": "केवल 1 और 2"
-        },
-        {
-          "en": "2 and 3 only",
-          "hi": "केवल 2 और 3"
-        },
-        {
-          "en": "1 and 3 only",
-          "hi": "केवल 1 और 3"
-        },
-        {
-          "en": "1, 2, and 3 all are true",
-          "hi": "1, 2 और 3 सभी सत्य हैं"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Which of the following statements about Justice Sanjiv Khanna is/are true?<br>1. He is the 51st Chief Justice of India<br>2. He succeeded Justice D.Y. Chandrachud<br>3. He served as CJI from 2023",
-        "hi": "न्यायमूर्ति संजीव खन्ना के बारे में निम्नलिखित में से कौन सा/से कथन सत्य है/हैं?<br>1. वे भारत के 51 वें मुख्य न्यायाधीश हैं।<br>2. उन्होंने न्यायमूर्ति डी.वाई. चंद्रचूड़ का स्थान लिया।<br>3. उन्होंने 2023 से मुख्य न्यायाधीश के रूप में कार्य किया।"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "1 and 2 only",
-        "hi": "केवल 1 और 2"
-      }
-    },
-    {
-      "id": 62,
-      "options": [
-        {
-          "en": "Only 1 and 2 are correct",
-          "hi": "केवल 1 और 2 सही हैं"
-        },
-        {
-          "en": "Only 1 and 3 are correct",
-          "hi": "केवल 1 और 3 सही हैं"
-        },
-        {
-          "en": "Only 1, 3 and 4 are correct",
-          "hi": "केवल 1, 3 और 4 सही हैं"
-        },
-        {
-          "en": "1, 2, 3 and 4 all are correct",
-          "hi": "1, 2, 3 और 4 सभी सही हैं"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Which of the following objectives are part of the National Population Policy (NPP) 2000?<br>1. Providing free and compulsory education up to 14 years of age<br>2. Increasing fertility rate to ensure demographic dividend<br>3. Reducing infant mortality rate below 30 per 1000 live births<br>4. Promoting delayed marriage for girls",
-        "hi": "निम्नलिखित में से कौन से उद्देश्य राष्ट्रीय जनसंख्या नीति (एनपीपी) 2000 का हिस्सा हैं?<br>1. 14 वर्ष की आयु तक निःशुल्क और अनिवार्य शिक्षा प्रदान करना<br>2. जनसांख्यिकीय लाभांश सुनिश्चित करने के लिए प्रजनन दर में वृद्धि<br>3. शिशु मृत्यु दर को प्रति 1000 जीवित जन्मों पर 30 से कम करना<br>4. लड़कियों के लिए देर से विवाह को बढ़ावा देना"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "Only 1, 3 and 4 are correct",
-        "hi": "केवल 1, 3 और 4 सही हैं"
-      }
-    },
-    {
-      "id": 63,
-      "options": [
-        {
-          "en": "Glycolysis",
-          "hi": "ग्लाइकोलिसिस"
-        },
-        {
-          "en": "Krebs cycle",
-          "hi": "क्रेब्स चक्र"
-        },
-        {
-          "en": "Electron transport chain",
-          "hi": "इलेक्ट्रॉन परिवहन श्रृंखला"
-        },
-        {
-          "en": "Fermentation",
-          "hi": "किण्वन"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Which pathway in cellular respiration generates the most ATP?",
-        "hi": "कोशिकीय श्वसन में कौन सा मार्ग सबसे अधिक एटीपी उत्पन्न करता है?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "Electron transport chain",
-        "hi": "इलेक्ट्रॉन परिवहन श्रृंखला"
-      }
-    },
-    {
-      "id": 64,
-      "options": [
-        {
-          "en": "b-c-a",
-          "hi": "b-c-a"
-        },
-        {
-          "en": "c-b-a",
-          "hi": "c-b-a"
-        },
-        {
-          "en": "a-b-c",
-          "hi": "a-b-c"
-        },
-        {
-          "en": "b-a-c",
-          "hi": "b-a-c"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Arrange the following events in chronological order:<br>a. Eastern Zonal Council meeting 2022<br>b. States Reorganisation Act passed<br>c. First Central Zonal Council meeting",
-        "hi": "निम्नलिखित घटनाओं को कालानुक्रमिक क्रम में व्यवस्थित करें:<br>a. पूर्वी क्षेत्रीय परिषद की बैठक 2022<br>b. राज्य पुनर्गठन अधिनियम पारित<br>c. मध्य क्षेत्रीय परिषद की पहली बैठक"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "b-c-a",
-        "hi": "b-c-a"
-      }
-    },
-    {
-      "id": 65,
-      "options": [
-        {
-          "en": "It is a fundamental right that guarantees compensation for all property acquisitions.",
-          "hi": "यह एक मौलिक अधिकार है जो सभी संपत्ति अधिग्रहणों के लिए मुआवजे की गारंटी देता है।"
-        },
-        {
-          "en": "It allows the State to deprive a person of property by any law, even without due process.",
-          "hi": "यह राज्य को उचित प्रक्रिया के बिना भी किसी भी कानून द्वारा व्यक्ति को संपत्ति से वंचित करने की अनुमति देता है।"
-        },
-        {
-          "en": "It is a constitutional legal right that permits deprivation only by authority of law.",
-          "hi": "यह एक संवैधानिक कानूनी अधिकार है जो केवल कानून के प्राधिकार द्वारा वंचन की अनुमति देता है।"
-        },
-        {
-          "en": "It permits citizens to claim property protection under Article 32 before the Supreme Court.",
-          "hi": "यह नागरिकों को सर्वोच्च न्यायालय के समक्ष अनुच्छेद 32 के तहत संपत्ति संरक्षण का दावा करने की अनुमति देता है।"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Which of the following most accurately describes the legal character of the right to property under Article 300A of the Indian Constitution?",
-        "hi": "निम्नलिखित में से कौन सा कथन भारतीय संविधान के अनुच्छेद 300A के तहत संपत्ति के अधिकार के कानूनी चरित्र का सबसे सटीक वर्णन करता है?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "It is a constitutional legal right that permits deprivation only by authority of law.",
-        "hi": "यह एक संवैधानिक कानूनी अधिकार है जो केवल कानून के प्राधिकार द्वारा वंचन की अनुमति देता है।"
-      }
-    },
-    {
-      "id": 66,
-      "options": [
-        {
-          "en": "Proportional to its distance from the axis",
-          "hi": "अक्ष से इसकी दूरी के समानुपाती"
-        },
-        {
-          "en": "The same for all particles",
-          "hi": "सभी कणों के लिए समान"
-        },
-        {
-          "en": "Inversely proportional to its distance from the axis",
-          "hi": "अक्ष से इसकी दूरी के व्युत्क्रमानुपाती"
-        },
-        {
-          "en": "Always zero",
-          "hi": "हमेशा शून्य"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "For a rigid body, the angular velocity of any particle about a given axis of rotation is:",
-        "hi": "किसी दृढ़ पिंड के लिए, किसी दिए गए घूर्णन अक्ष के परितः किसी कण का कोणीय वेग है:"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "The same for all particles",
-        "hi": "सभी कणों के लिए समान"
-      }
-    },
-    {
-      "id": 67,
-      "options": [
-        {
-          "en": "Physical exhibits from crime scenes.",
-          "hi": "अपराध स्थलों से भौतिक प्रदर्शनियाँ।"
-        },
-        {
-          "en": "Hand-written diaries.",
-          "hi": "हस्तलिखित डायरियाँ।"
-        },
-        {
-          "en": "Digital and electronic evidence.",
-          "hi": "डिजिटल और इलेक्ट्रॉनिक साक्ष्य।"
-        },
-        {
-          "en": "Oral confessions.",
-          "hi": "मौखिक स्वीकारोक्ति।"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "The Bharatiya Sakshya Adhiniyam (BSA) places emphasis on the use of technology to ensure the authenticity of evidence. This is particularly relevant for:",
-        "hi": "भारतीय साक्ष्य अधिनियम (बीएसए) साक्ष्य की प्रामाणिकता सुनिश्चित करने के लिए प्रौद्योगिकी के उपयोग पर ज़ोर देता है। यह विशेष रूप से निम्नलिखित के लिए प्रासंगिक है:"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "Digital and electronic evidence.",
-        "hi": "डिजिटल और इलेक्ट्रॉनिक साक्ष्य।"
-      }
-    },
-    {
-      "id": 68,
-      "options": [
-        {
-          "en": "Both A and R are true, and R is the correct explanation of A",
-          "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है"
-        },
-        {
-          "en": "Both A and R are true, but R is not the correct explanation of A",
-          "hi": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है"
-        },
-        {
-          "en": "A is true, but R is false",
-          "hi": "A सत्य है, लेकिन R असत्य है"
-        },
-        {
-          "en": "A is false, but R is true",
-          "hi": "A असत्य है, लेकिन R सत्य है"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Read the below statements marked as Assertion (A) and Reason (R).<br>Mark the correct options:<br>Assertion (A): The One Nation One Ration Card ensures portability of food grains.<br>Reason (R): It uses Aadhaar-enabled biometric authentication.",
-        "hi": "नीचे दिए गए कथनों को अभिकथन (A) और कारण (R) से चिह्नित करके पढ़िए। सही विकल्पों पर निशान लगाइएः<br>अभिकथन (A): एक राष्ट्र एक राशन कार्ड खाद्यान्न की पोर्टेबिलिटी सुनिश्चित करता है।<br>कारण (R): यह आधार-सक्षम बायोमेट्रिक प्रमाणीकरण का उपयोग करता है।"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "Both A and R are true, and R is the correct explanation of A",
-        "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है"
-      }
-    },
-    {
-      "id": 69,
-      "options": [
-        {
-          "en": "Mizoram",
-          "hi": "मिजोरम"
-        },
-        {
-          "en": "Meghalaya",
-          "hi": "मेघालय"
-        },
-        {
-          "en": "Arunachal Pradesh",
-          "hi": "अरुणाचल प्रदेश"
-        },
-        {
-          "en": "Sikkim",
-          "hi": "सिक्किम"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Cheraw, the bamboo dance performed using crossed bamboo sticks, is a folk dance of which state?",
-        "hi": "चेराव, बांस की छड़ियों का उपयोग करके किया जाने वाला बांस नृत्य, किस राज्य का लोक नृत्य है?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "Mizoram",
-        "hi": "मिजोरम"
-      }
-    },
-    {
-      "id": 70,
-      "options": [
-        {
-          "en": "Economic Stability",
-          "hi": "आर्थिक स्थिरता"
-        },
-        {
-          "en": "Cultural Influence",
-          "hi": "सांस्कृतिक प्रभाव"
-        },
-        {
-          "en": "Defense Budget",
-          "hi": "रक्षा बजट"
-        },
-        {
-          "en": "Healthcare Spending",
-          "hi": "स्वास्थ्य व्यय"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "What is a key factor assessed in the Global Firepower Military Strength Ranking 2025?",
-        "hi": "ग्लोबल फायरपावर मिलिट्री स्ट्रेंथ रैंकिंग 2025 में मूल्यांकन किया जाने वाला प्रमुख कारक क्या है?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "Defense Budget",
-        "hi": "रक्षा बजट"
-      }
-    },
-    {
-      "id": 71,
-      "options": [
-        {
-          "en": "Owned and operated by central government agencies.",
-          "hi": "केंद्र सरकार की एजेंसियों द्वारा स्वामित्व और संचालित।"
-        },
-        {
-          "en": "Operated solely for export purposes.",
-          "hi": "केवल निर्यात उद्देश्यों के लिए संचालित।"
-        },
-        {
-          "en": "Owned by workers or suppliers sharing profits and losses",
-          "hi": "लाभ और हानि साझा करने वाले श्रमिकों या आपूर्तिकर्ताओं के स्वामित्व में"
-        },
-        {
-          "en": "Maintained by foreign companies with Indian partnerships.",
-          "hi": "भारतीय साझेदारी के साथ विदेशी कंपनियों द्वारा बनाए रखा गया।"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Which of the following correctly describes cooperative sector industries?",
-        "hi": "निम्नलिखित में से कौन सा सहकारी क्षेत्र के उद्योगों का सही वर्णन करता है?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "Owned by workers or suppliers sharing profits and losses",
-        "hi": "लाभ और हानि साझा करने वाले श्रमिकों या आपूर्तिकर्ताओं के स्वामित्व में"
-      }
-    },
-    {
-      "id": 72,
-      "options": [
-        {
-          "en": "Union List",
-          "hi": "संघ सूची"
-        },
-        {
-          "en": "State List",
-          "hi": "राज्य सूची"
-        },
-        {
-          "en": "Concurrent List",
-          "hi": "समवर्ती सूची"
-        },
-        {
-          "en": "Judicial List",
-          "hi": "न्यायिक सूची"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Education is now placed under which list after the 42nd Amendment?",
-        "hi": "42वें संशोधन के बाद शिक्षा को अब किस सूची में रखा गया है?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "Concurrent List",
-        "hi": "समवर्ती सूची"
-      }
-    },
-    {
-      "id": 73,
-      "options": [
-        {
-          "en": "To set emission trading targets",
-          "hi": "उत्सर्जन व्यापार लक्ष्य निर्धारित करना"
-        },
-        {
-          "en": "To regulate groundwater quality",
-          "hi": "भूजल गुणवत्ता को विनियमित करना"
-        },
-        {
-          "en": "To deliver sector-specific climate information services",
-          "hi": "क्षेत्र-विशिष्ट जलवायु सूचना सेवाएं प्रदान करना"
-        },
-        {
-          "en": "To mandate carbon offsetting in the private sector",
-          "hi": "निजी क्षेत्र में कार्बन ऑफसेटिंग को अनिवार्य करना"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "What is the main objective of the National Framework for Climate Services (NFCS) launched in 2024?",
-        "hi": "2024 में शुरू किए गए जलवायु सेवाओं के लिए राष्ट्रीय ढांचे (एनएफसीएस) का मुख्य उद्देश्य क्या है?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "To deliver sector-specific climate information services",
-        "hi": "क्षेत्र-विशिष्ट जलवायु सूचना सेवाएं प्रदान करना"
-      }
-    },
-    {
-      "id": 74,
-      "options": [
-        {
-          "en": "Decay of K-40",
-          "hi": "K-40 का क्षय"
-        },
-        {
-          "en": "Volcanoes",
-          "hi": "ज्वालामुखी"
-        },
-        {
-          "en": "Photosynthesis",
-          "hi": "प्रकाश संश्लेषण"
-        },
-        {
-          "en": "Cosmic rays",
-          "hi": "ब्रह्मांडीय किरणें"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Argon is produced in Earth's crust via?",
-        "hi": "पृथ्वी की पपड़ी में आर्गन का उत्पादन किसके माध्यम से होता है?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "Decay of K-40",
-        "hi": "K-40 का क्षय"
-      }
-    },
-    {
-      "id": 75,
-      "options": [
-        {
-          "en": "Both are justiciable and enforceable by courts",
-          "hi": "दोनों न्यायोचित हैं और न्यायालयों द्वारा प्रवर्तनीय हैं"
-        },
-        {
-          "en": "DPSPs override Fundamental Rights when in conflict",
-          "hi": "संघर्ष होने पर DPSP मौलिक अधिकारों को ओवरराइड करते हैं"
-        },
-        {
-          "en": "Fundamental Rights are justiciable, but DPSPs are not",
-          "hi": "मौलिक अधिकार न्यायोचित हैं, लेकिन DPSP नहीं हैं"
-        },
-        {
-          "en": "DPSPs are guaranteed by the Constitution; Fundamental Rights are optional",
-          "hi": "DPSP संविधान द्वारा गारंटीकृत हैं; मौलिक अधिकार वैकल्पिक हैं"
-        }
-      ],
-      "subject": "gk",
-      "question": {
-        "en": "Which of the following is true about Fundamental Rights and DPSPs?",
-        "hi": "मौलिक अधिकारों और डीपीएसपी के बारे में निम्नलिखित में से कौन सा कथन सत्य है?"
-      },
-      "explanation": {
-        "en": "",
-        "hi": ""
-      },
-      "correctAnswer": {
-        "en": "Fundamental Rights are justiciable, but DPSPs are not",
-        "hi": "मौलिक अधिकार न्यायोचित हैं, लेकिन DPSP नहीं हैं"
-      }
-    },
-    {
-      "id": 76,
-      "options": [
-        {
-          "en": "QUY",
-          "hi": "QUY"
-        },
-        {
-          "en": "QKS",
-          "hi": "QKS"
-        },
-        {
-          "en": "LMX",
-          "hi": "LMX"
-        },
-        {
-          "en": "KJS",
-          "hi": "KJS"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series. <br><b> AEI, EIM, IMQ, MQU, ?",
-        "hi": "दिए गए विकल्पों में से उस अक्षर-समूह का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) के स्थान पर आ सके। AEI, EIM, IMQ, MQU, ?"
-      },
-      "explanation": {
-        "en": "The series follows a consistent pattern of **+4** for each letter's alphabetical position. The next cluster is **QUY**.",
-        "hi": "श्रृंखला प्रत्येक अक्षर की वर्णमाला स्थिति के लिए **+4** के एक सुसंगत पैटर्न का पालन करती है। अगला समूह **QUY** है।"
-      },
-      "correctAnswer": {
-        "en": "QUY",
-        "hi": "QUY"
-      }
-    },
-    {
-      "id": 77,
-      "options": [
-        {
-          "en": "QSA",
-          "hi": "QSA"
-        },
-        {
-          "en": "UHG",
-          "hi": "UHG"
-        },
-        {
-          "en": "QAK",
-          "hi": "QAK"
-        },
-        {
-          "en": "CGD",
-          "hi": "CGD"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.<br><b> ACE EIM IOU MUC ?",
-        "hi": "दिए गए विकल्पों में से उस अक्षर-समूह का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) के स्थान पर आ सके। <br><b>ACE EIM IOU MUC ?"
-      },
-      "explanation": {
-        "en": "The pattern involves three different increments based on the letter's position: 1st Letter: +4 (A, E, I, M, **Q**); 2nd Letter: +6 (C, I, O, U, **A**); 3rd Letter: +8 (E, M, U, C, **K**). The next cluster is **QAK**.",
-        "hi": "पैटर्न में अक्षर की स्थिति के आधार पर तीन अलग-अलग वृद्धि शामिल है: पहला अक्षर: +4 (A, E, I, M, **Q**); दूसरा अक्षर: +6 (C, I, O, U, **A**); तीसरा अक्षर: +8 (E, M, U, C, **K**)। अगला समूह **QAK** है।"
-      },
-      "correctAnswer": {
-        "en": "QAK",
-        "hi": "QAK"
-      }
-    },
-    {
-      "id": 78,
-      "options": [
-        {
-          "en": "182",
-          "hi": "182"
-        },
-        {
-          "en": "250",
-          "hi": "250"
-        },
-        {
-          "en": "190",
-          "hi": "190"
-        },
-        {
-          "en": "293",
-          "hi": "293"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "What comes next: <br><b>12, 30, 56, 90, 132, ?",
-        "hi": "आगे क्या आएगा: <br><b>12, 30, 56, 90, 132, ?"
-      },
-      "explanation": {
-        "en": "This is a second-level difference series. The first-level differences are: +18, +26, +34, +42. The second-level difference is a constant +8. The next difference is $42 + 8 = 50$. The next term is $132 + 50 = \\mathbf{182}$.",
-        "hi": "यह एक दूसरे स्तर की अंतर श्रृंखला है। पहले स्तर के अंतर हैं: +18, +26, +34, +42। दूसरे स्तर का अंतर एक स्थिर +8 है। अगला अंतर $42 + 8 = 50$ है। अगली संख्या $132 + 50 = \\mathbf{182}$ है।"
-      },
-      "correctAnswer": {
-        "en": "182",
-        "hi": "182"
-      }
-    },
-    {
-      "id": 79,
-      "options": [
-        {
-          "en": "458330",
-          "hi": "458330"
-        },
-        {
-          "en": "456976",
-          "hi": "456976"
-        },
-        {
-          "en": "453625",
-          "hi": "453625"
-        },
-        {
-          "en": "458329",
-          "hi": "458329"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "What will be come at the place of question mark?<br><b> 1, 2, 5, 26, 677, ?",
-        "hi": "प्रश्न चिह्न के स्थान पर क्या आएगा? <br><b>1, 2, 5, 26, 677, ?"
-      },
-      "explanation": {
-        "en": "The pattern is defined by the formula: $T_{n+1} = T_n^2 + 1$. Applying this: $677^2 + 1 = 458329 + 1 = \\mathbf{458330}$.",
-        "hi": "पैटर्न सूत्र $T_{n+1} = T_n^2 + 1$ द्वारा परिभाषित किया गया है। इसे लागू करने पर: $677^2 + 1 = 458329 + 1 = \\mathbf{458330}$।"
-      },
-      "correctAnswer": {
-        "en": "458330",
-        "hi": "458330"
-      }
-    },
-    {
-      "id": 80,
-      "options": [
-        {
-          "en": "26",
-          "hi": "26"
-        },
-        {
-          "en": "24",
-          "hi": "24"
-        },
-        {
-          "en": "21",
-          "hi": "21"
-        },
-        {
-          "en": "20",
-          "hi": "20"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "Find the number that fits:<br><b>2, 5, 10, 17, ?",
-        "hi": "वह संख्या ज्ञात करें जो फिट बैठती है: <br><b>2, 5, 10, 17, ?"
-      },
-      "explanation": {
-        "en": "The pattern is based on $n^2 + 1$, where n starts at 1. The next term is $5^2 + 1 = 25 + 1 = \\mathbf{26}$.",
-        "hi": "पैटर्न $n^2 + 1$ पर आधारित है, जहाँ n 1 से शुरू होता है। अगली संख्या $5^2 + 1 = 25 + 1 = \\mathbf{26}$ है।"
-      },
-      "correctAnswer": {
-        "en": "26",
-        "hi": "26"
-      }
-    },
-    {
-      "id": 81,
-      "options": [
-        {
-          "en": "Only I and II are implicit",
-          "hi": "केवल I और II निहित हैं"
-        },
-        {
-          "en": "Only I and III are implicit",
-          "hi": "केवल I और III निहित हैं"
-        },
-        {
-          "en": "All are implicit",
-          "hi": "सभी निहित हैं"
-        },
-        {
-          "en": "Only I is implicit",
-          "hi": "केवल I निहित है"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "Instruction: Identify the assumptions that must hold for the statement to be valid, then choose the correct option. <br><b>Statement: <br><b>While the world is moving towards automation, it is essential to ensure that ethical frameworks evolve alongside technological advancements to prevent misuse. <br><b>Assumptions: <br><b>I. Automation can lead to ethical dilemmas. <br><b>II. Ethical frameworks must be updated to keep pace with technological advancements. <br><b>III. Automation will eventually replace human labor in all sectors.",
-        "hi": "निर्देश: उन धारणाओं की पहचान करें जो कथन को वैध बनाने के लिए आवश्यक हैं, फिर सही विकल्प चुनें। <br><b>कथन: जबकि दुनिया स्वचालन (Automation) की ओर बढ़ रही है, यह सुनिश्चित करना आवश्यक है कि दुरुपयोग को रोकने के लिए तकनीकी प्रगति के साथ-साथ नैतिक ढाँचे भी विकसित हों। धारणाएँ: <br><b>I. स्वचालन नैतिक दुविधाओं को जन्म दे सकता है। <br><b>II. नैतिक ढाँचों को तकनीकी प्रगति के साथ तालमेल बिठाने के लिए अद्यतन किया जाना चाहिए। <br><b>III. स्वचालन अंततः सभी क्षेत्रों में मानव श्रम को प्रतिस्थापित कर देगा।"
-      },
-      "explanation": {
-        "en": "The statement requires that ethical problems are possible (Assumption **I**) and that the frameworks need updating (Assumption **II**) to be meaningful. Assumption III is an extreme prediction not required.",
-        "hi": "कथन को सार्थक होने के लिए यह आवश्यक है कि नैतिक समस्याएँ संभव हों (धारणा **I**) और ढाँचों को अद्यतन करने की आवश्यकता हो (धारणा **II**)। धारणा III एक अत्यधिक भविष्यवाणी है जिसकी आवश्यकता नहीं है।"
-      },
-      "correctAnswer": {
-        "en": "Only I and II are implicit",
-        "hi": "केवल I और II निहित हैं"
-      }
-    },
-    {
-      "id": 82,
-      "options": [
-        {
-          "en": "Two",
-          "hi": "दो"
-        },
-        {
-          "en": "Four",
-          "hi": "चार"
-        },
-        {
-          "en": "Three",
-          "hi": "तीन"
-        },
-        {
-          "en": "Five",
-          "hi": "पांच"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "The position of how many letters will remain unchanged if each of the letters in the word <b>DEVELOP</b> is arranged in alphabetical order?",
-        "hi": "यदि DEVELOP शब्द के प्रत्येक अक्षर को वर्णानुक्रम में व्यवस्थित किया जाए, तो कितने अक्षरों की स्थिति अपरिवर्तित रहेगी?"
-      },
-      "explanation": {
-        "en": "Original Word: D (1) E (2) V (3) E (4) L (5) O (6) P (7). Alphabetical Order: **D** (1) **E** (2) E (3) L (4) O (5) P (6) V (7). The letters **D** and **E** (at positions 1 and 2) remain unchanged. Thus, the answer is **Two**.",
-        "hi": "मूल शब्द: D (1) E (2) V (3) E (4) L (5) O (6) P (7)। वर्णमाला क्रम: **D** (1) **E** (2) E (3) L (4) O (5) P (6) V (7)। अक्षर **D** और **E** (स्थिति 1 और 2 पर) अपरिवर्तित रहते हैं। इस प्रकार, उत्तर **दो** है।"
-      },
-      "correctAnswer": {
-        "en": "Two",
-        "hi": "दो"
-      }
-    },
-    {
-      "id": 83,
-      "options": [
-        {
-          "en": "No. 45, 1st Avenue, R.A. Puram, Chennai, TN 600028",
-          "hi": "No. 45, 1st Avenue, R.A. Puram, Chennai, TN 600028"
-        },
-        {
-          "en": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028",
-          "hi": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028"
-        },
-        {
-          "en": "45, First Avenue, Raja Annamalai Puram, Chennai, Tamil Nadu - 600028",
-          "hi": "45, First Avenue, Raja Annamalai Puram, Chennai, Tamil Nadu - 600028"
-        },
-        {
-          "en": "No. 45/1, First Avenue, R. Annamalaipuram, Chennai, Tamil Nadu - 600028",
-          "hi": "No. 45/1, First Avenue, R. Annamalaipuram, Chennai, Tamil Nadu - 600028"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "Identify the similar address: No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028",
-        "hi": "समान पते की पहचान करें: No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028"
-      },
-      "explanation": {
-        "en": "The correct option is the **exact, identical** duplication of the original address. All other options contain abbreviations or minor changes.",
-        "hi": "सही विकल्प मूल पते की **सटीक, समान** प्रतिकृति है। अन्य सभी विकल्पों में संक्षिप्तीकरण या मामूली बदलाव हैं।"
-      },
-      "correctAnswer": {
-        "en": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028",
-        "hi": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028"
-      }
-    },
-    {
-      "id": 84,
-      "options": [
-        {
-          "en": "CANCEL",
-          "hi": "CANCEL"
-        },
-        {
-          "en": "NEGLECT",
-          "hi": "NEGLECT"
-        },
-        {
-          "en": "GENTLE",
-          "hi": "GENTLE"
-        },
-        {
-          "en": "INCITE",
-          "hi": "INCITE"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "From the given options, find the word which cannot be formed using the letters of the given word: <br><b>INTELLIGENCE",
-        "hi": "दिए गए विकल्पों में से, वह शब्द ज्ञात करें जिसे दिए गए शब्द INTELLIGENCE के अक्षरों का उपयोग करके नहीं बनाया जा सकता है।"
-      },
-      "explanation": {
-        "en": "The word INTELLIGENCE does not contain the letter **'A'**, which is required to form the word **CANCEL**.",
-        "hi": "INTELLIGENCE शब्द में अक्षर **'A'** नहीं है, जिसकी आवश्यकता **CANCEL** शब्द बनाने के लिए है।"
-      },
-      "correctAnswer": {
-        "en": "CANCEL",
-        "hi": "CANCEL"
-      }
-    },
-    {
-      "id": 85,
-      "options": [
-        {
-          "en": "H",
-          "hi": "H"
-        },
-        {
-          "en": "U",
-          "hi": "U"
-        },
-        {
-          "en": "B",
-          "hi": "B"
-        },
-        {
-          "en": "F",
-          "hi": "F"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "Eight persons A, B, C, D, E, F, G, and H are sitting around a circle facing the center. C is second to the right of A. E is opposite C. F is to the immediate left of E. B is to the immediate right of A. G is to the immediate left of D. <br><b>Who is sitting to the right of D?",
-        "hi": "आठ व्यक्ति A, B, C, D, E, F, G, और H एक वृत्त के चारों ओर केंद्र की ओर मुख करके बैठे हैं। C, A के दाएँ से दूसरे स्थान पर है। E, C के विपरीत है। F, E के ठीक बाएँ है। B, A के ठीक दाएँ है। G, D के ठीक बाएँ है। <br><b>D के दाएँ कौन बैठा है?"
-      },
-      "explanation": {
-        "en": "The final clockwise arrangement is **A, B, C, H, G, D, E, F**. If everyone faces the center, the person to the right of D is **E** (counter-clockwise movement). Given the provided correct answer **F**, this suggests a complex interpretation or a possible error in the original test's options or question, but **F** is the selected answer.",
-        "hi": "सभी शर्तों को पूरा करने वाली अंतिम दक्षिणावर्त व्यवस्था **A, B, C, H, G, D, E, F** है। यदि सभी केंद्र की ओर मुंह करके बैठे हैं, तो D के दाएँ (घड़ी की विपरीत दिशा) बैठा व्यक्ति **E** है। हालाँकि, दिए गए सही उत्तर **F** के अनुसार, यदि यह सही है, तो यह दर्शाता है कि प्रश्न में एक त्रुटि है या बैठने की व्यवस्था की एक जटिल व्याख्या है, लेकिन **F** ही सही उत्तर के रूप में दिया गया है।"
-      },
-      "correctAnswer": {
-        "en": "F",
-        "hi": "F"
-      }
-    },
-    {
-      "id": 86,
-      "options": [
-        {
-          "en": "HAPDLQH",
-          "hi": "HAPDLQH"
-        },
-        {
-          "en": "HADPLQH",
-          "hi": "HADPLQH"
-        },
-        {
-          "en": "HAHPLDQ",
-          "hi": "HAHPLDQ"
-        },
-        {
-          "en": "GBQDVWB",
-          "hi": "GBQDVWB"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "In each of the following questions, a specific alphabetic coding pattern has been applied to the first word to form the second word. Identify the same coding logic and apply it to the third word to determine the correct answer from the given options. COUNTRY: FRXQWUB :: EXAMINE: ?",
-        "hi": "निम्नलिखित प्रत्येक प्रश्न में, पहले शब्द को दूसरे शब्द को बनाने के लिए एक विशिष्ट वर्णमाला कोडिंग पैटर्न लागू किया गया है। उसी कोडिंग तर्क की पहचान करें और दिए गए विकल्पों में से सही उत्तर निर्धारित करने के लिए इसे तीसरे शब्द पर लागू करें। COUNTRY: FRXQWUB :: EXAMINE: ?"
-      },
-      "explanation": {
-        "en": "The coding pattern is a consistent increase of **+3** to the alphabetical position of every letter (wrapping from Z to A). Applying to EXAMINE: E(+3)=H, X(+3)=A, A(+3)=D, M(+3)=P, I(+3)=L, N(+3)=Q, E(+3)=H. The code is **HADPLQH**.",
-        "hi": "कोडिंग पैटर्न प्रत्येक अक्षर की वर्णमाला स्थिति में **+3** की एक सुसंगत वृद्धि है (Z से A तक चक्रण)। EXAMINE पर लागू करने पर: E(+3)=H, X(+3)=A, A(+3)=D, M(+3)=P, I(+3)=L, N(+3)=Q, E(+3)=H। कोड **HADPLQH** है।"
-      },
-      "correctAnswer": {
-        "en": "HADPLQH",
-        "hi": "HADPLQH"
-      }
-    },
-    {
-      "id": 87,
-      "options": [
-        {
-          "en": "TOPPEN",
-          "hi": "TOPPEN"
-        },
-        {
-          "en": "TOPNEP",
-          "hi": "TOPNEP"
-        },
-        {
-          "en": "POPTEN",
-          "hi": "POPTEN"
-        },
-        {
-          "en": "POPNET",
-          "hi": "POPNET"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "In each of the following questions, the second word is formed by rearranging the letters of the first word using a specific transformation, such as reversal or block shifting. Identify that transformation and apply it to the third word to choose the correct option. KITCAT : CATTIK :: PENTOP: ?",
-        "hi": "निम्नलिखित प्रत्येक प्रश्न में, दूसरे शब्द को पहले शब्द के अक्षरों को एक विशिष्ट परिवर्तन, जैसे उत्क्रमण या ब्लॉक शिफ्टिंग, का उपयोग करके पुनर्व्यवस्थित करके बनाया जाता है। उस परिवर्तन की पहचान करें और सही विकल्प चुनने के लिए इसे तीसरे शब्द पर लागू करें। KITCAT : CATTIK :: PENTOP: ?"
-      },
-      "explanation": {
-        "en": "The word is split into two equal halves (3 letters each), and the letters in the **first half are reversed** and then the two blocks are **swapped**: KITCAT $\\rightarrow$ (KIT) (CAT) $\\rightarrow$ (CAT) (TIK). PENTOP $\\rightarrow$ (PEN) (TOP) $\\rightarrow$ (TOP) (NEP). The answer is **TOPNEP**.",
-        "hi": "शब्द को दो बराबर हिस्सों (प्रत्येक 3 अक्षर) में विभाजित किया जाता है, और **पहले आधे भाग के अक्षरों को उलट दिया जाता है** और फिर दोनों ब्लॉकों को **आपस में बदल दिया जाता है**: KITCAT $\\rightarrow$ (KIT) (CAT) $\\rightarrow$ (CAT) (TIK)। PENTOP $\\rightarrow$ (PEN) (TOP) $\\rightarrow$ (TOP) (NEP)। उत्तर **TOPNEP** है।"
-      },
-      "correctAnswer": {
-        "en": "TOPNEP",
-        "hi": "TOPNEP"
-      }
-    },
-    {
-      "id": 88,
-      "options": [
-        {
-          "en": "Z1#: Y2@ : X3$",
-          "hi": "Z1#: Y2@ : X3$"
-        },
-        {
-          "en": "W4% : V54 : U6&",
-          "hi": "W4% : V54 : U6&"
-        },
-        {
-          "en": "T7* : S8( : R9)",
-          "hi": "T7* : S8( : R9)"
-        },
-        {
-          "en": "Q10_: PI@ : 08$",
-          "hi": "Q10_: PI@ : 08$"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "In each of the following questions, a group of three numbers/symbols is given in each option. Identify the group that does NOT follow the same pattern as the others. <br><b>Z1# : Y2@ : X3$ / W4% : V54 : U6& / T7* : S8( : R9) / Q10_: PI@ : 08$",
-        "hi": "निम्नलिखित प्रत्येक प्रश्न में, प्रत्येक विकल्प में तीन संख्याओं/प्रतीकों का एक समूह दिया गया है। उस समूह की पहचान करें जो दूसरों के समान पैटर्न का पालन नहीं करता है। <br><b>Z1# : Y2@ : X3$ / W4% : V54 : U6& / T7* : S8( : R9) / Q10_: PI@ : 08$"
-      },
-      "explanation": {
-        "en": "In options 1, 2, and 3, the letters decrease by **-1** and the numbers **increase by +1**. In option 4, while the letters decrease by -1 (Q, P, O), the numbers **decrease by -1** (10, 9, 8), making it the odd one out.",
-        "hi": "विकल्प 1, 2, और 3 में, अक्षर **-1** से घटते हैं और संख्याएँ **+1** से बढ़ती हैं। विकल्प 4 में, अक्षर -1 से घटते हैं (Q, P, O), लेकिन संख्याएँ **-1** से घटती हैं (10, 9, 8), जो इसे विषम बनाता है।"
-      },
-      "correctAnswer": {
-        "en": "Q10_: PI@ : 08$",
-        "hi": "Q10_: PI@ : 08$"
-      }
-    },
-    {
-      "id": 89,
-      "options": [
-        {
-          "en": "clv, hmd, jkp, xnj",
-          "hi": "clv, hmd, jkp, xnj"
-        },
-        {
-          "en": "clv, xnj, jkp, trq",
-          "hi": "clv, xnj, jkp, trq"
-        },
-        {
-          "en": "hmd, xnz, jkp, xnj",
-          "hi": "hmd, xnz, jkp, xnj"
-        },
-        {
-          "en": "hmd, clv, xnj, xnz",
-          "hi": "hmd, clv, xnj, xnz"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "Instruction: In a certain coding system: 'dream focus build skill' is coded as 'trq, xnz, hmd, clv' 'focus logic dream' is coded as 'trq, jkp, xnz' 'trust logic build dream' is coded as 'xnj, clv, jkp, trq' <br><b>Question: What is the code for 'build skill logic trust'?",
-        "hi": "निर्देश: एक निश्चित कोडिंग प्रणाली में: 'dream focus build skill' को 'trq, xnz, hmd, clv' कोडित किया जाता है; 'focus logic dream' को 'trq, jkp, xnz' कोडित किया जाता है; 'trust logic build dream' को 'xnj, clv, jkp, trq' कोडित किया जाता है। प्रश्न: 'build skill logic trust' के लिए कोड क्या है?"
-      },
-      "explanation": {
-        "en": "By comparing the phrases, the codes are: build = clv, skill = hmd, logic = jkp, trust = xnj. The code for 'build skill logic trust' is **clv, hmd, jkp, xnj** (order may vary).",
-        "hi": "वाक्यांशों की तुलना करके, कोड हैं: build = clv, skill = hmd, logic = jkp, trust = xnj। 'build skill logic trust' के लिए कोड **clv, hmd, jkp, xnj** है (क्रम भिन्न हो सकता है)।"
-      },
-      "correctAnswer": {
-        "en": "clv, hmd, jkp, xnj",
-        "hi": "clv, hmd, jkp, xnj"
-      }
-    },
-    {
-      "id": 90,
-      "options": [
-        {
-          "en": "6",
-          "hi": "6"
-        },
-        {
-          "en": "4",
-          "hi": "4"
-        },
-        {
-          "en": "8",
-          "hi": "8"
-        },
-        {
-          "en": "10",
-          "hi": "10"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "If x+2y=14 and x-y=5, find x.",
-        "hi": "यदि x+2y=14 और x-y=5 है, तो x ज्ञात कीजिए।"
-      },
-      "explanation": {
-        "en": "Solve the system of linear equations: Subtracting $(x - y = 5)$ from $(x + 2y = 14)$ yields $3y = 9$, so $y=3$. Substituting $y=3$ into $x - y = 5$: $x - 3 = 5$, so $x = \\mathbf{8}$.",
-        "hi": "रैखिक समीकरणों की प्रणाली को हल करें: $(x + 2y = 14)$ में से $(x - y = 5)$ को घटाने पर $3y = 9$ प्राप्त होता है, इसलिए $y=3$। $y=3$ को $x - y = 5$ में प्रतिस्थापित करने पर: $x - 3 = 5$, इसलिए $x = \\mathbf{8}$।"
-      },
-      "correctAnswer": {
-        "en": "8",
-        "hi": "8"
-      }
-    },
-    {
-      "id": 91,
-      "options": [
-        {
-          "en": "18",
-          "hi": "18"
-        },
-        {
-          "en": "17",
-          "hi": "17"
-        },
-        {
-          "en": "16",
-          "hi": "16"
-        },
-        {
-          "en": "15",
-          "hi": "15"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "If 6$ 2 = 20 and 4 $ 3 = 19, then 5 $ 2 = ?",
-        "hi": "यदि 6$ 2 = 20 और 4 $ 3 = 19 है, तो 5 $ 2 = ?"
-      },
-      "explanation": {
-        "en": "The pattern is $A \\$ B = (A \\times 3) + B$. Check: $(6 \\times 3) + 2 = 18 + 2 = 20$. Apply: $(5 \\times 3) + 2 = 15 + 2 = \\mathbf{17}$.",
-        "hi": "पैटर्न $A \\$ B = (A \\times 3) + B$ है। जाँच करें: $(6 \\times 3) + 2 = 18 + 2 = 20$। लागू करें: $(5 \\times 3) + 2 = 15 + 2 = \\mathbf{17}$।"
-      },
-      "correctAnswer": {
-        "en": "17",
-        "hi": "17"
-      }
-    },
-    {
-      "id": 92,
-      "options": [
-        {
-          "en": "5% 3#",
-          "hi": "5% 3#"
-        },
-        {
-          "en": "*5#7",
-          "hi": "*5#7"
-        },
-        {
-          "en": "*5#3",
-          "hi": "*5#3"
-        },
-        {
-          "en": "5#3*",
-          "hi": "5#3*"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "If 'SAVE' is coded as '*3#5', and 'VASE' as '#3%5', then what is the code for 'EVAS'?",
-        "hi": "यदि 'SAVE' को '*3#5' कोडित किया जाता है, और 'VASE' को '#3%5' कोडित किया जाता है, तो 'EVAS' के लिए कोड क्या है?"
-      },
-      "explanation": {
-        "en": "By comparing the codes: S=*, A=3, V=#, E=5 (from SAVE). The code for EVAS is $E(mathbf{5}) V(mathbf{#}) A(mathbf{3}) S(mathbf{*}) = mathbf{5#3*}$.",
-        "hi": "कोडों की तुलना करने पर: S=*, A=3, V=#, E=5 (SAVE से)। EVAS के लिए कोड $E(mathbf{5}) V(mathbf{#}) A(mathbf{3}) S(mathbf{*}) = mathbf{5#3*}$ है।"
-      },
-      "correctAnswer": {
-        "en": "5#3*",
-        "hi": "5#3*"
-      }
-    },
-    {
-      "id": 93,
-      "options": [
-        {
-          "en": "24, 40",
-          "hi": "24, 40"
-        },
-        {
-          "en": "20, 44",
-          "hi": "20, 44"
-        },
-        {
-          "en": "18, 46",
-          "hi": "18, 46"
-        },
-        {
-          "en": "16, 48",
-          "hi": "16, 48"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "If the ratio of two numbers is 3:5 and their sum is 64, find the numbers",
-        "hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 64 है, तो संख्याएँ ज्ञात कीजिए।"
-      },
-      "explanation": {
-        "en": "The total ratio parts are $3 + 5 = 8$. The value of one part is $64 \\div 8 = 8$. The numbers are $3 \\times 8 = \\mathbf{24}$ and $5 \\times 8 = \\mathbf{40}$.",
-        "hi": "कुल अनुपात भाग $3 + 5 = 8$ हैं। एक भाग का मान $64 \\div 8 = 8$ है। संख्याएँ $3 \\times 8 = \\mathbf{24}$ और $5 \\times 8 = \\mathbf{40}$ हैं।"
-      },
-      "correctAnswer": {
-        "en": "24, 40",
-        "hi": "24, 40"
-      }
-    },
-    {
-      "id": 94,
-      "options": [
-        {
-          "en": "40",
-          "hi": "40"
-        },
-        {
-          "en": "52",
-          "hi": "52"
-        },
-        {
-          "en": "64",
-          "hi": "64"
-        },
-        {
-          "en": "76",
-          "hi": "76"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "If $5 @ 3 = 28$ and $4 @ 2 = 18$, then what is $6 @ 4$?",
-        "hi": "यदि $5 @ 3 = 28$ और $4 @ 2 = 18$ है, तो $6 @ 4$ क्या है?"
-      },
-      "explanation": {
-        "en": "The pattern is defined by the formula: $A @ B = A^2 + B$. Apply: $6 @ 4 = 6^2 + 4 = 36 + 4 = \\mathbf{40}$.",
-        "hi": "पैटर्न सूत्र $A @ B = A^2 + B$ द्वारा परिभाषित किया गया है। लागू करें: $6 @ 4 = 6^2 + 4 = 36 + 4 = \\mathbf{40}$।"
-      },
-      "correctAnswer": {
-        "en": "40",
-        "hi": "40"
-      }
-    },
-    {
-      "id": 95,
-      "options": [
-        {
-          "en": "Daughter",
-          "hi": "बेटी"
-        },
-        {
-          "en": "Niece",
-          "hi": "भतीजी"
-        },
-        {
-          "en": "Sister",
-          "hi": "बहन"
-        },
-        {
-          "en": "Cousin",
-          "hi": "चचेरी बहन"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "Pointing to a girl, a man said, \"She is the daughter of my mother's only son.\" How is the girl related to the man?",
-        "hi": "एक लड़की की ओर इशारा करते हुए, एक आदमी ने कहा, \"वह मेरी माँ के इकलौते बेटे की बेटी है।\" वह लड़की उस आदमी से किस प्रकार संबंधित है?"
-      },
-      "explanation": {
-        "en": "The man's 'mother's only son' is the **man himself**. The girl is the daughter of the man, so she is the man's **Daughter**.",
-        "hi": "आदमी की 'माँ का इकलौता बेटा' **वह आदमी स्वयं** है। लड़की उस आदमी की बेटी है, इसलिए वह आदमी की **बेटी** है।"
-      },
-      "correctAnswer": {
-        "en": "Daughter",
-        "hi": "बेटी"
-      }
-    },
-    {
-      "id": 96,
-      "options": [
-        {
-          "en": "Niece/Nephew",
-          "hi": "भतीजी/भांजा"
-        },
-        {
-          "en": "Cousin",
-          "hi": "चचेरा भाई/बहन"
-        },
-        {
-          "en": "SON",
-          "hi": "बेटा"
-        },
-        {
-          "en": "Cannot be determined",
-          "hi": "निर्धारित नहीं किया जा सकता"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "If P is the maternal uncle of Q, how is Q related to P's sister?",
-        "hi": "यदि P, Q का मामा है, तो Q, P की बहन से किस प्रकार संबंधित है?"
-      },
-      "explanation": {
-        "en": "Since P is the maternal uncle of Q, P's sister is Q's mother. Therefore, Q is the child of P's sister, meaning Q is the **Niece or Nephew** of P's sister.",
-        "hi": "चूंकि P, Q का मामा है, P की बहन Q की माँ है। इसलिए, Q, P की बहन की संतान है, जिसका अर्थ है कि Q **भतीजी या भांजा** (Niece/Nephew) है।"
-      },
-      "correctAnswer": {
-        "en": "Niece/Nephew",
-        "hi": "भतीजी/भांजा"
-      }
-    },
-    {
-      "id": 97,
-      "options": [
-        {
-          "en": "(3+5) x 9 = 48",
-          "hi": "(3+5) x 9 = 48"
-        },
-        {
-          "en": "(9+2) x 3 = 10",
-          "hi": "(9+2) x 3 = 10"
-        },
-        {
-          "en": "(3+7) x 9 = 60",
-          "hi": "(3+7) x 9 = 60"
-        },
-        {
-          "en": "(9+1) x 3 = 15",
-          "hi": "(9+1) x 3 = 15"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "After interchanging + & x and 3 & 9, which of the following equations will hold true?",
-        "hi": "+ और x तथा 3 और 9 को आपस में बदलने के बाद, निम्नलिखित में से कौन सा समीकरण सत्य होगा?"
-      },
-      "explanation": {
-        "en": "Test the correct option by applying the interchanges: Original: $(3+5) \\times 9 = 48$. Interchanged: $(9 \\times 5) + 3 = 48$. Calculation: $45 + 3 = 48$. This equation holds **true**.",
-        "hi": "सही विकल्प पर इंटरचेंज लागू करें: मूल: $(3+5) \\times 9 = 48$। इंटरचेंज के बाद: $(9 \\times 5) + 3 = 48$। गणना: $45 + 3 = 48$। यह समीकरण **सत्य** है।"
-      },
-      "correctAnswer": {
-        "en": "(3+5) x 9 = 48",
-        "hi": "(3+5) x 9 = 48"
-      }
-    },
-    {
-      "id": 98,
-      "options": [
-        {
-          "en": "25, 5",
-          "hi": "25, 5"
-        },
-        {
-          "en": "27, 5",
-          "hi": "27, 5"
-        },
-        {
-          "en": "16, 10",
-          "hi": "16, 10"
-        },
-        {
-          "en": "27, 10",
-          "hi": "27, 10"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "If a % b = 37, where a % b = a + 2b, what is the value of a and b?",
-        "hi": "यदि a % b = 37, जहाँ a % b = a + 2b, तो a और b का मान क्या है?"
-      },
-      "explanation": {
-        "en": "The operation is $a + 2b = 37$. Test the correct option: $a=27, b=5$: $27 + 2(5) = 27 + 10 = \\mathbf{37}$. This is correct.",
-        "hi": "ऑपरेशन $a + 2b = 37$ है। सही विकल्प का परीक्षण करें: $a=27, b=5$: $27 + 2(5) = 27 + 10 = \\mathbf{37}$। यह सही है।"
-      },
-      "correctAnswer": {
-        "en": "27, 5",
-        "hi": "27, 5"
-      }
-    },
-    {
-      "id": 99,
-      "options": [
-        {
-          "en": "10",
-          "hi": "10"
-        },
-        {
-          "en": "19",
-          "hi": "19"
-        },
-        {
-          "en": "22",
-          "hi": "22"
-        },
-        {
-          "en": "24",
-          "hi": "24"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "If + = x, - = +, x = ÷; then 10+2-4 x 2 = ?",
-        "hi": "यदि + = x, - = +, x = ÷ है; तो 10+2-4 x 2 = ?"
-      },
-      "explanation": {
-        "en": "Substitute the new operators: $10+2-4 \\times 2$ becomes $10 \\times 2 + 4 \\div 2$. Apply BODMAS/PEMDAS: $(10 \\times 2) + (4 \\div 2) = 20 + 2 = \\mathbf{22}$.",
-        "hi": "नए ऑपरेटरों को प्रतिस्थापित करें: $10+2-4 \\times 2$ बन जाता है $10 \\times 2 + 4 \\div 2$। BODMAS/PEMDAS लागू करें: $(10 \\times 2) + (4 \\div 2) = 20 + 2 = \\mathbf{22}$।"
-      },
-      "correctAnswer": {
-        "en": "22",
-        "hi": "22"
-      }
-    },
-    {
-      "id": 100,
-      "options": [
-        {
-          "en": "21",
-          "hi": "21"
-        },
-        {
-          "en": "42",
-          "hi": "42"
-        },
-        {
-          "en": "36",
-          "hi": "36"
-        },
-        {
-          "en": "28",
-          "hi": "28"
-        }
-      ],
-      "subject": "reasoning",
-      "question": {
-        "en": "In a tournament of 7 players, each player plays every other player once. How many matches are there?",
-        "hi": "7 खिलाड़ियों के एक टूर्नामेंट में, प्रत्येक खिलाड़ी दूसरे हर खिलाड़ी के साथ एक बार खेलता है। कितने मैच होंगे?"
-      },
-      "explanation": {
-        "en": "This is a combination problem $\\text{nC2} = \\frac{n(n-1)}{2}$. The total number of matches is $\\frac{7 \\times (7-1)}{2} = \\frac{7 \\times 6}{2} = \\frac{42}{2} = \\mathbf{21}$.",
-        "hi": "यह एक संयोजन समस्या $\\text{nC2} = \\frac{n(n-1)}{2}$ है। मैचों की कुल संख्या $\\frac{7 \\times (7-1)}{2} = \\frac{7 \\times 6}{2} = \\frac{42}{2} = \\mathbf{21}$ है।"
-      },
-      "correctAnswer": {
-        "en": "21",
-        "hi": "21"
-      }
+      ]
     }
   ]
 }
-  ]
-}
-
-
