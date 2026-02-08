@@ -7,6 +7,7 @@ const TestAttempt = require('./TestAttempt');
 const OTP = require('./OTP');
 const LoginLog = require('./LoginLog');
 const ErrorLog = require('./ErrorLog');
+const TelegramInvite = require('./TelegramInvite');
 
 // ========== ASSOCIATIONS ==========
 
@@ -94,5 +95,6 @@ module.exports = {
     TestAttempt,
     OTP,
     LoginLog,
-    ErrorLog
+    ErrorLog,
+    TelegramInvite
 };

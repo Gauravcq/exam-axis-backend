@@ -214,6 +214,7 @@ const adminRoutes = require('./routes/admin');
 const publicTestsRoutes = require('./routes/publicTests');
 const questionRoutes = require('./routes/questions');
 const paymentRoutes = require('./routes/payment');
+const supportRoutes = require('./routes/support');
 
 // Apply routes with DB check
 app.use('/api/auth', requireDB, authRoutes);
@@ -223,6 +224,7 @@ app.use('/api/admin', requireDB, adminRoutes);
 app.use('/api/public/tests', requireDB, publicTestsRoutes);
 app.use('/api/questions', requireDB, questionRoutes);
 app.use('/api/payment', requireDB, paymentRoutes);
+app.use('/api/support', requireDB, supportRoutes);
 
 // ==================== ERROR HANDLING ====================
 // 404
