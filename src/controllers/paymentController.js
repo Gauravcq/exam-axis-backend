@@ -224,34 +224,18 @@ exports.checkPremiumStatus = async (req, res) => {
 };
 
 // Helper: build full screenshot URL for frontend (screenshot, screenshotUrl, etc.)
-function getScreenshotFields(screenshotUrl, req) {
-    if (!screenshotUrl) {
+function getScreenshotFields(screenshotUrl, req, id) {
+    if (!screenshotUrl || !id) {
         return { screenshot: null, screenshotUrl: null, paymentScreenshot: null, image: null, imageUrl: null };
     }
-    // If stored as Data URI, return directly
-    if (String(screenshotUrl).startsWith('data:')) {
-        const dataUri = String(screenshotUrl);
-        return {
-            screenshot: dataUri,
-            screenshotUrl: dataUri,
-            paymentScreenshot: dataUri,
-            image: dataUri,
-            imageUrl: dataUri
-        };
-    }
-    // Otherwise, build file-serving URL
-    const filename = String(screenshotUrl).split('/').pop();
-    if (!filename) {
-        return { screenshot: null, screenshotUrl: null, paymentScreenshot: null, image: null, imageUrl: null };
-    }
-    const base = process.env.BASE_URL || (req && `${req.protocol}://${req.get('host')}`) || '';
-    const url = base ? `${base}/api/uploads/payments/${filename}` : `/api/uploads/payments/${filename}`;
+    // Always serve through proxy route to avoid frontend double-prefix issues
+    const urlPath = `/payment/screenshot/${id}`;
     return {
-        screenshot: url,
-        screenshotUrl: url,
-        paymentScreenshot: url,
-        image: url,
-        imageUrl: url
+        screenshot: urlPath,
+        screenshotUrl: urlPath,
+        paymentScreenshot: urlPath,
+        image: urlPath,
+        imageUrl: urlPath
     };
 }
 
@@ -265,7 +249,7 @@ exports.getPendingPayments = async (req, res) => {
 
         const data = payments.map(p => {
             const json = p.toJSON ? p.toJSON() : p;
-            const screenshotFields = getScreenshotFields(json.screenshotUrl, req);
+            const screenshotFields = getScreenshotFields(json.screenshotUrl, req, json.id);
             return { ...json, ...screenshotFields };
         });
 
@@ -303,7 +287,7 @@ exports.getAllPayments = async (req, res) => {
 
         const data = payments.map(p => {
             const json = p.toJSON ? p.toJSON() : p;
-            const screenshotFields = getScreenshotFields(json.screenshotUrl, req);
+            const screenshotFields = getScreenshotFields(json.screenshotUrl, req, json.id);
             return { ...json, ...screenshotFields };
         });
 
@@ -543,5 +527,44 @@ exports.revokePremium = async (req, res) => {
             success: false,
             message: 'Failed to revoke premium'
         });
+    }
+};
+
+// ========== Serve screenshot by payment ID (Admin) ==========
+exports.serveScreenshot = async (req, res) => {
+    try {
+        const { id } = req.params;
+        const payment = await PaymentRequest.findByPk(id);
+        if (!payment || !payment.screenshotUrl) {
+            return res.status(404).json({ success: false, message: 'Screenshot not found' });
+        }
+        const raw = String(payment.screenshotUrl);
+        if (raw.startsWith('data:')) {
+            const parts = raw.split(',');
+            const meta = parts[0] || 'data:image/jpeg;base64';
+            const b64 = parts[1] || '';
+            const mimeMatch = meta.match(/^data:([^;]+);base64$/);
+            const mime = (mimeMatch && mimeMatch[1]) || 'image/jpeg';
+            const buf = Buffer.from(b64, 'base64');
+            res.setHeader('Content-Type', mime);
+            res.setHeader('Content-Length', buf.length);
+            return res.end(buf);
+        }
+        // File-based fallback
+        const path = require('path');
+        const fs = require('fs');
+        const uploadDir = process.env.NODE_ENV === 'production' ? '/tmp/payments' : path.join(process.cwd(), 'uploads', 'payments');
+        const filename = raw.split('/').pop();
+        const filePath = path.join(uploadDir, filename);
+        if (!fs.existsSync(filePath)) {
+            return res.status(404).json({ success: false, message: 'Screenshot file not found' });
+        }
+        const ext = path.extname(filename).toLowerCase();
+        const mime = { '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.gif': 'image/gif', '.webp': 'image/webp' }[ext] || 'application/octet-stream';
+        res.setHeader('Content-Type', mime);
+        fs.createReadStream(filePath).pipe(res);
+    } catch (error) {
+        console.error('Serve screenshot error:', error);
+        res.status(500).json({ success: false, message: 'Failed to serve screenshot' });
     }
 };

@@ -1,4 +1,3 @@
-const axios = require('axios');
 const { TelegramInvite } = require('../models');
 const { apiResponse } = require('../utils/helpers');
 
@@ -34,10 +33,15 @@ exports.createTelegramInvite = async (req, res) => {
   }
   const url = `https://api.telegram.org/bot${token}/createChatInviteLink`;
   try {
-    const { data } = await axios.post(url, {
-      chat_id: chatId,
-      member_limit: 1
+    const resp = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        chat_id: chatId,
+        member_limit: 1
+      })
     });
+    const data = await resp.json();
     if (!data || !data.ok || !data.result || !data.result.invite_link) {
       return apiResponse(res, 500, false, 'Failed to create invite link');
     }

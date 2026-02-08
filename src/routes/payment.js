@@ -212,4 +212,15 @@ router.post('/revoke-premium/:paymentId', protect, isAdmin, (req, res, next) => 
     });
 });
 
+// Serve screenshot by payment ID
+router.get('/screenshot/:id', protect, isAdmin, (req, res, next) => {
+    if (typeof paymentController.serveScreenshot === 'function') {
+        return paymentController.serveScreenshot(req, res, next);
+    }
+    res.status(503).json({
+        success: false,
+        message: 'Screenshot service temporarily unavailable'
+    });
+});
+
 module.exports = router;
