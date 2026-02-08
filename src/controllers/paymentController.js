@@ -90,8 +90,19 @@ exports.submitPaymentRequest = async (req, res) => {
             });
         }
 
-        // ✅ Build screenshot URL (public)
-        const screenshotUrl = `/uploads/payments/${screenshot.filename}`;
+        // ✅ Persist screenshot as Data URI (works on serverless /tmp and is permanent)
+        const path = require('path');
+        const fs = require('fs');
+        const mime = screenshot.mimetype || 'image/jpeg';
+        let screenshotUrl = null;
+        try {
+            const buffer = fs.readFileSync(screenshot.path);
+            const base64 = buffer.toString('base64');
+            screenshotUrl = `data:${mime};base64,${base64}`;
+        } catch (e) {
+            // Fallback to file-based URL (may not persist on serverless)
+            screenshotUrl = `/uploads/payments/${screenshot.filename}`;
+        }
 
         // Create payment request
         const paymentRequest = await PaymentRequest.create({
@@ -214,9 +225,25 @@ exports.checkPremiumStatus = async (req, res) => {
 
 // Helper: build full screenshot URL for frontend (screenshot, screenshotUrl, etc.)
 function getScreenshotFields(screenshotUrl, req) {
-    if (!screenshotUrl) return { screenshot: null, screenshotUrl: null, paymentScreenshot: null, image: null, imageUrl: null };
+    if (!screenshotUrl) {
+        return { screenshot: null, screenshotUrl: null, paymentScreenshot: null, image: null, imageUrl: null };
+    }
+    // If stored as Data URI, return directly
+    if (String(screenshotUrl).startsWith('data:')) {
+        const dataUri = String(screenshotUrl);
+        return {
+            screenshot: dataUri,
+            screenshotUrl: dataUri,
+            paymentScreenshot: dataUri,
+            image: dataUri,
+            imageUrl: dataUri
+        };
+    }
+    // Otherwise, build file-serving URL
     const filename = String(screenshotUrl).split('/').pop();
-    if (!filename) return { screenshot: null, screenshotUrl: null, paymentScreenshot: null, image: null, imageUrl: null };
+    if (!filename) {
+        return { screenshot: null, screenshotUrl: null, paymentScreenshot: null, image: null, imageUrl: null };
+    }
     const base = process.env.BASE_URL || (req && `${req.protocol}://${req.get('host')}`) || '';
     const url = base ? `${base}/api/uploads/payments/${filename}` : `/api/uploads/payments/${filename}`;
     return {

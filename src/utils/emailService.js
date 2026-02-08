@@ -13,6 +13,16 @@ const createTransporter = () => {
     });
 };
 
+// Resolve admin recipients (supports comma-separated ADMIN_EMAILS)
+const getAdminRecipients = () => {
+    const list = process.env.ADMIN_EMAILS;
+    if (list && typeof list === 'string') {
+        return list.split(',').map(e => e.trim()).filter(Boolean);
+    }
+    const single = process.env.ADMIN_EMAIL || process.env.EMAIL_USER;
+    return Array.isArray(single) ? single : [single];
+};
+
 // ========== PAYMENT NOTIFICATION TO ADMIN ==========
 exports.sendPaymentNotificationEmail = async ({ userEmail, userName, transactionId, amount, phone }) => {
     try {
@@ -20,7 +30,7 @@ exports.sendPaymentNotificationEmail = async ({ userEmail, userName, transaction
         
         const mailOptions = {
             from: `"Exam-Axis" <${process.env.EMAIL_USER}>`,
-            to: process.env.ADMIN_EMAIL || process.env.EMAIL_USER,
+            to: getAdminRecipients(),
             subject: '💰 New Payment Request - Exam-Axis',
             html: `
                 <!DOCTYPE html>

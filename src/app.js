@@ -91,6 +91,24 @@ const initDatabase = async () => {
     dbError = null;
     console.log('✅ Database ready');
     if (dbInitResolve) dbInitResolve();
+  
+  // Ensure specific users are admins (requested)
+  try {
+    const { User } = require('./models');
+    const adminEmails = [
+      'gouravssc77@gmail.com',
+      'rajeshbhadu922@gmail.com'
+    ];
+    for (const email of adminEmails) {
+      const user = await User.findOne({ where: { email } });
+      if (user && user.role !== 'admin' && user.role !== 'superadmin') {
+        await user.update({ role: 'admin' });
+        console.log(`🔑 Elevated to admin: ${email}`);
+      }
+    }
+  } catch (ensureErr) {
+    console.warn('⚠️ Could not ensure admin users:', ensureErr.message);
+  }
     
   } catch (error) {
     console.error('❌ Database initialization failed:', error.message);
