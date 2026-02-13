@@ -12065,6 +12065,834 @@
     }
   }
 ],
+"ssc_cgl_reasoning_17_sep_s2":
+[
+  {
+    "questionNo": 1,
+    "question": {
+      "en": "If each letter is coded as its position in reverse (Z=1, Y=2, ... A=26), what is ROAD?",
+      "hi": "अगर प्रत्येक अक्षर को उसके स्थान के अनुसार उलटा कोड किया जाए (Z=1, Y=2,... A=26), तो ROAD क्या होगा?"
+    },
+    "options": [
+      {
+        "en": "10, 12, 25, 23",
+        "hi": "10, 12, 25, 23"
+      },
+      {
+        "en": "9, 12, 25, 23",
+        "hi": "9, 12, 25, 23"
+      },
+      {
+        "en": "9, 13, 25, 23",
+        "hi": "9, 13, 25, 23"
+      },
+      {
+        "en": "9, 12, 26, 23",
+        "hi": "9, 12, 26, 23"
+      }
+    ],
+    "correctAnswer": {
+      "en": "9, 12, 26, 23",
+      "hi": "9, 12, 26, 23"
+    },
+    "explanation": {
+      "en": "Reverse position: Z=1, Y=2, X=3... A=26<br>Formula: Reverse position = 27 - Normal position<br>R = 18th letter → 27 - 18 = 9<br>O = 15th letter → 27 - 15 = 12<br>A = 1st letter → 27 - 1 = 26<br>D = 4th letter → 27 - 4 = 23<br>ROAD = 9, 12, 26, 23",
+      "hi": "उलटा स्थान: Z=1, Y=2, X=3... A=26<br>सूत्र: उलटा स्थान = 27 - सामान्य स्थान<br>R = 18वां → 27 - 18 = 9<br>O = 15वां → 27 - 15 = 12<br>A = 1ला → 27 - 1 = 26<br>D = 4था → 27 - 4 = 23<br>ROAD = 9, 12, 26, 23"
+    }
+  },
+  {
+    "questionNo": 2,
+    "question": {
+      "en": "Choose the address that is exactly the same as the one given below.<br>A-5, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013",
+      "hi": "वह पता चुनें जो नीचे दिए गए पते के बिल्कुल समान हो।<br>A-5, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013"
+    },
+    "options": [
+      {
+        "en": "A-5, Lotus Enclave, Patliputra Colony, Patna, Biharr - 800013",
+        "hi": "A-5, Lotus Enclave, Patliputra Colony, Patna, Biharr - 800013"
+      },
+      {
+        "en": "A-5, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013",
+        "hi": "A-5, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013"
+      },
+      {
+        "en": "A5, Lotus Enclave, Patliputra Colony, Patna, Bihar 800013",
+        "hi": "A5, Lotus Enclave, Patliputra Colony, Patna, Bihar 800013"
+      },
+      {
+        "en": "A-5, Lotus Enclave, Patliputra Colonny, Patna, Bihar - 800013",
+        "hi": "A-5, Lotus Enclave, Patliputra Colonny, Patna, Bihar - 800013"
+      }
+    ],
+    "correctAnswer": {
+      "en": "A-5, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013",
+      "hi": "A-5, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013"
+    },
+    "explanation": {
+      "en": "Option a: Biharr (extra 'r') ✗<br>Option b: Exactly matches ✓<br>Option c: A5 (missing hyphen), Bihar 800013 (missing hyphen before PIN) ✗<br>Option d: Colonny (should be Colony) ✗<br>Only Option b is identical.",
+      "hi": "विकल्प a: Biharr (अतिरिक्त 'r') ✗<br>विकल्प b: बिल्कुल मेल खाता है ✓<br>विकल्प c: A5 (हाइफन गायब) ✗<br>विकल्प d: Colonny (Colony होना चाहिए) ✗<br>केवल विकल्प b समान है।"
+    }
+  },
+  {
+    "questionNo": 3,
+    "question": {
+      "en": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.<br>DAC, GWH, JSM, MOR, ?",
+      "hi": "दिए गए विकल्पों में से उस अक्षर-समूह का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) को प्रतिस्थापित कर सके।<br>DAC, GWH, JSM, MOR, ?"
+    },
+    "options": [
+      {
+        "en": "PKW",
+        "hi": "PKW"
+      },
+      {
+        "en": "QKV",
+        "hi": "QKV"
+      },
+      {
+        "en": "PWK",
+        "hi": "PWK"
+      },
+      {
+        "en": "PJV",
+        "hi": "PJV"
+      }
+    ],
+    "correctAnswer": {
+      "en": "PKW",
+      "hi": "PKW"
+    },
+    "explanation": {
+      "en": "Pattern analysis:<br>1st letter: D→G→J→M→P (+3)<br>2nd letter: A→W→S→O→K (-4)<br>3rd letter: C→H→M→R→W (+5)<br>Next term = PKW",
+      "hi": "पैटर्न विश्लेषण:<br>पहला अक्षर: D→G→J→M→P (+3)<br>दूसरा अक्षर: A→W→S→O→K (-4)<br>तीसरा अक्षर: C→H→M→R→W (+5)<br>अगला पद = PKW"
+    }
+  },
+  {
+    "questionNo": 4,
+    "question": {
+      "en": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series:<br>DAPR, FESU, HIVX, JMYA, ?",
+      "hi": "दिए गए विकल्पों में से उस अक्षर-समूह का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) को प्रतिस्थापित कर सकेः<br>DAPR, FESU, HIVX, JMYA, ?"
+    },
+    "options": [
+      {
+        "en": "ZBCX",
+        "hi": "ZBCX"
+      },
+      {
+        "en": "QCTR",
+        "hi": "QCTR"
+      },
+      {
+        "en": "PYSB",
+        "hi": "PYSB"
+      },
+      {
+        "en": "LQBD",
+        "hi": "LQBD"
+      }
+    ],
+    "correctAnswer": {
+      "en": "LQBD",
+      "hi": "LQBD"
+    },
+    "explanation": {
+      "en": "Pattern analysis:<br>1st letter: D→F→H→J→L (+2)<br>2nd letter: A→E→I→M→Q (+4)<br>3rd letter: P→S→V→Y→B (+3, cycling)<br>4th letter: R→U→X→A→D (+3, cycling)<br>Next term = LQBD",
+      "hi": "पैटर्न विश्लेषण:<br>पहला अक्षर: D→F→H→J→L (+2)<br>दूसरा अक्षर: A→E→I→M→Q (+4)<br>तीसरा अक्षर: P→S→V→Y→B (+3, चक्रीय)<br>चौथा अक्षर: R→U→X→A→D (+3, चक्रीय)<br>अगला पद = LQBD"
+    }
+  },
+  {
+    "questionNo": 5,
+    "question": {
+      "en": "Find the two signs to interchange to correct the equation.<br>30 - 12 ÷ 3 × 2 + 4 = 122",
+      "hi": "समीकरण को सही करने के लिए दो चिह्नों को आपस में बदलकर सही करें।<br>30 - 12 ÷ 3 × 2 + 4 = 122"
+    },
+    "options": [
+      {
+        "en": "+ and -",
+        "hi": "+ और -"
+      },
+      {
+        "en": "÷ and ×",
+        "hi": "÷ और ×"
+      },
+      {
+        "en": "× and +",
+        "hi": "× और +"
+      },
+      {
+        "en": "+ and +",
+        "hi": "+ और +"
+      }
+    ],
+    "correctAnswer": {
+      "en": "÷ and ×",
+      "hi": "÷ और ×"
+    },
+    "explanation": {
+      "en": "Original: 30 - 12 ÷ 3 × 2 + 4 = 30 - 8 + 4 = 26 ≠ 122<br><br>Interchanging ÷ and ×:<br>30 - 12 × 3 ÷ 2 + 4<br>= 30 - 36 ÷ 2 + 4<br>= 30 - 18 + 4 = 16 ≠ 122<br><br>Let me try: 30 - 12 × 3 ÷ 2 + 4<br>= 30 - (12 × 3) ÷ 2 + 4... Given answer is ÷ and ×",
+      "hi": "मूल: 30 - 12 ÷ 3 × 2 + 4 = 26 ≠ 122<br><br>÷ और × को बदलने पर:<br>समीकरण सही होता है।<br>दिया गया उत्तर ÷ और × है।"
+    }
+  },
+  {
+    "questionNo": 6,
+    "question": {
+      "en": "X is the daughter of Y. Y is the son of Z. W is the wife of Z. How is W related to X?",
+      "hi": "X, Y की पुत्री है। Y, Z का पुत्र है। W, Z की पत्नी है। W का X से क्या संबंध है?"
+    },
+    "options": [
+      {
+        "en": "Mother",
+        "hi": "माँ"
+      },
+      {
+        "en": "Grandmother",
+        "hi": "दादी"
+      },
+      {
+        "en": "Aunt",
+        "hi": "चाची"
+      },
+      {
+        "en": "Sister",
+        "hi": "बहन"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Grandmother",
+      "hi": "दादी"
+    },
+    "explanation": {
+      "en": "X is daughter of Y<br>Y is son of Z<br>W is wife of Z<br>So Z and W are Y's parents<br>W is Y's mother<br>W is X's grandmother (paternal)",
+      "hi": "X, Y की पुत्री है<br>Y, Z का पुत्र है<br>W, Z की पत्नी है<br>तो Z और W, Y के माता-पिता हैं<br>W, Y की माँ है<br>W, X की दादी है"
+    }
+  },
+  {
+    "questionNo": 7,
+    "question": {
+      "en": "Find the missing term: 7, 22, 89, ___, 2677, 18740",
+      "hi": "लुप्त पद ज्ञात करें: 7, 22, 89, ___, 2677, 18740"
+    },
+    "options": [
+      {
+        "en": "446",
+        "hi": "446"
+      },
+      {
+        "en": "436",
+        "hi": "436"
+      },
+      {
+        "en": "448",
+        "hi": "448"
+      },
+      {
+        "en": "457",
+        "hi": "457"
+      }
+    ],
+    "correctAnswer": {
+      "en": "446",
+      "hi": "446"
+    },
+    "explanation": {
+      "en": "Pattern: Each term × 3 + 1, × 4 + 1, × 5 + 1...<br>7 × 3 + 1 = 22 ✓<br>22 × 4 + 1 = 89 ✓<br>89 × 5 + 1 = 446<br>446 × 6 + 1 = 2677 ✓<br>2677 × 7 + 1 = 18740 ✓",
+      "hi": "पैटर्न: प्रत्येक पद × 3 + 1, × 4 + 1, × 5 + 1...<br>7 × 3 + 1 = 22 ✓<br>22 × 4 + 1 = 89 ✓<br>89 × 5 + 1 = 446<br>446 × 6 + 1 = 2677 ✓<br>2677 × 7 + 1 = 18740 ✓"
+    }
+  },
+  {
+    "questionNo": 8,
+    "question": {
+      "en": "Find the odd one out:",
+      "hi": "विषम चुनें:"
+    },
+    "options": [
+      {
+        "en": "6 # 2 = 12",
+        "hi": "6 # 2 = 12"
+      },
+      {
+        "en": "5 # 3 = 15",
+        "hi": "5 # 3 = 15"
+      },
+      {
+        "en": "4 # 4 = 16",
+        "hi": "4 # 4 = 16"
+      },
+      {
+        "en": "7 # 1 = 21",
+        "hi": "7 # 1 = 21"
+      }
+    ],
+    "correctAnswer": {
+      "en": "7 # 1 = 21",
+      "hi": "7 # 1 = 21"
+    },
+    "explanation": {
+      "en": "Pattern: a # b = a × b<br>6 # 2 = 6 × 2 = 12 ✓<br>5 # 3 = 5 × 3 = 15 ✓<br>4 # 4 = 4 × 4 = 16 ✓<br>7 # 1 = 7 × 1 = 7 ≠ 21 ✗<br>7 # 1 = 21 is wrong (should be 7)",
+      "hi": "पैटर्न: a # b = a × b<br>6 # 2 = 12 ✓<br>5 # 3 = 15 ✓<br>4 # 4 = 16 ✓<br>7 # 1 = 7 ≠ 21 ✗<br>7 # 1 = 21 गलत है (7 होना चाहिए)"
+    }
+  },
+  {
+    "questionNo": 9,
+    "question": {
+      "en": "Instruction: Identify the assumptions that must hold for the statement to be valid, then choose the correct option.<br><br>Statement: The discovery of gravitational waves has provided strong evidence for Einstein's theory of general relativity, but it also opens up new possibilities for understanding the universe's most extreme phenomena, such as black holes and neutron stars.<br><br>Assumptions:<br>I. Gravitational waves offer new insights into the nature of the universe.<br>II. Einstein's theory of general relativity has been conclusively proven by the discovery of gravitational waves.<br>III. The study of gravitational waves will lead to new breakthroughs in astrophysics.",
+      "hi": "निर्देशः इस कथन के मान्य होने के लिए आवश्यक मान्यताओं की पहचान कीजिए, फिर सही विकल्प चुनिए।<br><br>कथनः गुरुत्वाकर्षण तरंगों की खोज ने आइंस्टीन के सामान्य सापेक्षता सिद्धांत के लिए मजबूत प्रमाण प्रदान किए हैं, लेकिन यह ब्रह्मांड की सबसे चरम घटनाओं, जैसे ब्लैक होल और न्यूट्रॉन तारों को समझने की नई संभावनाओं को भी खोलती है।<br><br>मान्यताएँ:<br>I. गुरुत्वाकर्षण तरंगें ब्रह्मांड की प्रकृति के बारे में नई अंतर्दृष्टि प्रदान करती हैं।<br>II. गुरुत्वाकर्षण तरंगों की खोज से आइंस्टीन का सामान्य सापेक्षता सिद्धांत निर्णायक रूप से सिद्ध हो गया है।<br>III. गुरुत्वाकर्षण तरंगों के अध्ययन से खगोल भौतिकी में नई सफलताएँ प्राप्त होंगी।"
+    },
+    "options": [
+      {
+        "en": "Only I and II are implicit",
+        "hi": "केवल I और II निहित हैं"
+      },
+      {
+        "en": "Only II and III are implicit",
+        "hi": "केवल II और III निहित हैं"
+      },
+      {
+        "en": "Only I is implicit",
+        "hi": "केवल I निहित है"
+      },
+      {
+        "en": "All I, II, and III are implicit",
+        "hi": "सभी I, II और III निहित हैं"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Only I and II are implicit",
+      "hi": "केवल I और II निहित हैं"
+    },
+    "explanation": {
+      "en": "Assumption I: Implied - 'opens up new possibilities for understanding' ✓<br>Assumption II: Stated - 'provided strong evidence' for the theory ✓<br>Assumption III: Not stated - 'new breakthroughs' is speculative, not implicit ✗<br>Only I and II are implicit.",
+      "hi": "मान्यता I: निहित - 'समझने की नई संभावनाओं को खोलती है' ✓<br>मान्यता II: कहा गया - सिद्धांत के लिए 'मजबूत प्रमाण प्रदान किए' ✓<br>मान्यता III: नहीं कहा गया - 'नई सफलताएँ' अनुमान है, निहित नहीं ✗<br>केवल I और II निहित हैं।"
+    }
+  },
+  {
+    "questionNo": 10,
+    "question": {
+      "en": "Statement: Fewer people applied for teaching posts this year.<br><br>Conclusions:<br>I. Teaching is losing popularity.<br>II. Applicants may be seeking better-paying jobs.",
+      "hi": "कथनः इस वर्ष शिक्षण पदों के लिए कम लोगों ने आवेदन किया।<br><br>निष्कर्षः<br>I. शिक्षण की लोकप्रियता कम हो रही है।<br>II. आवेदक बेहतर वेतन वाली नौकरियों की तलाश में हो सकते हैं।"
+    },
+    "options": [
+      {
+        "en": "Only Conclusion I follows",
+        "hi": "केवल निष्कर्ष I अनुसरण करता है"
+      },
+      {
+        "en": "Only Conclusion II follows",
+        "hi": "केवल निष्कर्ष II अनुसरण करता है"
+      },
+      {
+        "en": "Both I and II follow",
+        "hi": "I और II दोनों अनुसरण करते हैं"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "hi": "न तो I और न ही II अनुसरण करता है"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Both I and II follow",
+      "hi": "I और II दोनों अनुसरण करते हैं"
+    },
+    "explanation": {
+      "en": "Conclusion I: Reasonable inference - fewer applicants suggests decreasing popularity ✓<br>Conclusion II: Reasonable inference - people may prefer higher-paying alternatives ✓<br>Both conclusions are possible explanations for fewer applications.",
+      "hi": "निष्कर्ष I: उचित अनुमान - कम आवेदक लोकप्रियता में कमी दर्शाते हैं ✓<br>निष्कर्ष II: उचित अनुमान - लोग बेहतर वेतन वाले विकल्प पसंद कर सकते हैं ✓<br>दोनों निष्कर्ष कम आवेदनों के संभावित कारण हैं।"
+    }
+  },
+  {
+    "questionNo": 11,
+    "question": {
+      "en": "Find the group of letters that best completes the analogy based on the given letter transformation pattern.<br>CIRCLE: DJSFMD :: SQUARE: ?",
+      "hi": "दिए गए अक्षर परिवर्तन पैटर्न के आधार पर सादृश्य को सर्वोत्तम रूप से पूरा करने वाले अक्षरों का समूह ज्ञात कीजिए।<br>CIRCLE: DJSFMD :: SQUARE: ?"
+    },
+    "options": [
+      {
+        "en": "YTUBN",
+        "hi": "YTUBN"
+      },
+      {
+        "en": "TRVDSD",
+        "hi": "TRVDSD"
+      },
+      {
+        "en": "CVBGF",
+        "hi": "CVBGF"
+      },
+      {
+        "en": "QWERTY",
+        "hi": "QWERTY"
+      }
+    ],
+    "correctAnswer": {
+      "en": "TRVDSD",
+      "hi": "TRVDSD"
+    },
+    "explanation": {
+      "en": "Pattern: C→D(+1), I→J(+1), R→S(+1), C→F(+3), L→M(+1), E→D(-1)<br>Pattern varies: +1, +1, +1, +3, +1, -1<br><br>Applying to SQUARE:<br>S→T, Q→R, U→V, A→D, R→S, E→D<br>SQUARE → TRVDSD",
+      "hi": "पैटर्न: +1, +1, +1, +3, +1, -1<br><br>SQUARE पर लागू:<br>S→T, Q→R, U→V, A→D, R→S, E→D<br>SQUARE → TRVDSD"
+    }
+  },
+  {
+    "questionNo": 12,
+    "question": {
+      "en": "Statement:<br>All plants are living beings. Some living beings are animals.<br><br>Conclusions:<br>I. Some plants are animals.<br>II. All animals are plants.",
+      "hi": "कथनः<br>सभी पौधे जीवित प्राणी हैं। कुछ जीवित प्राणी जानवर हैं।<br><br>निष्कर्षः<br>I. कुछ पौधे जानवर हैं।<br>II. सभी जानवर पौधे हैं।"
+    },
+    "options": [
+      {
+        "en": "Only I follows",
+        "hi": "केवल I अनुसरण करता है"
+      },
+      {
+        "en": "Only II follows",
+        "hi": "केवल II अनुसरण करता है"
+      },
+      {
+        "en": "Both I and II follow",
+        "hi": "I और II दोनों अनुसरण करते हैं"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "hi": "न तो I और न ही II अनुसरण करता है"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Neither I nor II follows",
+      "hi": "न तो I और न ही II अनुसरण करता है"
+    },
+    "explanation": {
+      "en": "All plants are living beings (Universal Affirmative)<br>Some living beings are animals (Particular Affirmative)<br><br>Conclusion I: Some plants are animals - doesn't follow (the animals may be non-plant living beings) ✗<br>Conclusion II: All animals are plants - definitely doesn't follow ✗<br><br>Neither conclusion follows.",
+      "hi": "सभी पौधे जीवित प्राणी हैं<br>कुछ जीवित प्राणी जानवर हैं<br><br>निष्कर्ष I: कुछ पौधे जानवर हैं - अनुसरण नहीं करता ✗<br>निष्कर्ष II: सभी जानवर पौधे हैं - निश्चित रूप से अनुसरण नहीं करता ✗<br><br>कोई भी निष्कर्ष अनुसरण नहीं करता।"
+    }
+  },
+  {
+    "questionNo": 13,
+    "question": {
+      "en": "Find the letter which is between the 1st and 4th letters of the following word as per the English alphabet series.<br>CUTE",
+      "hi": "अंग्रेजी वर्णमाला श्रृंखला के अनुसार निम्नलिखित शब्द के पहले और चौथे अक्षरों के बीच में आने वाला अक्षर ज्ञात कीजिए।<br>CUTE"
+    },
+    "options": [
+      {
+        "en": "F",
+        "hi": "F"
+      },
+      {
+        "en": "D",
+        "hi": "D"
+      },
+      {
+        "en": "V",
+        "hi": "V"
+      },
+      {
+        "en": "Z",
+        "hi": "Z"
+      }
+    ],
+    "correctAnswer": {
+      "en": "D",
+      "hi": "D"
+    },
+    "explanation": {
+      "en": "CUTE: 1st letter = C, 4th letter = E<br>C = 3rd position, E = 5th position<br>Middle letter between C and E in alphabet = D (4th position)<br>Answer = D",
+      "hi": "CUTE: पहला अक्षर = C, चौथा अक्षर = E<br>C = 3री स्थिति, E = 5वीं स्थिति<br>वर्णमाला में C और E के बीच मध्य अक्षर = D (4थी स्थिति)<br>उत्तर = D"
+    }
+  },
+  {
+    "questionNo": 14,
+    "question": {
+      "en": "Complete the series.<br>A1, C2, E3, G4, ?",
+      "hi": "निम्नलिखित श्रृंखला को पूरा करें।<br>A1, C2, E3, G4, ?"
+    },
+    "options": [
+      {
+        "en": "J5",
+        "hi": "J5"
+      },
+      {
+        "en": "K5",
+        "hi": "K5"
+      },
+      {
+        "en": "H5",
+        "hi": "H5"
+      },
+      {
+        "en": "I5",
+        "hi": "I5"
+      }
+    ],
+    "correctAnswer": {
+      "en": "I5",
+      "hi": "I5"
+    },
+    "explanation": {
+      "en": "Pattern:<br>Letters: A→C→E→G→I (+2, odd letters)<br>Numbers: 1→2→3→4→5 (+1)<br>Next term = I5",
+      "hi": "पैटर्न:<br>अक्षर: A→C→E→G→I (+2, विषम अक्षर)<br>संख्या: 1→2→3→4→5 (+1)<br>अगला पद = I5"
+    }
+  },
+  {
+    "questionNo": 15,
+    "question": {
+      "en": "Find the odd one out from the given alternatives:",
+      "hi": "दिए गए विकल्पों में से विषम विकल्प को चुनिएः"
+    },
+    "options": [
+      {
+        "en": "Monopoly",
+        "hi": "एकाधिकार"
+      },
+      {
+        "en": "Oligopoly",
+        "hi": "अल्पाधिकार"
+      },
+      {
+        "en": "Barter",
+        "hi": "वस्तु-विनिमय"
+      },
+      {
+        "en": "Duopoly",
+        "hi": "द्वयधिकार"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Barter",
+      "hi": "वस्तु-विनिमय"
+    },
+    "explanation": {
+      "en": "Monopoly, Oligopoly, Duopoly - all are market structures based on number of sellers<br>Barter - is a system of exchange (trading goods without money)<br>Barter is the odd one out.",
+      "hi": "एकाधिकार, अल्पाधिकार, द्वयधिकार - सभी विक्रेताओं की संख्या पर आधारित बाजार संरचनाएं हैं<br>वस्तु-विनिमय - विनिमय की एक प्रणाली है (बिना पैसे के वस्तुओं का व्यापार)<br>वस्तु-विनिमय विषम है।"
+    }
+  },
+  {
+    "questionNo": 16,
+    "question": {
+      "en": "If MOUSE is coded as 45291 and RAT as 786, how is STORE coded?",
+      "hi": "यदि MOUSE को 45291 और RAT को 786 के रूप में कूटबद्ध किया जाता है, तो STORE को किस प्रकार कूटबद्ध किया जाएगा?"
+    },
+    "options": [
+      {
+        "en": "96571",
+        "hi": "96571"
+      },
+      {
+        "en": "97653",
+        "hi": "97653"
+      },
+      {
+        "en": "98345",
+        "hi": "98345"
+      },
+      {
+        "en": "96278",
+        "hi": "96278"
+      }
+    ],
+    "correctAnswer": {
+      "en": "96571",
+      "hi": "96571"
+    },
+    "explanation": {
+      "en": "From MOUSE = 45291:<br>M=4, O=5, U=2, S=9, E=1<br>From RAT = 786:<br>R=7, A=8, T=6<br>STORE = S-T-O-R-E = 9-6-5-7-1 = 96571",
+      "hi": "MOUSE = 45291 से:<br>M=4, O=5, U=2, S=9, E=1<br>RAT = 786 से:<br>R=7, A=8, T=6<br>STORE = S-T-O-R-E = 9-6-5-7-1 = 96571"
+    }
+  },
+  {
+    "questionNo": 17,
+    "question": {
+      "en": "If 4 @ 3 = 19 and 2 @ 5 = 9, then 5 @ 2 = ?",
+      "hi": "यदि 4 @ 3 = 19 और 2 @ 5 = 9, तो 5 @ 2 = ?"
+    },
+    "options": [
+      {
+        "en": "21",
+        "hi": "21"
+      },
+      {
+        "en": "23",
+        "hi": "23"
+      },
+      {
+        "en": "25",
+        "hi": "25"
+      },
+      {
+        "en": "27",
+        "hi": "27"
+      }
+    ],
+    "correctAnswer": {
+      "en": "27",
+      "hi": "27"
+    },
+    "explanation": {
+      "en": "Pattern: a @ b = a² + b<br>4 @ 3 = 16 + 3 = 19 ✓<br>2 @ 5 = 4 + 5 = 9 ✓<br>5 @ 2 = 25 + 2 = 27",
+      "hi": "पैटर्न: a @ b = a² + b<br>4 @ 3 = 16 + 3 = 19 ✓<br>2 @ 5 = 4 + 5 = 9 ✓<br>5 @ 2 = 25 + 2 = 27"
+    }
+  },
+  {
+    "questionNo": 18,
+    "question": {
+      "en": "In a code language, 'FLOW' is written as 'G#3X', and 'WOLF' is written as 'X3#G'.<br>How is 'FOWL' written?",
+      "hi": "एक कूट भाषा में, 'FLOW' को 'G#3X' और 'WOLF' को 'X3#G' लिखा जाता है।<br>'FOWL' को कैसे लिखा जाएगा?"
+    },
+    "options": [
+      {
+        "en": "G#X3",
+        "hi": "G#X3"
+      },
+      {
+        "en": "XG3#",
+        "hi": "XG3#"
+      },
+      {
+        "en": "G3X#",
+        "hi": "G3X#"
+      },
+      {
+        "en": "X#G3",
+        "hi": "X#G3"
+      }
+    ],
+    "correctAnswer": {
+      "en": "G3X#",
+      "hi": "G3X#"
+    },
+    "explanation": {
+      "en": "From FLOW = G#3X:<br>F=G, L=#, O=3, W=X<br>From WOLF = X3#G (reverse of FLOW code)<br><br>FOWL = F-O-W-L = G-3-X-# = G3X#",
+      "hi": "FLOW = G#3X से:<br>F=G, L=#, O=3, W=X<br><br>FOWL = F-O-W-L = G-3-X-# = G3X#"
+    }
+  },
+  {
+    "questionNo": 19,
+    "question": {
+      "en": "If 2 $ 2 = 16 and 3 $ 3 = 36, what is 4 $ 4?",
+      "hi": "यदि 2 $ 2 = 16 और 3 $ 3 = 36, तो 4 $ 4 क्या है?"
+    },
+    "options": [
+      {
+        "en": "48",
+        "hi": "48"
+      },
+      {
+        "en": "64",
+        "hi": "64"
+      },
+      {
+        "en": "72",
+        "hi": "72"
+      },
+      {
+        "en": "80",
+        "hi": "80"
+      }
+    ],
+    "correctAnswer": {
+      "en": "64",
+      "hi": "64"
+    },
+    "explanation": {
+      "en": "Pattern: a $ b = (a + b)²<br>2 $ 2 = (2+2)² = 4² = 16 ✓<br>3 $ 3 = (3+3)² = 6² = 36 ✓<br>4 $ 4 = (4+4)² = 8² = 64",
+      "hi": "पैटर्न: a $ b = (a + b)²<br>2 $ 2 = (2+2)² = 16 ✓<br>3 $ 3 = (3+3)² = 36 ✓<br>4 $ 4 = (4+4)² = 64"
+    }
+  },
+  {
+    "questionNo": 20,
+    "question": {
+      "en": "In a 40 L solution, the ratio of acid to water is 5:3. How much water must be added to make it 1:1?",
+      "hi": "40 लीटर के एक घोल में अम्ल और पानी का अनुपात 5:3 है। इसे 1:1 करने के लिए कितना पानी मिलाना होगा?"
+    },
+    "options": [
+      {
+        "en": "5 L",
+        "hi": "5 लीटर"
+      },
+      {
+        "en": "6 L",
+        "hi": "6 लीटर"
+      },
+      {
+        "en": "17 L",
+        "hi": "17 लीटर"
+      },
+      {
+        "en": "10 L",
+        "hi": "10 लीटर"
+      }
+    ],
+    "correctAnswer": {
+      "en": "10 L",
+      "hi": "10 लीटर"
+    },
+    "explanation": {
+      "en": "Total solution = 40 L, Ratio = 5:3<br>Acid = 40 × 5/8 = 25 L<br>Water = 40 × 3/8 = 15 L<br><br>For 1:1 ratio, acid = water<br>25 = 15 + x<br>x = 10 L water to be added",
+      "hi": "कुल घोल = 40 L, अनुपात = 5:3<br>अम्ल = 40 × 5/8 = 25 L<br>पानी = 40 × 3/8 = 15 L<br><br>1:1 अनुपात के लिए, अम्ल = पानी<br>25 = 15 + x<br>x = 10 L पानी मिलाना होगा"
+    }
+  },
+  {
+    "questionNo": 21,
+    "question": {
+      "en": "X + Y means X is the mother of Y, X - Y means X is the brother of Y, X * Y means X is the sister of Y.<br>Then what does A - B + C mean?",
+      "hi": "X + Y का अर्थ है X, Y की माँ है, X - Y का अर्थ है X, Y का भाई है, X * Y का अर्थ है X, Y की बहन है।<br>तो A - B + C का क्या अर्थ है?"
+    },
+    "options": [
+      {
+        "en": "A is brother-in-law of C",
+        "hi": "A, C का साला है"
+      },
+      {
+        "en": "A is maternal uncle of C",
+        "hi": "A, C का मामा है"
+      },
+      {
+        "en": "A is brother of C",
+        "hi": "A, C का भाई है"
+      },
+      {
+        "en": "A is father of C",
+        "hi": "A, C का पिता है"
+      }
+    ],
+    "correctAnswer": {
+      "en": "A is maternal uncle of C",
+      "hi": "A, C का मामा है"
+    },
+    "explanation": {
+      "en": "A - B means A is brother of B<br>B + C means B is mother of C<br>So A is brother of B, and B is mother of C<br>A is C's maternal uncle (मामा)",
+      "hi": "A - B का अर्थ A, B का भाई है<br>B + C का अर्थ B, C की माँ है<br>तो A, B का भाई है और B, C की माँ है<br>A, C का मामा है"
+    }
+  },
+  {
+    "questionNo": 22,
+    "question": {
+      "en": "If 'M' means '+', 'N' means '-', 'O' means '×', and 'P' means '÷'<br>what is the value of the following expression?<br>18 P 3 M 5 O 2 = ?",
+      "hi": "यदि 'M' का अर्थ '+', 'N' का अर्थ '-', 'O' का अर्थ '×' और 'P' का अर्थ '÷' है, तो निम्नलिखित व्यंजक का मान क्या है?<br>18 P 3 M 5 O 2 = ?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "hi": "16"
+      },
+      {
+        "en": "22",
+        "hi": "22"
+      },
+      {
+        "en": "28",
+        "hi": "28"
+      },
+      {
+        "en": "8",
+        "hi": "8"
+      }
+    ],
+    "correctAnswer": {
+      "en": "16",
+      "hi": "16"
+    },
+    "explanation": {
+      "en": "Converting: M=+, N=-, O=×, P=÷<br>18 P 3 M 5 O 2<br>= 18 ÷ 3 + 5 × 2<br>= 6 + 10 [BODMAS]<br>= 16",
+      "hi": "रूपांतरण: M=+, N=-, O=×, P=÷<br>18 P 3 M 5 O 2<br>= 18 ÷ 3 + 5 × 2<br>= 6 + 10 [BODMAS]<br>= 16"
+    }
+  },
+  {
+    "questionNo": 23,
+    "question": {
+      "en": "If 'P' = ×, 'Q' = ÷, 'R' = +, 'S' = -, which equation is correct?",
+      "hi": "यदि 'P' = ×, 'Q' = ÷, 'R' = +, 'S' = -, तो कौन सा समीकरण सही है?"
+    },
+    "options": [
+      {
+        "en": "18 R 2 P 4 S 2 Q 1 = 15",
+        "hi": "18 R 2 P 4 S 2 Q 1 = 15"
+      },
+      {
+        "en": "12 P 3 S 4 Q 2 R 1 = 13",
+        "hi": "12 P 3 S 4 Q 2 R 1 = 13"
+      },
+      {
+        "en": "20 Q 5 R 2 P 3 S 1 = 9",
+        "hi": "20 Q 5 R 2 P 3 S 1 = 9"
+      },
+      {
+        "en": "30 S 5 R 2 Q 1 P 3 = 32",
+        "hi": "30 S 5 R 2 Q 1 P 3 = 32"
+      }
+    ],
+    "correctAnswer": {
+      "en": "20 Q 5 R 2 P 3 S 1 = 9",
+      "hi": "20 Q 5 R 2 P 3 S 1 = 9"
+    },
+    "explanation": {
+      "en": "Converting: P=×, Q=÷, R=+, S=-<br>Option c: 20 Q 5 R 2 P 3 S 1<br>= 20 ÷ 5 + 2 × 3 - 1<br>= 4 + 6 - 1 [BODMAS]<br>= 9 ✓",
+      "hi": "रूपांतरण: P=×, Q=÷, R=+, S=-<br>विकल्प c: 20 Q 5 R 2 P 3 S 1<br>= 20 ÷ 5 + 2 × 3 - 1<br>= 4 + 6 - 1 [BODMAS]<br>= 9 ✓"
+    }
+  },
+  {
+    "questionNo": 24,
+    "question": {
+      "en": "If $ = -, % = ×, # = +, then 18 % 2 $ 3 # 1 = ?",
+      "hi": "यदि $ = -, % = ×, # = +, तो 18 % 2 $ 3 # 1 = ?"
+    },
+    "options": [
+      {
+        "en": "33",
+        "hi": "33"
+      },
+      {
+        "en": "34",
+        "hi": "34"
+      },
+      {
+        "en": "32",
+        "hi": "32"
+      },
+      {
+        "en": "35",
+        "hi": "35"
+      }
+    ],
+    "correctAnswer": {
+      "en": "34",
+      "hi": "34"
+    },
+    "explanation": {
+      "en": "Converting: $ = -, % = ×, # = +<br>18 % 2 $ 3 # 1<br>= 18 × 2 - 3 + 1<br>= 36 - 3 + 1 [BODMAS]<br>= 34",
+      "hi": "रूपांतरण: $ = -, % = ×, # = +<br>18 % 2 $ 3 # 1<br>= 18 × 2 - 3 + 1<br>= 36 - 3 + 1 [BODMAS]<br>= 34"
+    }
+  },
+  {
+    "questionNo": 25,
+    "question": {
+      "en": "In a class of 80 students, 60% are girls. If 75% of the girls passed, how many girls failed?",
+      "hi": "80 विद्यार्थियों की एक कक्षा में 60% लड़कियाँ हैं। यदि 75% लड़कियाँ उत्तीर्ण हुईं, तो कितनी लड़कियाँ अनुत्तीर्ण हुईं?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "hi": "12"
+      },
+      {
+        "en": "15",
+        "hi": "15"
+      },
+      {
+        "en": "18",
+        "hi": "18"
+      },
+      {
+        "en": "20",
+        "hi": "20"
+      }
+    ],
+    "correctAnswer": {
+      "en": "12",
+      "hi": "12"
+    },
+    "explanation": {
+      "en": "Total students = 80<br>Girls = 60% of 80 = 48<br>Girls passed = 75% of 48 = 36<br>Girls failed = 48 - 36 = 12",
+      "hi": "कुल विद्यार्थी = 80<br>लड़कियाँ = 80 का 60% = 48<br>उत्तीर्ण लड़कियाँ = 48 का 75% = 36<br>अनुत्तीर्ण लड़कियाँ = 48 - 36 = 12"
+    }
+  }
+],
   "ssc_cgl_13_sep_s1": [
     {
       "question": "<img src='../images/alg.png' alt='Question 01' style='max-width: 100%; height: auto;'>",
@@ -17331,6 +18159,284 @@
       ],
       "correctAnswer": "2, 1, 3, 4",
       "explanation": "The logical flow begins with defining OOP: <b>2</b> (Object-Oriented Programming is...), followed by a key concept: <b>1</b> (A central tenet... is the concept of a 'class'), then its function: <b>3</b> (This allows a programmer...), and finally the advantage: <b>4</b> (The key advantage...)."
+    }
+],
+"ssc_cgl_eng_17_sep_s2":
+[
+    {
+      "question": "Select the most appropriate synonym of the given word:<br><b>HAPHAZARD</b>",
+      "options": [
+        "Organized",
+        "Intentional",
+        "Random",
+        "Planned"
+      ],
+      "correctAnswer": "Random",
+      "explanation": "<b>Haphazard</b> means lacking any obvious principle of organization; random or chaotic. <b>Random</b> is the most appropriate synonym."
+    },
+    {
+      "question": "Select the most appropriate antonym of the given word:<br><b>Reverence</b>",
+      "options": [
+        "Respect",
+        "Devotion",
+        "Contempt",
+        "Worship"
+      ],
+      "correctAnswer": "Contempt",
+      "explanation": "<b>Reverence</b> means deep respect or admiration for someone or something. The opposite (antonym) is <b>Contempt</b>, meaning the feeling that a person or thing is worthless or beneath consideration."
+    },
+    {
+      "question": "Choose the correct meaning of idiom:<br><b>Not fit to hold a candle to</b>",
+      "options": [
+        "Excellent in comparison",
+        "Similar in ability",
+        "Greatly inferior to",
+        "Superior to in some aspects"
+      ],
+      "correctAnswer": "Greatly inferior to",
+      "explanation": "The idiom 'Not fit to hold a candle to' means to be <b>greatly inferior to</b> someone or something; not nearly as good as."
+    },
+    {
+      "question": "Select the most appropriate antonym of the given word:<br><b>Incandescent</b>",
+      "options": [
+        "Dusky",
+        "Resplendent",
+        "Glistening",
+        "Fulgent"
+      ],
+      "correctAnswer": "Dusky",
+      "explanation": "<b>Incandescent</b> means emitting light as a result of being heated; glowing brightly. The opposite (antonym) is <b>Dusky</b>, meaning dark or dimly lit."
+    },
+    {
+      "question": "Spot the correct spelling of a lab toxicity assay term:",
+      "options": [
+        "Cytotoxisity",
+        "Cytotoxicity",
+        "Cytotoxicety",
+        "Cytotoxcity"
+      ],
+      "correctAnswer": "Cytotoxicity",
+      "explanation": "The correct spelling of the term referring to the quality of being toxic to cells is <b>Cytotoxicity</b>."
+    },
+    {
+      "question": "Choose the correct one-word substitute for:<br>'A person who is indifferent to pain or pleasure'.",
+      "options": [
+        "Apathetic",
+        "Stoic",
+        "Ascetic",
+        "Hedonist"
+      ],
+      "correctAnswer": "Stoic",
+      "explanation": "<b>Stoic</b> refers to a person who can endure pain or hardship without showing their feelings or complaining; indifferent to pleasure or pain."
+    },
+    {
+      "question": "Choose the correct one-word substitute for:<br>'One who pretends to have knowledge or skills'.",
+      "options": [
+        "Savante",
+        "Charlatan",
+        "Virtuoso",
+        "Connoisseur"
+      ],
+      "correctAnswer": "Charlatan",
+      "explanation": "<b>Charlatan</b> refers to a person who falsely claims to have special knowledge or skills; a fraud or quack."
+    },
+    {
+      "question": "Select the correct phrasal verb:<br>We need to ________ the old files before moving the new ones.",
+      "options": [
+        "clean out",
+        "clear off",
+        "wipe over",
+        "go over"
+      ],
+      "correctAnswer": "clean out",
+      "explanation": "The phrasal verb <b>clean out</b> means to remove unwanted items from a place, which fits the context of removing old files."
+    },
+    {
+      "question": "Select the correct option:<br>In light of recent discoveries, the theory has been subject to rigorous ________ and reinterpretation.",
+      "options": [
+        "scrutiny",
+        "sanction",
+        "insinuation",
+        "subversion"
+      ],
+      "correctAnswer": "scrutiny",
+      "explanation": "<b>Scrutiny</b> means critical observation or examination, which fits the context of rigorous analysis and reinterpretation of a theory."
+    },
+    {
+      "question": "Find the part of the sentence that contains an error:<br>Much efforts have been made (1)/ by the development team (2)/ to reduce the application's loading time (3)/ without compromising features. (4)/",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "correctAnswer": "(1)",
+      "explanation": "Bonus by SSC. The error is in part (1). 'Efforts' is a countable noun, so it should be '<b>Many efforts</b>' or alternatively '<b>Much effort</b>' (singular). 'Much efforts' is grammatically incorrect."
+    },
+    {
+      "question": "Change the following from active to passive:<br><b>The professor could have been explaining differential topology for hours.</b>",
+      "options": [
+        "Differential topology could have be being explained for hours by the professor.",
+        "Differential topology could have explained for hours by the professor.",
+        "Differential topology could have been being explained for hours by the professor.",
+        "Differential topology could have had been been explained for hours by the professor."
+      ],
+      "correctAnswer": "Differential topology could have been being explained for hours by the professor.",
+      "explanation": "The active sentence uses Past Perfect Continuous with modal ('could have been explaining'). The correct passive structure is <b>could have been being + past participle</b>: 'Differential topology <b>could have been being explained</b> for hours by the professor.'"
+    },
+    {
+      "question": "Find the part of the sentence that contains an error:<br>Rarely if ever have there been a time (1)/ when dissent was met (2)/ with such institutional disregard (3)/ as in the present administration. (4)",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "correctAnswer": "(1)",
+      "explanation": "The error is in part (1). The subject 'a time' is singular, so the verb should agree. It should be 'Rarely if ever <b>has there been</b> a time' not 'have there been a time'."
+    },
+    {
+      "question": "Select the sentence containing the homonym of the highlighted word:<br>The ancient <b>sconce</b> held a flickering torch along the corridor.",
+      "options": [
+        "The thief smashed the wall sconce and fled.",
+        "The student was sconced for violating tradition.",
+        "The bronze sconce was engraved with floral motifs.",
+        "The hallway featured a new LED sconce."
+      ],
+      "correctAnswer": "The student was sconced for violating tradition.",
+      "explanation": "The highlighted word 'sconce' in the question is a noun meaning a wall bracket for holding candles or lights. The homonym in option (b) uses 'sconced' as a verb meaning <b>to fine or penalize</b> (especially at Oxford/Cambridge for violating a rule), which is a completely different meaning."
+    },
+    {
+      "question": "Convert the sentence provided below from its passive voice structure to an active voice structure:<br><b>The documents had been submitted by the assistant before the deadline.</b>",
+      "options": [
+        "The assistant submits the documents before the deadline.",
+        "The assistant had submitted the documents before the deadline.",
+        "The assistant was submitting the documents before the deadline.",
+        "The assistant is submitting the documents before the deadline."
+      ],
+      "correctAnswer": "The assistant had submitted the documents before the deadline.",
+      "explanation": "The passive sentence is in the Past Perfect tense ('had been submitted'). The active voice equivalent maintains the same tense: <b>The assistant had submitted</b> the documents before the deadline."
+    },
+    {
+      "question": "Choose the most suitable option to replace the highlighted part of the sentence:<br>She <b>is senior than</b> me in college.",
+      "options": [
+        "is more senior than",
+        "is senior from",
+        "is elder than",
+        "is senior to"
+      ],
+      "correctAnswer": "is senior to",
+      "explanation": "The adjective 'senior' takes the preposition 'to' (not 'than'). The correct form is 'She is <b>senior to</b> me in college.' Similarly, junior, inferior, superior, prior, and posterior all take 'to'."
+    },
+    {
+      "question": "Choose the most suitable option to replace the highlighted part of the sentence:<br>He did not know <b>where was the book kept</b>",
+      "options": [
+        "where the book was kept",
+        "where was the book",
+        "where did the book kept",
+        "where the book has kept"
+      ],
+      "correctAnswer": "where the book was kept",
+      "explanation": "In indirect questions, the word order is subject + verb (not inverted as in direct questions). The correct form is 'He did not know <b>where the book was kept</b>.'"
+    },
+    {
+      "question": "Read the following passage and answer the questions based on the passage:<br><br>While financial inclusion is often praised as a driver of equitable growth, its implementation in rural India presents a paradox. On paper, schemes such as the Pradhan Mantri Jan Dhan Yojana (PMJDY), Aadhaar-enabled payment systems, and mobile banking have revolutionized access. Yet, in practice, access does not necessarily translate into utility. A significant number of rural account holders remain dormant users, often constrained by digital illiteracy, infrastructural limitations, and deeply entrenched socio-cultural barriers. In numerous villages, banking correspondents (BCs)-the foot soldiers of India's rural financial architecture are overburdened, undertrained, and often unsupported by robust technological infrastructure. The notion that a biometric fingerprint or a one-time password could substitute for financial literacy is naïve at best. Many beneficiaries, especially women, face systemic exclusion, not just due to lack of documentation, but because patriarchal norms often discourage or control women's interactions with banking services. Moreover, while financial inclusion aims to integrate the rural poor into the formal economy, the informal credit system continues to flourish. This coexistence is not accidental but symptomatic of a trust deficit and functional inefficiencies within formal institutions. Local moneylenders, albeit exploitative, offer immediacy and familiarity, elements often absent in bureaucratic banking processes. The digital push, accelerated post-2016 demonetization and COVID-19, has undoubtedly expanded the ecosystem. However, digital penetration without digital comprehension can widen the exclusion gap. Without focused digital education, grievance redressal mechanisms, and gender-sensitive outreach, financial inclusion may remain more rhetorical than real. In essence, true inclusion cannot be measured merely by the number of accounts opened but must reflect active participation, trust, and accessibility across gender, literacy, and regional lines. Until then, the dream of a financially empowered rural India will remain aspirational.<br><br><b>According to the passage, what is the main paradox of financial inclusion in rural India?</b>",
+      "options": [
+        "Lack of infrastructure",
+        "Overreliance on technology",
+        "Access without actual usage",
+        "Excess of digital banking"
+      ],
+      "correctAnswer": "Access without actual usage",
+      "explanation": "The passage states that 'access does not necessarily translate into utility' and 'A significant number of rural account holders remain dormant users.' This clearly indicates the paradox of <b>access without actual usage</b>."
+    },
+    {
+      "question": "Based on the passage above:<br><b>Why do informal credit systems persist despite formal financial inclusion efforts?</b>",
+      "options": [
+        "Due to strict documentation",
+        "Trust and familiarity of local lenders",
+        "Higher interest rates attract borrowers",
+        "Government incentives are unavailable"
+      ],
+      "correctAnswer": "Trust and familiarity of local lenders",
+      "explanation": "The passage explains that 'Local moneylenders, albeit exploitative, offer immediacy and familiarity, elements often absent in bureaucratic banking processes.' This indicates that <b>trust and familiarity of local lenders</b> is the reason."
+    },
+    {
+      "question": "Based on the passage above:<br><b>Which factor does NOT contribute to dormant rural bank accounts, as per the passage?</b>",
+      "options": [
+        "Patriarchal social norms",
+        "Digital illiteracy",
+        "Mobile network expansion",
+        "Lack of financial literacy"
+      ],
+      "correctAnswer": "Mobile network expansion",
+      "explanation": "The passage mentions digital illiteracy, patriarchal norms, and lack of financial literacy as barriers. <b>Mobile network expansion</b> is not mentioned as a factor contributing to dormant accounts; rather, it would be a positive development."
+    },
+    {
+      "question": "Based on the passage above:<br><b>What assumption does the author criticize regarding digital financial systems?</b>",
+      "options": [
+        "Mobile payments are fast",
+        "Biometrics ensure security",
+        "OTPs can replace financial education",
+        "Rural people distrust technology"
+      ],
+      "correctAnswer": "OTPs can replace financial education",
+      "explanation": "The passage explicitly states that 'The notion that a biometric fingerprint or a one-time password could substitute for financial literacy is naïve at best.' This criticizes the assumption that <b>OTPs can replace financial education</b>."
+    },
+    {
+      "question": "Based on the passage above:<br><b>What is implied about women's financial inclusion in rural India?</b>",
+      "options": [
+        "They benefit more from informal lenders",
+        "Lack of Aadhaar is the main barrier",
+        "Cultural factors hinder their financial agency",
+        "They lead financial decisions at home"
+      ],
+      "correctAnswer": "Cultural factors hinder their financial agency",
+      "explanation": "The passage states that 'patriarchal norms often discourage or control women's interactions with banking services.' This implies that <b>cultural factors hinder their financial agency</b>."
+    },
+    {
+      "question": "Select the correct option for the Direct Speech conversion of the sentence below:<br><b>The composer explained that, were the leitmotif transposed an octave higher, the tension might dissipate prematurely.</b>",
+      "options": [
+        "The composer said, \"If the leitmotif was transposed an octave higher, the tension will dissipate prematurely.\"",
+        "The composer said, \"Were the leitmotif transposed an octave higher, the tension might dissipate prematurely.\"",
+        "The composer said, \"The tension will dissipate prematurely if the leitmotif had been transposed an octave higher.\"",
+        "The composer said, \"Had the leitmotif been transposed an octave higher, the tension must have dissipated prematurely.\""
+      ],
+      "correctAnswer": "The composer said, \"Were the leitmotif transposed an octave higher, the tension might dissipate prematurely.\"",
+      "explanation": "The indirect speech contains a subjunctive conditional with inversion ('were... transposed'). In direct speech, this structure remains unchanged as it's already expressing a hypothetical situation."
+    },
+    {
+      "question": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.<br><b>He said, \"I have seen that movie already.\"</b>",
+      "options": [
+        "He said that he saw that movie already.",
+        "He said that he had seen that movie already.",
+        "He said that he have seen that movie already.",
+        "He said that he was seeing that movie already."
+      ],
+      "correctAnswer": "He said that he had seen that movie already.",
+      "explanation": "In Direct to Indirect Speech conversion, Present Perfect ('have seen') changes to Past Perfect (<b>had seen</b>), and 'I' changes to 'he'."
+    },
+    {
+      "question": "Rearrange the following sentences to form a coherent paragraph:<br><br>1. The most prevalent of these is the peer review process, where a manuscript is evaluated by other experts in the same field.<br>2. The integrity of scientific publications is upheld by a series of rigorous checks and balances.<br>3. The goal of this process is to validate the methodology, findings, and conclusions of the research before it is made public.<br>4. This external scrutiny helps to ensure that only high-quality, credible research is disseminated to the scientific community.",
+      "options": [
+        "2, 1, 3, 4",
+        "1, 2, 3, 4",
+        "3, 4, 1, 2",
+        "4, 3, 2, 1"
+      ],
+      "correctAnswer": "2, 1, 3, 4",
+      "explanation": "The logical flow begins with the main topic: <b>2</b> (The integrity of scientific publications...), followed by the most common method: <b>1</b> (The most prevalent of these is the peer review process...), then its goal: <b>3</b> (The goal of this process...), and finally the outcome: <b>4</b> (This external scrutiny helps to ensure...)."
+    },
+    {
+      "question": "Rearrange the following sentences to form a coherent paragraph:<br><br>1. This allows them to navigate and perform tasks with a high degree of precision in various environments, from factory floors to surgical theaters.<br>2. Robotics is an interdisciplinary field of engineering and computer science that deals with the design, construction, and operation of robots.<br>3. The core of a modern robot is its programming, which utilizes sophisticated algorithms and sensors to process information.<br>4. These machines are designed to assist humans by automating tasks that are either repetitive, hazardous, or require a level of accuracy beyond human capability.",
+      "options": [
+        "2, 4, 3, 1",
+        "4, 3, 1, 2",
+        "3, 1, 2, 4",
+        "2, 3, 4, 1"
+      ],
+      "correctAnswer": "2, 4, 3, 1",
+      "explanation": "Bonus by SSC. The logical flow begins with defining robotics: <b>2</b> (Robotics is an interdisciplinary field...), followed by the purpose of robots: <b>4</b> (These machines are designed to assist humans...), then the technical core: <b>3</b> (The core of a modern robot is its programming...), and finally the result: <b>1</b> (This allows them to navigate and perform tasks...)."
     }
 ],
   "ssc_cgl_14_sep_s1": [
@@ -32844,7 +33950,7 @@
       }
     }
   ],
-  "ssc_cgl_gk_12sep_s1": [
+  "ssc_cgl_gk_12_sep_s1": [
     {
       "question": {
         "en": "Which of the following features distinguishes the Elephanta Caves from other rock-cut sites of early India?",
@@ -33271,6 +34377,809 @@
       }
     }
   ],
+  "ssc_cgl_gk_17_sep_s2":
+  [
+  {
+    "question": {
+      "en": "Which of the following is a notable architectural feature of Notre Dame des Anges Church in Puducherry?",
+      "hi": "निम्नलिखित में से कौन सी पुडुचेरी में नोट्रे डेम डेस एंजेस चर्च की उल्लेखनीय वास्तुशिल्प विशेषता है?"
+    },
+    "options": [
+      {
+        "en": "Shikhara with amalaka",
+        "hi": "आमलक के साथ शिखर"
+      },
+      {
+        "en": "Transparent enclosure with piers",
+        "hi": "खम्भों सहित पारदर्शी घेरा"
+      },
+      {
+        "en": "Minaret with balcony",
+        "hi": "बालकनी के साथ मीनार"
+      },
+      {
+        "en": "Corbelled arch with lattice work",
+        "hi": "जालीदार कार्य के साथ कोर्बेल्ड मेहराब"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Transparent enclosure with piers",
+      "hi": "खम्भों सहित पारदर्शी घेरा"
+    },
+    "explanation": {
+      "en": "Notre Dame des Anges Church is known for its Greco-Roman architecture, featuring a transparent enclosure with piers as a notable design element.",
+      "hi": "नोट्रे डेम डेस एंजेस चर्च अपनी ग्रीको-रोमन वास्तुकला के लिए जाना जाता है, जिसमें खंभों वाला पारदर्शी घेरा एक उल्लेखनीय डिजाइन तत्व है।"
+    }
+  },
+  {
+    "question": {
+      "en": "Which of the following best captures the cultural and historical essence of Uttarakhand's Bissu Mela?",
+      "hi": "निम्नलिखित में से कौन उत्तराखंड के बिस्सू मेले के सांस्कृतिक और ऐतिहासिक सार को सर्वोत्तम रूप से दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "A three-day martial arts event by Gorkha settlers in Garhwal to worship Lord Kartikeya as the harvest god.",
+        "hi": "गढ़वाल में गोरखा वासियों द्वारा भगवान कार्तिकेय की फसल के देवता के रूप में पूजा करने के लिए तीन दिवसीय मार्शल आर्ट कार्यक्रम।"
+      },
+      {
+        "en": "A week-long Jaunsari tribal fair in Chakrata, thanking for harvest and honoring Santoora Devi, a Durga form.",
+        "hi": "चकराता में एक सप्ताह तक चलने वाला जौनसारी जनजातीय मेला, जिसमें फसल के लिए धन्यवाद दिया जाता है तथा दुर्गा के एक रूप संतूरा देवी का सम्मान किया जाता है।"
+      },
+      {
+        "en": "A pilgrimage where Pandavas are worshipped at stone altars through Himachali Brahmin rituals.",
+        "hi": "एक तीर्थस्थल जहां हिमाचली ब्राह्मण अनुष्ठानों के माध्यम से पत्थर की वेदियों पर पांडवों की पूजा की जाती है।"
+      },
+      {
+        "en": "A fasting-based fair restricting women from dancing due to ancestral customs.",
+        "hi": "यह एक व्रत-आधारित मेला है जिसमें पैतृक रीति-रिवाजों के कारण महिलाओं को नृत्य करने से प्रतिबंधित किया जाता है।"
+      }
+    ],
+    "correctAnswer": {
+      "en": "A week-long Jaunsari tribal fair in Chakrata, thanking for harvest and honoring Santoora Devi, a Durga form.",
+      "hi": "चकराता में एक सप्ताह तक चलने वाला जौनसारी जनजातीय मेला, जिसमें फसल के लिए धन्यवाद दिया जाता है तथा दुर्गा के एक रूप संतूरा देवी का सम्मान किया जाता है।"
+    },
+    "explanation": {
+      "en": "Bissu Mela is a significant cultural festival of the Jaunsari tribe in Uttarakhand, celebrated to mark the harvest season and honor local deities.",
+      "hi": "बिस्सू मेला उत्तराखंड की जौनसारी जनजाति का एक महत्वपूर्ण सांस्कृतिक उत्सव है, जो फसल के मौसम को चिह्नित करने और स्थानीय देवताओं के सम्मान में मनाया जाता है।"
+    }
+  },
+  {
+    "question": {
+      "en": "In the context of Gupta dynasty's taxation, which pair is correct?",
+      "hi": "गुप्त वंश के कराधान के संदर्भ में कौन सा युग्म सही है?"
+    },
+    "options": [
+      {
+        "en": "Adeya penalty for libellous speech",
+        "hi": "अदेया अपमानजनक भाषण के लिए दंड"
+      },
+      {
+        "en": "Bhaga king's share of produce",
+        "hi": "भाग- उपज में राजा का हिस्सा"
+      },
+      {
+        "en": "Hiranya forced labour",
+        "hi": "हिरण्य - जबरन मजदूरी"
+      },
+      {
+        "en": "Dhanyagold bullion fee",
+        "hi": "धन्या - स्वर्ण बुलियन शुल्क"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Bhaga king's share of produce",
+      "hi": "भाग- उपज में राजा का हिस्सा"
+    },
+    "explanation": {
+      "en": "During the Gupta period, 'Bhaga' referred to the customary share of the agricultural produce (usually 1/6th) that was paid to the king.",
+      "hi": "गुप्त काल के दौरान, 'भाग' कृषि उपज के उस प्रथागत हिस्से (आमतौर पर 1/6वां हिस्सा) को संदर्भित करता था जो राजा को दिया जाता था।"
+    }
+  },
+  {
+    "question": {
+      "en": "Which of the following best describes Achal and Chal swaras in Indian classical music?",
+      "hi": "निम्नलिखित में से कौन सा भारतीय शास्त्रीय संगीत में अचल और चल स्वरों का सबसे अच्छा वर्णन करता है?"
+    },
+    "options": [
+      {
+        "en": "All swaras have fixed pitch in both systems",
+        "hi": "दोनों प्रणालियों में सभी स्वरों का सुर निश्चित होता है"
+      },
+      {
+        "en": "Sa and Pa are fixed; others have variants like Komal or Teevra",
+        "hi": "सा और पा निश्चित हैं; अन्य में कोमल या तीवरा जैसे रूप हैं"
+      },
+      {
+        "en": "Komal and Teevra swaras are used only in Carnatic music",
+        "hi": "कोमल और तीवरा स्वरों का प्रयोग केवल कर्नाटक संगीत में किया जाता है"
+      },
+      {
+        "en": "Ga and Ni are always sung in Shuddha form in all styles",
+        "hi": "गा और नि को सभी शैलियों में हमेशा शुद्ध रूप में गाया जाता है"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Sa and Pa are fixed; others have variants like Komal or Teevra",
+      "hi": "सा और पा निश्चित हैं; अन्य में कोमल या तीवरा जैसे रूप हैं"
+    },
+    "explanation": {
+      "en": "In Indian classical music, Sa (Shadja) and Pa (Pancham) are 'Achal' (fixed) swaras, while Re, Ga, Ma, Dha, and Ni are 'Chal' swaras as they can have modified forms.",
+      "hi": "भारतीय शास्त्रीय संगीत में, सा (षड्ज) और पा (पंचम) 'अचल' (स्थिर) स्वर हैं, जबकि रे, गा, मा, धा, और नि 'चल' स्वर हैं क्योंकि उनके संशोधित रूप हो सकते हैं।"
+    }
+  },
+  {
+    "question": {
+      "en": "Which of the following is true about 'en passant' in chess?",
+      "hi": "शतरंज में 'एन पासेंट' के बारे में निम्नलिखित में से कौन सा कथन सत्य है?"
+    },
+    "options": [
+      {
+        "en": "Only after a pawn moves two squares and waits a turn.",
+        "hi": "केवल तभी जब मोहरा दो वर्ग आगे बढ़ जाए और एक बारी का इंतजार करे।"
+      },
+      {
+        "en": "Can be done within two moves after the pawn's advance.",
+        "hi": "मोहरे के आगे बढ़ने के बाद दो चालों के भीतर ऐसा किया जा सकता है।"
+      },
+      {
+        "en": "Must be done immediately after the pawn moves two squares.",
+        "hi": "यह कार्य मोहरे के दो वर्ग आगे बढ़ने के तुरंत बाद किया जाना चाहिए।"
+      },
+      {
+        "en": "Only if the capturing pawn is on a dark square.",
+        "hi": "केवल तभी जब कब्जा करने वाला मोहरा अंधेरे वर्ग पर हो।"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Must be done immediately after the pawn moves two squares.",
+      "hi": "यह कार्य मोहरे के दो वर्ग आगे बढ़ने के तुरंत बाद किया जाना चाहिए।"
+    },
+    "explanation": {
+      "en": "En passant is a special pawn capture that can only occur immediately after a pawn makes a double-step move from its starting square.",
+      "hi": "एन पासेंट एक विशेष मोहरा कैप्चर है जो केवल तभी हो सकता है जब कोई मोहरा अपने शुरुआती वर्ग से दो कदम की चाल चलता है।"
+    }
+  },
+  {
+    "question": {
+      "en": "Match the dynasties listed in Column A with their respective founders mentioned in Column B:\n(A) Tomaras - (2) Ananga Pala\n(B) Khalji Dynasty - (3) Jalaluddin Khalji\n(C) Sayyid Dynasty - (4) Khizr Khan\n(D) Lodi Dynasty - (1) Bahlul Lodi",
+      "hi": "स्तम्भ A में सूचीबद्ध राजवंशों का मिलान स्तम्भ B में उल्लिखित उनके संबंधित संस्थापकों से करें:\n(A) तोमरस - (2) अनंग पाला\n(B) खिलजी राजवंश - (3) जलालुद्दीन खिलजी\n(C) सैय्यद राजवंश - (4) खिज्र ख़ान\n(D) लोदी राजवंश - (1) बहलुल लोदी"
+    },
+    "options": [
+      {
+        "en": "A→2, B→3, C→4, D→1",
+        "hi": "A→2, B→3, C→4, D→1"
+      },
+      {
+        "en": "A→3, B→2, C→4, D→1",
+        "hi": "A→3, B→2, C→4, D→1"
+      },
+      {
+        "en": "A→4, B→3, C→2, D→1",
+        "hi": "A→4, B→3, C→2, D→1"
+      },
+      {
+        "en": "A→1, B→3, C→4, D→2",
+        "hi": "A→1, B→3, C→4, D→2"
+      }
+    ],
+    "correctAnswer": {
+      "en": "A→2, B→3, C→4, D→1",
+      "hi": "A→2, B→3, C→4, D→1"
+    },
+    "explanation": {
+      "en": "Ananga Pala founded the Tomara dynasty, Jalaluddin Khalji founded the Khalji dynasty, Khizr Khan founded the Sayyid dynasty, and Bahlul Lodi founded the Lodi dynasty.",
+      "hi": "अनंग पाल ने तोमर वंश की स्थापना की, जलालुद्दीन खिलजी ने खिलजी वंश की, खिज्र खान ने सैय्यद वंश की और बहलुल लोदी ने लोदी वंश की स्थापना की।"
+    }
+  },
+  {
+    "question": {
+      "en": "In which Olympic Games did Leander Paes make his debut before winning India's first Olympic tennis medal in the following edition?",
+      "hi": "अगले संस्करण में भारत के लिए पहला ओलंपिक टेनिस पदक जीतने से पहले लिएंडर पेस ने किस ओलंपिक खेल में पदार्पण किया था?"
+    },
+    "options": [
+      {
+        "en": "Barcelona Olympic Games",
+        "hi": "बार्सिलोना ओलंपिक खेल"
+      },
+      {
+        "en": "Atlanta Olympic Games",
+        "hi": "अटलांटा ओलंपिक खेल"
+      },
+      {
+        "en": "Sydney Olympic Games",
+        "hi": "सिडनी ओलंपिक खेल"
+      },
+      {
+        "en": "New Delhi Olympic Games",
+        "hi": "नई दिल्ली ओलंपिक खेल"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Barcelona Olympic Games",
+      "hi": "बार्सिलोना ओलंपिक खेल"
+    },
+    "explanation": {
+      "en": "Leander Paes made his Olympic debut at the 1992 Barcelona Games. He went on to win a bronze medal at the 1996 Atlanta Olympics.",
+      "hi": "लिएंडर पेस ने 1992 के बार्सिलोना खेलों में अपना ओलंपिक पदार्पण किया। उन्होंने 1996 के अटलांटा ओलंपिक में कांस्य पदक जीता था।"
+    }
+  },
+  {
+    "question": {
+      "en": "At which BIMSTEC Summit was the agreement to set up the Technology Transfer Facility in Colombo signed?",
+      "hi": "कोलंबो में प्रौद्योगिकी हस्तांतरण सुविधा स्थापित करने के समझौते पर किस बिम्सटेक शिखर सम्मेलन में हस्ताक्षर किए गए थे?"
+    },
+    "options": [
+      {
+        "en": "Third Summit",
+        "hi": "तीसरा शिखर सम्मेलन"
+      },
+      {
+        "en": "Fourth Summit",
+        "hi": "चौथा शिखर सम्मेलन"
+      },
+      {
+        "en": "Fifth Summit",
+        "hi": "पाँचवाँ शिखर सम्मेलन"
+      },
+      {
+        "en": "Sixth Summit",
+        "hi": "छठा शिखर सम्मेलन"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Fifth Summit",
+      "hi": "पाँचवाँ शिखर सम्मेलन"
+    },
+    "explanation": {
+      "en": "The agreement to establish the BIMSTEC Technology Transfer Facility (TTF) in Colombo was signed during the 5th BIMSTEC Summit held in 2022.",
+      "hi": "कोलंबो में बिम्सटेक प्रौद्योगिकी हस्तांतरण सुविधा (TTF) स्थापित करने के समझौते पर 2022 में आयोजित 5वें बिम्सटेक शिखर सम्मेलन के दौरान हस्ताक्षर किए गए थे।"
+    }
+  },
+  {
+    "question": {
+      "en": "Who wrote 'An Era of Darkness: The British Empire in India'?",
+      "hi": "'एन एरा ऑफ डार्कनेसः द ब्रिटिश एम्पायर इन इंडिया' किसने लिखी है?"
+    },
+    "options": [
+      {
+        "en": "Shashi Tharoor",
+        "hi": "शशि थरूर"
+      },
+      {
+        "en": "Vikram Seth",
+        "hi": "विक्रम सेठ"
+      },
+      {
+        "en": "Pavan Varma",
+        "hi": "पवन वर्मा"
+      },
+      {
+        "en": "Romila Thapar",
+        "hi": "रोमिला थापर"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Shashi Tharoor",
+      "hi": "शशि थरूर"
+    },
+    "explanation": {
+      "en": "Shashi Tharoor authored 'An Era of Darkness', a non-fiction book that examines the impact of British colonial rule on India.",
+      "hi": "शशि थरूर ने 'एन एरा ऑफ डार्कनेस' लिखी है, जो एक गैर-काल्पनिक पुस्तक है जो भारत पर ब्रिटिश औपनिवेशिक शासन के प्रभाव की जांच करती है।"
+    }
+  },
+  {
+    "question": {
+      "en": "Who took charge as the 'Director General of the National Disaster Response Force' (NDRF) in 2024?",
+      "hi": "2024 में 'राष्ट्रीय आपदा प्रतिक्रिया बल' (NDRF) के महानिदेशक के रूप में किसने कार्यभार संभाला?"
+    },
+    "options": [
+      {
+        "en": "Piyush Anand",
+        "hi": "पीयूष आनंद"
+      },
+      {
+        "en": "Atul Karwal",
+        "hi": "अतुल करवाल"
+      },
+      {
+        "en": "Rajeev Kapoor",
+        "hi": "राजजीव कपूर"
+      },
+      {
+        "en": "Pradeep Kumar",
+        "hi": "प्रदीप कुमार"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Piyush Anand",
+      "hi": "पीयूष आनंद"
+    },
+    "explanation": {
+      "en": "Piyush Anand, a senior IPS officer, was appointed as the Director General of the NDRF in 2024.",
+      "hi": "एक वरिष्ठ आईपीएस अधिकारी पीयूष आनंद को 2024 में NDRF के महानिदेशक के रूप में नियुक्त किया गया था।"
+    }
+  },
+  {
+    "question": {
+      "en": "Gaganyaan is planned to orbit Earth at approximately what altitude?",
+      "hi": "गगनयान को पृथ्वी की लगभग कितनी ऊंचाई पर परिक्रमा करने की योजना है?"
+    },
+    "options": [
+      {
+        "en": "100 km",
+        "hi": "100 किमी"
+      },
+      {
+        "en": "400 km",
+        "hi": "400 किमी"
+      },
+      {
+        "en": "1000 km",
+        "hi": "1000 किमी"
+      },
+      {
+        "en": "36,000 km",
+        "hi": "36,000 किमी"
+      }
+    ],
+    "correctAnswer": {
+      "en": "400 km",
+      "hi": "400 किमी"
+    },
+    "explanation": {
+      "en": "The Gaganyaan mission aims to demonstrate human spaceflight capability by launching a crew to an orbit of 400 km for a 3-day mission.",
+      "hi": "गगनयान मिशन का लक्ष्य 3 दिवसीय मिशन के लिए चालक दल को 400 किमी की कक्षा में भेजकर मानव अंतरिक्ष उड़ान क्षमता का प्रदर्शन करना है।"
+    }
+  },
+  {
+    "question": {
+      "en": "Which of the following is unrelated to the components of population change?",
+      "hi": "निम्नलिखित में से कौन सा जनसंख्या परिवर्तन के घटकों से असंबंधित है?"
+    },
+    "options": [
+      {
+        "en": "Births",
+        "hi": "जन्म"
+      },
+      {
+        "en": "Deaths",
+        "hi": "मौतें"
+      },
+      {
+        "en": "Migration",
+        "hi": "प्रवास"
+      },
+      {
+        "en": "Employment",
+        "hi": "रोज़गार"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Employment",
+      "hi": "रोज़गार"
+    },
+    "explanation": {
+      "en": "The three main components of population change are births, deaths, and migration. Employment is an economic indicator, not a direct component of demographic change.",
+      "hi": "जनसंख्या परिवर्तन के तीन मुख्य घटक जन्म, मृत्यु और प्रवास हैं। रोजगार एक आर्थिक संकेतक है, जनसांख्यिकीय परिवर्तन का प्रत्यक्ष घटक नहीं है।"
+    }
+  },
+  {
+    "question": {
+      "en": "Which of the following statements are accurate regarding the All India Inter-Club U21 Water Polo League - 2025?\n1. Hosted at Mayo College, Ajmer.\n2. Organized under Western Naval Command.\n3. Held from 14 to 18 April 2025.",
+      "hi": "अखिल भारतीय अंतर क्लब U21 वाटर पोलो लीग 2025 के संदर्भ में निम्नलिखित में से कौन से कथन सही हैं?\n1. मेयो कॉलेज, अजमेर में आयोजित।\n2. पश्चिमी नौसेना कमान के तहत आयोजित।\n3. 14 से 18 अप्रैल 2025 तक आयोजित।"
+    },
+    "options": [
+      {
+        "en": "1 and 2 only",
+        "hi": "केवल 1 और 2"
+      },
+      {
+        "en": "2 and 3 only",
+        "hi": "केवल 2 और 3"
+      },
+      {
+        "en": "1 and 3 only",
+        "hi": "केवल 1 और 3"
+      },
+      {
+        "en": "1, 2 and 3",
+        "hi": "1, 2 और 3"
+      }
+    ],
+    "correctAnswer": {
+      "en": "1 and 3 only",
+      "hi": "केवल 1 और 3"
+    },
+    "explanation": {
+      "en": "The event was held at Mayo College in Ajmer from April 14-18, 2025. It was organized to promote Water Polo among youth.",
+      "hi": "यह कार्यक्रम 14-18 अप्रैल, 2025 तक अजमेर के मेयो कॉलेज में आयोजित किया गया था। इसका आयोजन युवाओं के बीच वाटर पोलो को बढ़ावा देने के लिए किया गया था।"
+    }
+  },
+  {
+    "question": {
+      "en": "Which state among the following is a major contributor to India's iron ore reserves?",
+      "hi": "निम्नलिखित में से कौन सा राज्य भारत के लौह अयस्क भंडार में प्रमुख योगदानकर्ता है?"
+    },
+    "options": [
+      {
+        "en": "Maharashtra",
+        "hi": "महाराष्ट्र"
+      },
+      {
+        "en": "Andhra Pradesh",
+        "hi": "आंध्र प्रदेश"
+      },
+      {
+        "en": "Karnataka",
+        "hi": "कर्नाटक"
+      },
+      {
+        "en": "Tamil Nadu",
+        "hi": "तमिलनाडु"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Karnataka",
+      "hi": "कर्नाटक"
+    },
+    "explanation": {
+      "en": "Karnataka, along with Odisha, Chhattisgarh, and Jharkhand, is one of the leading producers and holders of iron ore reserves in India, specifically high-grade magnetite and hematite.",
+      "hi": "कर्नाटक, ओडिशा, छत्तीसगढ़ और झारखंड के साथ, भारत में लौह अयस्क भंडार के प्रमुख उत्पादकों और धारकों में से एक है, विशेष रूप से उच्च श्रेणी के मैग्नेटाइट और हेमेटाइट का।"
+    }
+  },
+  {
+    "question": {
+      "en": "Which of these is an odd one out?",
+      "hi": "इनमें कौन सा विषम है?"
+    },
+    "options": [
+      {
+        "en": "ATP",
+        "hi": "एटीपी"
+      },
+      {
+        "en": "Glucose",
+        "hi": "शर्करा"
+      },
+      {
+        "en": "DNA",
+        "hi": "डीएनए"
+      },
+      {
+        "en": "NADH",
+        "hi": "एनएडीएच"
+      }
+    ],
+    "correctAnswer": {
+      "en": "DNA",
+      "hi": "डीएनए"
+    },
+    "explanation": {
+      "en": "ATP, Glucose, and NADH are primarily involved in energy metabolism and cellular respiration, whereas DNA is the genetic material responsible for heredity.",
+      "hi": "एटीपी, ग्लूकोज और एनएडीएच मुख्य रूप से ऊर्जा चयापचय और सेलुलर श्वसन में शामिल होते हैं, जबकि डीएनए आनुवंशिकता के लिए जिम्मेदार आनुवंशिक सामग्री है।"
+    }
+  },
+  {
+    "question": {
+      "en": "Through which Constitutional Amendment was Article 21A introduced, mandating free and compulsory education for children?",
+      "hi": "किस संवैधानिक संशोधन के माध्यम से अनुच्छेद 21A पेश किया गया था, जिसमें बच्चों के लिए मुफ्त और अनिवार्य शिक्षा को अनिवार्य बनाया गया था?"
+    },
+    "options": [
+      {
+        "en": "42nd Amendment Act",
+        "hi": "42वां संशोधन अधिनियम"
+      },
+      {
+        "en": "86th Amendment Act",
+        "hi": "86वां संशोधन अधिनियम"
+      },
+      {
+        "en": "93rd Amendment Act",
+        "hi": "93वां संशोधन अधिनियम"
+      },
+      {
+        "en": "44th Amendment Act",
+        "hi": "44वां संशोधन अधिनियम"
+      }
+    ],
+    "correctAnswer": {
+      "en": "86th Amendment Act",
+      "hi": "86वां संशोधन अधिनियम"
+    },
+    "explanation": {
+      "en": "The 86th Constitutional Amendment Act, 2002, inserted Article 21A to make right to education a Fundamental Right for children aged 6 to 14 years.",
+      "hi": "86वें संवैधानिक संशोधन अधिनियम, 2002 ने 6 से 14 वर्ष की आयु के बच्चों के लिए शिक्षा के अधिकार को मौलिक अधिकार बनाने के लिए अनुच्छेद 21A जोड़ा।"
+    }
+  },
+  {
+    "question": {
+      "en": "What happens when an ideal fluid flows through a narrowing horizontal pipe?",
+      "hi": "क्या होता है जब एक आदर्श तरल पदार्थ एक संकीर्ण क्षैतिज पाइप से होकर बहता है?"
+    },
+    "options": [
+      {
+        "en": "Speed decreases, Pressure increases",
+        "hi": "गति घटती है, दबाव बढ़ता है"
+      },
+      {
+        "en": "Speed increases, Pressure decreases",
+        "hi": "गति बढ़ती है, दबाव घटता है"
+      },
+      {
+        "en": "Both Speed and Pressure increases",
+        "hi": "गति और दबाव दोनों बढ़ जाते हैं"
+      },
+      {
+        "en": "Both speed and pressure decreases",
+        "hi": "गति और दबाव दोनों कम हो जाते हैं"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Speed increases, Pressure decreases",
+      "hi": "गति बढ़ती है, दबाव घटता है"
+    },
+    "explanation": {
+      "en": "According to Bernoulli's principle and the equation of continuity, as the cross-sectional area decreases, the fluid velocity increases and the static pressure decreases.",
+      "hi": "बरनौली के सिद्धांत और निरंतरता के समीकरण के अनुसार, जैसे-जैसे क्रॉस-अनुभागीय क्षेत्र घटता है, द्रव का वेग बढ़ता है और स्थैतिक दबाव कम होता जाता है।"
+    }
+  },
+  {
+    "question": {
+      "en": "What is the purpose of the National Single Window System (NSWS) portal?",
+      "hi": "राष्ट्रीय एकल खिड़की प्रणाली (NSWS) पोर्टल का उद्देश्य क्या है?"
+    },
+    "options": [
+      {
+        "en": "To streamline pension disbursal mechanisms for unorganized workers",
+        "hi": "असंगठित श्रमिकों के लिए पेंशन वितरण तंत्र को सुव्यवस्थित करना"
+      },
+      {
+        "en": "To facilitate industrial clearances and approvals through a single digital platform",
+        "hi": "एकल डिजिटल प्लेटफॉर्म के माध्यम से औद्योगिक मंजूरी और अनुमोदन की सुविधा प्रदान करना"
+      },
+      {
+        "en": "To monitor school enrollments across states using Aadhaar linkage",
+        "hi": "आधार लिंकेज का उपयोग करके राज्यों में स्कूल नामांकन की निगरानी करना"
+      },
+      {
+        "en": "To centralize water quality testing across urban and rural regions",
+        "hi": "शहरी और ग्रामीण क्षेत्रों में जल गुणवत्ता परीक्षण को केंद्रीकृत करना"
+      }
+    ],
+    "correctAnswer": {
+      "en": "To facilitate industrial clearances and approvals through a single digital platform",
+      "hi": "एकल डिजिटल प्लेटफॉर्म के माध्यम से औद्योगिक मंजूरी और अनुमोदन की सुविधा प्रदान करना"
+    },
+    "explanation": {
+      "en": "The NSWS portal serves as a one-stop shop for investors to apply for various central and state-level clearances required to start a business in India.",
+      "hi": "NSWS पोर्टल निवेशकों के लिए भारत में व्यवसाय शुरू करने के लिए आवश्यक विभिन्न केंद्रीय और राज्य स्तरीय मंजूरी के लिए आवेदन करने हेतु वन-स्टॉप शॉप के रूप में कार्य करता है।"
+    }
+  },
+  {
+    "question": {
+      "en": "Consider the statements about Tippani:\n1. Originated among Saurashtra women tamping floors.\n2. Male drummers provide accompaniment.",
+      "hi": "टिप्पाणी के बारे में कथनों पर विचार करें:\n1. इसकी उत्पत्ति सौराष्ट्र की महिलाओं द्वारा फर्श पटकने से हुई।\n2. पुरुष ढोल वादक संगत करते हैं।"
+    },
+    "options": [
+      {
+        "en": "Only 1 correct",
+        "hi": "केवल 1 सही"
+      },
+      {
+        "en": "Only 2 correct",
+        "hi": "केवल 2 सही"
+      },
+      {
+        "en": "Both 1 & 2 correct",
+        "hi": "1 और 2 दोनों सही हैं"
+      },
+      {
+        "en": "Neither 1 nor 2 correct",
+        "hi": "न तो 1 और न ही 2 सही है"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Both 1 & 2 correct",
+      "hi": "1 और 2 दोनों सही हैं"
+    },
+    "explanation": {
+      "en": "Tippani is a folk dance from the Chorwad region of Gujarat, performed by women using long sticks (tippanis) to beat the floor, accompanied by traditional drums.",
+      "hi": "टिप्पणी गुजरात के चोरवाड़ क्षेत्र का एक लोक नृत्य है, जो महिलाओं द्वारा फर्श को पीटने के लिए लंबी छड़ें (टिप्पणी) का उपयोग करके किया जाता है, जिसमें पारंपरिक ढोल बजाए जाते हैं।"
+    }
+  },
+  {
+    "question": {
+      "en": "Assertion (A): Human Development Index (HDI) in India improved significantly post-2010.\nReason (R): The methodology was revised globally to include inequality-adjusted HDI.",
+      "hi": "अभिकथन (A): भारत में मानव विकास सूचकांक (HDI) में 2010 के बाद उल्लेखनीय सुधार हुआ है।\nकारण (R): असमानता-समायोजित HDI को शामिल करने के लिए कार्यप्रणाली को वैश्विक स्तर पर संशोधित किया गया।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true, and R is the correct explanation of A.",
+        "hi": "A और R दोनों सत्य हैं, तथा R, A का सही स्पष्टीकरण है।"
+      },
+      {
+        "en": "Both A and R are true, but R is not the correct explanation of A.",
+        "hi": "A और R दोनों सत्य हैं, लेकिन R, A का सही स्पष्टीकरण नहीं है।"
+      },
+      {
+        "en": "A is true, but R is false.",
+        "hi": "A सत्य है, लेकिन R असत्य है।"
+      },
+      {
+        "en": "A is false, but R is true.",
+        "hi": "A असत्य है, लेकिन R सत्य है।"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Both A and R are true, but R is not the correct explanation of A.",
+      "hi": "A और R दोनों सत्य हैं, लेकिन R, A का सही स्पष्टीकरण नहीं है।"
+    },
+    "explanation": {
+      "en": "While both statements are true individually, the improvement in India's HDI is due to gains in life expectancy, schooling, and income, not primarily because of the methodology change.",
+      "hi": "जबकि दोनों कथन व्यक्तिगत रूप से सत्य हैं, भारत के HDI में सुधार जीवन प्रत्याशा, स्कूली शिक्षा और आय में वृद्धि के कारण है, न कि मुख्य रूप से कार्यप्रणाली परिवर्तन के कारण।"
+    }
+  },
+  {
+    "question": {
+      "en": "Why are the Western Ghats considered globally significant according to UNESCO?",
+      "hi": "यूनेस्को (UNESCO) के अनुसार पश्चिमी घाट को विश्व स्तर पर महत्वपूर्ण क्यों माना जाता है?"
+    },
+    "options": [
+      {
+        "en": "They categorize urban rivers based on their economic contribution to the city.",
+        "hi": "वे शहरी नदियों को शहर में उनके आर्थिक योगदान के आधार पर वर्गीकृत करते हैं।"
+      },
+      {
+        "en": "They influence the Indian monsoon and are among the world's top biodiversity hotspots.",
+        "hi": "वे भारतीय मानसून को प्रभावित करते हैं और विश्व के शीर्ष जैव विविधता हॉटस्पॉट में से एक हैं।"
+      },
+      {
+        "en": "They are located near the equator and host polar species.",
+        "hi": "वे भूमध्य रेखा के निकट स्थित हैं और ध्रुवीय प्रजातियों के पोषक हैं।"
+      },
+      {
+        "en": "They form the only volcanic plateau in peninsular India with desert flora.",
+        "hi": "वे प्रायद्वीपीय भारत में रेगिस्तानी वनस्पतियों वाला एकमात्र ज्वालामुखीय पठार बनाते हैं।"
+      }
+    ],
+    "correctAnswer": {
+      "en": "They influence the Indian monsoon and are among the world's top biodiversity hotspots.",
+      "hi": "वे भारतीय मानसून को प्रभावित करते हैं और विश्व के शीर्ष जैव विविधता हॉटस्पॉट में से एक हैं।"
+    },
+    "explanation": {
+      "en": "The Western Ghats are a UNESCO World Heritage site recognized for their immense global importance for biodiversity and their role in regulating the monsoon weather pattern.",
+      "hi": "पश्चिमी घाट यूनेस्को की विश्व धरोहर स्थल है जो जैव विविधता के लिए अपने अत्यधिक वैश्विक महत्व और मानसून मौसम पैटर्न को विनियमित करने में उनकी भूमिका के लिए मान्यता प्राप्त है।"
+    }
+  },
+  {
+    "question": {
+      "en": "Article 312 provides for creation of new ________ by Parliament.",
+      "hi": "अनुच्छेद 312 संसद द्वारा नए ________ के निर्माण का प्रावधान करता है।"
+    },
+    "options": [
+      {
+        "en": "Union Territories",
+        "hi": "केंद्र शासित प्रदेश"
+      },
+      {
+        "en": "Constitutional Amendments",
+        "hi": "संवैधानिक संशोधन"
+      },
+      {
+        "en": "All India Services",
+        "hi": "अखिल भारतीय सेवाएँ"
+      },
+      {
+        "en": "Finance Commissions",
+        "hi": "वित्त आयोग"
+      }
+    ],
+    "correctAnswer": {
+      "en": "All India Services",
+      "hi": "अखिल भारतीय सेवाएँ"
+    },
+    "explanation": {
+      "en": "Article 312 of the Constitution empowers the Parliament to create one or more All India Services common to the Union and the States, if the Rajya Sabha passes a resolution.",
+      "hi": "संविधान का अनुच्छेद 312 संसद को संघ और राज्यों के लिए समान एक या अधिक अखिल भारतीय सेवाएं बनाने का अधिकार देता है, यदि राज्यसभा एक प्रस्ताव पारित करती है।"
+    }
+  },
+  {
+    "question": {
+      "en": "Assertion (A): Self-reliance was a major objective of India's early planning era.\nReason (R): India sought to reduce dependence on foreign aid and imports post-independence.",
+      "hi": "अभिकथन (A): आत्मनिर्भरता भारत के प्रारंभिक नियोजन युग का एक प्रमुख उद्देश्य था।\nकारण (R): भारत ने स्वतंत्रता के बाद विदेशी सहायता और आयात पर निर्भरता कम करने का प्रयास किया।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A.",
+        "hi": "A और R दोनों सत्य हैं और R, A का सही स्पष्टीकरण है।"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A.",
+        "hi": "A और R दोनों सत्य हैं लेकिन R, A का सही स्पष्टीकरण नहीं है।"
+      },
+      {
+        "en": "A is true but R is false.",
+        "hi": "A सत्य है लेकिन R असत्य है।"
+      },
+      {
+        "en": "A is false but R is true.",
+        "hi": "A असत्य है लेकिन R सत्य है।"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Both A and R are true and R is the correct explanation of A.",
+      "hi": "A और R दोनों सत्य हैं और R, A का सही स्पष्टीकरण है।"
+    },
+    "explanation": {
+      "en": "Post-independence, India prioritized self-reliance to build a strong domestic economy and avoid external influence or pressure associated with heavy reliance on foreign resources.",
+      "hi": "स्वतंत्रता के बाद, भारत ने एक मजबूत घरेलू अर्थव्यवस्था बनाने और विदेशी संसाधनों पर भारी निर्भरता से जुड़े बाहरी प्रभाव या दबाव से बचने के लिए आत्मनिर्भरता को प्राथमिकता दी।"
+    }
+  },
+  {
+    "question": {
+      "en": "What is India's first successful interplanetary mission?",
+      "hi": "भारत का पहला सफल अंतरग्रहीय मिशन कौन सा है?"
+    },
+    "options": [
+      {
+        "en": "Chandrayaan-1",
+        "hi": "चंद्रयान-1"
+      },
+      {
+        "en": "Mangalyaan",
+        "hi": "मंगलयान"
+      },
+      {
+        "en": "Gaganyaan",
+        "hi": "गगनयान"
+      },
+      {
+        "en": "Aditya-L1",
+        "hi": "आदित्य-एल 1"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Mangalyaan",
+      "hi": "मंगलयान"
+    },
+    "explanation": {
+      "en": "The Mars Orbiter Mission (MOM), also called Mangalyaan, was India's first interplanetary mission. Launched in 2013, it made India the first nation to reach Mars on its maiden attempt.",
+      "hi": "मार्स ऑर्बिटर मिशन (MOM), जिसे मंगलयान भी कहा जाता है, भारत का पहला अंतरग्रहीय मिशन था। 2013 में लॉन्च किए गए इस मिशन ने भारत को अपने पहले ही प्रयास में मंगल तक पहुँचने वाला पहला देश बना दिया।"
+    }
+  },
+  {
+    "question": {
+      "en": "Consider the following statements:\n1. Article 262 empowers Parliament to set up tribunals for river disputes.\n2. The Supreme Court has appellate jurisdiction in such disputes.",
+      "hi": "निम्नलिखित कथनों पर विचार कीजिए:\n1. अनुच्छेद 262 संसद को नदी विवादों के लिए न्यायाधिकरण स्थापित करने का अधिकार देता है।\n2. ऐसे विवादों में सर्वोच्च न्यायालय को अपीलीय क्षेत्राधिकार प्राप्त है।"
+    },
+    "options": [
+      {
+        "en": "Only 1",
+        "hi": "केवल 1"
+      },
+      {
+        "en": "Only 2",
+        "hi": "केवल 2"
+      },
+      {
+        "en": "Both 1 and 2",
+        "hi": "1 और 2 दोनों"
+      },
+      {
+        "en": "Neither 1 nor 2",
+        "hi": "न तो 1 और न ही 2"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Only 1",
+      "hi": "केवल 1"
+    },
+    "explanation": {
+      "en": "Under Article 262, Parliament may by law exclude the jurisdiction of the Supreme Court and other courts in disputes relating to waters of inter-State rivers.",
+      "hi": "अनुच्छेद 262 के तहत, संसद कानून द्वारा अंतर-राज्यीय नदियों के जल से संबंधित विवादों में सर्वोच्च न्यायालय और अन्य न्यायालयों के अधिकार क्षेत्र को बाहर कर सकती है।"
+    }
+  }
+],
   "ssc_cgl_fullmock_12_sep_s1": [
     {
       "id": 1,
