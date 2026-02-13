@@ -7,7 +7,7 @@ const Coupon = sequelize ? sequelize.define('Coupon', {
   ownerName: { type: DataTypes.STRING(100), allowNull: true },
   ownerEmail: { type: DataTypes.STRING(100), allowNull: true },
   commissionRate: { type: DataTypes.DECIMAL(5, 2), defaultValue: 0 },
-  type: { type: DataTypes.ENUM('percent', 'flat'), allowNull: true },
+  type: { type: DataTypes.STRING(10), allowNull: true },
   discount: { type: DataTypes.DECIMAL(10, 2), allowNull: true },
   maxUses: { type: DataTypes.INTEGER, allowNull: true, field: 'max_uses' },
   expiresAt: { type: DataTypes.DATE, allowNull: true, field: 'expires_at' },

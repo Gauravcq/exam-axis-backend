@@ -82,6 +82,9 @@ const initDatabase = async () => {
     // Test connection
     await testConnection();
     
+    // Ensure all models are registered BEFORE sync
+    require('./models');
+    
     // Sync models
     await sequelize.sync({ 
       alter: false  // Don't alter in production!

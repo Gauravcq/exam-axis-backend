@@ -127,10 +127,10 @@ exports.getDashboardStats = async (req, res, next) => {
 
 exports.getAllUsers = async (req, res, next) => {
   try {
-    const { page = 1, limit = 20, search, role, isActive, isPremium, couponCode } = req.query;
-    const pageNum = parseInt(page);
+    const { page = 1, limit = 20, search, role, isActive, isPremium, couponCode, offset: offsetParam, pageIndex } = req.query;
     const limitNum = parseInt(limit);
-    const offset = (pageNum - 1) * limitNum;
+    const usePage = pageIndex !== undefined ? (parseInt(pageIndex) + 1) : parseInt(page);
+    const offset = offsetParam !== undefined ? parseInt(offsetParam) : (usePage - 1) * limitNum;
 
     const where = {};
     const include = [];
@@ -183,7 +183,7 @@ exports.getAllUsers = async (req, res, next) => {
 
     apiResponse(res, 200, true, 'Users retrieved', {
       total: count,
-      page: pageNum,
+      page: usePage,
       totalPages: Math.ceil(count / limitNum),
       users: rows
     });
@@ -700,7 +700,7 @@ exports.getUsersByCoupon = async (req, res, next) => {
 
 exports.createCoupon = async (req, res, next) => {
   try {
-    const { code, ownerName, ownerEmail, commissionRate, isActive, type, discount, maxUses, expires } = req.body;
+    const { code, ownerName, ownerEmail, commissionRate, isActive, type, discount, maxUses, expires, expiresAt, expiry } = req.body;
     if (!code) {
       return apiResponse(res, 400, false, 'Code is required');
     }
@@ -712,7 +712,7 @@ exports.createCoupon = async (req, res, next) => {
     let normalizedType = undefined;
     let normalizedDiscount = undefined;
     let normalizedMaxUses = undefined;
-    let expiresAt = undefined;
+    let expiresAtDate = undefined;
     if (type) {
       const t = String(type).toLowerCase();
       if (!['percent', 'flat'].includes(t)) {
@@ -737,12 +737,13 @@ exports.createCoupon = async (req, res, next) => {
       }
       normalizedMaxUses = m;
     }
-    if (expires) {
-      const dt = new Date(expires);
+    const rawExpiry = expires ?? expiresAt ?? expiry;
+    if (rawExpiry) {
+      const dt = new Date(rawExpiry);
       if (isNaN(dt.getTime())) {
         return apiResponse(res, 400, false, 'Invalid expires date');
       }
-      expiresAt = dt;
+      expiresAtDate = dt;
     }
     const coupon = await Coupon.create({
       code,
@@ -753,7 +754,7 @@ exports.createCoupon = async (req, res, next) => {
       type: normalizedType,
       discount: normalizedDiscount,
       maxUses: normalizedMaxUses,
-      expiresAt
+      expiresAt: expiresAtDate
     });
     apiResponse(res, 201, true, 'Coupon created', { coupon });
   } catch (error) {
