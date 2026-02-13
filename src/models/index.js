@@ -8,6 +8,8 @@ const OTP = require('./OTP');
 const LoginLog = require('./LoginLog');
 const ErrorLog = require('./ErrorLog');
 const TelegramInvite = require('./TelegramInvite');
+const Coupon = require('./Coupon');
+const CouponAttribution = require('./CouponAttribution');
 
 // ========== ASSOCIATIONS ==========
 
@@ -96,5 +98,7 @@ module.exports = {
     OTP,
     LoginLog,
     ErrorLog,
-    TelegramInvite
+    TelegramInvite,
+    Coupon,
+    CouponAttribution
 };

@@ -2,6 +2,8 @@
 
 const PaymentRequest = require('../models/PaymentRequest');
 const User = require('../models/User');
+const Coupon = require('../models/Coupon');
+const CouponAttribution = require('../models/CouponAttribution');
 
 // Import email functions safely
 let sendPaymentNotificationEmail, sendPremiumActivatedEmail, sendPaymentRejectedEmail;
@@ -402,6 +404,16 @@ exports.approvePayment = async (req, res) => {
             } catch (emailError) {
                 console.error('Failed to send premium activation email:', emailError);
             }
+
+            try {
+                const attr = await CouponAttribution.findOne({
+                    where: { userId: user.id },
+                    order: [['createdAt', 'DESC']]
+                });
+                if (attr) {
+                    await Coupon.increment('premiumCount', { by: 1, where: { id: attr.couponId } });
+                }
+            } catch (e) {}
         }
 
         res.json({

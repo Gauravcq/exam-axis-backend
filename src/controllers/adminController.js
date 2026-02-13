@@ -2,7 +2,7 @@
 
 const { Op } = require('sequelize');
 const { sequelize } = require('../config/database');
-const { User, Test, TestAttempt, LoginLog, ErrorLog } = require('../models');
+const { User, Test, TestAttempt, LoginLog, ErrorLog, Coupon, CouponAttribution, PaymentRequest } = require('../models');
 const { apiResponse } = require('../utils/helpers');
 
 // ==================== DASHBOARD ====================
@@ -44,24 +44,20 @@ exports.getDashboardStats = async (req, res, next) => {
       console.error('Error counting new users:', err.message);
     }
 
-    // Count paid users (handle if column doesn't exist)
+    // Paid users: counted via isPremium flag
     try {
-      paidUsers = await User.count({ 
-        where: { isPaid: true } 
-      });
+      paidUsers = await User.count({ where: { isPremium: true } });
     } catch (err) {
-      console.log('isPaid column may not exist yet - skipping paid users count');
+      console.error('Error counting premium users:', err.message);
       paidUsers = 0;
     }
 
-    // Calculate total revenue (handle if column doesn't exist)
+    // Total revenue: sum of approved PaymentRequest.amount
     try {
-      const revenueResult = await User.sum('paidAmount', {
-        where: { isPaid: true }
-      });
-      totalRevenue = revenueResult || 0;
+      const revenueResult = await PaymentRequest.sum('amount', { where: { status: 'approved' } });
+      totalRevenue = Number(revenueResult) || 0;
     } catch (err) {
-      console.log('paidAmount column may not exist yet - skipping revenue');
+      console.error('Error summing payments:', err.message);
       totalRevenue = 0;
     }
 
@@ -131,37 +127,67 @@ exports.getDashboardStats = async (req, res, next) => {
 
 exports.getAllUsers = async (req, res, next) => {
   try {
-    const { page = 1, limit = 20, search, role, isActive } = req.query;
-    const offset = (page - 1) * limit;
-    
+    const { page = 1, limit = 20, search, role, isActive, isPremium, couponCode } = req.query;
+    const pageNum = parseInt(page);
+    const limitNum = parseInt(limit);
+    const offset = (pageNum - 1) * limitNum;
+
     const where = {};
-    
+    const include = [];
+
     if (search) {
+      const term = `%${search}%`;
       where[Op.or] = [
-        { username: { [Op.iLike]: `%${search}%` } },
-        { email: { [Op.iLike]: `%${search}%` } },
-        { fullName: { [Op.iLike]: `%${search}%` } }
+        { username: { [Op.iLike]: term } },
+        { email: { [Op.iLike]: term } },
+        { fullName: { [Op.iLike]: term } },
+        { phone: { [Op.iLike]: term } }
       ];
     }
-    
+
     if (role) where.role = role;
     if (isActive !== undefined) where.isActive = isActive === 'true';
-    
+    if (isPremium !== undefined) where.isPremium = isPremium === 'true';
+
+    // Coupon filter and include
+    if (couponCode) {
+      include.push({
+        model: CouponAttribution,
+        as: 'couponAttributions',
+        required: true,
+        include: [{
+          model: Coupon,
+          as: 'coupon',
+          required: true,
+          where: { code: couponCode }
+        }]
+      });
+    } else {
+      include.push({
+        model: CouponAttribution,
+        as: 'couponAttributions',
+        required: false,
+        include: [{ model: Coupon, as: 'coupon', required: false }]
+      });
+    }
+
     const { count, rows } = await User.findAndCountAll({
       where,
       attributes: { exclude: ['password'] },
       order: [['createdAt', 'DESC']],
-      limit: parseInt(limit),
-      offset: parseInt(offset)
+      limit: limitNum,
+      offset,
+      include,
+      distinct: true
     });
-    
+
     apiResponse(res, 200, true, 'Users retrieved', {
       total: count,
-      page: parseInt(page),
-      totalPages: Math.ceil(count / limit),
+      page: pageNum,
+      totalPages: Math.ceil(count / limitNum),
       users: rows
     });
-    
+
   } catch (error) {
     next(error);
   }
@@ -622,6 +648,170 @@ exports.updateQuestion = async (req, res, next) => {
       question: questions[index]
     });
     
+  } catch (error) {
+    next(error);
+  }
+};
+
+exports.listCoupons = async (req, res, next) => {
+  try {
+    const rows = await Coupon.findAll({
+      order: [['createdAt', 'DESC']]
+    });
+    apiResponse(res, 200, true, 'Coupons retrieved', { coupons: rows });
+  } catch (error) {
+    next(error);
+  }
+};
+
+exports.getUsersByCoupon = async (req, res, next) => {
+  try {
+    const { code } = req.query;
+    if (!code) {
+      return apiResponse(res, 400, false, 'coupon code required');
+    }
+    const coupon = await Coupon.findOne({ where: { code } });
+    if (!coupon) {
+      return apiResponse(res, 404, false, 'Coupon not found');
+    }
+    const attributions = await CouponAttribution.findAll({
+      where: { couponId: coupon.id },
+      order: [['createdAt', 'DESC']],
+      include: [{ model: User, as: 'user', attributes: ['id', 'email', 'fullName', 'username', 'isPremium', 'premiumSince'] }]
+    });
+    const users = attributions.map(a => ({
+      id: a.user?.id,
+      email: a.user?.email,
+      fullName: a.user?.fullName,
+      username: a.user?.username,
+      isPremium: a.user?.isPremium || false,
+      premiumSince: a.user?.premiumSince || null,
+      attributedAt: a.createdAt
+    })).filter(u => u.id);
+    apiResponse(res, 200, true, 'Users by coupon', {
+      coupon: { id: coupon.id, code: coupon.code, ownerName: coupon.ownerName, usedCount: coupon.usedCount, premiumCount: coupon.premiumCount },
+      total: users.length,
+      users
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+exports.createCoupon = async (req, res, next) => {
+  try {
+    const { code, ownerName, ownerEmail, commissionRate, isActive, type, discount, maxUses, expires } = req.body;
+    if (!code) {
+      return apiResponse(res, 400, false, 'Code is required');
+    }
+    const existing = await Coupon.findOne({ where: { code } });
+    if (existing) {
+      return apiResponse(res, 400, false, 'Code already exists');
+    }
+    // Validate type/discount for discount-style coupons
+    let normalizedType = undefined;
+    let normalizedDiscount = undefined;
+    let normalizedMaxUses = undefined;
+    let expiresAt = undefined;
+    if (type) {
+      const t = String(type).toLowerCase();
+      if (!['percent', 'flat'].includes(t)) {
+        return apiResponse(res, 400, false, 'Invalid coupon type');
+      }
+      normalizedType = t;
+    }
+    if (discount !== undefined) {
+      const d = Number(discount);
+      if (isNaN(d) || d < 0) {
+        return apiResponse(res, 400, false, 'Invalid discount value');
+      }
+      if (normalizedType === 'percent' && (d < 0 || d > 100)) {
+        return apiResponse(res, 400, false, 'Percent discount must be 0-100');
+      }
+      normalizedDiscount = d;
+    }
+    if (maxUses !== undefined) {
+      const m = parseInt(maxUses);
+      if (isNaN(m) || m < 0) {
+        return apiResponse(res, 400, false, 'Invalid maxUses');
+      }
+      normalizedMaxUses = m;
+    }
+    if (expires) {
+      const dt = new Date(expires);
+      if (isNaN(dt.getTime())) {
+        return apiResponse(res, 400, false, 'Invalid expires date');
+      }
+      expiresAt = dt;
+    }
+    const coupon = await Coupon.create({
+      code,
+      ownerName: ownerName || null,
+      ownerEmail: ownerEmail || null,
+      commissionRate: commissionRate || 0,
+      isActive: isActive !== undefined ? !!isActive : true,
+      type: normalizedType,
+      discount: normalizedDiscount,
+      maxUses: normalizedMaxUses,
+      expiresAt
+    });
+    apiResponse(res, 201, true, 'Coupon created', { coupon });
+  } catch (error) {
+    next(error);
+  }
+};
+
+exports.updateCoupon = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const coupon = await Coupon.findByPk(id);
+    if (!coupon) {
+      return apiResponse(res, 404, false, 'Coupon not found');
+    }
+    const { code, ownerName, ownerEmail, commissionRate, isActive, type, discount, maxUses, expires } = req.body;
+    const update = {};
+    if (code) update.code = code;
+    if (ownerName !== undefined) update.ownerName = ownerName || null;
+    if (ownerEmail !== undefined) update.ownerEmail = ownerEmail || null;
+    if (commissionRate !== undefined) update.commissionRate = commissionRate;
+    if (isActive !== undefined) update.isActive = !!isActive;
+    if (type !== undefined) {
+      const t = String(type).toLowerCase();
+      if (!['percent', 'flat', ''].includes(t)) {
+        return apiResponse(res, 400, false, 'Invalid coupon type');
+      }
+      update.type = t || null;
+    }
+    if (discount !== undefined) {
+      const d = Number(discount);
+      if (isNaN(d) || d < 0) {
+        return apiResponse(res, 400, false, 'Invalid discount value');
+      }
+      if ((update.type || coupon.type) === 'percent' && (d < 0 || d > 100)) {
+        return apiResponse(res, 400, false, 'Percent discount must be 0-100');
+      }
+      update.discount = d;
+    }
+    if (maxUses !== undefined) {
+      const m = parseInt(maxUses);
+      if (isNaN(m) || m < 0) {
+        return apiResponse(res, 400, false, 'Invalid maxUses');
+      }
+      update.maxUses = m;
+    }
+    if (expires !== undefined) {
+      if (expires === null || expires === '') {
+        update.expiresAt = null;
+      } else {
+        const dt = new Date(expires);
+        if (isNaN(dt.getTime())) {
+          return apiResponse(res, 400, false, 'Invalid expires date');
+        }
+        update.expiresAt = dt;
+      }
+    }
+    await coupon.update(update);
+    apiResponse(res, 200, true, 'Coupon updated', { coupon });
   } catch (error) {
     next(error);
   }

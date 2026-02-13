@@ -5,6 +5,8 @@ const crypto = require('crypto');
 const User = require('../models/User');
 const OTP = require('../models/OTP');
 const { sendOTPEmail, sendPasswordResetSuccessEmail } = require('../utils/emailService');
+const Coupon = require('../models/Coupon');
+const CouponAttribution = require('../models/CouponAttribution');
 
 // ==================== HELPERS ====================
 
@@ -51,7 +53,7 @@ const sendTokenResponse = (user, statusCode, res) => {
  */
 exports.register = async (req, res, next) => {
     try {
-        const { fullName, username, email, password, phone, preferredExam } = req.body;
+        const { fullName, username, email, password, phone, preferredExam, couponCode } = req.body;
 
         // Validate required fields
         if (!fullName || !username || !email || !password) {
@@ -89,6 +91,24 @@ exports.register = async (req, res, next) => {
             phone,
             preferredExam
         });
+
+        const rawCode = (couponCode || (req.query && (req.query.coupon || req.query.code)) || '').trim();
+        if (rawCode) {
+            const coupon = await Coupon.findOne({ where: { code: rawCode, isActive: true } });
+            if (coupon) {
+                const now = new Date();
+                const isExpired = coupon.expiresAt && now > new Date(coupon.expiresAt);
+                const isMaxed = typeof coupon.maxUses === 'number' && coupon.maxUses >= 0 && coupon.usedCount >= coupon.maxUses;
+                if (!isExpired && !isMaxed) {
+                    await CouponAttribution.create({
+                        couponId: coupon.id,
+                        userId: user.id,
+                        source: 'register'
+                    });
+                    await coupon.increment('usedCount', { by: 1 });
+                }
+            }
+        }
 
         sendTokenResponse(user, 201, res);
 

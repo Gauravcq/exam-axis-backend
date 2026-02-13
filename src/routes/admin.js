@@ -25,7 +25,11 @@ const {
   updateQuestion,
   getTestStats,
   bulkLockTests,
-  toggleTestLock
+  toggleTestLock,
+  listCoupons,
+  createCoupon,
+  updateCoupon,
+  getUsersByCoupon
 } = require('../controllers/adminController');
 
 const { protect } = require('../middleware/auth');
@@ -85,5 +89,11 @@ router.put('/tests/:id/toggle-lock', toggleTestLock);
 // ==================== LOGS ====================
 router.get('/logs/errors', getErrorLogs);
 router.get('/logs/logins', getLoginLogs);
+
+// ==================== COUPONS ====================
+router.get('/coupons', listCoupons);
+router.post('/coupons', createCoupon);
+router.put('/coupons/:id', updateCoupon);
+router.get('/users/by-coupon', getUsersByCoupon);
 
 module.exports = router;
