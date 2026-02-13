@@ -10702,6 +10702,563 @@
       "explanation": "The logical flow begins with the definition: <b>2</b> (Version control is a system...), followed by its benefits: <b>4</b> (By using version control...), then the technical details: <b>3</b> (The process involves...), and finally a specific application: <b>1</b> (This is especially useful in software development...)."
     }
 ],
+
+ "ssc_cgl_eng_16_sep_s2":
+ [
+    {
+      "question": "Select the most appropriate synonym of the given word:<br><b>GARRULOUS</b>",
+      "options": [
+        "Talkative",
+        "Reserved",
+        "Silent",
+        "Listen"
+      ],
+      "correctAnswer": "Talkative",
+      "explanation": "<b>Garrulous</b> means excessively talkative, especially on trivial matters. <b>Talkative</b> is the most appropriate synonym."
+    },
+    {
+      "question": "Select the most appropriate antonym of the given word:<br><b>Incessant</b>",
+      "options": [
+        "Constant",
+        "Ceaseless",
+        "Intermittent",
+        "Perpetual"
+      ],
+      "correctAnswer": "Intermittent",
+      "explanation": "<b>Incessant</b> means continuing without pause or interruption. The opposite (antonym) is <b>Intermittent</b>, meaning occurring at irregular intervals; not continuous."
+    },
+    {
+      "question": "Select the most appropriate antonym of the given word:<br><b>Piquant</b>",
+      "options": [
+        "Bland",
+        "Spicy",
+        "Zesty",
+        "Tart"
+      ],
+      "correctAnswer": "Bland",
+      "explanation": "<b>Piquant</b> means having a pleasantly sharp taste or appetizing flavor. The opposite (antonym) is <b>Bland</b>, meaning lacking strong flavor or character."
+    },
+    {
+      "question": "Choose the correct meaning of idiom:<br><b>Carry coals to Newcastle</b>",
+      "options": [
+        "Provide something where it is already abundant",
+        "Seek advice from experts",
+        "Complain without cause",
+        "Travel without direction"
+      ],
+      "correctAnswer": "Provide something where it is already abundant",
+      "explanation": "The idiom 'Carry coals to Newcastle' means to do something pointless, specifically <b>to provide something where it is already abundant</b>. Newcastle was historically a major coal-producing area in England."
+    },
+    {
+      "question": "Choose the correct meaning of idiom:<br><b>Toe the line</b>",
+      "options": [
+        "Follow the leader physically",
+        "Join the military",
+        "Obey rules or authority exactly",
+        "Oppose popular opinion"
+      ],
+      "correctAnswer": "Obey rules or authority exactly",
+      "explanation": "The idiom 'Toe the line' means to <b>obey rules or authority exactly</b>, conforming to established standards or policies."
+    },
+    {
+      "question": "Which is the correct spelling of a word meaning 'self-rule'?",
+      "options": [
+        "Autonomy",
+        "Autonamy",
+        "Autonommy",
+        "Autonaumy"
+      ],
+      "correctAnswer": "Autonomy",
+      "explanation": "The correct spelling of the word meaning self-rule or independence is <b>Autonomy</b>."
+    },
+    {
+      "question": "Spot the correct spelling of a 24-hour biological cycle:",
+      "options": [
+        "Circadion",
+        "Circadian",
+        "Circadien",
+        "Circadijan"
+      ],
+      "correctAnswer": "Circadian",
+      "explanation": "The correct spelling of the term referring to a 24-hour biological cycle is <b>Circadian</b> (as in circadian rhythm)."
+    },
+    {
+      "question": "Choose the correct one-word substitute for:<br>'Something that is impossible to be read'.",
+      "options": [
+        "Illegible",
+        "Decipherable",
+        "Invisible",
+        "Unutterable"
+      ],
+      "correctAnswer": "Illegible",
+      "explanation": "<b>Illegible</b> means not clear enough to be read; impossible to read or decipher."
+    },
+    {
+      "question": "Choose the correct one-word substitute for:<br>'A deep and seemingly bottomless chasm'.",
+      "options": [
+        "Crevasse",
+        "Crater",
+        "Abyss",
+        "Gorge"
+      ],
+      "correctAnswer": "Abyss",
+      "explanation": "<b>Abyss</b> means a deep or seemingly bottomless chasm, often used metaphorically for anything profound or infinite."
+    },
+    {
+      "question": "Choose the correct phrasal verb:<br>The scientist was unable to ______ a definitive conclusion from the data.",
+      "options": [
+        "draw out",
+        "bring up",
+        "make over",
+        "arrive at"
+      ],
+      "correctAnswer": "arrive at",
+      "explanation": "The phrasal verb <b>arrive at</b> means to reach or come to (a conclusion, decision, or agreement). It correctly collocates with 'conclusion'."
+    },
+    {
+      "question": "Select the correct option:<br>He spoke so ______ that even abstruse theories seemed digestible.",
+      "options": [
+        "lucid",
+        "lucidly",
+        "lucidity",
+        "lucidness"
+      ],
+      "correctAnswer": "lucidly",
+      "explanation": "The blank requires an adverb to modify the verb 'spoke'. <b>Lucidly</b> is the adverb form meaning in a clear and easily understood manner."
+    },
+    {
+      "question": "Find the part of the sentence that contains an error:<br>It was the misalignment between projected and actual data (1)/ that cast doubt not only on the calculations (2)/ but also on the assumptions that (3)/ underlied the funding strategy. (4)",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "correctAnswer": "(4)",
+      "explanation": "The error is in part (4). The past tense of 'underlie' is <b>underlay</b>, not 'underlied'. The correct form should be 'that <b>underlay</b> the funding strategy'."
+    },
+    {
+      "question": "Change the following from active to passive:<br><b>Someone must have tampered with the encryption keys.</b>",
+      "options": [
+        "The encryption keys must have been tampered with.",
+        "The encryption keys must have tampered by someone.",
+        "The encryption keys must be tampered with by someone.",
+        "The encryption keys must had been tampered with."
+      ],
+      "correctAnswer": "The encryption keys must have been tampered with.",
+      "explanation": "The active sentence uses the modal perfect 'must have + past participle'. The correct passive structure is <b>must have been + past participle</b>: 'The encryption keys <b>must have been tampered with</b>'."
+    },
+    {
+      "question": "Select the sentence containing the homonym of the highlighted word:<br>The artisan engraved a <b>cartouche</b> around the royal name.",
+      "options": [
+        "The papyrus bore a golden cartouche of the pharaoh.",
+        "The Egyptian cartouche encircled each hieroglyph name.",
+        "The archaeologist uncovered a silver cartouche.",
+        "The sculptor carved a cartouche of floral motifs for the ceiling."
+      ],
+      "correctAnswer": "The sculptor carved a cartouche of floral motifs for the ceiling.",
+      "explanation": "The highlighted word 'cartouche' in the question refers to an Egyptian oval frame around royal names. The homonym in option (d) uses 'cartouche' to mean an <b>ornamental architectural scroll or tablet</b>, which is a different meaning of the same word."
+    },
+    {
+      "question": "Convert the sentence provided below from its passive voice structure to an active voice structure:<br><b>A solution has been suggested by the team to resolve the issue.</b>",
+      "options": [
+        "The team had suggested a solution to resolve the issue.",
+        "The team was suggesting a solution to resolve the issue.",
+        "The team suggested a solution to resolve the issue.",
+        "The team has suggested a solution to resolve the issue."
+      ],
+      "correctAnswer": "The team has suggested a solution to resolve the issue.",
+      "explanation": "The passive sentence is in the Present Perfect tense ('has been suggested'). The active voice equivalent maintains the same tense: <b>The team has suggested</b> a solution to resolve the issue."
+    },
+    {
+      "question": "Choose the most suitable option to replace the highlighted part of the sentence:<br>She <b>told to me</b> the news.",
+      "options": [
+        "told me",
+        "told for me",
+        "said to me",
+        "has told to me"
+      ],
+      "correctAnswer": "told me",
+      "explanation": "The verb 'tell' takes a direct object without a preposition. The correct form is <b>told me</b> the news (not 'told to me')."
+    },
+    {
+      "question": "Choose the most suitable option to replace the highlighted part of the sentence:<br><b>Neither of the options are</b> suitable for this task.",
+      "options": [
+        "is suitable to the task.",
+        "is suitable for this task",
+        "were suitable in this task",
+        "is suitable at this task"
+      ],
+      "correctAnswer": "is suitable for this task",
+      "explanation": "'Neither' when used as a pronoun referring to two things takes a singular verb. The correct form is <b>Neither of the options is suitable for this task</b>."
+    },
+    {
+      "question": "Read the following passage and answer the questions based on the passage:<br><br>Democracy is frequently extolled as the political system that best guarantees individual liberty. Enshrined in constitutional rights and protected by the rule of law, freedom of speech, association, religion, and conscience are regarded as hallmarks of democratic governance. However, what is less frequently acknowledged-but equally vital-is the reciprocal pillar of responsibility without which such freedoms can degenerate into chaos, polarization, or authoritarian backlashes. Freedom in a democracy is not absolute; it exists within a framework of mutual restraint and civic discipline. The right to express dissent, for instance, is foundational. Yet when freedom of expression is weaponized to disseminate hate speech, misinformation, or seditious propaganda, it ceases to serve the democratic cause. Responsibility thus entails a conscious engagement with the implications of one's actions-not just their legality, but their ethical and civic consequences. The challenge lies in reconciling liberty with accountability in pluralistic societies. With diverse cultural, ideological, and economic constituencies, democracies are inherently sites of contention. In such contexts, responsibility demands more than legal compliance-it requires empathy, critical thinking, and a commitment to collective well-being. A citizen's right to protest, for example, must be exercised with awareness of public order and respect for differing viewpoints. Similarly, the freedom to vote must be matched by an obligation to make informed choices, unswayed by populism, prejudice, or manipulation. The tension between freedom and responsibility is perhaps most visible during moments of crisis-be it a pandemic, a communal riot, or a constitutional standoff. In such times, the temptation to prioritize personal liberty at the cost of collective safety can prove fatal. Refusal to wear masks during a health emergency or the viral spread of unverified news during civil unrest exemplify how unbridled freedom can undermine democratic resilience. Moreover, democracy itself is not self-sustaining; it requires vigilant citizens who recognize that rights are not entitlements in perpetuity, but privileges preserved through active participation. When freedom is divorced from responsibility, democratic institutions become vulnerable to erosion-from within. Demagogues often rise not solely because of state failure, but due to civic apathy or irresponsible use of democratic freedoms by the populace itself. Therefore, in any functioning democracy, freedom and responsibility are not opposing forces but mutually reinforcing imperatives. The preservation of liberty necessitates a citizenry capable of ethical judgment, informed debate, and constructive dissent. In the absence of responsibility, freedom risks transforming from a catalyst of justice into a vehicle of division. Democracy survives not just through the laws it enacts, but through the civic virtues its citizens embody.<br><br><b>According to the passage, what happens when freedom is exercised without responsibility?</b>",
+      "options": [
+        "It enhances legal systems",
+        "It strengthens civic unity",
+        "It leads to misuse and societal harm",
+        "It guarantees better governance"
+      ],
+      "correctAnswer": "It leads to misuse and societal harm",
+      "explanation": "The passage states that 'freedoms can degenerate into chaos, polarization, or authoritarian backlashes' and 'unbridled freedom can undermine democratic resilience.' This clearly indicates that freedom without responsibility <b>leads to misuse and societal harm</b>."
+    },
+    {
+      "question": "Based on the passage above:<br><b>Why does the author mention protests and voting as examples?</b>",
+      "options": [
+        "To criticize public participation",
+        "To show areas where freedom and responsibility must coexist",
+        "To promote legal reforms",
+        "To support authoritarian models"
+      ],
+      "correctAnswer": "To show areas where freedom and responsibility must coexist",
+      "explanation": "The author mentions that 'A citizen's right to protest... must be exercised with awareness of public order' and 'the freedom to vote must be matched by an obligation to make informed choices.' These examples illustrate <b>areas where freedom and responsibility must coexist</b>."
+    },
+    {
+      "question": "Based on the passage above:<br><b>What is implied about the relationship between citizens and democratic institutions?</b>",
+      "options": [
+        "Citizens cannot influence institutions",
+        "Institutions are entirely self-preserving",
+        "Citizens play an active role in sustaining democracy",
+        "Democratic institutions should restrict citizens' rights"
+      ],
+      "correctAnswer": "Citizens play an active role in sustaining democracy",
+      "explanation": "The passage explicitly states that 'democracy itself is not self-sustaining; it requires vigilant citizens' and 'Democracy survives not just through the laws it enacts, but through the civic virtues its citizens embody.' This implies that <b>citizens play an active role in sustaining democracy</b>."
+    },
+    {
+      "question": "Based on the passage above:<br><b>How does the passage describe the impact of crises on freedom in democracies?</b>",
+      "options": [
+        "Crises validate unlimited liberty",
+        "Crises show the need for absolute state control",
+        "Crises reveal the dangers of unregulated freedom",
+        "Crises diminish the value of rights"
+      ],
+      "correctAnswer": "Crises reveal the dangers of unregulated freedom",
+      "explanation": "The passage states that during crises, 'the temptation to prioritize personal liberty at the cost of collective safety can prove fatal' and gives examples like 'Refusal to wear masks during a health emergency.' This shows that <b>crises reveal the dangers of unregulated freedom</b>."
+    },
+    {
+      "question": "Based on the passage above:<br><b>What tone best describes the author's stance on freedom in democracy?</b>",
+      "options": [
+        "Cynical and dismissive",
+        "Balanced and cautionary",
+        "Indifferent and neutral",
+        "Overly optimistic"
+      ],
+      "correctAnswer": "Balanced and cautionary",
+      "explanation": "The author acknowledges the value of freedom while warning about its misuse. The tone is <b>balanced and cautionary</b>, advocating for freedom tempered with responsibility."
+    },
+    {
+      "question": "Select the correct option for the Direct Speech conversion of the sentence below:<br><b>He observed that, had market liquidity vanished entirely, the exchange would have suspended trading.</b>",
+      "options": [
+        "He said, \"If market liquidity vanishes entirely, the exchange suspends trading.\"",
+        "He said, \"Had market liquidity vanished entirely, the exchange would have suspended trading.\"",
+        "He said, \"The exchange will suspend trading if market liquidity had vanished entirely.\"",
+        "He said, \"If the exchange suspended trading, it was because market liquidity vanished entirely.\""
+      ],
+      "correctAnswer": "He said, \"Had market liquidity vanished entirely, the exchange would have suspended trading.\"",
+      "explanation": "The indirect speech contains a third conditional structure with inversion ('had... vanished'). In direct speech, this structure remains unchanged: <b>\"Had market liquidity vanished entirely, the exchange would have suspended trading.\"</b>"
+    },
+    {
+      "question": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.<br><b>He said, \"I am reading a book.\"</b>",
+      "options": [
+        "He said he is reading a book.",
+        "He said that he was reading a book.",
+        "He said that he had read a book.",
+        "He said he read a book."
+      ],
+      "correctAnswer": "He said that he was reading a book.",
+      "explanation": "In Direct to Indirect Speech conversion, Present Continuous ('am reading') changes to Past Continuous (<b>was reading</b>), and 'I' changes to 'he'."
+    },
+    {
+      "question": "Rearrange the following sentences to form a meaningful passage:<br><br>1. Solar energy is one of the most promising renewable energy sources.<br>2. It has a minimal environmental impact compared to fossil fuels.<br>3. Solar panels convert sunlight into electricity.<br>4. However, energy storage remains a significant challenge for solar energy systems.",
+      "options": [
+        "2-1-4-3",
+        "1-2-4-3",
+        "3-2-4-1",
+        "4-1-2-3"
+      ],
+      "correctAnswer": "1-2-4-3",
+      "explanation": "The logical flow begins with introducing the topic: <b>1</b> (Solar energy is one of the most promising...), followed by its benefit: <b>2</b> (It has a minimal environmental impact...), then the challenge: <b>4</b> (However, energy storage remains...), and finally the technical detail: <b>3</b> (Solar panels convert sunlight...)."
+    }
+],
+ "ssc_cgl_eng_16_sep_s3":
+ [
+    {
+      "question": "Select the most appropriate synonym of the given word:<br><b>INTRANSIGENT</b>",
+      "options": [
+        "Willing",
+        "Compliant",
+        "Stubborn",
+        "Submissive"
+      ],
+      "correctAnswer": "Stubborn",
+      "explanation": "<b>Intransigent</b> means unwilling or refusing to change one's views or to agree about something. <b>Stubborn</b> is the most appropriate synonym."
+    },
+    {
+      "question": "Select the most appropriate antonym of the given word:<br><b>Pulchritude</b>",
+      "options": [
+        "Grace",
+        "Ugliness",
+        "Charm",
+        "Beauty"
+      ],
+      "correctAnswer": "Ugliness",
+      "explanation": "<b>Pulchritude</b> means beauty. The opposite (antonym) is <b>Ugliness</b>."
+    },
+    {
+      "question": "Choose the correct meaning of idiom:<br><b>In the doldrums</b>",
+      "options": [
+        "Sailing in high winds",
+        "In a state of depression or inactivity",
+        "On the verge of success",
+        "Working with great energy"
+      ],
+      "correctAnswer": "In a state of depression or inactivity",
+      "explanation": "The idiom 'In the doldrums' means <b>in a state of depression or inactivity</b>, feeling stagnant or low in spirits."
+    },
+    {
+      "question": "Select the most appropriate antonym of the given word:<br><b>Incorrigible</b>",
+      "options": [
+        "Chronic",
+        "Deep-rooted",
+        "Habitual",
+        "Reclaimable"
+      ],
+      "correctAnswer": "Reclaimable",
+      "explanation": "<b>Incorrigible</b> means not able to be corrected, improved, or reformed. The opposite (antonym) is <b>Reclaimable</b>, meaning capable of being reformed or recovered."
+    },
+    {
+      "question": "Spot the correct spelling of a drug hallucination adjective:",
+      "options": [
+        "Hallucinagenic",
+        "Hallucinognic",
+        "Hallucinogenic",
+        "Halluscinogenic"
+      ],
+      "correctAnswer": "Hallucinogenic",
+      "explanation": "The correct spelling of the adjective relating to drugs that cause hallucinations is <b>Hallucinogenic</b>."
+    },
+    {
+      "question": "Choose the correct one-word substitution for:<br>'One who abandons his religious faith'.",
+      "options": [
+        "Renegade",
+        "Atheist",
+        "Heretic",
+        "Apostate"
+      ],
+      "correctAnswer": "Apostate",
+      "explanation": "<b>Apostate</b> refers to a person who renounces or abandons a religious or political belief or principle."
+    },
+    {
+      "question": "Choose the correct one-word substitute for:<br>'A formal split within a religious organization'.",
+      "options": [
+        "Sedition",
+        "Heresy",
+        "Apostasy",
+        "Schism"
+      ],
+      "correctAnswer": "Schism",
+      "explanation": "<b>Schism</b> means a formal division or split within a religious body or other organization."
+    },
+    {
+      "question": "Fill in the blank with the most appropriate option:<br>__________ Rarely __________ such an overwhelming consensus among critics.",
+      "options": [
+        "has there been",
+        "there has been",
+        "was there",
+        "had been"
+      ],
+      "correctAnswer": "has there been",
+      "explanation": "When a sentence begins with a negative adverb like 'Rarely', it requires subject-verb inversion. The correct form is <b>Rarely has there been</b> such an overwhelming consensus."
+    },
+    {
+      "question": "Select the correct option:<br>Only after years of archival research did the historian manage to __________ the contradictory accounts of the regime's collapse.",
+      "options": [
+        "retract",
+        "revise",
+        "reconcile",
+        "reverberate"
+      ],
+      "correctAnswer": "reconcile",
+      "explanation": "<b>Reconcile</b> means to make consistent or compatible, which fits the context of resolving contradictory accounts."
+    },
+    {
+      "question": "Find the part of the sentence that contains an error:<br>Little did the committee knew (1)/ about the hidden liabilities (2)/ when it approved the merger (3)/ late last quarter. (4)/",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "correctAnswer": "(1)",
+      "explanation": "The error is in part (1). After 'Little did', the base form of the verb is required due to inversion. It should be 'Little did the committee <b>know</b>' not 'knew'."
+    },
+    {
+      "question": "Change the following from active to passive:<br><b>Have the engineers resolved the calibration issue yet?</b>",
+      "options": [
+        "Has the calibration issue had been resolved by the engineers yet?",
+        "Has the calibration issue been resolved by the engineers yet?",
+        "Has the calibration issue be resolved by the engineers yet?",
+        "Has the calibration issue resolved by the engineers yet?"
+      ],
+      "correctAnswer": "Has the calibration issue been resolved by the engineers yet?",
+      "explanation": "The active sentence uses Present Perfect interrogative. The correct passive structure is <b>Has + subject + been + past participle</b>: 'Has the calibration issue <b>been resolved</b> by the engineers yet?'"
+    },
+    {
+      "question": "Find the part of the sentence that contains an error:<br>All that is needed for the bill to pass (1)/ are a simple majority (2)/ and a signature from the presiding officer (3)/ to certify the vote. (4)",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "correctAnswer": "(2)",
+      "explanation": "The error is in part (2). The subject 'All that is needed' is singular and requires a singular verb. It should be '<b>is</b> a simple majority' not 'are a simple majority'."
+    },
+    {
+      "question": "Select the sentence containing the homonym of the highlighted word:<br>He took the <b>current</b> route to avoid delays.",
+      "options": [
+        "He read current events before the exam.",
+        "The current was unusually strong near the bridge.",
+        "The report discussed current economic policies.",
+        "She adapted to current fashion quickly."
+      ],
+      "correctAnswer": "The current was unusually strong near the bridge.",
+      "explanation": "The highlighted word 'current' in the question means 'present' or 'most recent' (adjective). The homonym in option (b) uses 'current' as a noun meaning <b>a flow of water or electricity</b>, which is a different meaning."
+    },
+    {
+      "question": "Convert the sentence provided below from its passive voice structure to an active voice structure:<br><b>The injured man was taken to the hospital by some villagers.</b>",
+      "options": [
+        "Some villagers take the injured man to the hospital.",
+        "Some villagers were taking the injured man to the hospital.",
+        "Some villagers had taken the injured man to the hospital.",
+        "Some villagers took the injured man to the hospital."
+      ],
+      "correctAnswer": "Some villagers took the injured man to the hospital.",
+      "explanation": "The passive sentence is in the Simple Past tense ('was taken'). The active voice equivalent maintains the same tense: <b>Some villagers took</b> the injured man to the hospital."
+    },
+    {
+      "question": "Read the following passage and answer the questions based on the passage:<br><br>In the relentless pursuit of excellence, the dichotomy between hard work and smart work emerges not merely as a matter of preference but as a nuanced dialectic in the broader schema of human productivity. Hard work-often equated with sheer diligence, indefatigable endurance, and linear perseverance-has historically been valorized as the cornerstone of achievement. The laboring individual, armed with nothing but obstinacy and time, is celebrated in folklore and biographies alike. However, in an era punctuated by algorithmic precision and cognitive economy, such traditional notions increasingly invite scrutiny. Contrastingly, smart work embodies a strategic orchestration of effort an application of metacognition, resource optimization, and situational analysis. It seeks to minimize entropy in labor while maximizing the return on cognitive and physical investment. Smart workers interrogate systems, deconstruct inefficiencies, and leverage available tools-be they digital frameworks or social capital to expedite outcomes. They transcend the treadmill of unidirectional exertion by inserting intelligence into execution. Nevertheless, the glorification of smart work without the substratum of hard work yields its own inadequacies. Smartness devoid of rigor often culminates in superficiality-a veneer of competence that collapses under sustained demand. Likewise, unmitigated hard work, devoid of strategic redirection, can lead to burnout and inefficacy. Hence, the contemporary paradigm necessitates a confluence: the sagacious worker is one who tempers grit with guile, who labors not just with effort but with efficacy. The juxtaposition, then, is not binary but complementary. To romanticize either extreme is to overlook the variegated realities of performance. In the crucible of modern challenges, the symbiotic blend of persistence and precision is what renders output sustainable and impact magnified. In essence, success is not the fruit of blind toil or cunning alone, but the synthesis of intelligent perseverance.<br><br><b>Which of the following best captures the tone of the author in the passage?</b>",
+      "options": [
+        "Dogmatic",
+        "Reverent",
+        "Analytical",
+        "Indifferent"
+      ],
+      "correctAnswer": "Analytical",
+      "explanation": "The passage systematically examines the concepts of hard work and smart work, weighing their merits and limitations with careful reasoning. The tone is <b>Analytical</b>, characterized by thoughtful examination and balanced evaluation."
+    },
+    {
+      "question": "Based on the passage above:<br><b>Select the sentence that most clearly presents the limitation of relying solely on smart work.</b>",
+      "options": [
+        "\"Hard work...has historically been valorized...\"",
+        "\"They transcend the treadmill...\"",
+        "\"Smartness devoid of rigor often culminates in superficiality...\"",
+        "\"The sagacious worker is one...\""
+      ],
+      "correctAnswer": "\"Smartness devoid of rigor often culminates in superficiality...\"",
+      "explanation": "The passage explicitly states that '<b>Smartness devoid of rigor often culminates in superficiality-a veneer of competence that collapses under sustained demand.</b>' This directly addresses the limitation of relying solely on smart work."
+    },
+    {
+      "question": "Based on the passage above:<br><b>From a philosophical perspective, what argument does the author make about the dichotomy between hard work and smart work?</b>",
+      "options": [
+        "They must harmonize to achieve sustainable results.",
+        "One must dominate the other for success.",
+        "They are mutually exclusive paradigms.",
+        "Smart work is the only viable path in the modern age."
+      ],
+      "correctAnswer": "They must harmonize to achieve sustainable results.",
+      "explanation": "The passage states that 'the contemporary paradigm necessitates a confluence' and 'The juxtaposition, then, is not binary but complementary.' The author argues that <b>they must harmonize to achieve sustainable results</b>."
+    },
+    {
+      "question": "Based on the passage above:<br><b>What does the phrase \"minimize entropy in labor\" imply in the context of smart work?</b>",
+      "options": [
+        "Reduce physical strain through technology.",
+        "Eliminate randomness and inefficiency in effort.",
+        "Avoid structured systems of work.",
+        "Increase workload to achieve results faster."
+      ],
+      "correctAnswer": "Eliminate randomness and inefficiency in effort.",
+      "explanation": "Entropy refers to disorder or randomness. In the context of smart work, 'minimize entropy in labor' means to <b>eliminate randomness and inefficiency in effort</b>, making work more organized and productive."
+    },
+    {
+      "question": "Based on the passage above:<br><b>Which metaphor is used to describe unidirectional exertion?</b>",
+      "options": [
+        "Treadmill",
+        "Algorithmic precision",
+        "Crucible of challenges",
+        "Social capital"
+      ],
+      "correctAnswer": "Treadmill",
+      "explanation": "The passage states that smart workers 'transcend the <b>treadmill</b> of unidirectional exertion.' A treadmill is used as a metaphor for continuous, repetitive effort that doesn't lead anywhere."
+    },
+    {
+      "question": "Choose the most suitable option to replace the highlighted part of the sentence:<br>He is <b>good in</b> mathematics.",
+      "options": [
+        "is better in",
+        "is good at",
+        "is good for",
+        "is best at"
+      ],
+      "correctAnswer": "is good at",
+      "explanation": "The correct preposition to use with 'good' when referring to skill or proficiency in a subject is <b>at</b>. The correct form is 'He is <b>good at</b> mathematics.'"
+    },
+    {
+      "question": "Choose the most suitable option to replace the highlighted part of the sentence:<br>She insisted that she <b>comes with us.</b>",
+      "options": [
+        "came with us",
+        "should come with us",
+        "is coming with us",
+        "has to come with us"
+      ],
+      "correctAnswer": "should come with us",
+      "explanation": "The verb 'insisted' requires the subjunctive mood in the 'that' clause. The correct form is 'She insisted that she <b>should come with us</b>' or 'that she come with us' (bare subjunctive)."
+    },
+    {
+      "question": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.<br><b>He speculated that, had stochastic volatility been incorporated, the valuation would perhaps have been more conservative.</b>",
+      "options": [
+        "He speculated, \"Had stochastic volatility been incorporated, the valuation would perhaps have been more conservative.\"",
+        "He speculated, \"If stochastic volatility is incorporated, valuation will perhaps be conservative.\"",
+        "He speculated, \"If volatility had been incorporated, valuation perhaps more conservative.\"",
+        "He said, \"Stochastic volatility incorporation would make valuation conservative.\""
+      ],
+      "correctAnswer": "He speculated, \"Had stochastic volatility been incorporated, the valuation would perhaps have been more conservative.\"",
+      "explanation": "The indirect speech contains a third conditional structure with inversion ('had... been incorporated'). In direct speech, this structure remains unchanged as it's already in a hypothetical past form."
+    },
+    {
+      "question": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.<br><b>They said, \"We are going on a trip.\"</b>",
+      "options": [
+        "They said they are going on a trip.",
+        "They said they were going on a trip.",
+        "They said they went on a trip.",
+        "They said they had going on a trip."
+      ],
+      "correctAnswer": "They said they were going on a trip.",
+      "explanation": "In Direct to Indirect Speech conversion, Present Continuous ('are going') changes to Past Continuous (<b>were going</b>), and 'We' changes to 'they'."
+    },
+    {
+      "question": "Rearrange the following sentences to form a coherent paragraph:<br><br>1. Anthropogenic climate change, driven by the emission of greenhouse gases, is causing a wide range of disruptions to global ecosystems.<br>2. Glacial retreat and the melting of polar ice caps have accelerated, contributing to a rise in global sea levels.<br>3. This has led to more frequent and intense extreme weather events, including droughts, floods, and heatwaves.<br>4. The collective impact of these changes poses a serious threat to human societies and biodiversity.",
+      "options": [
+        "2, 4, 3, 1",
+        "3, 1, 4, 2",
+        "1, 3, 2, 4",
+        "1, 4, 2, 3"
+      ],
+      "correctAnswer": "1, 3, 2, 4",
+      "explanation": "The logical flow begins with the main cause: <b>1</b> (Anthropogenic climate change...), followed by one consequence: <b>3</b> (This has led to more frequent... weather events), then another consequence: <b>2</b> (Glacial retreat...), and finally the overall impact: <b>4</b> (The collective impact... poses a serious threat)."
+    },
+    {
+      "question": "Rearrange the following sentences to form a coherent paragraph:<br><br>1. This process is crucial because it ensures the integrity and reproducibility of experimental results.<br>2. Scientific experimentation begins with the formulation of a testable hypothesis based on an observation or question.<br>3. The data collected from these experiments is then analyzed and interpreted to draw conclusions about the hypothesis.<br>4. Next, a controlled experiment is designed and carried out to collect empirical evidence.",
+      "options": [
+        "2, 4, 3, 1",
+        "4, 3, 2, 1",
+        "1, 2, 4, 3",
+        "3, 1, 4, 2"
+      ],
+      "correctAnswer": "2, 4, 3, 1",
+      "explanation": "The logical flow follows the scientific method: <b>2</b> (begins with... hypothesis), then <b>4</b> (Next, a controlled experiment...), followed by <b>3</b> (data... analyzed...), and finally <b>1</b> (This process is crucial...) which provides the concluding statement about the importance of the process."
+    }
+],
   "ssc_cgl_14_sep_s1": [
     {
       "question": "<img src='../images/011.png' alt='Question 01' style='max-width: 100%; height: auto;'>",
