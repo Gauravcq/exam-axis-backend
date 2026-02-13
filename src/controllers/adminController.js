@@ -127,7 +127,8 @@ exports.getDashboardStats = async (req, res, next) => {
 
 exports.getAllUsers = async (req, res, next) => {
   try {
-    const { page = 1, limit = 20, search, role, isActive, isPremium, couponCode, offset: offsetParam, pageIndex } = req.query;
+    const { page = 1, limit = 20, role, isActive, isPremium, couponCode, offset: offsetParam, pageIndex } = req.query;
+    const searchRaw = (req.query.search ?? req.query.q ?? req.query.term ?? '').toString().trim();
     const limitNum = parseInt(limit);
     const usePage = pageIndex !== undefined ? (parseInt(pageIndex) + 1) : parseInt(page);
     const offset = offsetParam !== undefined ? parseInt(offsetParam) : (usePage - 1) * limitNum;
@@ -135,8 +136,8 @@ exports.getAllUsers = async (req, res, next) => {
     const where = {};
     const include = [];
 
-    if (search) {
-      const term = `%${search}%`;
+    if (searchRaw) {
+      const term = `%${searchRaw}%`;
       where[Op.or] = [
         { username: { [Op.iLike]: term } },
         { email: { [Op.iLike]: term } },
@@ -145,7 +146,7 @@ exports.getAllUsers = async (req, res, next) => {
       ];
     }
 
-    if (role) where.role = role;
+    if (role && role !== 'All') where.role = role;
     if (isActive !== undefined) where.isActive = isActive === 'true';
     if (isPremium !== undefined) where.isPremium = isPremium === 'true';
 
@@ -173,11 +174,18 @@ exports.getAllUsers = async (req, res, next) => {
       subQuery: false
     });
 
+    const users = rows.map(u => {
+      const obj = u.toJSON();
+      const firstAttr = Array.isArray(obj.couponAttributions) ? obj.couponAttributions[0] : null;
+      obj.couponCode = firstAttr && firstAttr.coupon ? firstAttr.coupon.code : null;
+      return obj;
+    });
+
     apiResponse(res, 200, true, 'Users retrieved', {
       total: count,
       page: usePage,
       totalPages: Math.ceil(count / limitNum),
-      users: rows
+      users
     });
 
   } catch (error) {
