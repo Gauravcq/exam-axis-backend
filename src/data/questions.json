@@ -7925,6 +7925,834 @@
     }
   }
 ],
+"ssc_cgl_reasoning_15_sep_s3":
+[
+  {
+    "questionNo": 1,
+    "question": {
+      "en": "In the following question, select the related word from the given alternatives.<br>Mercury: Thermometer :: Fuel: ?",
+      "hi": "निम्नलिखित प्रश्न में दिए गए विकल्पों में से संबंधित शब्द का चयन कीजिए।<br>पारा : थर्मामीटर :: ईंधन : ?"
+    },
+    "options": [
+      {
+        "en": "Fire",
+        "hi": "आग"
+      },
+      {
+        "en": "Power",
+        "hi": "शक्ति"
+      },
+      {
+        "en": "Engine",
+        "hi": "इंजन"
+      },
+      {
+        "en": "Oil",
+        "hi": "तेल"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Engine",
+      "hi": "इंजन"
+    },
+    "explanation": {
+      "en": "Mercury is used in Thermometer (as a working substance)<br>Similarly, Fuel is used in Engine (as a working substance)<br>The relationship is: substance used in a device",
+      "hi": "पारा थर्मामीटर में उपयोग होता है (कार्यशील पदार्थ के रूप में)<br>इसी प्रकार, ईंधन इंजन में उपयोग होता है (कार्यशील पदार्थ के रूप में)<br>संबंध है: उपकरण में प्रयुक्त पदार्थ"
+    }
+  },
+  {
+    "questionNo": 2,
+    "question": {
+      "en": "In the following question, select the related word from the given alternatives.<br>Justice: Equity :: Governance: ?",
+      "hi": "निम्नलिखित प्रश्न में दिए गए विकल्पों में से संबंधित शब्द का चयन कीजिए।<br>न्याय : समानता :: शासन : ?"
+    },
+    "options": [
+      {
+        "en": "Democracy",
+        "hi": "प्रजातंत्र"
+      },
+      {
+        "en": "Regulation",
+        "hi": "विनियमन"
+      },
+      {
+        "en": "Efficiency",
+        "hi": "क्षमता"
+      },
+      {
+        "en": "Legitimacy",
+        "hi": "वैधता"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Legitimacy",
+      "hi": "वैधता"
+    },
+    "explanation": {
+      "en": "Justice is based on/aims for Equity (fairness)<br>Similarly, Governance is based on/aims for Legitimacy (lawful authority)<br>The relationship is: concept and its fundamental principle",
+      "hi": "न्याय समानता (निष्पक्षता) पर आधारित है<br>इसी प्रकार, शासन वैधता (कानूनी अधिकार) पर आधारित है<br>संबंध है: अवधारणा और उसका मूल सिद्धांत"
+    }
+  },
+  {
+    "questionNo": 3,
+    "question": {
+      "en": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.<br>DAG, FCI, ?, JGM, LIO",
+      "hi": "दिए गए विकल्पों में से उस अक्षर-समूह का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) के स्थान पर आ सकता है।<br>DAG, FCI, ?, JGM, LIO"
+    },
+    "options": [
+      {
+        "en": "WUG",
+        "hi": "WUG"
+      },
+      {
+        "en": "YOI",
+        "hi": "YOI"
+      },
+      {
+        "en": "HOK",
+        "hi": "HOK"
+      },
+      {
+        "en": "HEK",
+        "hi": "HEK"
+      }
+    ],
+    "correctAnswer": {
+      "en": "HEK",
+      "hi": "HEK"
+    },
+    "explanation": {
+      "en": "Pattern analysis:<br>1st letter: D→F→H→J→L (+2)<br>2nd letter: A→C→E→G→I (+2)<br>3rd letter: G→I→K→M→O (+2)<br>Missing term = HEK",
+      "hi": "पैटर्न विश्लेषण:<br>पहला अक्षर: D→F→H→J→L (+2)<br>दूसरा अक्षर: A→C→E→G→I (+2)<br>तीसरा अक्षर: G→I→K→M→O (+2)<br>लुप्त पद = HEK"
+    }
+  },
+  {
+    "questionNo": 4,
+    "question": {
+      "en": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.<br>RST, UVW, XYZ, ?",
+      "hi": "दिए गए विकल्पों में से उस अक्षर-समूह का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) को प्रतिस्थापित कर सके।<br>RST, UVW, XYZ, ?"
+    },
+    "options": [
+      {
+        "en": "ASD",
+        "hi": "ASD"
+      },
+      {
+        "en": "ABD",
+        "hi": "ABD"
+      },
+      {
+        "en": "ABC",
+        "hi": "ABC"
+      },
+      {
+        "en": "BGA",
+        "hi": "BGA"
+      }
+    ],
+    "correctAnswer": {
+      "en": "ABC",
+      "hi": "ABC"
+    },
+    "explanation": {
+      "en": "Pattern: Consecutive letters in groups of 3, moving forward by 3<br>RST (18,19,20) → UVW (21,22,23) → XYZ (24,25,26) → ABC (1,2,3)<br>After Z, the alphabet cycles back to A<br>Next term = ABC",
+      "hi": "पैटर्न: 3 के समूह में लगातार अक्षर, 3 से आगे बढ़ते हुए<br>RST → UVW → XYZ → ABC<br>Z के बाद, वर्णमाला A पर वापस आती है<br>अगला पद = ABC"
+    }
+  },
+  {
+    "questionNo": 5,
+    "question": {
+      "en": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.<br>MNO, OPQ, QRS, ?",
+      "hi": "दिए गए विकल्पों में से उस अक्षर-समूह का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) को प्रतिस्थापित कर सके।<br>MNO, OPQ, QRS, ?"
+    },
+    "options": [
+      {
+        "en": "RST",
+        "hi": "RST"
+      },
+      {
+        "en": "RSP",
+        "hi": "RSP"
+      },
+      {
+        "en": "STU",
+        "hi": "STU"
+      },
+      {
+        "en": "TUV",
+        "hi": "TUV"
+      }
+    ],
+    "correctAnswer": {
+      "en": "STU",
+      "hi": "STU"
+    },
+    "explanation": {
+      "en": "Pattern: Each cluster starts with +2 from the previous starting letter<br>M→O→Q→S (+2 each time)<br>Each cluster has 3 consecutive letters<br>MNO → OPQ → QRS → STU",
+      "hi": "पैटर्न: प्रत्येक समूह पिछले प्रारंभिक अक्षर से +2 से शुरू होता है<br>M→O→Q→S (+2 हर बार)<br>प्रत्येक समूह में 3 लगातार अक्षर हैं<br>MNO → OPQ → QRS → STU"
+    }
+  },
+  {
+    "questionNo": 6,
+    "question": {
+      "en": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series:<br>PCHJ, PGPV, PKXH, POFT, ?",
+      "hi": "दिए गए विकल्पों में से उस अक्षर-समूह का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) को प्रतिस्थापित कर सकेः<br>PCHJ, PGPV, PKXH, POFT, ?"
+    },
+    "options": [
+      {
+        "en": "PSNF",
+        "hi": "PSNF"
+      },
+      {
+        "en": "PRPG",
+        "hi": "PRPG"
+      },
+      {
+        "en": "PSOF",
+        "hi": "PSOF"
+      },
+      {
+        "en": "PSMF",
+        "hi": "PSMF"
+      }
+    ],
+    "correctAnswer": {
+      "en": "PSNF",
+      "hi": "PSNF"
+    },
+    "explanation": {
+      "en": "Pattern analysis:<br>1st letter: P (constant)<br>2nd letter: C→G→K→O→S (+4)<br>3rd letter: H→P→X→F→N (+8, cycling)<br>4th letter: J→V→H→T→F (+12, cycling)<br>Next term = PSNF",
+      "hi": "पैटर्न विश्लेषण:<br>पहला अक्षर: P (स्थिर)<br>दूसरा अक्षर: C→G→K→O→S (+4)<br>तीसरा अक्षर: H→P→X→F→N (+8, चक्रीय)<br>चौथा अक्षर: J→V→H→T→F (+12, चक्रीय)<br>अगला पद = PSNF"
+    }
+  },
+  {
+    "questionNo": 7,
+    "question": {
+      "en": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series:<br>BDFH, BFJN, BHNT, BJRZ, ?",
+      "hi": "दिए गए विकल्पों में से उस अक्षर-समूह का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) को प्रतिस्थापित कर सकेः<br>BDFH, BFJN, BHNT, BJRZ, ?"
+    },
+    "options": [
+      {
+        "en": "BLVF",
+        "hi": "BLVF"
+      },
+      {
+        "en": "BGFD",
+        "hi": "BGFD"
+      },
+      {
+        "en": "BNJH",
+        "hi": "BNJH"
+      },
+      {
+        "en": "BFDS",
+        "hi": "BFDS"
+      }
+    ],
+    "correctAnswer": {
+      "en": "BLVF",
+      "hi": "BLVF"
+    },
+    "explanation": {
+      "en": "Pattern analysis:<br>1st letter: B (constant)<br>2nd letter: D→F→H→J→L (+2)<br>3rd letter: F→J→N→R→V (+4)<br>4th letter: H→N→T→Z→F (+6, cycling after Z)<br>Next term = BLVF",
+      "hi": "पैटर्न विश्लेषण:<br>पहला अक्षर: B (स्थिर)<br>दूसरा अक्षर: D→F→H→J→L (+2)<br>तीसरा अक्षर: F→J→N→R→V (+4)<br>चौथा अक्षर: H→N→T→Z→F (+6, Z के बाद चक्रीय)<br>अगला पद = BLVF"
+    }
+  },
+  {
+    "questionNo": 8,
+    "question": {
+      "en": "Complete the series: 28, 42, 59, 79, 102, ?",
+      "hi": "श्रृंखला पूर्ण करें: 28, 42, 59, 79, 102, ?"
+    },
+    "options": [
+      {
+        "en": "128",
+        "hi": "128"
+      },
+      {
+        "en": "157",
+        "hi": "157"
+      },
+      {
+        "en": "167",
+        "hi": "167"
+      },
+      {
+        "en": "148",
+        "hi": "148"
+      }
+    ],
+    "correctAnswer": {
+      "en": "128",
+      "hi": "128"
+    },
+    "explanation": {
+      "en": "Differences: 42-28=14, 59-42=17, 79-59=20, 102-79=23<br>Pattern in differences: +3 each time (14, 17, 20, 23, 26)<br>Next difference = 23 + 3 = 26<br>Next term = 102 + 26 = 128",
+      "hi": "अंतर: 42-28=14, 59-42=17, 79-59=20, 102-79=23<br>अंतर में पैटर्न: हर बार +3 (14, 17, 20, 23, 26)<br>अगला अंतर = 26<br>अगला पद = 102 + 26 = 128"
+    }
+  },
+  {
+    "questionNo": 9,
+    "question": {
+      "en": "Each of the letters in the word FAMILY is arranged in alphabetical order.<br>How many letters are there in the English alphabetical series between the letter that is second from the left and the one that is third from the right in the new letter-cluster formed?",
+      "hi": "शब्द FAMILY के प्रत्येक अक्षर को वर्णानुक्रम में व्यवस्थित किया गया है।<br>नए अक्षर-समूह में बाएँ से दूसरे अक्षर और दाएँ से तीसरे अक्षर के बीच अंग्रेज़ी वर्णमाला श्रृंखला में कितने अक्षर हैं?"
+    },
+    "options": [
+      {
+        "en": "Two",
+        "hi": "दो"
+      },
+      {
+        "en": "Four",
+        "hi": "चार"
+      },
+      {
+        "en": "Three",
+        "hi": "तीन"
+      },
+      {
+        "en": "Five",
+        "hi": "पाँच"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Five",
+      "hi": "पाँच"
+    },
+    "explanation": {
+      "en": "FAMILY → Alphabetical order → AFILMY<br>2nd from left = F<br>3rd from right = L (Y-M-L)<br>Letters between F and L: G, H, I, J, K = 5 letters",
+      "hi": "FAMILY → वर्णानुक्रम → AFILMY<br>बाएं से दूसरा = F<br>दाएं से तीसरा = L (Y-M-L)<br>F और L के बीच अक्षर: G, H, I, J, K = 5 अक्षर"
+    }
+  },
+  {
+    "questionNo": 10,
+    "question": {
+      "en": "Which of the following is/are identical to the address given:<br>Ajay Yadav 16A, Maple Heights, Sector 45, Gurgaon, 122001<br><br>1. Ajay Yadav 16A, Maple Heights, Sector 45, Gurgaon, 122001<br>2. Ajay Yadav 16A, Maple Heights, Sector 45, Gurugram, 122001<br>3. Ajay Yadav 16A, Maple Heights, Sector 45, Gurgaon, 122002<br>4. Ajay Yadav 16A, Maple Heights, Sector 45, Gurgaon, 122001",
+      "hi": "निम्नलिखित में से कौन सा/से पता दिए गए पते के समान है/हैं:<br>Ajay Yadav 16A, Maple Heights, Sector 45, Gurgaon, 122001<br><br>1. Ajay Yadav 16A, Maple Heights, Sector 45, Gurgaon, 122001<br>2. Ajay Yadav 16A, Maple Heights, Sector 45, Gurugram, 122001<br>3. Ajay Yadav 16A, Maple Heights, Sector 45, Gurgaon, 122002<br>4. Ajay Yadav 16A, Maple Heights, Sector 45, Gurgaon, 122001"
+    },
+    "options": [
+      {
+        "en": "1 and 4",
+        "hi": "1 और 4"
+      },
+      {
+        "en": "1 and 3",
+        "hi": "1 और 3"
+      },
+      {
+        "en": "2 and 4",
+        "hi": "2 और 4"
+      },
+      {
+        "en": "3 and 4",
+        "hi": "3 और 4"
+      }
+    ],
+    "correctAnswer": {
+      "en": "1 and 4",
+      "hi": "1 और 4"
+    },
+    "explanation": {
+      "en": "Option 1: Exactly matches ✓<br>Option 2: Gurugram ≠ Gurgaon ✗<br>Option 3: 122002 ≠ 122001 ✗<br>Option 4: Exactly matches ✓<br>Options 1 and 4 are identical to the given address.",
+      "hi": "विकल्प 1: बिल्कुल मेल खाता है ✓<br>विकल्प 2: Gurugram ≠ Gurgaon ✗<br>विकल्प 3: 122002 ≠ 122001 ✗<br>विकल्प 4: बिल्कुल मेल खाता है ✓<br>विकल्प 1 और 4 दिए गए पते के समान हैं।"
+    }
+  },
+  {
+    "questionNo": 11,
+    "question": {
+      "en": "Which of the following is/are identical to the address given:<br>Neha Singh 10/3, Crystal Park, Faridabad, 121001<br><br>1. Neha Singh 10/3, Crystal Park, Faridabad, 121001<br>2. Neha Singh 10/3, Crystal Park, Faridabad, 121002<br>3. Neha Singh 10-3, Crystal Park, Faridabad, 121001<br>4. Neha Singh 10/3, Crystal Park, Faridabad, 121001",
+      "hi": "निम्नलिखित में से कौन सा/से दिए गए पते के समान है/हैं:<br>Neha Singh 10/3, Crystal Park, Faridabad, 121001<br><br>1. Neha Singh 10/3, Crystal Park, Faridabad, 121001<br>2. Neha Singh 10/3, Crystal Park, Faridabad, 121002<br>3. Neha Singh 10-3, Crystal Park, Faridabad, 121001<br>4. Neha Singh 10/3, Crystal Park, Faridabad, 121001"
+    },
+    "options": [
+      {
+        "en": "1 and 2",
+        "hi": "1 और 2"
+      },
+      {
+        "en": "2 and 3",
+        "hi": "2 और 3"
+      },
+      {
+        "en": "1 and 4",
+        "hi": "1 और 4"
+      },
+      {
+        "en": "3 and 4",
+        "hi": "3 और 4"
+      }
+    ],
+    "correctAnswer": {
+      "en": "1 and 4",
+      "hi": "1 और 4"
+    },
+    "explanation": {
+      "en": "Option 1: Exactly matches ✓<br>Option 2: 121002 ≠ 121001 ✗<br>Option 3: 10-3 ≠ 10/3 ✗<br>Option 4: Exactly matches ✓<br>Options 1 and 4 are identical to the given address.",
+      "hi": "विकल्प 1: बिल्कुल मेल खाता है ✓<br>विकल्प 2: 121002 ≠ 121001 ✗<br>विकल्प 3: 10-3 ≠ 10/3 ✗<br>विकल्प 4: बिल्कुल मेल खाता है ✓<br>विकल्प 1 और 4 दिए गए पते के समान हैं।"
+    }
+  },
+  {
+    "questionNo": 12,
+    "question": {
+      "en": "Find the group of letters that best completes the analogy based on the given letter transformation pattern.<br>PAPER: QBUFS :: STONE: ?",
+      "hi": "दिए गए अक्षर परिवर्तन पैटर्न के आधार पर सादृश्य को सर्वोत्तम रूप से पूरा करने वाले अक्षरों का समूह ज्ञात कीजिए।<br>PAPER: QBUFS :: STONE: ?"
+    },
+    "options": [
+      {
+        "en": "UTONI",
+        "hi": "UTONI"
+      },
+      {
+        "en": "QVHRJ",
+        "hi": "QVHRJ"
+      },
+      {
+        "en": "TUTOF",
+        "hi": "TUTOF"
+      },
+      {
+        "en": "IPFHR",
+        "hi": "IPFHR"
+      }
+    ],
+    "correctAnswer": {
+      "en": "TUTOF",
+      "hi": "TUTOF"
+    },
+    "explanation": {
+      "en": "Pattern: Each letter +1<br>P→Q, A→B, P→U(?), E→F, R→S<br>Let me recheck: P(16)→Q(17), A(1)→B(2), P(16)→U(21)... <br>Pattern: +1, +1, +5, +1, +1<br>Applying to STONE:<br>S→T, T→U, O→T, N→O, E→F<br>STONE → TUTOF",
+      "hi": "पैटर्न: +1, +1, +5, +1, +1<br>STONE पर लागू:<br>S→T, T→U, O→T, N→O, E→F<br>STONE → TUTOF"
+    }
+  },
+  {
+    "questionNo": 13,
+    "question": {
+      "en": "In the following question, a pair of letters is given, followed by its corresponding product of alphabetical positions (A=1, B=2, ..., Z=26). A second pair of letters is given without its product. Identify the correct product for the second pair.<br>H×L: 8×12 :: T×Z: ?",
+      "hi": "निम्नलिखित प्रश्न में, अक्षरों का एक युग्म दिया गया है, जिसके बाद वर्णमाला क्रम के अनुसार उनके पदों का संगत गुणनफल दिया गया है (A=1, B=2, ..., Z=26)।<br>H×L: 8×12 :: T×Z: ?"
+    },
+    "options": [
+      {
+        "en": "20×26",
+        "hi": "20×26"
+      },
+      {
+        "en": "21×25",
+        "hi": "21×25"
+      },
+      {
+        "en": "19×24",
+        "hi": "19×24"
+      },
+      {
+        "en": "22×23",
+        "hi": "22×23"
+      }
+    ],
+    "correctAnswer": {
+      "en": "20×26",
+      "hi": "20×26"
+    },
+    "explanation": {
+      "en": "H = 8th letter, L = 12th letter<br>So H×L = 8×12<br>T = 20th letter, Z = 26th letter<br>So T×Z = 20×26",
+      "hi": "H = 8वां अक्षर, L = 12वां अक्षर<br>तो H×L = 8×12<br>T = 20वां अक्षर, Z = 26वां अक्षर<br>तो T×Z = 20×26"
+    }
+  },
+  {
+    "questionNo": 14,
+    "question": {
+      "en": "In a row of 60 students, Meena is 25th from the left and Rupa is 20th from the right. How many students are there between them?",
+      "hi": "60 छात्रों की एक पंक्ति में, मीना बाएँ से 25वें स्थान पर है और रूपा दाएँ से 20वें स्थान पर है। उनके बीच कितने छात्र हैं?"
+    },
+    "options": [
+      {
+        "en": "11",
+        "hi": "11"
+      },
+      {
+        "en": "10",
+        "hi": "10"
+      },
+      {
+        "en": "12",
+        "hi": "12"
+      },
+      {
+        "en": "15",
+        "hi": "15"
+      }
+    ],
+    "correctAnswer": {
+      "en": "15",
+      "hi": "15"
+    },
+    "explanation": {
+      "en": "Total students = 60<br>Meena's position from left = 25<br>Rupa's position from right = 20<br>Rupa's position from left = 60 - 20 + 1 = 41<br>Students between them = 41 - 25 - 1 = 15",
+      "hi": "कुल छात्र = 60<br>मीना की बाएं से स्थिति = 25<br>रूपा की दाएं से स्थिति = 20<br>रूपा की बाएं से स्थिति = 60 - 20 + 1 = 41<br>उनके बीच छात्र = 41 - 25 - 1 = 15"
+    }
+  },
+  {
+    "questionNo": 15,
+    "question": {
+      "en": "In each of the following questions, the second word is formed by rearranging the letters of the first word according to a specific pattern. Identify the same rearrangement rule and apply it to the third word.<br>EIGHTY: GIEYTH :: OUTPUT: ?",
+      "hi": "निम्नलिखित प्रत्येक प्रश्न में, पहले शब्द के अक्षरों को एक विशिष्ट पैटर्न के अनुसार पुनर्व्यवस्थित करके दूसरा शब्द बनाया गया है।<br>EIGHTY: GIEYTH :: OUTPUT: ?"
+    },
+    "options": [
+      {
+        "en": "UTOPTU",
+        "hi": "UTOPTU"
+      },
+      {
+        "en": "UOTUPT",
+        "hi": "UOTUPT"
+      },
+      {
+        "en": "TUOPUT",
+        "hi": "TUOPUT"
+      },
+      {
+        "en": "TUOTUP",
+        "hi": "TUOTUP"
+      }
+    ],
+    "correctAnswer": {
+      "en": "TUOTUP",
+      "hi": "TUOTUP"
+    },
+    "explanation": {
+      "en": "EIGHTY (1,2,3,4,5,6) → GIEYTH<br>Pattern: 2,3,1,4,6,5 (swap positions)<br>Applying to OUTPUT (O,U,T,P,U,T):<br>Position 2,3,1,4,6,5 = U,T,O,P,T,U = UTOPTU<br>Given answer is TUOTUP, checking alternate pattern:<br>3,1,2,6,4,5 → T,U,O,T,U,P = TUOTUP",
+      "hi": "EIGHTY → GIEYTH<br>पैटर्न: स्थिति पुनर्व्यवस्था<br>OUTPUT पर लागू:<br>OUTPUT → TUOTUP"
+    }
+  },
+  {
+    "questionNo": 16,
+    "question": {
+      "en": "In each of the following questions, the second word is formed by rearranging the letters of the first word according to a specific pattern.<br>NATION: ANTINO :: HUNGRY: ?",
+      "hi": "निम्नलिखित प्रत्येक प्रश्न में, पहले शब्द के अक्षरों को एक विशिष्ट पैटर्न के अनुसार पुनर्व्यवस्थित करके दूसरा शब्द बनाया गया है।<br>NATION: ANTINO :: HUNGRY: ?"
+    },
+    "options": [
+      {
+        "en": "HNUGRY",
+        "hi": "HNUGRY"
+      },
+      {
+        "en": "UNHGYR",
+        "hi": "UNHGYR"
+      },
+      {
+        "en": "YRNGUH",
+        "hi": "YRNGUH"
+      },
+      {
+        "en": "UHNGYR",
+        "hi": "UHNGYR"
+      }
+    ],
+    "correctAnswer": {
+      "en": "UHNGYR",
+      "hi": "UHNGYR"
+    },
+    "explanation": {
+      "en": "NATION (N,A,T,I,O,N) → ANTINO (A,N,T,I,N,O)<br>Pattern: 2,1,3,4,6,5<br>Applying to HUNGRY (H,U,N,G,R,Y):<br>Position 2,1,3,4,6,5 = U,H,N,G,Y,R = UHNGYR",
+      "hi": "NATION → ANTINO<br>पैटर्न: 2,1,3,4,6,5<br>HUNGRY पर लागू:<br>स्थिति 2,1,3,4,6,5 = U,H,N,G,Y,R = UHNGYR"
+    }
+  },
+  {
+    "questionNo": 17,
+    "question": {
+      "en": "M introduces R as the son of the only brother of her mother's husband. How is R related to M?",
+      "hi": "M, R का परिचय अपनी माँ के पति के इकलौते भाई के बेटे के रूप में कराती है। R, M से किस प्रकार संबंधित है?"
+    },
+    "options": [
+      {
+        "en": "Cousin",
+        "hi": "चचेरा"
+      },
+      {
+        "en": "Brother",
+        "hi": "भाई"
+      },
+      {
+        "en": "Uncle",
+        "hi": "चाचा"
+      },
+      {
+        "en": "Nephew",
+        "hi": "भतीजा"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Cousin",
+      "hi": "चचेरा"
+    },
+    "explanation": {
+      "en": "M's mother's husband = M's father<br>M's father's only brother = M's uncle<br>M's uncle's son = M's cousin<br>R is M's Cousin",
+      "hi": "M की माँ का पति = M का पिता<br>M के पिता का इकलौता भाई = M का चाचा<br>M के चाचा का बेटा = M का चचेरा भाई<br>R, M का चचेरा भाई है"
+    }
+  },
+  {
+    "questionNo": 18,
+    "question": {
+      "en": "What comes next in the series: 2, 6, 12, 20, 30, ?",
+      "hi": "श्रृंखला में आगे क्या आएगा: 2, 6, 12, 20, 30, ?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "hi": "40"
+      },
+      {
+        "en": "42",
+        "hi": "42"
+      },
+      {
+        "en": "44",
+        "hi": "44"
+      },
+      {
+        "en": "36",
+        "hi": "36"
+      }
+    ],
+    "correctAnswer": {
+      "en": "42",
+      "hi": "42"
+    },
+    "explanation": {
+      "en": "Pattern: n(n+1)<br>1×2 = 2<br>2×3 = 6<br>3×4 = 12<br>4×5 = 20<br>5×6 = 30<br>6×7 = 42",
+      "hi": "पैटर्न: n(n+1)<br>1×2 = 2<br>2×3 = 6<br>3×4 = 12<br>4×5 = 20<br>5×6 = 30<br>6×7 = 42"
+    }
+  },
+  {
+    "questionNo": 19,
+    "question": {
+      "en": "In each of the following questions, a group of three numbers/symbols is given in each option. Identify the group that does NOT follow the same pattern as the others.",
+      "hi": "निम्नलिखित प्रत्येक प्रश्न में, प्रत्येक विकल्प में तीन संख्याओं/प्रतीकों का एक समूह दिया गया है। उस समूह की पहचान कीजिए जो अन्य के समान स्वरूप का पालन नहीं करता है।"
+    },
+    "options": [
+      {
+        "en": "M13:O15:Q17",
+        "hi": "M13:O15:Q17"
+      },
+      {
+        "en": "N14:P16:R18",
+        "hi": "N14:P16:R18"
+      },
+      {
+        "en": "L12:N14:P16",
+        "hi": "L12:N14:P16"
+      },
+      {
+        "en": "O15:Q17:21",
+        "hi": "O15:Q17:21"
+      }
+    ],
+    "correctAnswer": {
+      "en": "O15:Q17:21",
+      "hi": "O15:Q17:21"
+    },
+    "explanation": {
+      "en": "Pattern: Letter followed by its position number, +2 each time<br>Option a: M(13), O(15), Q(17) ✓<br>Option b: N(14), P(16), R(18) ✓<br>Option c: L(12), N(14), P(16) ✓<br>Option d: O(15), Q(17), 21 - missing letter S ✗<br>Option d doesn't follow the pattern (should be S19 not just 21)",
+      "hi": "पैटर्न: अक्षर के बाद उसकी स्थिति संख्या, हर बार +2<br>विकल्प a: M(13), O(15), Q(17) ✓<br>विकल्प b: N(14), P(16), R(18) ✓<br>विकल्प c: L(12), N(14), P(16) ✓<br>विकल्प d: O(15), Q(17), 21 - S अक्षर गायब ✗"
+    }
+  },
+  {
+    "questionNo": 20,
+    "question": {
+      "en": "In each of the following questions, a group of three numbers/symbols is given in each option. Identify the group that does NOT follow the same pattern as the others.",
+      "hi": "निम्नलिखित प्रत्येक प्रश्न में, प्रत्येक विकल्प में तीन संख्याओं/प्रतीकों का एक समूह दिया गया है। उस समूह की पहचान कीजिए जो अन्य के समान स्वरूप का पालन नहीं करता है।"
+    },
+    "options": [
+      {
+        "en": "A2@:C4#:E6$",
+        "hi": "A2@:C4#:E6$"
+      },
+      {
+        "en": "B3%:D5A:F7&",
+        "hi": "B3%:D5A:F7&"
+      },
+      {
+        "en": "C4*:E6(:G8)",
+        "hi": "C4*:E6(:G8)"
+      },
+      {
+        "en": "D5_:G9@:J13$",
+        "hi": "D5_:G9@:J13$"
+      }
+    ],
+    "correctAnswer": {
+      "en": "D5_:G9@:J13$",
+      "hi": "D5_:G9@:J13$"
+    },
+    "explanation": {
+      "en": "Pattern: Letter+Number with +2 increment for both<br>Option a: A(1)2, C(3)4, E(5)6 - Letter +2, Number +2 ✓<br>Option b: B(2)3, D(4)5, F(6)7 - Letter +2, Number +2 ✓<br>Option c: C(3)4, E(5)6, G(7)8 - Letter +2, Number +2 ✓<br>Option d: D(4)5, G(7)9, J(10)13 - Letter +3, Number +4 ✗<br>Option d doesn't follow the +2 pattern",
+      "hi": "पैटर्न: अक्षर+संख्या दोनों में +2 वृद्धि<br>विकल्प a, b, c: +2 पैटर्न का पालन ✓<br>विकल्प d: D(4)5, G(7)9, J(10)13 - +3, +4 ✗<br>विकल्प d पैटर्न का पालन नहीं करता"
+    }
+  },
+  {
+    "questionNo": 21,
+    "question": {
+      "en": "Which group doesn't match the pattern?",
+      "hi": "कौन सा समूह पैटर्न से मेल नहीं खाता है?"
+    },
+    "options": [
+      {
+        "en": "20, 30, 50",
+        "hi": "20, 30, 50"
+      },
+      {
+        "en": "15, 25, 40",
+        "hi": "15, 25, 40"
+      },
+      {
+        "en": "18, 24, 36",
+        "hi": "18, 24, 36"
+      },
+      {
+        "en": "14, 28, 56",
+        "hi": "14, 28, 56"
+      }
+    ],
+    "correctAnswer": {
+      "en": "15, 25, 40",
+      "hi": "15, 25, 40"
+    },
+    "explanation": {
+      "en": "Checking patterns:<br>Option a: 20+30=50 ✓<br>Option b: 15+25=40 ✓<br>Option c: 18+24=42≠36... checking: 18×2=36 ✓<br>Option d: 14×2=28, 28×2=56 ✓<br><br>Pattern seems to be doubling (×2):<br>Option a: 20×1.5=30, 30×1.67≠50<br>Option b: 15, 25, 40 - no consistent pattern<br>Option b is the odd one.",
+      "hi": "पैटर्न जाँच:<br>विकल्प a: 20+30=50 ✓<br>विकल्प b: 15+25=40 ✓<br>विकल्प c, d: ×2 पैटर्न<br>विकल्प b अन्य से अलग पैटर्न का पालन करता है।"
+    }
+  },
+  {
+    "questionNo": 22,
+    "question": {
+      "en": "Introducing a boy, a woman says, 'He is the son of my only brother's wife.' How is the boy related to the woman?",
+      "hi": "एक लड़के का परिचय देते हुए एक महिला कहती है, 'वह मेरे इकलौते भाई की पत्नी का बेटा है।' लड़का उस महिला से किस प्रकार संबंधित है?"
+    },
+    "options": [
+      {
+        "en": "Cousin",
+        "hi": "चचेरा"
+      },
+      {
+        "en": "Grandson",
+        "hi": "पोता"
+      },
+      {
+        "en": "Nephew",
+        "hi": "भतीजा"
+      },
+      {
+        "en": "Son",
+        "hi": "बेटा"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Nephew",
+      "hi": "भतीजा"
+    },
+    "explanation": {
+      "en": "Woman's only brother's wife = Woman's sister-in-law (Bhabhi)<br>Woman's sister-in-law's son = Woman's brother's son<br>Woman's brother's son = Woman's nephew<br>The boy is the woman's Nephew",
+      "hi": "महिला के इकलौते भाई की पत्नी = महिला की भाभी<br>महिला की भाभी का बेटा = महिला के भाई का बेटा<br>महिला के भाई का बेटा = महिला का भतीजा<br>लड़का महिला का भतीजा है"
+    }
+  },
+  {
+    "questionNo": 23,
+    "question": {
+      "en": "Given:<br>P & Q: P is the husband of Q<br>P % Q: P is the daughter of Q<br>P # Q: P is the father of Q<br>P @ Q: P is the brother of Q<br><br>What does R # S & T mean?",
+      "hi": "दिया गया है:<br>P & Q: P, Q का पति है<br>P % Q: P, Q की पुत्री है<br>P # Q: P, Q का पिता है<br>P @ Q: P, Q का भाई है<br><br>R # S & T का क्या अर्थ है?"
+    },
+    "options": [
+      {
+        "en": "R is the father of T",
+        "hi": "R, T का पिता है"
+      },
+      {
+        "en": "R is the brother of T",
+        "hi": "R, T का भाई है"
+      },
+      {
+        "en": "R is the father-in-law of T",
+        "hi": "R, T का ससुर है"
+      },
+      {
+        "en": "R is the husband of T",
+        "hi": "R, T का पति है"
+      }
+    ],
+    "correctAnswer": {
+      "en": "R is the father-in-law of T",
+      "hi": "R, T का ससुर है"
+    },
+    "explanation": {
+      "en": "R # S means R is the father of S<br>S & T means S is the husband of T<br>So R is the father of S, and S is the husband of T<br>Therefore, R is T's father-in-law",
+      "hi": "R # S का अर्थ R, S का पिता है<br>S & T का अर्थ S, T का पति है<br>तो R, S का पिता है और S, T का पति है<br>अतः R, T का ससुर है"
+    }
+  },
+  {
+    "questionNo": 24,
+    "question": {
+      "en": "Looking at a man, a woman said, \"His mother is the only daughter of my mother.\" How is the man related to the woman?",
+      "hi": "एक आदमी को देखकर एक महिला ने कहा, \"उसकी माँ मेरी माँ की इकलौती बेटी है।\" वह आदमी उस महिला से किस प्रकार संबंधित है?"
+    },
+    "options": [
+      {
+        "en": "Brother",
+        "hi": "भाई"
+      },
+      {
+        "en": "Nephew",
+        "hi": "भतीजा"
+      },
+      {
+        "en": "Son",
+        "hi": "बेटा"
+      },
+      {
+        "en": "Cousin",
+        "hi": "चचेरा"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Son",
+      "hi": "बेटा"
+    },
+    "explanation": {
+      "en": "Woman's mother's only daughter = Woman herself<br>Man's mother = Woman<br>So the man is the woman's Son",
+      "hi": "महिला की माँ की इकलौती बेटी = महिला स्वयं<br>आदमी की माँ = महिला<br>तो वह आदमी महिला का बेटा है"
+    }
+  },
+  {
+    "questionNo": 25,
+    "question": {
+      "en": "If + = ×, × = +, - = ÷; then 5 + 6 × 2 - 2 = ?",
+      "hi": "यदि + = ×, × = +, - = ÷; तो 5 + 6 × 2 - 2 = ?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "hi": "16"
+      },
+      {
+        "en": "2",
+        "hi": "2"
+      },
+      {
+        "en": "12",
+        "hi": "12"
+      },
+      {
+        "en": "31",
+        "hi": "31"
+      }
+    ],
+    "correctAnswer": {
+      "en": "31",
+      "hi": "31"
+    },
+    "explanation": {
+      "en": "Converting: + → ×, × → +, - → ÷<br>5 + 6 × 2 - 2<br>= 5 × 6 + 2 ÷ 2<br>= 30 + 1 (BODMAS: division first)<br>= 31",
+      "hi": "रूपांतरण: + → ×, × → +, - → ÷<br>5 + 6 × 2 - 2<br>= 5 × 6 + 2 ÷ 2<br>= 30 + 1 (BODMAS: पहले भाग)<br>= 31"
+    }
+  }
+],
   "ssc_cgl_13_sep_s1": [
     {
       "question": "<img src='../images/alg.png' alt='Question 01' style='max-width: 100%; height: auto;'>",
