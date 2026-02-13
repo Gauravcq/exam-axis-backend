@@ -10424,6 +10424,284 @@
       "explanation": "The logical flow begins with the main goal: <b>2</b> (To mitigate... must drastically reduce its reliance...). This is followed by the core method: <b>1</b> (A key strategy is to diversify...). Then, the result of the method: <b>3</b> (This shift not only decreases...). Finally, an additional measure is added: <b>4</b> (Additionally, policies...)."
     }
   ],
+  "ssc_cgl_eng_16_sep_s1" :
+  [
+    {
+      "question": "Select the most appropriate synonym of the given word:<br><b>ILLUMINATE</b>",
+      "options": [
+        "Explain",
+        "Darken",
+        "Destroy",
+        "Hide"
+      ],
+      "correctAnswer": "Explain",
+      "explanation": "<b>Illuminate</b> means to light up or to clarify and explain. <b>Explain</b> is the most appropriate synonym in this context."
+    },
+    {
+      "question": "Select the most appropriate antonym of the given word:<br><b>Demur</b>",
+      "options": [
+        "Agree",
+        "Oppose",
+        "Object",
+        "Resist"
+      ],
+      "correctAnswer": "Agree",
+      "explanation": "<b>Demur</b> means to raise objections or show reluctance. The opposite (antonym) is to <b>Agree</b>."
+    },
+    {
+      "question": "Choose the correct meaning of idiom:<br><b>Eat humble pie</b>",
+      "options": [
+        "To demand an apology",
+        "To celebrate one's success",
+        "To accept insult or defeat gracefully",
+        "To prepare for failure"
+      ],
+      "correctAnswer": "To accept insult or defeat gracefully",
+      "explanation": "The idiom 'Eat humble pie' means to admit that you were wrong or to accept humiliation with grace, essentially <b>to accept insult or defeat gracefully</b>."
+    },
+    {
+      "question": "Select the most appropriate antonym of the given word:<br><b>Zany</b>",
+      "options": [
+        "Sensible",
+        "Bizarre",
+        "Clownish",
+        "Eccentric"
+      ],
+      "correctAnswer": "Sensible",
+      "explanation": "<b>Zany</b> means amusingly unconventional or eccentric. The opposite (antonym) is <b>Sensible</b>, meaning reasonable and practical."
+    },
+    {
+      "question": "Spot the correct spelling of weather science:",
+      "options": [
+        "Meterology",
+        "Meteorology",
+        "Meteorologie",
+        "Metereology"
+      ],
+      "correctAnswer": "Meteorology",
+      "explanation": "The correct spelling of the science dealing with the atmosphere and weather is <b>Meteorology</b>."
+    },
+    {
+      "question": "Choose the correct one-word substitution for:<br>'A general pardon granted by a government'.",
+      "options": [
+        "Amnesty",
+        "Reprieve",
+        "Clemency",
+        "Parole"
+      ],
+      "correctAnswer": "Amnesty",
+      "explanation": "<b>Amnesty</b> is an official pardon for people who have been convicted of political offenses, typically granted by a government."
+    },
+    {
+      "question": "Choose the correct one-word substitute for:<br>'A secret or disguised way of writing'.",
+      "options": [
+        "Cipher",
+        "Epistle",
+        "Diatribe",
+        "Manuscript"
+      ],
+      "correctAnswer": "Cipher",
+      "explanation": "<b>Cipher</b> refers to a secret or disguised way of writing; a code."
+    },
+    {
+      "question": "Choose the correct phrasal verb:<br>The issue was so delicate that she chose to ______ it altogether.",
+      "options": [
+        "brush aside",
+        "walk into",
+        "shy away from",
+        "lean over"
+      ],
+      "correctAnswer": "shy away from",
+      "explanation": "The phrasal verb <b>shy away from</b> means to avoid something because of nervousness or lack of confidence, which fits the context of avoiding a delicate issue."
+    },
+    {
+      "question": "Select the correct option:<br>The artifact was notable not merely for its age but also for the ______ with which it was preserved.",
+      "options": [
+        "meticulousness",
+        "velocity",
+        "brevity",
+        "severity"
+      ],
+      "correctAnswer": "meticulousness",
+      "explanation": "<b>Meticulousness</b> means showing great attention to detail; very careful and precise. This fits the context of careful preservation."
+    },
+    {
+      "question": "Find the part of the sentence that contains an error:<br>The company needs a detailed feedback (1)/ from all departments (2)/ before finalising its restructuring plan (3)/ for the upcoming fiscal year. (4)/",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "correctAnswer": "(1)",
+      "explanation": "The error is in part (1). 'Feedback' is an uncountable noun and should not be preceded by the article 'a'. It should read 'The company needs detailed feedback' or 'The company needs some detailed feedback'."
+    },
+    {
+      "question": "Change the following from active to passive:<br><b>The team will be revising the algorithms during the workshop.</b>",
+      "options": [
+        "The algorithms were being revised during the workshop.",
+        "The algorithms will be been revised during the workshop.",
+        "The algorithms will be revised during the workshop.",
+        "The algorithms will be being revised during the workshop."
+      ],
+      "correctAnswer": "The algorithms will be being revised during the workshop.",
+      "explanation": "The active sentence uses the Future Continuous tense ('will be revising'). The correct passive structure is <b>will be being + Past Participle (V3)</b>: 'The algorithms <b>will be being revised</b> during the workshop'."
+    },
+    {
+      "question": "Find the part of the sentence that contains an error:<br>Not only the minister but also the bureaucrats (1)/ has been accused of manipulating (2)/ the data presented in the economic survey (3)/ to align with political interests. (4)",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "correctAnswer": "(2)",
+      "explanation": "The error is in part (2). When using 'not only... but also' construction, the verb agrees with the subject closer to it. Since 'bureaucrats' is plural, the verb should be <b>have been accused</b> instead of 'has been accused'."
+    },
+    {
+      "question": "Select the sentence containing the homonym of the highlighted word:<br>The architect discussed the <b>vault</b> beneath the cathedral.",
+      "options": [
+        "The gymnast performed a perfect vault over the horse.",
+        "The treasury vault was secured with biometric locks.",
+        "The earthquake cracked the stone vault supporting the nave.",
+        "The nobles were interred in the family vault."
+      ],
+      "correctAnswer": "The gymnast performed a perfect vault over the horse.",
+      "explanation": "The highlighted word 'vault' in the question is a noun meaning an arched structure (architectural). The homonym uses 'vault' as a verb/noun meaning to <b>jump or leap</b> over something, which is a completely different meaning (gymnastics)."
+    },
+    {
+      "question": "Convert the sentence provided below from its passive voice structure to an active voice structure:<br><b>The children were made to apologize by the principal for their behavior.</b>",
+      "options": [
+        "The principal was made to apologize to the children.",
+        "The principal had made the children apologize.",
+        "The principal made the children apologize for their behavior.",
+        "The principal was apologizing to the children for their behavior."
+      ],
+      "correctAnswer": "The principal made the children apologize for their behavior.",
+      "explanation": "The passive construction 'were made to apologize by the principal' converts to the active voice as: <b>The principal made the children apologize</b>. The causative verb 'make' is followed by the bare infinitive in active voice."
+    },
+    {
+      "question": "Read the following passage and answer the questions based on the passage:<br><br>In the labyrinth of globalization, where intercontinental dialogues shape diplomacy, business, and social cohesion, the intricate terrain of cross-cultural communication remains one of the most formidable cognitive frontiers. Misunderstandings often arise not from lexical deficiencies but from semiotic dissonance-where gestures, silences, intonations, or proxemics are interpreted through incongruent cultural lenses. The assumption that language fluency equates to communicative efficacy is a pernicious fallacy; in reality, fluency may obfuscate cultural asymmetries, allowing misinterpretation to masquerade as comprehension. In high-context cultures-such as Japan or the Arab world-communication is embedded in relational nuance, tacit implications, and communal hierarchies. Conversely, low-context cultures like Germany or the United States prioritize explicitness, objectivity, and individual clarity. When interlocutors from these paradigms converge, the mismatch can generate diplomatic friction, transactional inefficiency, or interpersonal alienation. Even seemingly innocuous behaviors-eye contact, turn-taking, or humor-can catalyze discomfort when interpreted through a monocultural lens. Furthermore, the cognitive filters individuals deploy-shaped by education, tradition, and sociopolitical conditioning often reinforce in-group validation while relegating unfamiliar communication styles to categories of deviance or incompetence. This ethnocentric predisposition exacerbates stereotyping, reduces empathetic bandwidth, and curtails the potential for collaborative synergy. Technology, while ostensibly bridging geographic divides, further complicates intercultural interaction. Emojis, for instance, are semantically fluid; a single icon may evoke warmth in one culture and sarcasm in another. Algorithmic translation, lacking context-sensitivity, risks converting diplomatic nuance into semantic absurdity. Even video conferencing flattens paralinguistic cues vital to cross-cultural understanding. Ultimately, transcending these communicative chasms demands metacognitive vigilance, cultural humility, and dialogic adaptability. Effective intercultural communicators do not merely learn linguistic syntax but cultivate cultural empathy, interrogate their own perceptual frameworks, and develop a tolerance for ambiguity. It is within this cognitive dissonance that the richest intercultural growth unfolds-not through the elimination of difference, but through its embrace.<br><br><b>What is the tone of the passage?</b>",
+      "options": [
+        "Didactic",
+        "Celebratory",
+        "Analytical",
+        "Flippant"
+      ],
+      "correctAnswer": "Analytical",
+      "explanation": "The passage systematically examines cross-cultural communication challenges using careful reasoning and evidence. The tone is <b>Analytical</b>, characterized by thoughtful examination and scholarly analysis."
+    },
+    {
+      "question": "Based on the passage above:<br><b>Which of the following best illustrates a paradox mentioned in the passage?</b>",
+      "options": [
+        "Technology enables cross-cultural empathy.",
+        "Emojis unify people emotionally across cultures.",
+        "Fluency in language can still lead to miscommunication.",
+        "Humor is universally interpreted."
+      ],
+      "correctAnswer": "Fluency in language can still lead to miscommunication.",
+      "explanation": "The passage explicitly states that 'language fluency equates to communicative efficacy is a pernicious fallacy' and that 'fluency may obfuscate cultural asymmetries, allowing misinterpretation to masquerade as comprehension.' This paradox is best captured by option (c)."
+    },
+    {
+      "question": "Based on the passage above:<br><b>The phrase \"semiotic dissonance\" most likely refers to:</b>",
+      "options": [
+        "Discord in musical structure.",
+        "Misinterpretation of cultural symbols and signs.",
+        "Breakdown in Wi-Fi or digital signals.",
+        "Agreement over symbolic meaning."
+      ],
+      "correctAnswer": "Misinterpretation of cultural symbols and signs.",
+      "explanation": "The passage explains that 'semiotic dissonance' occurs when 'gestures, silences, intonations, or proxemics are interpreted through incongruent cultural lenses.' Semiotics refers to signs and symbols, so <b>misinterpretation of cultural symbols and signs</b> is the correct meaning."
+    },
+    {
+      "question": "Based on the passage above:<br><b>Why might technology worsen intercultural communication, as per the author?</b>",
+      "options": [
+        "It amplifies real-time interaction.",
+        "It removes the need for shared language.",
+        "It flattens important non-verbal cues and misrepresents meaning.",
+        "It encourages spontaneous expression."
+      ],
+      "correctAnswer": "It flattens important non-verbal cues and misrepresents meaning.",
+      "explanation": "The passage states that technology complications include: emojis being 'semantically fluid', algorithmic translation 'risks converting diplomatic nuance into semantic absurdity', and 'video conferencing flattens paralinguistic cues vital to cross-cultural understanding.' Option (c) best captures these concerns."
+    },
+    {
+      "question": "Based on the passage above:<br><b>Which of the following metaphors best captures the overall argument of the passage?</b>",
+      "options": [
+        "A bridge that never meets the other side.",
+        "A mirror reflecting only half the image.",
+        "A labyrinth filled with shifting doors.",
+        "A ladder leading to one clear peak."
+      ],
+      "correctAnswer": "A labyrinth filled with shifting doors.",
+      "explanation": "The passage opens with 'In the labyrinth of globalization' and describes cross-cultural communication as a complex, multifaceted challenge with multiple variables and changing dynamics. <b>A labyrinth filled with shifting doors</b> best captures this complexity and the navigational challenge described."
+    },
+    {
+      "question": "Choose the most suitable option to replace the highlighted part of the sentence:<br>We <b>enjoyed very much</b> at the party.",
+      "options": [
+        "have enjoyed very much",
+        "enjoyed ourselves very much",
+        "enjoyed at the party",
+        "were enjoyed"
+      ],
+      "correctAnswer": "enjoyed ourselves very much",
+      "explanation": "The verb 'enjoy' requires a reflexive pronoun when referring to having a good time. The correct form is <b>enjoyed ourselves very much</b>."
+    },
+    {
+      "question": "Choose the most suitable option to replace the highlighted part of the sentence:<br>Neither the manager nor the employees <b>was available</b>.",
+      "options": [
+        "was not available.",
+        "were also available",
+        "were available",
+        "was also not available"
+      ],
+      "correctAnswer": "were available",
+      "explanation": "When using 'neither... nor' construction, the verb agrees with the subject closer to it. Since 'employees' (plural) is closer to the verb, it should be <b>were available</b>."
+    },
+    {
+      "question": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.<br><b>She said, \"I can solve this problem.\"</b>",
+      "options": [
+        "She said that she will solve that problem.",
+        "She said that she could solve this problem.",
+        "She said that she could solve that problem.",
+        "She said she can solve the problem."
+      ],
+      "correctAnswer": "She said that she could solve that problem.",
+      "explanation": "In Direct to Indirect Speech conversion, 'can' changes to <b>could</b>, 'I' changes to <b>she</b>, and 'this' changes to <b>that</b>."
+    },
+    {
+      "question": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.<br><b>She said that she used to play the violin when she was young.</b>",
+      "options": [
+        "\"I played the violin when I was young,\" she said.",
+        "\"I use to play the violin when I was young,\" she said.",
+        "\"I used to play the violin when I was young,\" she said.",
+        "\"I was playing the violin when I was young,\" she said."
+      ],
+      "correctAnswer": "\"I used to play the violin when I was young,\" she said.",
+      "explanation": "The indirect speech maintains 'used to' in the direct speech as well, since it describes a past habit. The correct direct speech is <b>\"I used to play the violin when I was young,\"</b>."
+    },
+    {
+      "question": "Rearrange the following sentences to form a coherent paragraph:<br><br>1. This is especially useful in software development, where multiple programmers can work on the same codebase simultaneously without conflict.<br>2. Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.<br>3. The process involves a specific set of tools and commands that allow for the manipulation and tracking of changes.<br>4. By using version control, a project can maintain a complete history of its development, allowing for easy rollback and collaboration.",
+      "options": [
+        "2, 4, 3, 1",
+        "2, 3, 4, 1",
+        "3, 2, 4, 1",
+        "4, 1, 2, 3"
+      ],
+      "correctAnswer": "2, 4, 3, 1",
+      "explanation": "The logical flow begins with the definition: <b>2</b> (Version control is a system...), followed by its benefits: <b>4</b> (By using version control...), then the technical details: <b>3</b> (The process involves...), and finally a specific application: <b>1</b> (This is especially useful in software development...)."
+    },
+    {
+      "question": "Rearrange the following sentences to form a coherent paragraph:<br><br>1. This is especially useful in software development, where multiple programmers can work on the same codebase simultaneously without conflict.<br>2. Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.<br>3. The process involves a specific set of tools and commands that allow for the manipulation and tracking of changes.<br>4. By using version control, a project can maintain a complete history of its development, allowing for easy rollback and collaboration.",
+      "options": [
+        "2, 4, 3, 1",
+        "2, 3, 4, 1",
+        "3, 2, 4, 1",
+        "4, 1, 2, 3"
+      ],
+      "correctAnswer": "2, 4, 3, 1",
+      "explanation": "The logical flow begins with the definition: <b>2</b> (Version control is a system...), followed by its benefits: <b>4</b> (By using version control...), then the technical details: <b>3</b> (The process involves...), and finally a specific application: <b>1</b> (This is especially useful in software development...)."
+    }
+],
   "ssc_cgl_14_sep_s1": [
     {
       "question": "<img src='../images/011.png' alt='Question 01' style='max-width: 100%; height: auto;'>",
