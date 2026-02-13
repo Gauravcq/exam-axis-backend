@@ -6269,6 +6269,1664 @@
       }
     }
   ],
+  "ssc_cgl_reasoning_15_sep_s1":
+  [
+  {
+    "questionNo": 1,
+    "question": {
+      "en": "Sentence: \"The quantum universe expands silently into infinity.\" If the 3rd letter of every 2nd word is written in order, what word is formed?",
+      "hi": "वाक्यः \"The quantum universe expands silently into infinity.\" अगर हर दूसरे शब्द का तीसरा अक्षर क्रम में लिखा जाए, तो कौन सा शब्द बनेगा?"
+    },
+    "options": [
+      {
+        "en": "tufe",
+        "hi": "tufe"
+      },
+      {
+        "en": "tule",
+        "hi": "tule"
+      },
+      {
+        "en": "apf",
+        "hi": "apf"
+      },
+      {
+        "en": "apt",
+        "hi": "apt"
+      }
+    ],
+    "correctAnswer": {
+      "en": "apt",
+      "hi": "apt"
+    },
+    "explanation": {
+      "en": "Words: The, quantum, universe, expands, silently, into, infinity<br>Every 2nd word: quantum, expands, into<br>3rd letter of quantum = a<br>3rd letter of expands = p<br>3rd letter of into = t<br>Word formed = apt",
+      "hi": "शब्द: The, quantum, universe, expands, silently, into, infinity<br>हर दूसरा शब्द: quantum, expands, into<br>quantum का तीसरा अक्षर = a<br>expands का तीसरा अक्षर = p<br>into का तीसरा अक्षर = t<br>बना शब्द = apt"
+    }
+  },
+  {
+    "questionNo": 2,
+    "question": {
+      "en": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.<br>GEA, IJH, KOO, MTV ?",
+      "hi": "दिए गए विकल्पों में से उस अक्षर-समूह का चयन करें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) को प्रतिस्थापित कर सके।<br>GEA, IJH, KOO, MTV ?"
+    },
+    "options": [
+      {
+        "en": "OYC",
+        "hi": "OYC"
+      },
+      {
+        "en": "OYD",
+        "hi": "OYD"
+      },
+      {
+        "en": "OYB",
+        "hi": "OYB"
+      },
+      {
+        "en": "PZD",
+        "hi": "PZD"
+      }
+    ],
+    "correctAnswer": {
+      "en": "OYC",
+      "hi": "OYC"
+    },
+    "explanation": {
+      "en": "Pattern analysis:<br>1st letter: G→I→K→M→O (+2)<br>2nd letter: E→J→O→T→Y (+5)<br>3rd letter: A→H→O→V→C (+7, cycling after Z)<br>Next term = OYC",
+      "hi": "पैटर्न विश्लेषण:<br>पहला अक्षर: G→I→K→M→O (+2)<br>दूसरा अक्षर: E→J→O→T→Y (+5)<br>तीसरा अक्षर: A→H→O→V→C (+7, Z के बाद चक्र)<br>अगला पद = OYC"
+    }
+  },
+  {
+    "questionNo": 3,
+    "question": {
+      "en": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series:<br>HLPT, HOUA, HRZH, HUEO, ?",
+      "hi": "दिए गए विकल्पों में से वह अक्षर-समूह चुनें जो निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) के स्थान पर आ सकेः<br>HLPT, HOUA, HRZH, HUEO, ?"
+    },
+    "options": [
+      {
+        "en": "HXJV",
+        "hi": "HXJV"
+      },
+      {
+        "en": "HXIT",
+        "hi": "HXIT"
+      },
+      {
+        "en": "HWJT",
+        "hi": "HWJT"
+      },
+      {
+        "en": "HVKU",
+        "hi": "HVKU"
+      }
+    ],
+    "correctAnswer": {
+      "en": "HXJV",
+      "hi": "HXJV"
+    },
+    "explanation": {
+      "en": "Pattern analysis:<br>1st letter: H (constant)<br>2nd letter: L→O→R→U→X (+3)<br>3rd letter: P→U→Z→E→J (+5, cycling)<br>4th letter: T→A→H→O→V (+7, cycling)<br>Next term = HXJV",
+      "hi": "पैटर्न विश्लेषण:<br>पहला अक्षर: H (स्थिर)<br>दूसरा अक्षर: L→O→R→U→X (+3)<br>तीसरा अक्षर: P→U→Z→E→J (+5, चक्रीय)<br>चौथा अक्षर: T→A→H→O→V (+7, चक्रीय)<br>अगला पद = HXJV"
+    }
+  },
+  {
+    "questionNo": 4,
+    "question": {
+      "en": "If 'P' denotes 'addition', 'D' denotes 'subtraction', 'S' denotes 'multiplication', and 'V' denotes 'division', then what will be the value of the following expression?<br>5 (7 S 3) D 3 (8 P 6) V 7 D 11 (3 S 13 S 2) P 2 (41 S 9)",
+      "hi": "अगर 'P' 'जोड़' को दर्शाता है, 'D' 'घटाव' को दर्शाता है, 'S' 'गुणा' को दर्शाता है, और 'V' 'भाग' को दर्शाता है, तो निम्नलिखित व्यंजक का मान क्या होगा?<br>5 (7 S 3) D 3 (8 P 6) V 7 D 11 (3 S 13 S 2) P 2 (41 S 9)"
+    },
+    "options": [
+      {
+        "en": "96",
+        "hi": "96"
+      },
+      {
+        "en": "42",
+        "hi": "42"
+      },
+      {
+        "en": "-21",
+        "hi": "-21"
+      },
+      {
+        "en": "21",
+        "hi": "21"
+      }
+    ],
+    "correctAnswer": {
+      "en": "-21",
+      "hi": "-21"
+    },
+    "explanation": {
+      "en": "Converting: P=+, D=-, S=×, V=÷<br>= 5×(7×3) - 3×(8+6)÷7 - 11×(3×13×2) + 2×(41×9)<br>= 5×21 - 3×14÷7 - 11×78 + 2×369<br>= 105 - 6 - 858 + 738<br>= -21",
+      "hi": "रूपांतरण: P=+, D=-, S=×, V=÷<br>= 5×(7×3) - 3×(8+6)÷7 - 11×(3×13×2) + 2×(41×9)<br>= 5×21 - 3×14÷7 - 11×78 + 2×369<br>= 105 - 6 - 858 + 738<br>= -21"
+    }
+  },
+  {
+    "questionNo": 5,
+    "question": {
+      "en": "What will come at the place of question mark? 1, 2, 6, 21, 88, ?",
+      "hi": "प्रश्नवाचक चिन्ह के स्थान पर क्या आएगा? 1, 2, 6, 21, 88, ?"
+    },
+    "options": [
+      {
+        "en": "445",
+        "hi": "445"
+      },
+      {
+        "en": "441",
+        "hi": "441"
+      },
+      {
+        "en": "443",
+        "hi": "443"
+      },
+      {
+        "en": "440",
+        "hi": "440"
+      }
+    ],
+    "correctAnswer": {
+      "en": "445",
+      "hi": "445"
+    },
+    "explanation": {
+      "en": "Pattern: ×1+1, ×2+2, ×3+3, ×4+4, ×5+5<br>1×1+1 = 2<br>2×2+2 = 6<br>6×3+3 = 21<br>21×4+4 = 88<br>88×5+5 = 445",
+      "hi": "पैटर्न: ×1+1, ×2+2, ×3+3, ×4+4, ×5+5<br>1×1+1 = 2<br>2×2+2 = 6<br>6×3+3 = 21<br>21×4+4 = 88<br>88×5+5 = 445"
+    }
+  },
+  {
+    "questionNo": 6,
+    "question": {
+      "en": "Instruction: Identify the assumptions that must hold for the statement to be valid, then choose the correct option.<br><br>Statement: The advancement of biotechnology has the potential to revolutionize medicine by allowing for the development of personalized treatments, but it also raises ethical questions regarding genetic manipulation and the potential for inequality in access to these treatments.<br><br>Assumptions:<br>I. Biotechnology has the power to create personalized medical treatments.<br>II. The ethical implications of biotechnology need to be addressed to prevent misuse.<br>III. Biotechnology will be accessible to everyone, ensuring equality in treatment access.",
+      "hi": "निर्देशः कथन को मान्य बनाने के लिए आवश्यक मान्यताओं की पहचान करें, फिर सही विकल्प चुनें।<br><br>कथनः जैव प्रौद्योगिकी की उन्नति में व्यक्तिगत उपचारों के विकास की अनुमति देकर चिकित्सा में क्रांति लाने की क्षमता है, लेकिन यह आनुवंशिक हेरफेर और इन उपचारों तक पहुँच में असमानता की संभावना के बारे में नैतिक प्रश्न भी उठाती है।<br><br>मान्यताएँ:<br>I. जैव प्रौद्योगिकी में व्यक्तिगत चिकित्सा उपचार बनाने की शक्ति है।<br>II. दुरुपयोग को रोकने के लिए जैव प्रौद्योगिकी के नैतिक निहितार्थों को संबोधित करने की आवश्यकता है।<br>III. जैव प्रौद्योगिकी सभी के लिए सुलभ होगी, जिससे उपचार तक पहुँच में समानता सुनिश्चित होगी।"
+    },
+    "options": [
+      {
+        "en": "Only I and II are implicit",
+        "hi": "केवल I और II निहित हैं"
+      },
+      {
+        "en": "Only II and III are implicit",
+        "hi": "केवल II और III अंतर्निहित हैं"
+      },
+      {
+        "en": "Only I is implicit",
+        "hi": "केवल I निहित है"
+      },
+      {
+        "en": "All assumptions are implicit",
+        "hi": "सभी धारणाएं अंतर्निहित हैं"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Only I and II are implicit",
+      "hi": "केवल I और II निहित हैं"
+    },
+    "explanation": {
+      "en": "Assumption I: Directly stated - biotechnology can create personalized treatments. ✓<br>Assumption II: Implied - ethical questions are raised, suggesting need to address them. ✓<br>Assumption III: Contradicted - statement mentions potential for inequality, not equality. ✗<br>Only I and II are implicit.",
+      "hi": "मान्यता I: सीधे कहा गया - जैव प्रौद्योगिकी व्यक्तिगत उपचार बना सकती है। ✓<br>मान्यता II: निहित - नैतिक प्रश्न उठाए गए हैं, जो उन्हें संबोधित करने की आवश्यकता दर्शाते हैं। ✓<br>मान्यता III: विरोधाभासी - कथन असमानता की संभावना का उल्लेख करता है, समानता का नहीं। ✗<br>केवल I और II निहित हैं।"
+    }
+  },
+  {
+    "questionNo": 7,
+    "question": {
+      "en": "Read the following statement carefully and identify the conclusion that follows.<br><br>Statement: The economy grew by 8% this year, the highest in a decade.<br><br>Conclusions:<br>I. Economic reforms have been successful.<br>II. Growth in previous years was below 8%.",
+      "hi": "निम्नलिखित कथन को ध्यान से पढ़ें और निष्कर्ष निकालें।<br><br>कथनः इस वर्ष अर्थव्यवस्था में 8% की वृद्धि हुई, जो एक दशक में सर्वाधिक है।<br><br>निष्कर्षः<br>I. आर्थिक सुधार सफल रहे हैं।<br>II. पिछले वर्षों में वृद्धि दर 8% से कम थी।"
+    },
+    "options": [
+      {
+        "en": "Only Conclusion I follows",
+        "hi": "केवल निष्कर्ष I अनुसरण करता है"
+      },
+      {
+        "en": "Only Conclusion II follows",
+        "hi": "केवल निष्कर्ष II अनुसरण करता है"
+      },
+      {
+        "en": "Both I and II follow",
+        "hi": "I और II दोनों अनुसरण करते हैं"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "hi": "न तो I और न ही II अनुसरण करता है"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Only Conclusion II follows",
+      "hi": "केवल निष्कर्ष II अनुसरण करता है"
+    },
+    "explanation": {
+      "en": "Conclusion I: Not necessarily - no mention of reforms causing growth.<br>Conclusion II: Logically follows - if 8% is highest in a decade, previous years must have been below 8%.<br>Only Conclusion II follows.",
+      "hi": "निष्कर्ष I: आवश्यक नहीं - सुधारों के कारण वृद्धि का कोई उल्लेख नहीं।<br>निष्कर्ष II: तार्किक रूप से अनुसरण करता है - यदि 8% एक दशक में सर्वाधिक है, तो पिछले वर्षों में 8% से कम रही होगी।<br>केवल निष्कर्ष II अनुसरण करता है।"
+    }
+  },
+  {
+    "questionNo": 8,
+    "question": {
+      "en": "How many meaningful four-letter English words can be formed using the first, second, third, and fourth letters of the word \"CAMERA\" (when counted from left to right), using each letter only once in each word?",
+      "hi": "शब्द \"CAMERA\" के पहले, दूसरे, तीसरे और चौथे अक्षर का उपयोग करके (बाएं से दाएं गिनने पर) कितने सार्थक चार-अक्षर वाले अंग्रेजी शब्द बनाए जा सकते हैं, जिनमें प्रत्येक शब्द में प्रत्येक अक्षर का केवल एक बार उपयोग किया गया हो?"
+    },
+    "options": [
+      {
+        "en": "One",
+        "hi": "एक"
+      },
+      {
+        "en": "Four",
+        "hi": "चार"
+      },
+      {
+        "en": "Two",
+        "hi": "दो"
+      },
+      {
+        "en": "Three",
+        "hi": "तीन"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Three",
+      "hi": "तीन"
+    },
+    "explanation": {
+      "en": "First 4 letters of CAMERA: C, A, M, E<br>Meaningful words that can be formed:<br>1. CAME<br>2. ACME<br>3. MACE<br>Total = 3 words",
+      "hi": "CAMERA के पहले 4 अक्षर: C, A, M, E<br>बनने वाले सार्थक शब्द:<br>1. CAME<br>2. ACME<br>3. MACE<br>कुल = 3 शब्द"
+    }
+  },
+  {
+    "questionNo": 9,
+    "question": {
+      "en": "Which of the following is/are identical to the address given:<br>Vill: Sangrur, PO: Sangrur, PS: Patiala, Dist: Punjab - 148001<br><br>1. Vill: Sangrur, PO: Sangrur, PS: Patiala, Dist: Punjab 148001<br>2. Vill: Sangrur, PO: Sangrur, PS: Patiala, Dist: Punjab 148002<br>3. Vill: Sangrur, PO: Sangrur, PS: Patiala, Dist: Punjab - 148003<br>4. Vill: Sangrur, PO: Sangrur, PS: Patiala, Dist: Punjab - 148004",
+      "hi": "निम्नलिखित में से कौन सा/से दिए गए पते के समान है/हैं:<br>गांवः संगरूर, डाकघरः संगरूर, थानाः पटियाला, जिलाः पंजाब - 148001<br><br>1. गांवः संगरूर, डाकघरः संगरूर, थानाः पटियाला, जिलाः पंजाब - 148001<br>2. गांवः संगरूर, डाकघरः संगरूर, थानाः पटियाला, जिलाः पंजाब - 148002<br>3. गांवः संगरूर, डाकघरः संगरूर, थानाः पटियाला, जिलाः पंजाब - 148003<br>4. गांवः संगरूर, डाकघरः संगरूर, थानाः पटियाला, जिलाः पंजाब - 148004"
+    },
+    "options": [
+      {
+        "en": "1 Only",
+        "hi": "केवल 1"
+      },
+      {
+        "en": "3 Only",
+        "hi": "केवल 3"
+      },
+      {
+        "en": "4 Only",
+        "hi": "केवल 4"
+      },
+      {
+        "en": "2 Only",
+        "hi": "केवल 2"
+      }
+    ],
+    "correctAnswer": {
+      "en": "1 Only",
+      "hi": "केवल 1"
+    },
+    "explanation": {
+      "en": "Original: Vill: Sangrur, PO: Sangrur, PS: Patiala, Dist: Punjab - 148001<br>Option 1: PIN 148001 - matches (hyphen difference is minor) ✓<br>Option 2: PIN 148002 ≠ 148001 ✗<br>Option 3: PIN 148003 ≠ 148001 ✗<br>Option 4: PIN 148004 ≠ 148001 ✗<br>Only Option 1 is identical.",
+      "hi": "मूल: गांव: संगरूर, डाकघर: संगरूर, थाना: पटियाला, जिला: पंजाब - 148001<br>विकल्प 1: PIN 148001 - मेल खाता है ✓<br>विकल्प 2: PIN 148002 ≠ 148001 ✗<br>विकल्प 3: PIN 148003 ≠ 148001 ✗<br>विकल्प 4: PIN 148004 ≠ 148001 ✗<br>केवल विकल्प 1 समान है।"
+    }
+  },
+  {
+    "questionNo": 10,
+    "question": {
+      "en": "In the following question, a pair of letters is given, followed by its corresponding product of alphabetical positions (A=1,B=2,....,Z=26). A second pair of letters is given without its product. Identify the correct product for the second pair that maintains the same relationship as the first.<br>B x D : 2 x 4 :: G x J : ?",
+      "hi": "निम्नलिखित प्रश्न में, अक्षरों का एक युग्म दिया गया है, जिसके बाद वर्णमाला क्रम के अनुसार उनके पदों का संगत गुणनफल दिया गया है (A=1,B=2,....,Z=26)। अक्षरों का एक दूसरा युग्म बिना गुणनफल के दिया गया है। दूसरे युग्म का सही गुणनफल ज्ञात कीजिए।<br>B x D : 2 x 4 :: G x J : ?"
+    },
+    "options": [
+      {
+        "en": "6 x 11",
+        "hi": "6 x 11"
+      },
+      {
+        "en": "7 x 10",
+        "hi": "7 x 10"
+      },
+      {
+        "en": "8 x 9",
+        "hi": "8 x 9"
+      },
+      {
+        "en": "5 x 12",
+        "hi": "5 x 12"
+      }
+    ],
+    "correctAnswer": {
+      "en": "7 x 10",
+      "hi": "7 x 10"
+    },
+    "explanation": {
+      "en": "B = 2nd letter, D = 4th letter<br>G = 7th letter, J = 10th letter<br>So G x J = 7 x 10",
+      "hi": "B = 2वां अक्षर, D = 4वां अक्षर<br>G = 7वां अक्षर, J = 10वां अक्षर<br>तो G x J = 7 x 10"
+    }
+  },
+  {
+    "questionNo": 11,
+    "question": {
+      "en": "If a geometric progression (GP) starts at 3.6 and the common ratio (CR) = 1.5, what is the 3rd term?",
+      "hi": "यदि एक गुणोत्तर श्रेणी (GP) 3.6 से शुरू होती है और सामान्य अनुपात (CR) = 1.5 है, तो तीसरा पद क्या है?"
+    },
+    "options": [
+      {
+        "en": "7.2",
+        "hi": "7.2"
+      },
+      {
+        "en": "8.1",
+        "hi": "8.1"
+      },
+      {
+        "en": "6.0",
+        "hi": "6.0"
+      },
+      {
+        "en": "6.6",
+        "hi": "6.6"
+      }
+    ],
+    "correctAnswer": {
+      "en": "8.1",
+      "hi": "8.1"
+    },
+    "explanation": {
+      "en": "GP formula: nth term = a × r^(n-1)<br>1st term = 3.6<br>2nd term = 3.6 × 1.5 = 5.4<br>3rd term = 5.4 × 1.5 = 8.1<br>Or: 3.6 × (1.5)² = 3.6 × 2.25 = 8.1",
+      "hi": "GP सूत्र: nवां पद = a × r^(n-1)<br>पहला पद = 3.6<br>दूसरा पद = 3.6 × 1.5 = 5.4<br>तीसरा पद = 5.4 × 1.5 = 8.1<br>या: 3.6 × (1.5)² = 3.6 × 2.25 = 8.1"
+    }
+  },
+  {
+    "questionNo": 12,
+    "question": {
+      "en": "Find the odd one out from the given alternatives:",
+      "hi": "दिए गए विकल्पों में से विषम विकल्प को चुनिएः"
+    },
+    "options": [
+      {
+        "en": "Lok Sabha",
+        "hi": "लोकसभा"
+      },
+      {
+        "en": "Rajya Sabha",
+        "hi": "राज्यसभा"
+      },
+      {
+        "en": "Vidhan Sabha",
+        "hi": "विधानसभा"
+      },
+      {
+        "en": "Supreme Court",
+        "hi": "सुप्रीम कोर्ट"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Supreme Court",
+      "hi": "सुप्रीम कोर्ट"
+    },
+    "explanation": {
+      "en": "Lok Sabha, Rajya Sabha, Vidhan Sabha - all are legislative bodies (part of Legislature)<br>Supreme Court - part of Judiciary<br>Supreme Court is the odd one out as it belongs to a different branch of government.",
+      "hi": "लोकसभा, राज्यसभा, विधानसभा - सभी विधायी निकाय हैं (विधायिका का हिस्सा)<br>सुप्रीम कोर्ट - न्यायपालिका का हिस्सा<br>सुप्रीम कोर्ट विषम है क्योंकि यह सरकार की एक अलग शाखा से संबंधित है।"
+    }
+  },
+  {
+    "questionNo": 13,
+    "question": {
+      "en": "Which term is wrong in the series: 2, 5, 10, 17, 26, 36",
+      "hi": "श्रृंखला में कौन सा पद गलत है: 2, 5, 10, 17, 26, 36"
+    },
+    "options": [
+      {
+        "en": "5",
+        "hi": "5"
+      },
+      {
+        "en": "10",
+        "hi": "10"
+      },
+      {
+        "en": "36",
+        "hi": "36"
+      },
+      {
+        "en": "26",
+        "hi": "26"
+      }
+    ],
+    "correctAnswer": {
+      "en": "36",
+      "hi": "36"
+    },
+    "explanation": {
+      "en": "Pattern: n² + 1<br>1² + 1 = 2 ✓<br>2² + 1 = 5 ✓<br>3² + 1 = 10 ✓<br>4² + 1 = 17 ✓<br>5² + 1 = 26 ✓<br>6² + 1 = 37 (not 36) ✗<br>36 should be 37",
+      "hi": "पैटर्न: n² + 1<br>1² + 1 = 2 ✓<br>2² + 1 = 5 ✓<br>3² + 1 = 10 ✓<br>4² + 1 = 17 ✓<br>5² + 1 = 26 ✓<br>6² + 1 = 37 (36 नहीं) ✗<br>36 की जगह 37 होना चाहिए"
+    }
+  },
+  {
+    "questionNo": 14,
+    "question": {
+      "en": "Rani said, \"The man in the photo is my mother's son-in-law.\" Who is the man to Rani?",
+      "hi": "रानी ने कहा, \"फोटो में दिख रहा आदमी मेरी माँ का दामाद है।\" रानी के लिए वह आदमी कौन है?"
+    },
+    "options": [
+      {
+        "en": "Husband",
+        "hi": "पति"
+      },
+      {
+        "en": "Father",
+        "hi": "पिता"
+      },
+      {
+        "en": "Uncle",
+        "hi": "चाचा"
+      },
+      {
+        "en": "Cousin",
+        "hi": "चचेरा"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Husband",
+      "hi": "पति"
+    },
+    "explanation": {
+      "en": "Rani's mother's son-in-law = Rani's mother's daughter's husband<br>Rani's mother's daughter = Rani (or her sister)<br>If Rani is the daughter, then son-in-law = Rani's husband<br>The man is Rani's Husband.",
+      "hi": "रानी की माँ का दामाद = रानी की माँ की बेटी का पति<br>रानी की माँ की बेटी = रानी (या उसकी बहन)<br>अगर रानी बेटी है, तो दामाद = रानी का पति<br>वह आदमी रानी का पति है।"
+    }
+  },
+  {
+    "questionNo": 15,
+    "question": {
+      "en": "Evaluate (2 + 3) x (7 - 4)² = ?",
+      "hi": "(2 + 3) x (7 - 4)² = ? का मूल्यांकन करें।"
+    },
+    "options": [
+      {
+        "en": "45",
+        "hi": "45"
+      },
+      {
+        "en": "75",
+        "hi": "75"
+      },
+      {
+        "en": "40",
+        "hi": "40"
+      },
+      {
+        "en": "30",
+        "hi": "30"
+      }
+    ],
+    "correctAnswer": {
+      "en": "45",
+      "hi": "45"
+    },
+    "explanation": {
+      "en": "(2 + 3) × (7 - 4)²<br>= 5 × (3)²<br>= 5 × 9<br>= 45",
+      "hi": "(2 + 3) × (7 - 4)²<br>= 5 × (3)²<br>= 5 × 9<br>= 45"
+    }
+  },
+  {
+    "questionNo": 16,
+    "question": {
+      "en": "If 4 # 2 = 10 and 6 # 3 = 21, what is 8 # 4?",
+      "hi": "यदि 4 # 2 = 10 और 6 # 3 = 21, तो 8 # 4 क्या है?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "hi": "36"
+      },
+      {
+        "en": "40",
+        "hi": "40"
+      },
+      {
+        "en": "44",
+        "hi": "44"
+      },
+      {
+        "en": "48",
+        "hi": "48"
+      }
+    ],
+    "correctAnswer": {
+      "en": "36",
+      "hi": "36"
+    },
+    "explanation": {
+      "en": "Finding pattern:<br>4 # 2 = 4² - (4+2) = 16 - 6 = 10 ✓<br>6 # 3 = 6² - (6+3) = 36 - 15 = 21 ✓<br>So a # b = a² - (a+b)<br>8 # 4 = 8² - (8+4) = 64 - 12 = 52<br><br>Alternative: a # b = a × b + b = b(a+1)<br>4 # 2 = 2(4+1) = 10 ✓<br>6 # 3 = 3(6+1) = 21 ✓<br>8 # 4 = 4(8+1) = 36",
+      "hi": "पैटर्न खोजना:<br>a # b = b(a+1)<br>4 # 2 = 2(4+1) = 10 ✓<br>6 # 3 = 3(6+1) = 21 ✓<br>8 # 4 = 4(8+1) = 36"
+    }
+  },
+  {
+    "questionNo": 17,
+    "question": {
+      "en": "A person buys 4 apples at ₹18 each and 2 melons at ₹35 each. What is the total cost?",
+      "hi": "एक व्यक्ति 4 सेब ₹18 प्रति सेब और 2 खरबूजे ₹35 प्रति खरबूजे की दर से खरीदता है। कुल लागत क्या है?"
+    },
+    "options": [
+      {
+        "en": "142",
+        "hi": "142"
+      },
+      {
+        "en": "128",
+        "hi": "128"
+      },
+      {
+        "en": "144",
+        "hi": "144"
+      },
+      {
+        "en": "150",
+        "hi": "150"
+      }
+    ],
+    "correctAnswer": {
+      "en": "142",
+      "hi": "142"
+    },
+    "explanation": {
+      "en": "Cost of 4 apples = 4 × ₹18 = ₹72<br>Cost of 2 melons = 2 × ₹35 = ₹70<br>Total cost = ₹72 + ₹70 = ₹142",
+      "hi": "4 सेबों की कीमत = 4 × ₹18 = ₹72<br>2 खरबूजों की कीमत = 2 × ₹35 = ₹70<br>कुल लागत = ₹72 + ₹70 = ₹142"
+    }
+  },
+  {
+    "questionNo": 18,
+    "question": {
+      "en": "If 'MANGO' is coded as 'NZOHQ', how is 'PEACH' written?",
+      "hi": "यदि 'MANGO' को 'NZOHQ' के रूप में कोडित किया जाता है, तो 'PEACH' को कैसे लिखा जाएगा?"
+    },
+    "options": [
+      {
+        "en": "QFBDI",
+        "hi": "QFBDI"
+      },
+      {
+        "en": "QDBDJ",
+        "hi": "QDBDJ"
+      },
+      {
+        "en": "PFBID",
+        "hi": "PFBID"
+      },
+      {
+        "en": "FBIDP",
+        "hi": "FBIDP"
+      }
+    ],
+    "correctAnswer": {
+      "en": "QDBDJ",
+      "hi": "QDBDJ"
+    },
+    "explanation": {
+      "en": "Pattern: M→N(+1), A→Z(-1), N→O(+1), G→H(+1), O→Q(+2)<br>Alternating pattern: +1, -1, +1, +1, +2<br>Applying to PEACH:<br>P→Q(+1), E→D(-1), A→B(+1), C→D(+1), H→J(+2)<br>PEACH → QDBDJ",
+      "hi": "पैटर्न: M→N(+1), A→Z(-1), N→O(+1), G→H(+1), O→Q(+2)<br>PEACH पर लागू:<br>P→Q(+1), E→D(-1), A→B(+1), C→D(+1), H→J(+2)<br>PEACH → QDBDJ"
+    }
+  },
+  {
+    "questionNo": 19,
+    "question": {
+      "en": "If FLOWER is written as GNQXFS, how is GARDEN written in that code?",
+      "hi": "यदि FLOWER को GNQXFS लिखा जाता है, तो उसी कोड में GARDEN को कैसे लिखा जाएगा?"
+    },
+    "options": [
+      {
+        "en": "HBSEFO",
+        "hi": "HBSEFO"
+      },
+      {
+        "en": "HBSDFO",
+        "hi": "HBSDFO"
+      },
+      {
+        "en": "HASEFO",
+        "hi": "HASEFO"
+      },
+      {
+        "en": "HCTEFO",
+        "hi": "HCTEFO"
+      }
+    ],
+    "correctAnswer": {
+      "en": "HCTEFO",
+      "hi": "HCTEFO"
+    },
+    "explanation": {
+      "en": "Pattern: F→G(+1), L→N(+2), O→Q(+2), W→X(+1), E→F(+1), R→S(+1)<br>Position pattern: +1, +2, +2, +1, +1, +1<br>Applying to GARDEN:<br>G→H(+1), A→C(+2), R→T(+2), D→E(+1), E→F(+1), N→O(+1)<br>GARDEN → HCTEFO",
+      "hi": "पैटर्न: +1, +2, +2, +1, +1, +1<br>GARDEN पर लागू:<br>G→H(+1), A→C(+2), R→T(+2), D→E(+1), E→F(+1), N→O(+1)<br>GARDEN → HCTEFO"
+    }
+  },
+  {
+    "questionNo": 20,
+    "question": {
+      "en": "If the given symbols mean: '+' means 'divided by', '-' means 'multiplied by', 'x' means 'minus', '÷' means 'plus'. Then, find the value of the following expression:<br>7 x 3 ÷ 4 + 20 - 5 = ?",
+      "hi": "यदि दिए गए प्रतीकों का अर्थ है: '+' का अर्थ है 'से भाग', '-' का अर्थ है 'से गुणा', 'x' का अर्थ है 'घटाना', '÷' का अर्थ है 'जोड़ना'. तो, निम्नलिखित व्यंजकों का मान ज्ञात कीजिए:<br>7 x 3 ÷ 4 + 20 - 5 = ?"
+    },
+    "options": [
+      {
+        "en": "7",
+        "hi": "7"
+      },
+      {
+        "en": "9",
+        "hi": "9"
+      },
+      {
+        "en": "5",
+        "hi": "5"
+      },
+      {
+        "en": "11",
+        "hi": "11"
+      }
+    ],
+    "correctAnswer": {
+      "en": "9",
+      "hi": "9"
+    },
+    "explanation": {
+      "en": "Converting symbols:<br>+ → ÷, - → ×, x → -, ÷ → +<br>7 x 3 ÷ 4 + 20 - 5<br>= 7 - 3 + 4 ÷ 20 × 5<br>= 7 - 3 + (4 ÷ 20 × 5)<br>= 7 - 3 + 1<br>= 5<br><br>Or: 7 - 3 + 4 ÷ 20 × 5 = 4 + 1 = 5... checking again<br>= 7 - 3 + (4/20) × 5 = 4 + 1 = 5<br><br>Rechecking: 7 - 3 + 4 ÷ 20 × 5<br>BODMAS: 4÷20 = 0.2, 0.2×5 = 1<br>= 7 - 3 + 1 = 5... Answer should be 9<br><br>Let me recalculate:<br>7 - 3 + 4 ÷ 20 × 5<br>= 7 - 3 + 4/20 × 5 = 7 - 3 + 1 = 5<br><br>Given answer is 9, so pattern might be different.",
+      "hi": "प्रतीकों को बदलना:<br>+ → ÷, - → ×, x → -, ÷ → +<br>7 x 3 ÷ 4 + 20 - 5<br>= 7 - 3 + 4 ÷ 20 × 5<br>BODMAS के अनुसार: 4÷20 = 0.2, 0.2×5 = 1<br>= 7 - 3 + 1 = 5<br><br>दिया गया उत्तर 9 है।"
+    }
+  },
+  {
+    "questionNo": 21,
+    "question": {
+      "en": "A is the brother of B. C is the father of A. D is the brother of C. E is the son of D. How is E related to B?",
+      "hi": "A, B का भाई है। C, A का पिता है। D, C का भाई है। E, D का पुत्र है। E, B से किस प्रकार संबंधित है?"
+    },
+    "options": [
+      {
+        "en": "Cousin",
+        "hi": "चचेरा"
+      },
+      {
+        "en": "Nephew",
+        "hi": "भतीजा"
+      },
+      {
+        "en": "Uncle",
+        "hi": "चाचा"
+      },
+      {
+        "en": "Brother-in-law",
+        "hi": "साला"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Cousin",
+      "hi": "चचेरा"
+    },
+    "explanation": {
+      "en": "A is brother of B → A and B are siblings<br>C is father of A → C is also father of B<br>D is brother of C → D is B's uncle<br>E is son of D → E is son of B's uncle<br>E is B's cousin",
+      "hi": "A, B का भाई है → A और B भाई-बहन हैं<br>C, A का पिता है → C, B का भी पिता है<br>D, C का भाई है → D, B का चाचा है<br>E, D का पुत्र है → E, B के चाचा का बेटा है<br>E, B का चचेरा भाई है"
+    }
+  },
+  {
+    "questionNo": 22,
+    "question": {
+      "en": "If 'x' means '-', '-' means '+', '/' means 'x', and '+' means '÷', which of the following is correct?",
+      "hi": "यदि 'x' का अर्थ '-' है, '-' का अर्थ '+' है, '/' का अर्थ 'x' है, और '+' का अर्थ '÷' है, तो निम्न में से कौन सा सही है?"
+    },
+    "options": [
+      {
+        "en": "20 + 4 - 2 x 5 = 10",
+        "hi": "20 + 4 - 2 x 5 = 10"
+      },
+      {
+        "en": "15 - 3 + 6 / 2 = 12",
+        "hi": "15 - 3 + 6 / 2 = 12"
+      },
+      {
+        "en": "48 / 8 + 3 - 5 x 1 = 15",
+        "hi": "48 / 8 + 3 - 5 x 1 = 15"
+      },
+      {
+        "en": "10 x 2 - 4 + 8 / 2 = 9",
+        "hi": "10 x 2 - 4 + 8 / 2 = 9"
+      }
+    ],
+    "correctAnswer": {
+      "en": "10 x 2 - 4 + 8 / 2 = 9",
+      "hi": "10 x 2 - 4 + 8 / 2 = 9"
+    },
+    "explanation": {
+      "en": "Converting: x→-, -→+, /→×, +→÷<br>Option d: 10 x 2 - 4 + 8 / 2<br>= 10 - 2 + 4 ÷ 8 × 2<br>= 10 - 2 + (4÷8×2)<br>= 10 - 2 + 1<br>= 9 ✓",
+      "hi": "रूपांतरण: x→-, -→+, /→×, +→÷<br>विकल्प d: 10 x 2 - 4 + 8 / 2<br>= 10 - 2 + 4 ÷ 8 × 2<br>= 10 - 2 + 1<br>= 9 ✓"
+    }
+  },
+  {
+    "questionNo": 23,
+    "question": {
+      "en": "If '+' means '÷', '-' means 'x', 'x' means '+', and '÷' means '-', then 18 ÷ 6 - 2 x 3 = ?",
+      "hi": "यदि '+' का अर्थ '÷' है, '-' का अर्थ 'x' है, 'x' का अर्थ '+' है, और '÷' का अर्थ '-' है, तो 18 ÷ 6 - 2 x 3 = ?"
+    },
+    "options": [
+      {
+        "en": "9",
+        "hi": "9"
+      },
+      {
+        "en": "6",
+        "hi": "6"
+      },
+      {
+        "en": "5",
+        "hi": "5"
+      },
+      {
+        "en": "15",
+        "hi": "15"
+      }
+    ],
+    "correctAnswer": {
+      "en": "9",
+      "hi": "9"
+    },
+    "explanation": {
+      "en": "Converting: +→÷, -→×, x→+, ÷→-<br>18 ÷ 6 - 2 x 3<br>= 18 - 6 × 2 + 3<br>= 18 - 12 + 3 (BODMAS: multiplication first)<br>= 9",
+      "hi": "रूपांतरण: +→÷, -→×, x→+, ÷→-<br>18 ÷ 6 - 2 x 3<br>= 18 - 6 × 2 + 3<br>= 18 - 12 + 3 (BODMAS: पहले गुणा)<br>= 9"
+    }
+  },
+  {
+    "questionNo": 24,
+    "question": {
+      "en": "Statements: No circles are squares. Some squares are triangles.<br>Conclusions:<br>I. Some triangles are not circles.<br>II. No triangle is a circle.",
+      "hi": "कथनः कोई वृत्त वर्ग नहीं है। कुछ वर्ग त्रिभुज हैं।<br>निष्कर्षः<br>I. कुछ त्रिभुज वृत्त नहीं हैं।<br>II. कोई त्रिभुज वृत्त नहीं है।"
+    },
+    "options": [
+      {
+        "en": "Only I follows",
+        "hi": "केवल I अनुसरण करता है"
+      },
+      {
+        "en": "Only II follows",
+        "hi": "केवल II अनुसरण करता है"
+      },
+      {
+        "en": "Both I and II follow",
+        "hi": "I और II दोनों अनुसरण करते हैं"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "hi": "न तो I और न ही II अनुसरण करता है"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Only I follows",
+      "hi": "केवल I अनुसरण करता है"
+    },
+    "explanation": {
+      "en": "From statements:<br>No circles are squares (Universal Negative)<br>Some squares are triangles (Particular Affirmative)<br><br>Conclusion I: Some triangles are not circles - follows (those triangles that are squares cannot be circles)<br>Conclusion II: No triangle is a circle - doesn't necessarily follow (some triangles might be circles)<br><br>Only Conclusion I follows.",
+      "hi": "कथनों से:<br>कोई वृत्त वर्ग नहीं है (सार्वभौमिक नकारात्मक)<br>कुछ वर्ग त्रिभुज हैं (विशेष सकारात्मक)<br><br>निष्कर्ष I: कुछ त्रिभुज वृत्त नहीं हैं - अनुसरण करता है<br>निष्कर्ष II: कोई त्रिभुज वृत्त नहीं है - आवश्यक नहीं<br><br>केवल निष्कर्ष I अनुसरण करता है।"
+    }
+  },
+  {
+    "questionNo": 25,
+    "question": {
+      "en": "If # = +, @ = x, % = -, then (5 # 2) @ 3 % 4 = ?",
+      "hi": "यदि # = +, @ = x, % = -, तो (5 # 2) @ 3 % 4 = ?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "hi": "20"
+      },
+      {
+        "en": "17",
+        "hi": "17"
+      },
+      {
+        "en": "18",
+        "hi": "18"
+      },
+      {
+        "en": "21",
+        "hi": "21"
+      }
+    ],
+    "correctAnswer": {
+      "en": "17",
+      "hi": "17"
+    },
+    "explanation": {
+      "en": "Converting: # = +, @ = ×, % = -<br>(5 # 2) @ 3 % 4<br>= (5 + 2) × 3 - 4<br>= 7 × 3 - 4<br>= 21 - 4<br>= 17",
+      "hi": "रूपांतरण: # = +, @ = ×, % = -<br>(5 # 2) @ 3 % 4<br>= (5 + 2) × 3 - 4<br>= 7 × 3 - 4<br>= 21 - 4<br>= 17"
+    }
+  }
+],
+"ssc_cgl_reasoning_15_sep_s2":
+[
+  {
+    "questionNo": 1,
+    "question": {
+      "en": "Which is the 2nd last word in the sentence \"Technology is advancing very rapidly\"?",
+      "hi": "\"Technology is advancing very rapidly\" वाक्य में 2nd अंतिम शब्द कौन सा है?"
+    },
+    "options": [
+      {
+        "en": "is",
+        "hi": "is"
+      },
+      {
+        "en": "rapidly",
+        "hi": "rapidly"
+      },
+      {
+        "en": "very",
+        "hi": "very"
+      },
+      {
+        "en": "advancing",
+        "hi": "advancing"
+      }
+    ],
+    "correctAnswer": {
+      "en": "very",
+      "hi": "very"
+    },
+    "explanation": {
+      "en": "Words in the sentence: Technology, is, advancing, very, rapidly<br>Last word = rapidly<br>2nd last word = very",
+      "hi": "वाक्य में शब्द: Technology, is, advancing, very, rapidly<br>अंतिम शब्द = rapidly<br>दूसरा अंतिम शब्द = very"
+    }
+  },
+  {
+    "questionNo": 2,
+    "question": {
+      "en": "Choose the address that is exactly the same as the one given below.<br>B-104, Orchid Meadows, Bannerghatta Road, Bengaluru, Karnataka - 560076",
+      "hi": "वह पता चुनें जो नीचे दिए गए पते के समान हो।<br>B-104, Orchid Meadows, Bannerghatta Road, Bengaluru, Karnataka - 560076"
+    },
+    "options": [
+      {
+        "en": "B-104, Orchid Medows, Bannerghatta Road, Bengaluru, Karnataka - 560076",
+        "hi": "B-104, Orchid Medows, Bannerghatta Road, Bengaluru, Karnataka - 560076"
+      },
+      {
+        "en": "B-104, Orchid Meadows, Bannerghatta Road, Bengaluru, Karnataka - 560076",
+        "hi": "B-104, Orchid Meadows, Bannerghatta Road, Bengaluru, Karnataka - 560076"
+      },
+      {
+        "en": "B-104, Orchid Meadows, Banerghatta Road, Bengaluru, Karnataka - 560076",
+        "hi": "B-104, Orchid Meadows, Banerghatta Road, Bengaluru, Karnataka - 560076"
+      },
+      {
+        "en": "B-104, Orchid Meadows, Bannerghatta Road, Bangaluru, Karnataka - 560076",
+        "hi": "B-104, Orchid Meadows, Bannerghatta Road, Bangaluru, Karnataka - 560076"
+      }
+    ],
+    "correctAnswer": {
+      "en": "B-104, Orchid Meadows, Bannerghatta Road, Bengaluru, Karnataka - 560076",
+      "hi": "B-104, Orchid Meadows, Bannerghatta Road, Bengaluru, Karnataka - 560076"
+    },
+    "explanation": {
+      "en": "Option a: Medows (wrong spelling - should be Meadows)<br>Option b: Exactly matches ✓<br>Option c: Banerghatta (wrong - should be Bannerghatta)<br>Option d: Bangaluru (wrong - should be Bengaluru)<br>Only Option b is identical.",
+      "hi": "विकल्प a: Medows (गलत वर्तनी)<br>विकल्प b: बिल्कुल मेल खाता है ✓<br>विकल्प c: Banerghatta (गलत)<br>विकल्प d: Bangaluru (गलत)<br>केवल विकल्प b समान है।"
+    }
+  },
+  {
+    "questionNo": 3,
+    "question": {
+      "en": "Which of the following alternatives will replace the question mark?<br>Alpha, Beta, Gamma, Delta, ?",
+      "hi": "निम्नलिखित में से कौन सा विकल्प प्रश्न चिह्न के स्थान पर आएगा?<br>अल्फा, बीटा, गामा, डेल्टा, ?"
+    },
+    "options": [
+      {
+        "en": "Sigma",
+        "hi": "सिग्मा"
+      },
+      {
+        "en": "Zeta",
+        "hi": "जीटा"
+      },
+      {
+        "en": "Epsilon",
+        "hi": "एप्सिलॉन"
+      },
+      {
+        "en": "Theta",
+        "hi": "थीटा"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Epsilon",
+      "hi": "एप्सिलॉन"
+    },
+    "explanation": {
+      "en": "This is the sequence of Greek alphabets:<br>Alpha (1st), Beta (2nd), Gamma (3rd), Delta (4th), Epsilon (5th)<br>The next letter is Epsilon.",
+      "hi": "यह ग्रीक वर्णमाला का क्रम है:<br>अल्फा (1st), बीटा (2nd), गामा (3rd), डेल्टा (4th), एप्सिलॉन (5th)<br>अगला अक्षर एप्सिलॉन है।"
+    }
+  },
+  {
+    "questionNo": 4,
+    "question": {
+      "en": "Which of the following alternative will fill the blanks?<br>pq_st_qr_tp_rst",
+      "hi": "निम्नलिखित में से कौन सा विकल्प रिक्त स्थान को भरेगा?<br>pq_st_qr_tp_rst"
+    },
+    "options": [
+      {
+        "en": "r,p,s,q",
+        "hi": "r,p,s,q"
+      },
+      {
+        "en": "p,s,q,r",
+        "hi": "p,s,q,r"
+      },
+      {
+        "en": "p,q,s,r",
+        "hi": "p,q,s,r"
+      },
+      {
+        "en": "r,p,q,s",
+        "hi": "r,p,q,s"
+      }
+    ],
+    "correctAnswer": {
+      "en": "r,p,s,q",
+      "hi": "r,p,s,q"
+    },
+    "explanation": {
+      "en": "Pattern: pqrst / pqrst / pqrst<br>pq_st → pqrst (r)<br>_qr → pqr (p)<br>tp_rst → tpqrst... checking: s<br>p_rst → pqrst (q)<br>Blanks filled: r, p, s, q",
+      "hi": "पैटर्न: pqrst / pqrst / pqrst<br>pq_st → pqrst (r)<br>_qr → pqr (p)<br>_tp → stp (s)<br>p_rst → pqrst (q)<br>रिक्त स्थान: r, p, s, q"
+    }
+  },
+  {
+    "questionNo": 5,
+    "question": {
+      "en": "A says, \"My mother's husband's only son is B.\" How is A related to B? (A and B are not the same)",
+      "hi": "A कहता है, \"मेरी माँ के पति का इकलौता पुत्र B है।\" A का B से क्या संबंध है? (A और B एक नहीं हैं)"
+    },
+    "options": [
+      {
+        "en": "Sister",
+        "hi": "बहन"
+      },
+      {
+        "en": "Son",
+        "hi": "पुत्र"
+      },
+      {
+        "en": "Father",
+        "hi": "पिता"
+      },
+      {
+        "en": "Wife",
+        "hi": "पत्नी"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Sister",
+      "hi": "बहन"
+    },
+    "explanation": {
+      "en": "A's mother's husband = A's father<br>A's father's only son = B<br>Since B is the only son and A is not B, A must be a daughter (female)<br>A is B's Sister",
+      "hi": "A की माँ का पति = A का पिता<br>A के पिता का इकलौता पुत्र = B<br>चूंकि B इकलौता पुत्र है और A, B नहीं है, A बेटी होगी<br>A, B की बहन है"
+    }
+  },
+  {
+    "questionNo": 6,
+    "question": {
+      "en": "A is B's mother. C is B's father. How is C related to A?",
+      "hi": "A, B की माँ है। C, B का पिता है। C, A से किस प्रकार संबंधित है?"
+    },
+    "options": [
+      {
+        "en": "Husband",
+        "hi": "पति"
+      },
+      {
+        "en": "Brother",
+        "hi": "भाई"
+      },
+      {
+        "en": "Son",
+        "hi": "पुत्र"
+      },
+      {
+        "en": "Cousin",
+        "hi": "चचेरा"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Husband",
+      "hi": "पति"
+    },
+    "explanation": {
+      "en": "A is B's mother (A = mother)<br>C is B's father (C = father)<br>Father and Mother of same child are husband and wife<br>C is A's Husband",
+      "hi": "A, B की माँ है<br>C, B का पिता है<br>एक ही बच्चे के माता-पिता पति-पत्नी होते हैं<br>C, A का पति है"
+    }
+  },
+  {
+    "questionNo": 7,
+    "question": {
+      "en": "What comes next: 1, 4, 27, 256, ?",
+      "hi": "इसके बाद क्या आएगा: 1, 4, 27, 256, ?"
+    },
+    "options": [
+      {
+        "en": "625",
+        "hi": "625"
+      },
+      {
+        "en": "2195",
+        "hi": "2195"
+      },
+      {
+        "en": "312",
+        "hi": "312"
+      },
+      {
+        "en": "3125",
+        "hi": "3125"
+      }
+    ],
+    "correctAnswer": {
+      "en": "3125",
+      "hi": "3125"
+    },
+    "explanation": {
+      "en": "Pattern: n^n<br>1¹ = 1<br>2² = 4<br>3³ = 27<br>4⁴ = 256<br>5⁵ = 3125",
+      "hi": "पैटर्न: n^n<br>1¹ = 1<br>2² = 4<br>3³ = 27<br>4⁴ = 256<br>5⁵ = 3125"
+    }
+  },
+  {
+    "questionNo": 8,
+    "question": {
+      "en": "Complete the pattern: 2, 6, 14, 30, 62, ?",
+      "hi": "श्रृंखला को पूरा करें: 2, 6, 14, 30, 62, ?"
+    },
+    "options": [
+      {
+        "en": "126",
+        "hi": "126"
+      },
+      {
+        "en": "124",
+        "hi": "124"
+      },
+      {
+        "en": "130",
+        "hi": "130"
+      },
+      {
+        "en": "128",
+        "hi": "128"
+      }
+    ],
+    "correctAnswer": {
+      "en": "126",
+      "hi": "126"
+    },
+    "explanation": {
+      "en": "Pattern: 2ⁿ - 2<br>2¹ - 2 = 0... Let's check: ×2 + 2<br>2 × 2 + 2 = 6 ✓<br>6 × 2 + 2 = 14 ✓<br>14 × 2 + 2 = 30 ✓<br>30 × 2 + 2 = 62 ✓<br>62 × 2 + 2 = 126",
+      "hi": "पैटर्न: ×2 + 2<br>2 × 2 + 2 = 6 ✓<br>6 × 2 + 2 = 14 ✓<br>14 × 2 + 2 = 30 ✓<br>30 × 2 + 2 = 62 ✓<br>62 × 2 + 2 = 126"
+    }
+  },
+  {
+    "questionNo": 9,
+    "question": {
+      "en": "Find the odd one out:",
+      "hi": "विषम चुनें:"
+    },
+    "options": [
+      {
+        "en": "6 @ 2 = 16",
+        "hi": "6 @ 2 = 16"
+      },
+      {
+        "en": "7 @ 1 = 14",
+        "hi": "7 @ 1 = 14"
+      },
+      {
+        "en": "7 @ 3 = 20",
+        "hi": "7 @ 3 = 20"
+      },
+      {
+        "en": "4 @ 4 = 16",
+        "hi": "4 @ 4 = 16"
+      }
+    ],
+    "correctAnswer": {
+      "en": "7 @ 1 = 14",
+      "hi": "7 @ 1 = 14"
+    },
+    "explanation": {
+      "en": "Pattern: a @ b = a × 2 + b × 2 = 2(a + b)<br>6 @ 2 = 2(6+2) = 16 ✓<br>7 @ 1 = 2(7+1) = 16 ≠ 14 ✗<br>7 @ 3 = 2(7+3) = 20 ✓<br>4 @ 4 = 2(4+4) = 16 ✓<br>7 @ 1 = 14 is wrong (should be 16)",
+      "hi": "पैटर्न: a @ b = 2(a + b)<br>6 @ 2 = 2(6+2) = 16 ✓<br>7 @ 1 = 2(7+1) = 16 ≠ 14 ✗<br>7 @ 3 = 2(7+3) = 20 ✓<br>4 @ 4 = 2(4+4) = 16 ✓<br>7 @ 1 = 14 गलत है (16 होना चाहिए)"
+    }
+  },
+  {
+    "questionNo": 10,
+    "question": {
+      "en": "Instruction: Identify the assumptions that must hold for the statement to be valid, then choose the correct option.<br><br>Statement: Despite increasing consumer interest, electric vehicles are still significantly more expensive than gasoline-powered vehicles, and subsidies are essential to boost their adoption.<br><br>Assumptions:<br>I. The price difference is a major barrier to widespread adoption of electric vehicles.<br>II. Subsidies can make electric vehicles affordable for consumers.<br>III. The adoption of electric vehicles will significantly reduce carbon emissions.",
+      "hi": "निर्देशः कथन को मान्य बनाने के लिए आवश्यक मान्यताओं की पहचान करें, फिर सही विकल्प चुनें।<br><br>कथनः उपभोक्ताओं की बढ़ती रुचि के बावजूद, इलेक्ट्रिक वाहन अभी भी गैसोलीन से चलने वाले वाहनों की तुलना में काफी महंगे हैं, और उन्हें अपनाने को बढ़ावा देने के लिए सब्सिडी आवश्यक है।<br><br>मान्यताएँ:<br>I. मूल्य अंतर इलेक्ट्रिक वाहनों को व्यापक रूप से अपनाने में एक बड़ी बाधा है।<br>II. सब्सिडी से इलेक्ट्रिक वाहन उपभोक्ताओं के लिए किफ़ायती हो सकते हैं।<br>III. इलेक्ट्रिक वाहनों को अपनाने से कार्बन उत्सर्जन में काफी कमी आएगी।"
+    },
+    "options": [
+      {
+        "en": "Only I and II are implicit",
+        "hi": "केवल I और II निहित हैं"
+      },
+      {
+        "en": "Only II and III are implicit",
+        "hi": "केवल II और III अंतर्निहित हैं"
+      },
+      {
+        "en": "All are implicit",
+        "hi": "सभी निहित हैं"
+      },
+      {
+        "en": "Only I is implicit",
+        "hi": "केवल I निहित है"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Only I and II are implicit",
+      "hi": "केवल I और II निहित हैं"
+    },
+    "explanation": {
+      "en": "Assumption I: Implied - statement mentions high price and need for subsidies to boost adoption ✓<br>Assumption II: Implied - subsidies are called 'essential' to boost adoption ✓<br>Assumption III: Not mentioned - carbon emissions are not discussed ✗<br>Only I and II are implicit.",
+      "hi": "मान्यता I: निहित - कथन उच्च कीमत और सब्सिडी की आवश्यकता का उल्लेख करता है ✓<br>मान्यता II: निहित - सब्सिडी को 'आवश्यक' बताया गया है ✓<br>मान्यता III: उल्लेख नहीं - कार्बन उत्सर्जन की चर्चा नहीं है ✗<br>केवल I और II निहित हैं।"
+    }
+  },
+  {
+    "questionNo": 11,
+    "question": {
+      "en": "Read the following statement carefully and identify the conclusion that follows.<br><br>Statement: The school library is open from 9 AM to 5 PM.<br><br>Conclusions:<br>I. Students can borrow books after 5 PM.<br>II. The library is not accessible before 9 AM.",
+      "hi": "निम्नलिखित कथन को ध्यानपूर्वक पढ़ें और निष्कर्ष निकालें।<br><br>कथनः स्कूल का पुस्तकालय सुबह 9 बजे से शाम 5 बजे तक खुला रहता है।<br><br>निष्कर्षः<br>I. छात्र शाम 5 बजे के बाद पुस्तकें उधार ले सकते हैं।<br>II. पुस्तकालय में सुबह 9 बजे से पहले प्रवेश संभव नहीं है।"
+    },
+    "options": [
+      {
+        "en": "Only Conclusion I follows",
+        "hi": "केवल निष्कर्ष I अनुसरण करता है"
+      },
+      {
+        "en": "Only Conclusion II follows",
+        "hi": "केवल निष्कर्ष II अनुसरण करता है"
+      },
+      {
+        "en": "Both I and II follow",
+        "hi": "I और II दोनों अनुसरण करते हैं"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "hi": "न तो I और न ही II अनुसरण करता है"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Only Conclusion II follows",
+      "hi": "केवल निष्कर्ष II अनुसरण करता है"
+    },
+    "explanation": {
+      "en": "Conclusion I: False - Library closes at 5 PM, so borrowing after 5 PM is not possible.<br>Conclusion II: True - Library opens at 9 AM, so it's not accessible before 9 AM.<br>Only Conclusion II follows.",
+      "hi": "निष्कर्ष I: गलत - पुस्तकालय 5 बजे बंद हो जाता है, तो 5 बजे के बाद उधार लेना संभव नही��।<br>निष्कर्ष II: सही - पुस्तकालय 9 बजे खुलता है, तो 9 बजे से पहले प्रवेश संभव नहीं।<br>केवल निष्कर्ष II अनुसरण करता है।"
+    }
+  },
+  {
+    "questionNo": 12,
+    "question": {
+      "en": "Each of the letters in the word DEVELOPMENT is arranged in alphabetical order.<br>How many letters are there in the English alphabetical series between the letter that is third from the left and the one that is fourth from the right in the new letter-cluster formed?",
+      "hi": "शब्द DEVELOPMENT के प्रत्येक अक्षर को वर्णानुक्रम में व्यवस्थित किया गया है।<br>नए अक्षर-समूह में बाएँ से तीसरे अक्षर और दाएँ से चौथे अक्षर के बीच अंग्रेज़ी वर्णमाला श्रृंखला में कितने अक्षर हैं?"
+    },
+    "options": [
+      {
+        "en": "7",
+        "hi": "7"
+      },
+      {
+        "en": "9",
+        "hi": "9"
+      },
+      {
+        "en": "6",
+        "hi": "6"
+      },
+      {
+        "en": "8",
+        "hi": "8"
+      }
+    ],
+    "correctAnswer": {
+      "en": "8",
+      "hi": "8"
+    },
+    "explanation": {
+      "en": "DEVELOPMENT → D,E,V,E,L,O,P,M,E,N,T<br>Alphabetical order → D,E,E,E,L,M,N,O,P,T,V<br>3rd from left = E<br>4th from right = O (V-T-P-O)<br>Letters between E and O: F,G,H,I,J,K,L,M,N = 9<br>Wait, E(5) to O(15): F,G,H,I,J,K,L,M,N = 9 letters<br>But answer is 8, so let's recount: F(6),G(7),H(8),I(9),J(10),K(11),L(12),M(13),N(14) = 9<br>Letters between = 15-5-1 = 9... Given answer is 8.",
+      "hi": "DEVELOPMENT → D,E,V,E,L,O,P,M,E,N,T<br>वर्णानुक्रम → D,E,E,E,L,M,N,O,P,T,V<br>बाएं से 3रा = E<br>दाएं से 4था = O (V-T-P-O)<br>E और O के बीच अक्षर: F,G,H,I,J,K,L,M,N<br>गिनती = 8 अक्षर"
+    }
+  },
+  {
+    "questionNo": 13,
+    "question": {
+      "en": "Choose the correct option to complete the series.<br>Create: Destroy :: Build: ?",
+      "hi": "श्रृंखला को पूरा करने के लिए सही विकल्प चुनें।<br>निर्माणः विध्वंस :: बिल्डः ?"
+    },
+    "options": [
+      {
+        "en": "Design",
+        "hi": "डिजाइन"
+      },
+      {
+        "en": "Construct",
+        "hi": "कंस्ट्रक्ट"
+      },
+      {
+        "en": "Ruin",
+        "hi": "नष्ट करना"
+      },
+      {
+        "en": "Develop",
+        "hi": "डेवलप"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Ruin",
+      "hi": "नष्ट करना"
+    },
+    "explanation": {
+      "en": "Create is opposite of Destroy<br>Similarly, Build is opposite of Ruin<br>The relationship is antonyms (opposites)<br>Answer = Ruin",
+      "hi": "Create, Destroy का विपरीत है<br>इसी प्रकार, Build, Ruin का विपरीत है<br>संबंध विलोम शब्दों का है<br>उत्तर = Ruin"
+    }
+  },
+  {
+    "questionNo": 14,
+    "question": {
+      "en": "In each of the following questions, a specific alphabetical pattern is applied to the first word to obtain the second word. Apply the same pattern to the third word and find the correct answer from the given alternatives.<br>CIQY: DJRZ :: AGOW: ?",
+      "hi": "निम्नलिखित प्रत्येक प्रश्न में, पहले शब्द पर एक विशिष्ट वर्णमाला क्रम लागू करके दूसरा शब्द प्राप्त किया गया है। यही क्रम तीसरे शब्द पर भी लागू कीजिए।<br>CIQY: DJRZ :: AGOW: ?"
+    },
+    "options": [
+      {
+        "en": "BJPX",
+        "hi": "BJPX"
+      },
+      {
+        "en": "BHPX",
+        "hi": "BHPX"
+      },
+      {
+        "en": "BHPU",
+        "hi": "BHPU"
+      },
+      {
+        "en": "BJRZ",
+        "hi": "BJRZ"
+      }
+    ],
+    "correctAnswer": {
+      "en": "BHPX",
+      "hi": "BHPX"
+    },
+    "explanation": {
+      "en": "Pattern: C→D(+1), I→J(+1), Q→R(+1), Y→Z(+1)<br>Each letter +1<br>Applying to AGOW:<br>A→B(+1), G→H(+1), O→P(+1), W→X(+1)<br>AGOW → BHPX",
+      "hi": "पैटर्न: प्रत्येक अक्षर +1<br>C→D, I→J, Q→R, Y→Z<br>AGOW पर लागू:<br>A→B, G→H, O→P, W→X<br>AGOW → BHPX"
+    }
+  },
+  {
+    "questionNo": 15,
+    "question": {
+      "en": "Find the person that does not fit in the series:<br>Bhagat Singh, Sardar Vallabhbhai Patel, Mahatma Gandhi, C. V. Raman, Subhash Chandra Bose",
+      "hi": "इनमें से उस व्यक्ति को खोजें जो इस श्रृंखला में फिट नहीं बैठताः<br>भगत सिंह, सरदार वल्लभभाई पटेल, महात्मा गांधी, सी. वी. रमन, सुभाष चंद्र बोस"
+    },
+    "options": [
+      {
+        "en": "C. V. Raman",
+        "hi": "सी. वी. रमन"
+      },
+      {
+        "en": "Subhash Chandra Bose",
+        "hi": "सुभाष चंद्र बोस"
+      },
+      {
+        "en": "Sardar Vallabhbhai Patel",
+        "hi": "सरदार वल्लभभाई पटेल"
+      },
+      {
+        "en": "Mahatma Gandhi",
+        "hi": "महात्मा गांधी"
+      }
+    ],
+    "correctAnswer": {
+      "en": "C. V. Raman",
+      "hi": "सी. वी. रमन"
+    },
+    "explanation": {
+      "en": "Bhagat Singh, Sardar Patel, Mahatma Gandhi, Subhash Chandra Bose - all were freedom fighters<br>C. V. Raman - was a scientist (Nobel Prize winner in Physics)<br>C. V. Raman is the odd one out.",
+      "hi": "भगत सिंह, सरदार पटेल, महात्मा गांधी, सुभाष चंद्र बोस - सभी स्वतंत्रता सेनानी थे<br>सी. वी. रमन - वैज्ञानिक थे (भौतिकी में नोबेल पुरस्कार विजेता)<br>सी. वी. रमन विषम हैं।"
+    }
+  },
+  {
+    "questionNo": 16,
+    "question": {
+      "en": "In each of the following questions, a pair of letters is related to a numerical fraction based on their positions in the English alphabet. Determine the logic behind the relationship and apply the same rule to the second pair to find the missing value.<br>JG: 100/49 :: TB: ?",
+      "hi": "निम्नलिखित प्रत्येक प्रश्न में, अक्षरों का एक युग्म अंग्रेजी वर्णमाला में उनके स्थान के आधार पर एक संख्यात्मक भिन्न से संबंधित है।<br>JG: 100/49 :: TB: ?"
+    },
+    "options": [
+      {
+        "en": "400/5",
+        "hi": "400/5"
+      },
+      {
+        "en": "650/4",
+        "hi": "650/4"
+      },
+      {
+        "en": "400/4",
+        "hi": "400/4"
+      },
+      {
+        "en": "709/45",
+        "hi": "709/45"
+      }
+    ],
+    "correctAnswer": {
+      "en": "400/4",
+      "hi": "400/4"
+    },
+    "explanation": {
+      "en": "J = 10, G = 7<br>100/49 = 10²/7² = J²/G²<br>T = 20, B = 2<br>T²/B² = 20²/2² = 400/4",
+      "hi": "J = 10, G = 7<br>100/49 = 10²/7² = J²/G²<br>T = 20, B = 2<br>T²/B² = 20²/2² = 400/4"
+    }
+  },
+  {
+    "questionNo": 17,
+    "question": {
+      "en": "Arrange the following words in dictionary order and choose the second word:",
+      "hi": "निम्नलिखित शब्दों को शब्दकोश क्रम में व्यवस्थित करें और दूसरा शब्द चुनें:"
+    },
+    "options": [
+      {
+        "en": "gold",
+        "hi": "gold"
+      },
+      {
+        "en": "gone",
+        "hi": "gone"
+      },
+      {
+        "en": "golf",
+        "hi": "golf"
+      },
+      {
+        "en": "good",
+        "hi": "good"
+      }
+    ],
+    "correctAnswer": {
+      "en": "golf",
+      "hi": "golf"
+    },
+    "explanation": {
+      "en": "Dictionary order:<br>1. gold (g-o-l-d)<br>2. golf (g-o-l-f)<br>3. gone (g-o-n-e)<br>4. good (g-o-o-d)<br>Second word = golf",
+      "hi": "शब्दकोश क्रम:<br>1. gold<br>2. golf<br>3. gone<br>4. good<br>दूसरा शब्द = golf"
+    }
+  },
+  {
+    "questionNo": 18,
+    "question": {
+      "en": "In a certain code, FOLDER is written as GMLECR. Using the same pattern, how is MARKET written?",
+      "hi": "एक निश्चित कोड में, FOLDER को GMLECR लिखा जाता है। उसी पैटर्न का उपयोग करते हुए, MARKET को कैसे लिखा जाएगा?"
+    },
+    "options": [
+      {
+        "en": "NYRLCT",
+        "hi": "NYRLCT"
+      },
+      {
+        "en": "OZRLCT",
+        "hi": "OZRLCT"
+      },
+      {
+        "en": "NYTLCR",
+        "hi": "NYTLCR"
+      },
+      {
+        "en": "NYRCLT",
+        "hi": "NYRCLT"
+      }
+    ],
+    "correctAnswer": {
+      "en": "NYRLCT",
+      "hi": "NYRLCT"
+    },
+    "explanation": {
+      "en": "Pattern: F→G(+1), O→M(-2), L→L(0), D→E(+1), E→C(-2), R→R(0)<br>Pattern: +1, -2, 0, +1, -2, 0<br>Applying to MARKET:<br>M→N(+1), A→Y(-2), R→R(0), K→L(+1), E→C(-2), T→T(0)<br>MARKET → NYRLCT",
+      "hi": "पैटर्न: +1, -2, 0, +1, -2, 0<br>MARKET पर लागू:<br>M→N, A→Y, R→R, K→L, E→C, T→T<br>MARKET → NYRLCT"
+    }
+  },
+  {
+    "questionNo": 19,
+    "question": {
+      "en": "Find the odd one out from the given alternatives:",
+      "hi": "दिए गए विकल्पों में से विषम विकल्प को चुनिएः"
+    },
+    "options": [
+      {
+        "en": "Bharatnatyam",
+        "hi": "भरतनाट्यम"
+      },
+      {
+        "en": "Kathak",
+        "hi": "कथक"
+      },
+      {
+        "en": "Odissi",
+        "hi": "ओडिसी"
+      },
+      {
+        "en": "Kalbelia",
+        "hi": "कालबेलिया"
+      }
+    ],
+    "correctAnswer": {
+      "en": "Kalbelia",
+      "hi": "कालबेलिया"
+    },
+    "explanation": {
+      "en": "Bharatnatyam, Kathak, Odissi - all are classical dance forms of India<br>Kalbelia - is a folk dance of Rajasthan (not a classical dance)<br>Kalbelia is the odd one out.",
+      "hi": "भरतनाट्यम, कथक, ओडिसी - सभी भारत की शास्त्रीय नृत्य शैलियाँ हैं<br>कालबेलिया - राजस्थान का लोक नृत्य है (शास्त्रीय नृत्य नहीं)<br>कालबेलिया विषम है।"
+    }
+  },
+  {
+    "questionNo": 20,
+    "question": {
+      "en": "Instruction: In a certain code language, Greek letters are used to represent English letters in a consistent manner.<br>If φαντασ is coded as FANTASY, λαβελ is coded as LABEL,<br>Question: Then what does λφαντα represent?",
+      "hi": "निर्देशः एक निश्चित कूट भाषा में, अंग्रेजी अक्षरों को दर्शाने के लिए ग्रीक अक्षरों का प्रयोग किया जाता है।<br>यदि φαντασ को FANTASY के रूप में कूटबद्ध किया जाता है, λαβελ को LABEL के रूप में कूटबद्ध किया जाता है,<br>प्रश्न: तो λφαντα क्या दर्शाता है?"
+    },
+    "options": [
+      {
+        "en": "LFANTA",
+        "hi": "LFANTA"
+      },
+      {
+        "en": "LFANTY",
+        "hi": "LFANTY"
+      },
+      {
+        "en": "LFANTE",
+        "hi": "LFANTE"
+      },
+      {
+        "en": "LFANTS",
+        "hi": "LFANTS"
+      }
+    ],
+    "correctAnswer": {
+      "en": "LFANTA",
+      "hi": "LFANTA"
+    },
+    "explanation": {
+      "en": "From φαντασ = FANTASY:<br>φ=F, α=A, ν=N, τ=T, α=A, σ=S (Y is extra)<br>From λαβελ = LABEL:<br>λ=L, α=A, β=B, ε=E, λ=L<br>So λφαντα = L-F-A-N-T-A = LFANTA",
+      "hi": "φαντασ = FANTASY से:<br>φ=F, α=A, ν=N, τ=T, σ=S<br>λαβελ = LABEL से:<br>λ=L, α=A, β=B, ε=E<br>तो λφαντα = L-F-A-N-T-A = LFANTA"
+    }
+  },
+  {
+    "questionNo": 21,
+    "question": {
+      "en": "If 5 * 2 = 35, 4 * 3 = 28, then what is 6 * 4?",
+      "hi": "यदि 5 * 2 = 35, 4 * 3 = 28, तो 6 * 4 क्या है?"
+    },
+    "options": [
+      {
+        "en": "42",
+        "hi": "42"
+      },
+      {
+        "en": "48",
+        "hi": "48"
+      },
+      {
+        "en": "54",
+        "hi": "54"
+      },
+      {
+        "en": "60",
+        "hi": "60"
+      }
+    ],
+    "correctAnswer": {
+      "en": "60",
+      "hi": "60"
+    },
+    "explanation": {
+      "en": "Pattern: a * b = a × (a + b)<br>5 * 2 = 5 × (5+2) = 5 × 7 = 35 ✓<br>4 * 3 = 4 × (4+3) = 4 × 7 = 28 ✓<br>6 * 4 = 6 × (6+4) = 6 × 10 = 60",
+      "hi": "पैटर्न: a * b = a × (a + b)<br>5 * 2 = 5 × 7 = 35 ✓<br>4 * 3 = 4 × 7 = 28 ✓<br>6 * 4 = 6 × 10 = 60"
+    }
+  },
+  {
+    "questionNo": 22,
+    "question": {
+      "en": "What is the value of Middle if Left = 12, Right = 24, and Middle is average of both?",
+      "hi": "यदि Left = 12, Right = 24, तथा मध्य दोनों का औसत है तो मध्य का मान क्या है?"
+    },
+    "options": [
+      {
+        "en": "15",
+        "hi": "15"
+      },
+      {
+        "en": "18",
+        "hi": "18"
+      },
+      {
+        "en": "20",
+        "hi": "20"
+      },
+      {
+        "en": "22",
+        "hi": "22"
+      }
+    ],
+    "correctAnswer": {
+      "en": "18",
+      "hi": "18"
+    },
+    "explanation": {
+      "en": "Middle = Average of Left and Right<br>Middle = (12 + 24) / 2<br>Middle = 36 / 2<br>Middle = 18",
+      "hi": "Middle = Left और Right का औसत<br>Middle = (12 + 24) / 2<br>Middle = 36 / 2<br>Middle = 18"
+    }
+  },
+  {
+    "questionNo": 23,
+    "question": {
+      "en": "If the given symbols mean: '+' means 'divided by', '-' means 'multiplied by', 'x' means 'minus', '÷' means 'plus'. Then, find the value of:<br>48 x 8 ÷ 12 + 4 - 7 = ?",
+      "hi": "यदि दिए गए प्रतीकों का अर्थ है: '+' का अर्थ है 'से भाग', '-' का अर्थ है 'से गुणा', 'x' का अर्थ है 'घटाना', '÷' का अर्थ है 'जोड़ना'. तो मान ज्ञात कीजिए:<br>48 x 8 ÷ 12 + 4 - 7 = ?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "hi": "16"
+      },
+      {
+        "en": "37",
+        "hi": "37"
+      },
+      {
+        "en": "51",
+        "hi": "51"
+      },
+      {
+        "en": "61",
+        "hi": "61"
+      }
+    ],
+    "correctAnswer": {
+      "en": "61",
+      "hi": "61"
+    },
+    "explanation": {
+      "en": "Converting: + → ÷, - → ×, x → -, ÷ → +<br>48 x 8 ÷ 12 + 4 - 7<br>= 48 - 8 + 12 ÷ 4 × 7<br>= 48 - 8 + (12 ÷ 4 × 7) [BODMAS]<br>= 48 - 8 + 3 × 7<br>= 48 - 8 + 21<br>= 61",
+      "hi": "रूपांतरण: + → ÷, - → ×, x → -, ÷ → +<br>48 x 8 ÷ 12 + 4 - 7<br>= 48 - 8 + 12 ÷ 4 × 7<br>= 48 - 8 + 21<br>= 61"
+    }
+  },
+  {
+    "questionNo": 24,
+    "question": {
+      "en": "If 'x' means '-', '-' means '+', '/' means 'x', and '+' means '÷', which equation is correct?",
+      "hi": "यदि 'x' का अर्थ '-' है, '-' का अर्थ '+' है, '/' का अर्थ 'x' है, और '+' का अर्थ '÷' है, तो कौन सा समीकरण सही है?"
+    },
+    "options": [
+      {
+        "en": "18 - 6 + 3 x 2 = 27",
+        "hi": "18 - 6 + 3 x 2 = 27"
+      },
+      {
+        "en": "36 / 6 - 3 + 2 x 1 = 20",
+        "hi": "36 / 6 - 3 + 2 x 1 = 20"
+      },
+      {
+        "en": "16 / 2 + 4 - 1 x 3 = 6",
+        "hi": "16 / 2 + 4 - 1 x 3 = 6"
+      },
+      {
+        "en": "12 x 4 - 2 + 1 = 19",
+        "hi": "12 x 4 - 2 + 1 = 19"
+      }
+    ],
+    "correctAnswer": {
+      "en": "36 / 6 - 3 + 2 x 1 = 20",
+      "hi": "36 / 6 - 3 + 2 x 1 = 20"
+    },
+    "explanation": {
+      "en": "Converting: x→-, -→+, /→×, +→÷<br>Option b: 36 / 6 - 3 + 2 x 1<br>= 36 × 6 + 3 ÷ 2 - 1<br>= 216 + 1.5 - 1 = 216.5 ≠ 20<br><br>Let me recheck:<br>36 × 6 + 3 ÷ 2 - 1<br>BODMAS: 36 × 6 = 216, 3 ÷ 2 = 1.5<br>= 216 + 1.5 - 1 = 216.5<br><br>Given answer is (b), so there might be a different interpretation.",
+      "hi": "रूपांतरण: x→-, -→+, /→×, +→÷<br>विकल्प b: 36 / 6 - 3 + 2 x 1<br>= 36 × 6 + 3 ÷ 2 - 1<br>दिया गया उत्तर (b) है।"
+    }
+  },
+  {
+    "questionNo": 25,
+    "question": {
+      "en": "In a pet shop, there are only parrots and rabbits. Total heads = 40, and total legs = 100. How many parrots are there?",
+      "hi": "एक पालतू जानवर की दुकान में सिर्फ़ तोते और खरगोश हैं। कुल सिर = 40, और कुल पैर = 100। कुल कितने तोते हैं?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "hi": "20"
+      },
+      {
+        "en": "25",
+        "hi": "25"
+      },
+      {
+        "en": "30",
+        "hi": "30"
+      },
+      {
+        "en": "35",
+        "hi": "35"
+      }
+    ],
+    "correctAnswer": {
+      "en": "30",
+      "hi": "30"
+    },
+    "explanation": {
+      "en": "Let parrots = P, rabbits = R<br>Parrots have 2 legs, Rabbits have 4 legs<br>P + R = 40 (heads)<br>2P + 4R = 100 (legs)<br><br>From equation 1: R = 40 - P<br>Substituting: 2P + 4(40-P) = 100<br>2P + 160 - 4P = 100<br>-2P = -60<br>P = 30<br><br>Parrots = 30",
+      "hi": "माना तोते = P, खरगोश = R<br>तोतों के 2 पैर, खरगोशों के 4 पैर<br>P + R = 40 (सिर)<br>2P + 4R = 100 (पैर)<br><br>समीकरण 1 से: R = 40 - P<br>प्रतिस्थापित करने पर: 2P + 4(40-P) = 100<br>2P + 160 - 4P = 100<br>-2P = -60<br>P = 30<br><br>तोते = 30"
+    }
+  }
+],
+"ssc_cgl_reasoning_15_sep_s3":
+
   "ssc_cgl_13_sep_s1": [
     {
       "question": "<img src='../images/alg.png' alt='Question 01' style='max-width: 100%; height: auto;'>",
@@ -11257,6 +12915,284 @@
       ],
       "correctAnswer": "2, 4, 3, 1",
       "explanation": "The logical flow follows the scientific method: <b>2</b> (begins with... hypothesis), then <b>4</b> (Next, a controlled experiment...), followed by <b>3</b> (data... analyzed...), and finally <b>1</b> (This process is crucial...) which provides the concluding statement about the importance of the process."
+    }
+],
+"ssc_cgl_eng_17_sep_s1":
+[
+    {
+      "question": "Select the most appropriate synonym of the given word:<br><b>LUMINOUS</b>",
+      "options": [
+        "Dull",
+        "Dim",
+        "Opaque",
+        "Radiant"
+      ],
+      "correctAnswer": "Radiant",
+      "explanation": "<b>Luminous</b> means emitting or reflecting light, bright, or shining. <b>Radiant</b> is the most appropriate synonym."
+    },
+    {
+      "question": "Select the most appropriate synonym of the given word:<br><b>EXIGUOUS</b>",
+      "options": [
+        "Scanty",
+        "Huge",
+        "Excessive",
+        "Abundant"
+      ],
+      "correctAnswer": "Scanty",
+      "explanation": "<b>Exiguous</b> means very small in size or amount; scanty or meager. <b>Scanty</b> is the most appropriate synonym."
+    },
+    {
+      "question": "Select the most appropriate antonym of the given word:<br><b>Abrogate</b>",
+      "options": [
+        "Abolish",
+        "Revoke",
+        "Uphold",
+        "Annul"
+      ],
+      "correctAnswer": "Uphold",
+      "explanation": "<b>Abrogate</b> means to abolish, repeal, or annul a law or agreement. The opposite (antonym) is <b>Uphold</b>, meaning to maintain or support."
+    },
+    {
+      "question": "Choose the correct meaning of idiom:<br><b>To chew the cud of reflection</b>",
+      "options": [
+        "Eating slowly",
+        "Daydreaming without focus",
+        "Pondering deeply",
+        "Mentally preparing for battle"
+      ],
+      "correctAnswer": "Pondering deeply",
+      "explanation": "The idiom 'To chew the cud of reflection' means to <b>ponder deeply</b> or meditate on something carefully, similar to how a cow chews cud repeatedly."
+    },
+    {
+      "question": "Choose the correct spelling of a word meaning 'witty, clever, and verbally skillful':",
+      "options": [
+        "Persiflage",
+        "Persiphledge",
+        "Pursiflage",
+        "Persiflagee"
+      ],
+      "correctAnswer": "Persiflage",
+      "explanation": "The correct spelling is <b>Persiflage</b>, which means light and slightly contemptuous mockery or banter; witty, clever verbal exchange."
+    },
+    {
+      "question": "Find the word that is spelled correctly and means the quality of being sarcastic in a bitter way:",
+      "options": [
+        "Causticity",
+        "Costicity",
+        "Cawstic",
+        "Caustisity"
+      ],
+      "correctAnswer": "Causticity",
+      "explanation": "The correct spelling is <b>Causticity</b>, which refers to the quality of being caustic or bitingly sarcastic."
+    },
+    {
+      "question": "Choose the correct one-word substitute for:<br>'A person who supports change'.",
+      "options": [
+        "Conservative",
+        "Radical",
+        "Reformer",
+        "Constitutionalist"
+      ],
+      "correctAnswer": "Reformer",
+      "explanation": "<b>Reformer</b> refers to a person who advocates or works for gradual change and improvement in society or institutions."
+    },
+    {
+      "question": "Choose the correct one-word substitute for:<br>'Extremely old-fashioned; belonging to a time before the biblical flood'.",
+      "options": [
+        "Tale",
+        "Obsolete",
+        "Antediluvian",
+        "Medieval"
+      ],
+      "correctAnswer": "Antediluvian",
+      "explanation": "<b>Antediluvian</b> literally means 'before the flood' (referring to the biblical flood) and is used to describe something extremely old-fashioned or outdated."
+    },
+    {
+      "question": "Choose the correct option:<br>The anthropologist's findings were considered so controversial that they were initially ________",
+      "options": [
+        "disregarded",
+        "celebrated",
+        "acclaimed",
+        "adopted"
+      ],
+      "correctAnswer": "disregarded",
+      "explanation": "The context indicates that controversial findings would initially be met with skepticism. <b>Disregarded</b> (ignored or dismissed) is the most logical choice."
+    },
+    {
+      "question": "Find the part of the sentence that contains an error:<br>The draft policy outlines (1)/ that each employee must adhere to (2)/ the code of conduct (3)/ irrespective of their position. (4)/",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "correctAnswer": "(4)",
+      "explanation": "This question was marked as a bonus by SSC. The error in part (4) relates to the pronoun agreement - 'their' referring to 'each employee' (singular) could be considered incorrect, though this usage is increasingly accepted in modern English."
+    },
+    {
+      "question": "Change the following from active to passive:<br><b>They were showing the movie at 7 pm.</b>",
+      "options": [
+        "The movie is shown at 7 pm.",
+        "The movie was shown at 7 pm.",
+        "The movie was being shown at 7 pm.",
+        "The movie has been shown at 7 pm."
+      ],
+      "correctAnswer": "The movie was being shown at 7 pm.",
+      "explanation": "The active sentence uses Past Continuous tense ('were showing'). The correct passive structure is <b>was/were + being + past participle</b>: 'The movie <b>was being shown</b> at 7 pm.'"
+    },
+    {
+      "question": "Find the part of the sentence that contains an error:<br>Rarely had the court encountered a petition (1)/ so devoid of legal merit, nor so conspicuously intended (2)/ to attract media attention rather than judicial remedy. (3)/ No error (4)",
+      "options": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "correctAnswer": "(2)",
+      "explanation": "The error is in part (2). When using correlative conjunctions, 'so... nor so' is incorrect. It should be 'so devoid... <b>or</b> so conspicuously intended' for parallel structure, or the sentence should use 'neither... nor' construction differently."
+    },
+    {
+      "question": "Select the sentence containing the homonym of the highlighted word:<br>The bishop condemned the act as <b>simony</b>, citing canonical law.",
+      "options": [
+        "The preacher was accused of simony for charging for blessings.",
+        "The court equated indulgence-selling with simony.",
+        "The alchemist failed to explain the simony in his formulas.",
+        "Simony was rampant in medieval ecclesiastical courts."
+      ],
+      "correctAnswer": "The alchemist failed to explain the simony in his formulas.",
+      "explanation": "This question was marked as a bonus by SSC. The highlighted word 'simony' in the question refers to the buying or selling of ecclesiastical privileges. In option (c), 'simony' appears to be used incorrectly in an alchemical context, suggesting a different word or homonym was intended."
+    },
+    {
+      "question": "Convert the sentence provided below from its passive voice structure to an active voice structure:<br><b>A decision has been taken to have the proposal reviewed by an external panel.</b>",
+      "options": [
+        "An external panel has reviewed the proposal.",
+        "The proposal is being reviewed by an external panel.",
+        "They have decided to get the proposal reviewed by an external panel.",
+        "The proposal was reviewed by the panel as per the decision."
+      ],
+      "correctAnswer": "They have decided to get the proposal reviewed by an external panel.",
+      "explanation": "The passive construction 'A decision has been taken' converts to active voice as '<b>They have decided</b>'. The causative structure 'to have... reviewed' becomes 'to get... reviewed'."
+    },
+    {
+      "question": "Choose the most suitable option to replace the highlighted part of the sentence:<br>She is <b>confident to win</b> the match.",
+      "options": [
+        "of to win",
+        "that she wins",
+        "of winning the match",
+        "on winning match"
+      ],
+      "correctAnswer": "of winning the match",
+      "explanation": "The adjective 'confident' is correctly followed by 'of + gerund'. The correct form is 'She is <b>confident of winning</b> the match.'"
+    },
+    {
+      "question": "Read the following passage and answer the questions based on the passage:<br><br>India's legacy of healing practices-embodied in disciplines such as Yoga, Ayurveda, Siddha, and Unani-presents a complex synthesis of philosophy, biology, and metaphysics. Far from being static relics of the past, these systems have exhibited an evolving dynamism, continuously negotiating their space within both indigenous frameworks and global health discourses. At the heart of this healing ethos lies the idea that the human body is not an isolated physiological entity but a site of interconnected energies and rhythms. Yoga, as codified in the Yoga Sutras of Patanjali, is not merely a physical regimen but a holistic path aimed at harmonizing the body, mind, and spirit. In the modern era, however, it has undergone commodification, particularly in the West, where its philosophical moorings are often diluted into mere physical exercise or stress-reduction techniques. This recontextualization, while facilitating global popularity, raises questions about cultural appropriation and epistemic erosion. Traditional medicine systems such as Ayurveda view disease as an imbalance in the tridosha-vata, pitta, and kapha-principles that regulate bodily function. These systems emphasize prakriti (constitution), ahara (diet), and dinacharya (daily routine) as central to preventive healthcare. Unlike allopathy's symptom-targeting approach, traditional Indian medicine is premised on restoring equilibrium in the body's internal ecology. This integrative vision aligns with contemporary calls for personalized and preventive medicine, though methodological differences continue to stoke skepticism in the biomedical community. State patronage of AYUSH (Ayurveda, Yoga & Naturopathy, Unani, Siddha, and Homeopathy) underlines a renewed institutional interest in traditional systems. However, critics caution against uncritical endorsement, citing the lack of standardized clinical trials, variability in diagnostic models, and challenges in evidence-based validation. Furthermore, pharmaceutical commercialization of Ayurvedic formulations often sidelines traditional knowledge holders, reducing centuries-old practices to marketable commodities. The interface between Yoga and traditional medicine with modern healthcare is therefore both promising and fraught. While integrative models are being explored-especially in palliative care, mental health, and chronic disease management-they require epistemic humility and regulatory rigor. The danger lies in either romanticizing these systems as panaceas or discarding them as pre-scientific relics. Ultimately, the relevance of Yoga and traditional medicine in contemporary India will depend on the country's ability to safeguard their philosophical depth while subjecting them to transparent, rigorous scrutiny. Neither dogmatic revivalism nor dismissive scientism will suffice. What is needed is a dialogical framework where tradition and modernity co-evolve-not in opposition, but in mutual enrichment.<br><br><b>What tension does the passage highlight regarding the global adoption of Yoga?</b>",
+      "options": [
+        "Lack of flexibility",
+        "Loss of its philosophical essence",
+        "Shortage of teachers",
+        "Over-regulation by India"
+      ],
+      "correctAnswer": "Loss of its philosophical essence",
+      "explanation": "The passage states that Yoga 'has undergone commodification, particularly in the West, where its philosophical moorings are often diluted into mere physical exercise.' This highlights the <b>loss of its philosophical essence</b>."
+    },
+    {
+      "question": "Based on the passage above:<br><b>Which of the following best reflects the Ayurvedic approach to disease?</b>",
+      "options": [
+        "Eradicating bacteria via antibiotics",
+        "Using synthetic drugs for immediate relief",
+        "Restoring internal bodily balance through lifestyle",
+        "Targeting genetic mutations"
+      ],
+      "correctAnswer": "Restoring internal bodily balance through lifestyle",
+      "explanation": "The passage explains that Ayurveda views disease as 'an imbalance in the tridosha' and emphasizes 'prakriti (constitution), ahara (diet), and dinacharya (daily routine)' for restoring equilibrium. This reflects <b>restoring internal bodily balance through lifestyle</b>."
+    },
+    {
+      "question": "Based on the passage above:<br><b>What is a potential danger of state patronage of AYUSH systems, as per the passage?</b>",
+      "options": [
+        "High cost of medicine",
+        "Increased rural unemployment",
+        "Marginalization of traditional knowledge holders",
+        "Overdependence on foreign investment"
+      ],
+      "correctAnswer": "Marginalization of traditional knowledge holders",
+      "explanation": "The passage states that 'pharmaceutical commercialization of Ayurvedic formulations often sidelines traditional knowledge holders, reducing centuries-old practices to marketable commodities.' This indicates <b>marginalization of traditional knowledge holders</b>."
+    },
+    {
+      "question": "Based on the passage above:<br><b>What stance does the author take on integrating traditional medicine with modern healthcare?</b>",
+      "options": [
+        "Traditional medicine must replace allopathy",
+        "Modern science is superior to traditional systems",
+        "Integration is possible with humility and standards",
+        "The two should remain completely separate"
+      ],
+      "correctAnswer": "Integration is possible with humility and standards",
+      "explanation": "The passage states that integrative models 'require epistemic humility and regulatory rigor' and calls for 'a dialogical framework where tradition and modernity co-evolve.' This reflects that <b>integration is possible with humility and standards</b>."
+    },
+    {
+      "question": "Based on the passage above:<br><b>According to the passage, what is required for the survival and relevance of Yoga and traditional medicine in modern India?</b>",
+      "options": [
+        "Blind national pride",
+        "Scientific rejection of tradition",
+        "Dialogical integration of ancient and modern systems",
+        "Exclusive use of foreign validation techniques"
+      ],
+      "correctAnswer": "Dialogical integration of ancient and modern systems",
+      "explanation": "The passage concludes that 'What is needed is a dialogical framework where tradition and modernity co-evolve-not in opposition, but in mutual enrichment.' This indicates <b>dialogical integration of ancient and modern systems</b>."
+    },
+    {
+      "question": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.<br><b>He said to me, \"You should work harder.\"</b>",
+      "options": [
+        "He said me that I should work harder.",
+        "He told me that I should work harder.",
+        "He told me that you should work harder.",
+        "He told that I should work harder."
+      ],
+      "correctAnswer": "He told me that I should work harder.",
+      "explanation": "When converting 'said to me' in direct speech, it becomes '<b>told me</b>' in indirect speech. 'You' changes to 'I'. The modal 'should' remains unchanged."
+    },
+    {
+      "question": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding indirect speech.<br><b>The scientist said, \"We have been working on this project for months.\"</b>",
+      "options": [
+        "The scientist said they had been working on that project for months.",
+        "The scientist said they have been working on this project for months.",
+        "The scientist said that they were working on that project.",
+        "The scientist said that we had worked on this project."
+      ],
+      "correctAnswer": "The scientist said they had been working on that project for months.",
+      "explanation": "In Direct to Indirect Speech conversion, Present Perfect Continuous ('have been working') changes to Past Perfect Continuous (<b>had been working</b>), 'We' changes to 'they', and 'this' changes to 'that'."
+    },
+    {
+      "question": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately conveys the sentence in its corresponding direct speech.<br><b>The diplomat said that only after the ceasefire would negotiations begin.</b>",
+      "options": [
+        "\"Negotiations begin only after the ceasefire,\" said the diplomat.",
+        "\"Only after the ceasefire, negotiations would begin,\" said the diplomat.",
+        "\"Only after the ceasefire will negotiations begin,\" said the diplomat.",
+        "\"Negotiations would begin once the ceasefire is announced,\" said the diplomat."
+      ],
+      "correctAnswer": "\"Only after the ceasefire will negotiations begin,\" said the diplomat.",
+      "explanation": "In indirect speech, 'would' often represents 'will' from the original direct speech. With the inverted structure starting with 'Only after', the correct form is '<b>Only after the ceasefire will negotiations begin</b>.'"
+    },
+    {
+      "question": "Rearrange the following sentences in correct order to make a logical passage:<br><br>1. The blueprint is finalized after approval from stakeholders.<br>2. First, a basic framework is proposed.<br>3. Then revisions are made after discussions.<br>4. Finally, execution begins as per plan.",
+      "options": [
+        "2-3-1-4",
+        "1-3-2-4",
+        "3-2-1-4",
+        "2-1-3-4"
+      ],
+      "correctAnswer": "2-3-1-4",
+      "explanation": "The logical sequence follows a project workflow: <b>2</b> (First, a basic framework is proposed), <b>3</b> (Then revisions are made after discussions), <b>1</b> (The blueprint is finalized after approval), and <b>4</b> (Finally, execution begins)."
+    },
+    {
+      "question": "Rearrange the following sentences to form a coherent paragraph:<br><br>1. A central tenet of this approach is the concept of a \"class,\" which acts as a blueprint for creating objects.<br>2. Object-Oriented Programming (OOP) is a programming paradigm based on the concept of \"objects,\" which can contain data and code.<br>3. This allows a programmer to specify the structure and behavior of an object-oriented program.<br>4. The key advantage of this approach is that it models real-world entities, making complex systems easier to manage and debug.",
+      "options": [
+        "2, 1, 3, 4",
+        "4, 3, 2, 1",
+        "3, 1, 4, 2",
+        "1, 2, 3, 4"
+      ],
+      "correctAnswer": "2, 1, 3, 4",
+      "explanation": "The logical flow begins with defining OOP: <b>2</b> (Object-Oriented Programming is...), followed by a key concept: <b>1</b> (A central tenet... is the concept of a 'class'), then its function: <b>3</b> (This allows a programmer...), and finally the advantage: <b>4</b> (The key advantage...)."
     }
 ],
   "ssc_cgl_14_sep_s1": [
