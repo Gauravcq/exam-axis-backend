@@ -15,11 +15,6 @@ const CouponAttribution = sequelize ? sequelize.define('CouponAttribution', {
   indexes: [{ fields: ['coupon_id'] }, { fields: ['user_id'] }]
 }) : null;
 
-if (CouponAttribution && Coupon && User) {
-  Coupon.hasMany(CouponAttribution, { foreignKey: 'couponId', as: 'attributions' });
-  CouponAttribution.belongsTo(Coupon, { foreignKey: 'couponId', as: 'coupon' });
-  User.hasMany(CouponAttribution, { foreignKey: 'userId', as: 'couponAttributions' });
-  CouponAttribution.belongsTo(User, { foreignKey: 'userId', as: 'user' });
-}
+// Associations are defined centrally in src/models/index.js
 
 module.exports = CouponAttribution;
