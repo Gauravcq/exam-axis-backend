@@ -149,16 +149,18 @@ exports.getAllUsers = async (req, res, next) => {
     if (isActive !== undefined) where.isActive = isActive === 'true';
     if (isPremium !== undefined) where.isPremium = isPremium === 'true';
 
-    // Coupon include for join and optional filter
+    // Coupon include for join and optional filter (apply where inside include to avoid FROM-clause errors)
     include.push({
       model: CouponAttribution,
       as: 'couponAttributions',
       required: !!couponCode,
-      include: [{ model: Coupon, as: 'coupon', required: !!couponCode }]
+      include: [{
+        model: Coupon,
+        as: 'coupon',
+        required: !!couponCode,
+        ...(couponCode ? { where: { code: couponCode } } : {})
+      }]
     });
-    if (couponCode) {
-      where['$couponAttributions.coupon.code$'] = couponCode;
-    }
 
     const { count, rows } = await User.findAndCountAll({
       where,
@@ -167,7 +169,8 @@ exports.getAllUsers = async (req, res, next) => {
       limit: limitNum,
       offset,
       include,
-      distinct: true
+      distinct: true,
+      subQuery: false
     });
 
     apiResponse(res, 200, true, 'Users retrieved', {
