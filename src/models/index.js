@@ -90,6 +90,28 @@ OTP.belongsTo(User, {
     as: 'user'
 });
 
+// User <-> CouponAttribution
+User.hasMany(CouponAttribution, {
+    foreignKey: 'userId',
+    as: 'couponAttributions'
+});
+
+CouponAttribution.belongsTo(User, {
+    foreignKey: 'userId',
+    as: 'user'
+});
+
+// Coupon <-> CouponAttribution
+Coupon.hasMany(CouponAttribution, {
+    foreignKey: 'couponId',
+    as: 'attributions'
+});
+
+CouponAttribution.belongsTo(Coupon, {
+    foreignKey: 'couponId',
+    as: 'coupon'
+});
+
 module.exports = {
     User,
     PaymentRequest,

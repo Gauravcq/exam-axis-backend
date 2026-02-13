@@ -149,26 +149,15 @@ exports.getAllUsers = async (req, res, next) => {
     if (isActive !== undefined) where.isActive = isActive === 'true';
     if (isPremium !== undefined) where.isPremium = isPremium === 'true';
 
-    // Coupon filter and include
+    // Coupon include for join and optional filter
+    include.push({
+      model: CouponAttribution,
+      as: 'couponAttributions',
+      required: !!couponCode,
+      include: [{ model: Coupon, as: 'coupon', required: !!couponCode }]
+    });
     if (couponCode) {
-      include.push({
-        model: CouponAttribution,
-        as: 'couponAttributions',
-        required: true,
-        include: [{
-          model: Coupon,
-          as: 'coupon',
-          required: true,
-          where: { code: couponCode }
-        }]
-      });
-    } else {
-      include.push({
-        model: CouponAttribution,
-        as: 'couponAttributions',
-        required: false,
-        include: [{ model: Coupon, as: 'coupon', required: false }]
-      });
+      where['$couponAttributions.coupon.code$'] = couponCode;
     }
 
     const { count, rows } = await User.findAndCountAll({
