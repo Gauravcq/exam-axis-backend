@@ -139,3 +139,72 @@ exports.getLeaderboard = async (req, res, next) => {
     next(error);
   }
 };
+
+// @desc    Get user's last attempt for a specific test
+// @route   GET /api/tests/last-attempt/:testId
+// @access  Private
+exports.getLastAttemptForTest = async (req, res, next) => {
+  try {
+    const { testId } = req.params;
+    const attempt = await TestAttempt.findOne({
+      where: { userId: req.user.id, testId: String(testId) },
+      order: [['createdAt', 'DESC']]
+    });
+    if (!attempt) {
+      return apiResponse(res, 200, true, 'No attempts found', { lastAttempt: null });
+    }
+    const payload = {
+      id: attempt.id,
+      testId: attempt.testId,
+      score: attempt.score,
+      totalMarks: attempt.totalMarks,
+      correctAnswers: attempt.correctAnswers,
+      wrongAnswers: attempt.wrongAnswers,
+      unanswered: attempt.unanswered,
+      timeTaken: attempt.timeTaken,
+      submittedAt: attempt.createdAt,
+      answers: attempt.answers || {}
+    };
+    apiResponse(res, 200, true, 'Last attempt retrieved', { lastAttempt: payload });
+  } catch (error) {
+    next(error);
+  }
+};
+
+// @desc    Get user's last attempts for multiple tests
+// @route   GET /api/tests/last-attempts?testIds=a,b,c
+// @access  Private
+exports.getLastAttempts = async (req, res, next) => {
+  try {
+    const raw = (req.query.testIds || '').toString();
+    const testIds = raw.split(',').map(t => t.trim()).filter(Boolean);
+    if (testIds.length === 0) {
+      return apiResponse(res, 400, false, 'testIds query required (comma separated)');
+    }
+    const attempts = await TestAttempt.findAll({
+      where: { userId: req.user.id, testId: testIds },
+      order: [['createdAt', 'DESC']]
+    });
+    const latestMap = {};
+    for (const a of attempts) {
+      const key = a.testId;
+      if (!latestMap[key]) {
+        latestMap[key] = {
+          id: a.id,
+          testId: a.testId,
+          score: a.score,
+          totalMarks: a.totalMarks,
+          correctAnswers: a.correctAnswers,
+          wrongAnswers: a.wrongAnswers,
+          unanswered: a.unanswered,
+          timeTaken: a.timeTaken,
+          submittedAt: a.createdAt,
+          answers: a.answers || {}
+        };
+      }
+    }
+    apiResponse(res, 200, true, 'Last attempts retrieved', { lastAttempts: latestMap });
+  } catch (error) {
+    next(error);
+  }
+};

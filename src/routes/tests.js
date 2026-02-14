@@ -7,7 +7,9 @@ const {
   saveAttempt,
   getHistory,
   getAttempt,
-  getLeaderboard
+  getLeaderboard,
+  getLastAttemptForTest,
+  getLastAttempts
 } = require('../controllers/testController');
 
 const { protect } = require('../middleware/auth');
@@ -21,5 +23,7 @@ router.use(protect);
 router.post('/attempt', testAttemptValidation, saveAttempt);
 router.get('/history', getHistory);
 router.get('/attempt/:id', getAttempt);
+router.get('/last-attempt/:testId', getLastAttemptForTest);
+router.get('/last-attempts', getLastAttempts);
 
 module.exports = router;
