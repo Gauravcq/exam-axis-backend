@@ -65,6 +65,11 @@ const TestAttempt = sequelize.define('TestAttempt', {
     type: DataTypes.JSONB,
     defaultValue: {},
     comment: 'Stores all answers as JSON'
+  },
+  questions: {
+    type: DataTypes.JSONB,
+    defaultValue: [],
+    comment: 'Stores questions snapshot for accurate review'
   }
 }, {
   tableName: 'test_attempts',

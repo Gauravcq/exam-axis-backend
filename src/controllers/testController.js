@@ -1,9 +1,9 @@
 // src/controllers/testController.js
 
-const { TestAttempt } = require('../models');
+const { TestAttempt, Test } = require('../models');
 const { apiResponse } = require('../utils/helpers');
 
-// @desc    Save test attempt
+// @desc    Save test attempt with questions snapshot
 // @route   POST /api/tests/attempt
 // @access  Private
 exports.saveAttempt = async (req, res, next) => {
@@ -23,25 +23,37 @@ exports.saveAttempt = async (req, res, next) => {
       unattempted,
       timeTaken,
       timeTakenMinutes,
-      answers
+      answers,
+      questionsSnapshot
     } = req.body;
+    
+    // Fetch test questions if not provided in snapshot
+    let questions = questionsSnapshot;
+    if (!questions) {
+      const test = await Test.findOne({
+        where: { testId: String(testId) },
+        attributes: ['questions']
+      });
+      questions = test?.questions || [];
+    }
     
     // Create attempt with flexible field handling
     const attempt = await TestAttempt.create({
       userId: req.user.id,
       testId: String(testId),
-      examType: examType || 'CGL',  // ✅ Default value
-      subject: subject || 'General',  // ✅ Default value
+      examType: examType || 'CGL',  // Default value
+      subject: subject || 'General',  // Default value
       score: Number(score) || 0,
       totalMarks: totalMarks || maxScore || 50,
-      correctAnswers: correctAnswers ?? correct ?? 0,  // ✅ Accept both names
-      wrongAnswers: wrongAnswers ?? incorrect ?? 0,  // ✅ Accept both names
-      unanswered: unanswered ?? unattempted ?? 0,  // ✅ Accept both names
-      timeTaken: timeTaken ?? timeTakenMinutes ?? 0,  // ✅ Accept both names
-      answers: answers || {}
+      correctAnswers: correctAnswers ?? correct ?? 0,  // Accept both names
+      wrongAnswers: wrongAnswers ?? incorrect ?? 0,  // Accept both names
+      unanswered: unanswered ?? unattempted ?? 0,  // Accept both names
+      timeTaken: timeTaken ?? timeTakenMinutes ?? 0,  // Accept both names
+      answers: answers || {},
+      questions: questions || []  // Store questions snapshot
     });
     
-    console.log(`✅ Attempt saved: User ${req.user.id}, Test ${testId}`);
+    console.log(`Attempt saved: User ${req.user.id}, Test ${testId}, Questions: ${questions?.length || 0}`);
     
     apiResponse(res, 201, true, 'Test attempt saved', { attempt });
     
@@ -79,7 +91,7 @@ exports.getHistory = async (req, res, next) => {
   }
 };
 
-// @desc    Get single test attempt
+// @desc    Get single test attempt with questions
 // @route   GET /api/tests/attempt/:id
 // @access  Private
 exports.getAttempt = async (req, res, next) => {
@@ -95,7 +107,39 @@ exports.getAttempt = async (req, res, next) => {
       return apiResponse(res, 404, false, 'Test attempt not found');
     }
     
-    apiResponse(res, 200, true, 'Test attempt retrieved', { attempt });
+    // Use stored questions if available, otherwise fetch from test
+    let questions = attempt.questions;
+    let test = null;
+    
+    if (!questions || questions.length === 0) {
+      // Fallback: fetch questions from Test model
+      test = await Test.findOne({
+        where: { testId: attempt.testId },
+        attributes: ['testId', 'title', 'examType', 'subject', 'totalQuestions', 'totalMarks', 'duration', 'questions']
+      });
+      questions = test?.questions || [];
+    }
+    
+    const payload = {
+      id: attempt.id,
+      testId: attempt.testId,
+      examType: attempt.examType,
+      subject: attempt.subject,
+      score: attempt.score,
+      totalMarks: attempt.totalMarks,
+      correctAnswers: attempt.correctAnswers,
+      wrongAnswers: attempt.wrongAnswers,
+      unanswered: attempt.unanswered,
+      timeTaken: attempt.timeTaken,
+      submittedAt: attempt.createdAt,
+      answers: attempt.answers || {},
+      questions: questions
+    };
+    
+    apiResponse(res, 200, true, 'Test attempt retrieved', { 
+      attempt: payload,
+      test: test || null
+    });
     
   } catch (error) {
     next(error);
@@ -140,7 +184,7 @@ exports.getLeaderboard = async (req, res, next) => {
   }
 };
 
-// @desc    Get user's last attempt for a specific test
+// @desc    Get user's last attempt for a specific test with questions
 // @route   GET /api/tests/last-attempt/:testId
 // @access  Private
 exports.getLastAttemptForTest = async (req, res, next) => {
@@ -153,9 +197,24 @@ exports.getLastAttemptForTest = async (req, res, next) => {
     if (!attempt) {
       return apiResponse(res, 200, true, 'No attempts found', { lastAttempt: null });
     }
+    
+    // Use stored questions if available, otherwise fetch from test
+    let questions = attempt.questions;
+    
+    if (!questions || questions.length === 0) {
+      // Fallback: fetch questions from Test model
+      const test = await Test.findOne({
+        where: { testId: attempt.testId },
+        attributes: ['questions']
+      });
+      questions = test?.questions || [];
+    }
+    
     const payload = {
       id: attempt.id,
       testId: attempt.testId,
+      examType: attempt.examType,
+      subject: attempt.subject,
       score: attempt.score,
       totalMarks: attempt.totalMarks,
       correctAnswers: attempt.correctAnswers,
@@ -163,7 +222,8 @@ exports.getLastAttemptForTest = async (req, res, next) => {
       unanswered: attempt.unanswered,
       timeTaken: attempt.timeTaken,
       submittedAt: attempt.createdAt,
-      answers: attempt.answers || {}
+      answers: attempt.answers || {},
+      questions: questions
     };
     apiResponse(res, 200, true, 'Last attempt retrieved', { lastAttempt: payload });
   } catch (error) {
@@ -171,7 +231,7 @@ exports.getLastAttemptForTest = async (req, res, next) => {
   }
 };
 
-// @desc    Get user's last attempts for multiple tests
+// @desc    Get user's last attempts for multiple tests with questions
 // @route   GET /api/tests/last-attempts?testIds=a,b,c
 // @access  Private
 exports.getLastAttempts = async (req, res, next) => {
@@ -185,13 +245,39 @@ exports.getLastAttempts = async (req, res, next) => {
       where: { userId: req.user.id, testId: testIds },
       order: [['createdAt', 'DESC']]
     });
+    
+    // Get testIds that need questions fetched (old attempts without stored questions)
+    const attemptsNeedingQuestions = attempts.filter(a => !a.questions || a.questions.length === 0);
+    const testIdsToFetch = [...new Set(attemptsNeedingQuestions.map(a => a.testId))];
+    
+    // Fetch tests only for attempts without stored questions
+    let testMap = {};
+    if (testIdsToFetch.length > 0) {
+      const tests = await Test.findAll({
+        where: { testId: testIdsToFetch },
+        attributes: ['testId', 'title', 'examType', 'subject', 'totalQuestions', 'totalMarks', 'duration', 'questions']
+      });
+      tests.forEach(t => {
+        testMap[t.testId] = t;
+      });
+    }
+    
     const latestMap = {};
     for (const a of attempts) {
       const key = a.testId;
       if (!latestMap[key]) {
+        // Use stored questions if available, otherwise use fetched test questions
+        let questions = a.questions;
+        if (!questions || questions.length === 0) {
+          const test = testMap[key];
+          questions = test?.questions || [];
+        }
+        
         latestMap[key] = {
           id: a.id,
           testId: a.testId,
+          examType: a.examType,
+          subject: a.subject,
           score: a.score,
           totalMarks: a.totalMarks,
           correctAnswers: a.correctAnswers,
@@ -199,7 +285,8 @@ exports.getLastAttempts = async (req, res, next) => {
           unanswered: a.unanswered,
           timeTaken: a.timeTaken,
           submittedAt: a.createdAt,
-          answers: a.answers || {}
+          answers: a.answers || {},
+          questions: questions
         };
       }
     }
