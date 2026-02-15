@@ -17220,13 +17220,13 @@
       },
       "explanation": {
         "en": "Using time-weighted capital method, ratio = 9:10.",
-        "hi": "Using time-weighted capital method, ratio = 9:10."
+        "hi": "समय-भारित पूंजी विधि का उपयोग करते हुए, अनुपात = 9:10।"
       }
     },
     {
       "question": {
         "en": "A invests ₹20,000 and B invests ₹30,000. A receives extra 20% for management and total profit is ₹60,000. What is A's share?",
-        "hi": "A invests ₹20,000 and B invests ₹30,000. A receives extra 20% for management and total profit is ₹60,000. What is A's share?"
+        "hi": "A ₹20,000 निवेश करता है और B ₹30,000 निवेश करता है। प्रबंधन के लिए A को अतिरिक्त 20% मिलता है और कुल लाभ ₹60,000 है। A का हिस्सा कितना होगा?"
       },
       "options": [
         {
@@ -17252,13 +17252,13 @@
       },
       "explanation": {
         "en": "Effective ratios give A’s share = ₹31,200.",
-        "hi": "Effective ratios give A’s share = ₹31,200."
+        "hi": "प्रभावी अनुपातों के आधार पर A का हिस्सा = ₹31,200।"
       }
     },
     {
       "question": {
         "en": "A batsman's average is 44 for some innings. After scoring 132 next innings, average becomes 48. How many innings he played earlier?",
-        "hi": "A batsman's average is 44 for some innings. After scoring 132 next innings, average becomes 48. How many innings he played earlier?"
+        "hi": "एक बल्लेबाज का औसत कुछ पारियों के लिए 44 है। अगली पारी में 132 बनाने के बाद औसत 48 हो जाता है। पहले उसने कितनी पारियां खेली थीं?"
       },
       "options": [
         {
