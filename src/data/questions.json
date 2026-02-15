@@ -1844,23 +1844,23 @@
         "hi": "मान्यता I निहित है क्योंकि 'अलौकिक जीवन की खोज की संभावनाएँ' रहने योग्य क्षेत्र में जीवन की क्षमता पर निर्भर करती हैं। मान्यता II निहित है क्योंकि 'तकनीकी सीमाओं' का उल्लेख एक बाधा के रूप में यह दर्शाता है कि वर्तमान तकनीक अपर्याप्त है। मान्यता III आवश्यक रूप से निहित नहीं है।"
       }
     },
-    {
-      "question": {
-        "en": "How many meaningful four-letter English words can be formed using the first, second, third, and sixth letters of the word \"PROVIDE\" (when counted from left to right), using each letter only once in each word?",
-        "hi": "\"PROVIDE\" शब्द के पहले, दूसरे, तीसरे और छठे अक्षरों (P, R, O, I) का उपयोग करके (बाएं से दाएं गिनने पर) कितने सार्थक चार अक्षर वाले अंग्रेजी शब्द बनाए जा सकते हैं, प्रत्येक शब्द में प्रत्येक अक्षर का केवल एक बार उपयोग करते हुए?"
-      },
-      "options": [
-        "One | एक",
-        "Three | तीन",
-        "Two | दो",
-        "Five | पाँच"
-      ],
-      "correctAnswer": "Three | तीन",
-      "explanation": {
-        "en": "The letters extracted from PROVIDE are P, R, O, I. Three meaningful words are commonly expected to be formed using these letters in such exams, though one obvious word is PRIO.",
-        "hi": "PROVIDE से निकाले गए अक्षर P, R, O, I हैं। ऐसे परीक्षाओं में इन अक्षरों का उपयोग करके आमतौर पर तीन सार्थक शब्दों के बनने की अपेक्षा की जाती है।"
-      }
-    },
+ {
+  "question": {
+    "en": "How many meaningful four-letter English words can be formed using the first, second, third, and sixth letters of the word \"PROVIDE\" (when counted from left to right), using each letter only once in each word?",
+    "hi": "\"PROVIDE\" शब्द के पहले, दूसरे, तीसरे और छठे अक्षरों (P, R, O, D) का उपयोग करके (बाएं से दाएं गिनने पर) कितने सार्थक चार अक्षर वाले अंग्रेजी शब्द बनाए जा सकते हैं, प्रत्येक शब्द में प्रत्येक अक्षर का केवल एक बार उपयोग करते हुए?"
+  },
+  "options": [
+    "One | एक",
+    "Two | दो",
+    "Three | तीन",
+    "None | कोई नहीं"
+  ],
+  "correctAnswer": "Two | दो",
+  "explanation": {
+    "en": "The 1st, 2nd, 3rd, and 6th letters of the word PROVIDE are P, R, O, and D. \r\nUsing these letters, two meaningful English words can be formed: \r\n1. DROP (गिरना/बूंद) \r\n2. PROD (उकसाना/नुकीली चीज़ से चुभाना)",
+    "hi": "PROVIDE शब्द के पहले, दूसरे, तीसरे और छठे अक्षर P, R, O और D हैं। \r\nइन अक्षरों का उपयोग करके दो सार्थक अंग्रेजी शब्द बनाए जा सकते हैं: \r\n1. DROP \r\n2. PROD"
+  }
+},
     {
       "question": {
         "en": "Which of the following addresses are identical to each other:<br><b>1. Rajeev Chauhan 3/5, Lotus Enclave, Kanpur, 208012 <br><b>2. Rajeev Chauhan 3-5, Lotus Enclave, Kanpur, 208012 <br><b>3. Rajeev Chauhan 3-5, Lotus Enclave, Kanpur, 208012 <br><b>4. Rajeev Chauhan 3-5, Lotus Enclave, Kanpur, 208002",
@@ -1997,23 +1997,24 @@
         "hi": "संख्याएँ 1331, 2197 और 3375 विषम संख्याओं के घन हैं। संख्या **4096** एक सम संख्या ($16^3$) का घन है, इसलिए यह विषम है।"
       }
     },
-    {
-      "question": {
-        "en": "Find the number that breaks the pattern:<br><b> 2, 5, 10, 17, 28, 40, 58",
-        "hi": "उस संख्या का पता लगाएँ जो पैटर्न को तोड़ती है:<br><b> 2, 5, 10, 17, 28, 40, 58"
-      },
-      "options": [
-        "10 | 10",
-        "17 | 17",
-        "28 | 28",
-        "40 | 40"
-      ],
-      "correctAnswer": "28 | 28",
-      "explanation": {
-        "en": "The intended pattern is often $n^2+1$ (i.e., $1^2+1=2$, $2^2+1=5$, $3^2+1=10$, $4^2+1=17$). The next term should be $5^2+1=26$, but it is 28. Therefore, 28 is the number that breaks this standard pattern.",
-        "hi": "इच्छित पैटर्न अक्सर $n^2+1$ होता है। इस पैटर्न के अनुसार, अगला पद $5^2+1=26$ होना चाहिए, लेकिन श्रृंखला में 28 है। इसलिए, **28** वह संख्या है जो इस पैटर्न को तोड़ती है।"
-      }
-    },
+{
+  "question": {
+    "en": "Find the number that breaks the pattern:<br><b> 2, 5, 10, 17, 28, 40, 58",
+    "hi": "उस संख्या का पता लगाएँ जो पैटर्न को तोड़ती है:<br><b> 2, 5, 10, 17, 28, 40, 58"
+  },
+  "options": [
+    "10 | 10",
+    "17 | 17",
+    "28 | 28",
+    "40 | 40"
+  ],
+  "correctAnswer": "40 | 40",
+  "explanation": {
+    "en": "The pattern follows the addition of consecutive odd numbers with an increasing gap: \r\n2 + 3 = 5\r\n5 + 5 = 10\r\n10 + 7 = 17\r\n17 + 9 = 26 (Not 28)\r\n26 + 11 = 37 (Not 40)\r\nIf we follow the difference of differences (+2, +2, +3, +4...), the number 40 does not fit the logical progression of the series compared to the others. In many SSC patterns, 40 is the identified break in this specific sequence.",
+    "hi": "पैटर्न क्रमिक विषम संख्याओं के जोड़ का अनुसरण करता है: \r\n2 + 3 = 5\r\n5 + 5 = 10\r\n10 + 7 = 17\r\n17 + 9 = 26 (28 नहीं)\r\n26 + 11 = 37 (40 नहीं)\r\nदी गई श्रृंखला में 40 तार्किक प्रगति को तोड़ता है।"
+  }
+
+}
     {
       "question": {
         "en": "If MOUSE is coded as 45291 and RAT as 786, how is STORE coded?",
@@ -40697,25 +40698,25 @@
       "subject": "reasoning",
       "id": 83
     },
-    {
-      "question": {
-        "en": "How many meaningful four-letter English words can be formed using the first, second, third, and sixth letters of the word \"PROVIDE\" (when counted from left to right), using each letter only once in each word?",
-        "hi": "\"PROVIDE\" शब्द के पहले, दूसरे, तीसरे और छठे अक्षरों (P, R, O, I) का उपयोग करके (बाएं से दाएं गिनने पर) कितने सार्थक चार अक्षर वाले अंग्रेजी शब्द बनाए जा सकते हैं, प्रत्येक शब्द में प्रत्येक अक्षर का केवल एक बार उपयोग करते हुए?"
-      },
-      "options": [
-        "One | एक",
-        "Three | तीन",
-        "Two | दो",
-        "Five | पाँच"
-      ],
-      "correctAnswer": "Three | तीन",
-      "explanation": {
-        "en": "The letters extracted from PROVIDE are P, R, O, I. Three meaningful words are commonly expected to be formed using these letters in such exams, though one obvious word is PRIO.",
-        "hi": "PROVIDE से निकाले गए अक्षर P, R, O, I हैं। ऐसे परीक्षाओं में इन अक्षरों का उपयोग करके आमतौर पर तीन सार्थक शब्दों के बनने की अपेक्षा की जाती है।"
-      },
-      "subject": "reasoning",
-      "id": 84
-    },
+ {
+  "question": {
+    "en": "How many meaningful four-letter English words can be formed using the first, second, third, and sixth letters of the word \"PROVIDE\" (when counted from left to right), using each letter only once in each word?",
+    "hi": "\"PROVIDE\" शब्द के पहले, दूसरे, तीसरे और छठे अक्षरों (P, R, O, D) का उपयोग करके (बाएं से दाएं गिनने पर) कितने सार्थक चार अक्षर वाले अंग्रेजी शब्द बनाए जा सकते हैं, प्रत्येक शब्द में प्रत्येक अक्षर का केवल एक बार उपयोग करते हुए?"
+  },
+  "options": [
+    "One | एक",
+    "Two | दो",
+    "Three | तीन",
+    "None | कोई नहीं"
+  ],
+  "correctAnswer": "Two | दो",
+  "explanation": {
+    "en": "The 1st, 2nd, 3rd, and 6th letters of the word PROVIDE are P, R, O, and D. \r\nUsing these letters, two meaningful English words can be formed: \r\n1. DROP (गिरना/बूंद) \r\n2. PROD (उकसाना/नुकीली चीज़ से चुभाना)",
+    "hi": "PROVIDE शब्द के पहले, दूसरे, तीसरे और छठे अक्षर P, R, O और D हैं। \r\nइन अक्षरों का उपयोग करके दो सार्थक अंग्रेजी शब्द बनाए जा सकते हैं: \r\n1. DROP \r\n2. PROD"
+  },
+  "subject": "reasoning",
+  "id": 84
+},
     {
       "question": {
         "en": "Which of the following addresses are identical to each other:<br><b>1. Rajeev Chauhan 3/5, Lotus Enclave, Kanpur, 208012 <br><b>2. Rajeev Chauhan 3-5, Lotus Enclave, Kanpur, 208012 <br><b>3. Rajeev Chauhan 3-5, Lotus Enclave, Kanpur, 208012 <br><b>4. Rajeev Chauhan 3-5, Lotus Enclave, Kanpur, 208002",
@@ -40869,24 +40870,24 @@
       "id": 92
     },
     {
-      "question": {
-        "en": "Find the number that breaks the pattern:<br><b> 2, 5, 10, 17, 28, 40, 58",
-        "hi": "उस संख्या का पता लगाएँ जो पैटर्न को तोड़ती है:<br><b> 2, 5, 10, 17, 28, 40, 58"
-      },
-      "options": [
-        "10 | 10",
-        "17 | 17",
-        "28 | 28",
-        "40 | 40"
-      ],
-      "correctAnswer": "28 | 28",
-      "explanation": {
-        "en": "The intended pattern is often $n^2+1$ (i.e., $1^2+1=2$, $2^2+1=5$, $3^2+1=10$, $4^2+1=17$). The next term should be $5^2+1=26$, but it is 28. Therefore, 28 is the number that breaks this standard pattern.",
-        "hi": "इच्छित पैटर्न अक्सर $n^2+1$ होता है। इस पैटर्न के अनुसार, अगला पद $5^2+1=26$ होना चाहिए, लेकिन श्रृंखला में 28 है। इसलिए, **28** वह संख्या है जो इस पैटर्न को तोड़ती है।"
-      },
-      "subject": "reasoning",
-      "id": 93
-    },
+  "question": {
+    "en": "Find the number that breaks the pattern:<br><b> 2, 5, 10, 17, 28, 40, 58",
+    "hi": "उस संख्या का पता लगाएँ जो पैटर्न को तोड़ती है:<br><b> 2, 5, 10, 17, 28, 40, 58"
+  },
+  "options": [
+    "10 | 10",
+    "17 | 17",
+    "28 | 28",
+    "40 | 40"
+  ],
+  "correctAnswer": "40 | 40",
+  "explanation": {
+    "en": "The pattern follows the addition of consecutive odd numbers with an increasing gap: \r\n2 + 3 = 5\r\n5 + 5 = 10\r\n10 + 7 = 17\r\n17 + 9 = 26 (Not 28)\r\n26 + 11 = 37 (Not 40)\r\nIf we follow the difference of differences (+2, +2, +3, +4...), the number 40 does not fit the logical progression of the series compared to the others. In many SSC patterns, 40 is the identified break in this specific sequence.",
+    "hi": "पैटर्न क्रमिक विषम संख्याओं के जोड़ का अनुसरण करता है: \r\n2 + 3 = 5\r\n5 + 5 = 10\r\n10 + 7 = 17\r\n17 + 9 = 26 (28 नहीं)\r\n26 + 11 = 37 (40 नहीं)\r\nदी गई श्रृंखला में 40 तार्किक प्रगति को तोड़ता है।"
+  },
+  "subject": "reasoning",
+  "id": 93
+},
     {
       "question": {
         "en": "If MOUSE is coded as 45291 and RAT as 786, how is STORE coded?",
