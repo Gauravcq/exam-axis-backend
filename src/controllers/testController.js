@@ -37,23 +37,35 @@ exports.saveAttempt = async (req, res, next) => {
       questions = test?.questions || [];
     }
     
+    // Calculate and validate score - ensure it's never negative
+    const calculatedScore = Number(score) || 0;
+    const finalScore = Math.max(0, calculatedScore); // Ensure score is never negative
+    
+    // Get correct and wrong counts for validation
+    const correctCount = correctAnswers ?? correct ?? 0;
+    const wrongCount = wrongAnswers ?? incorrect ?? 0;
+    
+    // Log for debugging
+    console.log(`📝 Save Attempt - Score: ${calculatedScore}, Final Score: ${finalScore}, Correct: ${correctCount}, Wrong: ${wrongCount}`);
+    console.log(`📝 Save Attempt - Questions received: ${questions?.length || 0}`);
+    
     // Create attempt with flexible field handling
     const attempt = await TestAttempt.create({
       userId: req.user.id,
       testId: String(testId),
       examType: examType || 'CGL',  // Default value
       subject: subject || 'General',  // Default value
-      score: Number(score) || 0,
+      score: finalScore,  // Ensure score is never negative
       totalMarks: totalMarks || maxScore || 50,
-      correctAnswers: correctAnswers ?? correct ?? 0,  // Accept both names
-      wrongAnswers: wrongAnswers ?? incorrect ?? 0,  // Accept both names
+      correctAnswers: correctCount,
+      wrongAnswers: wrongCount,
       unanswered: unanswered ?? unattempted ?? 0,  // Accept both names
       timeTaken: timeTaken ?? timeTakenMinutes ?? 0,  // Accept both names
       answers: answers || {},
       questions: questions || []  // Store questions snapshot
     });
     
-    console.log(`Attempt saved: User ${req.user.id}, Test ${testId}, Questions: ${questions?.length || 0}`);
+    console.log(`✅ Attempt saved: User ${req.user.id}, Test ${testId}, Questions: ${questions?.length || 0}, Score: ${finalScore}`);
     
     apiResponse(res, 201, true, 'Test attempt saved', { attempt });
     
@@ -198,16 +210,32 @@ exports.getLastAttemptForTest = async (req, res, next) => {
       return apiResponse(res, 200, true, 'No attempts found', { lastAttempt: null });
     }
     
+    // Debug logging
+    console.log(`📊 Get Last Attempt - TestID: ${testId}, Attempt ID: ${attempt.id}`);
+    console.log(`📊 Stored questions in attempt: ${attempt.questions?.length || 0}`);
+    console.log(`📊 Questions type: ${typeof attempt.questions}, Is array: ${Array.isArray(attempt.questions)}`);
+    
     // Use stored questions if available, otherwise fetch from test
     let questions = attempt.questions;
+    let questionsSource = 'attempt';
     
     if (!questions || questions.length === 0) {
       // Fallback: fetch questions from Test model
+      console.log(`📊 No questions in attempt, fetching from Test model`);
       const test = await Test.findOne({
         where: { testId: attempt.testId },
         attributes: ['questions']
       });
       questions = test?.questions || [];
+      questionsSource = 'test_model';
+      console.log(`📊 Questions from Test model: ${questions?.length || 0}`);
+    } else {
+      // Log first question structure for debugging
+      if (questions && questions.length > 0) {
+        console.log(`📊 First question keys: ${Object.keys(questions[0]).join(', ')}`);
+        console.log(`📊 First question has question field: ${questions[0].question !== undefined}`);
+        console.log(`📊 First question has explanation field: ${questions[0].explanation !== undefined}`);
+      }
     }
     
     const payload = {
@@ -223,10 +251,15 @@ exports.getLastAttemptForTest = async (req, res, next) => {
       timeTaken: attempt.timeTaken,
       submittedAt: attempt.createdAt,
       answers: attempt.answers || {},
-      questions: questions
+      questions: questions,
+      _debug: {
+        questionsSource,
+        questionsCount: questions?.length || 0
+      }
     };
     apiResponse(res, 200, true, 'Last attempt retrieved', { lastAttempt: payload });
   } catch (error) {
+    console.error('Get Last Attempt Error:', error);
     next(error);
   }
 };

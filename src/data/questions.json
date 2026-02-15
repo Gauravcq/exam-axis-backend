@@ -34377,6 +34377,833 @@
       }
     }
   ],
+  "ssc_cgl_25_12sep_s2_gk": [
+    {
+      "questionNo": 1,
+      "question": {
+        "en": "Read the below statements marked as Assertion (A) and Reason (R). Mark the correct options:<br>Assertion (A): Humayun's Tomb was the first major Mughal garden tomb and directly inspired the design of the Taj Mahal.<br>Reason (R): It introduced the charbagh garden layout and double-domed mausoleum style that became characteristic of later Mughal architecture.",
+        "hi": "नीचे दिए गए कथनों को अभिकथन (A) और कारण (R) के रूप में चिह्नित करें। सही विकल्पों को चिह्नित करें:<br>अभिकथन (A): हुमायूँ का मकबरा पहला प्रमुख मुगल उद्यान मकबरा था और इसने सीधे ताजमहल के डिजाइन को प्रेरित किया।<br>कारण (R): इसने चारबाग उद्यान लेआउट और दोहरे गुंबद वाले मकबरे की शैली पेश की जो बाद में मुगल वास्तुकला की विशेषता बन गई।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A.",
+          "hi": "A और R दोनों सत्य हैं, तथा R, A का सही स्पष्टीकरण है।"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation of A.",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A का सही स्पष्टीकरण नहीं है।"
+        },
+        {
+          "en": "A is true, but R is false.",
+          "hi": "A सत्य है, लेकिन R असत्य है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A असत्य है, लेकिन R सत्य है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Both A and R are true, and R is the correct explanation of A.",
+        "hi": "A और R दोनों सत्य हैं, तथा R, A का सही स्पष्टीकरण है।"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 2,
+      "question": {
+        "en": "Which ancient ruler's administration is noted for its highly centralized structure?",
+        "hi": "किस प्राचीन शासक का प्रशासन अपनी अत्यधिक केंद्रीकृत संरचना के लिए जाना जाता है?"
+      },
+      "options": [
+        {
+          "en": "Harshavardhana",
+          "hi": "हर्षवर्धन"
+        },
+        {
+          "en": "Samudragupta",
+          "hi": "समुद्रगुप्त"
+        },
+        {
+          "en": "Chandragupta Maurya",
+          "hi": "चन्द्रगुप्त मौर्य"
+        },
+        {
+          "en": "Pulakeshin II",
+          "hi": "पुलकेशिन द्वितीय"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Chandragupta Maurya",
+        "hi": "चन्द्रगुप्त मौर्य"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 3,
+      "question": {
+        "en": "Which of the following correctly reflects the evolution of Indian classical music?",
+        "hi": "निम्नलिखित में से कौन सा कथन भारतीय शास्त्रीय संगीत के विकास को सही ढंग से दर्शाता है?"
+      },
+      "options": [
+        {
+          "en": "Jatis evolved from ragas as per ancient texts",
+          "hi": "प्राचीन ग्रंथों के अनुसार जातियां रागों से विकसित हुई हैं"
+        },
+        {
+          "en": "72-mela system was given by Bharata in 13th century",
+          "hi": "72-मेला प्रणाली 13 वीं शताब्दी में भरत द्वारा दी गई थी"
+        },
+        {
+          "en": "Folk music originally used mela and grama scales",
+          "hi": "लोक संगीत में मूलतः मेला और ग्रामा स्केल का प्रयोग किया जाता था"
+        },
+        {
+          "en": "Ragas evolved from jatis; 72-mela was by Venkatamakhi",
+          "hi": "रागों का विकास जातियों से हुआ; 72-मेल वेंकटमाखी द्वारा रचित था"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Ragas evolved from jatis; 72-mela was by Venkatamakhi",
+        "hi": "रागों का विकास जातियों से हुआ; 72-मेल वेंकटमाखी द्वारा रचित था"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 4,
+      "question": {
+        "en": "Consider the following statements about the phases of long jump:<br>1) The athlete attains maximum momentum by running on the runway before take-off.<br>2) During take-off, the athlete pushes off with the weaker foot to maintain balance.<br>Which of the statements given above are correct?",
+        "hi": "लंबी कूद के चरणों के बारे में निम्नलिखित कथनों पर विचार करें:<br>1) एथलीट टेक-ऑफ से पहले रनवे पर दौड़कर सबसे बड़ा क्षण प्राप्त करता है।<br>2) टेक-ऑफ के दौरान, एथलीट संतुलन बनाए रखने के लिए कमज़ोर पैर से धक्का देता है।<br>ऊपर दिए गए कथनों में से कौन-सा कथन सही है?"
+      },
+      "options": [
+        {
+          "en": "Only 1 is Correct",
+          "hi": "केवल 1 सही है"
+        },
+        {
+          "en": "Only 2 is Correct",
+          "hi": "केवल 2 सही है"
+        },
+        {
+          "en": "1 and 2 are correct",
+          "hi": "1 और 2 सही हैं."
+        },
+        {
+          "en": "Neither 1 nor 2 are Correct",
+          "hi": "न तो 1 और न ही 2 सही है."
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1 is Correct",
+        "hi": "केवल 1 सही है"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 5,
+      "question": {
+        "en": "Mary Kom's most recent international gold medal was won at which tournament?",
+        "hi": "मैरी कॉम ने अपना सबसे हालिया अंतर्राष्ट्रीय स्वर्ण पदक किस टूर्नामेंट में जीता था?"
+      },
+      "options": [
+        {
+          "en": "Asian Games, Hangzhou",
+          "hi": "एशियाई खेल, हांग्जो"
+        },
+        {
+          "en": "President's Cup, Indonesia",
+          "hi": "प्रेसिडेंट कप, इंडोनेशिया"
+        },
+        {
+          "en": "Commonwealth Games, Birmingham",
+          "hi": "राष्ट्रमंडल खेल, बर्मिंघम"
+        },
+        {
+          "en": "Olympic Games, Tokyo",
+          "hi": "ओलंपिक खेल, टोक्यो"
+        }
+      ],
+      "correctAnswer": {
+        "en": "President's Cup, Indonesia",
+        "hi": "प्रेसिडेंट कप, इंडोनेशिया"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 6,
+      "question": {
+        "en": "The Regulating Act of 1773 primarily introduced changes in the Company's administration in which two distinct areas?",
+        "hi": "1773 के रेग्युलेटिंग एक्ट ने मुख्य रूप से कंपनी के प्रशासन में किन दो अलग-अलग क्षेत्रों में परिवर्तन पेश किए?"
+      },
+      "options": [
+        {
+          "en": "Company's Judicial system and revenue collection.",
+          "hi": "कंपनी की न्यायिक प्रणाली और राजस्व संग्रह।"
+        },
+        {
+          "en": "Company's Military strategy and trade regulations.",
+          "hi": "कंपनी की सैन्य रणनीति और व्यापार विनियमन।"
+        },
+        {
+          "en": "Company's constitution at home and territorial control in India.",
+          "hi": "घरेलू स्तर पर कंपनी का संविधान और भारत में प्रादेशिक नियंत्रण।"
+        },
+        {
+          "en": "Company's relations with princely states and foreign policy.",
+          "hi": "कंपनी के रियासतों के साथ संबंध और विदेश नीति।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Company's constitution at home and territorial control in India.",
+        "hi": "घरेलू स्तर पर कंपनी का संविधान और भारत में प्रादेशिक नियंत्रण।"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 7,
+      "question": {
+        "en": "Consider the following statements regarding India's water-sharing treaties with its neighbours:<br>1) The Mahakali Treaty signed with Nepal in 1996 includes provisions for integrated development of the Mahakali River and the Pancheshwar Project.<br>2) The Ganga Water Treaty signed with Bangladesh in 1996 allows for the sharing of Ganga waters at Farakka throughout the entire year.<br>Which of the statements above is/are correct?",
+        "hi": "भारत की अपने पड़ोसियों के साथ जल बंटवारा संधियों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:<br>1) 1996 में नेपाल के साथ हस्ताक्षरित महाकाली संधि में महाकाली नदी और पंचेश्वर परियोजना के एकीकृत विकास के प्रावधान शामिल हैं।<br>2) 1996 में बांग्लादेश के साथ हस्ताक्षरित गंगा जल संधि, पूरे वर्ष फरक्का में गंगा जल के बँटवारे की अनुमति देती है।<br>उपर्युक्त कथनों में से कौन सा/से सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "Only 1 is Correct",
+          "hi": "केवल 1 सही है"
+        },
+        {
+          "en": "Only 2 is Correct",
+          "hi": "केवल 2 सही है"
+        },
+        {
+          "en": "Both 1 and 2 are Correct",
+          "hi": "1 और 2 दोनों सही हैं"
+        },
+        {
+          "en": "Neither 1 nor 2 are Correct",
+          "hi": "न तो 1 और न ही 2 सही हैं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1 is Correct",
+        "hi": "केवल 1 सही है"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 8,
+      "question": {
+        "en": "Fill in the blank:<br>Under the SLKIC vertical of Khelo India, Kendriya Vidyalayas have been adopted in partnership with KVS.",
+        "hi": "रिक्त स्थान भरेंः<br>खेलो इंडिया के एसएलकेआईसी वर्टिकल के अंतर्गत, केवीएस के साथ साझेदारी में केंद्रीय विद्यालयों को गोद लिया गया है।"
+      },
+      "options": [
+        {
+          "en": "3",
+          "hi": "3"
+        },
+        {
+          "en": "4",
+          "hi": "4"
+        },
+        {
+          "en": "5",
+          "hi": "5"
+        },
+        {
+          "en": "6",
+          "hi": "6"
+        }
+      ],
+      "correctAnswer": {
+        "en": "5",
+        "hi": "5"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 9,
+      "question": {
+        "en": "Consider the following statements about \"The Adventures of Kakababu, Volume 1\" by Sunil Gangopadhyaya:<br>1) A pioneering Bengali adventure novel featuring detective Kakababu with mystery and cultural themes.<br>2) A political satire on post-independence Indian governance.<br>3) An autobiography of the author's freedom fighter experiences in Bengal.<br>Which of the above statements is/are correct?",
+        "hi": "सुनील गंगोपाध्याय द्वारा लिखित \"द एडवेंचर्स ऑफ़ काकाबाबू, खंड 1\" के बारे में निम्नलिखित कथनों पर विचार कीजिए:<br>1) रहस्य और सांस्कृतिक विषयों पर आधारित जासूस काकाबाबू पर आधारित एक अग्रणी बंगाली साहसिक उपन्यास ।<br>2) स्वतंत्रता-पश्चात भारतीय शासन पर एक राजनीतिक व्यंग्य।<br>3) बंगाल में लेखक के स्वतंत्रता संग्राम के अनुभवों पर आधारित एक आत्मकथा।<br>उपरोक्त कथनों में से कौन सा/से सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "Only statement 1 is correct",
+          "hi": "केवल कथन 1 सही है"
+        },
+        {
+          "en": "Only statement 2 is correct",
+          "hi": "केवल कथन 2 सही है"
+        },
+        {
+          "en": "Statements 2 and 3 are correct",
+          "hi": "कथन 2 और 3 सही हैं"
+        },
+        {
+          "en": "1, 2 and 3 are correct",
+          "hi": "1, 2 और 3 सही हैं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only statement 1 is correct",
+        "hi": "केवल कथन 1 सही है"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 10,
+      "question": {
+        "en": "Which indian political leader addressed a special session in 2025 on \"Environment, COP-30, and Global Health\"?",
+        "hi": "किस भारतीय राजनीतिक नेता ने 2025 में \"पर्यावरण, COP-30 और वैश्विक स्वास्थ्य\" पर एक विशेष सत्र को संबोधित किया?"
+      },
+      "options": [
+        {
+          "en": "Piyush Goyal",
+          "hi": "पीयूष गोयल"
+        },
+        {
+          "en": "Hardeep Puri",
+          "hi": "हरदीप पुरी"
+        },
+        {
+          "en": "Narendra Modi",
+          "hi": "नरेंद्र मोदी"
+        },
+        {
+          "en": "S. Jaishankar",
+          "hi": "एस. जयशंकर"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Narendra Modi",
+        "hi": "नरेंद्र मोदी"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 11,
+      "question": {
+        "en": "Which of the following types of landslides involves backward rotation of the slipping material?",
+        "hi": "निम्नलिखित में से किस प्रकार के भूस्खलन में फिसलने वाली सामग्री का पीछे की ओर घूमना शामिल होता है?"
+      },
+      "options": [
+        {
+          "en": "Rockslide",
+          "hi": "चट्टान खिसकना"
+        },
+        {
+          "en": "Rock fall",
+          "hi": "चट्टान गिरना"
+        },
+        {
+          "en": "Slump",
+          "hi": "स्लम्प"
+        },
+        {
+          "en": "Debris fall",
+          "hi": "मलबा गिरना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Slump",
+        "hi": "स्लम्प"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 12,
+      "question": {
+        "en": "What is meant by population density?",
+        "hi": "जनसंख्या घनत्व से क्या तात्पर्य है?"
+      },
+      "options": [
+        {
+          "en": "Population per household",
+          "hi": "प्रति परिवार जनसंख्या"
+        },
+        {
+          "en": "People per square kilometre",
+          "hi": "प्रति वर्ग किलोमीटर लोग"
+        },
+        {
+          "en": "People per region",
+          "hi": "क्षेत्र के अनुसार लोग"
+        },
+        {
+          "en": "People per district",
+          "hi": "प्रति जिला लोग"
+        }
+      ],
+      "correctAnswer": {
+        "en": "People per square kilometre",
+        "hi": "प्रति वर्ग किलोमीटर लोग"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 13,
+      "question": {
+        "en": "Assertion (A) and Reason (R) are given below. Choose the correct option:<br>Assertion (A): Population explosion occurs when death rates decline rapidly but birth rates remain high.<br>Reason (R): Societal reproductive behavior changes instantly with improvements in healthcare.",
+        "hi": "नीचे अभिकथन (A) और कारण (R) दिए गए हैं। सही विकल्प चुनेंः<br>अभिकथन (A): जनसंख्या विस्फोट तब होता है जब मृत्यु दर में तेज़ी से गिरावट आती है लेकिन जन्म दर ऊँची रहती है।<br>कारण (R): स्वास्थ्य सेवा में सुधार के साथ सामाजिक प्रजनन व्यवहार में तुरंत बदलाव आता है।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, और R, A का सही स्पष्टीकरण है"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R सही स्पष्टीकरण नहीं है"
+        },
+        {
+          "en": "A is true, but R is false",
+          "hi": "A सत्य है, लेकिन R असत्य है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A असत्य है, लेकिन R सत्य है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "A is true, but R is false",
+        "hi": "A सत्य है, लेकिन R असत्य है"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 14,
+      "question": {
+        "en": "Which of the following best reflects the fundamental objective of applying generative design in aerospace systems engineering?",
+        "hi": "निम्नलिखित में से कौन एयरोस्पेस सिस्टम इंजीनियरिंग में जनरेटिव डिज़ाइन को लागू करने के मूलभूत उद्देश्य को सबसे अच्छी तरह से दर्शाता है?"
+      },
+      "options": [
+        {
+          "en": "Facilitating seamless integration of multi-payload platforms in shared bus structures",
+          "hi": "साझा बस संरचनाओं में बहु-पेलोड प्लेटफार्मों के निर्बाध एकीकरण की सुविधा प्रदान करना"
+        },
+        {
+          "en": "Optimizing mechanical configurations for minimum mass and maximum structural resilience",
+          "hi": "न्यूनतम द्रव्यमान और अधिकतम संरचनात्मक लचीलेपन के लिए यांत्रिक विन्यास का अनुकूलन"
+        },
+        {
+          "en": "Enhancing life-support redundancies to meet crew safety protocols in deep-space missions",
+          "hi": "गहन अंतरिक्ष मिशनों में चालक दल के सुरक्षा प्रोटोकॉल को पूरा करने के लिए जीवन-सहायक अतिरेक को बढ़ाना"
+        },
+        {
+          "en": "Designing adaptive thrust mechanisms to dynamically control orbital corrections",
+          "hi": "कक्षीय सुधारों को गतिशील रूप से नियंत्रित करने के लिए अनुकूली प्रणोद तंत्रों का डिजाइन तैयार करना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Optimizing mechanical configurations for minimum mass and maximum structural resilience",
+        "hi": "न्यूनतम द्रव्यमान और अधिकतम संरचनात्मक लचीलेपन के लिए यांत्रिक विन्यास का अनुकूलन"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 15,
+      "question": {
+        "en": "The function of lysosomes in cells is:",
+        "hi": "कोशिकाओं में लाइसोसोम का कार्य है:"
+      },
+      "options": [
+        {
+          "en": "Protein synthesis",
+          "hi": "प्रोटीन संश्लेषण"
+        },
+        {
+          "en": "Intracellular digestion",
+          "hi": "अंतः कोशिकीय पाचन"
+        },
+        {
+          "en": "Energy production",
+          "hi": "ऊर्जा उत्पादन"
+        },
+        {
+          "en": "Cell division",
+          "hi": "कोशिका विभाजन"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Intracellular digestion",
+        "hi": "अंतः कोशिकीय पाचन"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 16,
+      "question": {
+        "en": "Which of the following statements regarding Article 270 are correct?<br>1) Article 270 governs the sharing of taxes between the Union and States, including proceeds from GST.<br>2) After the 101st Constitutional Amendment, Article 270 includes provisions for distributing revenue from Union taxes and GST.<br>3) The GST Compensation Cess is also shared between the Union and States under Article 270.",
+        "hi": "अनुच्छेद 270 के संबंध में निम्नलिखित में से कौन से कथन सही हैं?<br>1) अनुच्छेद 270 केंद्र और राज्यों के बीच करों के बंटवारे को नियंत्रित करता है, जिसमें जीएसटी से प्राप्त आय भी शामिल है।<br>2) 101वें संविधान संशोधन के बाद, अनुच्छेद 270 में संघीय करों और जीएसटी से प्राप्त राजस्व के वितरण के प्रावधान शामिल हैं।<br>3) जीएसटी क्षतिपूर्ति उपकर भी अनुच्छेद 270 के तहत केंद्र और राज्यों के बीच साझा किया जाता है।"
+      },
+      "options": [
+        {
+          "en": "1 and 3 only",
+          "hi": "केवल 1 और 3"
+        },
+        {
+          "en": "1 Only",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "1 &amp; 2 only",
+          "hi": "केवल 1 और 2"
+        },
+        {
+          "en": "2 &amp; 3 only",
+          "hi": "केवल 2 और 3"
+        }
+      ],
+      "correctAnswer": {
+        "en": "1 &amp; 2 only",
+        "hi": "केवल 1 और 2"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 17,
+      "question": {
+        "en": "If Earth's radius were reduced by 1% while its mass remained unchanged, what would be the effect on the gravitational acceleration at its surface?",
+        "hi": "यदि पृथ्वी की त्रिज्या 1% कम कर दी जाए जबकि उसका द्रव्यमान अपरिवर्तित रहे, तो इसकी सतह पर गुरुत्वाकर्षण त्वरण पर क्या प्रभाव पड़ेगा?"
+      },
+      "options": [
+        {
+          "en": "Increase by approximately 1%",
+          "hi": "लगभग 1% की वृद्धि"
+        },
+        {
+          "en": "Decrease by approximately 2%",
+          "hi": "लगभग 2% की कमी"
+        },
+        {
+          "en": "Increase by approximately 2%",
+          "hi": "लगभग 2% की वृद्धि"
+        },
+        {
+          "en": "Decrease by approximately 1%",
+          "hi": "लगभग 1% की कमी"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Increase by approximately 2%",
+        "hi": "लगभग 2% की वृद्धि"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 18,
+      "question": {
+        "en": "Under Bharatiya Nagarik Suraksha Sanhita(BNSS), what is the maximum period for which a person can be held in police custody in total, even if remanded periodically by a magistrate?",
+        "hi": "भारतीय नागरिक सुरक्षा संहिता (बीएनएसएस) के तहत, किसी व्यक्ति को पुलिस हिरासत में रखने की अधिकतम अवधि क्या है, भले ही उसे मजिस्ट्रेट द्वारा समय-समय पर रिमांड पर लिया जाए?"
+      },
+      "options": [
+        {
+          "en": "30 days",
+          "hi": "30 दिन"
+        },
+        {
+          "en": "60 days / 60 दिन",
+          "hi": "60 days / 60 दिन"
+        },
+        {
+          "en": "90 days",
+          "hi": "90 दिन"
+        },
+        {
+          "en": "15 days (for initial remand, extendable)",
+          "hi": "15 दिन (प्रारंभिक रिमांड के लिए, विस्तार योग्य)"
+        }
+      ],
+      "correctAnswer": {
+        "en": "60 days / 60 दिन",
+        "hi": "60 days / 60 दिन"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 19,
+      "question": {
+        "en": "What is the age range for farmers to enrol in the Pradhan Mantri Kisan Maandhan Yojana (PM-KMY)?",
+        "hi": "प्रधानमंत्री किसान मानधन योजना (पीएम-केएमवाई) में नामांकन के लिए किसानों की आयु सीमा क्या है?"
+      },
+      "options": [
+        {
+          "en": "18-30 years",
+          "hi": "18-30 वर्ष"
+        },
+        {
+          "en": "18-40 years",
+          "hi": "18-40 वर्ष"
+        },
+        {
+          "en": "21-45 years",
+          "hi": "21-45 वर्ष"
+        },
+        {
+          "en": "25-50 years",
+          "hi": "25-50 वर्ष"
+        }
+      ],
+      "correctAnswer": {
+        "en": "18-40 years",
+        "hi": "18-40 वर्ष"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 20,
+      "question": {
+        "en": "Read the below statements marked as Assertion (A) and Reason (R). Mark the correct options:<br>Assertion (A): UDAN Scheme improves regional air connectivity.<br>Reason (R): It provides financial viability gap funding to airlines.",
+        "hi": "नीचे दिए गए कथनों को अभिकथन (A) और कारण (R) से चिह्नित करें। सही विकल्पों पर निशान लगाएँ:<br>अभिकथन (A): उड़ान योजना क्षेत्रीय हवाई संपर्क में सुधार करती है।<br>कारण (R): यह एयरलाइनों को वित्तीय व्यवहार्यता अंतर निधि प्रदान करती है।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, और R, A का सही स्पष्टीकरण है"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A का सही स्पष्टीकरण नहीं है"
+        },
+        {
+          "en": "A is true, but R is false",
+          "hi": "A सत्य है, लेकिन R असत्य है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A असत्य है, लेकिन R सत्य है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Both A and R are true, and R is the correct explanation of A",
+        "hi": "A और R दोनों सत्य हैं, और R, A का सही स्पष्टीकरण है"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 21,
+      "question": {
+        "en": "According to the Global Cities Index 2025 by Oxford Economics, which two cities retained their top positions?",
+        "hi": "ऑक्सफोर्ड इकोनॉमिक्स द्वारा जारी ग्लोबल सिटीज इंडेक्स 2025 के अनुसार, किन दो शहरों ने अपना शीर्ष स्थान बरकरार रखा है?"
+      },
+      "options": [
+        {
+          "en": "Tokyo and Beijing",
+          "hi": "टोक्यो और बीजिंग"
+        },
+        {
+          "en": "London and New York",
+          "hi": "लंदन और न्यूयॉर्क"
+        },
+        {
+          "en": "Paris and Rome",
+          "hi": "पेरिस और रोम"
+        },
+        {
+          "en": "Berlin and Moscow",
+          "hi": "बर्लिन और मॉस्को"
+        }
+      ],
+      "correctAnswer": {
+        "en": "London and New York",
+        "hi": "लंदन और न्यूयॉर्क"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 22,
+      "question": {
+        "en": "Which of the following statements about light industries is correct?",
+        "hi": "हल्के उद्योगों के बारे में निम्नलिखित में से कौन सा कथन सही है?"
+      },
+      "options": [
+        {
+          "en": "They process heavy ores and minerals.",
+          "hi": "वे भारी अयस्कों और खनिजों का प्रसंस्करण करते हैं।"
+        },
+        {
+          "en": "They produce large-scale industrial machinery.",
+          "hi": "वे बड़े पैमाने पर औद्योगिक मशीनरी का उत्पादन करते हैं।"
+        },
+        {
+          "en": "They require bulky and heavy raw materials.",
+          "hi": "उन्हें भारी एवं भारी कच्चे माल की आवश्यकता होती है।"
+        },
+        {
+          "en": "Use light materials to make consumer goods",
+          "hi": "उपभोक्ता वस्तुओं को बनाने के लिए हल्के पदार्थों का उपयोग करें"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Use light materials to make consumer goods",
+        "hi": "उपभोक्ता वस्तुओं को बनाने के लिए हल्के पदार्थों का उपयोग करें"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 23,
+      "question": {
+        "en": "Schedule VII of the Constitution contains",
+        "hi": "संविधान की अनुसूची VII में शामिल है।"
+      },
+      "options": [
+        {
+          "en": "Election guidelines",
+          "hi": "चुनाव दिशानिर्देश"
+        },
+        {
+          "en": "Three legislative lists",
+          "hi": "तीन विधायी सूचियाँ"
+        },
+        {
+          "en": "Emergency powers",
+          "hi": "आपातकालीन शक्तियां"
+        },
+        {
+          "en": "Judicial provisions",
+          "hi": "न्यायिक प्रावधान"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Three legislative lists",
+        "hi": "तीन विधायी सूचियाँ"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 24,
+      "question": {
+        "en": "A coastal city implements a plan to build sea walls and elevate buildings in response to rising sea levels. This action primarily falls under which category of climate change response?",
+        "hi": "एक तटीय शहर बढ़ते समुद्र स्तर के जवाब में समुद्री दीवारें बनाने और इमारतों को ऊँचा करने की योजना लागू करता है। यह कार्रवाई मुख्यतः जलवायु परिवर्तन प्रतिक्रिया की किस श्रेणी में आती है?"
+      },
+      "options": [
+        {
+          "en": "Climate Change Mitigation.",
+          "hi": "जलवायु परिवर्तन शमन."
+        },
+        {
+          "en": "Carbon Sequestration.",
+          "hi": "कार्बन पृथक्करण."
+        },
+        {
+          "en": "Geoengineering.",
+          "hi": "भू-इंजीनियरिंग."
+        },
+        {
+          "en": "Climate Change Adaptation.",
+          "hi": "जलवायु परिवर्तन अनुकूलन."
+        }
+      ],
+      "correctAnswer": {
+        "en": "Climate Change Adaptation.",
+        "hi": "जलवायु परिवर्तन अनुकूलन."
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    },
+    {
+      "questionNo": 25,
+      "question": {
+        "en": "What specific physical quantity ensures a satellite maintains its orbit without continuous propulsion?",
+        "hi": "कौन सी विशिष्ट भौतिक मात्रा यह सुनिश्चित करती है कि उपग्रह निरंतर प्रणोदन के बिना अपनी कक्षा बनाए रखे?"
+      },
+      "options": [
+        {
+          "en": "Mass",
+          "hi": "द्रव्यमान"
+        },
+        {
+          "en": "Gravitational pull",
+          "hi": "गुरुत्वाकर्षण खिंचाव"
+        },
+        {
+          "en": "Orbital velocity",
+          "hi": "कक्षीय वेग"
+        },
+        {
+          "en": "Atmospheric drag",
+          "hi": "वायुमंडलीय खिंचाव"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Orbital velocity",
+        "hi": "कक्षीय वेग"
+      },
+      "explanation": {
+        "en": "",
+        "hi": ""
+      }
+    }
+  ],
   "ssc_cgl_gk_17_sep_s2":
   [
   {
