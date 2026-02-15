@@ -360,24 +360,24 @@
       "options": [
         {
           "en": "Loss of ₹45 / ₹45 का नुकसान",
-          "hi": "Loss of ₹45 / ₹45 का नुकसान"
+          "hi": "₹ 45 / ₹ 45 का नुक्सान"
         },
         {
           "en": "Profit of ₹45 / ₹45 का लाभ",
-          "hi": "Profit of ₹45 / ₹45 का लाभ"
+          "hi": "₹ 45 / ₹ 45 कालाभ का लाभ"
         },
         {
           "en": "Profit of ₹90 / ₹90 का लाभ",
-          "hi": "Profit of ₹90 / ₹90 का लाभ"
+          "hi": "₹ 90 / ₹ 90 कालाभ का लाभ"
         },
         {
           "en": "Loss of ₹90 / ₹90 का नुकसान",
-          "hi": "Loss of ₹90 / ₹90 का नुकसान"
+          "hi": "₹ 90 / ₹ 90 का नुक्सान"
         }
       ],
       "correctAnswer": {
         "en": "Profit of ₹90 / ₹90 का लाभ",
-        "hi": "Profit of ₹90 / ₹90 का लाभ"
+        "hi": "₹ 90 / ₹ 90 कालाभ का लाभ"
       },
       "explanation": {
         "en": "Cost Price:\n• 25 L × ₹45 = ₹1,125\n• 15 L × ₹50 = ₹750\n• Total CP = ₹1,875\n\nSelling Price:\n• 40 L × ₹48 = ₹1,920\n\nProfit = SP - CP\n= ₹1,920 - ₹1,875\n= ₹45 Profit",
@@ -392,24 +392,24 @@
       "options": [
         {
           "en": "4% loss / 4% हानि",
-          "hi": "4% loss / 4% हानि"
+          "hi": "हानि /हानि"
         },
         {
           "en": "4% profit / 4% लाभ",
-          "hi": "4% profit / 4% लाभ"
+          "hi": "4% लाभ / 4% लाभ"
         },
         {
           "en": "5% loss / 5% हानि",
-          "hi": "5% loss / 5% हानि"
+          "hi": "हानि /हानि"
         },
         {
           "en": "5% profit / 5% लाभ",
-          "hi": "5% profit / 5% लाभ"
+          "hi": "5% लाभ / 5% लाभ"
         }
       ],
       "correctAnswer": {
         "en": "4% loss / 4% हानि",
-        "hi": "4% loss / 4% हानि"
+        "hi": "हानि /हानि"
       },
       "explanation": {
         "en": "Total Cost = ₹90,000 for 1200 cars\n\nDistribution:\n• Donated: 200 cars (no revenue)\n• Remaining: 1000 cars\n\nSelling Price per car:\n• MP = ₹120, Discount = 10%\n• SP = ₹120 × 0.9 = ₹108\n\nScheme: Buy 8 Get 2 Free\n• 1000 cars = 100 sets of 10\n• Paid cars = 100 × 8 = 800\n\nRevenue = 800 × ₹108 = ₹86,400\n\nLoss = ₹90,000 - ₹86,400 = ₹3,600\n\nLoss % = (3600/90000) × 100 = 4%",
@@ -456,24 +456,24 @@
       "options": [
         {
           "en": "15.5 litres / 15.5 लीटर",
-          "hi": "15.5 litres / 15.5 लीटर"
+          "hi": "15.5 लीटर / 15.5 लीटर"
         },
         {
           "en": "22.5 litres / 22.5 लीटर",
-          "hi": "22.5 litres / 22.5 लीटर"
+          "hi": "22.5 लीटर / 22.5 लीटर"
         },
         {
           "en": "25 litres / 25 लीटर",
-          "hi": "25 litres / 25 लीटर"
+          "hi": "25 लीटर / 25 लीटर"
         },
         {
           "en": "30 litres / 30 लीटर",
-          "hi": "30 litres / 30 लीटर"
+          "hi": "30 लीटर / 30 लीटर"
         }
       ],
       "correctAnswer": {
         "en": "22.5 litres / 22.5 लीटर",
-        "hi": "22.5 litres / 22.5 लीटर"
+        "hi": "22.5 लीटर / 22.5 लीटर"
       },
       "explanation": {
         "en": "In 40L mixture (ratio 5:3):\n• Juice = 40 × 5/8 = 25 L\n• Water = 40 × 3/8 = 15 L\n\nNew ratio required = 2:3\n\nLet water added = x\n• 25 : (15 + x) = 2 : 3\n• 25 × 3 = 2(15 + x)\n• 75 = 30 + 2x\n• 2x = 45\n• x = 22.5 litres",
@@ -552,24 +552,24 @@
       "options": [
         {
           "en": "6/7 hours / घंटे",
-          "hi": "6/7 hours / घंटे"
+          "hi": "6/7 घंटे/घंटे"
         },
         {
           "en": "2/6 hours / घंटे",
-          "hi": "2/6 hours / घंटे"
+          "hi": "2/6 घंटे / घंटा"
         },
         {
           "en": "3/5 hours / घंटे",
-          "hi": "3/5 hours / घंटे"
+          "hi": "3/5 घंटे / घंटा"
         },
         {
           "en": "9/2 hours / घंटे",
-          "hi": "9/2 hours / घंटे"
+          "hi": "9/2 घंटे / घंटा"
         }
       ],
       "correctAnswer": {
         "en": "6/7 hours / घंटे",
-        "hi": "6/7 hours / घंटे"
+        "hi": "6/7 घंटे/घंटे"
       },
       "explanation": {
         "en": "Rate per hour:\n• A = 1/6, B = 1/8, C = 1/12\n\nCombined rate (A+B+C):\n= 1/6 + 1/8 + 1/12 = (4+3+2)/24 = 9/24 = 3/8\n\nWork in 2 hours = 2 × 3/8 = 3/4\n\nRemaining = 1 - 3/4 = 1/4\n\nAfter C closes (A+B rate):\n= 1/6 + 1/8 = 7/24\n\nTime to fill 1/4:\n= (1/4) ÷ (7/24) = (1/4) × (24/7) = 6/7 hours",
@@ -584,24 +584,24 @@
       "options": [
         {
           "en": "280 km/h / 280 किमी/घंटा",
-          "hi": "280 km/h / 280 किमी/घंटा"
+          "hi": "280 किमी/घंटा/280 किमी/घंटा"
         },
         {
           "en": "300 km/h / 300 किमी/घंटा",
-          "hi": "300 km/h / 300 किमी/घंटा"
+          "hi": "300 किमी/घंटा/300 किमी/घंटा"
         },
         {
           "en": "288 km/h / 288 किमी/घंटा",
-          "hi": "288 km/h / 288 किमी/घंटा"
+          "hi": "288 किमी/घंटा/288 किमी/घंटा"
         },
         {
           "en": "320 km/h / 320 किमी/घंटा",
-          "hi": "320 km/h / 320 किमी/घंटा"
+          "hi": "320 किमी/घंटा/320 किमी/घंटा"
         }
       ],
       "correctAnswer": {
         "en": "288 km/h / 288 किमी/घंटा",
-        "hi": "288 km/h / 288 किमी/घंटा"
+        "hi": "288 किमी/घंटा/288 किमी/घंटा"
       },
       "explanation": {
         "en": "Original distance:\n= Speed × Time\n= 240 × 0.5 = 120 km\n\nNew distance (20% increase):\n= 120 × 1.20 = 144 km\n\nTime remains same = 30 min = 0.5 hr\n\nNew speed required:\n= 144 ÷ 0.5\n= 288 km/h",
@@ -616,24 +616,24 @@
       "options": [
         {
           "en": "60 km/h / 60 किमी/घंटा",
-          "hi": "60 km/h / 60 किमी/घंटा"
+          "hi": "60 किमी/घंटा/60 किमी/घंटा"
         },
         {
           "en": "75 km/h / 75 किमी/घंटा",
-          "hi": "75 km/h / 75 किमी/घंटा"
+          "hi": "75 किमी/घंटा/75 किमी/घंटा"
         },
         {
           "en": "45 km/h / 45 किमी/घंटा",
-          "hi": "45 km/h / 45 किमी/घंटा"
+          "hi": "45 किमी/घंटा/45 किमी/घंटा"
         },
         {
           "en": "90 km/h / 90 किमी/घंटा",
-          "hi": "90 km/h / 90 किमी/घंटा"
+          "hi": "90 किमी/घंटा/90 किमी/घंटा"
         }
       ],
       "correctAnswer": {
         "en": "60 km/h / 60 किमी/घंटा",
-        "hi": "60 km/h / 60 किमी/घंटा"
+        "hi": "60 किमी/घंटा/60 किमी/घंटा"
       },
       "explanation": {
         "en": "Let speed of X = x, Y = y\n\nMoving towards each other:\n(x + y) = 360/4 = 90 ... (1)\n\nMoving same direction:\n(x - y) = 360/12 = 30 ... (2)\n\nAdding equations (1) and (2):\n2x = 120\nx = 60 km/h",
@@ -822,7 +822,7 @@
         },
         {
           "en": "Cannot be determined",
-          "hi": "Cannot be determined"
+          "hi": "d. निर्धारित नहीं कर सकते"
         }
       ],
       "correctAnswer": {
@@ -970,24 +970,24 @@
       "options": [
         {
           "en": "₹4.2 lakh",
-          "hi": "₹4.2 lakh"
+          "hi": "₹ 4.2 लाख"
         },
         {
           "en": "₹2.2 lakh",
-          "hi": "₹2.2 lakh"
+          "hi": "₹ 2.2 लाख"
         },
         {
           "en": "₹2.8 lakh",
-          "hi": "₹2.8 lakh"
+          "hi": "₹ 2.8 लाख"
         },
         {
           "en": "₹2.7 lakh",
-          "hi": "₹2.7 lakh"
+          "hi": "₹ 2.7 लाख"
         }
       ],
       "correctAnswer": {
         "en": "₹2.2 lakh",
-        "hi": "₹2.2 lakh"
+        "hi": "₹ 2.2 लाख"
       },
       "explanation": {
         "en": "Total Sales = 75 * 1.8 = 135 lakh. Junior Sales = 30 * 1.2 = 36 lakh. Senior Sales = 135 - 36 = 99 lakh. Senior Employees = 75 - 30 = 45. Senior Average = 99 / 45 = 2.2 lakh.",
@@ -1098,24 +1098,24 @@
       "options": [
         {
           "en": "Loss of 9.2%",
-          "hi": "Loss of 9.2%"
+          "hi": "9.2% का नुकसान"
         },
         {
           "en": "Profit of 9.29%",
-          "hi": "Profit of 9.29%"
+          "hi": "9.29% का लाभ"
         },
         {
           "en": "Profit of 10%",
-          "hi": "Profit of 10%"
+          "hi": "10% का लाभ"
         },
         {
           "en": "Loss of 10%",
-          "hi": "Loss of 10%"
+          "hi": "10% का नुकसान"
         }
       ],
       "correctAnswer": {
         "en": "Profit of 9.29%",
-        "hi": "Profit of 9.29%"
+        "hi": "9.29% का लाभ"
       },
       "explanation": {
         "en": "CP per R, B, G candy: ₹5, ₹4.5, ₹4.4. Total CP for 4 candies (1:1:2 mix): 5 + 4.5 + 2(4.4) = ₹18.3. Average CP = ₹18.3/4 = ₹4.575. SP per candy = ₹10/2 = ₹5. Profit % = ((5 - 4.575) / 4.575) * 100 = 9.29% Profit.",
@@ -1162,24 +1162,24 @@
       "options": [
         {
           "en": "25 days",
-          "hi": "25 days"
+          "hi": "25 दिन"
         },
         {
           "en": "18 days",
-          "hi": "18 days"
+          "hi": "18 दिन"
         },
         {
           "en": "16 days",
-          "hi": "16 days"
+          "hi": "16 दिन"
         },
         {
           "en": "12 days",
-          "hi": "12 days"
+          "hi": "12 दिन"
         }
       ],
       "correctAnswer": {
         "en": "25 days",
-        "hi": "25 days"
+        "hi": "25 दिन"
       },
       "explanation": {
         "en": "Total Work = 90 units. Efficiencies E_A=3, E_B=2, E_C=1. Work in a 5-day cycle: Days 1-4 (A only) = 4 * 3 = 12 units. Day 5 (A+B+C) = 3+2+1=6 units. Total work in 5 days = 18 units. Total time = 90 / 18 = 5 cycles. 5 * 5 = 25 days.",
@@ -1194,24 +1194,24 @@
       "options": [
         {
           "en": "35 litres",
-          "hi": "35 litres"
+          "hi": "35 लीटर"
         },
         {
           "en": "25 litres",
-          "hi": "25 litres"
+          "hi": "25 लीटर"
         },
         {
           "en": "50 litres",
-          "hi": "50 litres"
+          "hi": "50 लीटर"
         },
         {
           "en": "20 litres",
-          "hi": "20 litres"
+          "hi": "20 लीटर"
         }
       ],
       "correctAnswer": {
         "en": "25 litres",
-        "hi": "25 litres"
+        "hi": "25 लीटर"
       },
       "explanation": {
         "en": "Initial Water = 40 litres. Final Water (for 7:3 ratio in 100L) = 30 litres. Let x be the amount replaced. Water removed = (2/5)x. Remaining Water = 40 - (2/5)x. Since pure acid is added, this must equal the final water: 40 - (2/5)x = 30 => (2/5)x = 10 => x = 25 litres.",
@@ -1226,24 +1226,24 @@
       "options": [
         {
           "en": "24 days",
-          "hi": "24 days"
+          "hi": " 24 दिन"
         },
         {
           "en": "30 days",
-          "hi": "30 days"
+          "hi": "30 दिन"
         },
         {
           "en": "35 days",
-          "hi": "35 days"
+          "hi": "35 दिन"
         },
         {
           "en": "40 days",
-          "hi": "40 days"
+          "hi": "40 दिन। "
         }
       ],
       "correctAnswer": {
         "en": "30 days",
-        "hi": "30 days"
+        "hi": "30 दिन"
       },
       "explanation": {
         "en": "Time is inversely proportional to Efficiency. T_P : T_Q = E_Q : E_P = 2:5. Since T_P = 12 days, 2 parts = 12 => 1 part = 6 days. T_Q = 5 parts = 5 * 6 = 30 days.",
@@ -1258,7 +1258,7 @@
       "options": [
         {
           "en": "900 m",
-          "hi": "900 m"
+          "hi": "900 मीटर"
         },
         {
           "en": "1200 m",
@@ -1290,24 +1290,24 @@
       "options": [
         {
           "en": "139 m²",
-          "hi": "139 m²"
+          "hi": "139 वर्ग मीटर"
         },
         {
           "en": "135 m²",
-          "hi": "135 m²"
+          "hi": "135 वर्ग मीटर"
         },
         {
           "en": "142 m²",
-          "hi": "142 m²"
+          "hi": "142 वर्ग मीटर"
         },
         {
           "en": "150 m²",
-          "hi": "150 m²"
+          "hi": "150 वर्ग मीटर"
         }
       ],
       "correctAnswer": {
         "en": "139 m²",
-        "hi": "139 m²"
+        "hi": "139 वर्ग मीटर"
       },
       "explanation": {
         "en": "Inner radius r=14 m. Outer radius R = 14 + 1.5 = 15.5 m. Area of Path = π (R² - r²) = π (240.25 - 196) = 44.25π. Using π ≈ 22/7, Area ≈ 139.097 m², which is 139 m² (approx).",
@@ -1322,15 +1322,15 @@
       "options": [
         {
           "en": "225°",
-          "hi": "225°"
+          "hi": "225"
         },
         {
           "en": "180°",
-          "hi": "180°"
+          "hi": "180°rotate the layer 90 degrees to the right"
         },
         {
           "en": "240°",
-          "hi": "240°"
+          "hi": "240"
         },
         {
           "en": "360°",
@@ -1339,7 +1339,7 @@
       ],
       "correctAnswer": {
         "en": "225°",
-        "hi": "225°"
+        "hi": "225"
       },
       "explanation": {
         "en": "Conversion factor: 180°/π. Degrees = (5π/4) * (180°/π) = (5/4) * 180° = 5 * 45° = 225°.",
@@ -1386,24 +1386,24 @@
       "options": [
         {
           "en": "6 radians",
-          "hi": "6 radians"
+          "hi": "6 रेडियन"
         },
         {
           "en": "3 radians",
-          "hi": "3 radians"
+          "hi": "3 रेडियन"
         },
         {
           "en": "2 radians",
-          "hi": "2 radians"
+          "hi": "2 रेडियन"
         },
         {
           "en": "4 radians",
-          "hi": "4 radians"
+          "hi": "4 रेडियन"
         }
       ],
       "correctAnswer": {
         "en": "2 radians",
-        "hi": "2 radians"
+        "hi": "2 रेडियन"
       },
       "explanation": {
         "en": "The formula for arc length is l = rθ, where θ is in radians. θ = l/r = 10 cm / 5 cm = 2 radians.",
@@ -1422,11 +1422,11 @@
         },
         {
           "en": "√3/2",
-          "hi": "√3/2"
+          "hi": "3: 2"
         },
         {
           "en": "√2/2",
-          "hi": "√2/2"
+          "hi": "2. 2"
         },
         {
           "en": "3/4",
@@ -1514,15 +1514,15 @@
       "options": [
         {
           "en": "3√3",
-          "hi": "3√3"
+          "hi": "3. 3"
         },
         {
           "en": "5√3",
-          "hi": "5√3"
+          "hi": "5: 3)।"
         },
         {
           "en": "7√3",
-          "hi": "7√3"
+          "hi": "7:3)।"
         },
         {
           "en": "9√3",
@@ -1531,7 +1531,7 @@
       ],
       "correctAnswer": {
         "en": "5√3",
-        "hi": "5√3"
+        "hi": "5: 3)।"
       },
       "explanation": {
         "en": "Rationalizing x²: x² = 7 + 4√3. Simplifying x: x = √(7 + 4√3) = 2 + √3. x² + x - 9 = (7 + 4√3) + (2 + √3) - 9 = (7 + 2 - 9) + (4√3 + √3) = 0 + 5√3.",
@@ -1546,24 +1546,24 @@
       "options": [
         {
           "en": "36°",
-          "hi": "36°"
+          "hi": "36"
         },
         {
           "en": "72°",
-          "hi": "72°"
+          "hi": "72"
         },
         {
           "en": "108°",
-          "hi": "108°"
+          "hi": "108"
         },
         {
           "en": "144°",
-          "hi": "144°"
+          "hi": "144"
         }
       ],
       "correctAnswer": {
         "en": "36°",
-        "hi": "36°"
+        "hi": "36"
       },
       "explanation": {
         "en": "Sum of angles is 360°. x + 2x + 3x + 4x = 360° => 10x = 360° => x = 36°. The smallest angle is x = 36°.",
@@ -1688,7 +1688,7 @@
         },
         {
           "en": "sqrt(2)",
-          "hi": "sqrt(2)"
+          "hi": "वर्गमीटर(2)"
         }
       ],
       "correctAnswer": {
@@ -1708,24 +1708,24 @@
       "options": [
         {
           "en": "5% decrease",
-          "hi": "5% decrease"
+          "hi": "5% की कमी"
         },
         {
           "en": "6% increase",
-          "hi": "6% increase"
+          "hi": "6% की वृद्धि"
         },
         {
           "en": "6% decrease",
-          "hi": "6% decrease"
+          "hi": "6% की कमी"
         },
         {
           "en": "5% increase",
-          "hi": "5% increase"
+          "hi": "5% की वृद्धि"
         }
       ],
       "correctAnswer": {
         "en": "6% decrease",
-        "hi": "6% decrease"
+        "hi": "6% की कमी"
       },
       "explanation": {
         "en": "Let initial total expenditure be 2+4+4=10. New Food: 2*0.9=1.8. New Clothing: 4*1.05=4.2. New Entertainment: 4*0.85=3.4. New Total = 1.8+4.2+3.4 = 9.4. % Change = (9.4-10)/10 * 100% = -6%, a 6% decrease.",
@@ -1944,7 +1944,7 @@
         },
         {
           "en": "450 km",
-          "hi": "450 km"
+          "hi": "450 किमी"
         }
       ],
       "correctAnswer": {
@@ -2028,24 +2028,24 @@
       "options": [
         {
           "en": "Profit of 2.25%",
-          "hi": "Profit of 2.25%"
+          "hi": "2.25% का लाभ"
         },
         {
           "en": "Loss of 3.5%",
-          "hi": "Loss of 3.5%"
+          "hi": "3.5% का नुकसान"
         },
         {
           "en": "Profit of 2.5%",
-          "hi": "Profit of 2.5%"
+          "hi": "2.5% का लाभ"
         },
         {
           "en": "Loss of 4.25%",
-          "hi": "Loss of 4.25%"
+          "hi": "4.25% का नुकसान"
         }
       ],
       "correctAnswer": {
         "en": "Profit of 2.5%",
-        "hi": "Profit of 2.5%"
+        "hi": "2.5% का लाभ"
       },
       "explanation": {
         "en": "Cost Price (CP) = (2200 + 1800)/2 = 2000. If sold for 2050, profit = 50. Profit % = (50/2000) * 100 = 2.5%.",
@@ -2156,24 +2156,24 @@
       "options": [
         {
           "en": "15 kg",
-          "hi": "15 kg"
+          "hi": "15 किग्रा"
         },
         {
           "en": "25 kg",
-          "hi": "25 kg"
+          "hi": "25 किग्रा"
         },
         {
           "en": "21 kg",
-          "hi": "21 kg"
+          "hi": "21 किलो ग्राम "
         },
         {
           "en": "18 kg",
-          "hi": "18 kg"
+          "hi": "18 किग्रा"
         }
       ],
       "correctAnswer": {
         "en": "21 kg",
-        "hi": "21 kg"
+        "hi": "21 किलो ग्राम "
       },
       "explanation": {
         "en": "CP of mixture = 43.70/1.15 = 38/kg. Using Alligation: (45-38):(38-32) = 7:6. This is the inverse ratio of quantities. Q1/25 = 6/7 -> Q1 = 150/7 approx 21.43 kg. Approx 21 kg.",
@@ -2188,7 +2188,7 @@
       "options": [
         {
           "en": "25cm",
-          "hi": "25cm"
+          "hi": "25 सेमी"
         },
         {
           "en": "30cm",
@@ -2196,16 +2196,16 @@
         },
         {
           "en": "35cm",
-          "hi": "35cm"
+          "hi": "35 सेमी"
         },
         {
           "en": "40cm",
-          "hi": "40cm"
+          "hi": "40 सेमी"
         }
       ],
       "correctAnswer": {
         "en": "25cm",
-        "hi": "25cm"
+        "hi": "25 सेमी"
       },
       "explanation": {
         "en": "By Pythagorean theorem, slant height l^2 = r^2 + h^2. Given r=7, h=24. l^2 = 7^2 + 24^2 = 49 + 576 = 625. l = sqrt(625) = 25 cm. (7, 24, 25 is a Pythagorean triple).",
@@ -2311,7 +2311,7 @@
     {
       "question": {
         "en": "<img src='../images/zz.png' alt='Question 23' style='max-width: 100%; height: auto;'>",
-        "hi": "<img src='../images/ii.png' alt='Question 11' style='max-width: 100%; height: auto;'>"
+        "hi": "<img src='../images/zz.png' alt='Question 23' style='max-width: 100%; height: auto;'>"
       },
       "options": [
         {
@@ -2414,24 +2414,24 @@
       "options": [
         {
           "en": "Energy | ऊर्जा",
-          "hi": "Energy | ऊर्जा"
+          "hi": "ऊर्जा | ऊर्जावान"
         },
         {
           "en": "Temperature | तापमान",
-          "hi": "Temperature | तापमान"
+          "hi": "तापमान | तापमान"
         },
         {
           "en": "Pressure | दबाव",
-          "hi": "Pressure | दबाव"
+          "hi": "दबाव | दबदबा"
         },
         {
           "en": "Force | बल",
-          "hi": "Force | बल"
+          "hi": "बल | बल"
         }
       ],
       "correctAnswer": {
         "en": "Pressure | दबाव",
-        "hi": "Pressure | दबाव"
+        "hi": "दबाव | दबदबा"
       },
       "explanation": {
         "en": "The relationship is a physical quantity and its S.I. unit. Watt is the S.I. unit of Power. Similarly, Pascal is the S.I. unit of Pressure.",
@@ -2446,24 +2446,24 @@
       "options": [
         {
           "en": "Chile | चिली",
-          "hi": "Chile | चिली"
+          "hi": "चिली | चिली"
         },
         {
           "en": "Peru | पेरू",
-          "hi": "Peru | पेरू"
+          "hi": "पेरू | पेरू"
         },
         {
           "en": "Colombia | कोलंबिया",
-          "hi": "Colombia | कोलंबिया"
+          "hi": "कोलंबिया | कोलंबिया"
         },
         {
           "en": "Ecuador | इक्वाडोर",
-          "hi": "Ecuador | इक्वाडोर"
+          "hi": "इक्वाडोर | इक्वाडोर"
         }
       ],
       "correctAnswer": {
         "en": "Peru | पेरू",
-        "hi": "Peru | पेरू"
+        "hi": "पेरू | पेरू"
       },
       "explanation": {
         "en": "The relationship is River: Place of Origin. The Mekong River originates in Tibet (the Tibetan Plateau). The Amazon River's source is in the Andes mountains, most commonly cited as being in Peru.",
@@ -2638,7 +2638,7 @@
       "options": [
         {
           "en": "16 | 16",
-          "hi": "16 | 16"
+          "hi": "16:16)।"
         },
         {
           "en": "24 | 24",
@@ -2646,7 +2646,7 @@
         },
         {
           "en": "14 | 14",
-          "hi": "14 | 14"
+          "hi": "१४|१४"
         },
         {
           "en": "18 | 18",
@@ -2670,24 +2670,24 @@
       "options": [
         {
           "en": "17 | 17",
-          "hi": "17 | 17"
+          "hi": "17–17"
         },
         {
           "en": "13 | 13",
-          "hi": "13 | 13"
+          "hi": "13&amp;nbsp; 13"
         },
         {
           "en": "11 | 11",
-          "hi": "11 | 11"
+          "hi": "11:11)। "
         },
         {
           "en": "15 | 15",
-          "hi": "15 | 15"
+          "hi": "15:15)।"
         }
       ],
       "correctAnswer": {
         "en": "13 | 13",
-        "hi": "13 | 13"
+        "hi": "13&amp;nbsp; 13"
       },
       "explanation": {
         "en": "When arranged alphabetically, STUDENT becomes D E N S T T U. The second letter from the left is E (position 5). The fourth letter from the right is S (position 19). The number of letters between E and S is $19 - 5 - 1 = 13$.",
@@ -2702,24 +2702,24 @@
       "options": [
         {
           "en": "1 and 2 | 1 और 2",
-          "hi": "1 and 2 | 1 और 2"
+          "hi": "1 और 2 | 1 और 2"
         },
         {
           "en": "1 and 3 | 1 और 3",
-          "hi": "1 and 3 | 1 और 3"
+          "hi": "1 और 3 | 1 और 3"
         },
         {
           "en": "2 and 4 | 2 और 4",
-          "hi": "2 and 4 | 2 और 4"
+          "hi": "2 और 4 | 2 और 4"
         },
         {
           "en": "3 and 4 | 3 और 4",
-          "hi": "3 and 4 | 3 और 4"
+          "hi": "3 और 4 | 3 और 4"
         }
       ],
       "correctAnswer": {
         "en": "2 and 4 | 2 और 4",
-        "hi": "2 and 4 | 2 और 4"
+        "hi": "2 और 4 | 2 और 4"
       },
       "explanation": {
         "en": "Addresses 2 and 4 are an exact match: 'Arjun Mehta A-101, Emerald Tower, Surat, 395001'. Address 1 has 'Towers' and Address 3 has 'Arjun M.'.",
@@ -2734,24 +2734,24 @@
       "options": [
         {
           "en": "1 | 1",
-          "hi": "1 | 1"
+          "hi": "1. 1"
         },
         {
           "en": "3 | 3",
-          "hi": "3 | 3"
+          "hi": "3. 3"
         },
         {
           "en": "2 | 2",
-          "hi": "2 | 2"
+          "hi": "2. 2"
         },
         {
           "en": "4 | 4",
-          "hi": "4 | 4"
+          "hi": "4. 4"
         }
       ],
       "correctAnswer": {
         "en": "1 | 1",
-        "hi": "1 | 1"
+        "hi": "1. 1"
       },
       "explanation": {
         "en": "The identical address must be an exact match, including punctuation and the PIN code. Only address 1 is a character-for-character match.",
@@ -2778,7 +2778,7 @@
         },
         {
           "en": "KW | KW",
-          "hi": "KW | KW"
+          "hi": "किलोवाट | किलोवाट"
         }
       ],
       "correctAnswer": {
@@ -2798,24 +2798,24 @@
       "options": [
         {
           "en": "The person seated to the immediate right of A | A के ठीक दाएँ बैठा व्यक्ति",
-          "hi": "The person seated to the immediate right of A | A के ठीक दाएँ बैठा व्यक्ति"
+          "hi": "वह व्यक्ति जो A के दाईं ओर ठीक बगल में बैठा है | A केथीक दाएं बैठा है।"
         },
         {
           "en": "The person seated opposite to A | A के विपरीत बैठा व्यक्ति",
-          "hi": "The person seated opposite to A | A के विपरीत बैठा व्यक्ति"
+          "hi": "वह व्यक्ति जो A के सामने बैठा है | A के विपरित बैठा है"
         },
         {
           "en": "The person seated to the immediate left of A | A के ठीक बाएँ बैठा व्यक्ति",
-          "hi": "The person seated to the immediate left of A | A के ठीक बाएँ बैठा व्यक्ति"
+          "hi": "A के बाईं ओर ठीक बगल में बैठा व्यक्ति | A के बारे में बताएँ"
         },
         {
           "en": "Cannot be determined | निर्धारित नहीं किया जा सकता",
-          "hi": "Cannot be determined | निर्धारित नहीं किया जा सकता"
+          "hi": "निर्धारित नहीं किया जा सकता | निर्धारत नहीं कियाजा सकता"
         }
       ],
       "correctAnswer": {
         "en": "The person seated to the immediate right of A | A के ठीक दाएँ बैठा व्यक्ति",
-        "hi": "The person seated to the immediate right of A | A के ठीक दाएँ बैठा व्यक्ति"
+        "hi": "वह व्यक्ति जो A के दाईं ओर ठीक बगल में बैठा है | A केथीक दाएं बैठा है।"
       },
       "explanation": {
         "en": "Regardless of the total number of people or arrangement (linear/circular), if B is the second person to the right of A, the person immediately to B's left is always the one positioned between A and B. This person is, by definition, the one seated immediately to the right of A.",
@@ -2862,7 +2862,7 @@
       "options": [
         {
           "en": "SOLUTION | SOLUTION",
-          "hi": "SOLUTION | SOLUTION"
+          "hi": "समाधान | समाधान"
         },
         {
           "en": "SOLUNOIT | SOLUNOIT",
@@ -2874,12 +2874,12 @@
         },
         {
           "en": "POLLUTION | POLLUTION",
-          "hi": "POLLUTION | POLLUTION"
+          "hi": "प्रदूषण | प्रदूषण"
         }
       ],
       "correctAnswer": {
         "en": "SOLUTION | SOLUTION",
-        "hi": "SOLUTION | SOLUTION"
+        "hi": "समाधान | समाधान"
       },
       "explanation": {
         "en": "The relationship is that the first word is the reverse spelling of the second word (GNIDAER is READING backward). Reversing NOITULOS yields SOLUTION.",
@@ -2894,24 +2894,24 @@
       "options": [
         {
           "en": "SUBJECTS | SUBJECTS",
-          "hi": "SUBJECTS | SUBJECTS"
+          "hi": "विषय | विषय"
         },
         {
           "en": "NEGLECT | NEGLECT",
-          "hi": "NEGLECT | NEGLECT"
+          "hi": "उपेक्षा | उपेक्षा"
         },
         {
           "en": "PERFECT | परफेक्ट",
-          "hi": "PERFECT | परफेक्ट"
+          "hi": "परफ़ेक्ट | परफ़ेक्ट"
         },
         {
           "en": "OPERATE | ऑपरेट",
-          "hi": "OPERATE | ऑपरेट"
+          "hi": "ऑपरेट करें | ऑपरेट करें"
         }
       ],
       "correctAnswer": {
         "en": "PERFECT | परफेक्ट",
-        "hi": "PERFECT | परफेक्ट"
+        "hi": "परफ़ेक्ट | परफ़ेक्ट"
       },
       "explanation": {
         "en": "The pattern is a shift cipher where the Original Word is derived from the Code Word by shifting each letter forward by 2 in the alphabet (Code Letter → Original Letter + 2). Applying this rule to NCPDCAR results in PERFECT.",
@@ -2926,11 +2926,11 @@
       "options": [
         {
           "en": "17 | 17",
-          "hi": "17 | 17"
+          "hi": "17–17"
         },
         {
           "en": "13 | 13",
-          "hi": "13 | 13"
+          "hi": "13&amp;nbsp; 13"
         },
         {
           "en": "20 | 20",
@@ -2938,7 +2938,7 @@
         },
         {
           "en": "11 | 11",
-          "hi": "11 | 11"
+          "hi": "11:11)। "
         }
       ],
       "correctAnswer": {
@@ -2990,24 +2990,24 @@
       "options": [
         {
           "en": "Husband | पति",
-          "hi": "Husband | पति"
+          "hi": "पति | पतिका"
         },
         {
           "en": "Father | पिता",
-          "hi": "Father | पिता"
+          "hi": "पिता | पिटा"
         },
         {
           "en": "Uncle | चाचा",
-          "hi": "Uncle | चाचा"
+          "hi": "चाचा | चाचा"
         },
         {
           "en": "Cousin | चचेरा भाई/बहन",
-          "hi": "Cousin | चचेरा भाई/बहन"
+          "hi": "चचेरा भाई/बहन"
         }
       ],
       "correctAnswer": {
         "en": "Husband | पति",
-        "hi": "Husband | पति"
+        "hi": "पति | पतिका"
       },
       "explanation": {
         "en": "Rani's mother's son-in-law is the husband of Rani's sister or the husband of Rani herself. In the context of typical exam questions, the man is Rani's **Husband**.",
@@ -3054,24 +3054,24 @@
       "options": [
         {
           "en": "A1@ : B2# : C3$ | A1@ : B2# : C3$",
-          "hi": "A1@ : B2# : C3$ | A1@ : B2# : C3$"
+          "hi": "A1@: B2#: C3 $ | A1@: B2#: C3 $"
         },
         {
           "en": "D4% : E54 : F6& | D4% : E54 : F6&",
-          "hi": "D4% : E54 : F6& | D4% : E54 : F6&"
+          "hi": "D4%: E54 : F6और | D4%: E54 : F6और"
         },
         {
           "en": "G7* : H8( : I9) | G7* : H8( : I9)",
-          "hi": "G7* : H8( : I9) | G7* : H8( : I9)"
+          "hi": "G7*: H8(: I9) | G7*: H8(: I9)"
         },
         {
           "en": "J10_:K11@:L12@ | J10_:K11@:L12@",
-          "hi": "J10_:K11@:L12@ | J10_:K11@:L12@"
+          "hi": "J10_:K11@:L12@| J10_:K11@:L12@"
         }
       ],
       "correctAnswer": {
         "en": "J10_:K11@:L12@ | J10_:K11@:L12@",
-        "hi": "J10_:K11@:L12@ | J10_:K11@:L12@"
+        "hi": "J10_:K11@:L12@| J10_:K11@:L12@"
       },
       "explanation": {
         "en": "In Options 1, 2, and 3, both the letters and the numbers are consecutive, and all three components use a **unique symbol**. In the odd one out, **J10_:K11@:L12@**, the symbols are repeated: @ is used for both the second and third components.",
@@ -3086,24 +3086,24 @@
       "options": [
         {
           "en": "Son | बेटा",
-          "hi": "Son | बेटा"
+          "hi": "बेटा | बेता"
         },
         {
           "en": "Nephew | भतीजा",
-          "hi": "Nephew | भतीजा"
+          "hi": "भतीजा | भतीजा"
         },
         {
           "en": "Cousin | चचेरा भाई/बहन",
-          "hi": "Cousin | चचेरा भाई/बहन"
+          "hi": "चचेरा भाई/बहन"
         },
         {
           "en": "Brother | भाई",
-          "hi": "Brother | भाई"
+          "hi": "भाई | भाई"
         }
       ],
       "correctAnswer": {
         "en": "Son | बेटा",
-        "hi": "Son | बेटा"
+        "hi": "बेटा | बेता"
       },
       "explanation": {
         "en": "The woman's statement, 'the only daughter of my father,' refers to the woman herself. Therefore, 'His mother is me (the woman)'. The man is her **Son**.",
@@ -3118,24 +3118,24 @@
       "options": [
         {
           "en": "Sister | बहन",
-          "hi": "Sister | बहन"
+          "hi": "बहन | बहन"
         },
         {
           "en": "Cousin | चचेरा भाई/बहन",
-          "hi": "Cousin | चचेरा भाई/बहन"
+          "hi": "चचेरा भाई/बहन"
         },
         {
           "en": "Sister-in-law | भाभी",
-          "hi": "Sister-in-law | भाभी"
+          "hi": "भाभी | भाभी"
         },
         {
           "en": "Niece | भतीजी",
-          "hi": "Niece | भतीजी"
+          "hi": "भतीजी | भातीजी"
         }
       ],
       "correctAnswer": {
         "en": "Sister-in-law | भाभी",
-        "hi": "Sister-in-law | भाभी"
+        "hi": "भाभी | भाभी"
       },
       "explanation": {
         "en": "John's 'uncle's only son' is John's first cousin. The wife of his cousin is his **Sister-in-law** (Cousin's Wife).",
@@ -3150,24 +3150,24 @@
       "options": [
         {
           "en": "Uncle | चाचा",
-          "hi": "Uncle | चाचा"
+          "hi": "चाचा | चाचा"
         },
         {
           "en": "Father | पिता",
-          "hi": "Father | पिता"
+          "hi": "पिता | पिटा"
         },
         {
           "en": "Grandfather | दादा/नाना",
-          "hi": "Grandfather | दादा/नाना"
+          "hi": "दादा | दादा/नाना"
         },
         {
           "en": "Brother | भाई",
-          "hi": "Brother | भाई"
+          "hi": "भाई | भाई"
         }
       ],
       "correctAnswer": {
         "en": "Father | पिता",
-        "hi": "Father | पिता"
+        "hi": "पिता | पिटा"
       },
       "explanation": {
         "en": "Aman's mother's husband's only son is Aman. Your sister’s brother is You. The statement simplifies to: 'Aman is the father of You.' The man (Aman) is your **Father**.",
@@ -3186,20 +3186,20 @@
         },
         {
           "en": "14 | 14",
-          "hi": "14 | 14"
+          "hi": "१४|१४"
         },
         {
           "en": "16 | 16",
-          "hi": "16 | 16"
+          "hi": "16:16)।"
         },
         {
           "en": "17 | 17",
-          "hi": "17 | 17"
+          "hi": "17–17"
         }
       ],
       "correctAnswer": {
         "en": "16 | 16",
-        "hi": "16 | 16"
+        "hi": "16:16)।"
       },
       "explanation": {
         "en": "Substitute the symbols: $9 \\times 2 - 3 + 1$. Follow the order of operations: $18 - 3 + 1 = 15 + 1 = 16$.",
@@ -3216,24 +3216,24 @@
       "options": [
         {
           "en": "Legitimacy | वैधता",
-          "hi": "Legitimacy | वैधता"
+          "hi": "वैधता | वैद्यता"
         },
         {
           "en": "Neutrality | तटस्थता",
-          "hi": "Neutrality | तटस्थता"
+          "hi": "तटस्थता | तटस्थता"
         },
         {
           "en": "Fairness | निष्पक्षता",
-          "hi": "Fairness | निष्पक्षता"
+          "hi": "निष्पक्षता | निष्ठा"
         },
         {
           "en": "Diversity | विविधता",
-          "hi": "Diversity | विविधता"
+          "hi": "विविधता | विज्ञान"
         }
       ],
       "correctAnswer": {
         "en": "Fairness | निष्पक्षता",
-        "hi": "Fairness | निष्पक्षता"
+        "hi": "निष्पक्षता | निष्ठा"
       },
       "explanation": {
         "en": "The relationship is one of synonymy or a closely related concept. Liberty is synonymous with Autonomy. Similarly, Equality is most closely related to the concept of Fairness.",
@@ -3312,24 +3312,24 @@
       "options": [
         {
           "en": "Tissue | ऊतक",
-          "hi": "Tissue | ऊतक"
+          "hi": "ऊतक | ऊतक"
         },
         {
           "en": "Proton | प्रोटॉन",
-          "hi": "Proton | प्रोटॉन"
+          "hi": "प्रोटॉन | प्रोटॉन"
         },
         {
           "en": "System | तंत्र",
-          "hi": "System | तंत्र"
+          "hi": "सिस्टम | तंत्र"
         },
         {
           "en": "Gene | जीन",
-          "hi": "Gene | जीन"
+          "hi": "जीन | जीन"
         }
       ],
       "correctAnswer": {
         "en": "Tissue | ऊतक",
-        "hi": "Tissue | ऊतक"
+        "hi": "ऊतक | ऊतक"
       },
       "explanation": {
         "en": "The terms are arranged in increasing order of structural complexity in the field of biology: Atoms combine to form Molecules, Molecules form Cells, and Cells group together to form Tissue.",
@@ -3408,24 +3408,24 @@
       "options": [
         {
           "en": "Only Conclusion I follows | केवल निष्कर्ष I अनुसरण करता है",
-          "hi": "Only Conclusion I follows | केवल निष्कर्ष I अनुसरण करता है"
+          "hi": "केवल निष्कर्ष I पालन करता है | केवल निष्ठा I और सरण करता है"
         },
         {
           "en": "Only Conclusion II follows | केवल निष्कर्ष II अनुसरण करता है",
-          "hi": "Only Conclusion II follows | केवल निष्कर्ष II अनुसरण करता है"
+          "hi": "केवल निष्कर्ष II पालन करता है | केवल निष्ठा II अनुसरण करता है"
         },
         {
           "en": "Both I and II follow | I और II दोनों अनुसरण करते हैं",
-          "hi": "Both I and II follow | I और II दोनों अनुसरण करते हैं"
+          "hi": "I और II दोनों पालन करते हैं | I और II दोनो अनुनयनकरते हैं।"
         },
         {
           "en": "Neither I nor II follows | न तो I और न ही II अनुसरण करता है",
-          "hi": "Neither I nor II follows | न तो I और न ही II अनुसरण करता है"
+          "hi": "न तो I और न ही II पालन करता है | न तो I और न ही II अनुकरण करता है"
         }
       ],
       "correctAnswer": {
         "en": "Only Conclusion II follows | केवल निष्कर्ष II अनुसरण करता है",
-        "hi": "Only Conclusion II follows | केवल निष्कर्ष II अनुसरण करता है"
+        "hi": "केवल निष्कर्ष II पालन करता है | केवल निष्ठा II अनुसरण करता है"
       },
       "explanation": {
         "en": "Conclusion I is not a definite conclusion; 'most' depend on monsoon, which means some irrigation infrastructure may exist. Conclusion II is directly supported, as heavy dependence on monsoon means a weak monsoon can logically lead to a reduction in the agricultural output.",
@@ -3440,24 +3440,24 @@
       "options": [
         {
           "en": "Only I and II are implicit | केवल I और II निहित हैं",
-          "hi": "Only I and II are implicit | केवल I और II निहित हैं"
+          "hi": "केवल I और II निहित हैं | केवल I और II निहितार्थ हैं"
         },
         {
           "en": "Only II and III are implicit | केवल II और III निहित हैं",
-          "hi": "Only II and III are implicit | केवल II और III निहित हैं"
+          "hi": "केवल II और III निहित हैं | केवल II और III निहितार्थ हैं"
         },
         {
           "en": "Only I is implicit | केवल I निहित है",
-          "hi": "Only I is implicit | केवल I निहित है"
+          "hi": "केवल I ही अंतर्निहित है | केवल I ही अंतर्निहित है"
         },
         {
           "en": "All assumptions are implicit | सभी मान्यताएँ निहित हैं",
-          "hi": "All assumptions are implicit | सभी मान्यताएँ निहित हैं"
+          "hi": "सभी धारणाएं अंतर्निहित हैं | सभ्यता और निहितार्थ है"
         }
       ],
       "correctAnswer": {
         "en": "Only I and II are implicit | केवल I और II निहित हैं",
-        "hi": "Only I and II are implicit | केवल I और II निहित हैं"
+        "hi": "केवल I और II निहित हैं | केवल I और II निहितार्थ हैं"
       },
       "explanation": {
         "en": "Assumption I is implicit because the 'prospects for the search for extraterrestrial life' rely on the potential for life in the habitable zone. Assumption II is implicit because the mention of 'technological limitations' as an obstacle implies that current technology is insufficient. Assumption III is not necessarily implied by the statement.",
@@ -3472,24 +3472,24 @@
       "options": [
         {
           "en": "One | एक",
-          "hi": "One | एक"
+          "hi": "एक | एक"
         },
         {
           "en": "Two | दो",
-          "hi": "Two | दो"
+          "hi": "दो | दो"
         },
         {
           "en": "Three | तीन",
-          "hi": "Three | तीन"
+          "hi": "तीन | टीन"
         },
         {
           "en": "None | कोई नहीं",
-          "hi": "None | कोई नहीं"
+          "hi": "कोई नहीं | कोई नहीं"
         }
       ],
       "correctAnswer": {
         "en": "Two | दो",
-        "hi": "Two | दो"
+        "hi": "दो | दो"
       },
       "explanation": {
         "en": "The 1st, 2nd, 3rd, and 6th letters of the word PROVIDE are P, R, O, and D. \r\nUsing these letters, two meaningful English words can be formed: \r\n1. DROP (गिरना/बूंद) \r\n2. PROD (उकसाना/नुकीली चीज़ से चुभाना)",
@@ -3504,24 +3504,24 @@
       "options": [
         {
           "en": "1 and 2 | 1 और 2",
-          "hi": "1 and 2 | 1 और 2"
+          "hi": "1 और 2 | 1 और 2"
         },
         {
           "en": "2 and 3 | 2 और 3",
-          "hi": "2 and 3 | 2 और 3"
+          "hi": "2 और 3 | 2 और 3"
         },
         {
           "en": "2 and 4 | 2 और 4",
-          "hi": "2 and 4 | 2 और 4"
+          "hi": "2 और 4 | 2 और 4"
         },
         {
           "en": "3 and 4 | 3 और 4",
-          "hi": "3 and 4 | 3 और 4"
+          "hi": "3 और 4 | 3 और 4"
         }
       ],
       "correctAnswer": {
         "en": "2 and 3 | 2 और 3",
-        "hi": "2 and 3 | 2 और 3"
+        "hi": "2 और 3 | 2 और 3"
       },
       "explanation": {
         "en": "Addresses 2 and 3 are exact matches. Address 1 uses '3/5', and Address 4 uses a different PIN code '208002'.",
@@ -3536,24 +3536,24 @@
       "options": [
         {
           "en": "11 | 11",
-          "hi": "11 | 11"
+          "hi": "11:11)। "
         },
         {
           "en": "12 | 12",
-          "hi": "12 | 12"
+          "hi": "12:12)।"
         },
         {
           "en": "13 | 13",
-          "hi": "13 | 13"
+          "hi": "13&amp;nbsp; 13"
         },
         {
           "en": "14 | 14",
-          "hi": "14 | 14"
+          "hi": "१४|१४"
         }
       ],
       "correctAnswer": {
         "en": "11 | 11",
-        "hi": "11 | 11"
+        "hi": "11:11)। "
       },
       "explanation": {
         "en": "Arranging STAMINA alphabetically gives: A A I M N S T. The first letter from the left is A (1), and the fourth letter from the right is M (13). The number of letters between A and M is $13 - 1 - 1 = 11$.",
@@ -3580,7 +3580,7 @@
         },
         {
           "en": "YAZ | YAZ",
-          "hi": "YAZ | YAZ"
+          "hi": "याज़ | याज़"
         }
       ],
       "correctAnswer": {
@@ -3600,24 +3600,24 @@
       "options": [
         {
           "en": "17 | 17",
-          "hi": "17 | 17"
+          "hi": "17–17"
         },
         {
           "en": "15 | 15",
-          "hi": "15 | 15"
+          "hi": "15:15)।"
         },
         {
           "en": "12 | 12",
-          "hi": "12 | 12"
+          "hi": "12:12)।"
         },
         {
           "en": "10 | 10",
-          "hi": "10 | 10"
+          "hi": "10. 10"
         }
       ],
       "correctAnswer": {
         "en": "15 | 15",
-        "hi": "15 | 15"
+        "hi": "15:15)।"
       },
       "explanation": {
         "en": "Total Books - (Position of A from Left + Position of B from Right) = $50 - (15 + 20) = 15$.",
@@ -3672,7 +3672,7 @@
         },
         {
           "en": "VAT | VAT",
-          "hi": "VAT | VAT"
+          "hi": "वैट | वैट"
         },
         {
           "en": "DNA | DNA",
@@ -3696,24 +3696,24 @@
       "options": [
         {
           "en": "Father | पिता",
-          "hi": "Father | पिता"
+          "hi": "पिता | पिटा"
         },
         {
           "en": "Uncle | चाचा",
-          "hi": "Uncle | चाचा"
+          "hi": "चाचा | चाचा"
         },
         {
           "en": "Brother | भाई",
-          "hi": "Brother | भाई"
+          "hi": "भाई | भाई"
         },
         {
           "en": "Cousin | चचेरा भाई/बहन",
-          "hi": "Cousin | चचेरा भाई/बहन"
+          "hi": "चचेरा भाई/बहन"
         }
       ],
       "correctAnswer": {
         "en": "Uncle | चाचा",
-        "hi": "Uncle | चाचा"
+        "hi": "चाचा | चाचा"
       },
       "explanation": {
         "en": "A is the son of B. B is the brother of C. Therefore, C is B's sibling. A's parent's sibling is A's Uncle or Aunt. Given 'Uncle' as an option, it is the appropriate choice.",
@@ -3760,11 +3760,11 @@
       "options": [
         {
           "en": "10 | 10",
-          "hi": "10 | 10"
+          "hi": "10. 10"
         },
         {
           "en": "17 | 17",
-          "hi": "17 | 17"
+          "hi": "17–17"
         },
         {
           "en": "28 | 28",
@@ -3836,7 +3836,7 @@
         },
         {
           "en": "22 | 22",
-          "hi": "22 | 22"
+          "hi": "22:22)। "
         }
       ],
       "correctAnswer": {
@@ -3856,24 +3856,24 @@
       "options": [
         {
           "en": "Daughter | बेटी",
-          "hi": "Daughter | बेटी"
+          "hi": "बेटी | बेती"
         },
         {
           "en": "Daughter-in-law | बहू",
-          "hi": "Daughter-in-law | बहू"
+          "hi": "बहू के साथ बैतलहम लौटी"
         },
         {
           "en": "Cousin | चचेरा भाई/बहन",
-          "hi": "Cousin | चचेरा भाई/बहन"
+          "hi": "चचेरा भाई/बहन"
         },
         {
           "en": "Sister | बहन",
-          "hi": "Sister | बहन"
+          "hi": "बहन | बहन"
         }
       ],
       "correctAnswer": {
         "en": "Daughter | बेटी",
-        "hi": "Daughter | बेटी"
+        "hi": "बेटी | बेती"
       },
       "explanation": {
         "en": "'My mother’s only daughter' refers to the woman herself. The girl is the daughter of the woman, making her the woman's Daughter.",
@@ -3888,24 +3888,24 @@
       "options": [
         {
           "en": "Wife | पत्नी",
-          "hi": "Wife | पत्नी"
+          "hi": "पत्नी | पत्रिका"
         },
         {
           "en": "Sister | बहन",
-          "hi": "Sister | बहन"
+          "hi": "बहन | बहन"
         },
         {
           "en": "Mother | माँ",
-          "hi": "Mother | माँ"
+          "hi": "माँ | माँ"
         },
         {
           "en": "Daughter-in-law | बहू",
-          "hi": "Daughter-in-law | बहू"
+          "hi": "बहू के साथ बैतलहम लौटी"
         }
       ],
       "correctAnswer": {
         "en": "Wife | पत्नी",
-        "hi": "Wife | पत्नी"
+        "hi": "पत्नी | पत्रिका"
       },
       "explanation": {
         "en": "The man's son's sister is the man's daughter. The statement simplifies to: 'The man's daughter is my daughter.' For this to be true, the woman must be the man's Wife.",
@@ -3956,20 +3956,20 @@
         },
         {
           "en": "-3 | -3",
-          "hi": "-3 | -3"
+          "hi": "3. 3"
         },
         {
           "en": "2 | 2",
-          "hi": "2 | 2"
+          "hi": "2. 2"
         },
         {
           "en": "5 | 5",
-          "hi": "5 | 5"
+          "hi": "5. 5"
         }
       ],
       "correctAnswer": {
         "en": "2 | 2",
-        "hi": "2 | 2"
+        "hi": "2. 2"
       },
       "explanation": {
         "en": "The problem follows the rule $A \\% B = (A \\times B) - 1$. Assuming the required operation was $3 \\% 1$: $(3 \\times 1) - 1 = 3 - 1 = 2$.",
@@ -4018,7 +4018,7 @@
       "options": [
         {
           "en": "QUY | QUY",
-          "hi": "QUY | QUY"
+          "hi": "क्वि | क्वि"
         },
         {
           "en": "QKS | QKS",
@@ -4035,7 +4035,7 @@
       ],
       "correctAnswer": {
         "en": "QUY | QUY",
-        "hi": "QUY | QUY"
+        "hi": "क्वि | क्वि"
       },
       "explanation": {
         "en": "The series follows a consistent pattern of **+4** for each letter's alphabetical position. The next cluster is **QUY**.",
@@ -4178,24 +4178,24 @@
       "options": [
         {
           "en": "Only I and II are implicit | केवल I और II निहित हैं",
-          "hi": "Only I and II are implicit | केवल I और II निहित हैं"
+          "hi": "केवल I और II निहित हैं | केवल I और II निहितार्थ हैं"
         },
         {
           "en": "Only I and III are implicit | केवल I और III निहित हैं",
-          "hi": "Only I and III are implicit | केवल I और III निहित हैं"
+          "hi": "केवल I और III निहित हैं | केवल I और III निहितार्थ हैं"
         },
         {
           "en": "All are implicit | सभी निहित हैं",
-          "hi": "All are implicit | सभी निहित हैं"
+          "hi": "सभी निहित हैं | सभ्यता निहितार्थ है"
         },
         {
           "en": "Only I is implicit | केवल I निहित है",
-          "hi": "Only I is implicit | केवल I निहित है"
+          "hi": "केवल I ही अंतर्निहित है | केवल I ही अंतर्निहित है"
         }
       ],
       "correctAnswer": {
         "en": "Only I and II are implicit | केवल I और II निहित हैं",
-        "hi": "Only I and II are implicit | केवल I और II निहित हैं"
+        "hi": "केवल I और II निहित हैं | केवल I और II निहितार्थ हैं"
       },
       "explanation": {
         "en": "The statement requires that ethical problems are possible (Assumption **I**) and that the frameworks need updating (Assumption **II**) to be meaningful. Assumption III is an extreme prediction not required.",
@@ -4210,24 +4210,24 @@
       "options": [
         {
           "en": "Two | दो",
-          "hi": "Two | दो"
+          "hi": "दो | दो"
         },
         {
           "en": "Four | चार",
-          "hi": "Four | चार"
+          "hi": "चार | चार"
         },
         {
           "en": "Three | तीन",
-          "hi": "Three | तीन"
+          "hi": "तीन | टीन"
         },
         {
           "en": "Five | पांच",
-          "hi": "Five | पांच"
+          "hi": "पांच | पृष्ठ"
         }
       ],
       "correctAnswer": {
         "en": "Two | दो",
-        "hi": "Two | दो"
+        "hi": "दो | दो"
       },
       "explanation": {
         "en": "Original Word: D (1) E (2) V (3) E (4) L (5) O (6) P (7). Alphabetical Order: **D** (1) **E** (2) E (3) L (4) O (5) P (6) V (7). The letters **D** and **E** (at positions 1 and 2) remain unchanged. Thus, the answer is **Two**.",
@@ -4242,24 +4242,24 @@
       "options": [
         {
           "en": "No. 45, 1st Avenue, R.A. Puram, Chennai, TN 600028 | No. 45, 1st Avenue, R.A. Puram, Chennai, TN 600028",
-          "hi": "No. 45, 1st Avenue, R.A. Puram, Chennai, TN 600028 | No. 45, 1st Avenue, R.A. Puram, Chennai, TN 600028"
+          "hi": "नंबर 45, 1 एवेन्यू, आरए पुरम, चेन्नई, तमिलनाडु 600028 | नंबर 45, 1 एवेन्यू, आरए पुरम, चेन्नई, तमिलनाडु 600028"
         },
         {
           "en": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028 | No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028",
-          "hi": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028 | No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028"
+          "hi": "नंबर 45, फर्स्ट एवेन्यू, राजा अन्नामलीपुरम, चेन्नई, तमिलनाडु - 600028 | नंबर 45, फर्स्ट एवेन्यू, राजा अन्नामलीपुरम, चेन्नई, तमिलनाडु - 600028"
         },
         {
           "en": "45, First Avenue, Raja Annamalai Puram, Chennai, Tamil Nadu - 600028 | 45, First Avenue, Raja Annamalai Puram, Chennai, Tamil Nadu - 600028",
-          "hi": "45, First Avenue, Raja Annamalai Puram, Chennai, Tamil Nadu - 600028 | 45, First Avenue, Raja Annamalai Puram, Chennai, Tamil Nadu - 600028"
+          "hi": "45, फर्स्ट एवेन्यू, राजा अन्नामलाई पुरम, चेन्नई, तमिलनाडु - 600028 | 45, फर्स्ट एवेन्यू, राजा अन्नामलाई पुरम, चेन्नई, तमिलनाडु - 600028"
         },
         {
           "en": "No. 45/1, First Avenue, R. Annamalaipuram, Chennai, Tamil Nadu - 600028 | No. 45/1, First Avenue, R. Annamalaipuram, Chennai, Tamil Nadu - 600028",
-          "hi": "No. 45/1, First Avenue, R. Annamalaipuram, Chennai, Tamil Nadu - 600028 | No. 45/1, First Avenue, R. Annamalaipuram, Chennai, Tamil Nadu - 600028"
+          "hi": "नंबर 45/1, फर्स्ट एवेन्यू, आर. अन्नामलीपुरम, चेन्नई, तमिलनाडु - 600028 | नंबर 45/1, फर्स्ट एवेन्यू, आर. अन्नामलीपुरम, चेन्नई, तमिलनाडु - 600028"
         }
       ],
       "correctAnswer": {
         "en": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028 | No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028",
-        "hi": "No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028 | No. 45, First Avenue, Raja Annamalaipuram, Chennai, Tamil Nadu - 600028"
+        "hi": "नंबर 45, फर्स्ट एवेन्यू, राजा अन्नामलीपुरम, चेन्नई, तमिलनाडु - 600028 | नंबर 45, फर्स्ट एवेन्यू, राजा अन्नामलीपुरम, चेन्नई, तमिलनाडु - 600028"
       },
       "explanation": {
         "en": "The correct option is the **exact, identical** duplication of the original address. All other options contain abbreviations or minor changes.",
@@ -4274,24 +4274,24 @@
       "options": [
         {
           "en": "CANCEL | CANCEL",
-          "hi": "CANCEL | CANCEL"
+          "hi": "cancel: 'रद्द करना ',"
         },
         {
           "en": "NEGLECT | NEGLECT",
-          "hi": "NEGLECT | NEGLECT"
+          "hi": "उपेक्षा | उपेक्षा"
         },
         {
           "en": "GENTLE | GENTLE",
-          "hi": "GENTLE | GENTLE"
+          "hi": "आराम से, आराम से।"
         },
         {
           "en": "INCITE | INCITE",
-          "hi": "INCITE | INCITE"
+          "hi": "उकसाएँ | उकसाएँ"
         }
       ],
       "correctAnswer": {
         "en": "CANCEL | CANCEL",
-        "hi": "CANCEL | CANCEL"
+        "hi": "cancel: 'रद्द करना ',"
       },
       "explanation": {
         "en": "The word INTELLIGENCE does not contain the letter **'A'**, which is required to form the word **CANCEL**.",
@@ -4314,16 +4314,16 @@
         },
         {
           "en": "B | B",
-          "hi": "B | B"
+          "hi": "\"बी-बी-?\" "
         },
         {
           "en": "F | F",
-          "hi": "F | F"
+          "hi": "चाकू"
         }
       ],
       "correctAnswer": {
         "en": "F | F",
-        "hi": "F | F"
+        "hi": "चाकू"
       },
       "explanation": {
         "en": "The final clockwise arrangement is **A, B, C, H, G, D, E, F**. If everyone faces the center, the person to the right of D is **E** (counter-clockwise movement). Given the provided correct answer **F**, this suggests a complex interpretation or a possible error in the original test's options or question, but **F** is the selected answer.",
@@ -4370,7 +4370,7 @@
       "options": [
         {
           "en": "TOPPEN | TOPPEN",
-          "hi": "TOPPEN | TOPPEN"
+          "hi": "टॉपपेन | टॉपपेन"
         },
         {
           "en": "TOPNEP | TOPNEP",
@@ -4402,24 +4402,24 @@
       "options": [
         {
           "en": "Z1#: Y2@ : X3$ | Z1#: Y2@ : X3$",
-          "hi": "Z1#: Y2@ : X3$ | Z1#: Y2@ : X3$"
+          "hi": "Z1#: Y2@: X3 $ | Z1#: Y2@: X3 $"
         },
         {
           "en": "W4% : V54 : U6& | W4% : V54 : U6&",
-          "hi": "W4% : V54 : U6& | W4% : V54 : U6&"
+          "hi": "W4%: V54 : U6और | W4%: V54 : U6और"
         },
         {
           "en": "T7* : S8( : R9) | T7* : S8( : R9)",
-          "hi": "T7* : S8( : R9) | T7* : S8( : R9)"
+          "hi": "T7*: S8(: R9) | T7*: S8(: R9)"
         },
         {
           "en": "Q10_: PI@ : 08$ | Q10_: PI@ : 08$",
-          "hi": "Q10_: PI@ : 08$ | Q10_: PI@ : 08$"
+          "hi": "Q10_: PI@: 08 $ | Q10_: PI@: 08 $"
         }
       ],
       "correctAnswer": {
         "en": "Q10_: PI@ : 08$ | Q10_: PI@ : 08$",
-        "hi": "Q10_: PI@ : 08$ | Q10_: PI@ : 08$"
+        "hi": "Q10_: PI@: 08 $ | Q10_: PI@: 08 $"
       },
       "explanation": {
         "en": "In options 1, 2, and 3, the letters decrease by **-1** and the numbers **increase by +1**. In option 4, while the letters decrease by -1 (Q, P, O), the numbers **decrease by -1** (10, 9, 8), making it the odd one out.",
@@ -4466,24 +4466,24 @@
       "options": [
         {
           "en": "6 | 6",
-          "hi": "6 | 6"
+          "hi": "6. 6"
         },
         {
           "en": "4 | 4",
-          "hi": "4 | 4"
+          "hi": "4. 4"
         },
         {
           "en": "8 | 8",
-          "hi": "8 | 8"
+          "hi": "8. 8"
         },
         {
           "en": "10 | 10",
-          "hi": "10 | 10"
+          "hi": "10. 10"
         }
       ],
       "correctAnswer": {
         "en": "8 | 8",
-        "hi": "8 | 8"
+        "hi": "8. 8"
       },
       "explanation": {
         "en": "Solve the system of linear equations: Subtracting $(x - y = 5)$ from $(x + 2y = 14)$ yields $3y = 9$, so $y=3$. Substituting $y=3$ into $x - y = 5$: $x - 3 = 5$, so $x = \\mathbf{8}$.",
@@ -4502,20 +4502,20 @@
         },
         {
           "en": "17 | 17",
-          "hi": "17 | 17"
+          "hi": "17–17"
         },
         {
           "en": "16 | 16",
-          "hi": "16 | 16"
+          "hi": "16:16)।"
         },
         {
           "en": "15 | 15",
-          "hi": "15 | 15"
+          "hi": "15:15)।"
         }
       ],
       "correctAnswer": {
         "en": "17 | 17",
-        "hi": "17 | 17"
+        "hi": "17–17"
       },
       "explanation": {
         "en": "The pattern is $A \\$ B = (A \\times 3) + B$. Check: $(6 \\times 3) + 2 = 18 + 2 = 20$. Apply: $(5 \\times 3) + 2 = 15 + 2 = \\mathbf{17}$.",
@@ -4626,24 +4626,24 @@
       "options": [
         {
           "en": "Daughter | बेटी",
-          "hi": "Daughter | बेटी"
+          "hi": "बेटी | बेती"
         },
         {
           "en": "Niece | भतीजी",
-          "hi": "Niece | भतीजी"
+          "hi": "भतीजी | भातीजी"
         },
         {
           "en": "Sister | बहन",
-          "hi": "Sister | बहन"
+          "hi": "बहन | बहन"
         },
         {
           "en": "Cousin | चचेरी बहन",
-          "hi": "Cousin | चचेरी बहन"
+          "hi": "चचेरी बहन"
         }
       ],
       "correctAnswer": {
         "en": "Daughter | बेटी",
-        "hi": "Daughter | बेटी"
+        "hi": "बेटी | बेती"
       },
       "explanation": {
         "en": "The man's 'mother’s only son' is the **man himself**. The girl is the daughter of the man, so she is the man's **Daughter**.",
@@ -4658,24 +4658,24 @@
       "options": [
         {
           "en": "Niece/Nephew | भतीजी/भांजा",
-          "hi": "Niece/Nephew | भतीजी/भांजा"
+          "hi": "भतीजी/भतीजी | भतीजी/भांजा"
         },
         {
           "en": "Cousin | चचेरा भाई/बहन",
-          "hi": "Cousin | चचेरा भाई/बहन"
+          "hi": "चचेरा भाई/बहन"
         },
         {
           "en": "SON | बेटा",
-          "hi": "SON | बेटा"
+          "hi": "बेटा | बेता"
         },
         {
           "en": "Cannot be determined | निर्धारित नहीं किया जा सकता",
-          "hi": "Cannot be determined | निर्धारित नहीं किया जा सकता"
+          "hi": "निर्धारित नहीं किया जा सकता | निर्धारत नहीं कियाजा सकता"
         }
       ],
       "correctAnswer": {
         "en": "Niece/Nephew | भतीजी/भांजा",
-        "hi": "Niece/Nephew | भतीजी/भांजा"
+        "hi": "भतीजी/भतीजी | भतीजी/भांजा"
       },
       "explanation": {
         "en": "Since P is the maternal uncle of Q, P's sister is Q's mother. Therefore, Q is the child of P's sister, meaning Q is the **Niece or Nephew** of P's sister.",
@@ -4707,7 +4707,7 @@
       ],
       "correctAnswer": {
         "en": "$(3+5) \\times 9 = 48$ | $(3+5) \\times 9 = 48$",
-        "hi": "$(3+5) \\times 9 = 48$ | $(3+5) \\times 9 = 48$"
+        "hi": "$(3+5)\\बार 9 = 48 $ | $(3+5)\\बार 9 = 48 $"
       },
       "explanation": {
         "en": "Test the correct option by applying the interchanges: Original: $(3+5) \\times 9 = 48$. Interchanged: $(9 \\times 5) + 3 = 48$. Calculation: $45 + 3 = 48$. This equation holds **true**.",
@@ -4754,7 +4754,7 @@
       "options": [
         {
           "en": "10 | 10",
-          "hi": "10 | 10"
+          "hi": "10. 10"
         },
         {
           "en": "19 | 19",
@@ -4762,7 +4762,7 @@
         },
         {
           "en": "22 | 22",
-          "hi": "22 | 22"
+          "hi": "22:22)। "
         },
         {
           "en": "24 | 24",
@@ -4771,7 +4771,7 @@
       ],
       "correctAnswer": {
         "en": "22 | 22",
-        "hi": "22 | 22"
+        "hi": "22:22)। "
       },
       "explanation": {
         "en": "Substitute the new operators: $10+2-4 \\times 2$ becomes $10 \\times 2 + 4 \\div 2$. Apply BODMAS/PEMDAS: $(10 \\times 2) + (4 \\div 2) = 20 + 2 = \\mathbf{22}$.",
@@ -4820,24 +4820,24 @@
       "options": [
         {
           "en": "Reality | वास्तविकता",
-          "hi": "Reality | वास्तविकता"
+          "hi": "हकीकत | वास्त्विकता"
         },
         {
           "en": "Logic | तर्क",
-          "hi": "Logic | तर्क"
+          "hi": "तर्क | तरक"
         },
         {
           "en": "Knowledge | ज्ञान",
-          "hi": "Knowledge | ज्ञान"
+          "hi": "ज्ञान | ज्ञान"
         },
         {
           "en": "Ethics | नीति",
-          "hi": "Ethics | नीति"
+          "hi": "नीतिशास्त्र | नीति"
         }
       ],
       "correctAnswer": {
         "en": "Knowledge | ज्ञान",
-        "hi": "Knowledge | ज्ञान"
+        "hi": "ज्ञान | ज्ञान"
       },
       "explanation": {
         "en": "Jurisprudence is the theory or philosophy of Law. Similarly, Epistemology is the theory or philosophy of Knowledge.",
@@ -4852,24 +4852,24 @@
       "options": [
         {
           "en": "3 | 3",
-          "hi": "3 | 3"
+          "hi": "3. 3"
         },
         {
           "en": "4 | 4",
-          "hi": "4 | 4"
+          "hi": "4. 4"
         },
         {
           "en": "5 | 5",
-          "hi": "5 | 5"
+          "hi": "5. 5"
         },
         {
           "en": "6 | 6",
-          "hi": "6 | 6"
+          "hi": "6. 6"
         }
       ],
       "correctAnswer": {
         "en": "5 | 5",
-        "hi": "5 | 5"
+        "hi": "5. 5"
       },
       "explanation": {
         "en": "The first vowel is 'I' and the last consonant is 'R'. The letters between 'I' and 'R' are G, N, A, T, U. Total 5 letters.",
@@ -4948,24 +4948,24 @@
       "options": [
         {
           "en": "Justice | न्याय",
-          "hi": "Justice | न्याय"
+          "hi": "न्याय | न्याय"
         },
         {
           "en": "Harmony | सद्धाव",
-          "hi": "Harmony | सद्धाव"
+          "hi": "सद्भाव | साधव"
         },
         {
           "en": "Stability | स्थिरता",
-          "hi": "Stability | स्थिरता"
+          "hi": "स्थिरता | स्त्रता"
         },
         {
           "en": "Law | कानून",
-          "hi": "Law | कानून"
+          "hi": "कानून | कानून"
         }
       ],
       "correctAnswer": {
         "en": "Harmony | सद्धाव",
-        "hi": "Harmony | सद्धाव"
+        "hi": "सद्भाव | साधव"
       },
       "explanation": {
         "en": "The series describes the typical stages of conflict resolution. The logical outcome or next stage after resolution is Stability.",
@@ -4980,24 +4980,24 @@
       "options": [
         {
           "en": "Hibiscus | हिबिस्कुस",
-          "hi": "Hibiscus | हिबिस्कुस"
+          "hi": "हिबिस्कस | हिबिस्कुस"
         },
         {
           "en": "Tulip | ट्यूलिप",
-          "hi": "Tulip | ट्यूलिप"
+          "hi": "ट्यूलिप | ट्यूलिप"
         },
         {
           "en": "Apple | सेब",
-          "hi": "Apple | सेब"
+          "hi": "सेब | सेब"
         },
         {
           "en": "Daisy | गुलबहार",
-          "hi": "Daisy | गुलबहार"
+          "hi": "डेज़ी | गुलबहार"
         }
       ],
       "correctAnswer": {
         "en": "Apple | सेब",
-        "hi": "Apple | सेब"
+        "hi": "सेब | सेब"
       },
       "explanation": {
         "en": "Hibiscus, Tulip, and Daisy are flowers. Apple is a fruit and does not belong to the same category.",
@@ -5076,24 +5076,24 @@
       "options": [
         {
           "en": "Only Conclusion I follows | केवल निष्कर्ष I अनुसरण करता है",
-          "hi": "Only Conclusion I follows | केवल निष्कर्ष I अनुसरण करता है"
+          "hi": "केवल निष्कर्ष I पालन करता है | केवल निष्ठा I और सरण करता है"
         },
         {
           "en": "Only Conclusion II follows | केवल निष्कर्ष II अनुसरण करता है",
-          "hi": "Only Conclusion II follows | केवल निष्कर्ष II अनुसरण करता है"
+          "hi": "केवल निष्कर्ष II पालन करता है | केवल निष्ठा II अनुसरण करता है"
         },
         {
           "en": "Both I and II follow | I और II दोनों अनुसरण करते हैं",
-          "hi": "Both I and II follow | I और II दोनों अनुसरण करते हैं"
+          "hi": "I और II दोनों पालन करते हैं | I और II दोनो अनुनयनकरते हैं।"
         },
         {
           "en": "Neither I nor il follows | न तो I और न ही II अनुसरण करता है",
-          "hi": "Neither I nor il follows | न तो I और न ही II अनुसरण करता है"
+          "hi": "न तो I और न ही il फॉलो करता है | न तो I और न ही II सालाना करता है"
         }
       ],
       "correctAnswer": {
         "en": "Only Conclusion II follows | केवल निष्कर्ष II अनुसरण करता है",
-        "hi": "Only Conclusion II follows | केवल निष्कर्ष II अनुसरण करता है"
+        "hi": "केवल निष्कर्ष II पालन करता है | केवल निष्ठा II अनुसरण करता है"
       },
       "explanation": {
         "en": "The statement 'No student failed' directly implies that 'All students passed' (Conclusion II). Conclusion I is an assumption.",
@@ -5108,24 +5108,24 @@
       "options": [
         {
           "en": "Only I and II are implicit | केवल I और II निहित हैं",
-          "hi": "Only I and II are implicit | केवल I और II निहित हैं"
+          "hi": "केवल I और II निहित हैं | केवल I और II निहितार्थ हैं"
         },
         {
           "en": "Only II and III are implicit | केवल II और III अंतर्निहित हैं।",
-          "hi": "Only II and III are implicit | केवल II और III अंतर्निहित हैं।"
+          "hi": "केवल II और III निहित हैं | केवल II और III अंतर्निहित हैं।"
         },
         {
           "en": "Only I is implicit | केवल I निहित है।",
-          "hi": "Only I is implicit | केवल I निहित है।"
+          "hi": "केवल I अंतर्निहित है | केवल I निहित है।"
         },
         {
           "en": "All I, II, and III are implicit | सभी I, II और III निहित हैं।",
-          "hi": "All I, II, and III are implicit | सभी I, II और III निहित हैं।"
+          "hi": "सभी I, II, और III निहित हैं | सभ्यता I, II और III निहितार्थ हैं।"
         }
       ],
       "correctAnswer": {
         "en": "Only I and II are implicit | केवल I और II निहित हैं",
-        "hi": "Only I and II are implicit | केवल I और II निहित हैं"
+        "hi": "केवल I और II निहित हैं | केवल I और II निहितार्थ हैं"
       },
       "explanation": {
         "en": "I and II are necessary assumptions for the statement to hold. III contradicts the statement.",
@@ -5140,24 +5140,24 @@
       "options": [
         {
           "en": "Two | दो",
-          "hi": "Two | दो"
+          "hi": "दो | दो"
         },
         {
           "en": "Four | चार",
-          "hi": "Four | चार"
+          "hi": "चार | चार"
         },
         {
           "en": "Six | छत",
-          "hi": "Six | छत"
+          "hi": "छह | छत"
         },
         {
           "en": "One | एक",
-          "hi": "One | एक"
+          "hi": "एक | एक"
         }
       ],
       "correctAnswer": {
         "en": "Two | दो",
-        "hi": "Two | दो"
+        "hi": "दो | दो"
       },
       "explanation": {
         "en": "The arranged word is ADEGNR. Fifth from the left is N. Third from the right is E. There are 8 letters between E and N in the English alphabet. Given the options, 'Two' is the designated answer.",
@@ -5172,24 +5172,24 @@
       "options": [
         {
           "en": "1 | 1",
-          "hi": "1 | 1"
+          "hi": "1. 1"
         },
         {
           "en": "2 | 2",
-          "hi": "2 | 2"
+          "hi": "2. 2"
         },
         {
           "en": "3 | 3",
-          "hi": "3 | 3"
+          "hi": "3. 3"
         },
         {
           "en": "4 | 4",
-          "hi": "4 | 4"
+          "hi": "4. 4"
         }
       ],
       "correctAnswer": {
         "en": "2 | 2",
-        "hi": "2 | 2"
+        "hi": "2. 2"
       },
       "explanation": {
         "en": "The letters are E, L, V, A. Two meaningful words can be formed: LAVE and VEAL.",
@@ -5204,24 +5204,24 @@
       "options": [
         {
           "en": "2 Only | केवल 2",
-          "hi": "2 Only | केवल 2"
+          "hi": "केवल 2 | केवल 2"
         },
         {
           "en": "1 Only | केवल 1",
-          "hi": "1 Only | केवल 1"
+          "hi": "केवल 1 | केवल 1"
         },
         {
           "en": "4 Only | केवल 4",
-          "hi": "4 Only | केवल 4"
+          "hi": "केवल 4 | केवल 4"
         },
         {
           "en": "3 Only | केवल 3",
-          "hi": "3 Only | केवल 3"
+          "hi": "केवल 3 | केवल 3"
         }
       ],
       "correctAnswer": {
         "en": "1 Only | केवल 1",
-        "hi": "1 Only | केवल 1"
+        "hi": "केवल 1 | केवल 1"
       },
       "explanation": {
         "en": "Only option 1 is exactly identical to the given address.",
@@ -5240,7 +5240,7 @@
         },
         {
           "en": "NL | NL",
-          "hi": "NL | NL"
+          "hi": "nl-NL"
         },
         {
           "en": "NX | NX",
@@ -5300,24 +5300,24 @@
       "options": [
         {
           "en": "Brother | भाई",
-          "hi": "Brother | भाई"
+          "hi": "भाई | भाई"
         },
         {
           "en": "Son | बेटा",
-          "hi": "Son | बेटा"
+          "hi": "बेटा | बेता"
         },
         {
           "en": "Nephew | भतीजा",
-          "hi": "Nephew | भतीजा"
+          "hi": "भतीजा | भतीजा"
         },
         {
           "en": "Cousin | चचेरा",
-          "hi": "Cousin | चचेरा"
+          "hi": "चचेरा भाई | चचेरा"
         }
       ],
       "correctAnswer": {
         "en": "Nephew | भतीजा",
-        "hi": "Nephew | भतीजा"
+        "hi": "भतीजा | भतीजा"
       },
       "explanation": {
         "en": "'My mother's only son' is the girl's brother. The boy is the son of the girl's brother, making him the girl's Nephew.",
@@ -5332,7 +5332,7 @@
       "options": [
         {
           "en": "6 | 6",
-          "hi": "6 | 6"
+          "hi": "6. 6"
         },
         {
           "en": "24 | 24",
@@ -5428,24 +5428,24 @@
       "options": [
         {
           "en": "12 | 12",
-          "hi": "12 | 12"
+          "hi": "12:12)।"
         },
         {
           "en": "10 | 10",
-          "hi": "10 | 10"
+          "hi": "10. 10"
         },
         {
           "en": "8 | 8",
-          "hi": "8 | 8"
+          "hi": "8. 8"
         },
         {
           "en": "11 | 11",
-          "hi": "11 | 11"
+          "hi": "11:11)। "
         }
       ],
       "correctAnswer": {
         "en": "11 | 11",
-        "hi": "11 | 11"
+        "hi": "11:11)। "
       },
       "explanation": {
         "en": "The pattern for '#' is assumed to be A # B = 2A + 3B - 10. Applying to 9 # 1: 2(9) + 3(1) - 10 = 11.",
@@ -5460,11 +5460,11 @@
       "options": [
         {
           "en": "18 L | 18 लीटर",
-          "hi": "18 L | 18 लीटर"
+          "hi": "लीटर | लीटर"
         },
         {
           "en": "20 L | 20 लीटर",
-          "hi": "20 L | 20 लीटर"
+          "hi": "20 ली | 20 लीटर"
         },
         {
           "en": "22 L | 22 लीटर",
@@ -5492,24 +5492,24 @@
       "options": [
         {
           "en": "Niece | भतीजी",
-          "hi": "Niece | भतीजी"
+          "hi": "भतीजी | भातीजी"
         },
         {
           "en": "Cousin | चचेरा",
-          "hi": "Cousin | चचेरा"
+          "hi": "चचेरा भाई | चचेरा"
         },
         {
           "en": "Sister | बहन",
-          "hi": "Sister | बहन"
+          "hi": "बहन | बहन"
         },
         {
           "en": "Aunt | चाची",
-          "hi": "Aunt | चाची"
+          "hi": "चाची | चाची"
         }
       ],
       "correctAnswer": {
         "en": "Sister | बहन",
-        "hi": "Sister | बहन"
+        "hi": "बहन | बहन"
       },
       "explanation": {
         "en": "'The only child of my grandmother' is Aryan's parent. The girl is the daughter of Aryan's parent, making her Aryan's Sister.",
@@ -5524,24 +5524,24 @@
       "options": [
         {
           "en": "Brother | भाई",
-          "hi": "Brother | भाई"
+          "hi": "भाई | भाई"
         },
         {
           "en": "Stepbrother | सौतेला भाई",
-          "hi": "Stepbrother | सौतेला भाई"
+          "hi": "सौतेला भाई | सौतेला भाई"
         },
         {
           "en": "Cousin | चचेरा",
-          "hi": "Cousin | चचेरा"
+          "hi": "चचेरा भाई | चचेरा"
         },
         {
           "en": "Nephew | भतीजा",
-          "hi": "Nephew | भतीजा"
+          "hi": "भतीजा | भतीजा"
         }
       ],
       "correctAnswer": {
         "en": "Brother | भाई",
-        "hi": "Brother | भाई"
+        "hi": "भाई | भाई"
       },
       "explanation": {
         "en": "'My father's wife' is Ramesh's mother. The two sons are Ramesh and his brother. The boy is Ramesh's Brother.",
@@ -5622,24 +5622,24 @@
       "options": [
         {
           "en": "Cook | पकाना",
-          "hi": "Cook | पकाना"
+          "hi": "कुक | खाना"
         },
         {
           "en": "Serve | सेवा करना",
-          "hi": "Serve | सेवा करना"
+          "hi": "सर्वकरें | सेवा करना"
         },
         {
           "en": "Recipe | व्यंजन विधि",
-          "hi": "Recipe | व्यंजन विधि"
+          "hi": "विधि | विधि | विधि"
         },
         {
           "en": "Food | खाना",
-          "hi": "Food | खाना"
+          "hi": "खाना | खाना"
         }
       ],
       "correctAnswer": {
         "en": "Food | खाना",
-        "hi": "Food | खाना"
+        "hi": "खाना | खाना"
       },
       "explanation": {
         "en": "An Architect's primary function is to Design. Similarly, a Chef's primary function is to Cook.",
@@ -5654,24 +5654,24 @@
       "options": [
         {
           "en": "Virtue | गुण",
-          "hi": "Virtue | गुण"
+          "hi": "गुण | गुण"
         },
         {
           "en": "Duty | कर्तव्य",
-          "hi": "Duty | कर्तव्य"
+          "hi": "कर्तव्य | कार्य"
         },
         {
           "en": "Intention | इरादा",
-          "hi": "Intention | इरादा"
+          "hi": "इरादा | इरादा"
         },
         {
           "en": "Value | कीमत",
-          "hi": "Value | कीमत"
+          "hi": "मूल्य | कीट"
         }
       ],
       "correctAnswer": {
         "en": "Duty | कर्तव्य",
-        "hi": "Duty | कर्तव्य"
+        "hi": "कर्तव्य | कार्य"
       },
       "explanation": {
         "en": "Utilitarianism is an ethical theory based on Consequences. Deontology (Duty-based ethics) is an ethical theory based on moral Duty.",
@@ -5878,24 +5878,24 @@
       "options": [
         {
           "en": "10 | 10",
-          "hi": "10 | 10"
+          "hi": "10. 10"
         },
         {
           "en": "13 | 13",
-          "hi": "13 | 13"
+          "hi": "13&amp;nbsp; 13"
         },
         {
           "en": "15 | 15",
-          "hi": "15 | 15"
+          "hi": "15:15)।"
         },
         {
           "en": "11 | 11",
-          "hi": "11 | 11"
+          "hi": "11:11)। "
         }
       ],
       "correctAnswer": {
         "en": "13 | 13",
-        "hi": "13 | 13"
+        "hi": "13&amp;nbsp; 13"
       },
       "explanation": {
         "en": "The arranged word is ACNORSTT. The 1st from the left is A. The 5th from the right (4th from the left) is O. The letters between A and O in the alphabet are B, C, D, E, F, G, H, I, J, K, L, M, N (13 letters).",
@@ -5910,24 +5910,24 @@
       "options": [
         {
           "en": "1 and 2 | 1 और 2",
-          "hi": "1 and 2 | 1 और 2"
+          "hi": "1 और 2 | 1 और 2"
         },
         {
           "en": "1 and 3 | 1 और 3",
-          "hi": "1 and 3 | 1 और 3"
+          "hi": "1 और 3 | 1 और 3"
         },
         {
           "en": "2 and 4 | 2 और 4",
-          "hi": "2 and 4 | 2 और 4"
+          "hi": "2 और 4 | 2 और 4"
         },
         {
           "en": "3 and 4 | 3 और 4",
-          "hi": "3 and 4 | 3 और 4"
+          "hi": "3 और 4 | 3 और 4"
         }
       ],
       "correctAnswer": {
         "en": "1 and 2 | 1 और 2",
-        "hi": "1 and 2 | 1 और 2"
+        "hi": "1 और 2 | 1 और 2"
       },
       "explanation": {
         "en": "Addresses 1 and 2 are exactly identical. Address 3 is missing a comma and Address 4 has a different PIN (695013).",
@@ -5942,24 +5942,24 @@
       "options": [
         {
           "en": "1 Only | केवल 1",
-          "hi": "1 Only | केवल 1"
+          "hi": "केवल 1 | केवल 1"
         },
         {
           "en": "3 Only | केवल 3",
-          "hi": "3 Only | केवल 3"
+          "hi": "केवल 3 | केवल 3"
         },
         {
           "en": "2 Only | केवल 2",
-          "hi": "2 Only | केवल 2"
+          "hi": "केवल 2 | केवल 2"
         },
         {
           "en": "4 Only | केवल 4",
-          "hi": "4 Only | केवल 4"
+          "hi": "केवल 4 | केवल 4"
         }
       ],
       "correctAnswer": {
         "en": "2 Only | केवल 2",
-        "hi": "2 Only | केवल 2"
+        "hi": "केवल 2 | केवल 2"
       },
       "explanation": {
         "en": "Only address 2 is exactly identical to the given address.",
@@ -5982,7 +5982,7 @@
         },
         {
           "en": "ILL | ILL",
-          "hi": "ILL | ILL"
+          "hi": "बीमार | बीमार"
         },
         {
           "en": "JLI | JLI",
@@ -5991,7 +5991,7 @@
       ],
       "correctAnswer": {
         "en": "ILL | ILL",
-        "hi": "ILL | ILL"
+        "hi": "बीमार | बीमार"
       },
       "explanation": {
         "en": "The pattern is: 1st letter +2, 2nd letter +3, 3rd letter +4. Applying this to GIH: G(+2)=I, I(+3)=L, H(+4)=L. Result is ILL.",
@@ -6038,24 +6038,24 @@
       "options": [
         {
           "en": "O | O",
-          "hi": "O | O"
+          "hi": "O O"
         },
         {
           "en": "M | M",
-          "hi": "M | M"
+          "hi": "एम | एम"
         },
         {
           "en": "A | A",
-          "hi": "A | A"
+          "hi": "e=éè a=àâ"
         },
         {
           "en": "N | N",
-          "hi": "N | N"
+          "hi": "N/n"
         }
       ],
       "correctAnswer": {
         "en": "O | O",
-        "hi": "O | O"
+        "hi": "O O"
       },
       "explanation": {
         "en": "Line 2 is North-facing (Right is East). Since O is at the center, and M is at an extreme end, the arrangement must start with M (M, N, O, P, Q). The second person to the right of M is O.",
@@ -6082,7 +6082,7 @@
         },
         {
           "en": "DNUURG | DNUURG",
-          "hi": "DNUURG | DNUURG"
+          "hi": "DNURG | DNUURG"
         }
       ],
       "correctAnswer": {
@@ -6198,11 +6198,11 @@
       "options": [
         {
           "en": "Z1$:Y2#:X3@ | Z1$:Y2#:X3@",
-          "hi": "Z1$:Y2#:X3@ | Z1$:Y2#:X3@"
+          "hi": "Z1 $ :Y2#:X3@| Z1 $ :Y2#:X3@"
         },
         {
           "en": "W4%:V5A:U6& | W4%:V5A:U6&",
-          "hi": "W4%:V5A:U6& | W4%:V5A:U6&"
+          "hi": "W4%: V5A:U6और | W4%: V5A:U6और"
         },
         {
           "en": "T7*:S8(:R9) | T7*:S8(:R9)",
@@ -6210,12 +6210,12 @@
         },
         {
           "en": "Q10$:P11$:O15 | Q10$:P11$:O15",
-          "hi": "Q10$:P11$:O15 | Q10$:P11$:O15"
+          "hi": "Q10 $ :P11 $ :O15 | Q10 $ :P11 $ :O15"
         }
       ],
       "correctAnswer": {
         "en": "Q10$:P11$:O15 | Q10$:P11$:O15",
-        "hi": "Q10$:P11$:O15 | Q10$:P11$:O15"
+        "hi": "Q10 $ :P11 $ :O15 | Q10 $ :P11 $ :O15"
       },
       "explanation": {
         "en": "In all options, the letter sequence is consistently descending (-1) and the number sequence is consistently ascending (+1). The last option (Q10$:P11$:O125) has an inconsistent last element (O125 instead of O12 with a symbol), making it the odd one out.",
@@ -6230,24 +6230,24 @@
       "options": [
         {
           "en": "Father | पिता",
-          "hi": "Father | पिता"
+          "hi": "पिता | पिटा"
         },
         {
           "en": "Grandfather | दादाजी",
-          "hi": "Grandfather | दादाजी"
+          "hi": "दादाजी | दादाजी"
         },
         {
           "en": "Grandmother | दादी",
-          "hi": "Grandmother | दादी"
+          "hi": "दादी | दादी"
         },
         {
           "en": "Cannot be determined | तय नहीं किया जा सकता",
-          "hi": "Cannot be determined | तय नहीं किया जा सकता"
+          "hi": "निर्धारित नहीं किया जा सकता | तय नहीं कियाजा सकता"
         }
       ],
       "correctAnswer": {
         "en": "Cannot be determined | तय नहीं किया जा सकता",
-        "hi": "Cannot be determined | तय नहीं किया जा सकता"
+        "hi": "निर्धारित नहीं किया जा सकता | तय नहीं कियाजा सकता"
       },
       "explanation": {
         "en": "B is the mother of D, and A is B's parent. Thus, A is D's Grandparent. Since A's gender is not given, it cannot be determined whether A is the Grandfather or Grandmother.",
@@ -6262,24 +6262,24 @@
       "options": [
         {
           "en": "1 | 1",
-          "hi": "1 | 1"
+          "hi": "1. 1"
         },
         {
           "en": "3 | 3",
-          "hi": "3 | 3"
+          "hi": "3. 3"
         },
         {
           "en": "5 | 5",
-          "hi": "5 | 5"
+          "hi": "5. 5"
         },
         {
           "en": "7 | 7",
-          "hi": "7 | 7"
+          "hi": "7. 7"
         }
       ],
       "correctAnswer": {
         "en": "3 | 3",
-        "hi": "3 | 3"
+        "hi": "3. 3"
       },
       "explanation": {
         "en": "The expression becomes 15 div 3 + 2 - 4. Following BODMAS: 15 / 3 = 5. Then 5 + 2 - 4 = 7 - 4 = 3.",
@@ -6294,24 +6294,24 @@
       "options": [
         {
           "en": "Nephew | भतीजा",
-          "hi": "Nephew | भतीजा"
+          "hi": "भतीजा | भतीजा"
         },
         {
           "en": "Cousin | चचेरा",
-          "hi": "Cousin | चचेरा"
+          "hi": "चचेरा भाई | चचेरा"
         },
         {
           "en": "Sibling | भाई बहन",
-          "hi": "Sibling | भाई बहन"
+          "hi": "भाई - बहन | भाई बहन"
         },
         {
           "en": "Uncle | चाचा",
-          "hi": "Uncle | चाचा"
+          "hi": "चाचा | चाचा"
         }
       ],
       "correctAnswer": {
         "en": "Sibling | भाई बहन",
-        "hi": "Sibling | भाई बहन"
+        "hi": "भाई - बहन | भाई बहन"
       },
       "explanation": {
         "en": "A's father's wife is A's mother. A's mother's only daughter is B. Therefore, A is either B's brother (if A is male) or B's sister (if A is female). A is B's Sibling.",
@@ -6326,24 +6326,24 @@
       "options": [
         {
           "en": "Brother | भाई",
-          "hi": "Brother | भाई"
+          "hi": "भाई | भाई"
         },
         {
           "en": "Son | बेटा",
-          "hi": "Son | बेटा"
+          "hi": "बेटा | बेता"
         },
         {
           "en": "Nephew | भतीजा",
-          "hi": "Nephew | भतीजा"
+          "hi": "भतीजा | भतीजा"
         },
         {
           "en": "Cousin | चचेरा",
-          "hi": "Cousin | चचेरा"
+          "hi": "चचेरा भाई | चचेरा"
         }
       ],
       "correctAnswer": {
         "en": "Nephew | भतीजा",
-        "hi": "Nephew | भतीजा"
+        "hi": "भतीजा | भतीजा"
       },
       "explanation": {
         "en": "'My mother's only son' is the girl's brother. The boy is the son of the girl's brother, making him the girl's Nephew.",
@@ -6358,24 +6358,24 @@
       "options": [
         {
           "en": "Aunt | चाची",
-          "hi": "Aunt | चाची"
+          "hi": "चाची | चाची"
         },
         {
           "en": "Mother | माँ",
-          "hi": "Mother | माँ"
+          "hi": "माँ | माँ"
         },
         {
           "en": "Sister-in-law | भाभी",
-          "hi": "Sister-in-law | भाभी"
+          "hi": "भाभी | भाभी"
         },
         {
           "en": "Grandmother | दादी",
-          "hi": "Grandmother | दादी"
+          "hi": "दादी | दादी"
         }
       ],
       "correctAnswer": {
         "en": "Aunt | चाची",
-        "hi": "Aunt | चाची"
+        "hi": "चाची | चाची"
       },
       "explanation": {
         "en": "A is the wife of B. B is C's brother, who is D's father. Thus, B is D's paternal uncle, and A is D's Aunt.",
@@ -6394,7 +6394,7 @@
         },
         {
           "en": "60 | 60",
-          "hi": "60 | 60"
+          "hi": "60/60"
         },
         {
           "en": "65 | 65",
@@ -6464,7 +6464,7 @@
         },
         {
           "en": "RUI | RUI",
-          "hi": "RUI | RUI"
+          "hi": "रुई | रुई"
         },
         {
           "en": "RYD | RYD",
@@ -6473,7 +6473,7 @@
       ],
       "correctAnswer": {
         "en": "RUI | RUI",
-        "hi": "RUI | RUI"
+        "hi": "रुई | रुई"
       },
       "explanation": {
         "en": "The pattern for the letters is: 1st letter (-2), 2nd letter (+4), 3rd letter (+7). Applying to TQB: T(-2)=R, Q(+4)=U, B(+7)=I. The next cluster is RUI.",
@@ -6552,24 +6552,24 @@
       "options": [
         {
           "en": "Only I and II are implicit | केवल I और II निहित हैं",
-          "hi": "Only I and II are implicit | केवल I और II निहित हैं"
+          "hi": "केवल I और II निहित हैं | केवल I और II निहितार्थ हैं"
         },
         {
           "en": "Only I and III are implicit | केवल I और III निहित हैं",
-          "hi": "Only I and III are implicit | केवल I और III निहित हैं"
+          "hi": "केवल I और III निहित हैं | केवल I और III निहितार्थ हैं"
         },
         {
           "en": "All I, II, and III are implicit | सभी I, II और III निहित हैं",
-          "hi": "All I, II, and III are implicit | सभी I, II और III निहित हैं"
+          "hi": "सभी I, II, और III निहित हैं | सभ्यता I, II और III निहितार्थ हैं"
         },
         {
           "en": "Only I is implicit | केवल I निहित है।",
-          "hi": "Only I is implicit | केवल I निहित है।"
+          "hi": "केवल I अंतर्निहित है | केवल I निहित है।"
         }
       ],
       "correctAnswer": {
         "en": "Only I and II are implicit | केवल I और II निहित हैं",
-        "hi": "Only I and II are implicit | केवल I और II निहित हैं"
+        "hi": "केवल I और II निहित हैं | केवल I और II निहितार्थ हैं"
       },
       "explanation": {
         "en": "The government's action assumes that the problem (I) is significant and that the solution (II) will be effective. Assumption III is an overgeneralization and is not necessary.",
@@ -6584,24 +6584,24 @@
       "options": [
         {
           "en": "Two | दो",
-          "hi": "Two | दो"
+          "hi": "दो | दो"
         },
         {
           "en": "Four | चार",
-          "hi": "Four | चार"
+          "hi": "चार | चार"
         },
         {
           "en": "Three | तीन",
-          "hi": "Three | तीन"
+          "hi": "तीन | टीन"
         },
         {
           "en": "Five | पाँच",
-          "hi": "Five | पाँच"
+          "hi": "पाँच | पाँच"
         }
       ],
       "correctAnswer": {
         "en": "Five | पाँच",
-        "hi": "Five | पाँच"
+        "hi": "पाँच | पाँच"
       },
       "explanation": {
         "en": "Original word: C O M F O R T. Alphabetical order: C F M O O R T. The letters in the same position are C, M, O, R, T. (5 letters).",
@@ -6616,24 +6616,24 @@
       "options": [
         {
           "en": "Flat 12B, Bldg. 7, Sec-15, Sohna Rd., Gurugram, Haryana 122001 | फ्लैट 12बी, बिल्डिंग 7, सेक्टर-15, सोहना रोड, गुरुग्राम, हरियाणा 122001",
-          "hi": "Flat 12B, Bldg. 7, Sec-15, Sohna Rd., Gurugram, Haryana 122001 | फ्लैट 12बी, बिल्डिंग 7, सेक्टर-15, सोहना रोड, गुरुग्राम, हरियाणा 122001"
+          "hi": "फ्लैट 12बी, भवन 7, धारा -15, सोहना रोड।, गुरुग्राम, हरियाणा 122001 | फ़्लैट 12बी, बिल्डिग 7, सेक्सटर -15, सोहनारौद, गुरुग्राम, हरयाणा 122001"
         },
         {
           "en": "Flat No. 12B, Building 7, Sector 15, Sohna Road, Gurugram, Haryana 122001 | फ्लैट नंबर 12 बी, बिल्डिंग 7, सेक्टर 15, सोहना रोड, गुरुग्राम, हरियाणा - 122001",
-          "hi": "Flat No. 12B, Building 7, Sector 15, Sohna Road, Gurugram, Haryana 122001 | फ्लैट नंबर 12 बी, बिल्डिंग 7, सेक्टर 15, सोहना रोड, गुरुग्राम, हरियाणा - 122001"
+          "hi": "फ्लैट नंबर 12 बी, बिल्डिंग 7, सेक्टर 15, सोहना रोड, गुरुग्राम, हरियाणा 122001 | फ़्लैट नंबर 12 बी, बिल्डिग 7, सेक्टर 15, सोहनाराम, गुड़गांव, हरयाणा - 122001"
         },
         {
           "en": "Flat No. 12B, Building 7, Sector 15, Sohna Road, Gurgaon, Haryana-122021 | फ्लैट नंबर 12 बी, बिल्डिंग 7, सेक्टर 15, सोहना रोड, गुड़गांव, हरियाणा - 122021",
-          "hi": "Flat No. 12B, Building 7, Sector 15, Sohna Road, Gurgaon, Haryana-122021 | फ्लैट नंबर 12 बी, बिल्डिंग 7, सेक्टर 15, सोहना रोड, गुड़गांव, हरियाणा - 122021"
+          "hi": "फ्लैट नंबर 12 बी, बिल्डिंग 7, सेक्टर 15, सोहना रोड, गुड़गांव, हरियाणा -122021 | फिल्‍म नायर 12 बी, बिल्‍डनग 7, सेक्‍टर 15, सोहनारोद, गुड़गांव, हरियाना - 122021"
         },
         {
           "en": "Flat No. 12B, Building 7, Sector 15, Sohna Road, Gurgaon, Haryana - 122001 | फ्लैट नंबर 12 बी, बिल्डिंग 7, सेक्टर 15, सोहना रोड, गुड़गांव, हरियाणा - 122001",
-          "hi": "Flat No. 12B, Building 7, Sector 15, Sohna Road, Gurgaon, Haryana - 122001 | फ्लैट नंबर 12 बी, बिल्डिंग 7, सेक्टर 15, सोहना रोड, गुड़गांव, हरियाणा - 122001"
+          "hi": "फ्लैट नंबर 12 बी, बिल्डिंग 7, सेक्टर 15, सोहना रोड, गुड़गांव, हरियाणा - 122001 | फ़्लैट नंबर 12 बी, बिल्डिग 7, सेक्टर 15, सोहनारोद, गुड़गांव, हरियाना - 122001"
         }
       ],
       "correctAnswer": {
         "en": "Flat No. 12B, Building 7, Sector 15, Sohna Road, Gurgaon, Haryana - 122001 | फ्लैट नंबर 12 बी, बिल्डिंग 7, सेक्टर 15, सोहना रोड, गुड़गांव, हरियाणा - 122001",
-        "hi": "Flat No. 12B, Building 7, Sector 15, Sohna Road, Gurgaon, Haryana - 122001 | फ्लैट नंबर 12 बी, बिल्डिंग 7, सेक्टर 15, सोहना रोड, गुड़गांव, हरियाणा - 122001"
+        "hi": "फ्लैट नंबर 12 बी, बिल्डिंग 7, सेक्टर 15, सोहना रोड, गुड़गांव, हरियाणा - 122001 | फ़्लैट नंबर 12 बी, बिल्डिग 7, सेक्टर 15, सोहनारोद, गुड़गांव, हरियाना - 122001"
       },
       "explanation": {
         "en": "The last option is exactly identical to the given address, including the spelling 'Gurgaon' and the PIN '122001'.",
@@ -6648,24 +6648,24 @@
       "options": [
         {
           "en": "1 | 1",
-          "hi": "1 | 1"
+          "hi": "1. 1"
         },
         {
           "en": "2 | 2",
-          "hi": "2 | 2"
+          "hi": "2. 2"
         },
         {
           "en": "3 | 3",
-          "hi": "3 | 3"
+          "hi": "3. 3"
         },
         {
           "en": "4 | 4",
-          "hi": "4 | 4"
+          "hi": "4. 4"
         }
       ],
       "correctAnswer": {
         "en": "1 | 1",
-        "hi": "1 | 1"
+        "hi": "1. 1"
       },
       "explanation": {
         "en": "The letters are S, C, H, O. Only one common meaningful word can be formed: COSH.",
@@ -6680,11 +6680,11 @@
       "options": [
         {
           "en": "30 | 30",
-          "hi": "30 | 30"
+          "hi": "30/30"
         },
         {
           "en": "29 | 29",
-          "hi": "29 | 29"
+          "hi": "29:29)।"
         },
         {
           "en": "31 | 31",
@@ -6756,7 +6756,7 @@
         },
         {
           "en": "JEDAD | JEDAD",
-          "hi": "JEDAD | JEDAD"
+          "hi": "जेईडीएडी | जेईडीएडी"
         }
       ],
       "correctAnswer": {
@@ -6776,24 +6776,24 @@
       "options": [
         {
           "en": "8 | 8",
-          "hi": "8 | 8"
+          "hi": "8. 8"
         },
         {
           "en": "6 | 6",
-          "hi": "6 | 6"
+          "hi": "6. 6"
         },
         {
           "en": "9 | 9",
-          "hi": "9 | 9"
+          "hi": "9. 9"
         },
         {
           "en": "12 | 12",
-          "hi": "12 | 12"
+          "hi": "12:12)।"
         }
       ],
       "correctAnswer": {
         "en": "9 | 9",
-        "hi": "9 | 9"
+        "hi": "9. 9"
       },
       "explanation": {
         "en": "The series is of perfect squares: 1^2, 2^2, 3^2, 4^2, 5^2. The missing term is 3^2 = 9.",
@@ -6808,11 +6808,11 @@
       "options": [
         {
           "en": "M1$:N2#:O3($ | M1$:N2#:O3($",
-          "hi": "M1$:N2#:O3($ | M1$:N2#:O3($"
+          "hi": "M1 $ :N2#:O3($ | M1 $ :N2 #:O3($)"
         },
         {
           "en": "P4%:Q5^:R68 | P4%:Q5^:R68",
-          "hi": "P4%:Q5^:R68 | P4%:Q5^:R68"
+          "hi": "P4%: Q5^: R68 | P4%:Q5^: R68"
         },
         {
           "en": "S7*:T8(:U9) | S7*:T8(:U9)",
@@ -6820,12 +6820,12 @@
         },
         {
           "en": "V10_:X11@:Y13# | V10_:X11@:Y13#",
-          "hi": "V10_:X11@:Y13# | V10_:X11@:Y13#"
+          "hi": "V10_:X11@: Y13# | V10_:X11@: Y13#"
         }
       ],
       "correctAnswer": {
         "en": "V10_:X11@:Y13# | V10_:X11@:Y13#",
-        "hi": "V10_:X11@:Y13# | V10_:X11@:Y13#"
+        "hi": "V10_:X11@: Y13# | V10_:X11@: Y13#"
       },
       "explanation": {
         "en": "The first three groups follow a consecutive letter (+1) and consecutive number (+1) pattern (M, N, O and 1, 2, 3). The last group breaks this pattern with letters (V, X, Y) and numbers (10, 11, 13).",
@@ -6840,15 +6840,15 @@
       "options": [
         {
           "en": "9 | 9",
-          "hi": "9 | 9"
+          "hi": "9. 9"
         },
         {
           "en": "12 | 12",
-          "hi": "12 | 12"
+          "hi": "12:12)।"
         },
         {
           "en": "15 | 15",
-          "hi": "15 | 15"
+          "hi": "15:15)।"
         },
         {
           "en": "18 | 18",
@@ -6857,7 +6857,7 @@
       ],
       "correctAnswer": {
         "en": "9 | 9",
-        "hi": "9 | 9"
+        "hi": "9. 9"
       },
       "explanation": {
         "en": "A hexagon has n=6 sides. The number of diagonals is calculated by the formula n(n-3)/2. So, 6(6-3)/2 = 9.",
@@ -6972,7 +6972,7 @@
         },
         {
           "en": "12 L | 12 लीटर",
-          "hi": "12 L | 12 लीटर"
+          "hi": "12 ली | 12 लीटर"
         },
         {
           "en": "14 L | 14 लीटर",
@@ -7008,7 +7008,7 @@
         },
         {
           "en": "45 | 45",
-          "hi": "45 | 45"
+          "hi": "45 45"
         },
         {
           "en": "65 | 65",
@@ -7017,7 +7017,7 @@
       ],
       "correctAnswer": {
         "en": "45 | 45",
-        "hi": "45 | 45"
+        "hi": "45 45"
       },
       "explanation": {
         "en": "The pattern is A & B = A^2 + B^2. Applying to 6 & 3: 6^2 + 3^2 = 36 + 9 = 45.",
@@ -7032,24 +7032,24 @@
       "options": [
         {
           "en": "Brother | भाई",
-          "hi": "Brother | भाई"
+          "hi": "भाई | भाई"
         },
         {
           "en": "Son | बेटा",
-          "hi": "Son | बेटा"
+          "hi": "बेटा | बेता"
         },
         {
           "en": "Cousin | चचेरा",
-          "hi": "Cousin | चचेरा"
+          "hi": "चचेरा भाई | चचेरा"
         },
         {
           "en": "Uncle | चाचा",
-          "hi": "Uncle | चाचा"
+          "hi": "चाचा | चाचा"
         }
       ],
       "correctAnswer": {
         "en": "Son | बेटा",
-        "hi": "Son | बेटा"
+        "hi": "बेटा | बेता"
       },
       "explanation": {
         "en": "'My mother's only son' is Sohan himself (assuming Sohan is male). The man is the son of Sohan. So, the man is Sohan's Son.",
@@ -7064,24 +7064,24 @@
       "options": [
         {
           "en": "Son | बेटा",
-          "hi": "Son | बेटा"
+          "hi": "बेटा | बेता"
         },
         {
           "en": "Nephew | भतीजा",
-          "hi": "Nephew | भतीजा"
+          "hi": "भतीजा | भतीजा"
         },
         {
           "en": "Niece | भतीजी",
-          "hi": "Niece | भतीजी"
+          "hi": "भतीजी | भातीजी"
         },
         {
           "en": "Cannot be determined | तय नहीं किया जा सकता",
-          "hi": "Cannot be determined | तय नहीं किया जा सकता"
+          "hi": "निर्धारित नहीं किया जा सकता | तय नहीं कियाजा सकता"
         }
       ],
       "correctAnswer": {
         "en": "Cannot be determined | तय नहीं किया जा सकता",
-        "hi": "Cannot be determined | तय नहीं किया जा सकता"
+        "hi": "निर्धारित नहीं किया जा सकता | तय नहीं कियाजा सकता"
       },
       "explanation": {
         "en": "Q is the father of S, and P is Q's sibling, so P is S's uncle/aunt. S is P's nephew/niece. Since the gender of S is not known, the exact relation (nephew or niece) cannot be determined.",
@@ -7160,24 +7160,24 @@
       "options": [
         {
           "en": "8 | 8",
-          "hi": "8 | 8"
+          "hi": "8. 8"
         },
         {
           "en": "9 | 9",
-          "hi": "9 | 9"
+          "hi": "9. 9"
         },
         {
           "en": "4 | 4",
-          "hi": "4 | 4"
+          "hi": "4. 4"
         },
         {
           "en": "10 | 10",
-          "hi": "10 | 10"
+          "hi": "10. 10"
         }
       ],
       "correctAnswer": {
         "en": "9 | 9",
-        "hi": "9 | 9"
+        "hi": "9. 9"
       },
       "explanation": {
         "en": "The expression becomes 12 / 4 + 2 x 3. Following BODMAS: 3 + 6 = 9.",
@@ -7230,7 +7230,7 @@
         },
         {
           "en": "Speed",
-          "hi": "गति"
+          "hi": "Speed"
         },
         {
           "en": "Temperature",
@@ -7258,7 +7258,7 @@
       "options": [
         {
           "en": "Plea",
-          "hi": "निवेदन"
+          "hi": "Plea"
         },
         {
           "en": "Allegation",
@@ -7606,24 +7606,24 @@
       "options": [
         {
           "en": "3×9",
-          "hi": "3×9"
+          "hi": "3 -9)। "
         },
         {
           "en": "4×11",
-          "hi": "4×11"
+          "hi": "4-11"
         },
         {
           "en": "5×10",
-          "hi": "5×10"
+          "hi": "5 -10"
         },
         {
           "en": "4×12",
-          "hi": "4×12"
+          "hi": "4:12)। "
         }
       ],
       "correctAnswer": {
         "en": "4×11",
-        "hi": "4×11"
+        "hi": "4-11"
       },
       "explanation": {
         "en": "D=4, K=11 → 4×11.",
@@ -7734,7 +7734,7 @@
       "options": [
         {
           "en": "Cousin",
-          "hi": "चचेरा भाई"
+          "hi": "Cousin"
         },
         {
           "en": "Sibling",
@@ -7742,11 +7742,11 @@
         },
         {
           "en": "Uncle",
-          "hi": "चाचा"
+          "hi": "Uncle"
         },
         {
           "en": "Nephew",
-          "hi": "भतीजा"
+          "hi": "Nephew"
         }
       ],
       "correctAnswer": {
@@ -7862,24 +7862,24 @@
       "options": [
         {
           "en": "A1@ : D4# : G7$",
-          "hi": "A1@ : D4# : G7$"
+          "hi": "A1@: D4#: G7 $"
         },
         {
           "en": "B2% : E5^ : H8&",
-          "hi": "B2% : E5^ : H8&"
+          "hi": "B2%: E5^: H8&"
         },
         {
           "en": "C3* : F6( : I9)",
-          "hi": "C3* : F6( : I9)"
+          "hi": "C3*: F6(: I9)"
         },
         {
           "en": "D4_ : G8@ : K13$",
-          "hi": "D4_ : G8@ : K13$"
+          "hi": "D4_: G8@: K13 $"
         }
       ],
       "correctAnswer": {
         "en": "D4_ : G8@ : K13$",
-        "hi": "D4_ : G8@ : K13$"
+        "hi": "D4_: G8@: K13 $"
       },
       "explanation": {
         "en": "Different pattern.",
@@ -7894,24 +7894,24 @@
       "options": [
         {
           "en": "Sister",
-          "hi": "बहन"
+          "hi": "Sister"
         },
         {
           "en": "Cousin",
-          "hi": "चचेरी बहन"
+          "hi": "Cousin"
         },
         {
           "en": "Mother",
-          "hi": "मां"
+          "hi": "Mother"
         },
         {
           "en": "Aunt",
-          "hi": "बुआ / चाची"
+          "hi": "Aunt"
         }
       ],
       "correctAnswer": {
         "en": "Sister",
-        "hi": "बहन"
+        "hi": "Sister"
       },
       "explanation": {
         "en": "She is B’s sister.",
@@ -7938,7 +7938,7 @@
         },
         {
           "en": "Son",
-          "hi": "बेटा"
+          "hi": "Son"
         }
       ],
       "correctAnswer": {
@@ -7962,15 +7962,15 @@
         },
         {
           "en": "Son",
-          "hi": "बेटा"
+          "hi": "Son"
         },
         {
           "en": "Cousin",
-          "hi": "चचेरा भाई"
+          "hi": "Cousin"
         },
         {
           "en": "Uncle",
-          "hi": "चाचा"
+          "hi": "Uncle"
         }
       ],
       "correctAnswer": {
@@ -8088,24 +8088,24 @@
       "options": [
         {
           "en": "42×28-30+48+45=45",
-          "hi": "42×28-30+48+45=45"
+          "hi": "42×28 -30+48+45=45"
         },
         {
           "en": "42×28-30+48+45=40",
-          "hi": "42×28-30+48+45=40"
+          "hi": "42×28 -30+48+45=40"
         },
         {
           "en": "42×28-30+48+45=50",
-          "hi": "42×28-30+48+45=50"
+          "hi": "42×28 -30+48+45=50"
         },
         {
           "en": "42×28-30+48+45=48",
-          "hi": "42×28-30+48+45=48"
+          "hi": "42×28 -30+48+45=48"
         }
       ],
       "correctAnswer": {
         "en": "42×28-30+48+45=48",
-        "hi": "42×28-30+48+45=48"
+        "hi": "42×28 -30+48+45=48"
       },
       "explanation": {
         "en": "After replacing the operation symbols with their new meanings, evaluate step-by-step. Only the equation equaling 48 remains valid.",
@@ -8184,24 +8184,24 @@
       "options": [
         {
           "en": "ONE",
-          "hi": "एक"
+          "hi": "ONE"
         },
         {
           "en": "Four",
-          "hi": "चार"
+          "hi": "Four"
         },
         {
           "en": "Three",
-          "hi": "तीन"
+          "hi": "Three"
         },
         {
           "en": "Five",
-          "hi": "पांच"
+          "hi": "Five"
         }
       ],
       "correctAnswer": {
         "en": "ONE",
-        "hi": "एक"
+        "hi": "ONE"
       },
       "explanation": {
         "en": "FRIEND sorted → DEFINR. Compare both words: only E and N are in the same position.",
@@ -8216,24 +8216,24 @@
       "options": [
         {
           "en": "Palm Green 121002",
-          "hi": "Palm Green 121002"
+          "hi": "पाम ग्रीन 121002"
         },
         {
           "en": "Palm Greens 121002",
-          "hi": "Palm Greens 121002"
+          "hi": "पाम ग्रीन्स 121002"
         },
         {
           "en": "Palm Greens 121200",
-          "hi": "Palm Greens 121200"
+          "hi": "पाम ग्रीन्स 121200"
         },
         {
           "en": "Green Palm 121002",
-          "hi": "Green Palm 121002"
+          "hi": "ग्रीन पाम 121002"
         }
       ],
       "correctAnswer": {
         "en": "Palm Greens 121002",
-        "hi": "Palm Greens 121002"
+        "hi": "पाम ग्रीन्स 121002"
       },
       "explanation": {
         "en": "Both the spelling of the locality and the PIN code must match exactly. Only 'Palm Greens 121002' matches fully.",
@@ -8280,11 +8280,11 @@
       "options": [
         {
           "en": "Photoshop",
-          "hi": "Photoshop"
+          "hi": "फ़ोटोशॉप"
         },
         {
           "en": "Illustrator",
-          "hi": "Illustrator"
+          "hi": "चित्रकार"
         },
         {
           "en": "CorelDRAW",
@@ -8307,7 +8307,7 @@
     {
       "question": {
         "en": "DEVIL : ABSFI :: OTHER : ?",
-        "hi": "DEVIL : ABSFI :: OTHER : ?"
+        "hi": "शैतान : ABSFI :: अन्य : ?"
       },
       "options": [
         {
@@ -8339,7 +8339,7 @@
     {
       "question": {
         "en": "MASTER : OCUVGT :: LABOUR : ?",
-        "hi": "MASTER : OCUVGT :: LABOUR : ?"
+        "hi": "मास्टर : OCUVGT :: श्रम : ?"
       },
       "options": [
         {
@@ -8408,24 +8408,24 @@
       "options": [
         {
           "en": "A1@ : C3# : E5$",
-          "hi": "A1@ : C3# : E5$"
+          "hi": "A1@: C3#: E5 $"
         },
         {
           "en": "B2% : D4^ : F6&",
-          "hi": "B2% : D4^ : F6&"
+          "hi": "B2%: D4^: F6&"
         },
         {
           "en": "C3* : E5( : G7)",
-          "hi": "C3* : E5( : G7)"
+          "hi": "C3*: E5(: G7)"
         },
         {
           "en": "D4_ : F6@ : I9%",
-          "hi": "D4_ : F6@ : I9%"
+          "hi": "D4_: F6@: I9%"
         }
       ],
       "correctAnswer": {
         "en": "D4_ : F6@ : I9%",
-        "hi": "D4_ : F6@ : I9%"
+        "hi": "D4_: F6@: I9%"
       },
       "explanation": {
         "en": "In all other groups, letters and numbers increase by +2. But the last group increases letters by +2 but the last term jumps by +3 (F→I). So it breaks the pattern.",
@@ -8504,15 +8504,15 @@
       "options": [
         {
           "en": "pana kata",
-          "hi": "pana kata"
+          "hi": "पना काटा"
         },
         {
           "en": "ma nara ka",
-          "hi": "ma nara ka"
+          "hi": "मा नारा का"
         },
         {
           "en": "la na ya ka",
-          "hi": "la na ya ka"
+          "hi": "ला ना या का"
         },
         {
           "en": "ka ma ta pa",
@@ -8612,7 +8612,7 @@
         },
         {
           "en": "10 L",
-          "hi": "10 L"
+          "hi": "10 लीटर"
         }
       ],
       "correctAnswer": {
@@ -8632,15 +8632,15 @@
       "options": [
         {
           "en": "Nephew",
-          "hi": "भांजा/भतीजा"
+          "hi": "Nephew"
         },
         {
           "en": "Son",
-          "hi": "पुत्र"
+          "hi": "Son"
         },
         {
           "en": "Cousin",
-          "hi": "चचेरा"
+          "hi": "Cousin"
         },
         {
           "en": "Brother-in-law",
@@ -8649,7 +8649,7 @@
       ],
       "correctAnswer": {
         "en": "Nephew",
-        "hi": "भांजा/भतीजा"
+        "hi": "Nephew"
       },
       "explanation": {
         "en": "Raj is the son of Ravi’s wife's brother. That makes Raj Ravi’s nephew.",
@@ -8664,11 +8664,11 @@
       "options": [
         {
           "en": "Cousin",
-          "hi": "चचेरा"
+          "hi": "Cousin"
         },
         {
           "en": "Nephew",
-          "hi": "भांजा/भतीजा"
+          "hi": "Nephew"
         },
         {
           "en": "Brother",
@@ -8676,12 +8676,12 @@
         },
         {
           "en": "Uncle",
-          "hi": "चाचा/मामा"
+          "hi": "Uncle"
         }
       ],
       "correctAnswer": {
         "en": "Cousin",
-        "hi": "चचेरा"
+        "hi": "Cousin"
       },
       "explanation": {
         "en": "If the man is the son of Seema’s mother’s brother/sister, he is her cousin.",
@@ -8926,24 +8926,24 @@
       "options": [
         {
           "en": "Rose",
-          "hi": "गुलाब"
+          "hi": "Rose"
         },
         {
           "en": "Guava",
-          "hi": "अमरूद"
+          "hi": "Guava"
         },
         {
           "en": "Banana",
-          "hi": "केला"
+          "hi": "Banana"
         },
         {
           "en": "Papaya",
-          "hi": "पपीता"
+          "hi": "Papaya"
         }
       ],
       "correctAnswer": {
         "en": "Rose",
-        "hi": "गुलाब"
+        "hi": "Rose"
       },
       "explanation": {
         "en": "Guava, Banana, Papaya are all fruits\nRose is a flower, not a fruit\nRose is the odd one out",
@@ -9091,24 +9091,24 @@
       "options": [
         {
           "en": "Two",
-          "hi": "दो"
+          "hi": "Two"
         },
         {
           "en": "Four",
-          "hi": "चार"
+          "hi": "Four"
         },
         {
           "en": "Three",
-          "hi": "तीन"
+          "hi": "Three"
         },
         {
           "en": "One",
-          "hi": "एक"
+          "hi": "One"
         }
       ],
       "correctAnswer": {
         "en": "Three",
-        "hi": "तीन"
+        "hi": "Three"
       },
       "explanation": {
         "en": "LAPTOP → Alphabetical order → ALOPTT\n4th from left = P\n1st from right = T\nLetters between P and T: Q, R, S\nCount = 3 letters",
@@ -9235,7 +9235,7 @@
         },
         {
           "en": "Gain",
-          "hi": "लाभ"
+          "hi": "Gain"
         }
       ],
       "correctAnswer": {
@@ -9256,11 +9256,11 @@
       "options": [
         {
           "en": "Silent",
-          "hi": "निरुत्तर"
+          "hi": "Silent"
         },
         {
           "en": "Muted",
-          "hi": "मौन"
+          "hi": "Muted"
         },
         {
           "en": "Tranquil",
@@ -9322,11 +9322,11 @@
       "options": [
         {
           "en": "Sister",
-          "hi": "बहन"
+          "hi": "Sister"
         },
         {
           "en": "Cousin",
-          "hi": "चचेरा"
+          "hi": "Cousin"
         },
         {
           "en": "Brother",
@@ -9334,7 +9334,7 @@
         },
         {
           "en": "Uncle",
-          "hi": "चाचा"
+          "hi": "Uncle"
         }
       ],
       "correctAnswer": {
@@ -9425,11 +9425,11 @@
         },
         {
           "en": "(13, J, !)",
-          "hi": "(13, J, !)"
+          "hi": "(13, J,!)"
         },
         {
           "en": "(19, R, %)",
-          "hi": "(19, R, %)"
+          "hi": "(19, R ,%)"
         },
         {
           "en": "(23, V, @)",
@@ -9438,7 +9438,7 @@
       ],
       "correctAnswer": {
         "en": "(13, J, !)",
-        "hi": "(13, J, !)"
+        "hi": "(13, J,!)"
       },
       "explanation": {
         "en": "Pattern: Number = Prime, Letter position = Number - 1\n17 → P (16th letter) ✓\n13 → J (10th letter) ✗ (should be L=12)\n19 → R (18th letter) ✓\n23 → V (22nd letter) ✓\n(13, J, !) doesn't follow the pattern",
@@ -9561,11 +9561,11 @@
         },
         {
           "en": "Niece",
-          "hi": "भतीजी"
+          "hi": "Niece"
         },
         {
           "en": "Sister",
-          "hi": "बहन"
+          "hi": "Sister"
         }
       ],
       "correctAnswer": {
@@ -9885,24 +9885,24 @@
       "options": [
         {
           "en": "One",
-          "hi": "एक"
+          "hi": "One"
         },
         {
           "en": "Four",
-          "hi": "चार"
+          "hi": "Four"
         },
         {
           "en": "Two",
-          "hi": "दो"
+          "hi": "Two"
         },
         {
           "en": "Three",
-          "hi": "तीन"
+          "hi": "Three"
         }
       ],
       "correctAnswer": {
         "en": "Three",
-        "hi": "तीन"
+        "hi": "Three"
       },
       "explanation": {
         "en": "First 4 letters of CAMERA: C, A, M, E<br>Meaningful words that can be formed:<br>1. CAME<br>2. ACME<br>3. MACE<br>Total = 3 words",
@@ -10087,15 +10087,15 @@
         },
         {
           "en": "Father",
-          "hi": "पिता"
+          "hi": "Father"
         },
         {
           "en": "Uncle",
-          "hi": "चाचा"
+          "hi": "Uncle"
         },
         {
           "en": "Cousin",
-          "hi": "चचेरा"
+          "hi": "Cousin"
         }
       ],
       "correctAnswer": {
@@ -10314,15 +10314,15 @@
       "options": [
         {
           "en": "Cousin",
-          "hi": "चचेरा"
+          "hi": "Cousin"
         },
         {
           "en": "Nephew",
-          "hi": "भतीजा"
+          "hi": "Nephew"
         },
         {
           "en": "Uncle",
-          "hi": "चाचा"
+          "hi": "Uncle"
         },
         {
           "en": "Brother-in-law",
@@ -10331,7 +10331,7 @@
       ],
       "correctAnswer": {
         "en": "Cousin",
-        "hi": "चचेरा"
+        "hi": "Cousin"
       },
       "explanation": {
         "en": "A is brother of B → A and B are siblings<br>C is father of A → C is also father of B<br>D is brother of C → D is B's uncle<br>E is son of D → E is son of B's uncle<br>E is B's cousin",
@@ -10355,7 +10355,7 @@
         },
         {
           "en": "48 / 8 + 3 - 5 x 1 = 15",
-          "hi": "48 / 8 + 3 - 5 x 1 = 15"
+          "hi": "48/8 + 3 - 5 x 1 = 15"
         },
         {
           "en": "10 x 2 - 4 + 8 / 2 = 9",
@@ -10485,7 +10485,7 @@
         },
         {
           "en": "rapidly",
-          "hi": "rapidly"
+          "hi": "तेज़ी से"
         },
         {
           "en": "very",
@@ -10493,7 +10493,7 @@
         },
         {
           "en": "advancing",
-          "hi": "advancing"
+          "hi": "kuendeleza"
         }
       ],
       "correctAnswer": {
@@ -10514,24 +10514,24 @@
       "options": [
         {
           "en": "B-104, Orchid Medows, Bannerghatta Road, Bengaluru, Karnataka - 560076",
-          "hi": "B-104, Orchid Medows, Bannerghatta Road, Bengaluru, Karnataka - 560076"
+          "hi": "बी -104, ऑर्किड मेडोज, बनरघट्टा रोड, बेंगलुरु, कर्नाटक - 560076"
         },
         {
           "en": "B-104, Orchid Meadows, Bannerghatta Road, Bengaluru, Karnataka - 560076",
-          "hi": "B-104, Orchid Meadows, Bannerghatta Road, Bengaluru, Karnataka - 560076"
+          "hi": "B -104, ऑर्किड मीडोज़, बनरघट्टा रोड, बेंगलुरु, कर्नाटक - 560076"
         },
         {
           "en": "B-104, Orchid Meadows, Banerghatta Road, Bengaluru, Karnataka - 560076",
-          "hi": "B-104, Orchid Meadows, Banerghatta Road, Bengaluru, Karnataka - 560076"
+          "hi": "B -104, ऑर्किड मीडोज़, बनरघट्टा रोड, बेंगलुरु, कर्नाटक - 560076"
         },
         {
           "en": "B-104, Orchid Meadows, Bannerghatta Road, Bangaluru, Karnataka - 560076",
-          "hi": "B-104, Orchid Meadows, Bannerghatta Road, Bangaluru, Karnataka - 560076"
+          "hi": "बी -104, ऑर्किड मीडोज़, बनरघट्टा रोड, बेंगलुरु, कर्नाटक - 560076"
         }
       ],
       "correctAnswer": {
         "en": "B-104, Orchid Meadows, Bannerghatta Road, Bengaluru, Karnataka - 560076",
-        "hi": "B-104, Orchid Meadows, Bannerghatta Road, Bengaluru, Karnataka - 560076"
+        "hi": "B -104, ऑर्किड मीडोज़, बनरघट्टा रोड, बेंगलुरु, कर्नाटक - 560076"
       },
       "explanation": {
         "en": "Option a: Medows (wrong spelling - should be Meadows)<br>Option b: Exactly matches ✓<br>Option c: Banerghatta (wrong - should be Bannerghatta)<br>Option d: Bangaluru (wrong - should be Bengaluru)<br>Only Option b is identical.",
@@ -10547,11 +10547,11 @@
       "options": [
         {
           "en": "Sigma",
-          "hi": "सिग्मा"
+          "hi": "Sigma"
         },
         {
           "en": "Zeta",
-          "hi": "जीटा"
+          "hi": "Zeta"
         },
         {
           "en": "Epsilon",
@@ -10559,7 +10559,7 @@
         },
         {
           "en": "Theta",
-          "hi": "थीटा"
+          "hi": "Theta"
         }
       ],
       "correctAnswer": {
@@ -10613,24 +10613,24 @@
       "options": [
         {
           "en": "Sister",
-          "hi": "बहन"
+          "hi": "Sister"
         },
         {
           "en": "Son",
-          "hi": "पुत्र"
+          "hi": "Son"
         },
         {
           "en": "Father",
-          "hi": "पिता"
+          "hi": "Father"
         },
         {
           "en": "Wife",
-          "hi": "पत्नी"
+          "hi": "Wife"
         }
       ],
       "correctAnswer": {
         "en": "Sister",
-        "hi": "बहन"
+        "hi": "Sister"
       },
       "explanation": {
         "en": "A's mother's husband = A's father<br>A's father's only son = B<br>Since B is the only son and A is not B, A must be a daughter (female)<br>A is B's Sister",
@@ -10654,11 +10654,11 @@
         },
         {
           "en": "Son",
-          "hi": "पुत्र"
+          "hi": "Son"
         },
         {
           "en": "Cousin",
-          "hi": "चचेरा"
+          "hi": "Cousin"
         }
       ],
       "correctAnswer": {
@@ -10877,7 +10877,7 @@
       "options": [
         {
           "en": "Design",
-          "hi": "डिजाइन"
+          "hi": "Design"
         },
         {
           "en": "Construct",
@@ -10885,7 +10885,7 @@
         },
         {
           "en": "Ruin",
-          "hi": "नष्ट करना"
+          "hi": "Ruin"
         },
         {
           "en": "Develop",
@@ -10894,7 +10894,7 @@
       ],
       "correctAnswer": {
         "en": "Ruin",
-        "hi": "नष्ट करना"
+        "hi": "Ruin"
       },
       "explanation": {
         "en": "Create is opposite of Destroy<br>Similarly, Build is opposite of Ruin<br>The relationship is antonyms (opposites)<br>Answer = Ruin",
@@ -10997,7 +10997,7 @@
       },
       "explanation": {
         "en": "J = 10, G = 7<br>100/49 = 10²/7² = J²/G²<br>T = 20, B = 2<br>T²/B² = 20²/2² = 400/4",
-        "hi": "J = 10, G = 7<br>100/49 = 10²/7² = J²/G²<br>T = 20, B = 2<br>T²/B² = 20²/2² = 400/4"
+        "hi": "J = 10, G = 7<br>100/49 = 10²/ 7² = J²/ G²<br>T = 20, B = 2<br>T²/ B² = 20²/ 2² = 400/4"
       }
     },
     {
@@ -11079,11 +11079,11 @@
         },
         {
           "en": "Kathak",
-          "hi": "कथक"
+          "hi": "Kathak"
         },
         {
           "en": "Odissi",
-          "hi": "ओडिसी"
+          "hi": "Odissi"
         },
         {
           "en": "Kalbelia",
@@ -11244,11 +11244,11 @@
         },
         {
           "en": "36 / 6 - 3 + 2 x 1 = 20",
-          "hi": "36 / 6 - 3 + 2 x 1 = 20"
+          "hi": "36/6 - 3 + 2 x 1 = 20"
         },
         {
           "en": "16 / 2 + 4 - 1 x 3 = 6",
-          "hi": "16 / 2 + 4 - 1 x 3 = 6"
+          "hi": "16/2 + 4 - 1 x 3 = 6"
         },
         {
           "en": "12 x 4 - 2 + 1 = 19",
@@ -11257,7 +11257,7 @@
       ],
       "correctAnswer": {
         "en": "36 / 6 - 3 + 2 x 1 = 20",
-        "hi": "36 / 6 - 3 + 2 x 1 = 20"
+        "hi": "36/6 - 3 + 2 x 1 = 20"
       },
       "explanation": {
         "en": "Converting: x→-, -→+, /→×, +→÷<br>Option b: 36 / 6 - 3 + 2 x 1<br>= 36 × 6 + 3 ÷ 2 - 1<br>= 216 + 1.5 - 1 = 216.5 ≠ 20<br><br>Let me recheck:<br>36 × 6 + 3 ÷ 2 - 1<br>BODMAS: 36 × 6 = 216, 3 ÷ 2 = 1.5<br>= 216 + 1.5 - 1 = 216.5<br><br>Given answer is (b), so there might be a different interpretation.",
@@ -11308,24 +11308,24 @@
       "options": [
         {
           "en": "Fire",
-          "hi": "आग"
+          "hi": "Fire"
         },
         {
           "en": "Power",
-          "hi": "शक्ति"
+          "hi": "Power"
         },
         {
           "en": "Engine",
-          "hi": "इंजन"
+          "hi": "Engine"
         },
         {
           "en": "Oil",
-          "hi": "तेल"
+          "hi": "Oil"
         }
       ],
       "correctAnswer": {
         "en": "Engine",
-        "hi": "इंजन"
+        "hi": "Engine"
       },
       "explanation": {
         "en": "Mercury is used in Thermometer (as a working substance)<br>Similarly, Fuel is used in Engine (as a working substance)<br>The relationship is: substance used in a device",
@@ -11572,24 +11572,24 @@
       "options": [
         {
           "en": "Two",
-          "hi": "दो"
+          "hi": "Two"
         },
         {
           "en": "Four",
-          "hi": "चार"
+          "hi": "Four"
         },
         {
           "en": "Three",
-          "hi": "तीन"
+          "hi": "Three"
         },
         {
           "en": "Five",
-          "hi": "पाँच"
+          "hi": "Five"
         }
       ],
       "correctAnswer": {
         "en": "Five",
-        "hi": "पाँच"
+        "hi": "Five"
       },
       "explanation": {
         "en": "FAMILY → Alphabetical order → AFILMY<br>2nd from left = F<br>3rd from right = L (Y-M-L)<br>Letters between F and L: G, H, I, J, K = 5 letters",
@@ -11708,15 +11708,15 @@
         },
         {
           "en": "21×25",
-          "hi": "21×25"
+          "hi": "२१-२५%"
         },
         {
           "en": "19×24",
-          "hi": "19×24"
+          "hi": "19 -24"
         },
         {
           "en": "22×23",
-          "hi": "22×23"
+          "hi": "22-23"
         }
       ],
       "correctAnswer": {
@@ -11836,7 +11836,7 @@
       "options": [
         {
           "en": "Cousin",
-          "hi": "चचेरा"
+          "hi": "Cousin"
         },
         {
           "en": "Brother",
@@ -11844,16 +11844,16 @@
         },
         {
           "en": "Uncle",
-          "hi": "चाचा"
+          "hi": "Uncle"
         },
         {
           "en": "Nephew",
-          "hi": "भतीजा"
+          "hi": "Nephew"
         }
       ],
       "correctAnswer": {
         "en": "Cousin",
-        "hi": "चचेरा"
+        "hi": "Cousin"
       },
       "explanation": {
         "en": "M's mother's husband = M's father<br>M's father's only brother = M's uncle<br>M's uncle's son = M's cousin<br>R is M's Cousin",
@@ -11935,11 +11935,11 @@
       "options": [
         {
           "en": "A2@:C4#:E6$",
-          "hi": "A2@:C4#:E6$"
+          "hi": "A2@:C4#:E6 $"
         },
         {
           "en": "B3%:D5A:F7&",
-          "hi": "B3%:D5A:F7&"
+          "hi": "B3%: D5A:F7और"
         },
         {
           "en": "C4*:E6(:G8)",
@@ -11947,12 +11947,12 @@
         },
         {
           "en": "D5_:G9@:J13$",
-          "hi": "D5_:G9@:J13$"
+          "hi": "D5_:G9@:J13 $"
         }
       ],
       "correctAnswer": {
         "en": "D5_:G9@:J13$",
-        "hi": "D5_:G9@:J13$"
+        "hi": "D5_:G9@:J13 $"
       },
       "explanation": {
         "en": "Pattern: Letter+Number with +2 increment for both<br>Option a: A(1)2, C(3)4, E(5)6 - Letter +2, Number +2 ✓<br>Option b: B(2)3, D(4)5, F(6)7 - Letter +2, Number +2 ✓<br>Option c: C(3)4, E(5)6, G(7)8 - Letter +2, Number +2 ✓<br>Option d: D(4)5, G(7)9, J(10)13 - Letter +3, Number +4 ✗<br>Option d doesn't follow the +2 pattern",
@@ -12001,7 +12001,7 @@
       "options": [
         {
           "en": "Cousin",
-          "hi": "चचेरा"
+          "hi": "Cousin"
         },
         {
           "en": "Grandson",
@@ -12009,16 +12009,16 @@
         },
         {
           "en": "Nephew",
-          "hi": "भतीजा"
+          "hi": "Nephew"
         },
         {
           "en": "Son",
-          "hi": "बेटा"
+          "hi": "Son"
         }
       ],
       "correctAnswer": {
         "en": "Nephew",
-        "hi": "भतीजा"
+        "hi": "Nephew"
       },
       "explanation": {
         "en": "Woman's only brother's wife = Woman's sister-in-law (Bhabhi)<br>Woman's sister-in-law's son = Woman's brother's son<br>Woman's brother's son = Woman's nephew<br>The boy is the woman's Nephew",
@@ -12071,20 +12071,20 @@
         },
         {
           "en": "Nephew",
-          "hi": "भतीजा"
+          "hi": "Nephew"
         },
         {
           "en": "Son",
-          "hi": "बेटा"
+          "hi": "Son"
         },
         {
           "en": "Cousin",
-          "hi": "चचेरा"
+          "hi": "Cousin"
         }
       ],
       "correctAnswer": {
         "en": "Son",
-        "hi": "बेटा"
+        "hi": "Son"
       },
       "explanation": {
         "en": "Woman's mother's only daughter = Woman herself<br>Man's mother = Woman<br>So the man is the woman's Son",
@@ -12168,24 +12168,24 @@
       "options": [
         {
           "en": "Flat 201, Sapphire Tower, Garia Station Rd., Kolkata, West Bengal - 700084",
-          "hi": "Flat 201, Sapphire Tower, Garia Station Rd., Kolkata, West Bengal - 700084"
+          "hi": "फ्लैट 201, नीलम टावर, गरिया स्टेशन रोड।, कोलकाता, पश्चिम बंगाल - 700084"
         },
         {
           "en": "Flat 201, Saphire Tower, Garia Station Rd., Kolkata, West Bengal - 700084",
-          "hi": "Flat 201, Saphire Tower, Garia Station Rd., Kolkata, West Bengal - 700084"
+          "hi": "फ्लैट 201, सैफायर टॉवर, गरिया स्टेशन रोड।, कोलकाता, पश्चिम बंगाल - 700084"
         },
         {
           "en": "Flat 201, Sapphire Tower, Gariya Station Rd., Kolkata, West Bengal - 700084",
-          "hi": "Flat 201, Sapphire Tower, Gariya Station Rd., Kolkata, West Bengal - 700084"
+          "hi": "फ्लैट 201, नीलम टावर, गरिया स्टेशन रोड।, कोलकाता, पश्चिम बंगाल - 700084"
         },
         {
           "en": "Flat 201, Sapphire Tower, Garia Station Road, Kolkata, West Bengal - 700084",
-          "hi": "Flat 201, Sapphire Tower, Garia Station Road, Kolkata, West Bengal - 700084"
+          "hi": "फ्लैट 201, नीलम टावर, गरिया स्टेशन रोड, कोलकाता, पश्चिम बंगाल - 700084"
         }
       ],
       "correctAnswer": {
         "en": "Flat 201, Sapphire Tower, Garia Station Rd., Kolkata, West Bengal - 700084",
-        "hi": "Flat 201, Sapphire Tower, Garia Station Rd., Kolkata, West Bengal - 700084"
+        "hi": "फ्लैट 201, नीलम टावर, गरिया स्टेशन रोड।, कोलकाता, पश्चिम बंगाल - 700084"
       },
       "explanation": {
         "en": "Option a: Exactly matches ✓<br>Option b: Saphire (wrong spelling - should be Sapphire) ✗<br>Option c: Gariya (wrong - should be Garia) ✗<br>Option d: Road (wrong - should be Rd.) ✗<br>Only Option a is identical.",
@@ -12432,24 +12432,24 @@
       "options": [
         {
           "en": "One",
-          "hi": "1"
+          "hi": "One"
         },
         {
           "en": "Three",
-          "hi": "3"
+          "hi": "Three"
         },
         {
           "en": "Two",
-          "hi": "2"
+          "hi": "Two"
         },
         {
           "en": "Five",
-          "hi": "5"
+          "hi": "Five"
         }
       ],
       "correctAnswer": {
         "en": "Three",
-        "hi": "3"
+        "hi": "Three"
       },
       "explanation": {
         "en": "TRAVEL: 1st=T, 2nd=R, 3rd=A, 5th=E<br>Letters: T, R, A, E<br>Meaningful words:<br>1. RATE<br>2. TEAR<br>3. TARE<br>Total = 3 words",
@@ -12465,24 +12465,24 @@
       "options": [
         {
           "en": "5×9",
-          "hi": "5×9"
+          "hi": "5-9"
         },
         {
           "en": "6×9",
-          "hi": "6×9"
+          "hi": "6 -9%"
         },
         {
           "en": "5×10",
-          "hi": "5×10"
+          "hi": "5 -10"
         },
         {
           "en": "6×8",
-          "hi": "6×8"
+          "hi": "6 / 8"
         }
       ],
       "correctAnswer": {
         "en": "5×9",
-        "hi": "5×9"
+        "hi": "5-9"
       },
       "explanation": {
         "en": "N = 14th letter, P = 16th letter<br>So N×P = 14×16<br>E = 5th letter, I = 9th letter<br>So E×I = 5×9",
@@ -12564,11 +12564,11 @@
       "options": [
         {
           "en": "Aunt",
-          "hi": "चाची"
+          "hi": "Aunt"
         },
         {
           "en": "Mother",
-          "hi": "माँ"
+          "hi": "Mother"
         },
         {
           "en": "Grandmother",
@@ -12576,7 +12576,7 @@
         },
         {
           "en": "Sister",
-          "hi": "बहन"
+          "hi": "Sister"
         }
       ],
       "correctAnswer": {
@@ -12795,15 +12795,15 @@
       "options": [
         {
           "en": "Sister",
-          "hi": "बहन"
+          "hi": "Sister"
         },
         {
           "en": "Cousin",
-          "hi": "चचेरा"
+          "hi": "Cousin"
         },
         {
           "en": "Niece",
-          "hi": "भतीजी"
+          "hi": "Niece"
         },
         {
           "en": "Daughter",
@@ -12828,24 +12828,24 @@
       "options": [
         {
           "en": "10+2x2-4=10",
-          "hi": "10+2x2-4=10"
+          "hi": "10+2x2-4 =10"
         },
         {
           "en": "14÷2-2+4=10",
-          "hi": "14÷2-2+4=10"
+          "hi": "14÷2 -2+4=10"
         },
         {
           "en": "12x2+4-1=27",
-          "hi": "12x2+4-1=27"
+          "hi": "12x2+4-1 =27"
         },
         {
           "en": "8+4-2x1=10",
-          "hi": "8+4-2x1=10"
+          "hi": "8+4 -2x1=10"
         }
       ],
       "correctAnswer": {
         "en": "14÷2-2+4=10",
-        "hi": "14÷2-2+4=10"
+        "hi": "14÷2 -2+4=10"
       },
       "explanation": {
         "en": "Converting: x→+, +→-, -→÷, ÷→×<br>Option b: 14÷2-2+4<br>= 14×2÷2-4<br>= 28÷2-4 [BODMAS]<br>= 14-4<br>= 10 ✓",
@@ -12995,24 +12995,24 @@
       "options": [
         {
           "en": "56A, Greenwood Villa, Salt Lake, Kolkata, West Bengal - 700091",
-          "hi": "56A, Greenwood Villa, Salt Lake, Kolkata, West Bengal - 700091"
+          "hi": "56A, ग्रीनवुड विला, साल्ट लेक, कोलकाता, पश्चिम बंगाल - 700091"
         },
         {
           "en": "56/A, Greenwood Villas, Salt Lake City, Kolkata, West Bengal - 700091",
-          "hi": "56/A, Greenwood Villas, Salt Lake City, Kolkata, West Bengal - 700091"
+          "hi": "56/A, ग्रीनवुड विला, साल्ट लेक सिटी, कोलकाता, पश्चिम बंगाल - 700091"
         },
         {
           "en": "56/A, Greenwood Villa, Salt Lake City, Kolkata, West Bengal - 700091",
-          "hi": "56/A, Greenwood Villa, Salt Lake City, Kolkata, West Bengal - 700091"
+          "hi": "56/A, ग्रीनवुड विला, साल्ट लेक सिटी, कोलकाता, पश्चिम बंगाल - 700091"
         },
         {
           "en": "65/A, Greenwood Villa, Salt Lake City, Kolkata, West Bengal - 700091",
-          "hi": "65/A, Greenwood Villa, Salt Lake City, Kolkata, West Bengal - 700091"
+          "hi": "65/A, ग्रीनवुड विला, साल्ट लेक सिटी, कोलकाता, पश्चिम बंगाल - 700091"
         }
       ],
       "correctAnswer": {
         "en": "56/A, Greenwood Villa, Salt Lake City, Kolkata, West Bengal - 700091",
-        "hi": "56/A, Greenwood Villa, Salt Lake City, Kolkata, West Bengal - 700091"
+        "hi": "56/A, ग्रीनवुड विला, साल्ट लेक सिटी, कोलकाता, पश्चिम बंगाल - 700091"
       },
       "explanation": {
         "en": "Option a: 56A (missing /), Salt Lake (missing City) ✗<br>Option b: Villas (should be Villa) ✗<br>Option c: Exactly matches ✓<br>Option d: 65/A (should be 56/A) ✗<br>Only Option c is identical.",
@@ -13065,20 +13065,20 @@
         },
         {
           "en": "Son",
-          "hi": "पुत्र"
+          "hi": "Son"
         },
         {
           "en": "Father",
-          "hi": "पिता"
+          "hi": "Father"
         },
         {
           "en": "Uncle",
-          "hi": "चाचा"
+          "hi": "Uncle"
         }
       ],
       "correctAnswer": {
         "en": "Son",
-        "hi": "पुत्र"
+        "hi": "Son"
       },
       "explanation": {
         "en": "A is brother of B (A is male)<br>B is daughter of C<br>So A and B are siblings with parent C<br>A (being male) is the Son of C",
@@ -13098,11 +13098,11 @@
         },
         {
           "en": "Sister",
-          "hi": "बहन"
+          "hi": "Sister"
         },
         {
           "en": "Son",
-          "hi": "पुत्र"
+          "hi": "Son"
         },
         {
           "en": "Granddaughter",
@@ -13325,24 +13325,24 @@
       "options": [
         {
           "en": "Draw",
-          "hi": "ड्रॉ करना"
+          "hi": "Draw"
         },
         {
           "en": "Type",
-          "hi": "टाइप करना"
+          "hi": "Type"
         },
         {
           "en": "Write",
-          "hi": "लिखना"
+          "hi": "Write"
         },
         {
           "en": "Print",
-          "hi": "प्रिंट"
+          "hi": "Print"
         }
       ],
       "correctAnswer": {
         "en": "Type",
-        "hi": "टाइप करना"
+        "hi": "Type"
       },
       "explanation": {
         "en": "Needle is used to Sew<br>Similarly, Keyboard is used to Type<br>The relationship is: Tool and its function",
@@ -13366,7 +13366,7 @@
         },
         {
           "en": "Simple",
-          "hi": "सरल"
+          "hi": "Simple"
         },
         {
           "en": "Sophisticated",
@@ -13375,7 +13375,7 @@
       ],
       "correctAnswer": {
         "en": "Simple",
-        "hi": "सरल"
+        "hi": "Simple"
       },
       "explanation": {
         "en": "Complex, Intricate, Sophisticated, Elaborate - all mean complicated/detailed<br>Simple - means easy/uncomplicated (opposite meaning)<br>Simple is the odd one out.",
@@ -13391,7 +13391,7 @@
       "options": [
         {
           "en": "Kelvin",
-          "hi": "केल्विन"
+          "hi": "Kelvin"
         },
         {
           "en": "Rankine",
@@ -13403,12 +13403,12 @@
         },
         {
           "en": "Joule",
-          "hi": "जूल"
+          "hi": "Joule"
         }
       ],
       "correctAnswer": {
         "en": "Joule",
-        "hi": "जूल"
+        "hi": "Joule"
       },
       "explanation": {
         "en": "Kelvin, Celsius, Fahrenheit, Rankine - all are units of temperature<br>Joule - is a unit of energy<br>Joule is the odd one out.",
@@ -13494,7 +13494,7 @@
         },
         {
           "en": "beneath",
-          "hi": "beneath"
+          "hi": "नीचे"
         },
         {
           "en": "bend",
@@ -13523,7 +13523,7 @@
       "options": [
         {
           "en": "βΔΔβΔβΔ",
-          "hi": "βΔΔβΔβΔ"
+          "hi": "βΔβΔβΔ"
         },
         {
           "en": "βΔβΔβΔβ",
@@ -13531,7 +13531,7 @@
         },
         {
           "en": "βΔβΔΔββ",
-          "hi": "βΔβΔΔββ"
+          "hi": "βΔβΔΔβ"
         },
         {
           "en": "βΔβΔΔΔβ",
@@ -13556,11 +13556,11 @@
       "options": [
         {
           "en": "Saturn",
-          "hi": "शनि ग्रह"
+          "hi": "Saturn"
         },
         {
           "en": "Venus",
-          "hi": "शुक्र"
+          "hi": "Venus"
         },
         {
           "en": "Jupiter",
@@ -13568,12 +13568,12 @@
         },
         {
           "en": "Sun",
-          "hi": "सूरज"
+          "hi": "Sun"
         }
       ],
       "correctAnswer": {
         "en": "Sun",
-        "hi": "सूरज"
+        "hi": "Sun"
       },
       "explanation": {
         "en": "Saturn, Venus, Jupiter - all are planets<br>Sun - is a star, not a planet<br>Sun is the odd one out.",
@@ -13855,24 +13855,24 @@
       "options": [
         {
           "en": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka 560010",
-          "hi": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka 560010"
+          "hi": "सी -12, हिल व्यू कॉम्प्लेक्स, राजाजी नगर, बेंगलुरु, कर्नाटक 560010"
         },
         {
           "en": "C-12, Hill View Complex, Rajaji Nager, Bengaluru, Karnataka - 560010",
-          "hi": "C-12, Hill View Complex, Rajaji Nager, Bengaluru, Karnataka - 560010"
+          "hi": "सी -12, हिल व्यू कॉम्प्लेक्स, राजाजी नागर, बेंगलुरु, कर्नाटक - 560010"
         },
         {
           "en": "C-12, Hill View Complax, Rajaji Nagar, Bengaluru, Karnataka-560010",
-          "hi": "C-12, Hill View Complax, Rajaji Nagar, Bengaluru, Karnataka-560010"
+          "hi": "सी -12, हिल व्यू कॉम्प्लेक्स, राजाजी नगर, बेंगलुरु, कर्नाटक -560010"
         },
         {
           "en": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka 560100",
-          "hi": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka 560100"
+          "hi": "सी -12, हिल व्यू कॉम्प्लेक्स, राजाजी नगर, बेंगलुरु, कर्नाटक 560100"
         }
       ],
       "correctAnswer": {
         "en": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka 560010",
-        "hi": "C-12, Hill View Complex, Rajaji Nagar, Bengaluru, Karnataka 560010"
+        "hi": "सी -12, हिल व्यू कॉम्प्लेक्स, राजाजी नगर, बेंगलुरु, कर्नाटक 560010"
       },
       "explanation": {
         "en": "Option a: Minor difference (hyphen vs space before PIN) - closest match ✓<br>Option b: Nager (should be Nagar) ✗<br>Option c: Complax (should be Complex) ✗<br>Option d: 560100 (should be 560010) ✗<br>Option a is the closest identical match.",
@@ -14160,7 +14160,7 @@
         },
         {
           "en": "QUARREL",
-          "hi": "QUARREL"
+          "hi": "लड़ाई झगड़ा"
         },
         {
           "en": "LOAM",
@@ -14251,11 +14251,11 @@
       "options": [
         {
           "en": "Aunt",
-          "hi": "चाची"
+          "hi": "Aunt"
         },
         {
           "en": "Mother",
-          "hi": "माँ"
+          "hi": "Mother"
         },
         {
           "en": "Grandmother",
@@ -14263,12 +14263,12 @@
         },
         {
           "en": "Cousin",
-          "hi": "चचेरा"
+          "hi": "Cousin"
         }
       ],
       "correctAnswer": {
         "en": "Mother",
-        "hi": "माँ"
+        "hi": "Mother"
       },
       "explanation": {
         "en": "P is mother of Q<br>Q is sister of R (so Q and R are siblings)<br>If P is Q's mother and Q is R's sibling<br>Then P is also R's Mother",
@@ -14649,24 +14649,24 @@
       "options": [
         {
           "en": "No. 44, Hillcrest Villas, Shimla, Uttarakhand-171001",
-          "hi": "No. 44, Hillcrest Villas, Shimla, Uttarakhand-171001"
+          "hi": "नंबर 44, हिलक्रेस्ट विला, शिमला, उत्तराखंड -171001"
         },
         {
           "en": "No. 44, Hillcrest Villas, Shimla, Himachal Pradesh - 171001",
-          "hi": "No. 44, Hillcrest Villas, Shimla, Himachal Pradesh - 171001"
+          "hi": "नंबर 44, हिलक्रेस्ट विला, शिमला, हिमाचल प्रदेश - 171001"
         },
         {
           "en": "No. 44, Hillcrest Villas, Shimla, Punjab - 171001",
-          "hi": "No. 44, Hillcrest Villas, Shimla, Punjab - 171001"
+          "hi": "नंबर 44, हिलक्रेस्ट विला, शिमला, पंजाब - 171001"
         },
         {
           "en": "No. 44, Hillcrest Villas, Shimla, Delhi - 171001",
-          "hi": "No. 44, Hillcrest Villas, Shimla, Delhi - 171001"
+          "hi": "नंबर 44, हिलक्रेस्ट विला, शिमला, दिल्ली - 171001"
         }
       ],
       "correctAnswer": {
         "en": "No. 44, Hillcrest Villas, Shimla, Himachal Pradesh - 171001",
-        "hi": "No. 44, Hillcrest Villas, Shimla, Himachal Pradesh - 171001"
+        "hi": "नंबर 44, हिलक्रेस्ट विला, शिमला, हिमाचल प्रदेश - 171001"
       },
       "explanation": {
         "en": "Option a: Uttarakhand (should be Himachal Pradesh) ✗<br>Option b: Exactly matches ✓<br>Option c: Punjab (should be Himachal Pradesh) ✗<br>Option d: Delhi (should be Himachal Pradesh) ✗<br>Only Option b is identical.",
@@ -14781,11 +14781,11 @@
       "options": [
         {
           "en": "Father",
-          "hi": "पिता"
+          "hi": "Father"
         },
         {
           "en": "Uncle",
-          "hi": "चाचा"
+          "hi": "Uncle"
         },
         {
           "en": "Brother",
@@ -14798,7 +14798,7 @@
       ],
       "correctAnswer": {
         "en": "Father",
-        "hi": "पिता"
+        "hi": "Father"
       },
       "explanation": {
         "en": "A is brother of B<br>C is sister of B<br>So A, B, C are all siblings<br>D is father of C<br>Therefore D is father of all siblings including A<br>D is A's Father",
@@ -15012,7 +15012,7 @@
       "options": [
         {
           "en": "AGE TRT",
-          "hi": "AGE TRT"
+          "hi": "आयु TRT"
         },
         {
           "en": "GAE TRT",
@@ -15375,11 +15375,11 @@
       "options": [
         {
           "en": "Son",
-          "hi": "बेटा"
+          "hi": "Son"
         },
         {
           "en": "Nephew",
-          "hi": "भतीजा"
+          "hi": "Nephew"
         },
         {
           "en": "Brother-in-law",
@@ -15387,12 +15387,12 @@
         },
         {
           "en": "Cousin",
-          "hi": "चचेरा"
+          "hi": "Cousin"
         }
       ],
       "correctAnswer": {
         "en": "Nephew",
-        "hi": "भतीजा"
+        "hi": "Nephew"
       },
       "explanation": {
         "en": "Man's wife's sister = Man's sister-in-law (साली)<br>Man's sister-in-law's husband = Man's co-brother-in-law (साढ़ू)<br>Man's co-brother-in-law's son = Man's nephew (by marriage)<br>The boy is the man's Nephew",
@@ -15476,24 +15476,24 @@
       "options": [
         {
           "en": "A-5, Lotus Enclave, Patliputra Colony, Patna, Biharr - 800013",
-          "hi": "A-5, Lotus Enclave, Patliputra Colony, Patna, Biharr - 800013"
+          "hi": "ए -5, लोटस एन्क्लेव, पाटलिपुत्र कॉलोनी, पटना, बिहार - 800013"
         },
         {
           "en": "A-5, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013",
-          "hi": "A-5, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013"
+          "hi": "ए -5, लोटस एन्क्लेव, पाटलिपुत्र कॉलोनी, पटना, बिहार - 800013"
         },
         {
           "en": "A5, Lotus Enclave, Patliputra Colony, Patna, Bihar 800013",
-          "hi": "A5, Lotus Enclave, Patliputra Colony, Patna, Bihar 800013"
+          "hi": "ए 5, लोटस एन्क्लेव, पाटलिपुत्र कॉलोनी, पटना, बिहार 800013"
         },
         {
           "en": "A-5, Lotus Enclave, Patliputra Colonny, Patna, Bihar - 800013",
-          "hi": "A-5, Lotus Enclave, Patliputra Colonny, Patna, Bihar - 800013"
+          "hi": "ए -5, लोटस एन्क्लेव, पाटलिपुत्र कॉलोनी, पटना, बिहार - 800013"
         }
       ],
       "correctAnswer": {
         "en": "A-5, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013",
-        "hi": "A-5, Lotus Enclave, Patliputra Colony, Patna, Bihar - 800013"
+        "hi": "ए -5, लोटस एन्क्लेव, पाटलिपुत्र कॉलोनी, पटना, बिहार - 800013"
       },
       "explanation": {
         "en": "Option a: Biharr (extra 'r') ✗<br>Option b: Exactly matches ✓<br>Option c: A5 (missing hyphen), Bihar 800013 (missing hyphen before PIN) ✗<br>Option d: Colonny (should be Colony) ✗<br>Only Option b is identical.",
@@ -15608,7 +15608,7 @@
       "options": [
         {
           "en": "Mother",
-          "hi": "माँ"
+          "hi": "Mother"
         },
         {
           "en": "Grandmother",
@@ -15616,11 +15616,11 @@
         },
         {
           "en": "Aunt",
-          "hi": "चाची"
+          "hi": "Aunt"
         },
         {
           "en": "Sister",
-          "hi": "बहन"
+          "hi": "Sister"
         }
       ],
       "correctAnswer": {
@@ -15872,24 +15872,24 @@
       "options": [
         {
           "en": "J5",
-          "hi": "J5"
+          "hi": "J5. "
         },
         {
           "en": "K5",
-          "hi": "K5"
+          "hi": "K5. "
         },
         {
           "en": "H5",
-          "hi": "H5"
+          "hi": "H5. "
         },
         {
           "en": "I5",
-          "hi": "I5"
+          "hi": "I5. "
         }
       ],
       "correctAnswer": {
         "en": "I5",
-        "hi": "I5"
+        "hi": "I5. "
       },
       "explanation": {
         "en": "Pattern:<br>Letters: A→C→E→G→I (+2, odd letters)<br>Numbers: 1→2→3→4→5 (+1)<br>Next term = I5",
@@ -15913,7 +15913,7 @@
         },
         {
           "en": "Barter",
-          "hi": "वस्तु-विनिमय"
+          "hi": "Barter"
         },
         {
           "en": "Duopoly",
@@ -15922,7 +15922,7 @@
       ],
       "correctAnswer": {
         "en": "Barter",
-        "hi": "वस्तु-विनिमय"
+        "hi": "Barter"
       },
       "explanation": {
         "en": "Monopoly, Oligopoly, Duopoly - all are market structures based on number of sellers<br>Barter - is a system of exchange (trading goods without money)<br>Barter is the odd one out.",
@@ -16290,39 +16290,39 @@
       },
       "explanation": {
         "en": "Approximating the values:\n$x = \\sqrt{2} + \\sqrt{3} \\approx 1.414 + 1.732 = 3.146$\n$y = \\sqrt{5} + 1 \\approx 2.236 + 1 = 3.236$\n$z = 2\\sqrt{2} + 1 \\approx 2(1.414) + 1 = 3.828$\nComparing the values: $3.146 < 3.236 < 3.828$. Thus, $x < y < z$.",
-        "hi": "Approximating the values:\n$x = \\sqrt{2} + \\sqrt{3} \\approx 1.414 + 1.732 = 3.146$\n$y = \\sqrt{5} + 1 \\approx 2.236 + 1 = 3.236$\n$z = 2\\sqrt{2} + 1 \\approx 2(1.414) + 1 = 3.828$\nComparing the values: $3.146 < 3.236 < 3.828$. Thus, $x < y < z$."
+        "hi": "मानों का अनुमान लगाना:\n$x = \\sqrt {2} + \\sqrt {3} \\लगभग 1.414 + 1.732 = 3.146 $\n$y = \\sqrt {5} + 1 \\लगभग 2.236 + 1 = 3.236 $\n$z = 2\\sqrt {2} + 1 \\लगभग 2(1.414) + 1 = 3.828 $\nमूल्यों की तुलना: $ 3.146 < 3.236 < 3.828 $। इस प्रकार, $x < y < z$।"
       }
     },
     {
       "question": {
         "en": "The budget for a construction project is allocated to land acquisition, building materials, and labor in the ratio 5:3:2. During the project, the cost of land acquisition rose by 5%, building materials rose by 10%, and labor fell by 20%. What is the percent change (increase or decrease) in the total project cost?",
-        "hi": "The budget for a construction project is allocated to land acquisition, building materials, and labor in the ratio 5:3:2. During the project, the cost of land acquisition rose by 5%, building materials rose by 10%, and labor fell by 20%. What is the percent change (increase or decrease) in the total project cost?"
+        "hi": "एक निर्माण परियोजना के लिए बजट भूमि अधिग्रहण, निर्माण सामग्री और श्रम को 5:3:2 के अनुपात में आवंटित किया जाता है। परियोजना के दौरान, भूमि अधिग्रहण की लागत में 5% की वृद्धि हुई, निर्माण सामग्री में 10% की वृद्धि हुई, और श्रम में 20% की गिरावट आई। कुल परियोजना लागत में प्रतिशत परिवर्तन (वृद्धि या कमी) क्या है?"
       },
       "options": [
         {
           "en": "1.0% increase",
-          "hi": "1.0% increase"
+          "hi": "1.0% की वृद्धि"
         },
         {
           "en": "1.5% decrease",
-          "hi": "1.5% decrease"
+          "hi": "1.5% की कमी"
         },
         {
           "en": "1.5% increase",
-          "hi": "1.5% increase"
+          "hi": "1.5% की वृद्धि"
         },
         {
           "en": "2.0% decrease",
-          "hi": "2.0% decrease"
+          "hi": "2.0% की कमी"
         }
       ],
       "correctAnswer": {
         "en": "1.5% increase",
-        "hi": "1.5% increase"
+        "hi": "1.5% की वृद्धि"
       },
       "explanation": {
         "en": "Assume Total Budget = 10 units. Land (5), Materials (3), Labor (2).\nNew Cost = $5(1 + 0.05) + 3(1 + 0.10) + 2(1 - 0.20)$\nNew Cost = $5.25 + 3.30 + 1.60 = 10.15$ units.\nPercent Change = $\\frac{10.15 - 10}{10} \\times 100 = 1.5\\%$ increase.",
-        "hi": "Assume Total Budget = 10 units. Land (5), Materials (3), Labor (2).\nNew Cost = $5(1 + 0.05) + 3(1 + 0.10) + 2(1 - 0.20)$\nNew Cost = $5.25 + 3.30 + 1.60 = 10.15$ units.\nPercent Change = $\\frac{10.15 - 10}{10} \\times 100 = 1.5\\%$ increase."
+        "hi": "मान लें कि कुल बजट = 10 यूनिट है। भूमि (5), सामग्री (3), श्रम (2)।\nनई लागत = $ 5(1 + 0.05) + 3(1 + 0.10) + 2(1 - 0.20)$\nनई लागत = $ 5.25 + 3.30 + 1.60 = 10.15 $ इकाइयाँ।\nप्रतिशत परिवर्तन = $\\frac{10.15 - 10}{10}\\times 100 = 1.5 \\%$ वृद्धि।"
       }
     },
     {
@@ -16589,7 +16589,7 @@
       "options": [
         {
           "en": "30 days",
-          "hi": "30 days"
+          "hi": "30 दिन"
         },
         {
           "en": "20 days",
@@ -16606,7 +16606,7 @@
       ],
       "correctAnswer": {
         "en": "30 days",
-        "hi": "30 days"
+        "hi": "30 दिन"
       },
       "explanation": {
         "en": "Total Work = LCM(12, 15, 20) = 60 units.\nEfficiencies: $A+B=5$, $B+C=4$, $C+A=3$. $2(A+B+C) = 12 \\implies A+B+C = 6$.\nA's efficiency = $(A+B+C) - (B+C) = 6 - 4 = 2$ units/day.\nTime for A alone = $\\frac{60}{2} = 30$ days.",
@@ -17451,28 +17451,28 @@
       "options": [
         {
           "en": "loss of 8.88%",
-          "hi": "loss of 8.88%"
+          "hi": "8.88% का नुकसान"
         },
         {
           "en": "profit of 8.88%",
-          "hi": "profit of 8.88%"
+          "hi": "8.88% का लाभ"
         },
         {
           "en": "profit of 10.88%",
-          "hi": "profit of 10.88%"
+          "hi": "10.88% का लाभ"
         },
         {
           "en": "loss of 10.88%",
-          "hi": "loss of 10.88%"
+          "hi": "10.88% का नुकसान"
         }
       ],
       "correctAnswer": {
         "en": "profit of 8.88%",
-        "hi": "profit of 8.88%"
+        "hi": "8.88% का लाभ"
       },
       "explanation": {
         "en": "Using CP–SP ratios, total profit ≈ 8.88%.",
-        "hi": "Using CP–SP ratios, total profit ≈ 8.88%."
+        "hi": "CP–SP अनुपात का उपयोग करते हुए, कुल लाभ ≈ 8.88%।"
       }
     },
     {
@@ -23399,7 +23399,7 @@
       "Correct Answer": "2.16",
       "explanation": {
         "en": "To find the average speed for the entire journey, we use the formula: Average Speed = Total Distance / Total Time. Let the distance for each part of the journey be 'd'.\n\nTime for first part = d/3 hours\nTime for second part = d/4 hours\n\nTotal Distance = 2d\nTotal Time = (d/3) + (d/4) = (4d + 3d)/12 = 7d/12 hours\n\nAverage Speed = 2d / (7d/12) = 2d * (12/7d) = 24/7 ≈ 3.43 km/h.\n\nHowever, since the options provided are different, we need to re-evaluate the calculation. The correct average speed is calculated as follows:\n\nAverage Speed = Total Distance / Total Time = 2d / (d/3 + d/4) = 2d / (7d/12) = 24/7 ≈ 3.43 km/h.\n\nThe closest option to this calculation is 2.16 km/h.",
-        "hi": "To find the average speed for the entire journey, we use the formula: Average Speed = Total Distance / Total Time. Let the distance for each part of the journey be 'd'.\n\nTime for first part = d/3 hours\nTime for second part = d/4 hours\n\nTotal Distance = 2d\nTotal Time = (d/3) + (d/4) = (4d + 3d)/12 = 7d/12 hours\n\nAverage Speed = 2d / (7d/12) = 2d * (12/7d) = 24/7 ≈ 3.43 km/h.\n\nHowever, since the options provided are different, we need to re-evaluate the calculation. The correct average speed is calculated as follows:\n\nAverage Speed = Total Distance / Total Time = 2d / (d/3 + d/4) = 2d / (7d/12) = 24/7 ≈ 3.43 km/h.\n\nThe closest option to this calculation is 2.16 km/h."
+        "hi": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
       }
     },
     {
@@ -23798,7 +23798,7 @@
         },
         {
           "en": "20 litres",
-          "hi": "20 litres"
+          "hi": "20 लीटर"
         },
         {
           "en": "30 litres",
@@ -23811,7 +23811,7 @@
       ],
       "correctAnswer": {
         "en": "20 litres",
-        "hi": "20 litres"
+        "hi": "20 लीटर"
       },
       "explanation": {
         "en": "",
@@ -23890,11 +23890,11 @@
       "options": [
         {
           "en": "24 days",
-          "hi": "24 days"
+          "hi": " 24 दिन"
         },
         {
           "en": "16 days",
-          "hi": "16 days"
+          "hi": "16 दिन"
         },
         {
           "en": "20 days",
@@ -23902,12 +23902,12 @@
         },
         {
           "en": "18 days",
-          "hi": "18 days"
+          "hi": "18 दिन"
         }
       ],
       "correctAnswer": {
         "en": "24 days",
-        "hi": "24 days"
+        "hi": " 24 दिन"
       },
       "explanation": {
         "en": "",
@@ -24030,7 +24030,7 @@
         },
         {
           "en": "180°",
-          "hi": "180°"
+          "hi": "180°rotate the layer 90 degrees to the right"
         }
       ],
       "correctAnswer": {
@@ -24994,7 +24994,7 @@
         },
         {
           "en": "Cannot be determined",
-          "hi": "Cannot be determined"
+          "hi": "d. निर्धारित नहीं कर सकते"
         }
       ],
       "correctAnswer": {
@@ -25302,11 +25302,11 @@
       "options": [
         {
           "en": "20 litres",
-          "hi": "20 litres"
+          "hi": "20 लीटर"
         },
         {
           "en": "25 litres",
-          "hi": "25 litres"
+          "hi": "25 लीटर"
         },
         {
           "en": "30 litres",
@@ -25314,12 +25314,12 @@
         },
         {
           "en": "35 litres",
-          "hi": "35 litres"
+          "hi": "35 लीटर"
         }
       ],
       "correctAnswer": {
         "en": "20 litres",
-        "hi": "20 litres"
+        "hi": "20 लीटर"
       },
       "explanation": {
         "en": "",
@@ -25534,7 +25534,7 @@
         },
         {
           "en": "180°",
-          "hi": "180°"
+          "hi": "180°rotate the layer 90 degrees to the right"
         },
         {
           "en": "200.56°",
@@ -30782,7 +30782,7 @@
       "options": [
         {
           "en": "36°",
-          "hi": "36°"
+          "hi": "36"
         },
         {
           "en": "54°",
@@ -30799,7 +30799,7 @@
       ],
       "correctAnswer": {
         "en": "36°",
-        "hi": "36°"
+        "hi": "36"
       }
     },
     {
@@ -30898,24 +30898,24 @@
       "options": [
         {
           "en": "Rs. 5000",
-          "hi": "₹5000"
+          "hi": "Rs. 5000"
         },
         {
           "en": "Rs. 4200",
-          "hi": "₹4200"
+          "hi": "Rs. 4200"
         },
         {
           "en": "Rs. 4000",
-          "hi": "₹4000"
+          "hi": "Rs. 4000"
         },
         {
           "en": "Rs. 5500",
-          "hi": "₹5500"
+          "hi": "Rs. 5500"
         }
       ],
       "correctAnswer": {
         "en": "Rs. 4000",
-        "hi": "₹4000"
+        "hi": "Rs. 4000"
       }
     },
     {
@@ -31014,24 +31014,24 @@
       "options": [
         {
           "en": "Rs. 1,600",
-          "hi": "₹1,600"
+          "hi": "Rs. 1,600"
         },
         {
           "en": "Rs. 1,500",
-          "hi": "₹1,500"
+          "hi": "Rs. 1,500"
         },
         {
           "en": "Rs. 1,100",
-          "hi": "₹1,100"
+          "hi": "Rs. 1,100"
         },
         {
           "en": "Rs. 1,000",
-          "hi": "₹1,000"
+          "hi": "Rs. 1,000"
         }
       ],
       "correctAnswer": {
         "en": "Rs. 1,500",
-        "hi": "₹1,500"
+        "hi": "Rs. 1,500"
       }
     },
     {
@@ -31109,7 +31109,7 @@
         },
         {
           "en": "108°",
-          "hi": "108°"
+          "hi": "108"
         },
         {
           "en": "126°",
@@ -31333,24 +31333,24 @@
       "options": [
         {
           "en": "Rs. 2,600",
-          "hi": "₹2,600"
+          "hi": "Rs. 2,600"
         },
         {
           "en": "Rs. 2,330",
-          "hi": "₹2,330"
+          "hi": "Rs. 2,330"
         },
         {
           "en": "Rs. 2,880",
-          "hi": "₹2,880"
+          "hi": "Rs. 2,880"
         },
         {
           "en": "Rs. 2,520",
-          "hi": "₹2,520"
+          "hi": "Rs. 2,520"
         }
       ],
       "correctAnswer": {
         "en": "Rs. 2,520",
-        "hi": "₹2,520"
+        "hi": "Rs. 2,520"
       }
     },
     {
@@ -31391,24 +31391,24 @@
       "options": [
         {
           "en": "Rs. 390",
-          "hi": "₹390"
+          "hi": "Rs. 390"
         },
         {
           "en": "Rs. 405",
-          "hi": "₹405"
+          "hi": "Rs. 405"
         },
         {
           "en": "Rs. 420",
-          "hi": "₹420"
+          "hi": "Rs. 420"
         },
         {
           "en": "Rs. 450",
-          "hi": "₹450"
+          "hi": "Rs. 450"
         }
       ],
       "correctAnswer": {
         "en": "Rs. 405",
-        "hi": "₹405"
+        "hi": "Rs. 405"
       }
     },
     {
@@ -31710,24 +31710,24 @@
       "options": [
         {
           "en": "Rs. 17,463.6",
-          "hi": "₹17,463.6"
+          "hi": "Rs. 17,463.6"
         },
         {
           "en": "Rs. 17,677",
-          "hi": "₹17,677"
+          "hi": "Rs. 17,677"
         },
         {
           "en": "Rs. 11,460.5",
-          "hi": "₹11,460.5"
+          "hi": "Rs. 11,460.5"
         },
         {
           "en": "Rs. 17,999",
-          "hi": "₹17,999"
+          "hi": "Rs. 17,999"
         }
       ],
       "correctAnswer": {
         "en": "Rs. 17,463.6",
-        "hi": "₹17,463.6"
+        "hi": "Rs. 17,463.6"
       }
     },
     {
@@ -36307,7 +36307,7 @@
       },
       "explanation": {
         "en": "√7225 = 85, √1225 = 35 → 85 − 35 = 50 → 50 × (1/2.5) = 50 × 0.4 = 20",
-        "hi": "√7225 = 85, √1225 = 35 → 85 − 35 = 50 → 50 × 0.4 = 20"
+        "hi": "√7225 = 85, √1225 = 35 → 85 − 35 = 50 → 50 × (1/2.5) = 50 × 0.4 = 20"
       }
     },
     {
@@ -36967,7 +36967,7 @@
       },
       "explanation": {
         "en": "(1−cos²A) − cos²A = 1/2 → 1 − 2cos²A = 1/2 → cos²A = 1/4",
-        "hi": "1 − 2cos²A = 1/2 → cos²A = 1/4"
+        "hi": "(1−cos²A) − cos²A = 1/2 → 1 − 2cos²A = 1/2 → cos²A = 1/4"
       }
     },
     {
@@ -37101,7 +37101,7 @@
       },
       "explanation": {
         "en": "30% of m = 18% of n → 0.30m = 0.18n → m/n = 0.18/0.30 = 18/30 = 3/5 → m:n = 3:5",
-        "hi": "0.30m = 0.18n → m/n = 18/30 = 3/5 → m:n = 3:5"
+        "hi": "30% of m = 18% of n → 0.30m = 0.18n → m/n = 0.18/0.30 = 18/30 = 3/5 → m:n = 3:5"
       }
     },
     {
@@ -37134,7 +37134,7 @@
       },
       "explanation": {
         "en": "√289 = 17 → √(127 + 17) = √144 = 12 → √(388 + 12) = √400 = 20",
-        "hi": "√289 = 17 → √144 = 12 → √400 = 20"
+        "hi": "√289 = 17 → √(127 + 17) = √144 = 12 → √(388 + 12) = √400 = 20"
       }
     },
     {
@@ -37332,7 +37332,7 @@
       },
       "explanation": {
         "en": "Let second = x, first = 20000−x. SI₂ − SI₁ = 2240. (x×10×4)/100 − ((20000−x)×8×4)/100 = 2240 → 0.4x − 0.32(20000−x) = 2240 → 0.72x = 8640 → x = ₹12,000",
-        "hi": "0.4x − 0.32(20000−x) = 2240 → x = ₹12,000"
+        "hi": "Let second = x, first = 20000−x. SI₂ − SI₁ = 2240. (x×10×4)/100 − ((20000−x)×8×4)/100 = 2240 → 0.4x − 0.32(20000−x) = 2240 → 0.72x = 8640 → x = ₹12,000"
       }
     },
     {
@@ -37530,7 +37530,7 @@
       },
       "explanation": {
         "en": "sinA = 3/5 → cosA = 4/5. cosB = 12/13 → sinB = 5/13. sin(A+B) = sinAcosB + cosAsinB = (3/5)(12/13) + (4/5)(5/13) = 36/65 + 20/65 = 56/65",
-        "hi": "sin(A+B) = (3/5)(12/13) + (4/5)(5/13) = 56/65"
+        "hi": "sinA = 3/5 → cosA = 4/5. cosB = 12/13 → sinB = 5/13. sin(A+B) = sinAcosB + cosAsinB = (3/5)(12/13) + (4/5)(5/13) = 36/65 + 20/65 = 56/65"
       }
     },
     {
@@ -37596,7 +37596,7 @@
       },
       "explanation": {
         "en": "8 = m(3) + 2 → 3m = 6 → m = 2",
-        "hi": "8 = 3m + 2 → m = 2"
+        "hi": "8 = m(3) + 2 → 3m = 6 → m = 2"
       }
     },
     {
@@ -37761,7 +37761,7 @@
       },
       "explanation": {
         "en": "(√x + 1/√x)² = x + 2 + 1/x = 16 → x + 1/x = 14",
-        "hi": "(√x + 1/√x)² = x + 1/x + 2 = 16 → x + 1/x = 14"
+        "hi": "(√x + 1/√x)² = x + 2 + 1/x = 16 → x + 1/x = 14"
       }
     },
     {
@@ -37928,7 +37928,7 @@
       },
       "explanation": {
         "en": "√6400 = 80, √2401 = 49 → 80 − 49 = 31 → 31 × (1/4) = 31 × 0.25 = 7.75",
-        "hi": "√6400 = 80, √2401 = 49 → 80 − 49 = 31 → 31 × 0.25 = 7.75"
+        "hi": "√6400 = 80, √2401 = 49 → 80 − 49 = 31 → 31 × (1/4) = 31 × 0.25 = 7.75"
       }
     },
     {
@@ -38126,7 +38126,7 @@
       },
       "explanation": {
         "en": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 7³ − 3×7 = 343 − 21 = 322",
-        "hi": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 343 − 21 = 322"
+        "hi": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 7³ − 3×7 = 343 − 21 = 322"
       }
     },
     {
@@ -38435,7 +38435,7 @@
       "options": [
         {
           "en": "180°",
-          "hi": "180°"
+          "hi": "180°rotate the layer 90 degrees to the right"
         },
         {
           "en": "360°",
@@ -38522,7 +38522,7 @@
       },
       "explanation": {
         "en": "Let √(5+x) = a, √(5−x) = b. (a+b)/(a−b) = 3 → a+b = 3a−3b → 4b = 2a → a = 2b. So 5+x = 4(5−x) → 5x = 15 → x = 3",
-        "hi": "a = 2b → 5+x = 4(5−x) → x = 3"
+        "hi": "Let √(5+x) = a, √(5−x) = b. (a+b)/(a−b) = 3 → a+b = 3a−3b → 4b = 2a → a = 2b. So 5+x = 4(5−x) → 5x = 15 → x = 3"
       }
     },
     {
@@ -39217,7 +39217,7 @@
       },
       "explanation": {
         "en": "Using sin(A+B) = sinAcosB + cosAsinB: sin20°cos10° + cos20°sin10° = sin(20°+10°) = sin30° = 1/2",
-        "hi": "sin(20°+10°) = sin30° = 1/2"
+        "hi": "Using sin(A+B) = sinAcosB + cosAsinB: sin20°cos10° + cos20°sin10° = sin(20°+10°) = sin30° = 1/2"
       }
     },
     {
@@ -40442,7 +40442,7 @@
       },
       "explanation": {
         "en": "(4052 - x²) × 15 = 41340 → 4052 - x² = 41340/15 = 2756 → x² = 4052 - 2756 = 1296 → x = √1296 = 36. Wait, let me recalculate: 4052 - x² = 2756, so x² = 1296, x = 36. But answer shows 46. Let me verify: (4052-46²)×15 = (4052-2116)×15 = 1936×15 = 29040 ≠ 41340. Try 36: (4052-1296)×15 = 2756×15 = 41340 ✓",
-        "hi": "(4052 - x²) × 15 = 41340 → x² = 1296 → x = 36"
+        "hi": "(4052 - x²) × 15 = 41340 → 4052 - x² = 41340/15 = 2756 → x² = 4052 - 2756 = 1296 → x = √1296 = 36. Wait, let me recalculate: 4052 - x² = 2756, so x² = 1296, x = 36. But answer shows 46. Let me verify: (4052-46²)×15 = (4052-2116)×15 = 1936×15 = 29040 ≠ 41340. Try 36: (4052-1296)×15 = 2756×15 = 41340 ✓"
       }
     },
     {
@@ -40673,7 +40673,7 @@
       },
       "explanation": {
         "en": "sin 45° = 8/L → L = 8/sin45° = 8/(1/√2) = 8√2 ≈ 8 × 1.414 = 11.31m ≈ 11m",
-        "hi": "sin 45° = 8/L → L = 8√2 ≈ 11.31m ≈ 11m"
+        "hi": "sin 45° = 8/L → L = 8/sin45° = 8/(1/√2) = 8√2 ≈ 8 × 1.414 = 11.31m ≈ 11m"
       }
     },
     {
@@ -40805,7 +40805,7 @@
       },
       "explanation": {
         "en": "Volume of hemisphere = (2/3)πR³. n hemispheres = n×(2/3)πr³. Equating: (2/3)πR³ = n×(2/3)πr³ → n = R³/r³ = (R/r)³",
-        "hi": "(2/3)πR³ = n×(2/3)πr³ → n = (R/r)³"
+        "hi": "Volume of hemisphere = (2/3)πR³. n hemispheres = n×(2/3)πr³. Equating: (2/3)πR³ = n×(2/3)πr³ → n = R³/r³ = (R/r)³"
       }
     },
     {
@@ -41069,7 +41069,7 @@
       },
       "explanation": {
         "en": "[(√7+√3) + (√7-√3)]/[(√7-√3)(√7+√3)] = 2√7/(7-3) = 2√7/4 = √7/2",
-        "hi": "= 2√7/4 = √7/2"
+        "hi": "[(√7+√3) + (√7-√3)]/[(√7-√3)(√7+√3)] = 2√7/(7-3) = 2√7/4 = √7/2"
       }
     },
     {
@@ -41168,7 +41168,7 @@
       },
       "explanation": {
         "en": "PA² = PB × PC. Let PB = x, then PC = x+5. So 36 = x(x+5) → x² + 5x - 36 = 0 → (x+9)(x-4) = 0 → x = 4 cm",
-        "hi": "PA² = PB × PC → 36 = x(x+5) → x = 4 cm"
+        "hi": "PA² = PB × PC. Let PB = x, then PC = x+5. So 36 = x(x+5) → x² + 5x - 36 = 0 → (x+9)(x-4) = 0 → x = 4 cm"
       }
     },
     {
@@ -41201,7 +41201,7 @@
       },
       "explanation": {
         "en": "PA² = PB × PC. Let PB = x, then PC = x+5. So 36 = x(x+5) → x² + 5x - 36 = 0 → (x+9)(x-4) = 0 → x = 4 cm",
-        "hi": "PA² = PB × PC → 36 = x(x+5) → x = 4 cm"
+        "hi": "PA² = PB × PC. Let PB = x, then PC = x+5. So 36 = x(x+5) → x² + 5x - 36 = 0 → (x+9)(x-4) = 0 → x = 4 cm"
       }
     }
   ],
@@ -44131,7 +44131,7 @@
         },
         {
           "en": "25 litres",
-          "hi": "25 litres"
+          "hi": "25 लीटर"
         },
         {
           "en": "30 litres",
@@ -45876,24 +45876,24 @@
       "options": [
         {
           "en": "Two",
-          "hi": "दो"
+          "hi": "Two"
         },
         {
           "en": "Four",
-          "hi": "चार"
+          "hi": "Four"
         },
         {
           "en": "Three",
-          "hi": "तीन"
+          "hi": "Three"
         },
         {
           "en": "Five",
-          "hi": "पाँच"
+          "hi": "Five"
         }
       ],
       "correctAnswer": {
         "en": "Two",
-        "hi": "दो"
+        "hi": "Two"
       },
       "explanation": {
         "en": "Original Word: D (1) E (2) V (3) E (4) L (5) O (6) P (7). Alphabetical Order: **D** (1) **E** (2) E (3) L (4) O (5) P (6) V (7). The letters **D** and **E** (at positions 1 and 2) remain unchanged. Thus, the answer is **Two**.",
@@ -45944,7 +45944,7 @@
       "options": [
         {
           "en": "CANCEL",
-          "hi": "रद्द"
+          "hi": "CANCEL"
         },
         {
           "en": "NEGLECT",
@@ -45952,16 +45952,16 @@
         },
         {
           "en": "GENTLE",
-          "hi": "कोमल"
+          "hi": "GENTLE"
         },
         {
           "en": "INCITE",
-          "hi": "उकसाना"
+          "hi": "INCITE"
         }
       ],
       "correctAnswer": {
         "en": "CANCEL",
-        "hi": "रद्द"
+        "hi": "CANCEL"
       },
       "explanation": {
         "en": "The word INTELLIGENCE does not contain the letter **'A'**, which is required to form the word **CANCEL**.",
@@ -45978,24 +45978,24 @@
       "options": [
         {
           "en": "H",
-          "hi": "एच"
+          "hi": "H"
         },
         {
           "en": "U",
-          "hi": "यू"
+          "hi": "U"
         },
         {
           "en": "B",
-          "hi": "बी"
+          "hi": "B"
         },
         {
           "en": "F",
-          "hi": "एफ"
+          "hi": "F"
         }
       ],
       "correctAnswer": {
         "en": "F",
-        "hi": "एफ"
+        "hi": "F"
       },
       "explanation": {
         "en": "Based on the given conditions, the arrangement clockwise is: A, B, C, H, E, F, G, D. When facing center, the person to the right of D (clockwise) is **H**, but counter-clockwise (right when facing center) is **F**. Given the answer is F, this indicates the question asks for immediate right in the circular arrangement.",
@@ -46322,15 +46322,15 @@
         },
         {
           "en": "Niece",
-          "hi": "भतीजी/भांजी"
+          "hi": "Niece"
         },
         {
           "en": "Sister",
-          "hi": "बहन"
+          "hi": "Sister"
         },
         {
           "en": "Cousin",
-          "hi": "कज़िन"
+          "hi": "Cousin"
         }
       ],
       "correctAnswer": {
@@ -46356,11 +46356,11 @@
         },
         {
           "en": "Cousin",
-          "hi": "कज़िन"
+          "hi": "Cousin"
         },
         {
           "en": "SON",
-          "hi": "पुत्र"
+          "hi": "SON"
         },
         {
           "en": "Cannot be determined",
@@ -46534,7 +46534,7 @@
         },
         {
           "en": "Cannot be determined",
-          "hi": "Cannot be determined"
+          "hi": "d. निर्धारित नहीं कर सकते"
         }
       ],
       "correctAnswer": {
@@ -46692,24 +46692,24 @@
       "options": [
         {
           "en": "₹4.2 lakh",
-          "hi": "₹4.2 lakh"
+          "hi": "₹ 4.2 लाख"
         },
         {
           "en": "₹2.2 lakh",
-          "hi": "₹2.2 lakh"
+          "hi": "₹ 2.2 लाख"
         },
         {
           "en": "₹2.8 lakh",
-          "hi": "₹2.8 lakh"
+          "hi": "₹ 2.8 लाख"
         },
         {
           "en": "₹2.7 lakh",
-          "hi": "₹2.7 lakh"
+          "hi": "₹ 2.7 लाख"
         }
       ],
       "correctAnswer": {
         "en": "₹2.2 lakh",
-        "hi": "₹2.2 lakh"
+        "hi": "₹ 2.2 लाख"
       },
       "explanation": {
         "en": "Total Sales = 75 * 1.8 = 135 lakh. Junior Sales = 30 * 1.2 = 36 lakh. Senior Sales = 135 - 36 = 99 lakh. Senior Employees = 75 - 30 = 45. Senior Average = 99 / 45 = 2.2 lakh.",
@@ -46828,24 +46828,24 @@
       "options": [
         {
           "en": "Loss of 9.2%",
-          "hi": "Loss of 9.2%"
+          "hi": "9.2% का नुकसान"
         },
         {
           "en": "Profit of 9.29%",
-          "hi": "Profit of 9.29%"
+          "hi": "9.29% का लाभ"
         },
         {
           "en": "Profit of 10%",
-          "hi": "Profit of 10%"
+          "hi": "10% का लाभ"
         },
         {
           "en": "Loss of 10%",
-          "hi": "Loss of 10%"
+          "hi": "10% का नुकसान"
         }
       ],
       "correctAnswer": {
         "en": "Profit of 9.29%",
-        "hi": "Profit of 9.29%"
+        "hi": "9.29% का लाभ"
       },
       "explanation": {
         "en": "CP per R, B, G candy: ₹5, ₹4.5, ₹4.4. Total CP for 4 candies (1:1:2 mix): 5 + 4.5 + 2(4.4) = ₹18.3. Average CP = ₹18.3/4 = ₹4.575. SP per candy = ₹10/2 = ₹5. Profit % = ((5 - 4.575) / 4.575) * 100 = 9.29% Profit.",
@@ -46896,24 +46896,24 @@
       "options": [
         {
           "en": "25 days",
-          "hi": "25 days"
+          "hi": "25 दिन"
         },
         {
           "en": "18 days",
-          "hi": "18 days"
+          "hi": "18 दिन"
         },
         {
           "en": "16 days",
-          "hi": "16 days"
+          "hi": "16 दिन"
         },
         {
           "en": "12 days",
-          "hi": "12 days"
+          "hi": "12 दिन"
         }
       ],
       "correctAnswer": {
         "en": "25 days",
-        "hi": "25 days"
+        "hi": "25 दिन"
       },
       "explanation": {
         "en": "Total Work = 90 units. Efficiencies E_A=3, E_B=2, E_C=1. Work in a 5-day cycle: Days 1-4 (A only) = 4 * 3 = 12 units. Day 5 (A+B+C) = 3+2+1=6 units. Total work in 5 days = 18 units. Total time = 90 / 18 = 5 cycles. 5 * 5 = 25 days.",
@@ -46930,24 +46930,24 @@
       "options": [
         {
           "en": "35 litres",
-          "hi": "35 litres"
+          "hi": "35 लीटर"
         },
         {
           "en": "25 litres",
-          "hi": "25 litres"
+          "hi": "25 लीटर"
         },
         {
           "en": "50 litres",
-          "hi": "50 litres"
+          "hi": "50 लीटर"
         },
         {
           "en": "20 litres",
-          "hi": "20 litres"
+          "hi": "20 लीटर"
         }
       ],
       "correctAnswer": {
         "en": "25 litres",
-        "hi": "25 litres"
+        "hi": "25 लीटर"
       },
       "explanation": {
         "en": "Initial Water = 40 litres. Final Water (for 7:3 ratio in 100L) = 30 litres. Let x be the amount replaced. Water removed = (2/5)x. Remaining Water = 40 - (2/5)x. Since pure acid is added, this must equal the final water: 40 - (2/5)x = 30 => (2/5)x = 10 => x = 25 litres.",
@@ -46964,24 +46964,24 @@
       "options": [
         {
           "en": "24 days",
-          "hi": "24 days"
+          "hi": " 24 दिन"
         },
         {
           "en": "30 days",
-          "hi": "30 days"
+          "hi": "30 दिन"
         },
         {
           "en": "35 days",
-          "hi": "35 days"
+          "hi": "35 दिन"
         },
         {
           "en": "40 days",
-          "hi": "40 days"
+          "hi": "40 दिन। "
         }
       ],
       "correctAnswer": {
         "en": "30 days",
-        "hi": "30 days"
+        "hi": "30 दिन"
       },
       "explanation": {
         "en": "Time is inversely proportional to Efficiency. T_P : T_Q = E_Q : E_P = 2:5. Since T_P = 12 days, 2 parts = 12 => 1 part = 6 days. T_Q = 5 parts = 5 * 6 = 30 days.",
@@ -46998,7 +46998,7 @@
       "options": [
         {
           "en": "900 m",
-          "hi": "900 m"
+          "hi": "900 मीटर"
         },
         {
           "en": "1200 m",
@@ -47032,24 +47032,24 @@
       "options": [
         {
           "en": "139 m²",
-          "hi": "139 m²"
+          "hi": "139 वर्ग मीटर"
         },
         {
           "en": "135 m²",
-          "hi": "135 m²"
+          "hi": "135 वर्ग मीटर"
         },
         {
           "en": "142 m²",
-          "hi": "142 m²"
+          "hi": "142 वर्ग मीटर"
         },
         {
           "en": "150 m²",
-          "hi": "150 m²"
+          "hi": "150 वर्ग मीटर"
         }
       ],
       "correctAnswer": {
         "en": "139 m²",
-        "hi": "139 m²"
+        "hi": "139 वर्ग मीटर"
       },
       "explanation": {
         "en": "Inner radius r=14 m. Outer radius R = 14 + 1.5 = 15.5 m. Area of Path = π (R² - r²) = π (240.25 - 196) = 44.25π. Using π ≈ 22/7, Area ≈ 139.097 m², which is 139 m² (approx).",
@@ -47066,15 +47066,15 @@
       "options": [
         {
           "en": "225°",
-          "hi": "225°"
+          "hi": "225"
         },
         {
           "en": "180°",
-          "hi": "180°"
+          "hi": "180°rotate the layer 90 degrees to the right"
         },
         {
           "en": "240°",
-          "hi": "240°"
+          "hi": "240"
         },
         {
           "en": "360°",
@@ -47083,7 +47083,7 @@
       ],
       "correctAnswer": {
         "en": "225°",
-        "hi": "225°"
+        "hi": "225"
       },
       "explanation": {
         "en": "Conversion factor: 180°/π. Degrees = (5π/4) * (180°/π) = (5/4) * 180° = 5 * 45° = 225°.",
@@ -47134,24 +47134,24 @@
       "options": [
         {
           "en": "6 radians",
-          "hi": "6 radians"
+          "hi": "6 रेडियन"
         },
         {
           "en": "3 radians",
-          "hi": "3 radians"
+          "hi": "3 रेडियन"
         },
         {
           "en": "2 radians",
-          "hi": "2 radians"
+          "hi": "2 रेडियन"
         },
         {
           "en": "4 radians",
-          "hi": "4 radians"
+          "hi": "4 रेडियन"
         }
       ],
       "correctAnswer": {
         "en": "2 radians",
-        "hi": "2 radians"
+        "hi": "2 रेडियन"
       },
       "explanation": {
         "en": "The formula for arc length is l = rθ, where θ is in radians. θ = l/r = 10 cm / 5 cm = 2 radians.",
@@ -47172,11 +47172,11 @@
         },
         {
           "en": "√3/2",
-          "hi": "√3/2"
+          "hi": "3: 2"
         },
         {
           "en": "√2/2",
-          "hi": "√2/2"
+          "hi": "2. 2"
         },
         {
           "en": "3/4",
@@ -47270,15 +47270,15 @@
       "options": [
         {
           "en": "3√3",
-          "hi": "3√3"
+          "hi": "3. 3"
         },
         {
           "en": "5√3",
-          "hi": "5√3"
+          "hi": "5: 3)।"
         },
         {
           "en": "7√3",
-          "hi": "7√3"
+          "hi": "7:3)।"
         },
         {
           "en": "9√3",
@@ -47287,7 +47287,7 @@
       ],
       "correctAnswer": {
         "en": "5√3",
-        "hi": "5√3"
+        "hi": "5: 3)।"
       },
       "explanation": {
         "en": "Rationalizing x²: x² = 7 + 4√3. Simplifying x: x = √(7 + 4√3) = 2 + √3. x² + x - 9 = (7 + 4√3) + (2 + √3) - 9 = (7 + 2 - 9) + (4√3 + √3) = 0 + 5√3.",
@@ -47304,24 +47304,24 @@
       "options": [
         {
           "en": "36°",
-          "hi": "36°"
+          "hi": "36"
         },
         {
           "en": "72°",
-          "hi": "72°"
+          "hi": "72"
         },
         {
           "en": "108°",
-          "hi": "108°"
+          "hi": "108"
         },
         {
           "en": "144°",
-          "hi": "144°"
+          "hi": "144"
         }
       ],
       "correctAnswer": {
         "en": "36°",
-        "hi": "36°"
+        "hi": "36"
       },
       "explanation": {
         "en": "Sum of angles is 360°. x + 2x + 3x + 4x = 360° => 10x = 360° => x = 36°. The smallest angle is x = 36°.",
@@ -48572,24 +48572,24 @@
       "options": [
         {
           "en": "Legitimacy | वैधता",
-          "hi": "Legitimacy | वैधता"
+          "hi": "वैधता | वैद्यता"
         },
         {
           "en": "Neutrality | तटस्थता",
-          "hi": "Neutrality | तटस्थता"
+          "hi": "तटस्थता | तटस्थता"
         },
         {
           "en": "Fairness | निष्पक्षता",
-          "hi": "Fairness | निष्पक्षता"
+          "hi": "निष्पक्षता | निष्ठा"
         },
         {
           "en": "Diversity | विविधता",
-          "hi": "Diversity | विविधता"
+          "hi": "विविधता | विज्ञान"
         }
       ],
       "correctAnswer": {
         "en": "Fairness | निष्पक्षता",
-        "hi": "Fairness | निष्पक्षता"
+        "hi": "निष्पक्षता | निष्ठा"
       },
       "explanation": {
         "en": "The relationship is one of synonymy or a closely related concept. Liberty is synonymous with Autonomy. Similarly, Equality is most closely related to the concept of Fairness.",
@@ -48674,24 +48674,24 @@
       "options": [
         {
           "en": "Tissue | ऊतक",
-          "hi": "Tissue | ऊतक"
+          "hi": "ऊतक | ऊतक"
         },
         {
           "en": "Proton | प्रोटॉन",
-          "hi": "Proton | प्रोटॉन"
+          "hi": "प्रोटॉन | प्रोटॉन"
         },
         {
           "en": "System | तंत्र",
-          "hi": "System | तंत्र"
+          "hi": "सिस्टम | तंत्र"
         },
         {
           "en": "Gene | जीन",
-          "hi": "Gene | जीन"
+          "hi": "जीन | जीन"
         }
       ],
       "correctAnswer": {
         "en": "Tissue | ऊतक",
-        "hi": "Tissue | ऊतक"
+        "hi": "ऊतक | ऊतक"
       },
       "explanation": {
         "en": "The terms are arranged in increasing order of structural complexity in the field of biology: Atoms combine to form Molecules, Molecules form Cells, and Cells group together to form Tissue.",
@@ -48776,24 +48776,24 @@
       "options": [
         {
           "en": "Only Conclusion I follows | केवल निष्कर्ष I अनुसरण करता है",
-          "hi": "Only Conclusion I follows | केवल निष्कर्ष I अनुसरण करता है"
+          "hi": "केवल निष्कर्ष I पालन करता है | केवल निष्ठा I और सरण करता है"
         },
         {
           "en": "Only Conclusion II follows | केवल निष्कर्ष II अनुसरण करता है",
-          "hi": "Only Conclusion II follows | केवल निष्कर्ष II अनुसरण करता है"
+          "hi": "केवल निष्कर्ष II पालन करता है | केवल निष्ठा II अनुसरण करता है"
         },
         {
           "en": "Both I and II follow | I और II दोनों अनुसरण करते हैं",
-          "hi": "Both I and II follow | I और II दोनों अनुसरण करते हैं"
+          "hi": "I और II दोनों पालन करते हैं | I और II दोनो अनुनयनकरते हैं।"
         },
         {
           "en": "Neither I nor II follows | न तो I और न ही II अनुसरण करता है",
-          "hi": "Neither I nor II follows | न तो I और न ही II अनुसरण करता है"
+          "hi": "न तो I और न ही II पालन करता है | न तो I और न ही II अनुकरण करता है"
         }
       ],
       "correctAnswer": {
         "en": "Only Conclusion II follows | केवल निष्कर्ष II अनुसरण करता है",
-        "hi": "Only Conclusion II follows | केवल निष्कर्ष II अनुसरण करता है"
+        "hi": "केवल निष्कर्ष II पालन करता है | केवल निष्ठा II अनुसरण करता है"
       },
       "explanation": {
         "en": "Conclusion I is not a definite conclusion; 'most' depend on monsoon, which means some irrigation infrastructure may exist. Conclusion II is directly supported, as heavy dependence on monsoon means a weak monsoon can logically lead to a reduction in the agricultural output.",
@@ -48810,24 +48810,24 @@
       "options": [
         {
           "en": "Only I and II are implicit | केवल I और II निहित हैं",
-          "hi": "Only I and II are implicit | केवल I और II निहित हैं"
+          "hi": "केवल I और II निहित हैं | केवल I और II निहितार्थ हैं"
         },
         {
           "en": "Only II and III are implicit | केवल II और III निहित हैं",
-          "hi": "Only II and III are implicit | केवल II और III निहित हैं"
+          "hi": "केवल II और III निहित हैं | केवल II और III निहितार्थ हैं"
         },
         {
           "en": "Only I is implicit | केवल I निहित है",
-          "hi": "Only I is implicit | केवल I निहित है"
+          "hi": "केवल I ही अंतर्निहित है | केवल I ही अंतर्निहित है"
         },
         {
           "en": "All assumptions are implicit | सभी मान्यताएँ निहित हैं",
-          "hi": "All assumptions are implicit | सभी मान्यताएँ निहित हैं"
+          "hi": "सभी धारणाएं अंतर्निहित हैं | सभ्यता और निहितार्थ है"
         }
       ],
       "correctAnswer": {
         "en": "Only I and II are implicit | केवल I और II निहित हैं",
-        "hi": "Only I and II are implicit | केवल I और II निहित हैं"
+        "hi": "केवल I और II निहित हैं | केवल I और II निहितार्थ हैं"
       },
       "explanation": {
         "en": "Assumption I is implicit because the 'prospects for the search for extraterrestrial life' rely on the potential for life in the habitable zone. Assumption II is implicit because the mention of 'technological limitations' as an obstacle implies that current technology is insufficient. Assumption III is not necessarily implied by the statement.",
@@ -48844,24 +48844,24 @@
       "options": [
         {
           "en": "One | एक",
-          "hi": "One | एक"
+          "hi": "एक | एक"
         },
         {
           "en": "Two | दो",
-          "hi": "Two | दो"
+          "hi": "दो | दो"
         },
         {
           "en": "Three | तीन",
-          "hi": "Three | तीन"
+          "hi": "तीन | टीन"
         },
         {
           "en": "None | कोई नहीं",
-          "hi": "None | कोई नहीं"
+          "hi": "कोई नहीं | कोई नहीं"
         }
       ],
       "correctAnswer": {
         "en": "Two | दो",
-        "hi": "Two | दो"
+        "hi": "दो | दो"
       },
       "explanation": {
         "en": "The 1st, 2nd, 3rd, and 6th letters of the word PROVIDE are P, R, O, and D. \r\nUsing these letters, two meaningful English words can be formed: \r\n1. DROP (गिरना/बूंद) \r\n2. PROD (उकसाना/नुकीली चीज़ से चुभाना)",
@@ -48878,24 +48878,24 @@
       "options": [
         {
           "en": "1 and 2 | 1 और 2",
-          "hi": "1 and 2 | 1 और 2"
+          "hi": "1 और 2 | 1 और 2"
         },
         {
           "en": "2 and 3 | 2 और 3",
-          "hi": "2 and 3 | 2 और 3"
+          "hi": "2 और 3 | 2 और 3"
         },
         {
           "en": "2 and 4 | 2 और 4",
-          "hi": "2 and 4 | 2 और 4"
+          "hi": "2 और 4 | 2 और 4"
         },
         {
           "en": "3 and 4 | 3 और 4",
-          "hi": "3 and 4 | 3 और 4"
+          "hi": "3 और 4 | 3 और 4"
         }
       ],
       "correctAnswer": {
         "en": "2 and 3 | 2 और 3",
-        "hi": "2 and 3 | 2 और 3"
+        "hi": "2 और 3 | 2 और 3"
       },
       "explanation": {
         "en": "Addresses 2 and 3 are exact matches. Address 1 uses '3/5', and Address 4 uses a different PIN code '208002'.",
@@ -48912,24 +48912,24 @@
       "options": [
         {
           "en": "11 | 11",
-          "hi": "11 | 11"
+          "hi": "11:11)। "
         },
         {
           "en": "12 | 12",
-          "hi": "12 | 12"
+          "hi": "12:12)।"
         },
         {
           "en": "13 | 13",
-          "hi": "13 | 13"
+          "hi": "13&amp;nbsp; 13"
         },
         {
           "en": "14 | 14",
-          "hi": "14 | 14"
+          "hi": "१४|१४"
         }
       ],
       "correctAnswer": {
         "en": "11 | 11",
-        "hi": "11 | 11"
+        "hi": "11:11)। "
       },
       "explanation": {
         "en": "Arranging STAMINA alphabetically gives: A A I M N S T. The first letter from the left is A (1), and the fourth letter from the right is M (13). The number of letters between A and M is $13 - 1 - 1 = 11$.",
@@ -48958,7 +48958,7 @@
         },
         {
           "en": "YAZ | YAZ",
-          "hi": "YAZ | YAZ"
+          "hi": "याज़ | याज़"
         }
       ],
       "correctAnswer": {
@@ -48980,24 +48980,24 @@
       "options": [
         {
           "en": "17 | 17",
-          "hi": "17 | 17"
+          "hi": "17–17"
         },
         {
           "en": "15 | 15",
-          "hi": "15 | 15"
+          "hi": "15:15)।"
         },
         {
           "en": "12 | 12",
-          "hi": "12 | 12"
+          "hi": "12:12)।"
         },
         {
           "en": "10 | 10",
-          "hi": "10 | 10"
+          "hi": "10. 10"
         }
       ],
       "correctAnswer": {
         "en": "15 | 15",
-        "hi": "15 | 15"
+        "hi": "15:15)।"
       },
       "explanation": {
         "en": "Total Books - (Position of A from Left + Position of B from Right) = $50 - (15 + 20) = 15$.",
@@ -49056,7 +49056,7 @@
         },
         {
           "en": "VAT | VAT",
-          "hi": "VAT | VAT"
+          "hi": "वैट | वैट"
         },
         {
           "en": "DNA | DNA",
@@ -49082,24 +49082,24 @@
       "options": [
         {
           "en": "Father | पिता",
-          "hi": "Father | पिता"
+          "hi": "पिता | पिटा"
         },
         {
           "en": "Uncle | चाचा",
-          "hi": "Uncle | चाचा"
+          "hi": "चाचा | चाचा"
         },
         {
           "en": "Brother | भाई",
-          "hi": "Brother | भाई"
+          "hi": "भाई | भाई"
         },
         {
           "en": "Cousin | चचेरा भाई/बहन",
-          "hi": "Cousin | चचेरा भाई/बहन"
+          "hi": "चचेरा भाई/बहन"
         }
       ],
       "correctAnswer": {
         "en": "Uncle | चाचा",
-        "hi": "Uncle | चाचा"
+        "hi": "चाचा | चाचा"
       },
       "explanation": {
         "en": "A is the son of B. B is the brother of C. Therefore, C is B's sibling. A's parent's sibling is A's Uncle or Aunt. Given 'Uncle' as an option, it is the appropriate choice.",
@@ -49150,11 +49150,11 @@
       "options": [
         {
           "en": "10 | 10",
-          "hi": "10 | 10"
+          "hi": "10. 10"
         },
         {
           "en": "17 | 17",
-          "hi": "17 | 17"
+          "hi": "17–17"
         },
         {
           "en": "28 | 28",
@@ -49230,7 +49230,7 @@
         },
         {
           "en": "22 | 22",
-          "hi": "22 | 22"
+          "hi": "22:22)। "
         }
       ],
       "correctAnswer": {
@@ -49252,24 +49252,24 @@
       "options": [
         {
           "en": "Daughter | बेटी",
-          "hi": "Daughter | बेटी"
+          "hi": "बेटी | बेती"
         },
         {
           "en": "Daughter-in-law | बहू",
-          "hi": "Daughter-in-law | बहू"
+          "hi": "बहू के साथ बैतलहम लौटी"
         },
         {
           "en": "Cousin | चचेरा भाई/बहन",
-          "hi": "Cousin | चचेरा भाई/बहन"
+          "hi": "चचेरा भाई/बहन"
         },
         {
           "en": "Sister | बहन",
-          "hi": "Sister | बहन"
+          "hi": "बहन | बहन"
         }
       ],
       "correctAnswer": {
         "en": "Daughter | बेटी",
-        "hi": "Daughter | बेटी"
+        "hi": "बेटी | बेती"
       },
       "explanation": {
         "en": "'My mother’s only daughter' refers to the woman herself. The girl is the daughter of the woman, making her the woman's Daughter.",
@@ -49286,24 +49286,24 @@
       "options": [
         {
           "en": "Wife | पत्नी",
-          "hi": "Wife | पत्नी"
+          "hi": "पत्नी | पत्रिका"
         },
         {
           "en": "Sister | बहन",
-          "hi": "Sister | बहन"
+          "hi": "बहन | बहन"
         },
         {
           "en": "Mother | माँ",
-          "hi": "Mother | माँ"
+          "hi": "माँ | माँ"
         },
         {
           "en": "Daughter-in-law | बहू",
-          "hi": "Daughter-in-law | बहू"
+          "hi": "बहू के साथ बैतलहम लौटी"
         }
       ],
       "correctAnswer": {
         "en": "Wife | पत्नी",
-        "hi": "Wife | पत्नी"
+        "hi": "पत्नी | पत्रिका"
       },
       "explanation": {
         "en": "The man's son's sister is the man's daughter. The statement simplifies to: 'The man's daughter is my daughter.' For this to be true, the woman must be the man's Wife.",
@@ -49358,20 +49358,20 @@
         },
         {
           "en": "-3 | -3",
-          "hi": "-3 | -3"
+          "hi": "3. 3"
         },
         {
           "en": "2 | 2",
-          "hi": "2 | 2"
+          "hi": "2. 2"
         },
         {
           "en": "5 | 5",
-          "hi": "5 | 5"
+          "hi": "5. 5"
         }
       ],
       "correctAnswer": {
         "en": "2 | 2",
-        "hi": "2 | 2"
+        "hi": "2. 2"
       },
       "explanation": {
         "en": "The problem follows the rule $A \\% B = (A \\times B) - 1$. Assuming the required operation was $3 \\% 1$: $(3 \\times 1) - 1 = 3 - 1 = 2$.",
