@@ -42834,6 +42834,833 @@
       }
     }
   ],
+  "ssc_cgl_gk_12_sep_s3": [
+    {
+      "questionNo": 1,
+      "question": {
+        "en": "Arrange the following classical dances in chronological order of earliest historical references (oldest to newest):<br>1. Bharatanatyam<br>2. Mohiniyattam<br>3. Kathak<br>4. Manipuri",
+        "hi": "निम्नलिखित शास्त्रीय नृत्यों को आरंभिक ऐतिहासिक संदर्भों (सबसे पुराने से नवीनतम) के कालानुक्रमिक क्रम में व्यवस्थित करें:<br>1. भरतनाट्यम<br>2. मोहिनीअट्टम<br>3. कथक<br>4. मणिपुरी"
+      },
+      "options": [
+        {
+          "en": "1-3-2-4",
+          "hi": "1-3-2-4"
+        },
+        {
+          "en": "1-2-4-3",
+          "hi": "1-2-4-3"
+        },
+        {
+          "en": "1-3-4-2",
+          "hi": "1-3-4-2"
+        },
+        {
+          "en": "1-4-3-2",
+          "hi": "1-4-3-2"
+        }
+      ],
+      "correctAnswer": {
+        "en": "1-3-4-2",
+        "hi": "1-3-4-2"
+      },
+      "explanation": {
+        "en": "Bharatanatyam (based on Natyashastra) is the oldest. Kathak traces roots to ancient bards. Manipuri gained prominence around the 15th-18th century, and Mohiniyattam as a distinct form was documented later, gaining significant structure in the 19th century.",
+        "hi": "भरतनाट्यम (नाट्यशास्त्र पर आधारित) सबसे पुराना है। कथक की जड़ें प्राचीन कथावाचकों से जुड़ी हैं। मणिपुरी ने 15वीं-18वीं शताब्दी के आसपास प्रमुखता प्राप्त की, और मोहिनीअट्टम को एक विशिष्ट रूप में बाद में प्रलेखित किया गया, जिसने 19वीं शताब्दी में महत्वपूर्ण संरचना प्राप्त की।"
+      }
+    },
+    {
+      "questionNo": 2,
+      "question": {
+        "en": "Which of the following pairs is correctly matched with the shape of its roof?",
+        "hi": "निम्नलिखित में से कौन सा युग्म इसकी छत के आकार से सही सुमेलित है?"
+      },
+      "options": [
+        {
+          "en": "Latina-rectangular, wagon-shaped",
+          "hi": "लैटिना - आयताकार, वैगन के आकार का"
+        },
+        {
+          "en": "Phamsana slabs rising to a point, straight incline",
+          "hi": "फमसाना - एक बिंदु तक उठने वाली स्लैब, सीधी ढलान"
+        },
+        {
+          "en": "Valabhi- tall, curving inward sharply",
+          "hi": "वलभी - लंबा, तेजी से अंदर की ओर झुका हुआ"
+        },
+        {
+          "en": "Latina-low and broad with stepped roofing",
+          "hi": "लैटिना - सीढ़ीदार छत के साथ कम और चौड़ा"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Phamsana slabs rising to a point, straight incline",
+        "hi": "फमसाना - एक बिंदु तक उठने वाली स्लैब, सीधी ढलान"
+      },
+      "explanation": {
+        "en": "In Nagara temple architecture, Phamsana roofs are broader and shorter than Latina ones, consisting of several slabs that rise to a single point over the building on a straight incline.",
+        "hi": "नगर मंदिर वास्तुकला में, फमसाना छतें लैटिना की तुलना में चौड़ी और छोटी होती हैं, जिनमें कई स्लैब होते हैं जो सीधी ढलान पर इमारत के ऊपर एक बिंदु तक बढ़ते हैं।"
+      }
+    },
+    {
+      "questionNo": 3,
+      "question": {
+        "en": "The Pongtu Festival, celebrated by the Tutsa tribe of Arunachal Pradesh, is primarily observed to seek blessings from which deity before millet harvesting?",
+        "hi": "अरुणाचल प्रदेश की तुत्सा जनजाति द्वारा मनाया जाने वाला पोंगटू महोत्सव मुख्य रूप से बाजरा की कटाई से पहले किस देवता से आशीर्वाद लेने के लिए मनाया जाता है?"
+      },
+      "options": [
+        {
+          "en": "Donyi-Polo",
+          "hi": "डोनयी-पोलो"
+        },
+        {
+          "en": "Rangkhothak",
+          "hi": "रंगखोथक"
+        },
+        {
+          "en": "Rangfraa",
+          "hi": "रंगफ्रा"
+        },
+        {
+          "en": "Nyegi-Nyapa",
+          "hi": "न्येगी-न्यापा"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Rangkhothak",
+        "hi": "रंगखोथक"
+      },
+      "explanation": {
+        "en": "Pongtu is the most important festival of the Tutsa community. They worship the supreme deity 'Rangkhothak' to seek a bountiful harvest and protection from calamities.",
+        "hi": "पोंगटू तुत्सा समुदाय का सबसे महत्वपूर्ण त्योहार है। वे भरपूर फसल और आपदाओं से सुरक्षा के लिए सर्वोच्च देवता 'रंगखोथक' की पूजा करते हैं।"
+      }
+    },
+    {
+      "questionNo": 4,
+      "question": {
+        "en": "Fill in the blanks:<br>In Teen Taal of Hindustani Classical Music, the Khali is marked on the _________ matra.",
+        "hi": "रिक्त स्थान भरेंः<br>हिंदुस्तानी शास्त्रीय संगीत की तीनताल में, खाली _________ मात्रा पर होती है।"
+      },
+      "options": [
+        {
+          "en": "1",
+          "hi": "1"
+        },
+        {
+          "en": "5",
+          "hi": "5"
+        },
+        {
+          "en": "9",
+          "hi": "9"
+        },
+        {
+          "en": "13",
+          "hi": "13"
+        }
+      ],
+      "correctAnswer": {
+        "en": "9",
+        "hi": "9"
+      },
+      "explanation": {
+        "en": "Teental has 16 beats (matras) divided into four segments of 4 beats each. Taali (claps) are on the 1st, 5th, and 13th beats, while the Khali (empty/wave) is on the 9th beat.",
+        "hi": "तीनताल में 16 मात्राएं होती हैं जो 4-4 मात्राओं के चार खंडों में विभाजित होती हैं। ताली 1, 5 और 13वीं मात्रा पर होती है, जबकि खाली 9वीं मात्रा पर होती है।"
+      }
+    },
+    {
+      "questionNo": 5,
+      "question": {
+        "en": "Why is the weight and circumference of a cricket ball strictly regulated in official matches?",
+        "hi": "आधिकारिक मैचों में क्रिकेट गेंद के वजन और परिधि को सख्ती से नियंत्रित क्यों किया जाता है?"
+      },
+      "options": [
+        {
+          "en": "Heavier balls suit bowlers, lighter ones suit batsmen, so balance is needed",
+          "hi": "भारी गेंदें गेंदबाजों के अनुकूल होती हैं, हल्की गेंदें बल्लेबाजों के अनुकूल होती हैं, इसलिए संतुलन की जरूरत होती है"
+        },
+        {
+          "en": "Variations affect bounce, swing, and fairness on standard pitches",
+          "hi": "विविधताएं मानक पिचों पर उछाल, स्विंग और निष्पक्षता को प्रभावित करती हैं"
+        },
+        {
+          "en": "ICC mandates it to cut costs and simplify logistics",
+          "hi": "आईसीसी ने इसे लागत में कटौती और रसद को सरल बनाने का काम सौंपा है"
+        },
+        {
+          "en": "Only red balls follow this; white balls have separate norms",
+          "hi": "केवल लाल गेंदें ही इसका पालन करती हैं; सफ़ेद गेंद के लिए अलग मानदंड हैं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Variations affect bounce, swing, and fairness on standard pitches",
+        "hi": "विविधताएं मानक पिचों पर उछाल, स्विंग और निष्पक्षता को प्रभावित करती हैं"
+      },
+      "explanation": {
+        "en": "Uniformity in ball size and weight is crucial to ensure that the dynamics of the game, like swing and bounce, remain consistent and fair for both competing sides.",
+        "hi": "गेंद के आकार और वजन में एकरूपता यह सुनिश्चित करने के लिए महत्वपूर्ण है कि खेल की गतिशीलता, जैसे स्विंग और उछाल, दोनों प्रतिस्पर्धी पक्षों के लिए सुसंगत और निष्पक्ष रहे।"
+      }
+    },
+    {
+      "questionNo": 6,
+      "question": {
+        "en": "Which Indian athlete won the first-ever Paralympic gold in archery at the Paris 2024 Paralympics?",
+        "hi": "किस भारतीय एथलीट ने पेरिस 2024 पैरालिंपिक में तीरंदाजी में पहला पैरालिंपिक स्वर्ण जीता?"
+      },
+      "options": [
+        {
+          "en": "Sheetal Devi",
+          "hi": "शीतल देवी"
+        },
+        {
+          "en": "Harvinder Singh",
+          "hi": "हरविंदर सिंह"
+        },
+        {
+          "en": "Rakesh Kumar",
+          "hi": "राकेश कुमार"
+        },
+        {
+          "en": "Preethi Pal",
+          "hi": "प्रीति पाल"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Harvinder Singh",
+        "hi": "हरविंदर सिंह"
+      },
+      "explanation": {
+        "en": "Harvinder Singh created history by becoming the first Indian archer to win a gold medal at either the Olympics or Paralympics by winning the Men's Individual Recurve Open at Paris 2024.",
+        "hi": "हरविंदर सिंह ने पेरिस 2024 में पुरुषों की व्यक्तिगत रिकर्व ओपन जीतकर ओलंपिक या पैरालिंपिक में स्वर्ण पदक जीतने वाले पहले भारतीय तीरंदाज बनकर इतिहास रच दिया।"
+      }
+    },
+    {
+      "questionNo": 7,
+      "question": {
+        "en": "Which city hosted the Meeting of the BRICS Ministers of Foreign Affairs on 4 June 2018?",
+        "hi": "4 जून 2018 को ब्रिक्स विदेश मंत्रियों की बैठक किस शहर में आयोजित हुई?"
+      },
+      "options": [
+        {
+          "en": "Pretoria, South Africa",
+          "hi": "प्रिटोरिया, दक्षिण अफ्रीका"
+        },
+        {
+          "en": "Brasilia, Brazil",
+          "hi": "ब्रासीलिया, ब्राज़ील"
+        },
+        {
+          "en": "Beijing, China",
+          "hi": "बीजिंग, चाइना"
+        },
+        {
+          "en": "New Delhi, India",
+          "hi": "नई दिल्ली, भारत"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Pretoria, South Africa",
+        "hi": "प्रिटोरिया, दक्षिण अफ्रीका"
+      },
+      "explanation": {
+        "en": "The standalone meeting of BRICS Ministers of Foreign Affairs/International Relations was held in Pretoria, South Africa, as part of South Africa's BRICS chairmanship in 2018.",
+        "hi": "ब्रिक्स के विदेश मंत्रियों/अंतर्राष्ट्रीय संबंधों के मंत्रियों की बैठक 2018 में दक्षिण अफ्रीका की ब्रिक्स अध्यक्षता के हिस्से के रूप में प्रिटोरिया, दक्षिण अफ्रीका में आयोजित की गई थी।"
+      }
+    },
+    {
+      "questionNo": 8,
+      "question": {
+        "en": "Which of the following best describes the theme of the book 'Hot Stage'?",
+        "hi": "निम्नलिखित में से कौन सा कथन 'हॉट स्टेज' पुस्तक के विषय का सबसे अच्छा वर्णन करता है?"
+      },
+      "options": [
+        {
+          "en": "A collection of modern Indian plays on social issues.",
+          "hi": "सामाजिक मुद्दों पर आधुनिक भारतीय नाटकों का संग्रह"
+        },
+        {
+          "en": "A historical account of India's independence movement",
+          "hi": "भारत के स्वतंत्रता आंदोलन का ऐतिहासिक विवरण"
+        },
+        {
+          "en": "A novel about ancient Indian mythology",
+          "hi": "प्राचीन भारतीय पौराणिक कथाओं पर आधारित एक उपन्यास"
+        },
+        {
+          "en": "A travelogue about the Himalayas",
+          "hi": "हिमालय के बारे में एक यात्रा वृत्तांत"
+        }
+      ],
+      "correctAnswer": {
+        "en": "A collection of modern Indian plays on social issues.",
+        "hi": "सामाजिक मुद्दों पर आधुनिक भारतीय नाटकों का संग्रह"
+      },
+      "explanation": {
+        "en": "'Hot Stage' is a work associated with modern Indian theatre, focusing on contemporary social themes through dramatic representation.",
+        "hi": "'हॉट स्टेज' आधुनिक भारतीय रंगमंच से जुड़ी एक कृति है, जो नाटकीय प्रतिनिधित्व के माध्यम से समकालीन सामाजिक विषयों पर केंद्रित है।"
+      }
+    },
+    {
+      "questionNo": 9,
+      "question": {
+        "en": "Which of the following is not typically considered a weather element?",
+        "hi": "निम्नलिखित में से किसे सामान्यतः मौसम तत्व नहीं माना जाता है?"
+      },
+      "options": [
+        {
+          "en": "Temperature",
+          "hi": "तापमान"
+        },
+        {
+          "en": "Humidity",
+          "hi": "आर्द्रता"
+        },
+        {
+          "en": "Soil pH",
+          "hi": "मिट्टी का पीएच"
+        },
+        {
+          "en": "Wind",
+          "hi": "हवा"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Soil pH",
+        "hi": "मिट्टी का पीएच"
+      },
+      "explanation": {
+        "en": "Weather elements include temperature, humidity, precipitation, wind, and atmospheric pressure. Soil pH is an edaphic (soil-related) factor, not an atmospheric weather element.",
+        "hi": "मौसम के तत्वों में तापमान, आर्द्रता, वर्षा, हवा और वायुमंडलीय दबाव शामिल हैं। मिट्टी का पीएच (Soil pH) एक मृदा संबंधी कारक है, न कि वायुमंडलीय मौसम तत्व।"
+      }
+    },
+    {
+      "questionNo": 10,
+      "question": {
+        "en": "Which of the following about the 61st National Chess Championship is/are correct?<br>1.) GM Karthik Venkataraman won in Gurgaon and got 6 lakh.<br>2.) IM Neelash Saha finished 2nd but lost due to a tiebreak game vs Ganguly.",
+        "hi": "61वीं राष्ट्रीय शतरंज चैंपियनशिप के बारे में निम्नलिखित में से कौन सा/से कथन सही है/हैं?<br>1.) ग्रैंडमास्टर कार्तिक वेंकटरमन ने गुड़गांव में जीत हासिल की और उन्हें ₹6 लाख मिले।<br>2.) अंतर्राष्ट्रीय शतरंज खिलाड़ी नीलाश साहा दूसरे स्थान पर रहे, लेकिन गांगुली के खिलाफ टाईब्रेक गेम के कारण हार गए।"
+      },
+      "options": [
+        {
+          "en": "Only 1",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "Only 2",
+          "hi": "केवल 2"
+        },
+        {
+          "en": "Both 1 and 2 are correct",
+          "hi": "1 और 2 दोनों सही हैं"
+        },
+        {
+          "en": "Neither 1 nor 2 is correct",
+          "hi": "न तो 1 और न ही 2 सही है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1",
+        "hi": "केवल 1"
+      },
+      "explanation": {
+        "en": "GM Karthik Venkataraman retained his National Title at the 61st National Chess Championship. Statement 2 is incorrect regarding the specific details of the runners-up tiebreak situation involving Saha and Ganguly.",
+        "hi": "ग्रैंडमास्टर कार्तिक वेंकटरमन ने 61वीं राष्ट्रीय शतरंज चैंपियनशिप में अपना राष्ट्रीय खिताब बरकरार रखा। कथन 2 साहा और गांगुली से जुड़े उपविजेता टाईब्रेक की विशिष्ट स्थितियों के बारे में गलत है।"
+      }
+    },
+    {
+      "questionNo": 11,
+      "question": {
+        "en": "What was launched on Electrical Safety Day 2025 by MoS Power and New & Renewable Energy, Shri Shripad Naik?",
+        "hi": "विद्युत सुरक्षा दिवस 2025 पर विद्युत और नवीन एवं नवीकरणीय ऊर्जा राज्य मंत्री श्री श्रीपद नाइक द्वारा क्या लॉन्च किया गया?"
+      },
+      "options": [
+        {
+          "en": "National Fire Safety Code",
+          "hi": "राष्ट्रीय अग्नि सुरक्षा संहिता"
+        },
+        {
+          "en": "Suraksha Shakti safety mascot",
+          "hi": "सुरक्षा शक्ति सुरक्षा शुभंकर"
+        },
+        {
+          "en": "Smart Meter Adoption Program",
+          "hi": "स्मार्ट मीटर अपनाने का कार्यक्रम"
+        },
+        {
+          "en": "Digital Grid Optimization Tool",
+          "hi": "डिजिटल ग्रिड अनुकूलन उपकरण"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Suraksha Shakti safety mascot",
+        "hi": "सुरक्षा शक्ति सुरक्षा शुभंकर"
+      },
+      "explanation": {
+        "en": "The 'Suraksha Shakti' mascot was unveiled to raise awareness about electrical safety and promote safe practices among the public.",
+        "hi": "विद्युत सुरक्षा के बारे में जागरूकता बढ़ाने और जनता के बीच सुरक्षित प्रथाओं को बढ़ावा देने के लिए 'सुरक्षा शक्ति' शुभंकर का अनावरण किया गया।"
+      }
+    },
+    {
+      "questionNo": 12,
+      "question": {
+        "en": "Read the following Assertion (A) and Reason (R) carefully and choose the correct option:<br>Assertion (A): The Chotanagpur Plateau is considered an eastern extension of the Central Highlands.<br>Reason (R): The Chotanagpur Plateau is drained primarily by the Chambal and Betwa rivers.",
+        "hi": "निम्नलिखित अभिकथन (A) और कारण (R) को ध्यानपूर्वक पढ़ें और सही विकल्प चुनेंः<br>अभिकथन (A): छोटानागपुर पठार को मध्य उच्चभूमि का पूर्वी विस्तार माना जाता है।<br>कारण (R): छोटानागपुर पठार का जल-अपवाह मुख्यतः चंबल और बेतवा नदियों द्वारा होता है।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, और R, A का सही स्पष्टीकरण है"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A का सही स्पष्टीकरण नहीं है"
+        },
+        {
+          "en": "A is true, but R is false",
+          "hi": "A सत्य है, लेकिन R असत्य है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A असत्य है, लेकिन R सत्य है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "A is true, but R is false",
+        "hi": "A सत्य है, लेकिन R असत्य है"
+      },
+      "explanation": {
+        "en": "While Chotanagpur is the eastern extension of the Central Highlands, the Reason is false because it is primarily drained by rivers like the Damodar and Subarnarekha. Chambal and Betwa flow through the Malwa Plateau.",
+        "hi": "जबकि छोटानागपुर मध्य उच्चभूमि का पूर्वी विस्तार है, 'कारण' गलत है क्योंकि इसका जल-अपवाह मुख्य रूप से दामोदर और सुवर्णरेखा जैसी नदियों द्वारा होता है। चंबल और बेतवा मालवा पठार से होकर बहती हैं।"
+      }
+    },
+    {
+      "questionNo": 13,
+      "question": {
+        "en": "In which year is the first module of the Bharatiya Antariksh Station (BAS) scheduled for launch?",
+        "hi": "भारतीय अंतरिक्ष स्टेशन (बीएएस) का पहला मॉड्यूल किस वर्ष लॉन्च किया जाना है?"
+      },
+      "options": [
+        {
+          "en": "2028",
+          "hi": "2028"
+        },
+        {
+          "en": "2030",
+          "hi": "2030"
+        },
+        {
+          "en": "2035",
+          "hi": "2035"
+        },
+        {
+          "en": "2040",
+          "hi": "2040"
+        }
+      ],
+      "correctAnswer": {
+        "en": "2028",
+        "hi": "2028"
+      },
+      "explanation": {
+        "en": "The Indian government has approved the development of the Bharatiya Antariksh Station, with the first module (BAS-1) planned for launch by 2028.",
+        "hi": "भारत सरकार ने भारतीय अंतरिक्ष स्टेशन के विकास को मंजूरी दे दी है, जिसका पहला मॉड्यूल (BAS-1) 2028 तक लॉन्च करने की योजना है।"
+      }
+    },
+    {
+      "questionNo": 14,
+      "question": {
+        "en": "Which statement best reflects the role of non-metallic minerals in India?",
+        "hi": "कौन सा कथन भारत में अधात्विक खनिजों की भूमिका को सर्वोत्तम रूप से दर्शाता है?"
+      },
+      "options": [
+        {
+          "en": "India lacks enough reserves for industrial use.",
+          "hi": "भारत में औद्योगिक उपयोग के लिए पर्याप्त भंडार का अभाव है।"
+        },
+        {
+          "en": "Mostly used as gems, with minimal industrial use.",
+          "hi": "इसका अधिकतर उपयोग रत्नों के रूप में किया जाता है, तथा औद्योगिक उपयोग न्यूनतम होता है।"
+        },
+        {
+          "en": "India has rich reserves vital for major industries.",
+          "hi": "भारत में प्रमुख उद्योगों के लिए महत्वपूर्ण समृद्ध भंडार मौजूद हैं।"
+        },
+        {
+          "en": "Only metallic minerals drive industrial growth.",
+          "hi": "केवल धात्विक खनिज ही औद्योगिक विकास को गति देते हैं।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "India has rich reserves vital for major industries.",
+        "hi": "भारत में प्रमुख उद्योगों के लिए महत्वपूर्ण समृद्ध भंडार मौजूद हैं।"
+      },
+      "explanation": {
+        "en": "India possesses significant reserves of non-metallic minerals like mica, limestone, and dolomite, which are essential for industries like cement, fertilizers, and steel.",
+        "hi": "भारत के पास अभ्रक, चूना पत्थर और डोलोमाइट जैसे गैर-धात्विक खनिजों का महत्वपूर्ण भंडार है, जो सीमेंट, उर्वरक और इस्पात जैसे उद्योगों के लिए आवश्यक हैं।"
+      }
+    },
+    {
+      "questionNo": 15,
+      "question": {
+        "en": "A Proclamation of National Emergency must be approved by each House within how many months?",
+        "hi": "राष्ट्रीय आपातकाल की घोषणा को प्रत्येक सदन द्वारा कितने महीनों के भीतर अनुमोदित किया जाना चाहिए?"
+      },
+      "options": [
+        {
+          "en": "1",
+          "hi": "1"
+        },
+        {
+          "en": "3",
+          "hi": "3"
+        },
+        {
+          "en": "6",
+          "hi": "6"
+        },
+        {
+          "en": "9",
+          "hi": "9"
+        }
+      ],
+      "correctAnswer": {
+        "en": "1",
+        "hi": "1"
+      },
+      "explanation": {
+        "en": "According to Article 352, a proclamation of National Emergency must be approved by both Houses of Parliament within one month from the date of its issue.",
+        "hi": "अनुच्छेद 352 के अनुसार, राष्ट्रीय आपातकाल की घोषणा को इसके जारी होने की तारीख से एक महीने के भीतर संसद के दोनों सदनों द्वारा अनुमोदित किया जाना चाहिए।"
+      }
+    },
+    {
+      "questionNo": 16,
+      "question": {
+        "en": "Read the following statements marked as Assertion (A) and Reason (R). Choose the correct option:<br>Assertion (A): The Polar Satellite Launch Vehicle (PSLV) is widely recognized as the workhorse launch vehicle of ISRO.<br>Reason (R): PSLV is highly versatile, capable of launching a diverse range of payloads into various Earth orbits (including Earth Observation, small Geosynchronous, and Navigation satellites), and boasts an exceptionally high mission success rate across its different variants.",
+        "hi": "अभिकथन (A) और कारण (R) से चिह्नित निम्नलिखित कथनों को पढ़ें। सही विकल्प चुनेंः<br>अभिकथन (A): ध्रुवीय उपग्रह प्रक्षेपण यान (PSLV) को इसरो के सबसे महत्वपूर्ण प्रक्षेपण यान के रूप में व्यापक रूप से मान्यता प्राप्त है।<br>कारण (R): PSLV अत्यधिक बहुमुखी है, विभिन्न प्रकार के पेलोड को विभिन्न पृथ्वी की कक्षाओं (पृथ्वी अवलोकन, छोटे भू-समकालिक और नौवहन उपग्रहों सहित) में प्रक्षेपित करने में सक्षम है, और इसके विभिन्न प्रकारों में असाधारण रूप से उच्च मिशन सफलता दर का दावा करता है।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, और R, A का सही स्पष्टीकरण है"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A का सही स्पष्टीकरण नहीं है"
+        },
+        {
+          "en": "A is true, but R is false",
+          "hi": "A सत्य है, लेकिन R असत्य है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A असत्य है, लेकिन R सत्य है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Both A and R are true, and R is the correct explanation of A",
+        "hi": "A और R दोनों सत्य हैं, और R, A का सही स्पष्टीकरण है"
+      },
+      "explanation": {
+        "en": "PSLV earned the 'workhorse' title due to its consistency and ability to launch satellites into diverse orbits like Sun-synchronous Polar Orbit (SSPO) and even GTO.",
+        "hi": "PSLV ने अपनी निरंतरता और सूर्य-तुल्यकालिक ध्रुवीय कक्षा (SSPO) और यहाँ तक कि GTO जैसे विविध कक्षाओं में उपग्रहों को लॉन्च करने की क्षमता के कारण 'वर्कहॉर्स' का खिताब हासिल किया।"
+      }
+    },
+    {
+      "questionNo": 17,
+      "question": {
+        "en": "Which of the following is true regarding the Anglo-Indian representation in State Assemblies?",
+        "hi": "राज्य विधानसभाओं में एंग्लो-इंडियन प्रतिनिधित्व के संबंध में निम्नलिखित में से कौन सा कथन सत्य है?"
+      },
+      "options": [
+        {
+          "en": "The Governor still nominates one Anglo-Indian member to the Assembly.",
+          "hi": "राज्यपाल अभी भी विधानसभा में एक एंग्लो-इंडियन सदस्य को मनोनीत करते हैं।"
+        },
+        {
+          "en": "The provision was abolished by the 42nd Constitutional Amendment.",
+          "hi": "इस प्रावधान को 42वें संविधान संशोधन द्वारा समाप्त कर दिया गया।"
+        },
+        {
+          "en": "The provision was abolished by the 104th Constitutional Amendment.",
+          "hi": "इस प्रावधान को 104 वें संविधान संशोधन द्वारा समाप्त कर दिया गया।"
+        },
+        {
+          "en": "Anglo-Indian members are elected through proportional representation.",
+          "hi": "एंग्लो-इंडियन सदस्यों का चुनाव आनुपातिक प्रतिनिधित्व के माध्यम से किया जाता है।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "The provision was abolished by the 104th Constitutional Amendment.",
+        "hi": "इस प्रावधान को 104 वें संविधान संशोधन द्वारा समाप्त कर दिया गया।"
+      },
+      "explanation": {
+        "en": "The 104th Amendment Act, 2020, extended SC/ST reservation but did not extend the provision for nominating Anglo-Indians to the Lok Sabha and State Legislative Assemblies.",
+        "hi": "104वें संशोधन अधिनियम, 2020 ने एससी/एसटी आरक्षण को बढ़ाया लेकिन लोकसभा और राज्य विधानसभाओं में एंग्लो-इंडियंस को नामांकित करने के प्रावधान को आगे नहीं बढ़ाया।"
+      }
+    },
+    {
+      "questionNo": 18,
+      "question": {
+        "en": "Which of the following changes has Bharatiya Nagarik suraksha Samhita (BNSS) brought to criminal procedure?",
+        "hi": "भारतीय नागरिक सुरक्षा संहिता (बीएनएसएस) ने आपराधिक प्रक्रिया में निम्नलिखित में से कौन सा परिवर्तन लाया है?"
+      },
+      "options": [
+        {
+          "en": "Replaced all IPC sections",
+          "hi": "सभी आईपीसी धाराओं को प्रतिस्थापित किया गया"
+        },
+        {
+          "en": "Video-recorded confessions",
+          "hi": "वीडियो-रिकॉर्ड किए गए इकबालिया बयान"
+        },
+        {
+          "en": "Presumption of guilt",
+          "hi": "अपराध की धारणा"
+        },
+        {
+          "en": "Scrapping of all bail rights",
+          "hi": "सभी जमानत अधिकारों को समाप्त करना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Video-recorded confessions",
+        "hi": "वीडियो-रिकॉर्ड किए गए इकबालिया बयान"
+      },
+      "explanation": {
+        "en": "The BNSS emphasizes the use of technology, including video recording of search, seizure, and confessions, to ensure transparency and modern legal standards.",
+        "hi": "बीएनएसएस पारदर्शिता और आधुनिक कानूनी मानकों को सुनिश्चित करने के लिए तलाशी, जब्ती और इकबालिया बयान की वीडियो रिकॉर्डिंग सहित प्रौद्योगिकी के उपयोग पर जोर देता है।"
+      }
+    },
+    {
+      "questionNo": 19,
+      "question": {
+        "en": "Which scheme supports financial services through postmen?",
+        "hi": "कौन सी योजना डाकियों के माध्यम से वित्तीय सेवाओं का समर्थन करती है?"
+      },
+      "options": [
+        {
+          "en": "NSAP",
+          "hi": "ईएनएसएपी"
+        },
+        {
+          "en": "IPPB",
+          "hi": "आईपीपीबी"
+        },
+        {
+          "en": "PMJAY",
+          "hi": "पीएमजेएवाई"
+        },
+        {
+          "en": "PRAGATI",
+          "hi": "प्रगति"
+        }
+      ],
+      "correctAnswer": {
+        "en": "IPPB",
+        "hi": "आईपीपीबी"
+      },
+      "explanation": {
+        "en": "India Post Payments Bank (IPPB) uses the vast network of post offices and postmen to deliver banking and financial services to the doorstep of citizens.",
+        "hi": "इंडिया पोस्ट पेमेंट्स बैंक (आईपीपीबी) नागरिकों के दरवाजे पर बैंकिंग और वित्तीय सेवाएं पहुंचाने के लिए डाकघरों और डाकियों के विशाल नेटवर्क का उपयोग करता है।"
+      }
+    },
+    {
+      "questionNo": 20,
+      "question": {
+        "en": "Fill in the Blank:<br>Kalbelia dance represents the movement of _________",
+        "hi": "रिक्त स्थान भरेंः<br>कालबेलिया नृत्य _________ की गति को दर्शाता है।"
+      },
+      "options": [
+        {
+          "en": "Camels",
+          "hi": "ऊंट"
+        },
+        {
+          "en": "Snakes",
+          "hi": "सांप"
+        },
+        {
+          "en": "Birds",
+          "hi": "पक्षियों"
+        },
+        {
+          "en": "Horses",
+          "hi": "घोड़ों"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Snakes",
+        "hi": "सांप"
+      },
+      "explanation": {
+        "en": "Kalbelia is a folk dance from Rajasthan. The dancers, usually women from the Kalbelia community (traditional snake charmers), wear black costumes that mimic the movement of snakes.",
+        "hi": "कालबेलिया राजस्थान का एक लोक नृत्य है। नर्तक, जो आमतौर पर कालबेलिया समुदाय (पारंपरिक सपेरे) की महिलाएं होती हैं, काले कपड़े पहनती हैं जो सांपों की गति की नकल करते हैं।"
+      }
+    },
+    {
+      "questionNo": 21,
+      "question": {
+        "en": "According to the IMD World Competitiveness Ranking 2025, which dimension does the country Switzerland hold 1st position in for both 2024 and 2025?",
+        "hi": "आईएमडी विश्व प्रतिस्पर्धात्मकता रैंकिंग 2025 के अनुसार, स्विट्जरलैंड देश किस आयाम में 2024 और 2025 दोनों के लिए प्रथम स्थान रखता है?"
+      },
+      "options": [
+        {
+          "en": "Business Efficiency",
+          "hi": "व्यावसायिक दक्षता"
+        },
+        {
+          "en": "Infrastructure",
+          "hi": "आधारभूत संरचना"
+        },
+        {
+          "en": "Economic Performance",
+          "hi": "आर्थिक प्रदर्शन"
+        },
+        {
+          "en": "Employment",
+          "hi": "रोज़गार"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Infrastructure",
+        "hi": "आधारभूत संरचना"
+      },
+      "explanation": {
+        "en": "Switzerland consistently ranks highly in infrastructure, including its educational, scientific, and technological aspects, within the IMD competitiveness framework.",
+        "hi": "स्विट्जरलैंड आईएमडी प्रतिस्पर्धात्मक ढांचे के भीतर अपने शैक्षिक, वैज्ञानिक और तकनीकी पहलुओं सहित बुनियादी ढांचे में लगातार उच्च स्थान पर है।"
+      }
+    },
+    {
+      "questionNo": 22,
+      "question": {
+        "en": "The 'Mangrove Cell' initiative in 2025 is primarily linked to which Indian state?",
+        "hi": "2025 में 'मैंग्रोव सेल' पहल मुख्य रूप से किस भारतीय राज्य से जुड़ी है?"
+      },
+      "options": [
+        {
+          "en": "Odisha",
+          "hi": "ओडिशा"
+        },
+        {
+          "en": "Andhra Pradesh",
+          "hi": "आंध्र प्रदेश"
+        },
+        {
+          "en": "Maharashtra",
+          "hi": "महाराष्ट्र"
+        },
+        {
+          "en": "West Bengal",
+          "hi": "पश्चिम बंगाल"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Maharashtra",
+        "hi": "महाराष्ट्र"
+      },
+      "explanation": {
+        "en": "Maharashtra has a dedicated Mangrove Cell for the protection and conservation of mangroves along its coastline, frequently launching specific conservation programs.",
+        "hi": "महाराष्ट्र में अपने समुद्र तट के साथ मैंग्रोव की सुरक्षा और संरक्षण के लिए एक समर्पित 'मैंग्रोव सेल' है, जो अक्सर विशिष्ट संरक्षण कार्यक्रम शुरू करता है।"
+      }
+    },
+    {
+      "questionNo": 23,
+      "question": {
+        "en": "Read the following statements carefully and choose the correct option:<br>Assertion (A): Iron and steel is considered a heavy industry.<br>Reason (R): It requires lightweight raw materials like cotton and rubber.",
+        "hi": "निम्नलिखित कथनों को ध्यानपूर्वक पढ़ें और सही विकल्प चुनें:<br>अभिकथन (A): लोहा और इस्पात को एक भारी उद्योग माना जाता है।<br>कारण (R): इसके लिए कपास और रबर जैसे हल्के कच्चे माल की आवश्यकता होती है।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, और R, A का सही स्पष्टीकरण है"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A का सही स्पष्टीकरण नहीं है"
+        },
+        {
+          "en": "A is true, but R is false",
+          "hi": "A सत्य है, लेकिन R असत्य है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A असत्य है, लेकिन R सत्य है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "A is true, but R is false",
+        "hi": "A सत्य है, लेकिन R असत्य है"
+      },
+      "explanation": {
+        "en": "Iron and steel is a heavy industry because its raw materials (iron ore, coal) and finished products are heavy. Reason (R) is false as cotton and rubber are used in light/textile/auto industries.",
+        "hi": "लोहा और इस्पात एक भारी उद्योग है क्योंकि इसका कच्चा माल (लौह अयस्क, कोयला) और तैयार उत्पाद भारी होते हैं। 'कारण' (R) गलत है क्योंकि कपास और रबर का उपयोग हल्के/कपड़ा/ऑटो उद्योगों में किया जाता है।"
+      }
+    },
+    {
+      "questionNo": 24,
+      "question": {
+        "en": "Consider the following statements about the MISHTI Scheme:<br>1. It aims at mangrove plantation using scientific methods.<br>2. It was announced under Budget 2023-24.<br>3. It includes commercial leasing of mangrove forests.",
+        "hi": "मिष्टी योजना के बारे में निम्नलिखित कथनों पर विचार कीजिए:<br>1. इसका उद्देश्य वैज्ञानिक तरीकों का उपयोग करके मैंग्रोव वृक्षारोपण करना है।<br>2. इसकी घोषणा बजट 2023-24 के अंतर्गत की गई थी।<br>3. इसमें मैंग्रोव वनों को व्यावसायिक रूप से पट्टे पर देना शामिल है।"
+      },
+      "options": [
+        {
+          "en": "Only 1 and 2 are correct",
+          "hi": "केवल 1 और 2 सही हैं"
+        },
+        {
+          "en": "Only 2 and 3 are correct",
+          "hi": "केवल 2 और 3 सही हैं"
+        },
+        {
+          "en": "Only 1 and 3 are correct",
+          "hi": "केवल 1 और 3 सही हैं"
+        },
+        {
+          "en": "All 1, 2 and 3 are correct",
+          "hi": "सभी 1, 2 और 3 सही हैं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1 and 2 are correct",
+        "hi": "केवल 1 और 2 सही हैं"
+      },
+      "explanation": {
+        "en": "MISHTI (Mangrove Initiative for Shoreline Habitats & Tangible Incomes) aims for intensive mangrove plantation. It focuses on conservation and income, not commercial leasing for industrial purposes.",
+        "hi": "मिष्टी (Shoreline Habitats & Tangible Incomes के लिए मैंग्रोव पहल) का उद्देश्य सघन मैंग्रोव वृक्षारोपण है। यह संरक्षण और आय पर केंद्रित है, न कि औद्योगिक उद्देश्यों के लिए व्यावसायिक पट्टे पर।"
+      }
+    },
+    {
+      "questionNo": 25,
+      "question": {
+        "en": "Article 370, which granted special status to Jammu and Kashmir, was abrogated by which constitutional mechanism?",
+        "hi": "जम्मू-कश्मीर को विशेष दर्जा देने वाले अनुच्छेद 370 को किस संवैधानिक तंत्र द्वारा निरस्त किया गया?"
+      },
+      "options": [
+        {
+          "en": "Presidential Order under Article 370(3)",
+          "hi": "अनुच्छेद 370 (3) के तहत राष्ट्रपति का आदेश"
+        },
+        {
+          "en": "Amendment by Parliament under Article 368",
+          "hi": "अनुच्छेद 368 के तहत संसद द्वारा संशोधन"
+        },
+        {
+          "en": "Ordinance by the President",
+          "hi": "राष्ट्रपति द्वारा अध्यादेश"
+        },
+        {
+          "en": "Order under Article 356",
+          "hi": "अनुच्छेद 356 के तहत आदेश"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Presidential Order under Article 370(3)",
+        "hi": "अनुच्छेद 370 (3) के तहत राष्ट्रपति का आदेश"
+      },
+      "explanation": {
+        "en": "In August 2019, the President of India issued 'The Constitution (Application to Jammu and Kashmir) Order, 2019' under the powers of Article 370(3), effectively abrogating the special status.",
+        "hi": "अगस्त 2019 में, भारत के राष्ट्रपति ने अनुच्छेद 370 (3) की शक्तियों के तहत 'संविधान (जम्मू और कश्मीर पर लागू) आदेश, 2019' जारी किया, जिससे विशेष दर्जे को प्रभावी ढंग से समाप्त कर दिया गया।"
+      }
+    }
+  ],
   "ssc_cgl_gk_13_sep_s1": [
     {
       "questionNo": 1,
@@ -43000,39 +43827,39 @@
         "hi": "1773 का रेग्युलेटिंग एक्ट ईस्ट इंडिया कंपनी के मामलों को नियंत्रित करने के लिए ब्रिटिश संसद का पहला कदम था। इसने बंगाल के गवर्नर को 4 सदस्यों की कार्यकारी परिषद के साथ 'बंगाल के गवर्नर-जनरल' के पद पर पदोन्नत किया। वारेन हेस्टिंग्स इस अधिनियम के तहत पहले गवर्नर-जनरल बने।"
       }
     },
+{
+  "questionNo": 6,
+  "question": {
+    "en": "Fill in the blanks:<br>At the 1960 Rome Olympics, Milkha Singh set an Indian record by finishing Fourth in the men's 400 meters with a timing of ________, a record that stood until 1984.",
+    "hi": "रिक्त स्थान भरेंः<br>1960 के रोम ओलंपिक में, मिल्खा सिंह ने ________ के समय के साथ पुरुषों की 400 मीटर दौड़ में चौथा स्थान प्राप्त करके भारतीय रिकॉर्ड बनाया, यह रिकॉर्ड 1984 तक कायम रहा।"
+  },
+  "options": [
     {
-      "questionNo": 6,
-      "question": {
-        "en": "Fill in the blanks:<br>At the 1960 Rome Olympics, Milkha Singh set an Indian record by finishing Fourth in the men's 400 meters with a timing of a record that stood until 1984.",
-        "hi": "रिक्त स्थान भरेंः<br>1960 के रोम ओलंपिक में, मिल्खा सिंह ने के समय के साथ पुरुषों की 400 मीटर दौड़ में चौथा स्थान प्राप्त करके भारतीय रिकॉर्ड बनाया, यह रिकॉर्ड 1984 तक कायम रहा।"
-      },
-      "options": [
-        {
-          "en": "43.2 seconds",
-          "hi": "43.2 सेकंड"
-        },
-        {
-          "en": "46.2 seconds",
-          "hi": "46.2 सेकंड"
-        },
-        {
-          "en": "44.8 seconds",
-          "hi": "44.8 सेकंड"
-        },
-        {
-          "en": "45.6 seconds",
-          "hi": "45.6 सेकंड"
-        }
-      ],
-      "correctAnswer": {
-        "en": "45.6 seconds",
-        "hi": "45.6 सेकंड"
-      },
-      "explanation": {
-        "en": "Milkha Singh, known as 'The Flying Sikh', finished 4th in the 400m final at the 1960 Rome Olympics with a time of 45.6 seconds. He narrowly missed a bronze medal by 0.1 seconds. This national record stood for 24 years until it was broken in 1984.",
-        "hi": "मिल्खा सिंह, जिन्हें 'फ्लाइंग सिख' के नाम से जाना जाता है, ने 1960 के रोम ओलंपिक में 400 मीटर फाइनल में 45.6 सेकंड के समय के साथ चौथा स्थान प्राप्त किया। वे 0.1 सेकंड से कांस्य पदक से चूक गए। यह राष्ट्रीय रिकॉर्ड 24 साल तक कायम रहा जब तक कि 1984 में इसे तोड़ा नहीं गया।"
-      }
+      "en": "43.2 seconds",
+      "hi": "43.2 सेकंड"
     },
+    {
+      "en": "46.2 seconds",
+      "hi": "46.2 सेकंड"
+    },
+    {
+      "en": "44.8 seconds",
+      "hi": "44.8 सेकंड"
+    },
+    {
+      "en": "45.6 seconds",
+      "hi": "45.6 सेकंड"
+    }
+  ],
+  "correctAnswer": {
+    "en": "45.6 seconds",
+    "hi": "45.6 सेकंड"
+  },
+  "explanation": {
+    "en": "Milkha Singh, known as 'The Flying Sikh', finished 4th in the 400m final at the 1960 Rome Olympics with a time of 45.6 seconds. He narrowly missed a bronze medal by 0.1 seconds. This national record stood for 24 years until it was broken by Paramjit Singh in 1984.",
+    "hi": "मिल्खा सिंह, जिन्हें 'फ्लाइंग सिख' के नाम से जाना जाता है, ने 1960 के रोम ओलंपिक में 400 मीटर फाइनल में 45.6 सेकंड के समय के साथ चौथा स्थान प्राप्त किया। वे केवल 0.1 सेकंड से कांस्य पदक से चूक गए थे। यह राष्ट्रीय रिकॉर्ड 24 साल तक कायम रहा जब तक कि 1984 में परमजीत सिंह ने इसे तोड़ा नहीं।"
+  }
+},
     {
       "questionNo": 7,
       "question": {
