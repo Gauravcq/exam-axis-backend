@@ -225,7 +225,7 @@ app.use('/api/users', requireDB, userRoutes);
 app.use('/api/tests', requireDB, testRoutes);
 app.use('/api/admin', requireDB, adminRoutes);
 app.use('/api/public/tests', requireDB, publicTestsRoutes);
-app.use('/api/questions', requireDB, questionRoutes);
+app.use('/api/questions', questionRoutes);
 app.use('/api/payment', requireDB, paymentRoutes);
 app.use('/api/support', requireDB, supportRoutes);
 
