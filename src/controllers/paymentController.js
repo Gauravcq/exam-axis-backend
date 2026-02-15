@@ -276,15 +276,23 @@ exports.getAllPayments = async (req, res) => {
         const { status, page = 1, limit = 20 } = req.query;
 
         const where = {};
-        if (status) where.status = status;
+        const normalizedStatus = (status || '').toString().trim().toLowerCase();
+        if (['pending', 'approved', 'rejected'].includes(normalizedStatus)) {
+            where.status = normalizedStatus;
+        } else if (status && normalizedStatus) {
+            // Ignore unknown status filters rather than returning empty results
+            // (Frontend sometimes sends labels like 'reject' or extra spaces)
+        }
 
-        const offset = (page - 1) * limit;
+        const pageNum = Math.max(1, parseInt(page) || 1);
+        const pageSize = Math.max(1, Math.min(100, parseInt(limit) || 20));
+        const offset = (pageNum - 1) * pageSize;
 
         const { count, rows: payments } = await PaymentRequest.findAndCountAll({
             where,
             order: [['createdAt', 'DESC']],
-            limit: parseInt(limit),
-            offset: parseInt(offset)
+            limit: pageSize,
+            offset: offset
         });
 
         const data = payments.map(p => {
@@ -296,8 +304,9 @@ exports.getAllPayments = async (req, res) => {
         res.json({
             success: true,
             count,
-            totalPages: Math.ceil(count / limit),
-            currentPage: parseInt(page),
+            totalPages: Math.ceil(count / pageSize),
+            currentPage: pageNum,
+            pageSize,
             data
         });
 
