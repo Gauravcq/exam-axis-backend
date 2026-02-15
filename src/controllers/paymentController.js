@@ -273,7 +273,7 @@ exports.getPendingPayments = async (req, res) => {
 // ========== Get all payments (Admin) ==========
 exports.getAllPayments = async (req, res) => {
     try {
-        const { status, page = 1, limit = 20 } = req.query;
+        const { status, page = 1, limit = 200 } = req.query;
 
         const where = {};
         const normalizedStatus = (status || '').toString().trim().toLowerCase();
@@ -285,7 +285,8 @@ exports.getAllPayments = async (req, res) => {
         }
 
         const pageNum = Math.max(1, parseInt(page) || 1);
-        const pageSize = Math.max(1, Math.min(100, parseInt(limit) || 20));
+        // Increase sensible defaults and caps so admin can see all items
+        const pageSize = Math.max(1, Math.min(1000, parseInt(limit) || 200));
         const offset = (pageNum - 1) * pageSize;
 
         const { count, rows: payments } = await PaymentRequest.findAndCountAll({

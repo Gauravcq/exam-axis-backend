@@ -16354,13 +16354,13 @@
       },
       "explanation": {
         "en": "Simplify the expression using BODMAS:\n$6-[\\frac{2}{3}\\div\\{\\frac{1}{5}+(\\frac{1}{2}\\times\\frac{2}{3})\\}] = 6-[\\frac{2}{3}\\div\\{\\frac{1}{5}+\\frac{1}{3}\\}]$\n$6-[\\frac{2}{3}\\div\\frac{8}{15}] = 6-[\\frac{2}{3} \\times \\frac{15}{8}] = 6 - \\frac{5}{4}$\n$6 - 1.25 = 4.75$",
-        "hi": "Simplify the expression using BODMAS:\n$6-[\\frac{2}{3}\\div\\{\\frac{1}{5}+(\\frac{1}{2}\\times\\frac{2}{3})\\}] = 6-[\\frac{2}{3}\\div\\{\\frac{1}{5}+\\frac{1}{3}\\}]$\n$6-[\\frac{2}{3}\\div\\frac{8}{15}] = 6-[\\frac{2}{3} \\times \\frac{15}{8}] = 6 - \\frac{5}{4}$\n$6 - 1.25 = 4.75$"
+        "hi": "BODMAS का उपयोग करके अभिव्यक्ति को सरल कीजिए:\n$6-[\\frac{2}{3}\\div\\{\\frac{1}{5}+(\\frac{1}{2}\\times\\frac{2}{3})\\}] = 6-[\\frac{2}{3}\\div\\{\\frac{1}{5}+\\frac{1}{3}\\}]$\n$6-[\\frac{2}{3}\\div\\frac{8}{15}] = 6-[\\frac{2}{3} \\times \\frac{15}{8}] = 6 - \\frac{5}{4}$\n$6 - 1.25 = 4.75$"
       }
     },
     {
       "question": {
         "en": "X, Y, and Z invested ₹25,000, ₹35,000, and ₹40,000 respectively in a business. If the profit at the end of the year was ₹30,000, find Y's share.",
-        "hi": "X, Y, and Z invested ₹25,000, ₹35,000, and ₹40,000 respectively in a business. If the profit at the end of the year was ₹30,000, find Y's share."
+        "hi": "X, Y और Z ने क्रमशः ₹25,000, ₹35,000 और ₹40,000 किसी व्यवसाय में निवेश किए। वर्ष के अंत में कुल लाभ ₹30,000 हुआ। Y का हिस्सा ज्ञात कीजिए।"
       },
       "options": [
         {
@@ -16386,7 +16386,7 @@
       },
       "explanation": {
         "en": "Investment Ratio (X:Y:Z) = $25,000:35,000:40,000$, which simplifies to $5:7:8$.\nTotal ratio parts: $5 + 7 + 8 = 20$.\nY's share of profit = $\\frac{7}{20} \\times 30,000 = ₹10,500$.",
-        "hi": "Investment Ratio (X:Y:Z) = $25,000:35,000:40,000$, which simplifies to $5:7:8$.\nTotal ratio parts: $5 + 7 + 8 = 20$.\nY's share of profit = $\\frac{7}{20} \\times 30,000 = ₹10,500$."
+        "hi": "निवेश का अनुपात (X:Y:Z) = ₹25,000:₹35,000:₹40,000 ⇒ 5:7:8।\nकुल भाग = 5 + 7 + 8 = 20।\nY का लाभ = $\\frac{7}{20} \\times 30,000 = ₹10,500$।"
       }
     },
     {
@@ -17031,8 +17031,8 @@
     },
     {
       "question": {
-        "en": "ifsin²A—cos²A = 1/4, find the value of cos²A. ",
-        "hi": "ifsin²A—cos²A = 1/4, find the value of cos²A. "
+        "en": "if sin²A—cos²A = 1/4, find the value of cos²A. ",
+        "hi": "if sin²A—cos²A = 1/4, find the value of cos²A. "
       },
       "options": [
         {
@@ -42831,6 +42831,2487 @@
       "explanation": {
         "en": "Orbital velocity is the speed needed to stay in orbit. If a satellite travels at this specific speed, its forward momentum balances the pull of gravity, allowing it to fall around the Earth indefinitely.",
         "hi": "कक्षीय वेग वह गति है जिसकी कक्षा में रहने के लिए आवश्यकता होती है। यदि कोई उपग्रह इस विशिष्ट गति से चलता है, तो उसकी आगे की गति गुरुत्वाकर्षण के खिंचाव को संतुलित करती है, जिससे वह अनिश्चित काल तक पृथ्वी के चारों ओर गिरता (परिक्रमा करता) रहता है।"
+      }
+    }
+  ],
+  "ssc_cgl_gk_13_sep_s1": [
+    {
+      "questionNo": 1,
+      "question": {
+        "en": "Consider the following statements about Gwalior Fort:<br>1. It is spread over a hilltop more than 2 km in length.<br>2. Its southern path features intricately carved rock-cut temples of Jain tīrthańkars.<br>3. The Caturbhuj Mandir within the fort is an example of a Vaisnavite shrine.<br>Which of the statements given above is/are correct?",
+        "hi": "ग्वालियर किले के बारे में निम्नलिखित कथनों पर विचार करें:<br>1. यह 2 किमी से अधिक लंबाई में एक पहाड़ी की चोटी पर फैला हुआ है।<br>2. इसके दक्षिणी मार्ग में जैन तीर्थंकरों के जटिल नक्काशीदार चट्टान-कट मंदिर हैं।<br>3. किले के भीतर चतुर्भुज मंदिर वैष्णव तीर्थस्थल का एक उदाहरण है।<br>ऊपर दिए गए कथनों में से कौन सा सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "1 and 2 only",
+          "hi": "केवल 1 और 2"
+        },
+        {
+          "en": "2 and 3 only",
+          "hi": "केवल 2 और 3"
+        },
+        {
+          "en": "1 and 3 only",
+          "hi": "केवल 1 और 3"
+        },
+        {
+          "en": "1, 2 and 3",
+          "hi": "1, 2 और 3"
+        }
+      ],
+      "correctAnswer": {
+        "en": "1, 2 and 3",
+        "hi": "1, 2 और 3"
+      },
+      "explanation": {
+        "en": "Gwalior Fort is one of India's largest forts, stretching over 2 km on a hilltop. The southern approach has famous rock-cut Jain sculptures of Tirthankaras carved in the 15th century. The Chaturbhuj Temple inside the fort is dedicated to Lord Vishnu (Vaisnavite shrine) and contains the oldest known zero inscription.",
+        "hi": "ग्वालियर किला भारत के सबसे बड़े किलों में से एक है, जो एक पहाड़ी पर 2 किमी से अधिक फैला है। दक्षिणी मार्ग में 15वीं शताब्दी में उकेरी गई प्रसिद्ध जैन तीर्थंकरों की चट्टान-कट मूर्तियां हैं। किले के अंदर चतुर्भुज मंदिर भगवान विष्णु (वैष्णव तीर्थ) को समर्पित है और इसमें सबसे पुराना ज्ञात शून्य अंकित शिलालेख है।"
+      }
+    },
+    {
+      "questionNo": 2,
+      "question": {
+        "en": "In Bhakti traditions, which two broad types of worship are mentioned?",
+        "hi": "भक्ति परम्परा में उपासना के कौन से दो व्यापक प्रकार बताए गए हैं?"
+      },
+      "options": [
+        {
+          "en": "Vedic and Non-Vedic",
+          "hi": "वैदिक और अवैदिक"
+        },
+        {
+          "en": "Saguna and Nirguna",
+          "hi": "सगुण और निर्गुण"
+        },
+        {
+          "en": "Orthodox and Reformist",
+          "hi": "रूढ़िवादी और सुधारवादी"
+        },
+        {
+          "en": "Shaiva and Vaishnava",
+          "hi": "शैव और वैष्णव"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Saguna and Nirguna",
+        "hi": "सगुण और निर्गुण"
+      },
+      "explanation": {
+        "en": "Bhakti tradition has two main forms: Saguna Bhakti (worship of God with attributes/form like Rama, Krishna) and Nirguna Bhakti (worship of formless, attributeless God). Saints like Kabir and Guru Nanak followed Nirguna, while Surdas and Tulsidas followed Saguna tradition.",
+        "hi": "भक्ति परंपरा के दो मुख्य रूप हैं: सगुण भक्ति (राम, कृष्ण जैसे गुण/रूप वाले भगवान की पूजा) और निर्गुण भक्ति (निराकार, निर्गुण भगवान की पूजा)। कबीर और गुरु नानक जैसे संतों ने निर्गुण का अनुसरण किया, जबकि सूरदास और तुलसीदास ने सगुण परंपरा का अनुसरण किया।"
+      }
+    },
+    {
+      "questionNo": 3,
+      "question": {
+        "en": "Which of the following best describes Annamacharya's contribution to Indian devotional music?",
+        "hi": "निम्नलिखित में से कौन-सा विकल्प अन्नमाचार्य के भारतीय भक्ति संगीत में योगदान का सबसे उपयुक्त वर्णन करता है?"
+      },
+      "options": [
+        {
+          "en": "Composed Sanskrit hymns on caste rituals",
+          "hi": "जातिगत अनुष्ठानों पर संस्कृत भजनों की रचना की"
+        },
+        {
+          "en": "Wrote over 32,000 songs promoting devotion and equality",
+          "hi": "भक्ति और समानता को बढ़ावा देने वाले 32,000 से अधिक गीत लिखे"
+        },
+        {
+          "en": "Restricted songs to temples and priests only",
+          "hi": "केवल मंदिरों और पुजारियों तक ही सीमित गीत"
+        },
+        {
+          "en": "Focused only on melody, not on social reform",
+          "hi": "केवल राग-रंग पर ध्यान केन्द्रित, सामाजिक सुधार पर नहीं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Wrote over 32,000 songs promoting devotion and equality",
+        "hi": "भक्ति और समानता को बढ़ावा देने वाले 32,000 से अधिक गीत लिखे"
+      },
+      "explanation": {
+        "en": "Annamacharya (15th century) was a Telugu saint-composer who composed over 32,000 'sankirtanas' (devotional songs) dedicated to Lord Venkateswara. He is called the 'Pada Kavita Pitamaha' (grandfather of Telugu song). His compositions promoted devotion to God and social equality, breaking caste barriers.",
+        "hi": "अन्नमाचार्य (15वीं सदी) एक तेलुगु संत-संगीतकार थे जिन्होंने भगवान वेंकटेश्वर को समर्पित 32,000 से अधिक 'संकीर्तन' (भक्ति गीत) रचे। उन्हें 'पद कविता पितामह' (तेलुगु गीत के पितामह) कहा जाता है। उनकी रचनाओं ने भगवान की भक्ति और सामाजिक समानता को बढ़ावा दिया, जाति बाधाओं को तोड़ा।"
+      }
+    },
+    {
+      "questionNo": 4,
+      "question": {
+        "en": "Why can hockey players use only the flat, left-hand side of the stick?",
+        "hi": "हॉकी खिलाड़ी स्टिक के केवल सपाट, बायें भाग का ही उपयोग क्यों कर सकते हैं?"
+      },
+      "options": [
+        {
+          "en": "Better control and reduced injury risk",
+          "hi": "बेहतर नियंत्रण और कम चोट जोखिम"
+        },
+        {
+          "en": "Prevents unfair left-handed advantage",
+          "hi": "अनुचित बाएं हाथ के लाभ को रोकता है"
+        },
+        {
+          "en": "Prevents uneven bounce, ensures uniform rebound",
+          "hi": "असमान उछाल को रोकता है, एकसमान पलटाव सुनिश्चित करता है"
+        },
+        {
+          "en": "Mandated right-hand play for training ease",
+          "hi": "प्रशिक्षण में आसानी के लिए दाएँ हाथ से खेलना अनिवार्य"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Prevents uneven bounce, ensures uniform rebound",
+        "hi": "असमान उछाल को रोकता है, एकसमान पलटाव सुनिश्चित करता है"
+      },
+      "explanation": {
+        "en": "In field hockey, all sticks have a flat left side and a rounded right side. Players can only use the flat side to hit the ball. This rule ensures consistent ball behavior and predictable rebounds, making the game fair for all players regardless of whether they are left or right-handed.",
+        "hi": "फील्ड हॉकी में, सभी स्टिक की बाईं ओर सपाट और दाईं ओर गोल होती है। खिलाड़ी गेंद को मारने के लिए केवल सपाट भाग का उपयोग कर सकते हैं। यह नियम गेंद के एकसमान व्यवहार और पूर्वानुमानित पलटाव को सुनिश्चित करता है, जिससे खेल सभी खिलाड़ियों के लिए निष्पक्ष हो।"
+      }
+    },
+    {
+      "questionNo": 5,
+      "question": {
+        "en": "What change did the Regulating Act bring to the post of the Governor of Bengal?",
+        "hi": "रेग्युटिंग एक्ट ने बंगाल के गवर्नर के पद में क्या परिवर्तन लाया?"
+      },
+      "options": [
+        {
+          "en": "He was required to report directly to the British Crown.",
+          "hi": "उन्हें सीधे ब्रिटिश क्राउन को रिपोर्ट करना आवश्यक था।"
+        },
+        {
+          "en": "He was reduced to a ceremonial position.",
+          "hi": "उन्हें एक औपचारिक पद तक सीमित कर दिया गया।"
+        },
+        {
+          "en": "His role was elevated to Governor-General with a council of four members.",
+          "hi": "उनकी भूमिका को चार सदस्यों की परिषद के साथ गवर्नर जनरल तक बढ़ा दिया गया।"
+        },
+        {
+          "en": "He was transferred to the Madras Presidency.",
+          "hi": "उन्हें मद्रास प्रेसीडेंसी में स्थानांतरित कर दिया गया।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "His role was elevated to Governor-General with a council of four members.",
+        "hi": "उनकी भूमिका को चार सदस्यों की परिषद के साथ गवर्नर जनरल तक बढ़ा दिया गया।"
+      },
+      "explanation": {
+        "en": "The Regulating Act of 1773 was the first step by British Parliament to control East India Company affairs. It elevated the Governor of Bengal to 'Governor-General of Bengal' with an Executive Council of 4 members. Warren Hastings became the first Governor-General under this Act.",
+        "hi": "1773 का रेग्युलेटिंग एक्ट ईस्ट इंडिया कंपनी के मामलों को नियंत्रित करने के लिए ब्रिटिश संसद का पहला कदम था। इसने बंगाल के गवर्नर को 4 सदस्यों की कार्यकारी परिषद के साथ 'बंगाल के गवर्नर-जनरल' के पद पर पदोन्नत किया। वारेन हेस्टिंग्स इस अधिनियम के तहत पहले गवर्नर-जनरल बने।"
+      }
+    },
+    {
+      "questionNo": 6,
+      "question": {
+        "en": "Fill in the blanks:<br>At the 1960 Rome Olympics, Milkha Singh set an Indian record by finishing Fourth in the men's 400 meters with a timing of a record that stood until 1984.",
+        "hi": "रिक्त स्थान भरेंः<br>1960 के रोम ओलंपिक में, मिल्खा सिंह ने के समय के साथ पुरुषों की 400 मीटर दौड़ में चौथा स्थान प्राप्त करके भारतीय रिकॉर्ड बनाया, यह रिकॉर्ड 1984 तक कायम रहा।"
+      },
+      "options": [
+        {
+          "en": "43.2 seconds",
+          "hi": "43.2 सेकंड"
+        },
+        {
+          "en": "46.2 seconds",
+          "hi": "46.2 सेकंड"
+        },
+        {
+          "en": "44.8 seconds",
+          "hi": "44.8 सेकंड"
+        },
+        {
+          "en": "45.6 seconds",
+          "hi": "45.6 सेकंड"
+        }
+      ],
+      "correctAnswer": {
+        "en": "45.6 seconds",
+        "hi": "45.6 सेकंड"
+      },
+      "explanation": {
+        "en": "Milkha Singh, known as 'The Flying Sikh', finished 4th in the 400m final at the 1960 Rome Olympics with a time of 45.6 seconds. He narrowly missed a bronze medal by 0.1 seconds. This national record stood for 24 years until it was broken in 1984.",
+        "hi": "मिल्खा सिंह, जिन्हें 'फ्लाइंग सिख' के नाम से जाना जाता है, ने 1960 के रोम ओलंपिक में 400 मीटर फाइनल में 45.6 सेकंड के समय के साथ चौथा स्थान प्राप्त किया। वे 0.1 सेकंड से कांस्य पदक से चूक गए। यह राष्ट्रीय रिकॉर्ड 24 साल तक कायम रहा जब तक कि 1984 में इसे तोड़ा नहीं गया।"
+      }
+    },
+    {
+      "questionNo": 7,
+      "question": {
+        "en": "Which of the following statements correctly reflect India's recent (2024) economic diplomacy and domestic investment facilitation reforms?<br>1) The India-Uzbekistan BIT allows unconditional access to international arbitration without exhausting local remedies.<br>2) The National Infrastructure Readiness Index (NIRI) solely ranks Smart Cities and excludes private investment indicators.",
+        "hi": "निम्नलिखित में से कौन सा कथन भारत की हालिया (2024) आर्थिक कूटनीति और घरेलू निवेश सुविधा सुधारों को सही ढंग से दर्शाता है?<br>1) भारत-उज़्बेकिस्तान बीआईटी स्थानीय उपायों का उपयोग किए बिना अंतर्राष्ट्रीय मध्यस्थता तक बिना शर्त पहुँच की अनुमति देता है।<br>2) राष्ट्रीय अवसंरचना तत्परता सूचकांक (एनआईआरआई) केवल स्मार्ट शहरों को रैंक करता है और निजी निवेश संकेतकों को शामिल नहीं करता है।"
+      },
+      "options": [
+        {
+          "en": "Only 1",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "Only 2",
+          "hi": "केवल 2"
+        },
+        {
+          "en": "1 and 2 Both are correct",
+          "hi": "1 और 2 दोनों सही हैं"
+        },
+        {
+          "en": "Neither 1 nor 2 is correct",
+          "hi": "न तो 1 और न ही 2 सही है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Neither 1 nor 2 is correct",
+        "hi": "न तो 1 और न ही 2 सही है"
+      },
+      "explanation": {
+        "en": "Statement 1 is incorrect because India's new BIT model requires investors to exhaust local remedies before accessing international arbitration. Statement 2 is incorrect because NIRI covers states and union territories (not just Smart Cities) and includes multiple indicators including private investment metrics.",
+        "hi": "कथन 1 गलत है क्योंकि भारत के नए BIT मॉडल में निवेशकों को अंतर्राष्ट्रीय मध्यस्थता से पहले स्थानीय उपायों का उपयोग करना आवश्यक है। कथन 2 गलत है क्योंकि NIRI राज्यों और केंद्र शासित प्रदेशों (केवल स्मार्ट सिटी नहीं) को कवर करता है और इसमें निजी निवेश मैट्रिक्स सहित कई संकेतक शामिल हैं।"
+      }
+    },
+    {
+      "questionNo": 8,
+      "question": {
+        "en": "Where is the Dr. S. P. Mookerjee Swimming Stadium located?",
+        "hi": "डॉ. एस. पी. मुखर्जी स्विमिंग स्टेडियम कहाँ स्थित है?"
+      },
+      "options": [
+        {
+          "en": "Mumbai",
+          "hi": "मुंबई"
+        },
+        {
+          "en": "Chandigarh",
+          "hi": "चंडीगढ़"
+        },
+        {
+          "en": "New Delhi",
+          "hi": "नई दिल्ली"
+        },
+        {
+          "en": "Bangalore",
+          "hi": "बैंगलोर"
+        }
+      ],
+      "correctAnswer": {
+        "en": "New Delhi",
+        "hi": "नई दिल्ली"
+      },
+      "explanation": {
+        "en": "Dr. S.P. Mookerjee Swimming Stadium is located in New Delhi, near Jawaharlal Nehru Stadium. It was built for the 1982 Asian Games and is named after Dr. Syama Prasad Mookerjee, founder of Bharatiya Jana Sangh. It is a major venue for swimming competitions in India.",
+        "hi": "डॉ. एस.पी. मुखर्जी स्विमिंग स्टेडियम नई दिल्ली में जवाहरलाल नेहरू स्टेडियम के पास स्थित है। इसे 1982 के एशियाई खेलों के लिए बनाया गया था और इसका नाम भारतीय जनसंघ के संस्थापक डॉ. श्यामा प्रसाद मुखर्जी के नाम पर रखा गया है। यह भारत में तैराकी प्रतियोगिताओं का एक प्रमुख स्थल है।"
+      }
+    },
+    {
+      "questionNo": 9,
+      "question": {
+        "en": "Which statement accurately represents the connection between 'Heart: A History' by Sandeep Jauhar and the Edgar Award for Best Novel?",
+        "hi": "कौन सा कथन संदीप जौहर द्वारा लिखित 'हार्टः ए हिस्ट्री' और सर्वश्रेष्ठ उपन्यास के लिए एडगर पुरस्कार के बीच संबंध को सटीक रूप से दर्शाता है?"
+      },
+      "options": [
+        {
+          "en": "Nominated for Edgar Award for blending medical history and mystery",
+          "hi": "चिकित्सा इतिहास और रहस्य के सम्मिश्रण के लिए एडगर पुरस्कार के लिए नामांकित"
+        },
+        {
+          "en": "Won Edgar Award as pioneering medical fiction",
+          "hi": "अग्रणी चिकित्सा कथा के रूप में एडगर पुरस्कार जीता"
+        },
+        {
+          "en": "Received Edgar Award for fictional cardiac surgery",
+          "hi": "काल्पनिक हृदय शल्य चिकित्सा के लिए एडगर पुरस्कार प्राप्त किया"
+        },
+        {
+          "en": "Non-fiction memoir, ineligible for Edgar Award",
+          "hi": "गैर-काल्पनिक संस्मरण, एडगर पुरस्कार के लिए अयोग्य"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Non-fiction memoir, ineligible for Edgar Award",
+        "hi": "गैर-काल्पनिक संस्मरण, एडगर पुरस्कार के लिए अयोग्य"
+      },
+      "explanation": {
+        "en": "'Heart: A History' by cardiologist Sandeep Jauhar is a non-fiction book that explores the history of cardiology and his personal journey with heart disease. The Edgar Award for Best Novel is given only to fiction/mystery novels. Since this book is non-fiction, it is ineligible for this specific award category.",
+        "hi": "हृदय रोग विशेषज्ञ संदीप जौहर की 'हार्ट: ए हिस्ट्री' एक गैर-काल्पनिक पुस्तक है जो कार्डियोलॉजी के इतिहास और हृदय रोग के साथ उनकी व्यक्तिगत यात्रा का पता लगाती है। सर्वश्रेष्ठ उपन्यास के लिए एडगर पुरस्कार केवल फिक्शन/रहस्य उपन्यासों को दिया जाता है। चूंकि यह पुस्तक गैर-काल्पनिक है, इसलिए यह इस विशिष्ट पुरस्कार श्रेणी के लिए अयोग्य है।"
+      }
+    },
+    {
+      "questionNo": 10,
+      "question": {
+        "en": "In which type of geological formation are gorges most commonly developed?",
+        "hi": "किस प्रकार की भूवैज्ञानिक संरचना में गॉर्ज सबसे अधिक विकसित होते हैं?"
+      },
+      "options": [
+        {
+          "en": "Soft sediment",
+          "hi": "नरम तलछट"
+        },
+        {
+          "en": "Hard rocks",
+          "hi": "कठोर चट्टानें"
+        },
+        {
+          "en": "Glacial till",
+          "hi": "हिम दराज़"
+        },
+        {
+          "en": "Volcanic ash",
+          "hi": "ज्वालामुखी राख"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Hard rocks",
+        "hi": "कठोर चट्टानें"
+      },
+      "explanation": {
+        "en": "Gorges are deep, narrow valleys with steep rocky walls formed by river erosion. They develop most commonly in hard, resistant rocks because soft rocks erode more uniformly to form wider valleys. Hard rocks resist lateral erosion while allowing vertical cutting, creating the characteristic steep-sided gorge shape.",
+        "hi": "गॉर्ज गहरी, संकरी घाटियां हैं जिनमें खड़ी चट्टानी दीवारें होती हैं जो नदी के कटाव से बनती हैं। ये सबसे अधिक कठोर, प्रतिरोधी चट्टानों में विकसित होती हैं क्योंकि नरम चट्टानें अधिक समान रूप से कटकर चौड़ी घाटियां बनाती हैं। कठोर चट्टानें पार्श्व कटाव का विरोध करती हैं जबकि ऊर्ध्वाधर कटाव की अनुमति देती हैं।"
+      }
+    },
+    {
+      "questionNo": 11,
+      "question": {
+        "en": "Who inaugurated India's first lithium-ion battery plant in Tirupati, Andhra Pradesh, in September 2022?",
+        "hi": "सितंबर 2022 में आंध्र प्रदेश के तिरुपति में भारत के पहले लिथियम आयन बैटरी संयंत्र का उद्घाटन किसने किया?"
+      },
+      "options": [
+        {
+          "en": "Prime Minister Narendra Modi",
+          "hi": "प्रधानमंत्री नरेंद्र मोदी"
+        },
+        {
+          "en": "Rajeev Chandrasekhar, Minister of State for Electronics and Information Technology",
+          "hi": "राजीव चंद्रशेखर, इलेक्ट्रॉनिक्स और सूचना प्रौद्योगिकी राज्य मंत्री"
+        },
+        {
+          "en": "Nirmala Sitharaman, Minister of Finance",
+          "hi": "निर्मला सीतारमण, वित्त मंत्री"
+        },
+        {
+          "en": "Amit Shah, Union Home Minister",
+          "hi": "अमित शाह, केंद्रीय गृह मंत्री"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Rajeev Chandrasekhar, Minister of State for Electronics and Information Technology",
+        "hi": "राजीव चंद्रशेखर, इलेक्ट्रॉनिक्स और सूचना प्रौद्योगिकी राज्य मंत्री"
+      },
+      "explanation": {
+        "en": "India's first lithium-ion cell manufacturing plant was inaugurated by Union MoS for Electronics and IT, Rajeev Chandrasekhar, in Tirupati in September 2022. The plant was set up by Munoth Industries and is part of India's push towards self-reliance in battery technology for electric vehicles.",
+        "hi": "भारत के पहले लिथियम-आयन सेल निर्माण संयंत्र का उद्घाटन सितंबर 2022 में तिरुपति में केंद्रीय इलेक्ट्रॉनिक्स और आईटी राज्य मंत्री राजीव चंद्रशेखर ने किया था। यह संयंत्र मुनोथ इंडस्ट्रीज द्वारा स्थापित किया गया था और यह इलेक्ट्रिक वाहनों के लिए बैटरी प्रौद्योगिकी में भारत की आत्मनिर्भरता की दिशा में एक कदम है।"
+      }
+    },
+    {
+      "questionNo": 12,
+      "question": {
+        "en": "Which Indian state recorded negative population growth between 2001-2011?",
+        "hi": "किस भारतीय राज्य ने 2001-2011 के बीच नकारात्मक जनसंख्या वृद्धि दर्ज की?"
+      },
+      "options": [
+        {
+          "en": "Kerala",
+          "hi": "केरल"
+        },
+        {
+          "en": "Goa",
+          "hi": "गोवा"
+        },
+        {
+          "en": "Nagaland",
+          "hi": "नगालैंड"
+        },
+        {
+          "en": "Manipur",
+          "hi": "मणिपुर"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Nagaland",
+        "hi": "नगालैंड"
+      },
+      "explanation": {
+        "en": "Nagaland is the only Indian state that recorded negative population growth (-0.58%) between 2001-2011 according to Census data. This was due to factors like out-migration, insurgency-related issues, and better family planning awareness. All other states showed positive growth during this period.",
+        "hi": "नगालैंड जनगणना आंकड़ों के अनुसार 2001-2011 के बीच नकारात्मक जनसंख्या वृद्धि (-0.58%) दर्ज करने वाला एकमात्र भारतीय राज्य है। यह पलायन, विद्रोह संबंधी मुद्दों और बेहतर परिवार नियोजन जागरूकता जैसे कारकों के कारण था। इस अवधि में अन्य सभी राज्यों में सकारात्मक वृद्धि दर्ज की गई।"
+      }
+    },
+    {
+      "questionNo": 13,
+      "question": {
+        "en": "Which of the following best describes the rate of natural increase of population?",
+        "hi": "निम्नलिखित में से कौन सा कथन जनसंख्या की प्राकृतिक वृद्धि की दर का सबसे अच्छा वर्णन करता है?"
+      },
+      "options": [
+        {
+          "en": "It is the crude birth rate multiplied by crude death rate",
+          "hi": "यह अशोधित जन्म दर को अशोधित मृत्यु दर को गुणा करने पर प्राप्त परिणाम है"
+        },
+        {
+          "en": "It is the ratio of working population to total population",
+          "hi": "यह कार्यशील जनसंख्या और कुल जनसंख्या का अनुपात है"
+        },
+        {
+          "en": "It is the difference between the birth rate and the death rate",
+          "hi": "यह जन्म दर और मृत्यु दर के बीच का अंतर है"
+        },
+        {
+          "en": "It is the average annual growth due to migration alone",
+          "hi": "यह केवल प्रवास के कारण होने वाली औसत वार्षिक वृद्धि है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "It is the difference between the birth rate and the death rate",
+        "hi": "यह जन्म दर और मृत्यु दर के बीच का अंतर है"
+      },
+      "explanation": {
+        "en": "Rate of Natural Increase (RNI) = Birth Rate - Death Rate. It shows how fast population is growing naturally, excluding migration. For example, if birth rate is 20 per 1000 and death rate is 8 per 1000, RNI is 12 per 1000 or 1.2%. This is different from total population growth which includes migration.",
+        "hi": "प्राकृतिक वृद्धि की दर (RNI) = जन्म दर - मृत्यु दर। यह दर्शाता है कि प्रवास को छोड़कर जनसंख्या प्राकृतिक रूप से कितनी तेजी से बढ़ रही है। उदाहरण के लिए, यदि जन्म दर 20 प्रति 1000 है और मृत्यु दर 8 प्रति 1000 है, तो RNI 12 प्रति 1000 या 1.2% है। यह कुल जनसंख्या वृद्धि से अलग है जिसमें प्रवास शामिल है।"
+      }
+    },
+    {
+      "questionNo": 14,
+      "question": {
+        "en": "Examine the following statements about the SSLV-D2 mission and select the correct option:<br>Statement 1: SSLV-D2 inserted EOS-07, Janus-1, and AzaadiSAT-2 into a 450 km circular orbit utilizing a three-stage vehicle powered entirely by liquid propulsion.<br>Statement 2: The SSLV-D2 mission showcased rapid deployment capability with low turnaround time and limited ground infrastructure needs.",
+        "hi": "SSLV-D2 मिशन के बारे में निम्नलिखित कथनों की जाँच कीजिए और सही विकल्प चुनिएः<br>कथन 1: SSLV-D2 ने EOS-07, Janus-1 और AzaadiSAT-2 को पूरी तरह से द्रव प्रणोदन द्वारा संचालित तीन-चरणीय वाहन का उपयोग करके 450 किमी की वृत्ताकार कक्षा में प्रक्षेपित किया।<br>कथन 2: SSLV-D2 मिशन ने कम समय और सीमित जमीनी बुनियादी ढाँचे की आवश्यकता के साथ तीव्र तैनाती क्षमता का प्रदर्शन किया।"
+      },
+      "options": [
+        {
+          "en": "Only Statement 1 is correct",
+          "hi": "केवल कथन 1 सही है"
+        },
+        {
+          "en": "Only Statement 2 is correct",
+          "hi": "केवल कथन 2 सही है"
+        },
+        {
+          "en": "1 and 2 are correct",
+          "hi": "1 और 2 सही हैं"
+        },
+        {
+          "en": "Neither 1 nor 2 are correct",
+          "hi": "न तो 1 और न ही 2 सही हैं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only Statement 2 is correct",
+        "hi": "केवल कथन 2 सही है"
+      },
+      "explanation": {
+        "en": "Statement 1 is incorrect because SSLV uses SOLID propulsion (not liquid) in its three stages. Statement 2 is correct - SSLV (Small Satellite Launch Vehicle) is designed for quick turnaround time (within days vs. months for PSLV), minimal ground infrastructure, and on-demand launches for small satellites up to 500 kg.",
+        "hi": "कथन 1 गलत है क्योंकि SSLV अपने तीन चरणों में ठोस प्रणोदन (द्रव नहीं) का उपयोग करता है। कथन 2 सही है - SSLV (स्मॉल सैटेलाइट लॉन्च व्हीकल) त्वरित टर्नअराउंड समय (PSLV के लिए महीनों की तुलना में दिनों के भीतर), न्यूनतम जमीनी बुनियादी ढांचे और 500 किग्रा तक के छोटे उपग्रहों के लिए ऑन-डिमांड लॉन्च के लिए डिज़ाइन किया गया है।"
+      }
+    },
+    {
+      "questionNo": 15,
+      "question": {
+        "en": "What is the primary function of telomerase enzyme?",
+        "hi": "टेलोमेरेज़ एंजाइम का प्राथमिक कार्य क्या है?"
+      },
+      "options": [
+        {
+          "en": "DNA replication",
+          "hi": "डीएनए प्रतिकृति"
+        },
+        {
+          "en": "Telomere lengthening",
+          "hi": "टेलोमेर का लंबा होना"
+        },
+        {
+          "en": "DNA repair",
+          "hi": "डीएनए की मरम्मत"
+        },
+        {
+          "en": "RNA transcription",
+          "hi": "आरएनए प्रतिलेखन"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Telomere lengthening",
+        "hi": "टेलोमेर का लंबा होना"
+      },
+      "explanation": {
+        "en": "Telomerase is a special enzyme that adds repetitive DNA sequences (TTAGGG) to telomeres - the protective caps at chromosome ends. Telomeres shorten with each cell division, causing aging. Telomerase prevents this shortening by lengthening telomeres. It's highly active in stem cells and cancer cells, allowing unlimited cell division.",
+        "hi": "टेलोमेरेज़ एक विशेष एंजाइम है जो टेलोमेर - गुणसूत्र के सिरों पर सुरक्षात्मक टोपियों - में दोहराव वाले डीएनए अनुक्रम (TTAGGG) जोड़ता है। प्रत्येक कोशिका विभाजन के साथ टेलोमेर छोटे होते जाते हैं, जिससे बुढ़ापा आता है। टेलोमेरेज़ टेलोमेर को लंबा करके इस छोटेपन को रोकता है। यह स्टेम कोशिकाओं और कैंसर कोशिकाओं में अत्यधिक सक्रिय है।"
+      }
+    },
+    {
+      "questionNo": 16,
+      "question": {
+        "en": "Which of the following commissions recommended the establishment of a Permanent Secretariat for the Inter-State Council to institutionalize Centre-State cooperation?",
+        "hi": "निम्नलिखित में से किस आयोग ने केंद्र-राज्य सहयोग को संस्थागत बनाने के लिए अंतर-राज्य परिषद के लिए एक स्थायी सचिवालय की स्थापना की सिफारिश की थी?"
+      },
+      "options": [
+        {
+          "en": "Rajamannar Committee",
+          "hi": "राजमन्नार समिति"
+        },
+        {
+          "en": "Punchhi Commission",
+          "hi": "पुंछी आयोग"
+        },
+        {
+          "en": "Sarkaria Commission",
+          "hi": "सरकारिया आयोग"
+        },
+        {
+          "en": "Venkatachelliah Commission",
+          "hi": "वेंकटचलैया आयोग"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Sarkaria Commission",
+        "hi": "सरकारिया आयोग"
+      },
+      "explanation": {
+        "en": "The Sarkaria Commission (1983-88) on Centre-State relations recommended establishing a permanent Inter-State Council under Article 263 with a permanent secretariat. Based on this, the Inter-State Council was established in 1990. The Commission made 247 recommendations to improve Centre-State relations.",
+        "hi": "केंद्र-राज्य संबंधों पर सरकारिया आयोग (1983-88) ने अनुच्छेद 263 के तहत एक स्थायी सचिवालय के साथ स्थायी अंतर-राज्य परिषद स्थापित करने की सिफारिश की। इसके आधार पर 1990 में अंतर-राज्य परिषद की स्थापना की गई। आयोग ने केंद्र-राज्य संबंधों को बेहतर बनाने के लिए 247 सिफारिशें कीं।"
+      }
+    },
+    {
+      "questionNo": 17,
+      "question": {
+        "en": "Why are cooking utensils often made with a copper bottom?",
+        "hi": "खाना पकाने के बर्तन प्रायः तांबे के तले वाले क्यों बनाए जाते हैं?"
+      },
+      "options": [
+        {
+          "en": "Copper is a good insulator, preventing heat loss.",
+          "hi": "तांबा एक अच्छा इन्सुलेटर है, जो ऊष्मा की हानि को रोकता है।"
+        },
+        {
+          "en": "Copper has a low melting point, making it easy to manufacture.",
+          "hi": "तांबे का गलनांक कम होता है, जिससे इसका निर्माण आसान होता है।"
+        },
+        {
+          "en": "Copper is an good conductor of heat, ensuring even heating.",
+          "hi": "तांबा ऊष्मा का अच्छा संवाहक है, जो समान तापन सुनिश्चित करता है।"
+        },
+        {
+          "en": "Copper reacts readily with food, enhancing flavor.",
+          "hi": "तांबा भोजन के साथ आसानी से प्रतिक्रिया करता है, जिससे उसका स्वाद बढ़ जाता है।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Copper is an good conductor of heat, ensuring even heating.",
+        "hi": "तांबा ऊष्मा का अच्छा संवाहक है, जो समान तापन सुनिश्चित करता है।"
+      },
+      "explanation": {
+        "en": "Copper has very high thermal conductivity (401 W/mK), second only to silver among common metals. This means heat spreads quickly and evenly across the copper bottom, eliminating hot spots and ensuring uniform cooking. Stainless steel body prevents copper from reacting with acidic foods.",
+        "hi": "तांबे में बहुत उच्च तापीय चालकता (401 W/mK) होती है, जो सामान्य धातुओं में चांदी के बाद दूसरे स्थान पर है। इसका मतलब है कि गर्मी तांबे के तले पर जल्दी और समान रूप से फैलती है, हॉट स्पॉट को समाप्त करती है और एकसमान खाना पकाना सुनिश्चित करती है। स्टेनलेस स्टील बॉडी तांबे को अम्लीय खाद्य पदार्थों के साथ प्रतिक्रिया करने से रोकती है।"
+      }
+    },
+    {
+      "questionNo": 18,
+      "question": {
+        "en": "What is the primary objective of a Uniform Civil Code (UCC) in India?",
+        "hi": "भारत में समान नागरिक संहिता (यूसीसी) का प्राथमिक उद्देश्य क्या है?"
+      },
+      "options": [
+        {
+          "en": "To establish a common criminal law for all citizens.",
+          "hi": "सभी नागरिकों के लिए एक समान आपराधिक कानून स्थापित करना।"
+        },
+        {
+          "en": "To unify direct and indirect tax laws.",
+          "hi": "प्रत्यक्ष और अप्रत्यक्ष कर कानूनों को एकीकृत करना।"
+        },
+        {
+          "en": "To provide a common set of personal laws for all citizens, irrespective of religion.",
+          "hi": "सभी नागरिकों के लिए, चाहे उनका धर्म कुछ भी हो, एक समान व्यक्तिगत कानून उपलब्ध कराना।"
+        },
+        {
+          "en": "To standardize administrative procedures across all states.",
+          "hi": "सभी राज्यों में प्रशासनिक प्रक्रियाओं को मानकीकृत करना।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "To provide a common set of personal laws for all citizens, irrespective of religion.",
+        "hi": "सभी नागरिकों के लिए, चाहे उनका धर्म कुछ भी हो, एक समान व्यक्तिगत कानून उपलब्ध कराना।"
+      },
+      "explanation": {
+        "en": "UCC (Article 44, DPSP) aims to replace religion-specific personal laws (governing marriage, divorce, inheritance, adoption) with one common law for all citizens. Currently, different religions follow different personal laws. Goa is the only state with a UCC. Uttarakhand became the first state to pass a UCC bill in 2024.",
+        "hi": "UCC (अनुच्छेद 44, DPSP) का उद्देश्य धर्म-विशिष्ट व्यक्तिगत कानूनों (विवाह, तलाक, विरासत, गोद लेने को नियंत्रित करने वाले) को सभी नागरिकों के लिए एक समान कानून से बदलना है। वर्तमान में, विभिन्न धर्म अलग-अलग व्यक्तिगत कानूनों का पालन करते हैं। गोवा UCC वाला एकमात्र राज्य है। उत्तराखंड 2024 में UCC बिल पारित करने वाला पहला राज्य बना।"
+      }
+    },
+    {
+      "questionNo": 19,
+      "question": {
+        "en": "The Agriculture Infrastructure Fund (AIF) provides support for?",
+        "hi": "कृषि अवसंरचना कोष (एआईएफ) किसके लिए सहायता प्रदान करता है?"
+      },
+      "options": [
+        {
+          "en": "Free fertilizers",
+          "hi": "निःशुल्क उर्वरक"
+        },
+        {
+          "en": "Agri-logistics and cold chains",
+          "hi": "कृषि-लॉजिस्टिक्स और कोल्ड चेन"
+        },
+        {
+          "en": "Cash transfers",
+          "hi": "नकद हस्तांतरण"
+        },
+        {
+          "en": "MGNREGA work",
+          "hi": "मनरेगा कार्य"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Agri-logistics and cold chains",
+        "hi": "कृषि-लॉजिस्टिक्स और कोल्ड चेन"
+      },
+      "explanation": {
+        "en": "Agriculture Infrastructure Fund (AIF), launched in 2020, is a Rs. 1 lakh crore financing facility to build post-harvest management infrastructure like cold storage, warehouses, sorting/grading units, and processing facilities. It provides interest subvention of 3% and credit guarantee coverage to reduce post-harvest losses.",
+        "hi": "कृषि अवसंरचना कोष (AIF), 2020 में शुरू किया गया, कोल्ड स्टोरेज, गोदाम, छंटाई/ग्रेडिंग इकाइयों और प्रसंस्करण सुविधाओं जैसे फसल-पश्चात प्रबंधन बुनियादी ढांचे के निर्माण के लिए 1 लाख करोड़ रुपये की वित्तपोषण सुविधा है। यह फसल-पश्चात नुकसान को कम करने के लिए 3% ब्याज सब्सिडी और क्रेडिट गारंटी कवरेज प्रदान करता है।"
+      }
+    },
+    {
+      "questionNo": 20,
+      "question": {
+        "en": "Read the below statements marked as Assertion (A) and Reason (R). Mark the correct options:<br>Assertion (A): India Industrial Land Bank provides GIS-based information.<br>Reason (R): It is managed by the Ministry of Mines.",
+        "hi": "नीचे दिए गए कथनों को अभिकथन (A) और कारण (R) से चिह्नित करके पढ़िए। सही विकल्पों पर निशान लगाइएः<br>अभिकथन (A): भारत औद्योगिक भूमि बैंक, GIS-आधारित जानकारी प्रदान करता है।<br>कारण (R): इसका प्रबंधन खान मंत्रालय द्वारा किया जाता है।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, और R, A का सही स्पष्टीकरण है"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A का सही स्पष्टीकरण नहीं है"
+        },
+        {
+          "en": "A is true, but R is false",
+          "hi": "A सत्य है, लेकिन R असत्य है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A असत्य है, लेकिन R सत्य है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "A is true, but R is false",
+        "hi": "A सत्य है, लेकिन R असत्य है"
+      },
+      "explanation": {
+        "en": "Assertion is TRUE - India Industrial Land Bank (IILB) is a GIS-based portal providing information on industrial land parcels across India for investors. Reason is FALSE - IILB is managed by DPIIT (Department for Promotion of Industry and Internal Trade) under Ministry of Commerce and Industry, NOT Ministry of Mines.",
+        "hi": "अभिकथन सत्य है - भारत औद्योगिक भूमि बैंक (IILB) एक GIS-आधारित पोर्टल है जो निवेशकों को भारत भर में औद्योगिक भूमि पार्सल की जानकारी प्रदान करता है। कारण असत्य है - IILB का प्रबंधन वाणिज्य और उद्योग मंत्रालय के तहत DPIIT (उद्योग और आंतरिक व्यापार संवर्धन विभाग) द्वारा किया जाता है, खान मंत्रालय द्वारा नहीं।"
+      }
+    },
+    {
+      "questionNo": 21,
+      "question": {
+        "en": "According to the Global Peace Index 2024, which of the following statements correctly reflects global peace trends since 2008?",
+        "hi": "वैश्विक शांति सूचकांक 2024 के अनुसार, निम्नलिखित में से कौन सा कथन 2008 से वैश्विक शांति प्रवृत्तियों को सही ढंग से दर्शाता है?"
+      },
+      "options": [
+        {
+          "en": "All three GPI domains have steadily improved since 2008",
+          "hi": "2008 के बाद से सभी तीन GPI डोमेन में लगातार सुधार हुआ है"
+        },
+        {
+          "en": "The average country score has improved by 4.5% since 2008",
+          "hi": "2008 से देश के औसत स्कोर में 4.5% का सुधार हुआ है"
+        },
+        {
+          "en": "Ongoing Conflict and Safety & Security have deteriorated, while Militarisation has improved",
+          "hi": "चल रहे संघर्ष और सुरक्षा की स्थिति खराब हुई है, जबकि सैन्यीकरण में सुधार हुआ है"
+        },
+        {
+          "en": "The number of countries showing improvement exceeds those showing deterioration",
+          "hi": "सुधार दर्शाने वाले देशों की संख्या गिरावट दर्शाने वाले देशों से अधिक है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Ongoing Conflict and Safety & Security have deteriorated, while Militarisation has improved",
+        "hi": "चल रहे संघर्ष और सुरक्षा की स्थिति खराब हुई है, जबकि सैन्यीकरण में सुधार हुआ है"
+      },
+      "explanation": {
+        "en": "Global Peace Index (by Institute for Economics and Peace) has 3 domains: Ongoing Conflict, Safety & Security, and Militarization. Since 2008, Ongoing Conflict has worsened significantly (wars in Ukraine, Gaza, etc.), Safety & Security has declined, but Militarization domain has shown improvement due to reduced military expenditure as % of GDP in many countries.",
+        "hi": "वैश्विक शांति सूचकांक (अर्थशास्त्र और शांति संस्थान द्वारा) के 3 डोमेन हैं: चल रहा संघर्ष, सुरक्षा और संरक्षा, और सैन्यीकरण। 2008 से, चल रहे संघर्ष में काफी गिरावट आई है (यूक्रेन, गाजा में युद्ध आदि), सुरक्षा में गिरावट आई है, लेकिन कई देशों में जीडीपी के % के रूप में सैन्य व्यय में कमी के कारण सैन्यीकरण डोमेन में सुधार हुआ है।"
+      }
+    },
+    {
+      "questionNo": 22,
+      "question": {
+        "en": "Under India's updated State Action Plan on Climate Change (SAPCC) for 2025, which sector received the highest budgetary allocation for climate adaptation?",
+        "hi": "2025 के लिए भारत की अद्यतन जलवायु परिवर्तन पर राज्य कार्य योजना (SAPCC) के तहत, किस क्षेत्र को जलवायु अनुकूलन के लिए सबसे अधिक बजटीय आवंटन प्राप्त हुआ?"
+      },
+      "options": [
+        {
+          "en": "Transport",
+          "hi": "परिवहन"
+        },
+        {
+          "en": "Urban Planning",
+          "hi": "शहरी नियोजन"
+        },
+        {
+          "en": "Agriculture and Water Resources",
+          "hi": "कृषि और जल संसाधन"
+        },
+        {
+          "en": "Renewable Energy",
+          "hi": "नवीकरणीय ऊर्जा"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Agriculture and Water Resources",
+        "hi": "कृषि और जल संसाधन"
+      },
+      "explanation": {
+        "en": "This question was marked as BONUS by SSC. State Action Plans on Climate Change (SAPCCs) are prepared by states aligned with National Action Plan on Climate Change. Agriculture and Water Resources typically receive high priority for climate adaptation as these sectors are most vulnerable to climate change impacts in India.",
+        "hi": "इस प्रश्न को SSC द्वारा बोनस के रूप में चिह्नित किया गया था। जलवायु परिवर्तन पर राज्य कार्य योजनाएं (SAPCCs) राष्ट्रीय जलवायु परिवर्तन कार्य योजना के अनुरूप राज्यों द्वारा तैयार की जाती हैं। कृषि और जल संसाधन आमतौर पर जलवायु अनुकूलन के लिए उच्च प्राथमिकता प्राप्त करते हैं क्योंकि ये क्षेत्र भारत में जलवायु परिवर्तन प्रभावों के प्रति सबसे अधिक संवेदनशील हैं।"
+      }
+    },
+    {
+      "questionNo": 23,
+      "question": {
+        "en": "Which of the following correctly highlights a unique feature of India's textile industry?",
+        "hi": "निम्नलिखित में से कौन सा कथन भारत के वस्त्र उद्योग की अनूठी विशेषता को सही ढंग से उजागर करता है?"
+      },
+      "options": [
+        {
+          "en": "It focuses only on raw material exports.",
+          "hi": "यह केवल कच्चे माल के निर्यात पर ध्यान केंद्रित करता है।"
+        },
+        {
+          "en": "It is partially self-reliant and imports final products.",
+          "hi": "यह आंशिक रूप से आत्मनिर्भर है और अंतिम उत्पाद आयात करता है।"
+        },
+        {
+          "en": "It is self-reliant across the full value chain",
+          "hi": "यह सम्पूर्ण मूल्य श्रृंखला में आत्मनिर्भर है"
+        },
+        {
+          "en": "It only caters to domestic markets.",
+          "hi": "यह केवल घरेलू बाजारों की सेवा करता है।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "It is self-reliant across the full value chain",
+        "hi": "यह सम्पूर्ण मूल्य श्रृंखला में आत्मनिर्भर है"
+      },
+      "explanation": {
+        "en": "India's textile industry is unique globally as it is self-reliant across the complete value chain - from raw materials (cotton, silk, jute, wool) to spinning, weaving, processing, and garment manufacturing. India is the 2nd largest producer of textiles, contributing 2.3% to GDP and employing 45 million people directly.",
+        "hi": "भारत का वस्त्र उद्योग विश्व स्तर पर अनूठा है क्योंकि यह संपूर्ण मूल्य श्रृंखला में आत्मनिर्भर है - कच्चे माल (कपास, रेशम, जूट, ऊन) से लेकर कताई, बुनाई, प्रसंस्करण और परिधान निर्माण तक। भारत वस्त्रों का दूसरा सबसे बड़ा उत्पादक है, जो जीडीपी में 2.3% का योगदान देता है और प्रत्यक्ष रूप से 4.5 करोड़ लोगों को रोजगार देता है।"
+      }
+    },
+    {
+      "questionNo": 24,
+      "question": {
+        "en": "Which Article enables the President to establish an Inter-State Council?",
+        "hi": "कौन सा अनुच्छेद राष्ट्रपति को अंतर्राज्यीय परिषद स्थापित करने का अधिकार देता है?"
+      },
+      "options": [
+        {
+          "en": "Article 263",
+          "hi": "अनुच्छेद 263"
+        },
+        {
+          "en": "Article 264",
+          "hi": "अनुच्छेद 264"
+        },
+        {
+          "en": "Article 312",
+          "hi": "अनुच्छेद 312"
+        },
+        {
+          "en": "Article 262",
+          "hi": "अनुच्छेद 262"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Article 263",
+        "hi": "अनुच्छेद 263"
+      },
+      "explanation": {
+        "en": "Article 263 empowers the President to establish an Inter-State Council to: (a) inquire into disputes between states, (b) investigate matters of common interest, and (c) make recommendations for better coordination. The Inter-State Council was established in 1990 and is chaired by the Prime Minister.",
+        "hi": "अनुच्छेद 263 राष्ट्रपति को अंतर-राज्य परिषद स्थापित करने का अधिकार देता है: (a) राज्यों के बीच विवादों की जांच करने, (b) सामान्य हित के मामलों की जांच करने, और (c) बेहतर समन्वय के लिए सिफारिशें करने के लिए। अंतर-राज्य परिषद 1990 में स्थापित की गई थी और इसकी अध्यक्षता प्रधानमंत्री करते हैं।"
+      }
+    },
+    {
+      "questionNo": 25,
+      "question": {
+        "en": "Evaluate these statements regarding atmospheric layers:<br>1. Most weather phenomena occur in the stratosphere.<br>2. The ozone layer is primarily found in the troposphere.<br>Which of the above is/are correct?",
+        "hi": "वायुमंडलीय परतों के संबंध में इन कथनों का मूल्यांकन कीजिए:<br>1. अधिकांश मौसमी घटनाएँ समताप मंडल में होती हैं।<br>2. ओज़ोन परत मुख्यतः क्षोभमंडल में पाई जाती है।<br>उपर्युक्त में से कौन सा/से सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "Statement 1 only",
+          "hi": "केवल कथन 1"
+        },
+        {
+          "en": "Statement 2 only",
+          "hi": "केवल कथन 2"
+        },
+        {
+          "en": "Both 1 and 2",
+          "hi": "1 और 2 दोनों"
+        },
+        {
+          "en": "Neither 1 nor 2",
+          "hi": "न तो 1 और न ही 2"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Neither 1 nor 2",
+        "hi": "न तो 1 और न ही 2"
+      },
+      "explanation": {
+        "en": "Both statements are INCORRECT. Statement 1: Most weather phenomena (clouds, rain, storms) occur in the TROPOSPHERE (not stratosphere) because it contains water vapor and has vertical mixing. Statement 2: The ozone layer is found in the STRATOSPHERE (15-35 km altitude), not troposphere. It absorbs harmful UV radiation.",
+        "hi": "दोनों कथन गलत हैं। कथन 1: अधिकांश मौसमी घटनाएं (बादल, बारिश, तूफान) क्षोभमंडल (समताप मंडल नहीं) में होती हैं क्योंकि इसमें जलवाष्प होती है और ऊर्ध्वाधर मिश्रण होता है। कथन 2: ओजोन परत समताप मंडल (15-35 किमी ऊंचाई) में पाई जाती है, क्षोभमंडल में नहीं। यह हानिकारक UV विकिरण को अवशोषित करती है।"
+      }
+    }
+  ],
+  "ssc_cgl_gk_13_sep_s2": [
+    {
+      "questionNo": 1,
+      "question": {
+        "en": "Arrange the following sites in chronological order based on the stylistic development of Buddhist sculpture:<br>1. Mathura<br>2. Bharhut<br>3. Sanchi Stupa-1",
+        "hi": "बौद्ध मूर्तिकला के शैलीगत विकास के आधार पर निम्नलिखित स्थलों को कालानुक्रमिक क्रम में व्यवस्थित करें:<br>1. मथुरा<br>2. भरहत<br>3. सांची स्तूप-1"
+      },
+      "options": [
+        {
+          "en": "2-3-1",
+          "hi": "2-3-1"
+        },
+        {
+          "en": "3-1-2",
+          "hi": "3-1-2"
+        },
+        {
+          "en": "3-2-1",
+          "hi": "3-2-1"
+        },
+        {
+          "en": "1-3-2",
+          "hi": "1-3-2"
+        }
+      ],
+      "correctAnswer": {
+        "en": "2-3-1",
+        "hi": "2-3-1"
+      },
+      "explanation": {
+        "en": "The chronological order is Bharhut (2nd Century BCE), followed by Sanchi Stupa-1 (1st Century BCE), and finally the Mathura school of art which flourished primarily during the Kushana period (1st-3rd Century CE).",
+        "hi": "कालानुक्रमिक क्रम भरहुत (दूसरी शताब्दी ईसा पूर्व), उसके बाद सांची स्तूप-1 (पहली शताब्दी ईसा पूर्व), और अंत में मथुरा कला शैली है जो मुख्य रूप से कुषाण काल (पहली-तीसरी शताब्दी ईस्वी) के दौरान विकसित हुई थी।"
+      }
+    },
+    {
+      "questionNo": 2,
+      "question": {
+        "en": "Which of the following statements about the Chithirai Festival of Madurai is correct?",
+        "hi": "मदुरै के चिथिरई महोत्सव के बारे में निम्नलिखित में से कौन सा कथन सही है?"
+      },
+      "options": [
+        {
+          "en": "The Chithirai Festival is celebrated in the tamil month of Margazhi",
+          "hi": "चिथिरई महोत्सव तमिल माह मार्गाज़ी में मनाया जाता है"
+        },
+        {
+          "en": "Lord Kallazhagar arrives on a golden horse",
+          "hi": "भगवान कल्लझगर का स्वर्णिम घोड़े पर आगमन"
+        },
+        {
+          "en": "The festival is held exclusively in December",
+          "hi": "यह उत्सव विशेष रूप से दिसंबर माह में आयोजित किया जाता है"
+        },
+        {
+          "en": "The festival ends with a game of bullfight",
+          "hi": "यह उत्सव बैल-लड़ाई के खेल के साथ समाप्त होता है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Lord Kallazhagar arrives on a golden horse",
+        "hi": "भगवान कल्लझगर का स्वर्णिम घोड़े पर आगमन"
+      },
+      "explanation": {
+        "en": "The Chithirai Festival in Madurai depicts the wedding of Goddess Meenakshi and Lord Sundareswarar. A key event is when Lord Kallazhagar (a form of Vishnu) enters the Vaigai River mounted on a golden horse.",
+        "hi": "मदुरै में चिथिरई महोत्सव देवी मीनाक्षी और भगवान सुंदरेश्वर के विवाह को दर्शाता है। एक प्रमुख घटना तब होती है जब भगवान कल्लझगर (विष्णु के एक रूप) सुनहरे घोड़े पर सवार होकर वैगई नदी में प्रवेश करते हैं।"
+      }
+    },
+    {
+      "questionNo": 3,
+      "question": {
+        "en": "What is the term for a structured musical composition in Hindustani classical music?",
+        "hi": "हिंदुस्तानी शास्त्रीय संगीत में संरचित संगीत रचना के लिए क्या शब्द है?"
+      },
+      "options": [
+        {
+          "en": "Kriti",
+          "hi": "कृति"
+        },
+        {
+          "en": "Bandish",
+          "hi": "बंदिश"
+        },
+        {
+          "en": "Gamaka",
+          "hi": "गमक"
+        },
+        {
+          "en": "Rasa",
+          "hi": "रस"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Bandish",
+        "hi": "बंदिश"
+      },
+      "explanation": {
+        "en": "In Hindustani classical music, 'Bandish' refers to a fixed, melodic composition set to a specific Raga and Tala. In Carnatic music, a similar structured composition is called a 'Kriti'.",
+        "hi": "हिंदुस्तानी शास्त्रीय संगीत में, 'बंदिश' एक विशिष्ट राग और ताल में बंधी एक निश्चित मधुर रचना को संदर्भित करती है। कर्नाटक संगीत में, इसी तरह की संरचित रचना को 'कृति' कहा जाता है।"
+      }
+    },
+    {
+      "questionNo": 4,
+      "question": {
+        "en": "Consider the following statements regarding belt ranks and competition area in Judo:<br>1) A red-and-white belt is associated with judokas from Sixth dan to Eighth dan levels.<br>2) A shared safety zone of at least 1 meter must be maintained between adjoining competition areas.<br>Which of the above statements is/are correct?",
+        "hi": "जूडो में बेल्ट रैंक और प्रतियोगिता क्षेत्र के बारे में निम्नलिखित कथनों पर विचार करें:<br>1) लाल और सफेद बेल्ट छठे डैन से आठवें डैन स्तर तक के जुडोकाओं से जुड़ी होती है।<br>2) आस-पास के प्रतियोगिता क्षेत्रों के बीच कम से कम 1 मीटर का साझा सुरक्षा क्षेत्र बनाए रखा जाना चाहिए।<br>उपर्युक्त कथनों में से कौन सा/से सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "Only 1 is Correct",
+          "hi": "केवल 1 सही है"
+        },
+        {
+          "en": "Only 2 is Correct",
+          "hi": "केवल 2 सही है"
+        },
+        {
+          "en": "1 and 2 both are correct",
+          "hi": "1 और 2 दोनों सही हैं."
+        },
+        {
+          "en": "Neither 1 nor 2 is Correct",
+          "hi": "न तो 1 न ही 2 सही है."
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1 is Correct",
+        "hi": "केवल 1 सही है"
+      },
+      "explanation": {
+        "en": "In Judo, higher Dan ranks (6th, 7th, and 8th) wear a paneled red-and-white belt (Kohaku-obi). Statement 2 is incorrect because the IJF regulations generally require a larger safety zone (usually 3-4 meters) between competition mats.",
+        "hi": "जूडो में, उच्च डैन रैंक (छठे, सातवें और आठवें) के खिलाड़ी लाल और सफेद पैनल वाली बेल्ट (कोहाकु-ओबी) पहनते हैं। कथन 2 गलत है क्योंकि IJF नियमों के अनुसार प्रतियोगिता मैट के बीच आमतौर पर बड़े सुरक्षा क्षेत्र (3-4 मीटर) की आवश्यकता होती है।"
+      }
+    },
+    {
+      "questionNo": 5,
+      "question": {
+        "en": "Who broke the 30-year-old Asian Games men's 5,000m meet record in National Open Athletics Championships 2024?",
+        "hi": "राष्ट्रीय ओपन एथलेटिक्स चैंपियनशिप 2024 में 30 साल पुराना एशियाई खेलों के पुरुषों की 5,000 मीटर मीट रिकॉर्ड किसने तोड़ा ?"
+      },
+      "options": [
+        {
+          "en": "Bahadur Singh",
+          "hi": "बहादुर सिंह"
+        },
+        {
+          "en": "Gulveer Singh",
+          "hi": "गुलवीर सिंह"
+        },
+        {
+          "en": "Neeraj Chopra",
+          "hi": "नीरज चोपड़ा"
+        },
+        {
+          "en": "Hima Das",
+          "hi": "हिमा दास"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Gulveer Singh",
+        "hi": "गुलवीर सिंह"
+      },
+      "explanation": {
+        "en": "Long-distance runner Gulveer Singh broke the 5000m meet record at the National Open Athletics Championships 2024. He has been consistently breaking national and meet records in long-distance running.",
+        "hi": "लंबी दूरी के धावक गुलवीर सिंह ने नेशनल ओपन एथलेटिक्स चैंपियनशिप 2024 में 5000 मीटर का मीट रिकॉर्ड तोड़ा। वे लंबी दूरी की दौड़ में लगातार राष्ट्रीय और मीट रिकॉर्ड तोड़ रहे हैं।"
+      }
+    },
+    {
+      "questionNo": 6,
+      "question": {
+        "en": "Consider the following statements regarding BRICS Science, Technology and Innovation (STI) cooperation:<br>1) It is based on mutual benefit and public-good-driven innovation.<br>2) It is governed only through annual Heads of State Summits.<br>Which of the statements is/are correct?",
+        "hi": "ब्रिक्स विज्ञान, प्रौद्योगिकी और नवाचार (एसटीआई) सहयोग के संबंध में निम्नलिखित कथनों पर विचार करें:<br>1) यह पारस्परिक लाभ और जनहित से प्रेरित नवाचार पर आधारित है।<br>2) यह केवल वार्षिक राष्ट्राध्यक्ष शिखर सम्मेलनों के माध्यम से संचालित होता है।<br>निम्नलिखित में से कौन सा/से कथन सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "Only 1 is correct",
+          "hi": "केवल 1 सही है"
+        },
+        {
+          "en": "Only 2 is correct",
+          "hi": "केवल 2 सही है"
+        },
+        {
+          "en": "Both 1 and 2 are correct",
+          "hi": "1 और 2 दोनों सही हैं"
+        },
+        {
+          "en": "Neither 1 nor 2 is correct",
+          "hi": "न तो 1 और न ही 2 सही है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1 is correct",
+        "hi": "केवल 1 सही है"
+      },
+      "explanation": {
+        "en": "BRICS STI cooperation follows the principle of shared resources for public good. Statement 2 is incorrect because it is also governed by specialized ministerial meetings (BRICS STI Ministerial Meetings) and working groups, not just the main summit.",
+        "hi": "ब्रिक्स STI सहयोग सार्वजनिक कल्याण के लिए साझा संसाधनों के सिद्धांत का पालन करता है। कथन 2 गलत है क्योंकि यह केवल मुख्य शिखर सम्मेलन द्वारा नहीं, बल्कि विशेष मंत्रिस्तरीय बैठकों और कार्य समूहों द्वारा भी संचालित होता है।"
+      }
+    },
+    {
+      "questionNo": 7,
+      "question": {
+        "en": "Fill in the blank:<br>The inaugural Khelo India Para Games took place in ________ showcasing seven sporting disciplines across three venues in New Delhi.",
+        "hi": "रिक्त स्थान भरें:<br>खेलो इंडिया पैरा गेम्स का पहला आयोजन ________ में हुआ, जिसमें नई दिल्ली के तीन स्थानों पर सात खेल स्पर्धाओं का प्रदर्शन किया गया।"
+      },
+      "options": [
+        {
+          "en": "March 2024",
+          "hi": "मार्च 2024"
+        },
+        {
+          "en": "January 2023",
+          "hi": "जनवरी 2023"
+        },
+        {
+          "en": "December 2023",
+          "hi": "दिसंबर 2023"
+        },
+        {
+          "en": "March 2025",
+          "hi": "मार्च 2025"
+        }
+      ],
+      "correctAnswer": {
+        "en": "December 2023",
+        "hi": "दिसंबर 2023"
+      },
+      "explanation": {
+        "en": "The first-ever Khelo India Para Games were held in New Delhi from December 10 to December 17, 2023, to provide a platform for para-athletes in India.",
+        "hi": "भारत में पैरा-एथलीटों को एक मंच प्रदान करने के लिए 10 दिसंबर से 17 दिसंबर, 2023 तक नई दिल्ली में पहले खेलो इंडिया पैरा गेम्स आयोजित किए गए थे।"
+      }
+    },
+    {
+      "questionNo": 8,
+      "question": {
+        "en": "Read the below statements marked as Assertion (A) and Reason (R). Mark the correct options:<br>Assertion (A): Last Man in Tower explores the moral and ethical conflicts faced by residents during rapid urban development and real estate pressures in Mumbai.<br>Reason (R): The novel focuses on the historical evolution of Mumbai's architecture and its colonial past.",
+        "hi": "नीचे दिए गए कथनों को अभिकथन (A) और कारण (R) से चिह्नित करें। सही विकल्पों पर निशान लगाएँ:<br>अभिकथन (A): \"लास्ट मैन इन टावर\" मुंबई में तेज़ी से बढ़ते शहरी विकास और रियल एस्टेट के दबाव के दौरान निवासियों द्वारा सामना किए जाने वाले नैतिक और नैतिक संघर्षों की पड़ताल करता है।<br>कारण (R): यह उपन्यास मुंबई की वास्तुकला के ऐतिहासिक विकास और उसके औपनिवेशिक अतीत पर केंद्रित है।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A.",
+          "hi": "A और R दोनों सत्य हैं, तथा R, A का सही स्पष्टीकरण है।"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation of A.",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A का सही स्पष्टीकरण नहीं है।"
+        },
+        {
+          "en": "A is true, but R is false.",
+          "hi": "A सत्य है, लेकिन R असत्य है"
+        },
+        {
+          "en": "A is false, but R is true.",
+          "hi": "A गलत है, लेकिन R सत्य है।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "A is true, but R is false.",
+        "hi": "A सत्य है, लेकिन R असत्य है"
+      },
+      "explanation": {
+        "en": "Assertion (A) is correct: Aravind Adiga's 'Last Man in Tower' is about real estate greed in Mumbai. Reason (R) is false: The novel is a contemporary social commentary, not a book on architectural history or colonial evolution.",
+        "hi": "अभिकथन (A) सही है: अरविंद अडिगा का 'लास्ट मैन इन टॉवर' मुंबई में रियल एस्टेट के लालच के बारे में है। कारण (R) गलत है: यह उपन्यास एक समकालीन सामाजिक टिप्पणी है, न कि वास्तुशिल्प इतिहास या औपनिवेशिक विकास पर कोई पुस्तक।"
+      }
+    },
+    {
+      "questionNo": 9,
+      "question": {
+        "en": "Choose the correctly matched cave feature and its formation:",
+        "hi": "सही सुमेलित गुफा विशेषता और उसके गठन का चयन करें:"
+      },
+      "options": [
+        {
+          "en": "Stalactite - Grows upward from cave floor",
+          "hi": "स्टैलेक्टाइट गुफा के तल से ऊपर की ओर बढ़ता है"
+        },
+        {
+          "en": "Stalagmite - Formed by dripping water from cave ceiling",
+          "hi": "स्टैलेग्माइट - गुफा की छत से टपकते पानी से निर्मित"
+        },
+        {
+          "en": "Pillar Hangs from the cave roof",
+          "hi": "स्तंभ - गुफा की छत से लटका हुआ"
+        },
+        {
+          "en": "Stalactite Formed by upward mineral flow",
+          "hi": "स्टैलेक्टाइट ऊपर की ओर खनिज प्रवाह द्वारा निर्मित"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Stalagmite - Formed by dripping water from cave ceiling",
+        "hi": "स्टैलेग्माइट - गुफा की छत से टपकते पानी से निर्मित"
+      },
+      "explanation": {
+        "en": "Stalactites hang from the ceiling (think 'C' for Ceiling). Stalagmites grow from the floor (think 'G' for Ground) due to water dripping from the ceiling.",
+        "hi": "स्टैलेक्टाइट छत से लटकते हैं। स्टैलेग्माइट छत से टपकते पानी के कारण गुफा के फर्श से ऊपर की ओर बढ़ते हैं।"
+      }
+    },
+    {
+      "questionNo": 10,
+      "question": {
+        "en": "What is the primary function of the NVS-02 satellite launched aboard GSLV-F15?",
+        "hi": "जीएसएलवी-एफ 15 के माध्यम से प्रक्षेपित एनवीएस-02 उपग्रह का प्राथमिक कार्य क्या है?"
+      },
+      "options": [
+        {
+          "en": "It supports meteorological observations for cyclone prediction.",
+          "hi": "यह चक्रवात की भविष्यवाणी के लिए मौसम संबंधी अवलोकनों का समर्थन करता है।"
+        },
+        {
+          "en": "It enables satellite-based television broadcasting.",
+          "hi": "यह उपग्रह आधारित टेलीविजन प्रसारण को सक्षम बनाता है।"
+        },
+        {
+          "en": "It boosts India's navigation system by offering precise position and timing data.",
+          "hi": "यह सटीक स्थिति और समय संबंधी डेटा प्रदान करके भारत की नेविगेशन प्रणाली को बढ़ावा देता है।"
+        },
+        {
+          "en": "It conducts deep-space communication with planetary probes.",
+          "hi": "यह ग्रहीय अन्वेषणों के साथ गहन अंतरिक्ष संचार करता है।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "It boosts India's navigation system by offering precise position and timing data.",
+        "hi": "यह सटीक स्थिति और समय संबंधी डेटा प्रदान करके भारत की नेविगेशन प्रणाली को बढ़ावा देता है।"
+      },
+      "explanation": {
+        "en": "NVS-02 is the second-generation satellite of India's NavIC (Navigation with Indian Constellation) series, designed to provide accurate positioning and timing services.",
+        "hi": "NVS-02 भारत की NavIC (नैविगेशन विद इंडियन कॉन्स्टेलेशन) श्रृंखला का दूसरी पीढ़ी का उपग्रह है, जिसे सटीक स्थिति और समय सेवाएँ प्रदान करने के लिए डिज़ाइन किया गया है।"
+      }
+    },
+    {
+      "questionNo": 11,
+      "question": {
+        "en": "Assertion (A) and Reason (R) are given below. Choose the correct option:<br>Assertion (A): Population growth can be measured in absolute numbers and percentage change per year.<br>Reason (R): Measuring growth only in absolute numbers provides detailed insights into population trends over time.",
+        "hi": "नीचे अभिकथन (A) और कारण (R) दिए गए हैं। सही विकल्प चुनें:<br>अभिकथन (A): जनसंख्या वृद्धि को निरपेक्ष संख्याओं और प्रति वर्ष प्रतिशत परिवर्तन के रूप में मापा जा सकता है।<br>कारण (R): केवल निरपेक्ष संख्याओं में वृद्धि को मापने से समय के साथ जनसंख्या प्रवृत्तियों की विस्तृत जानकारी मिलती है।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, और R, A का सही स्पष्टीकरण है"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A का सही स्पष्टीकरण नहीं है"
+        },
+        {
+          "en": "A is true, but R is false",
+          "hi": "A सत्य है, लेकिन R असत्य है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A असत्य है, लेकिन R सत्य है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "A is true, but R is false",
+        "hi": "A सत्य है, लेकिन R असत्य है"
+      },
+      "explanation": {
+        "en": "Assertion (A) is true as these are standard demographic measures. Reason (R) is false because absolute numbers alone don't reveal the rate of growth or pressure on resources; percentage growth (rate) is needed for a detailed insight.",
+        "hi": "अभिकथन (A) सत्य है क्योंकि ये मानक जनसांख्यिकीय माप हैं। कारण (R) गलत है क्योंकि केवल निरपेक्ष संख्याएँ विकास की दर या संसाधनों पर दबाव का खुलासा नहीं करती हैं; विस्तृत जानकारी के लिए प्रतिशत वृद्धि (दर) की आवश्यकता होती है।"
+      }
+    },
+    {
+      "questionNo": 12,
+      "question": {
+        "en": "Read the following statements regarding K. Sanjay Murthy's recent appointment as Comptroller and Auditor General (CAG) of India:<br>1. He took office as the CAG in November 2024 after the term of Girish Chandra Murmu.<br>2. The CAG is a constitutional office, which is appointed by the President under Article 148 of the Indian Constitution.<br>3. The CAG's term is only five years and cannot be repeated.<br>Which of the above is/are correct?",
+        "hi": "भारत के नियंत्रक एवं महालेखा परीक्षक (CAG) के रूप में के. संजय मूर्ति की हालिया नियुक्ति के संबंध में निम्नलिखित कथन पढ़ेंः<br>1. उन्होंने गिरीश चंद्र मुर्मू के कार्यकाल के बाद नवंबर 2024 में CAG के रूप में पदभार ग्रहण किया।<br>2. CAG एक संवैधानिक पद है, जिसकी नियुक्ति भारतीय संविधान के अनुच्छेद 148 के तहत राष्ट्रपति द्वारा की जाती है।<br>3. CAG का कार्यकाल केवल पाँच वर्ष का होता है और इसे दोहराया नहीं जा सकता।<br>उपर्युक्त में से कौन सा/से सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "1 and 2 only",
+          "hi": "केवल 1 और 2"
+        },
+        {
+          "en": "2 and 3 only",
+          "hi": "केवल 2 और 3"
+        },
+        {
+          "en": "1 and 3 only",
+          "hi": "केवल 1 और 3"
+        },
+        {
+          "en": "1, 2 and 3 all are correct",
+          "hi": "1, 2 और 3 सभी सही हैं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "1 and 2 only",
+        "hi": "केवल 1 और 2"
+      },
+      "explanation": {
+        "en": "K. Sanjay Murthy was appointed CAG in 2024. Statement 3 is incorrect because the CAG holds office for a term of 6 years or until the age of 65 years, whichever is earlier.",
+        "hi": "के. संजय मूर्ति को 2024 में CAG नियुक्त किया गया था। कथन 3 गलत है क्योंकि CAG का कार्यकाल 6 वर्ष या 65 वर्ष की आयु तक (जो भी पहले हो) होता है।"
+      }
+    },
+    {
+      "questionNo": 13,
+      "question": {
+        "en": "What is the primary function of the Golgi apparatus?",
+        "hi": "गॉल्जी उपकरण का प्राथमिक कार्य क्या है?"
+      },
+      "options": [
+        {
+          "en": "ATP production",
+          "hi": "एटीपी उत्पादन"
+        },
+        {
+          "en": "Protein modification",
+          "hi": "प्रोटीन संशोधन"
+        },
+        {
+          "en": "Lipid synthesis",
+          "hi": "लिपिड संश्लेषण"
+        },
+        {
+          "en": "DNA replication",
+          "hi": "डीएनए प्रतिकृति"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Protein modification",
+        "hi": "प्रोटीन संशोधन"
+      },
+      "explanation": {
+        "en": "The Golgi apparatus acts as the 'packaging center' of the cell, modifying, sorting, and packaging proteins and lipids that are synthesized in the endoplasmic reticulum.",
+        "hi": "गॉल्जी उपकरण कोशिका के 'पैकेजिंग केंद्र' के रूप में कार्य करता है, जो एंडोप्लाज्मिक रेटिकुलम में संश्लेषित प्रोटीन और लिपिड को संशोधित, छाँटने और पैक करने का काम करता है।"
+      }
+    },
+    {
+      "questionNo": 14,
+      "question": {
+        "en": "As per Article 279A of the Indian Constitution, the GST Council's decisions require what kind of majority of the weighted votes of the members present and voting?",
+        "hi": "भारतीय संविधान के अनुच्छेद 279A के अनुसार, जीएसटी परिषद के निर्णयों के लिए उपस्थित और मतदान करने वाले सदस्यों के भारित मतों के किस प्रकार के बहुमत की आवश्यकता होती है?"
+      },
+      "options": [
+        {
+          "en": "Simple majority",
+          "hi": "साधारण बहुमत"
+        },
+        {
+          "en": "Three-fourths majority",
+          "hi": "तीन-चौथाई बहुमत"
+        },
+        {
+          "en": "Two-thirds majority",
+          "hi": "दो-तिहाई बहुमत"
+        },
+        {
+          "en": "Half majority",
+          "hi": "आधा बहुमत"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Three-fourths majority",
+        "hi": "तीन-चौथाई बहुमत"
+      },
+      "explanation": {
+        "en": "Every decision of the GST Council is taken by a majority of not less than three-fourths (75%) of the weighted votes of the members present and voting.",
+        "hi": "जीएसटी परिषद का प्रत्येक निर्णय उपस्थित और मतदान करने वाले सदस्यों के भारित मतों के तीन-चौथाई (75%) से कम के बहुमत द्वारा नहीं लिया जाता है।"
+      }
+    },
+    {
+      "questionNo": 15,
+      "question": {
+        "en": "Which of the following correctly reflects the legal implication of Article 255 regarding presidential or governor's assent to bills?",
+        "hi": "निम्नलिखित में से कौन सा विधेयकों पर राष्ट्रपति या राज्यपाल की स्वीकृति के संबंध में अनुच्छेद 255 के कानूनी निहितार्थ को सही ढंग से दर्शाता है?"
+      },
+      "options": [
+        {
+          "en": "State law is void without written Governor assent.",
+          "hi": "राज्यपाल की लिखित स्वीकृति के बिना राज्य का कानून अमान्य है।"
+        },
+        {
+          "en": "Mention of assent is mandatory for validity.",
+          "hi": "वैधता के लिए सहमति का उल्लेख अनिवार्य है।"
+        },
+        {
+          "en": "Omission of prior recommendation doesn't invalidate law if assent is given.",
+          "hi": "यदि सहमति दे दी गई है तो पूर्व अनुशंसा को छोड़ देने से कानून अमान्य नहीं हो जाता।"
+        },
+        {
+          "en": "President's assent must precede legislative passage to be valid.",
+          "hi": "विधायी पारित होने के लिए राष्ट्रपति की स्वीकृति आवश्यक है।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Omission of prior recommendation doesn't invalidate law if assent is given.",
+        "hi": "यदि सहमति दे दी गई है तो पूर्व अनुशंसा को छोड़ देने से कानून अमान्य नहीं हो जाता।"
+      },
+      "explanation": {
+        "en": "Article 255 states that no Act of Parliament or a State Legislature shall be invalid merely because some recommendation or previous sanction required by the Constitution was not given, provided the assent was eventually given by the President or the Governor.",
+        "hi": "अनुच्छेद 255 कहता है कि संसद या राज्य विधानमंडल का कोई भी अधिनियम केवल इस कारण से अमान्य नहीं होगा कि संविधान द्वारा आवश्यक कुछ अनुशंसा या पूर्व स्वीकृति नहीं दी गई थी, बशर्ते कि अंततः राष्ट्रपति या राज्यपाल द्वारा सहमति दे दी गई हो।"
+      }
+    },
+    {
+      "questionNo": 16,
+      "question": {
+        "en": "When light enters from air into a medium, its speed changes. Which of the following properties of light remains constant during this transition?",
+        "hi": "जब प्रकाश वायु से किसी माध्यम में प्रवेश करता है, तो उसकी गति बदल जाती है। इस संक्रमण के दौरान प्रकाश का निम्नलिखित में से कौन सा गुण स्थिर रहता है?"
+      },
+      "options": [
+        {
+          "en": "Wavelength",
+          "hi": "वेवलेंथ"
+        },
+        {
+          "en": "Frequency",
+          "hi": "आवृत्ति"
+        },
+        {
+          "en": "Speed",
+          "hi": "रफ्तार"
+        },
+        {
+          "en": "Amplitude",
+          "hi": "आयाम"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Frequency",
+        "hi": "आवृत्ति"
+      },
+      "explanation": {
+        "en": "When light moves from one medium to another (refraction), its speed and wavelength change, but its frequency remains constant as it depends on the source of light.",
+        "hi": "जब प्रकाश एक माध्यम से दूसरे माध्यम में जाता है (अपवर्तन), तो उसकी गति और तरंग दैर्ध्य बदल जाते हैं, लेकिन उसकी आवृत्ति स्थिर रहती है क्योंकि यह प्रकाश के स्रोत पर निर्भर करती है।"
+      }
+    },
+    {
+      "questionNo": 17,
+      "question": {
+        "en": "The Bharatiya Sakshya Adhiniyam (BSA) aims to align Indian evidence law with advancements in:",
+        "hi": "भारतीय साक्ष्य अधिनियम (बीएसए) का लक्ष्य भारतीय साक्ष्य कानून को निम्नलिखित में प्रगति के साथ जोड़ना है:"
+      },
+      "options": [
+        {
+          "en": "Forensic science and digital technology",
+          "hi": "फोरेंसिक विज्ञान और डिजिटल प्रौद्योगिकी"
+        },
+        {
+          "en": "Traditional agricultural practices",
+          "hi": "पारंपरिक कृषि पद्धतियाँ"
+        },
+        {
+          "en": "Ancient philosophical texts",
+          "hi": "प्राचीन दार्शनिक ग्रंथ"
+        },
+        {
+          "en": "Oral storytelling traditions",
+          "hi": "मौखिक कहानी कहने की परंपराएँ"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Forensic science and digital technology",
+        "hi": "फोरेंसिक विज्ञान और डिजिटल प्रौद्योगिकी"
+      },
+      "explanation": {
+        "en": "The Bharatiya Sakshya Adhiniyam, 2023, replaced the Indian Evidence Act, 1872, primarily to include electronic and digital records as primary evidence and incorporate modern forensic methods.",
+        "hi": "भारतीय साक्ष्य अधिनियम, 2023 ने मुख्य रूप से इलेक्ट्रॉनिक और डिजिटल रिकॉर्ड को प्राथमिक साक्ष्य के रूप में शामिल करने और आधुनिक फोरेंसिक विधियों को शामिल करने के लिए भारतीय साक्ष्य अधिनियम, 1872 की जगह ली।"
+      }
+    },
+    {
+      "questionNo": 18,
+      "question": {
+        "en": "Read the below statements marked as Assertion (A) and Reason (R). Mark the correct options:<br>Assertion (A): Rashtriya Vigyan Puraskar is a civilian science award.<br>Reason (R): It is conferred by Ministry of Culture.",
+        "hi": "नीचे दिए गए कथनों को अभिकथन (A) और कारण (R) से चिह्नित करके पढ़िए। सही विकल्पों पर निशान लगाइएः<br>अभिकथन (A): राष्ट्रीय विज्ञान पुरस्कार एक नागरिक विज्ञान पुरस्कार है।<br>कारण (R): यह संस्कृति मंत्रालय द्वारा प्रदान किया जाता है।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, और R, A का सही स्पष्टीकरण है"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A का सही स्पष्टीकरण नहीं है"
+        },
+        {
+          "en": "A is true, but R is false",
+          "hi": "A सत्य है, लेकिन R असत्य है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A असत्य है, लेकिन R सत्य है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "A is true, but R is false",
+        "hi": "A सत्य है, लेकिन R असत्य है"
+      },
+      "explanation": {
+        "en": "Assertion (A) is true as it is the highest civilian award for science in India. Reason (R) is false because it is organized and conferred by the Ministry of Science and Technology, not Culture.",
+        "hi": "अभिकथन (A) सत्य है क्योंकि यह भारत में विज्ञान के लिए सर्वोच्च नागरिक पुरस्कार है। कारण (R) गलत है क्योंकि यह विज्ञान और प्रौद्योगिकी मंत्रालय द्वारा आयोजित और प्रदान किया जाता है, संस्कृति मंत्रालय द्वारा नहीं।"
+      }
+    },
+    {
+      "questionNo": 19,
+      "question": {
+        "en": "The Global Gender Gap Report primarily measures disparities between genders in which key areas?",
+        "hi": "वैश्विक लिंग अंतराल रिपोर्ट मुख्यतः किन प्रमुख क्षेत्रों में लिंगों के बीच असमानताओं को मापती है?"
+      },
+      "options": [
+        {
+          "en": "Politics, Economy, Health, Education",
+          "hi": "राजनीति, अर्थव्यवस्था, स्वास्थ्य, शिक्षा"
+        },
+        {
+          "en": "Income, Wealth, Land, Technology",
+          "hi": "आय, धन, भूमि, प्रौद्योगिकी"
+        },
+        {
+          "en": "Crime, Law, Justice, Security",
+          "hi": "अपराध, कानून, न्याय, सुरक्षा"
+        },
+        {
+          "en": "Environment, Climate, Water, Food",
+          "hi": "पर्यावरण, जलवायु, जल, भोजन"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Politics, Economy, Health, Education",
+        "hi": "राजनीति, अर्थव्यवस्था, स्वास्थ्य, शिक्षा"
+      },
+      "explanation": {
+        "en": "The World Economic Forum's Global Gender Gap Index measures gender equality across four pillars: Economic Participation and Opportunity, Educational Attainment, Health and Survival, and Political Empowerment.",
+        "hi": "विश्व आर्थिक मंच का ग्लोबल जेंडर गैप इंडेक्स चार स्तंभों में लैंगिक समानता को मापता है: आर्थिक भागीदारी और अवसर, शैक्षिक प्राप्ति, स्वास्थ्य और उत्तरजीविता, और राजनीतिक अधिकारिता।"
+      }
+    },
+    {
+      "questionNo": 20,
+      "question": {
+        "en": "Thang-Ta is a traditional martial dance associated with which northeastern state of India?",
+        "hi": "थांग-ता एक पारंपरिक मार्शल नृत्य है जो भारत के किस पूर्वोत्तर राज्य से संबंधित है?"
+      },
+      "options": [
+        {
+          "en": "Assam",
+          "hi": "असम"
+        },
+        {
+          "en": "Nagaland",
+          "hi": "नगालैंड"
+        },
+        {
+          "en": "Manipur",
+          "hi": "मणिपुर"
+        },
+        {
+          "en": "Tripura",
+          "hi": "त्रिपुरा"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Manipur",
+        "hi": "मणिपुर"
+      },
+      "explanation": {
+        "en": "Thang-Ta (Art of the Sword and Spear) is the traditional martial art of the Meitei people of Manipur, involving both ritualistic and combat movements.",
+        "hi": "थांग-ता (तलवार और भाले की कला) मणिपुर के मैतेई लोगों की पारंपरिक युद्धकला है, जिसमें अनुष्ठानिक और युद्ध दोनों प्रकार की गतिविधियाँ शामिल होती हैं।"
+      }
+    },
+    {
+      "questionNo": 21,
+      "question": {
+        "en": "Which of the following industry pairs is correctly grouped as heavy industries?",
+        "hi": "निम्नलिखित में से कौन सा उद्योग युग्म सही रूप से भारी उद्योगों के रूप में वर्गीकृत है?"
+      },
+      "options": [
+        {
+          "en": "Sewing machines and Paint brushes",
+          "hi": "सिलाई मशीनें और पेंट ब्रश"
+        },
+        {
+          "en": "Shipbuilding and Automobile",
+          "hi": "जहाज निर्माण और ऑटोमोबाइल"
+        },
+        {
+          "en": "Electric bulbs and Fuse wires",
+          "hi": "बिजली के बल्ब और फ्यूज तार"
+        },
+        {
+          "en": "Watches and Paint brushes",
+          "hi": "घड़ियाँ और पेंट ब्रश"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Shipbuilding and Automobile",
+        "hi": "जहाज निर्माण और ऑटोमोबाइल"
+      },
+      "explanation": {
+        "en": "Heavy industries involve large-scale production, massive capital, and heavy raw materials/products. Shipbuilding and automobile manufacturing fall into this category, unlike light industries like watch-making.",
+        "hi": "भारी उद्योगों में बड़े पैमाने पर उत्पादन, विशाल पूंजी और भारी कच्चे माल/उत्पाद शामिल होते हैं। जहाज निर्माण और ऑटोमोबाइल निर्माण इस श्रेणी में आते हैं, जबकि घड़ी बनाने जैसे हल्के उद्योग इसमें नहीं आते।"
+      }
+    },
+    {
+      "questionNo": 22,
+      "question": {
+        "en": "The President is elected by an electoral college, while the Governor is ________.",
+        "hi": "राष्ट्रपति का चुनाव एक निर्वाचक मंडल द्वारा किया जाता है, जबकि राज्यपाल होता है।"
+      },
+      "options": [
+        {
+          "en": "Directly elected",
+          "hi": "प्रत्यक्ष रूप से निर्वाचित"
+        },
+        {
+          "en": "Appointed by the President",
+          "hi": "राष्ट्रपति द्वारा नियुक्त"
+        },
+        {
+          "en": "Nominated by Supreme Court",
+          "hi": "सर्वोच्च न्यायालय द्वारा नामित"
+        },
+        {
+          "en": "Chosen by State Assembly",
+          "hi": "राज्य विधानसभा द्वारा चुना गया"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Appointed by the President",
+        "hi": "राष्ट्रपति द्वारा नियुक्त"
+      },
+      "explanation": {
+        "en": "While the President of India is indirectly elected by an electoral college, the Governor of a State is appointed by the President by warrant under his hand and seal (Article 155).",
+        "hi": "जबकि भारत के राष्ट्रपति को निर्वाचक मंडल द्वारा अप्रत्यक्ष रूप से चुना जाता है, किसी राज्य के राज्यपाल की नियुक्ति राष्ट्रपति द्वारा अपने हस्ताक्षर और मुहर के तहत वारंट द्वारा की जाती है (अनुच्छेद 155)।"
+      }
+    },
+    {
+      "questionNo": 23,
+      "question": {
+        "en": "The Western Ghats are a recognized biodiversity hotspot. Which of the following is currently considered the most significant threat to its endemic species, beyond general habitat loss?",
+        "hi": "पश्चिमी घाट एक मान्यता प्राप्त जैव विविधता हॉटस्पॉट है। सामान्य आवास क्षति के अलावा, निम्नलिखित में से किसे वर्तमान में इसकी स्थानिक प्रजातियों के लिए सबसे बड़ा खतरा माना जाता है?"
+      },
+      "options": [
+        {
+          "en": "Infrastructure development projects (e.g., roads, dams, mining).",
+          "hi": "बुनियादी ढांचा विकास परियोजनाएं (जैसे, सड़कें, बांध, खनन)."
+        },
+        {
+          "en": "Introduction of invasive alien species.",
+          "hi": "आक्रामक विदेशी प्रजातियों का प्रवेश।"
+        },
+        {
+          "en": "Forest fires due to climate change.",
+          "hi": "जलवायु परिवर्तन के कारण जंगल में आग लगना।"
+        },
+        {
+          "en": "Human-wildlife conflict due to encroachment.",
+          "hi": "अतिक्रमण के कारण मानव-वन्यजीव संघर्ष।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Introduction of invasive alien species.",
+        "hi": "आक्रामक विदेशी प्रजातियों का प्रवेश।"
+      },
+      "explanation": {
+        "en": "While habitat loss is the primary threat, the introduction of invasive alien species is a massive threat to the unique endemic flora and fauna of the Western Ghats, as they outcompete local species.",
+        "hi": "हालांकि आवास का नुकसान प्राथमिक खतरा है, लेकिन आक्रामक विदेशी प्रजातियों का प्रवेश पश्चिमी घाट की अद्वितीय स्थानिक वनस्पतियों और जीवों के लिए एक बड़ा खतरा है, क्योंकि वे स्थानीय प्रजातियों को पछाड़ देते हैं।"
+      }
+    },
+    {
+      "questionNo": 24,
+      "question": {
+        "en": "NISAR's orbit regime is?",
+        "hi": "NISAR की कक्षा व्यवस्था क्या है?"
+      },
+      "options": [
+        {
+          "en": "GTO / GTO",
+          "hi": "GTO / GTO"
+        },
+        {
+          "en": "GEO / GEO",
+          "hi": "GEO / GEO"
+        },
+        {
+          "en": "Polar sun-sync / Polar sun-sync",
+          "hi": "Polar sun-sync / Polar sun-sync"
+        },
+        {
+          "en": "LEEO / LEEO",
+          "hi": "LEEO / LEEO"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Polar sun-sync / Polar sun-sync",
+        "hi": "Polar sun-sync / Polar sun-sync"
+      },
+      "explanation": {
+        "en": "NISAR (NASA-ISRO Synthetic Aperture Radar) is designed to operate in a Sun-synchronous, low Earth orbit to globally map Earth's land and ice masses.",
+        "hi": "NISAR (नासा-इसरो सिंथेटिक अपर्चर रडार) को पृथ्वी के भूमि और बर्फ के द्रव्यमान को वैश्विक स्तर पर मैप करने के लिए सूर्य-तुल्यकालिक, निम्न पृथ्वी कक्षा में संचालित करने के लिए डिज़ाइन किया गया है।"
+      }
+    },
+    {
+      "questionNo": 25,
+      "question": {
+        "en": "Consider the following statements:<br>1. The Governor can dissolve the State Legislative Assembly.<br>2. The President has no such power regarding the Lok Sabha.<br>Which of the above is/are correct?",
+        "hi": "निम्नलिखित कथनों पर विचार कीजिए:<br>1. राज्यपाल राज्य विधान सभा को भंग कर सकता है।<br>2. राष्ट्रपति के पास लोकसभा के संबंध में ऐसी कोई शक्ति नहीं है<br>उपर्युक्त में से कौन सा/से सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "Only 1",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "Only 2",
+          "hi": "केवल 2"
+        },
+        {
+          "en": "Both 1 and 2",
+          "hi": "1 और 2 दोनों"
+        },
+        {
+          "en": "Neither 1 nor 2",
+          "hi": "न तो 1 और न ही 2"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1",
+        "hi": "केवल 1"
+      },
+      "explanation": {
+        "en": "Statement 1 is correct: The Governor has the power to dissolve the Legislative Assembly. Statement 2 is incorrect: The President has similar powers to dissolve the Lok Sabha on the advice of the Council of Ministers.",
+        "hi": "कथन 1 सही है: राज्यपाल के पास विधानसभा को भंग करने की शक्ति होती है। कथन 2 गलत है: राष्ट्रपति के पास मंत्रिपरिषद की सलाह पर लोकसभा को भंग करने की समान शक्तियां होती हैं।"
+      }
+    }
+  ],
+   "ssc_cgl_gk_13_sep_s3": [
+    {
+      "questionNo": 1,
+      "question": {
+        "en": "Which of the following pairs is correctly matched with Ashokan pillar sites?",
+        "hi": "निम्नलिखित में से कौन सा युग्म अशोक स्तंभ स्थलों से सही सुमेलित है?"
+      },
+      "options": [
+        {
+          "en": "Lauriya Nandangarh - Bihar",
+          "hi": "लौरिया नंदनगढ़ - बिहार"
+        },
+        {
+          "en": "Sarnath-Gujarat",
+          "hi": "सारनाथ - गुजरात"
+        },
+        {
+          "en": "Sanchi Odisha",
+          "hi": "साँची - ओडिशा"
+        },
+        {
+          "en": "Amaravati - Madhya Pradesh",
+          "hi": "अमरावती - मध्य प्रदेश"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Lauriya Nandangarh - Bihar",
+        "hi": "लौरिया नंदनगढ़ - बिहार"
+      },
+      "explanation": {
+        "en": "Lauriya Nandangarh is located in the West Champaran district of Bihar and is famous for its well-preserved Ashokan pillar. Sarnath is in Uttar Pradesh, and Sanchi is in Madhya Pradesh.",
+        "hi": "लौरिया नंदनगढ़ बिहार के पश्चिम चंपारण जिले में स्थित है और अपने अच्छी तरह से संरक्षित अशोक स्तंभ के लिए प्रसिद्ध है। सारनाथ उत्तर प्रदेश में है, और साँची मध्य प्रदेश में है।"
+      }
+    },
+    {
+      "questionNo": 2,
+      "question": {
+        "en": "The word Kum in Nyokum festival symbolizes:",
+        "hi": "न्योकुम त्योहार में कुम शब्द का अर्थ है:"
+      },
+      "options": [
+        {
+          "en": "Silence",
+          "hi": "मौन"
+        },
+        {
+          "en": "Purity",
+          "hi": "पवित्रता"
+        },
+        {
+          "en": "Collectiveness",
+          "hi": "सामूहिकता"
+        },
+        {
+          "en": "Sacrifice",
+          "hi": "त्याग करना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Collectiveness",
+        "hi": "सामूहिकता"
+      },
+      "explanation": {
+        "en": "Nyokum is a festival celebrated by the Nyishi tribe of Arunachal Pradesh. 'Nyok' means land and 'Kum' means collectiveness or togetherness. It is celebrated for prosperity and harmony.",
+        "hi": "न्योकुम अरुणाचल प्रदेश की निशि जनजाति द्वारा मनाया जाने वाला त्योहार है। 'न्योक' का अर्थ है भूमि और 'कुम' का अर्थ है सामूहिकता या एकजुटता। यह समृद्धि और सद्भाव के लिए मनाया जाता है।"
+      }
+    },
+    {
+      "questionNo": 3,
+      "question": {
+        "en": "Fill in the blanks:<br>A raga that contains six notes is classified under the ________ jaati.",
+        "hi": "रिक्त स्थान भरेंः<br>छह स्वरों वाला राग ________ जाति के अंतर्गत वर्गीकृत किया जाता है।"
+      },
+      "options": [
+        {
+          "en": "Audav",
+          "hi": "औड़व"
+        },
+        {
+          "en": "Sampoorna",
+          "hi": "समपूर्ण"
+        },
+        {
+          "en": "Shadav",
+          "hi": "षाडव"
+        },
+        {
+          "en": "Tishra",
+          "hi": "तिश्र"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Shadav",
+        "hi": "षाडव"
+      },
+      "explanation": {
+        "en": "In Indian classical music, ragas are classified by the number of notes: Audav (5 notes), Shadav (6 notes), and Sampoorna (7 notes).",
+        "hi": "भारतीय शास्त्रीय संगीत में, रागों को स्वरों की संख्या के अनुसार वर्गीकृत किया जाता है: औड़व (5 स्वर), षाडव (6 स्वर), और सम्पूर्ण (7 स्वर)।"
+      }
+    },
+    {
+      "questionNo": 4,
+      "question": {
+        "en": "Which of the following statements about cricket dismissals is correct?",
+        "hi": "क्रिकेट में आउट होने के बारे में निम्नलिखित में से कौन सा कथन सही है?"
+      },
+      "options": [
+        {
+          "en": "Hitting the ball twice deliberately results in dismissal.",
+          "hi": "जानबूझकर गेंद को दो बार मारने पर आउट घोषित कर दिया जाता है।"
+        },
+        {
+          "en": "'Retired Out' requires only umpire approval.",
+          "hi": "'रिटायर्ड आउट' के लिए केवल अम्पायर की स्वीकृति की आवश्यकता होती है।"
+        },
+        {
+          "en": "'Obstructing the Field' can occur accidentally.",
+          "hi": "'क्षेत्र में बाधा डालना' दुर्घटनावश घटित हो सकता है।"
+        },
+        {
+          "en": "'Retired Out' happens automatically without any approval.",
+          "hi": "'रिटायर्ड आउट' बिना किसी अनुमोदन के स्वतः हो रहा है।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "'Retired Out' happens automatically without any approval.",
+        "hi": "'रिटायर्ड आउट' बिना किसी अनुमोदन के स्वतः हो रहा है।"
+      },
+      "explanation": {
+        "en": "This question was marked as a bonus by SSC. Under MCC Laws, 'Retired Out' occurs when a batter leaves the field without the umpire's permission and without being injured/ill.",
+        "hi": "यह प्रश्न SSC द्वारा बोनस के रूप में चिह्नित किया गया था। MCC नियमों के तहत, 'रिटायर्ड आउट' तब होता है जब कोई बल्लेबाज अंपायर की अनुमति के बिना और बिना घायल/बीमार हुए मैदान छोड़ देता है।"
+      }
+    },
+    {
+      "questionNo": 5,
+      "question": {
+        "en": "Who scored 10 goals for India in their 24-1 victory over the USA to secure a second consecutive Olympic gold medal in hockey?",
+        "hi": "हॉकी में लगातार दूसरा ओलंपिक स्वर्ण पदक हासिल करने के लिए अमेरिका पर 24-1 की जीत में भारत के लिए किसने 10 गोल किए?"
+      },
+      "options": [
+        {
+          "en": "Dhyan Chand",
+          "hi": "ध्यान चंद"
+        },
+        {
+          "en": "Roop Singh",
+          "hi": "रूप सिंह"
+        },
+        {
+          "en": "Balbir Singh Sr.",
+          "hi": "बलबीर सिंह सीनियर"
+        },
+        {
+          "en": "Leslie Claudius",
+          "hi": "लेस्ली क्लॉडियस"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Roop Singh",
+        "hi": "रूप सिंह"
+      },
+      "explanation": {
+        "en": "In the 1932 Los Angeles Olympics, India defeated USA 24-1. Roop Singh scored 10 goals, while his brother Dhyan Chand scored 8 goals.",
+        "hi": "1932 के लॉस एंजिल्स ओलंपिक में, भारत ने अमेरिका को 24-1 से हराया। रूप सिंह ने 10 गोल किए, जबकि उनके भाई ध्यान चंद ने 8 गोल किए थे।"
+      }
+    },
+    {
+      "questionNo": 6,
+      "question": {
+        "en": "What initiative was launched in 2021 under India's BRICS Presidency to boost cross-border startup collaboration and innovation?",
+        "hi": "सीमा पार स्टार्टअप सहयोग और नवाचार को बढ़ावा देने के लिए भारत की ब्रिक्स प्रेसीडेंसी के तहत 2021 में कौन सी पहल शुरू की गई?"
+      },
+      "options": [
+        {
+          "en": "BRICS Innovation Pact",
+          "hi": "ब्रिक्स नवाचार संधि"
+        },
+        {
+          "en": "BRICS Startup Forum",
+          "hi": "ब्रिक्स स्टार्टअप फोरम"
+        },
+        {
+          "en": "BRICS SME Exchange",
+          "hi": "ब्रिक्स एसएमई एक्सचेंज"
+        },
+        {
+          "en": "BRICS Economic Dialogue",
+          "hi": "ब्रिक्स आर्थिक वार्ता"
+        }
+      ],
+      "correctAnswer": {
+        "en": "BRICS Startup Forum",
+        "hi": "ब्रिक्स स्टार्टअप फोरम"
+      },
+      "explanation": {
+        "en": "The BRICS Startup Forum was launched to facilitate collaboration among startups in BRICS nations, sharing best practices and promoting innovation.",
+        "hi": "ब्रिक्स स्टार्टअप फोरम को ब्रिक्स देशों के स्टार्टअप्स के बीच सहयोग की सुविधा प्रदान करने, सर्वोत्तम प्रथाओं को साझा करने और नवाचार को बढ़ावा देने के लिए लॉन्च किया गया था।"
+      }
+    },
+    {
+      "questionNo": 7,
+      "question": {
+        "en": "Which statements about The Neeraj Chopra Story: The Man Who Made History are correct?<br>1) It details Neeraj's training, mindset, and challenges.<br>2) It was written by his former Olympian coach.",
+        "hi": "\"द नीरज चोपड़ा स्टोरी: द मैन हू मेड हिस्ट्री\" के बारे में कौन से कथन सही हैं?<br>1) इसमें नीरज के प्रशिक्षण, मानसिकता और चुनौतियों का विवरण दिया गया है।<br>2) इसे उनके पूर्व ओलंपियन कोच ने लिखा था।"
+      },
+      "options": [
+        {
+          "en": "Only 1 is correct",
+          "hi": "केवल 1 सही है"
+        },
+        {
+          "en": "Only 2 is correct",
+          "hi": "केवल 2 सही है"
+        },
+        {
+          "en": "Both 1 and 2 are correct",
+          "hi": "1 और 2 दोनों सही हैं"
+        },
+        {
+          "en": "Neither 1 nor 2 is correct",
+          "hi": "न तो 1 और न ही 2 सही है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1 is correct",
+        "hi": "केवल 1 सही है"
+      },
+      "explanation": {
+        "en": "The book details the life and journey of Olympic gold medalist Neeraj Chopra. However, it was written by sports journalist Norrie Pritam, not by his coach.",
+        "hi": "यह पुस्तक ओलंपिक स्वर्ण पदक विजेता नीरज चोपड़ा के जीवन और यात्रा का विवरण देती है। हालाँकि, इसे खेल पत्रकार नोरी प्रीतम ने लिखा था, न कि उनके कोच ने।"
+      }
+    },
+    {
+      "questionNo": 8,
+      "question": {
+        "en": "Natural levees are most commonly associated with which of the following environments?",
+        "hi": "प्राकृतिक तटबंध सामान्यतः निम्नलिखित में से किस वातावरण से जुड़े होते हैं?"
+      },
+      "options": [
+        {
+          "en": "Arid deserts",
+          "hi": "शुष्क रेगिस्तान"
+        },
+        {
+          "en": "Floodplains of large rivers",
+          "hi": "बड़ी नदियों के बाढ़ के मैदान"
+        },
+        {
+          "en": "Glacial valleys",
+          "hi": "हिमनद घाटियाँ"
+        },
+        {
+          "en": "Coastal lagoons",
+          "hi": "तटीय लैगून"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Floodplains of large rivers",
+        "hi": "बड़ी नदियों के बाढ़ के मैदान"
+      },
+      "explanation": {
+        "en": "Natural levees are raised banks formed along the edges of river channels during floods as sediment is deposited.",
+        "hi": "प्राकृतिक तटबंध उठी हुई किनारियाँ होती हैं जो बाढ़ के दौरान नदी के किनारों पर तलछट जमा होने से बनती हैं।"
+      }
+    },
+    {
+      "questionNo": 9,
+      "question": {
+        "en": "Which of the following statements about the 2023 Intercontinental Cup final is correct?",
+        "hi": "2023 इंटरकांटिनेंटल कप फाइनल के बारे में निम्नलिखित में से कौन सा कथन सही है?"
+      },
+      "options": [
+        {
+          "en": "The final was held in Guwahati where India defeated Lebanon.",
+          "hi": "फाइनल मुकाबला गुवाहाटी में हुआ जहां भारत ने लेबनान को हराया।"
+        },
+        {
+          "en": "The final was held in Bhubaneswar where India defeated Lebanon.",
+          "hi": "फाइनल मुकाबला भुवनेश्वर में हुआ जहां भारत ने लेबनान को हराया।"
+        },
+        {
+          "en": "The final was held in Imphal where India defeated Lebanon.",
+          "hi": "फाइनल इम्फाल में हुआ जहां भारत ने लेबनान को हराया।"
+        },
+        {
+          "en": "The final was held in Ahmedabad where India defeated Lebanon.",
+          "hi": "फाइनल अहमदाबाद में हुआ जहां भारत ने लेबनान को हराया।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "The final was held in Bhubaneswar where India defeated Lebanon.",
+        "hi": "फाइनल मुकाबला भुवनेश्वर में हुआ जहां भारत ने लेबनान को हराया।"
+      },
+      "explanation": {
+        "en": "India won the 2023 Intercontinental Cup by defeating Lebanon 2-0 in the final held at the Kalinga Stadium in Bhubaneswar.",
+        "hi": "भारत ने भुवनेश्वर के कलिंगा स्टेडियम में आयोजित फाइनल में लेबनान को 2-0 से हराकर 2023 इंटरकांटिनेंटल कप जीता।"
+      }
+    },
+    {
+      "questionNo": 10,
+      "question": {
+        "en": "Which recipient of the Padma Shri in 2025 is the first recognized artist in the traditional Tanglia weaving form of Gujarat?",
+        "hi": "2025 में पद्मश्री पुरस्कार प्राप्त करने वाले कौन से व्यक्ति गुजरात की पारंपरिक तांगलिया बुनाई शैली के पहले मान्यता प्राप्त कलाकार हैं?"
+      },
+      "options": [
+        {
+          "en": "Lavjibhai Parmar",
+          "hi": "लवजीभाई परमार"
+        },
+        {
+          "en": "Shyam Bihari Agrawal",
+          "hi": "श्याम बिहारी अग्रवाल"
+        },
+        {
+          "en": "Gokul Chandra Das",
+          "hi": "गोकुल चंद्र दास"
+        },
+        {
+          "en": "Farooq Ahmad Mir",
+          "hi": "फ़ारूक़ अहमद मीर"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Lavjibhai Parmar",
+        "hi": "लवजीभाई परमार"
+      },
+      "explanation": {
+        "en": "Lavjibhai Parmar was awarded the Padma Shri in 2025 for his contribution to the preservation of Tangalia weaving, a 700-year-old indigenous craft of Gujarat.",
+        "hi": "लवजीभाई परमार को गुजरात के 700 साल पुराने स्वदेशी शिल्प तांगलिया बुनाई के संरक्षण में उनके योगदान के लिए 2025 में पद्मश्री से सम्मानित किया गया था।"
+      }
+    },
+    {
+      "questionNo": 11,
+      "question": {
+        "en": "Which of the following is/are characteristic features of wind-eroded landforms in desert regions?<br>1.Formation of mushroom-shaped rocks with a slender base and broad upper cap<br>2.Development of flat-topped residual hills resembling table surfaces<br>3. Emergence of rock remnants standing as isolated pedestals",
+        "hi": "निम्नलिखित में से कौन-सी/से रेगिस्तानी क्षेत्रों में वायु-अपरदित भू-आकृतियों की विशिष्ट विशेषताएँ हैं?<br>1. पतले आधार और चौड़ी ऊपरी परत वाली मशरूम के आकार की चट्टानों का निर्माण<br>2. मेज की सतह जैसी सपाट शीर्ष वाली अवशिष्ट पहाड़ियों का विकास<br>3. पृथक आधार-स्तंभों के रूप में खड़े चट्टानी अवशेषों का उद्भव"
+      },
+      "options": [
+        {
+          "en": "1 only",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "Both 1 and 2",
+          "hi": "1 और 2 दोनों"
+        },
+        {
+          "en": "Both 2 and 3",
+          "hi": "2 और 3 दोनों"
+        },
+        {
+          "en": "1, 2 and 3 all are correct",
+          "hi": "1, 2 और 3 सभी सही हैं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "1, 2 and 3 all are correct",
+        "hi": "1, 2 और 3 सभी सही हैं"
+      },
+      "explanation": {
+        "en": "Mushroom rocks (rock pedestals), Mesas, and Buttes (flat-topped hills) are all classic landforms created by wind erosion and differential weathering in arid regions.",
+        "hi": "मशरूम चट्टानें (रॉक पेडस्टल), मेसा और ब्यूट (सपाट शीर्ष वाली पहाड़ियाँ) सभी शुष्क क्षेत्रों में पवन अपरदन और विभेदक अपक्षय द्वारा बनाई गई क्लासिक भू-आकृतियाँ हैं।"
+      }
+    },
+    {
+      "questionNo": 12,
+      "question": {
+        "en": "When did India successfully complete the SpaDeX docking operation?",
+        "hi": "भारत ने स्पैडेक्स डॉकिंग ऑपरेशन सफलतापूर्वक कब पूरा किया?"
+      },
+      "options": [
+        {
+          "en": "30th December 2024",
+          "hi": "30 दिसंबर 2024"
+        },
+        {
+          "en": "1st January 2025",
+          "hi": "1 जनवरी 2025"
+        },
+        {
+          "en": "16th January 2025",
+          "hi": "16 जनवरी 2025"
+        },
+        {
+          "en": "26th January 2025",
+          "hi": "26 जनवरी 2025"
+        }
+      ],
+      "correctAnswer": {
+        "en": "16th January 2025",
+        "hi": "16 जनवरी 2025"
+      },
+      "explanation": {
+        "en": "ISRO's Space Docking Experiment (SpaDeX) is a critical mission to demonstrate the docking of two spacecraft in orbit, a key technology for future space stations.",
+        "hi": "इसरो का स्पेस डॉकिंग एक्सपेरिमेंट (स्पैडेक्स) कक्षा में दो अंतरिक्ष यानों की डॉकिंग का प्रदर्शन करने के लिए एक महत्वपूर्ण मिशन है, जो भविष्य के अंतरिक्ष स्टेशनों के लिए एक प्रमुख तकनीक है।"
+      }
+    },
+    {
+      "questionNo": 13,
+      "question": {
+        "en": "Which river valley is associated with coal deposits in the North-Eastern Plateau?",
+        "hi": "कौन सी नदी घाटी उत्तर-पूर्वी पठार में कोयला भंडार से जुड़ी है?"
+      },
+      "options": [
+        {
+          "en": "Tapti Valley",
+          "hi": "ताप्ती घाटी"
+        },
+        {
+          "en": "Ganga Valley",
+          "hi": "गंगा घाटी"
+        },
+        {
+          "en": "Brahmaputra Valley",
+          "hi": "ब्रह्मपुत्र घाटी"
+        },
+        {
+          "en": "Damodar Valley",
+          "hi": "दामोदर घाटी"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Damodar Valley",
+        "hi": "दामोदर घाटी"
+      },
+      "explanation": {
+        "en": "The Damodar Valley (spanning Jharkhand and West Bengal) is India's premier coal-mining region, housing major fields like Jharia and Raniganj.",
+        "hi": "दामोदर घाटी (झारखंड और पश्चिम बंगाल में फैली) भारत का प्रमुख कोयला खनन क्षेत्र है, जिसमें झरिया और रानीगंज जैसे प्रमुख क्षेत्र स्थित हैं।"
+      }
+    },
+    {
+      "questionNo": 14,
+      "question": {
+        "en": "Fill in the blanks:<br>The Parliament can create a new All-India Service by a resolution in the ________.",
+        "hi": "रिक्त स्थान भरेंः<br>संसद में ________ एक प्रस्ताव द्वारा एक नई अखिल भारतीय सेवा का गठन कर सकती है।"
+      },
+      "options": [
+        {
+          "en": "Rajya Sabha",
+          "hi": "राज्यसभा"
+        },
+        {
+          "en": "Lok Sabha",
+          "hi": "लोकसभा"
+        },
+        {
+          "en": "State Assemblies",
+          "hi": "राज्य विधानसभाओं"
+        },
+        {
+          "en": "GST Council",
+          "hi": "जीएसटी परिषद"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Rajya Sabha",
+        "hi": "राज्यसभा"
+      },
+      "explanation": {
+        "en": "Under Article 312, if the Rajya Sabha passes a resolution supported by two-thirds of the members present and voting, Parliament can create new All-India Services.",
+        "hi": "अनुच्छेद 312 के तहत, यदि राज्यसभा उपस्थित और मतदान करने वाले दो-तिहाई सदस्यों द्वारा समर्थित प्रस्ताव पारित करती है, तो संसद नई अखिल भारतीय सेवाओं का गठन कर सकती है।"
+      }
+    },
+    {
+      "questionNo": 15,
+      "question": {
+        "en": "Read the following statements marked as Assertion (A) and Reason (R). Choose the correct option.<br>Assertion (A): India is actively developing a Third Launch Pad (TLP) at the Satish Dhawan Space Centre (SDSC-SHAR).<br>Reason (R): The Third Launch Pad is specifically designed to significantly boost India's space launch frequency and accommodate larger, next-generation launch vehicles like NGLV.",
+        "hi": "अभिकथन (A) और कारण (R) से चिह्नित निम्नलिखित कथनों को पढ़िए। सही विकल्प चुनिए।<br>अभिकथन (A): भारत सतीश धवन अंतरिक्ष केंद्र (SDSC-SHAR) में एक तृतीय प्रक्षेपण स्थल (TLP) का सक्रिय रूप से विकास कर रहा है।<br>कारण (R): तृतीय प्रक्षेपण स्थल को विशेष रूप से भारत की अंतरिक्ष प्रक्षेपण आवृत्ति को उल्लेखनीय रूप से बढ़ाने और NGLV जैसे बड़े, अगली पीढ़ी के प्रक्षेपण वाहनों को समायोजित करने के लिए डिज़ाइन किया गया है।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, और R, A का सही स्पष्टीकरण है"
+        },
+        {
+          "en": "Both A and R are true, and R is not the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, तथा R, A का सही स्पष्टीकरण नहीं है"
+        },
+        {
+          "en": "A is true, but R is false",
+          "hi": "A सत्य है, लेकिन R असत्य है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A असत्य है, लेकिन R सत्य है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Both A and R are true, and R is the correct explanation of A",
+        "hi": "A और R दोनों सत्य हैं, और R, A का सही स्पष्टीकरण है"
+      },
+      "explanation": {
+        "en": "To handle the increasing number of missions and the Next Generation Launch Vehicle (NGLV), ISRO is developing a third launch pad at Sriharikota.",
+        "hi": "मिशनों की बढ़ती संख्या और अगली पीढ़ी के प्रक्षेपण यान (NGLV) को संभालने के लिए, इसरो श्रीहरिकोटा में एक तीसरा लॉन्च पैड विकसित कर रहा है।"
+      }
+    },
+    {
+      "questionNo": 16,
+      "question": {
+        "en": "Arrange the following steps in the correct legislative process for the passage of a Money Bill in India:<br>A) Introduction of Money Bill in Lok Sabha<br>B) Passage in Lok Sabha<br>C) Transmission to Rajya Sabha<br>D) Presentation for President's assent",
+        "hi": "भारत में धन विधेयक पारित करने की सही विधायी प्रक्रिया में निम्नलिखित चरणों को व्यवस्थित कीजिए:<br>A) लोकसभा में धन विधेयक का प्रस्तुतीकरण<br>B) लोकसभा में पारित होना<br>C) राज्यसभा में प्रेषण<br>D) राष्ट्रपति की स्वीकृति के लिए प्रस्तुत करना"
+      },
+      "options": [
+        {
+          "en": "A-B-C-D",
+          "hi": "A-B-C-D"
+        },
+        {
+          "en": "A-C-B-D",
+          "hi": "A-C-B-D"
+        },
+        {
+          "en": "B-C-A-D",
+          "hi": "B-C-A-D"
+        },
+        {
+          "en": "C-B-A-D",
+          "hi": "C-B-A-D"
+        }
+      ],
+      "correctAnswer": {
+        "en": "A-B-C-D",
+        "hi": "A-B-C-D"
+      },
+      "explanation": {
+        "en": "Money Bills (Article 110) must originate in the Lok Sabha. After passage, they go to the Rajya Sabha (which has limited powers) and finally to the President for assent.",
+        "hi": "धन विधेयक (अनुच्छेद 110) लोकसभा में ही उत्पन्न होने चाहिए। पारित होने के बाद, वे राज्यसभा में जाते हैं (जिसके पास सीमित शक्तियाँ होती हैं) और अंत में राष्ट्रपति के पास स्वीकृति के लिए जाते हैं।"
+      }
+    },
+    {
+      "questionNo": 17,
+      "question": {
+        "en": "Which section of Bharatiya Nagarik suraksha Samhita (BNSS) mandates video-recording of search and seizure operations?",
+        "hi": "भारतीय नागरिक सुरक्षा संहिता (बीएनएसएस) की कौन सी धारा तलाशी और जब्ती कार्रवाई की वीडियो रिकॉर्डिंग अनिवार्य करती है?"
+      },
+      "options": [
+        {
+          "en": "Section 50",
+          "hi": "धारा 50"
+        },
+        {
+          "en": "Section 62",
+          "hi": "धारा 62"
+        },
+        {
+          "en": "Section 105",
+          "hi": "धारा 105"
+        },
+        {
+          "en": "Section 176",
+          "hi": "धारा 176"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Section 105",
+        "hi": "धारा 105"
+      },
+      "explanation": {
+        "en": "Section 105 of the BNSS introduces a mandatory provision for video-recording the search and seizure of items, aimed at increasing transparency and preventing evidence tampering.",
+        "hi": "बीएनएसएस की धारा 105 वस्तुओं की तलाशी और जब्ती की वीडियो-रिकॉर्डिंग के लिए एक अनिवार्य प्रावधान पेश करती है, जिसका उद्देश्य पारदर्शिता बढ़ाना और साक्ष्यों के साथ छेड़छाड़ को रोकना है।"
+      }
+    },
+    {
+      "questionNo": 18,
+      "question": {
+        "en": "Which department launched 'Dak Karmayogi'?",
+        "hi": "किस विभाग ने 'डाक कर्मयोगी' लॉन्च किया?"
+      },
+      "options": [
+        {
+          "en": "MOCA",
+          "hi": "MOCA"
+        },
+        {
+          "en": "DoF",
+          "hi": "DoF"
+        },
+        {
+          "en": "DoP",
+          "hi": "DoP"
+        },
+        {
+          "en": "MOHUA",
+          "hi": "MOHUA"
+        }
+      ],
+      "correctAnswer": {
+        "en": "DoP",
+        "hi": "DoP"
+      },
+      "explanation": {
+        "en": "'Dak Karmayogi' is an e-learning portal launched by the Department of Posts (DoP) to enhance the competencies of postal employees through online training.",
+        "hi": "'डाक कर्मयोगी' डाक विभाग (DoP) द्वारा ऑनलाइन प्रशिक्षण के माध्यम से डाक कर्मचारियों की क्षमताओं को बढ़ाने के लिए शुरू किया गया एक ई-लर्निंग पोर्टल है।"
+      }
+    },
+    {
+      "questionNo": 19,
+      "question": {
+        "en": "According to the 2025 Energy Transition Index, which of the following is a key priority for enhancing energy system flexibility and integrating renewables?",
+        "hi": "2025 ऊर्जा संक्रमण सूचकांक के अनुसार, ऊर्जा प्रणाली लचीलापन बढ़ाने और नवीकरणीय ऊर्जा को एकीकृत करने के लिए निम्नलिखित में से कौन सी प्रमुख प्राथमिकता है?"
+      },
+      "options": [
+        {
+          "en": "Expanding fossil fuel subsidies",
+          "hi": "जीवाश्म ईंधन सब्सिडी का विस्तार"
+        },
+        {
+          "en": "Building more centralized coal-fired plants",
+          "hi": "अधिक केंद्रीकृत कोयला-आधारित संयंत्रों का निर्माण"
+        },
+        {
+          "en": "Modernizing and digitalizing power grids and storage systems",
+          "hi": "विद्युत ग्रिड और भंडारण प्रणालियों का आधुनिकीकरण और डिजिटलीकरण"
+        },
+        {
+          "en": "Increasing oil imports for energy security",
+          "hi": "ऊर्जा सुरक्षा के लिए तेल आयात में वृद्धि"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Modernizing and digitalizing power grids and storage systems",
+        "hi": "विद्युत ग्रिड और भंडारण प्रणालियों का आधुनिकीकरण और डिजिटलीकरण"
+      },
+      "explanation": {
+        "en": "To transition away from fossil fuels, global energy strategies prioritize smart grids and battery storage to manage the variable nature of renewable energy sources like solar and wind.",
+        "hi": "जीवाश्म ईंधन से दूर जाने के लिए, वैश्विक ऊर्जा रणनीतियाँ सौर और पवन जैसे नवीकरणीय ऊर्जा स्रोतों की परिवर्तनशील प्रकृति को प्रबंधित करने के लिए स्मार्ट ग्रिड और बैटरी भंडारण को प्राथमिकता देती हैं।"
+      }
+    },
+    {
+      "questionNo": 20,
+      "question": {
+        "en": "The folk dance Dollu Kunitha, performed with large drums, belongs to which region?",
+        "hi": "बड़े ड्रमों के साथ किया जाने वाला लोक नृत्य डोल्लू कुनिथा किस क्षेत्र से संबंधित है?"
+      },
+      "options": [
+        {
+          "en": "Andhra Pradesh",
+          "hi": "आंध्र प्रदेश"
+        },
+        {
+          "en": "Telangana",
+          "hi": "तेलंगाना"
+        },
+        {
+          "en": "Karnataka",
+          "hi": "कर्नाटक"
+        },
+        {
+          "en": "Kerala",
+          "hi": "केरल"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Karnataka",
+        "hi": "कर्नाटक"
+      },
+      "explanation": {
+        "en": "Dollu Kunitha is a traditional dance form of Karnataka, primarily performed by the Kuruba community to the beat of decorated drums (Dollu).",
+        "hi": "डोल्लू कुनिथा कर्नाटक का एक पारंपरिक नृत्य रूप है, जो मुख्य रूप से कुरुबा समुदाय द्वारा सजाए गए ड्रमों (डोल्लू) की थाप पर किया जाता है।"
+      }
+    },
+    {
+      "questionNo": 21,
+      "question": {
+        "en": "What is the main goal of the 'Green Credit Programme' launched in 2024?",
+        "hi": "2024 में शुरू किए गए 'ग्रीन क्रेडिट प्रोग्राम' का मुख्य लक्ष्य क्या है?"
+      },
+      "options": [
+        {
+          "en": "Promote fossil fuel use",
+          "hi": "जीवाश्म ईंधन के उपयोग को बढ़ावा देना"
+        },
+        {
+          "en": "Support monoculture farming",
+          "hi": "एकल कृषि खेती का समर्थन करें"
+        },
+        {
+          "en": "Encourage eco-restoration through credit incentives",
+          "hi": "ऋण प्रोत्साहन के माध्यम से पर्यावरण-पुनर्स्थापना को प्रोत्साहित करें"
+        },
+        {
+          "en": "Increase mining leases",
+          "hi": "खनन पट्टों में वृद्धि"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Encourage eco-restoration through credit incentives",
+        "hi": "ऋण प्रोत्साहन के माध्यम से पर्यावरण-पुनर्स्थापना को प्रोत्साहित करें"
+      },
+      "explanation": {
+        "en": "The Green Credit Programme (GCP) is an innovative market-based mechanism designed to incentivize voluntary environmental actions like tree plantation and water conservation.",
+        "hi": "ग्रीन क्रेडिट प्रोग्राम (GCP) एक अभिनव बाजार-आधारित तंत्र है जिसे वृक्षारोपण और जल संरक्षण जैसे स्वैच्छिक पर्यावरणीय कार्यों को प्रोत्साहित करने के लिए डिज़ाइन किया गया है।"
+      }
+    },
+    {
+      "questionNo": 22,
+      "question": {
+        "en": "Which of the following statements about the fertilizer industry in India is/are correct?<br>1. India is self-sufficient in potash-based fertilizers.<br>2. Urea is the most commonly produced nitrogenous fertilizer.<br>3. Fertilizer production increased after the Green Revolution.<br>4. Gujarat and Kerala are minor contributors to fertilizer production.",
+        "hi": "भारत में उर्वरक उद्योग के बारे में निम्नलिखित में से कौन सा/से कथन सही है/हैं?<br>1. भारत पोटाश आधारित उर्वरकों में आत्मनिर्भर है।<br>2. यूरिया सबसे अधिक उत्पादित नाइट्रोजनयुक्त उर्वरक है।<br>3. हरित क्रांति के बाद उर्वरक उत्पादन में वृद्धि हुई।<br>4. गुजरात और केरल उर्वरक उत्पादन में मामूली योगदानकर्ता हैं।"
+      },
+      "options": [
+        {
+          "en": "Only 1 and 3",
+          "hi": "केवल 1 और 3"
+        },
+        {
+          "en": "Only 2 and 3",
+          "hi": "केवल 2 और 3"
+        },
+        {
+          "en": "Only 2 and 4",
+          "hi": "केवल 2 और 4"
+        },
+        {
+          "en": "Only 1 and 4",
+          "hi": "केवल 1 और 4"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 2 and 3",
+        "hi": "केवल 2 और 3"
+      },
+      "explanation": {
+        "en": "India is almost entirely dependent on imports for potash. Urea is the dominant nitrogenous fertilizer. States like Gujarat, Tamil Nadu, and UP are major producers.",
+        "hi": "भारत पोटाश के लिए लगभग पूरी तरह से आयात पर निर्भर है। यूरिया प्रमुख नाइट्रोजनयुक्त उर्वरक है। गुजरात, तमिलनाडु और यूपी जैसे राज्य प्रमुख उत्पादक हैं।"
+      }
+    },
+    {
+      "questionNo": 23,
+      "question": {
+        "en": "Read the following statements in context of Carbon Markets in India:<br>1. Carbon credits can be generated by afforestation and renewable energy projects.<br>2. India has launched a domestic voluntary carbon market.<br>3. Carbon markets are monitored under the Income Tax Act, 1961.",
+        "hi": "भारत में कार्बन बाज़ारों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:<br>1. वनरोपण और नवीकरणीय ऊर्जा परियोजनाओं द्वारा कार्बन क्रेडिट उत्पन्न किया जा सकता है।<br>2. भारत ने एक घरेलू स्वैच्छिक कार्बन बाज़ार शुरू किया है।<br>3. कार्बन बाज़ारों की निगरानी आयकर अधिनियम, 1961 के अंतर्गत की जाती है।"
+      },
+      "options": [
+        {
+          "en": "Only 1 and 2 are correct",
+          "hi": "केवल 1 और 2 सही हैं"
+        },
+        {
+          "en": "Only 2 and 3 are correct",
+          "hi": "केवल 2 और 3 सही हैं"
+        },
+        {
+          "en": "Only 1 and 3 are correct",
+          "hi": "केवल 1 और 3 सही हैं"
+        },
+        {
+          "en": "All 1, 2 and 3 are correct",
+          "hi": "सभी 1, 2 और 3 सही हैं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1 and 2 are correct",
+        "hi": "केवल 1 और 2 सही हैं"
+      },
+      "explanation": {
+        "en": "Carbon markets are typically regulated under energy and environment policies (like the Energy Conservation Act), not the Income Tax Act.",
+        "hi": "कार्बन बाजारों को आम तौर पर ऊर्जा और पर्यावरण नीतियों (जैसे ऊर्जा संरक्षण अधिनियम) के तहत विनियमित किया जाता है, न कि आयकर अधिनियम के तहत।"
+      }
+    },
+    {
+      "questionNo": 24,
+      "question": {
+        "en": "What does the offering of green melons by girls during the Jawa festival symbolise in Jharkhand's tribal tradition?",
+        "hi": "झारखंड की आदिवासी परंपरा में जावा त्यौहार के दौरान लड़कियों द्वारा हरे खरबूजे चढ़ाना किस बात का प्रतीक है?"
+      },
+      "options": [
+        {
+          "en": "Wealth and long life",
+          "hi": "धन और लंबी आयु"
+        },
+        {
+          "en": "Rain and crop yield",
+          "hi": "वर्षा और फसल उपज"
+        },
+        {
+          "en": "Son and fertility",
+          "hi": "पुत्र और प्रजनन क्षमता"
+        },
+        {
+          "en": "Marriage and devotion",
+          "hi": "विवाह और भक्ति"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Son and fertility",
+        "hi": "पुत्र और प्रजनन क्षमता"
+      },
+      "explanation": {
+        "en": "Jawa festival is celebrated in Jharkhand mainly by unmarried tribal girls for good fertility and the well-being of their future family.",
+        "hi": "जावा त्योहार झारखंड में मुख्य रूप से अविवाहित आदिवासी लड़कियों द्वारा अच्छी प्रजनन क्षमता और उनके भविष्य के परिवार की भलाई के लिए मनाया जाता है।"
+      }
+    },
+    {
+      "questionNo": 25,
+      "question": {
+        "en": "Consider the following statements:<br>1. Inter-State Council is a constitutional body under Article 263.<br>2. Its recommendations are binding on the Union and States.<br>Which of the above statements is/are correct?",
+        "hi": "निम्नलिखित कथनों पर विचार कीजिए:<br>1. अंतर-राज्यीय परिषद अनुच्छेद 263 के अंतर्गत एक संवैधानिक निकाय है।<br>2. इसकी सिफारिशें संघ और राज्यों पर बाध्यकारी हैं।<br>उपर्युक्त कथनों में से कौन सा/से सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "Only 1",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "Only 2",
+          "hi": "केवल 2"
+        },
+        {
+          "en": "Both 1 and 2",
+          "hi": "1 और 2 दोनों"
+        },
+        {
+          "en": "Neither 1 nor 2",
+          "hi": "न तो 1 और न ही 2"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1",
+        "hi": "केवल 1"
+      },
+      "explanation": {
+        "en": "While the Inter-State Council is a constitutional body, its recommendations are advisory in nature, not binding.",
+        "hi": "यद्यपि अंतर-राज्य परिषद एक संवैधानिक निकाय है, लेकिन इसकी सिफारिशें सलाहकार प्रकृति की होती हैं, बाध्यकारी नहीं।"
       }
     }
   ],

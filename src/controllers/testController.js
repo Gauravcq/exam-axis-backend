@@ -328,3 +328,19 @@ exports.getLastAttempts = async (req, res, next) => {
     next(error);
   }
 };
+
+// @desc    Clear current user's attempts (optionally for a single test)
+// @route   DELETE /api/tests/attempts?testId=abc
+// @access  Private
+exports.clearMyAttempts = async (req, res, next) => {
+  try {
+    const where = { userId: req.user.id };
+    if (req.query.testId) {
+      where.testId = String(req.query.testId);
+    }
+    const count = await TestAttempt.destroy({ where });
+    apiResponse(res, 200, true, 'Attempts cleared', { deleted: count });
+  } catch (error) {
+    next(error);
+  }
+};

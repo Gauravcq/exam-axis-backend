@@ -9,7 +9,8 @@ const {
   getAttempt,
   getLeaderboard,
   getLastAttemptForTest,
-  getLastAttempts
+  getLastAttempts,
+  clearMyAttempts
 } = require('../controllers/testController');
 
 const { protect } = require('../middleware/auth');
@@ -25,5 +26,6 @@ router.get('/history', getHistory);
 router.get('/attempt/:id', getAttempt);
 router.get('/last-attempt/:testId', getLastAttemptForTest);
 router.get('/last-attempts', getLastAttempts);
+router.delete('/attempts', clearMyAttempts);
 
 module.exports = router;

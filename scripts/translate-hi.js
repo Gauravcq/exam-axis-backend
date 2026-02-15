@@ -15,6 +15,8 @@ const OFFSET_ARG = process.argv.find(a => a.startsWith('--offset='));
 const OFFSET = OFFSET_ARG ? parseInt(OFFSET_ARG.split('=')[1]) : 0;
 const BATCH_SIZE = parseInt(process.env.BATCH_SIZE) || 10;
 const DELAY_MS = parseInt(process.env.DELAY_MS) || 100;
+const TEST_FILTER = process.env.TEST_FILTER || ''; // regex string to filter testIds
+const SUBJECTS = (process.env.SUBJECTS || '').toLowerCase().split(',').map(s => s.trim()).filter(Boolean); // e.g., "maths,reasoning"
 
 // Translation providers
 const PROVIDERS = {
@@ -259,6 +261,14 @@ async function run() {
   const tests = Object.keys(data);
   
   for (const testId of tests) {
+    if (TEST_FILTER) {
+      try {
+        const re = new RegExp(TEST_FILTER, 'i');
+        if (!re.test(testId)) continue;
+      } catch (_) {
+        // if invalid regex, ignore filter
+      }
+    }
     const list = data[testId];
     if (!Array.isArray(list)) continue;
     
@@ -279,6 +289,8 @@ async function run() {
       
       // Skip English subjects
       if (subject === 'english') continue;
+      // Subject include filter
+      if (SUBJECTS.length && !SUBJECTS.includes(subject)) continue;
       
       // Queue question
       const qEn = q?.question?.en || (typeof q.question === 'string' ? q.question : '');
@@ -373,40 +385,40 @@ async function run() {
       try {
         const translated = await translateENtoHI(item.text, cache, stats);
         
-        if (translated) {
+        // Update data structure regardless; fallback to English if translation not available
           // Update data structure
           const q = data[item.testId][item.index];
           
           if (item.type === 'question') {
             if (typeof q.question === 'string') {
-              q.question = { en: item.text, hi: translated };
+              q.question = { en: item.text, hi: translated || item.text };
             } else {
               q.question = q.question || {};
-              q.question.hi = translated;
+              q.question.hi = translated || item.text;
             }
             translatedCount++;
           } else if (item.type === 'explanation') {
             if (typeof q.explanation === 'string') {
-              q.explanation = { en: item.text, hi: translated };
+              q.explanation = { en: item.text, hi: translated || item.text };
             } else {
               q.explanation = q.explanation || {};
-              q.explanation.hi = translated;
+              q.explanation.hi = translated || item.text;
             }
             translatedCount++;
             } else if (item.type === 'correctAnswer') {
               if (typeof q.correctAnswer === 'string') {
-                q.correctAnswer = { en: item.text, hi: translated };
+                q.correctAnswer = { en: item.text, hi: translated || item.text };
               } else {
                 q.correctAnswer = q.correctAnswer || {};
-                q.correctAnswer.hi = translated;
+                q.correctAnswer.hi = translated || item.text;
               }
               translatedCount++;
           } else if (item.type === 'option') {
             const opt = q.options[item.optionIndex];
             if (typeof opt === 'string') {
-              q.options[item.optionIndex] = { en: item.text, hi: translated };
+              q.options[item.optionIndex] = { en: item.text, hi: translated || item.text };
             } else {
-              q.options[item.optionIndex].hi = translated;
+              q.options[item.optionIndex].hi = translated || item.text;
             }
             translatedCount++;
           }
@@ -417,9 +429,6 @@ async function run() {
             const rate = translatedCount / elapsed;
             console.log(`Progress: ${translatedCount}/${toProcess} (${Math.round(rate)} items/sec)`);
           }
-        } else {
-          failedItems.push(item);
-        }
       } catch (e) {
         console.error('Translation error:', e.message);
         failedItems.push(item);
