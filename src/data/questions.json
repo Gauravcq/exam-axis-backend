@@ -34377,12 +34377,12 @@
       }
     }
   ],
-  "ssc_cgl_gk_12_sep_s2": [
+ "ssc_cgl_gk_12_sep_s2": [
     {
       "questionNo": 1,
       "question": {
-        "en": "Read the below statements marked as Assertion (A) and Reason (R). Mark the correct options:<br>Assertion (A): Humayun's Tomb was the first major Mughal garden tomb and directly inspired the design of the Taj Mahal.<br>Reason (R): It introduced the charbagh garden layout and double-domed mausoleum style that became characteristic of later Mughal architecture.",
-        "hi": "नीचे दिए गए कथनों को अभिकथन (A) और कारण (R) के रूप में चिह्नित करें। सही विकल्पों को चिह्नित करें:<br>अभिकथन (A): हुमायूँ का मकबरा पहला प्रमुख मुगल उद्यान मकबरा था और इसने सीधे ताजमहल के डिजाइन को प्रेरित किया।<br>कारण (R): इसने चारबाग उद्यान लेआउट और दोहरे गुंबद वाले मकबरे की शैली पेश की जो बाद में मुगल वास्तुकला की विशेषता बन गई।"
+        "en": "Read the below statements marked as Assertion (A) and Reason (R). Mark the correct options:<br><br>Assertion (A): Humayun's Tomb was the first major Mughal garden tomb and directly inspired the design of the Taj Mahal.<br><br>Reason (R): It introduced the charbagh garden layout and double-domed mausoleum style that became characteristic of later Mughal architecture.",
+        "hi": "नीचे दिए गए कथनों को अभिकथन (A) और कारण (R) के रूप में चिह्नित करें। सही विकल्पों को चिह्नित करें:<br><br>अभिकथन (A): हुमायूँ का मकबरा पहला प्रमुख मुगल उद्यान मकबरा था और इसने सीधे ताजमहल के डिजाइन को प्रेरित किया।<br><br>कारण (R): इसने चारबाग उद्यान लेआउट और दोहरे गुंबद वाले मकबरे की शैली पेश की जो बाद में मुगल वास्तुकला की विशेषता बन गई।"
       },
       "options": [
         {
@@ -34407,8 +34407,8 @@
         "hi": "A और R दोनों सत्य हैं, तथा R, A का सही स्पष्टीकरण है।"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "Humayun's Tomb (1570) was the first large-scale garden tomb in India. It featured the 'Charbagh' (four gardens) and a 'double dome'—a Persian technique where an inner dome provides the ceiling and an outer dome provides the height. These elements were later perfected in the Taj Mahal.",
+        "hi": "हुमायूँ का मकबरा (1570) भारत में पहला बड़े पैमाने का उद्यान मकबरा था। इसमें 'चारबाग' और 'दोहरा गुंबद' (एक फारसी तकनीक) शामिल थी, जहाँ एक आंतरिक गुंबद छत प्रदान करता है और बाहरी गुंबद ऊंचाई। इन्हीं तत्वों को बाद में ताजमहल में पूर्णता दी गई।"
       }
     },
     {
@@ -34440,8 +34440,8 @@
         "hi": "चन्द्रगुप्त मौर्य"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "Chandragupta Maurya, with the help of Chanakya, established a highly centralized bureaucracy. The King was the head of the executive, legislature, and judiciary, supported by a council of ministers and an extensive spy network.",
+        "hi": "चन्द्रगुप्त मौर्य ने चाणक्य की सहायता से एक अत्यधिक केंद्रीकृत नौकरशाही की स्थापना की थी। राजा कार्यकारी, विधायिका और न्यायपालिका का प्रमुख होता था, जिसे मंत्रिपरिषद और एक व्यापक जासूसी नेटवर्क का समर्थन प्राप्त था।"
       }
     },
     {
@@ -34473,15 +34473,15 @@
         "hi": "रागों का विकास जातियों से हुआ; 72-मेल वेंकटमाखी द्वारा रचित था"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "Ancient music texts like Natyashastra mention 'Jatis' as the parent of modern 'Ragas'. The 72-Melakarta system (classification of scales) was developed by Venkatamakhi in the 17th century for Carnatic music.",
+        "hi": "नाट्यशास्त्र जैसे प्राचीन संगीत ग्रंथों में 'जाति' को आधुनिक 'रागों' का जनक बताया गया है। 72-मेलकर्ता प्रणाली (पैमानों का वर्गीकरण) 17वीं शताब्दी में वेंकटमाखी द्वारा कर्नाटक संगीत के लिए विकसित की गई थी।"
       }
     },
     {
       "questionNo": 4,
       "question": {
-        "en": "Consider the following statements about the phases of long jump:<br>1) The athlete attains maximum momentum by running on the runway before take-off.<br>2) During take-off, the athlete pushes off with the weaker foot to maintain balance.<br>Which of the statements given above are correct?",
-        "hi": "लंबी कूद के चरणों के बारे में निम्नलिखित कथनों पर विचार करें:<br>1) एथलीट टेक-ऑफ से पहले रनवे पर दौड़कर सबसे बड़ा क्षण प्राप्त करता है।<br>2) टेक-ऑफ के दौरान, एथलीट संतुलन बनाए रखने के लिए कमज़ोर पैर से धक्का देता है।<br>ऊपर दिए गए कथनों में से कौन-सा कथन सही है?"
+        "en": "Consider the following statements about the phases of long jump:<br><br>1) The athlete attains maximum momentum by running on the runway before take-off.<br><br>2) During take-off, the athlete pushes off with the weaker foot to maintain balance.<br><br>Which of the statements given above are correct?",
+        "hi": "लंबी कूद के चरणों के बारे में निम्नलिखित कथनों पर विचार करें:<br><br>1) एथलीट टेक-ऑफ से पहले रनवे पर दौड़कर सबसे बड़ा क्षण प्राप्त करता है।<br><br>2) टेक-ऑफ के दौरान, एथलीट संतुलन बनाए रखने के लिए कमज़ोर पैर से धक्का देता है।<br><br>ऊपर दिए गए कथनों में से कौन-सा कथन सही है?"
       },
       "options": [
         {
@@ -34494,11 +34494,11 @@
         },
         {
           "en": "1 and 2 are correct",
-          "hi": "1 और 2 सही हैं."
+          "hi": "1 और 2 सही हैं"
         },
         {
           "en": "Neither 1 nor 2 are Correct",
-          "hi": "न तो 1 और न ही 2 सही है."
+          "hi": "न तो 1 और न ही 2 सही है"
         }
       ],
       "correctAnswer": {
@@ -34506,8 +34506,8 @@
         "hi": "केवल 1 सही है"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "In long jump, the run-up is designed to gain maximum velocity. However, at take-off, the athlete pushes off with their strongest foot (dominant foot) to generate maximum vertical lift.",
+        "hi": "लंबी कूद में, रन-अप को अधिकतम वेग प्राप्त करने के लिए डिज़ाइन किया गया है। हालांकि, टेक-ऑफ के समय, एथलीट अधिकतम वर्टिकल लिफ्ट उत्पन्न करने के लिए अपने सबसे मजबूत पैर (प्रमुख पैर) से धक्का देता है।"
       }
     },
     {
@@ -34539,8 +34539,8 @@
         "hi": "प्रेसिडेंट कप, इंडोनेशिया"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "M.C. Mary Kom won the gold medal at the 23rd President's Cup in Labuan Bajo, Indonesia (2019) in the 51kg category, defeating Australia's April Franks.",
+        "hi": "एम.सी. मैरी कॉम ने इंडोनेशिया के लाबुआन बाजो में 23वें राष्ट्रपति कप (2019) में 51 किग्रा वर्ग में ऑस्ट्रेलिया की अप्रैल फ्रैंक्स को हराकर स्वर्ण पदक जीता था।"
       }
     },
     {
@@ -34551,36 +34551,36 @@
       },
       "options": [
         {
-          "en": "Company's Judicial system and revenue collection.",
-          "hi": "कंपनी की न्यायिक प्रणाली और राजस्व संग्रह।"
+          "en": "Company's Judicial system and revenue collection",
+          "hi": "कंपनी की न्यायिक प्रणाली और राजस्व संग्रह"
         },
         {
-          "en": "Company's Military strategy and trade regulations.",
-          "hi": "कंपनी की सैन्य रणनीति और व्यापार विनियमन।"
+          "en": "Company's Military strategy and trade regulations",
+          "hi": "कंपनी की सैन्य रणनीति और व्यापार विनियमन"
         },
         {
-          "en": "Company's constitution at home and territorial control in India.",
-          "hi": "घरेलू स्तर पर कंपनी का संविधान और भारत में प्रादेशिक नियंत्रण।"
+          "en": "Company's constitution at home and territorial control in India",
+          "hi": "घरेलू स्तर पर कंपनी का संविधान और भारत में प्रादेशिक नियंत्रण"
         },
         {
-          "en": "Company's relations with princely states and foreign policy.",
-          "hi": "कंपनी के रियासतों के साथ संबंध और विदेश नीति।"
+          "en": "Company's relations with princely states and foreign policy",
+          "hi": "कंपनी के रियासतों के साथ संबंध और विदेश नीति"
         }
       ],
       "correctAnswer": {
-        "en": "Company's constitution at home and territorial control in India.",
-        "hi": "घरेलू स्तर पर कंपनी का संविधान और भारत में प्रादेशिक नियंत्रण।"
+        "en": "Company's constitution at home and territorial control in India",
+        "hi": "घरेलू स्तर पर कंपनी का संविधान और भारत में प्रादेशिक नियंत्रण"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "The Regulating Act of 1773 changed the 'Court of Directors' structure in England and established the 'Governor-General of Bengal' in India, bringing the company under British parliamentary supervision.",
+        "hi": "1773 के रेगुलेटिंग एक्ट ने इंग्लैंड में 'कोर्ट ऑफ डायरेक्टर्स' की संरचना को बदल दिया और भारत में 'बंगाल के गवर्नर-जनरल' का पद स्थापित किया, जिससे कंपनी ब्रिटिश संसदीय पर्यवेक्षण के दायरे में आ गई।"
       }
     },
     {
       "questionNo": 7,
       "question": {
-        "en": "Consider the following statements regarding India's water-sharing treaties with its neighbours:<br>1) The Mahakali Treaty signed with Nepal in 1996 includes provisions for integrated development of the Mahakali River and the Pancheshwar Project.<br>2) The Ganga Water Treaty signed with Bangladesh in 1996 allows for the sharing of Ganga waters at Farakka throughout the entire year.<br>Which of the statements above is/are correct?",
-        "hi": "भारत की अपने पड़ोसियों के साथ जल बंटवारा संधियों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:<br>1) 1996 में नेपाल के साथ हस्ताक्षरित महाकाली संधि में महाकाली नदी और पंचेश्वर परियोजना के एकीकृत विकास के प्रावधान शामिल हैं।<br>2) 1996 में बांग्लादेश के साथ हस्ताक्षरित गंगा जल संधि, पूरे वर्ष फरक्का में गंगा जल के बँटवारे की अनुमति देती है।<br>उपर्युक्त कथनों में से कौन सा/से सही है/हैं?"
+        "en": "Consider the following statements regarding India's water-sharing treaties with its neighbours:<br><br>1) The Mahakali Treaty signed with Nepal in 1996 includes provisions for integrated development of the Mahakali River and the Pancheshwar Project.<br><br>2) The Ganga Water Treaty signed with Bangladesh in 1996 allows for the sharing of Ganga waters at Farakka throughout the entire year.<br><br>Which of the statements above is/are correct?",
+        "hi": "भारत की अपने पड़ोसियों के साथ जल बंटवारा संधियों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:<br><br>1) 1996 में नेपाल के साथ हस्ताक्षरित महाकाली संधि में महाकाली नदी और पंचेश्वर परियोजना के एकीकृत विकास के प्रावधान शामिल हैं।<br><br>2) 1996 में बांग्लादेश के साथ हस्ताक्षरित गंगा जल संधि, पूरे वर्ष फरक्का में गंगा जल के बँटवारे की अनुमति देती है।<br><br>उपर्युक्त कथनों में से कौन सा/से सही है/हैं?"
       },
       "options": [
         {
@@ -34605,15 +34605,15 @@
         "hi": "केवल 1 सही है"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "The Mahakali Treaty (1996) is for the integrated development of the river including Pancheshwar. However, the Ganga Water Treaty (1996) with Bangladesh defines sharing specifically for the dry season (January 1 to May 31), not the entire year.",
+        "hi": "महाकाली संधि (1996) पंचेश्वर सहित नदी के एकीकृत विकास के लिए है। हालांकि, बांग्लादेश के साथ गंगा जल संधि (1996) विशेष रूप से शुष्क मौसम (1 जनवरी से 31 मई) के लिए जल बंटवारे को परिभाषित करती है, न कि पूरे वर्ष के लिए।"
       }
     },
     {
       "questionNo": 8,
       "question": {
-        "en": "Fill in the blank:<br>Under the SLKIC vertical of Khelo India, Kendriya Vidyalayas have been adopted in partnership with KVS.",
-        "hi": "रिक्त स्थान भरेंः<br>खेलो इंडिया के एसएलकेआईसी वर्टिकल के अंतर्गत, केवीएस के साथ साझेदारी में केंद्रीय विद्यालयों को गोद लिया गया है।"
+        "en": "Fill in the blank:<br><br>Under the SLKIC vertical of Khelo India, _______ Kendriya Vidyalayas have been adopted in partnership with KVS.",
+        "hi": "रिक्त स्थान भरें:<br><br>खेलो इंडिया के एसएलकेआईसी वर्टिकल के अंतर्गत, केवीएस के साथ साझेदारी में _______ केंद्रीय विद्यालयों को गोद लिया गया है।"
       },
       "options": [
         {
@@ -34638,15 +34638,15 @@
         "hi": "5"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "Five Kendriya Vidyalayas were identified to be developed as State Level Khelo India Centres (SLKIC) to promote sporting excellence among school students.",
+        "hi": "स्कूली छात्रों के बीच खेल उत्कृष्टता को बढ़ावा देने के लिए पांच केंद्रीय विद्यालयों को राज्य स्तरीय खेलो इंडिया केंद्र (SLKIC) के रूप में विकसित करने के लिए चिन्हित किया गया था।"
       }
     },
     {
       "questionNo": 9,
       "question": {
-        "en": "Consider the following statements about \"The Adventures of Kakababu, Volume 1\" by Sunil Gangopadhyaya:<br>1) A pioneering Bengali adventure novel featuring detective Kakababu with mystery and cultural themes.<br>2) A political satire on post-independence Indian governance.<br>3) An autobiography of the author's freedom fighter experiences in Bengal.<br>Which of the above statements is/are correct?",
-        "hi": "सुनील गंगोपाध्याय द्वारा लिखित \"द एडवेंचर्स ऑफ़ काकाबाबू, खंड 1\" के बारे में निम्नलिखित कथनों पर विचार कीजिए:<br>1) रहस्य और सांस्कृतिक विषयों पर आधारित जासूस काकाबाबू पर आधारित एक अग्रणी बंगाली साहसिक उपन्यास ।<br>2) स्वतंत्रता-पश्चात भारतीय शासन पर एक राजनीतिक व्यंग्य।<br>3) बंगाल में लेखक के स्वतंत्रता संग्राम के अनुभवों पर आधारित एक आत्मकथा।<br>उपरोक्त कथनों में से कौन सा/से सही है/हैं?"
+        "en": "Consider the following statements about \"The Adventures of Kakababu, Volume 1\" by Sunil Gangopadhyaya:<br><br>1) A pioneering Bengali adventure novel featuring detective Kakababu with mystery and cultural themes.<br><br>2) A political satire on post-independence Indian governance.<br><br>3) An autobiography of the author's freedom fighter experiences in Bengal.<br><br>Which of the above statements is/are correct?",
+        "hi": "सुनील गंगोपाध्याय द्वारा लिखित \"द एडवेंचर्स ऑफ़ काकाबाबू, खंड 1\" के बारे में निम्नलिखित कथनों पर विचार कीजिए:<br><br>1) रहस्य और सांस्कृतिक विषयों पर आधारित जासूस काकाबाबू पर आधारित एक अग्रणी बंगाली साहसिक उपन्यास।<br><br>2) स्वतंत्रता-पश्चात भारतीय शासन पर एक राजनीतिक व्यंग्य।<br><br>3) बंगाल में लेखक के स्वतंत्रता संग्राम के अनुभवों पर आधारित एक आत्मकथा।<br><br>उपरोक्त कथनों में से कौन सा/से सही है/हैं?"
       },
       "options": [
         {
@@ -34671,14 +34671,14 @@
         "hi": "केवल कथन 1 सही है"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "Kakababu (Raja Roychowdhury) is a fictional character created by Sunil Gangopadhyay. The series consists of adventure/thriller novels often involving history and archeology, not political satire or autobiography.",
+        "hi": "काकाबाबू (राजा रायचौधरी) सुनील गंगोपाध्याय द्वारा बनाया गया एक काल्पनिक पात्र है। इस श्रृंखला में साहसिक/रोमांचक उपन्यास शामिल हैं जो अक्सर इतिहास और पुरातत्व से जुड़े होते हैं, न कि राजनीतिक व्यंग्य या आत्मकथा।"
       }
     },
     {
       "questionNo": 10,
       "question": {
-        "en": "Which indian political leader addressed a special session in 2025 on \"Environment, COP-30, and Global Health\"?",
+        "en": "Which Indian political leader addressed a special session in 2025 on \"Environment, COP-30, and Global Health\"?",
         "hi": "किस भारतीय राजनीतिक नेता ने 2025 में \"पर्यावरण, COP-30 और वैश्विक स्वास्थ्य\" पर एक विशेष सत्र को संबोधित किया?"
       },
       "options": [
@@ -34704,8 +34704,8 @@
         "hi": "नरेंद्र मोदी"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "Prime Minister Narendra Modi has been a key global voice on environmental issues, leading initiatives like the International Solar Alliance and emphasizing health and environment linkage in major summits.",
+        "hi": "प्रधानमंत्री नरेंद्र मोदी पर्यावरणीय मुद्दों पर एक प्रमुख वैश्विक आवाज रहे हैं, उन्होंने अंतरराष्ट्रीय सौर गठबंधन जैसी पहलों का नेतृत्व किया है और प्रमुख शिखर सम्मेलनों में स्वास्थ्य और पर्यावरण के संबंधों पर जोर दिया है।"
       }
     },
     {
@@ -34737,8 +34737,8 @@
         "hi": "स्लम्प"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "A slump is a type of mass wasting that occurs when a coherent mass of loosely consolidated materials or rock layers moves a short distance down a slope along a curved surface, rotating backward.",
+        "hi": "स्लम्प (Slump) तब होता है जब सामग्री का एक द्रव्यमान एक घुमावदार सतह के साथ ढलान के नीचे थोड़ी दूरी तक जाता है, जिससे वह पीछे की ओर घूम जाता है।"
       }
     },
     {
@@ -34770,15 +34770,15 @@
         "hi": "प्रति वर्ग किलोमीटर लोग"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "Population density is a measurement of population per unit area. It is typically expressed as the number of people per square kilometer of land area.",
+        "hi": "जनसंख्या घनत्व प्रति इकाई क्षेत्र में जनसंख्या का माप है। इसे आमतौर पर भूमि क्षेत्र के प्रति वर्ग किलोमीटर लोगों की संख्या के रूप में व्यक्त किया जाता है।"
       }
     },
     {
       "questionNo": 13,
       "question": {
-        "en": "Assertion (A) and Reason (R) are given below. Choose the correct option:<br>Assertion (A): Population explosion occurs when death rates decline rapidly but birth rates remain high.<br>Reason (R): Societal reproductive behavior changes instantly with improvements in healthcare.",
-        "hi": "नीचे अभिकथन (A) और कारण (R) दिए गए हैं। सही विकल्प चुनेंः<br>अभिकथन (A): जनसंख्या विस्फोट तब होता है जब मृत्यु दर में तेज़ी से गिरावट आती है लेकिन जन्म दर ऊँची रहती है।<br>कारण (R): स्वास्थ्य सेवा में सुधार के साथ सामाजिक प्रजनन व्यवहार में तुरंत बदलाव आता है।"
+        "en": "Assertion (A) and Reason (R) are given below. Choose the correct option:<br><br>Assertion (A): Population explosion occurs when death rates decline rapidly but birth rates remain high.<br><br>Reason (R): Societal reproductive behavior changes instantly with improvements in healthcare.",
+        "hi": "नीचे अभिकथन (A) और कारण (R) दिए गए हैं। सही विकल्प चुनें:<br><br>अभिकथन (A): जनसंख्या विस्फोट तब होता है जब मृत्यु दर में तेज़ी से गिरावट आती है लेकिन जन्म दर ऊँची रहती है।<br><br>कारण (R): स्वास्थ्य सेवा में सुधार के साथ सामाजिक प्रजनन व्यवहार में तुरंत बदलाव आता है।"
       },
       "options": [
         {
@@ -34803,8 +34803,8 @@
         "hi": "A सत्य है, लेकिन R असत्य है"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "While healthcare improvements lead to lower death rates (Stage 2 of Demographic Transition), societal behavior regarding birth rates (family size) takes generations to change, leading to a population explosion.",
+        "hi": "जबकि स्वास्थ्य सेवा में सुधार से मृत्यु दर में कमी आती है (जनसांख्यिकीय संक्रमण का चरण 2), जन्म दर (परिवार के आकार) के संबंध में सामाजिक व्यवहार को बदलने में पीढ़ियां लग जाती हैं, जिससे जनसंख्या विस्फोट होता है।"
       }
     },
     {
@@ -34836,8 +34836,8 @@
         "hi": "न्यूनतम द्रव्यमान और अधिकतम संरचनात्मक लचीलेपन के लिए यांत्रिक विन्यास का अनुकूलन"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "Generative design uses AI algorithms to create weight-optimized parts. In aerospace, reducing mass is critical to fuel efficiency and launch costs while ensuring the part can withstand extreme stress.",
+        "hi": "जेनरेटिव डिज़ाइन वजन-अनुकूलित पुर्जे बनाने के लिए AI एल्गोरिदम का उपयोग करता है। एयरोस्पेस में, ईंधन दक्षता और लॉन्च लागत के लिए द्रव्यमान कम करना महत्वपूर्ण है, जबकि यह सुनिश्चित करना भी जरूरी है कि हिस्सा अत्यधिक तनाव का सामना कर सके।"
       }
     },
     {
@@ -34869,15 +34869,15 @@
         "hi": "अंतः कोशिकीय पाचन"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "Lysosomes are known as the 'digestive system' of the cell. They contain hydrolytic enzymes that break down waste materials, cellular debris, and foreign particles.",
+        "hi": "लाइसोसोम को कोशिका के 'पाचन तंत्र' के रूप में जाना जाता है। इनमें हाइड्रोलाइटिक एंजाइम होते हैं जो अपशिष्ट पदार्थों, कोशिकीय मलबे और बाहरी कणों को तोड़ते हैं।"
       }
     },
     {
       "questionNo": 16,
       "question": {
-        "en": "Which of the following statements regarding Article 270 are correct?<br>1) Article 270 governs the sharing of taxes between the Union and States, including proceeds from GST.<br>2) After the 101st Constitutional Amendment, Article 270 includes provisions for distributing revenue from Union taxes and GST.<br>3) The GST Compensation Cess is also shared between the Union and States under Article 270.",
-        "hi": "अनुच्छेद 270 के संबंध में निम्नलिखित में से कौन से कथन सही हैं?<br>1) अनुच्छेद 270 केंद्र और राज्यों के बीच करों के बंटवारे को नियंत्रित करता है, जिसमें जीएसटी से प्राप्त आय भी शामिल है।<br>2) 101वें संविधान संशोधन के बाद, अनुच्छेद 270 में संघीय करों और जीएसटी से प्राप्त राजस्व के वितरण के प्रावधान शामिल हैं।<br>3) जीएसटी क्षतिपूर्ति उपकर भी अनुच्छेद 270 के तहत केंद्र और राज्यों के बीच साझा किया जाता है।"
+        "en": "Which of the following statements regarding Article 270 are correct?<br><br>1) Article 270 governs the sharing of taxes between the Union and States, including proceeds from GST.<br><br>2) After the 101st Constitutional Amendment, Article 270 includes provisions for distributing revenue from Union taxes and GST.<br><br>3) The GST Compensation Cess is also shared between the Union and States under Article 270.",
+        "hi": "अनुच्छेद 270 के संबंध में निम्नलिखित में से कौन से कथन सही हैं?<br><br>1) अनुच्छेद 270 केंद्र और राज्यों के बीच करों के बंटवारे को नियंत्रित करता है, जिसमें जीएसटी से प्राप्त आय भी शामिल है।<br><br>2) 101वें संविधान संशोधन के बाद, अनुच्छेद 270 में संघीय करों और जीएसटी से प्राप्त राजस्व के वितरण के प्रावधान शामिल हैं।<br><br>3) जीएसटी क्षतिपूर्ति उपकर भी अनुच्छेद 270 के तहत केंद्र और राज्यों के बीच साझा किया जाता है।"
       },
       "options": [
         {
@@ -34889,21 +34889,21 @@
           "hi": "केवल 1"
         },
         {
-          "en": "1 &amp; 2 only",
+          "en": "1 & 2 only",
           "hi": "केवल 1 और 2"
         },
         {
-          "en": "2 &amp; 3 only",
+          "en": "2 & 3 only",
           "hi": "केवल 2 और 3"
         }
       ],
       "correctAnswer": {
-        "en": "1 &amp; 2 only",
+        "en": "1 & 2 only",
         "hi": "केवल 1 और 2"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "Article 270 deals with the distribution of tax revenue between the Union and States. While IGST and central taxes are shared, the Compensation Cess is not shared; it is kept in a separate fund to compensate states for 5 years.",
+        "hi": "अनुच्छेद 270 केंद्र और राज्यों के बीच कर राजस्व के वितरण से संबंधित है। जहाँ IGST और केंद्रीय कर साझा किए जाते हैं, वहीं क्षतिपूर्ति उपकर (Compensation Cess) साझा नहीं किया जाता है; इसे राज्यों को मुआवजा देने के लिए एक अलग कोष में रखा जाता है।"
       }
     },
     {
@@ -34935,14 +34935,14 @@
         "hi": "लगभग 2% की वृद्धि"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "g = GM/R². Since g is inversely proportional to the square of R, a 1% decrease in R leads to an approximate 2% increase in g (using the formula for small percentage changes: %Δg = -2 × %ΔR).",
+        "hi": "g = GM/R²। चूंकि g, R के वर्ग के व्युत्क्रमानुपाती है, R में 1% की कमी g में लगभग 2% की वृद्धि की ओर ले जाती है (छोटे प्रतिशत परिवर्तनों के सूत्र का उपयोग करते हुए: %Δg = -2 × %ΔR)।"
       }
     },
     {
       "questionNo": 18,
       "question": {
-        "en": "Under Bharatiya Nagarik Suraksha Sanhita(BNSS), what is the maximum period for which a person can be held in police custody in total, even if remanded periodically by a magistrate?",
+        "en": "Under Bharatiya Nagarik Suraksha Sanhita (BNSS), what is the maximum period for which a person can be held in police custody in total, even if remanded periodically by a magistrate?",
         "hi": "भारतीय नागरिक सुरक्षा संहिता (बीएनएसएस) के तहत, किसी व्यक्ति को पुलिस हिरासत में रखने की अधिकतम अवधि क्या है, भले ही उसे मजिस्ट्रेट द्वारा समय-समय पर रिमांड पर लिया जाए?"
       },
       "options": [
@@ -34951,8 +34951,8 @@
           "hi": "30 दिन"
         },
         {
-          "en": "60 days / 60 दिन",
-          "hi": "60 days / 60 दिन"
+          "en": "60 days",
+          "hi": "60 दिन"
         },
         {
           "en": "90 days",
@@ -34964,12 +34964,12 @@
         }
       ],
       "correctAnswer": {
-        "en": "60 days / 60 दिन",
-        "hi": "60 days / 60 दिन"
+        "en": "60 days",
+        "hi": "60 दिन"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "The BNSS allows police custody to be granted in parts within the first 60 or 90 days of the total detention period, depending on the nature of the crime, whereas CrPC limited it to the first 15 days.",
+        "hi": "BNSS पुलिस हिरासत को कुल निरोध अवधि के पहले 60 या 90 दिनों के भीतर भागों में देने की अनुमति देता है, जो अपराध की प्रकृति पर निर्भर करता है, जबकि CrPC ने इसे पहले 15 दिनों तक सीमित रखा था।"
       }
     },
     {
@@ -35001,15 +35001,15 @@
         "hi": "18-40 वर्ष"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "PM-KMY is a voluntary pension scheme for small and marginal farmers. Farmers between 18 to 40 years can join and will receive a minimum fixed pension of Rs. 3,000/month after 60 years.",
+        "hi": "PM-KMY छोटे और सीमांत किसानों के लिए एक स्वैच्छिक पेंशन योजना है। 18 से 40 वर्ष के बीच के किसान इसमें शामिल हो सकते हैं और उन्हें 60 वर्ष के बाद न्यूनतम 3,000 रुपये प्रति माह की निश्चित पेंशन मिलेगी।"
       }
     },
     {
       "questionNo": 20,
       "question": {
-        "en": "Read the below statements marked as Assertion (A) and Reason (R). Mark the correct options:<br>Assertion (A): UDAN Scheme improves regional air connectivity.<br>Reason (R): It provides financial viability gap funding to airlines.",
-        "hi": "नीचे दिए गए कथनों को अभिकथन (A) और कारण (R) से चिह्नित करें। सही विकल्पों पर निशान लगाएँ:<br>अभिकथन (A): उड़ान योजना क्षेत्रीय हवाई संपर्क में सुधार करती है।<br>कारण (R): यह एयरलाइनों को वित्तीय व्यवहार्यता अंतर निधि प्रदान करती है।"
+        "en": "Read the below statements marked as Assertion (A) and Reason (R). Mark the correct options:<br><br>Assertion (A): UDAN Scheme improves regional air connectivity.<br><br>Reason (R): It provides financial viability gap funding to airlines.",
+        "hi": "नीचे दिए गए कथनों को अभिकथन (A) और कारण (R) से चिह्नित करें। सही विकल्पों पर निशान लगाएँ:<br><br>अभिकथन (A): उड़ान योजना क्षेत्रीय हवाई संपर्क में सुधार करती है।<br><br>कारण (R): यह एयरलाइनों को वित्तीय व्यवहार्यता अंतर निधि प्रदान करती है।"
       },
       "options": [
         {
@@ -35034,8 +35034,8 @@
         "hi": "A और R दोनों सत्य हैं, और R, A का सही स्पष्टीकरण है"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "The UDAN (Ude Desh Ka Aam Nagrik) scheme provides Viability Gap Funding (VGF) to airlines to keep ticket prices low, which encourages flying in smaller cities, thereby improving connectivity.",
+        "hi": "उड़ान (UDAN) योजना टिकटों की कीमतें कम रखने के लिए एयरलाइनों को व्यवहार्यता अंतर कोष (VGF) प्रदान करती है, जो छोटे शहरों में उड़ान भरने को प्रोत्साहित करती है, जिससे कनेक्टिविटी में सुधार होता है।"
       }
     },
     {
@@ -35067,8 +35067,8 @@
         "hi": "लंदन और न्यूयॉर्क"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "In various global economic indices, London and New York consistently lead due to their status as global financial hubs and high scores in economics, human capital, and quality of life.",
+        "hi": "विभिन्न वैश्विक आर्थिक सूचकांकों में, लंदन और न्यूयॉर्क वैश्विक वित्तीय केंद्रों के रूप में अपनी स्थिति और अर्थशास्त्र, मानव पूंजी और जीवन की गुणवत्ता में उच्च स्कोर के कारण लगातार नेतृत्व करते हैं।"
       }
     },
     {
@@ -35079,16 +35079,16 @@
       },
       "options": [
         {
-          "en": "They process heavy ores and minerals.",
-          "hi": "वे भारी अयस्कों और खनिजों का प्रसंस्करण करते हैं।"
+          "en": "They process heavy ores and minerals",
+          "hi": "वे भारी अयस्कों और खनिजों का प्रसंस्करण करते हैं"
         },
         {
-          "en": "They produce large-scale industrial machinery.",
-          "hi": "वे बड़े पैमाने पर औद्योगिक मशीनरी का उत्पादन करते हैं।"
+          "en": "They produce large-scale industrial machinery",
+          "hi": "वे बड़े पैमाने पर औद्योगिक मशीनरी का उत्पादन करते हैं"
         },
         {
-          "en": "They require bulky and heavy raw materials.",
-          "hi": "उन्हें भारी एवं भारी कच्चे माल की आवश्यकता होती है।"
+          "en": "They require bulky and heavy raw materials",
+          "hi": "उन्हें भारी एवं भारी कच्चे माल की आवश्यकता होती है"
         },
         {
           "en": "Use light materials to make consumer goods",
@@ -35100,15 +35100,15 @@
         "hi": "उपभोक्ता वस्तुओं को बनाने के लिए हल्के पदार्थों का उपयोग करें"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "Light industries (like electronics or textiles) use relatively small amounts of raw materials and produce goods that are light in weight and often aimed at individual consumers.",
+        "hi": "हल्के उद्योग (जैसे इलेक्ट्रॉनिक्स या कपड़ा) कच्चे माल की अपेक्षाकृत कम मात्रा का उपयोग करते हैं और ऐसी वस्तुओं का उत्पादन करते हैं जो वजन में हल्की होती हैं और अक्सर व्यक्तिगत उपभोक्ताओं के लिए होती हैं।"
       }
     },
     {
       "questionNo": 23,
       "question": {
-        "en": "Schedule VII of the Constitution contains",
-        "hi": "संविधान की अनुसूची VII में शामिल है।"
+        "en": "Schedule VII of the Constitution contains ______.",
+        "hi": "संविधान की अनुसूची VII में ______ शामिल है।"
       },
       "options": [
         {
@@ -35133,8 +35133,8 @@
         "hi": "तीन विधायी सूचियाँ"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "Schedule VII allocates power between the Union and States through three lists: Union List, State List, and Concurrent List.",
+        "hi": "सातवीं अनुसूची तीन सूचियों के माध्यम से केंद्र और राज्यों के बीच शक्ति का बंटवारा करती है: संघ सूची, राज्य सूची और समवर्ती सूची।"
       }
     },
     {
@@ -35145,29 +35145,29 @@
       },
       "options": [
         {
-          "en": "Climate Change Mitigation.",
-          "hi": "जलवायु परिवर्तन शमन."
+          "en": "Climate Change Mitigation",
+          "hi": "जलवायु परिवर्तन शमन"
         },
         {
-          "en": "Carbon Sequestration.",
-          "hi": "कार्बन पृथक्करण."
+          "en": "Carbon Sequestration",
+          "hi": "कार्बन पृथक्करण"
         },
         {
-          "en": "Geoengineering.",
-          "hi": "भू-इंजीनियरिंग."
+          "en": "Geoengineering",
+          "hi": "भू-इंजीनियरिंग"
         },
         {
-          "en": "Climate Change Adaptation.",
-          "hi": "जलवायु परिवर्तन अनुकूलन."
+          "en": "Climate Change Adaptation",
+          "hi": "जलवायु परिवर्तन अनुकूलन"
         }
       ],
       "correctAnswer": {
-        "en": "Climate Change Adaptation.",
-        "hi": "जलवायु परिवर्तन अनुकूलन."
+        "en": "Climate Change Adaptation",
+        "hi": "जलवायु परिवर्तन अनुकूलन"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "Adaptation involves adjusting to actual or expected climate change effects. Building sea walls is a way to live with rising sea levels, rather than trying to stop the climate from changing (mitigation).",
+        "hi": "अनुकूलन (Adaptation) में वास्तविक या अपेक्षित जलवायु परिवर्तन प्रभावों के अनुसार समायोजन करना शामिल है। समुद्री दीवारें बनाना बढ़ते समुद्र स्तर के साथ रहने का एक तरीका है, न कि जलवायु परिवर्तन को रोकने (शमन) का प्रयास।"
       }
     },
     {
@@ -35199,8 +35199,8 @@
         "hi": "कक्षीय वेग"
       },
       "explanation": {
-        "en": "",
-        "hi": ""
+        "en": "Orbital velocity is the speed needed to stay in orbit. If a satellite travels at this specific speed, its forward momentum balances the pull of gravity, allowing it to fall around the Earth indefinitely.",
+        "hi": "कक्षीय वेग वह गति है जिसकी कक्षा में रहने के लिए आवश्यकता होती है। यदि कोई उपग्रह इस विशिष्ट गति से चलता है, तो उसकी आगे की गति गुरुत्वाकर्षण के खिंचाव को संतुलित करती है, जिससे वह अनिश्चित काल तक पृथ्वी के चारों ओर गिरता (परिक्रमा करता) रहता है।"
       }
     }
   ],
