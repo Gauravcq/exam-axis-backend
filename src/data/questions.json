@@ -353,37 +353,37 @@
       }
     },
     {
-      "question": {
-        "en": "Suman purchased 25 liters of milk at ₹45 per liter and another 15 liters of milk at ₹50 per liter. She combined both quantities and then sold the entire mixture at ₹48 per liter. What was her total profit or loss?",
-        "hi": "सुमन ने 25 लीटर दूध ₹45 प्रति लीटर की दर से और 15 लीटर दूध ₹50 प्रति लीटर की दर से खरीदा। उसने दोनों मात्राओं को मिलाया और फिर पूरे मिश्रण को ₹48 प्रति लीटर की दर से बेचा। उसका कुल लाभ या हानि क्या थी?"
-      },
-      "options": [
-        {
-          "en": "Loss of ₹45 / ₹45 का नुकसान",
-          "hi": "₹ 45 / ₹ 45 का नुक्सान"
-        },
-        {
-          "en": "Profit of ₹45 / ₹45 का लाभ",
-          "hi": "₹ 45 / ₹ 45 कालाभ का लाभ"
-        },
-        {
-          "en": "Profit of ₹90 / ₹90 का लाभ",
-          "hi": "₹ 90 / ₹ 90 कालाभ का लाभ"
-        },
-        {
-          "en": "Loss of ₹90 / ₹90 का नुकसान",
-          "hi": "₹ 90 / ₹ 90 का नुक्सान"
-        }
-      ],
-      "correctAnswer": {
-        "en": "Profit of ₹90 / ₹90 का लाभ",
-        "hi": "₹ 90 / ₹ 90 कालाभ का लाभ"
-      },
-      "explanation": {
-        "en": "Cost Price:\n• 25 L × ₹45 = ₹1,125\n• 15 L × ₹50 = ₹750\n• Total CP = ₹1,875\n\nSelling Price:\n• 40 L × ₹48 = ₹1,920\n\nProfit = SP - CP\n= ₹1,920 - ₹1,875\n= ₹45 Profit",
-        "hi": "क्रय मूल्य:\n• 25 L × ₹45 = ₹1,125\n• 15 L × ₹50 = ₹750\n• कुल CP = ₹1,875\n\nविक्रय मूल्य:\n• 40 L × ₹48 = ₹1,920\n\nलाभ = SP - CP\n= ₹1,920 - ₹1,875\n= ₹45 लाभ"
-      }
+  "question": {
+    "en": "Suman purchased 25 liters of milk at ₹45 per liter and another 15 liters of milk at ₹50 per liter. She combined both quantities and then sold the entire mixture at ₹48 per liter. What was her total profit or loss?",
+    "hi": "सुमन ने 25 लीटर दूध ₹45 प्रति लीटर की दर से और 15 लीटर दूध ₹50 प्रति लीटर की दर से खरीदा। उसने दोनों मात्राओं को मिलाया और फिर पूरे मिश्रण को ₹48 प्रति लीटर की दर से बेचा। उसका कुल लाभ या हानि क्या थी?"
+  },
+  "options": [
+    {
+      "en": "Loss of ₹45",
+      "hi": "₹45 का नुकसान"
     },
+    {
+      "en": "Profit of ₹45",
+      "hi": "₹45 का लाभ"
+    },
+    {
+      "en": "Profit of ₹90",
+      "hi": "₹90 का लाभ"
+    },
+    {
+      "en": "Loss of ₹90",
+      "hi": "₹90 का नुकसान"
+    }
+  ],
+  "correctAnswer": {
+    "en": "Profit of ₹45",
+    "hi": "₹45 का लाभ"
+  },
+  "explanation": {
+    "en": "Cost Price:\n• 25 L × ₹45 = ₹1,125\n• 15 L × ₹50 = ₹750\n• Total CP = ₹1,125 + ₹750 = ₹1,875\n\nSelling Price:\n• Total milk = 25 + 15 = 40 L\n• 40 L × ₹48 = ₹1,920\n\nProfit = SP - CP\n= ₹1,920 - ₹1,875\n= ₹45 Profit",
+    "hi": "क्रय मूल्य:\n• 25 L × ₹45 = ₹1,125\n• 15 L × ₹50 = ₹750\n• कुल CP = ₹1,125 + ₹750 = ₹1,875\n\nविक्रय मूल्य:\n• कुल दूध = 25 + 15 = 40 L\n• 40 L × ₹48 = ₹1,920\n\nलाभ = SP - CP\n= ₹1,920 - ₹1,875\n= ₹45 लाभ"
+  }
+},
     {
       "question": {
         "en": "A toy manufacturer produced 1200 toy cars at a total cost of ₹90,000. He donated 200 cars to a charity event. For the rest, he announced a 10% discount on the market price of ₹120 per car. He also offered 2 toy cars free for every 8 toy cars purchased. If all 1200 toy cars were distributed, what is his overall gain or loss percentage?",
