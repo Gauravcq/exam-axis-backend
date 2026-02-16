@@ -55215,7 +55215,7 @@
   },
   "subject": "reasoning",
   "id": 88
-}
+    },
     {
       "question": {
         "en": "Instruction: In a certain coding system:<br>I ‘dream focus build skill’ is coded as ‘trq, xnz, hmd, clv’ <br>‘focus logic dream’ is coded as ‘trq, jkp, xnz’ <br>‘trust logic build dream’ is coded as ‘xnj, clv, jkp, trq’ <br><b>Question: What is the code for ‘build skill logic trust’?",
@@ -55482,10 +55482,8 @@
         "hi": "भतीजी/भतीजी | भतीजी/भांजा"
       },
       "explanation": {
-        "en": "On the basis of objections received from candidates and consequence review by Subject Matter Experts, this question has been discarded.
-All the candidates have been awarded marks for this question.",
-        "hi": "On the basis of objections received from candidates and consequence review by Subject Matter Experts, this question has been discarded.
-All the candidates have been awarded marks for this question."
+        "en": "On the basis of objections received from candidates and consequence review by Subject Matter Experts, this question has been discarded.\nAll the candidates have been awarded marks for this question.",
+        "hi": "On the basis of objections received from candidates and consequence review by Subject Matter Experts, this question has been discarded.\nAll the candidates have been awarded marks for this question."
       },
       "subject": "reasoning",
       "id": 96
