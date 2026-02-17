@@ -48623,6 +48623,1660 @@
       }
     }
   ],
+  "ssc_cgl_gk_15_sep_s1": [
+    {
+      "questionNo": 1,
+      "question": {
+        "en": "The chariot structure of the Konark Sun Temple features how many pairs of beautifully carved decorative wheels?",
+        "hi": "कोणार्क सूर्य मंदिर की रथ संरचना में कितनी जोड़ी खूबसूरती से नक्काशीदार सजावटी पहिए हैं?"
+      },
+      "options": [
+        {
+          "en": "11 pairs",
+          "hi": "11 जोड़ी"
+        },
+        {
+          "en": "13 pairs",
+          "hi": "13 जोड़ी"
+        },
+        {
+          "en": "10 pairs",
+          "hi": "10 जोड़ी"
+        },
+        {
+          "en": "12 pairs",
+          "hi": "12 जोड़ी"
+        }
+      ],
+      "correctAnswer": {
+        "en": "12 pairs",
+        "hi": "12 जोड़ी"
+      },
+      "explanation": {
+        "en": "The Konark Sun Temple in Odisha, built by King Narasimhadeva I of the Eastern Ganga Dynasty in the 13th century, is designed as a massive chariot of the Sun God (Surya). It has 12 pairs (24 wheels) of intricately carved stone wheels, representing the 12 months of the year. The wheels also function as sundials. The temple is a UNESCO World Heritage Site (1984).",
+        "hi": "ओडिशा का कोणार्क सूर्य मंदिर, जो 13वीं शताब्दी में पूर्वी गंग राजवंश के राजा नरसिम्हादेव प्रथम द्वारा बनवाया गया था, सूर्य देव (सूर्य) के एक विशाल रथ के रूप में डिज़ाइन किया गया है। इसमें 12 जोड़ी (24 पहिए) जटिल नक्काशीदार पत्थर के पहिए हैं, जो वर्ष के 12 महीनों का प्रतिनिधित्व करते हैं। पहिए धूपघड़ी के रूप में भी काम करते हैं। मंदिर यूनेस्को विश्व धरोहर स्थल (1984) है।"
+      }
+    },
+    {
+      "questionNo": 2,
+      "question": {
+        "en": "In the context of Rajasthan's Baran Dol Mela, which of the following statements best reflects its cultural and ritual significance?",
+        "hi": "राजस्थान के बारां डोल मेला के संदर्भ में, निम्नलिखित में से कौन सा कथन इसके सांस्कृतिक और अनुष्ठानिक महत्व को सबसे अच्छी तरह दर्शाता है?"
+      },
+      "options": [
+        {
+          "en": "It commences with Dev Viman performances by akhada artists and culminates with an Amavasya night immersion across Baran city.",
+          "hi": "यह अखाड़ा कलाकारों द्वारा देव विमान प्रदर्शन के साथ शुरू होता है और बारां शहर में अमावस्या की रात के विसर्जन के साथ समाप्त होता है।"
+        },
+        {
+          "en": "Grand processions of Lord Shreeji and Raghunathji on Jaljhulani Gyaras attract participants and traders from many states.",
+          "hi": "जलझुलनी ग्यारस पर भगवान श्रीजी और रघुनाथजी की भव्य शोभायात्रा कई राज्यों के प्रतिभागियों और व्यापारियों को आकर्षित करती है।"
+        },
+        {
+          "en": "Also called Annapurna Gyaras, it is a post-harvest celebration observed mainly in Madhya Pradesh.",
+          "hi": "इसे अन्नपूर्णा ग्यारस भी कहा जाता है, यह फसल कटाई के बाद का उत्सव है जो मुख्य रूप से मध्य प्रदेश में मनाया जाता है।"
+        },
+        {
+          "en": "Observed between Shravan and Ashwin, it is a monastic event held in caves away from mainstream temple practices.",
+          "hi": "श्रावण और अश्विन के बीच मनाया जाने वाला, यह मुख्यधारा की मंदिर प्रथाओं से दूर गुफाओं में आयोजित एक मठवासी कार्यक्रम है।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Grand processions of Lord Shreeji and Raghunathji on Jaljhulani Gyaras attract participants and traders from many states.",
+        "hi": "जलझुलनी ग्यारस पर भगवान श्रीजी और रघुनाथजी की भव्य शोभायात्रा कई राज्यों के प्रतिभागियों और व्यापारियों को आकर्षित करती है।"
+      },
+      "explanation": {
+        "en": "The Baran Dol Mela is a famous fair held in Baran district of Rajasthan. It is celebrated on Jaljhulani Gyaras (Ekadashi of Bhadrapada Shukla Paksha). Grand processions of Lord Shreeji and Raghunathji are the main attractions, drawing participants, devotees, and traders from multiple states. It is a significant cultural and religious event of the region.",
+        "hi": "बारां डोल मेला राजस्थान के बारां जिले में आयोजित होने वाला एक प्रसिद्ध मेला है। यह जलझुलनी ग्यारस (भाद्रपद शुक्ल पक्ष की एकादशी) पर मनाया जाता है। भगवान श्रीजी और रघुनाथजी की भव्य शोभायात्रा मुख्य आकर्षण हैं, जो कई राज्यों से प्रतिभागियों, भक्तों और व्यापारियों को आकर्षित करती हैं। यह क्षेत्र का एक महत्वपूर्ण सांस्कृतिक और धार्मिक आयोजन है।"
+      }
+    },
+    {
+      "questionNo": 3,
+      "question": {
+        "en": "In the administrative setup of the Gupta dynasty, who was the Sarthavaha?",
+        "hi": "गुप्त राजवंश के प्रशासनिक ढांचे में, सार्थवाह कौन था?"
+      },
+      "options": [
+        {
+          "en": "Chief artisan responsible for temple and sculpture guilds",
+          "hi": "मंदिर और मूर्तिकला संघों के लिए जिम्मेदार मुख्य शिल्पकार"
+        },
+        {
+          "en": "Officer managing military enlistment",
+          "hi": "सैन्य भर्ती का प्रबंधन करने वाला अधिकारी"
+        },
+        {
+          "en": "Leader of merchant guilds representing trading communities",
+          "hi": "व्यापारिक समुदायों का प्रतिनिधित्व करने वाले व्यापारी संघों का नेता"
+        },
+        {
+          "en": "Administrator of irrigation systems and waterworks",
+          "hi": "सिंचाई प्रणालियों और जल कार्यों का प्रशासक"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Leader of merchant guilds representing trading communities",
+        "hi": "व्यापारिक समुदायों का प्रतिनिधित्व करने वाले व्यापारी संघों का नेता"
+      },
+      "explanation": {
+        "en": "In the Gupta administrative system, the Sarthavaha was the leader or head of merchant caravans and trading guilds (Shreni). The term literally means 'caravan leader.' Sarthavahas played a crucial role in the economic life of the Gupta Empire by organizing trade, managing merchant communities, and facilitating commerce along trade routes.",
+        "hi": "गुप्त प्रशासनिक व्यवस्था में, सार्थवाह व्यापारी कारवां और व्यापारिक संघों (श्रेणी) का नेता या प्रमुख था। इस शब्द का शाब्दिक अर्थ 'कारवां नेता' है। सार्थवाहों ने व्यापार को व्यवस्थित करने, व्यापारी समुदायों का प्रबंधन करने और व्यापार मार्गों पर वाणिज्य को सुगम बनाने के द्वारा गुप्त साम्राज्य के आर्थिक जीवन में महत्वपूर्ण भूमिका निभाई।"
+      }
+    },
+    {
+      "questionNo": 4,
+      "question": {
+        "en": "Which of the following statements best highlights the musical instrument heritage of Kerala?",
+        "hi": "निम्नलिखित में से कौन सा कथन केरल की वाद्य यंत्र विरासत पर सबसे अच्छा प्रकाश डालता है?"
+      },
+      "options": [
+        {
+          "en": "The Ravana-Hatta originated in Kerala and later spread to northern India.",
+          "hi": "रावण-हत्था की उत्पत्ति केरल में हुई और बाद में यह उत्तर भारत में फैल गया।"
+        },
+        {
+          "en": "Kerala's traditional music relies solely on wind instruments such as Turi and Kombu.",
+          "hi": "केरल का पारंपरिक संगीत पूरी तरह से तुरी और कोम्बु जैसे पवन वाद्ययंत्रों पर निर्भर करता है।"
+        },
+        {
+          "en": "Most instruments in Kerala are modern and influenced by Western styles.",
+          "hi": "केरल में अधिकांश वाद्ययंत्र आधुनिक हैं और पश्चिमी शैलियों से प्रभावित हैं।"
+        },
+        {
+          "en": "Percussion instruments like Timila and Maddalam are referenced in Silappadikaram and continue to be played today.",
+          "hi": "तिमिला और मदालम जैसे ताल वाद्ययंत्रों का उल्लेख सिलप्पादिकारम में मिलता है और आज भी बजाए जाते हैं।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Percussion instruments like Timila and Maddalam are referenced in Silappadikaram and continue to be played today.",
+        "hi": "तिमिला और मदालम जैसे ताल वाद्ययंत्रों का उल्लेख सिलप्पादिकारम में मिलता है और आज भी बजाए जाते हैं।"
+      },
+      "explanation": {
+        "en": "Timila and Maddalam are traditional percussion instruments of Kerala that have been used in temple rituals and cultural performances for centuries. They find mention in the ancient Tamil epic Silappadikaram (2nd century CE) by Ilango Adigal, confirming their antiquity. These instruments continue to be integral to Kerala's performing arts like Kathakali, Koodiyattam, and temple festivals (Pooram).",
+        "hi": "तिमिला और मदालम केरल के पारंपरिक ताल वाद्ययंत्र हैं जो सदियों से मंदिर अनुष्ठानों और सांस्कृतिक प्रदर्शनों में उपयोग किए जाते रहे हैं। इनका उल्लेख प्राचीन तमिल महाकाव्य सिलप्पादिकारम (दूसरी शताब्दी ईस्वी) में इलांगो अडिगल द्वारा मिलता है, जो उनकी प्राचीनता की पुष्टि करता है। ये वाद्ययंत्र आज भी केरल की प्रदर्शन कलाओं जैसे कथकली, कूडियाट्टम और मंदिर उत्सवों (पूरम) का अभिन्न अंग बने हुए हैं।"
+      }
+    },
+    {
+      "questionNo": 5,
+      "question": {
+        "en": "Why is fibreglass commonly used instead of metal for making high jump bars?",
+        "hi": "ऊंची कूद की छड़ें (bars) बनाने के लिए धातु के बजाय आमतौर पर फाइबरग्लास का उपयोग क्यों किया जाता है?"
+      },
+      "options": [
+        {
+          "en": "Metal is overly flexible, affecting performance accuracy",
+          "hi": "धातु अत्यधिक लचीली होती है, जिससे प्रदर्शन की सटीकता प्रभावित होती है"
+        },
+        {
+          "en": "Fibreglass is lightweight, flexible, and safer upon impact",
+          "hi": "फाइबरग्लास हल्का, लचीला और प्रभाव पड़ने पर अधिक सुरक्षित होता है"
+        },
+        {
+          "en": "Metal bends permanently, whereas fibreglass is completely rigid",
+          "hi": "धातु स्थायी रूप से झुक जाती है, जबकि फाइबरग्लास पूरी तरह से कठोर होता है"
+        },
+        {
+          "en": "Fibreglass is mainly chosen because it is cheaper to produce",
+          "hi": "फाइबरग्लास मुख्य रूप से इसलिए चुना जाता है क्योंकि इसका उत्पादन सस्ता होता है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Fibreglass is lightweight, flexible, and safer upon impact",
+        "hi": "फाइबरग्लास हल्का, लचीला और प्रभाव पड़ने पर अधिक सुरक्षित होता है"
+      },
+      "explanation": {
+        "en": "Fibreglass is preferred for high jump bars because it is lightweight (easy to dislodge when touched, which is essential for fair judging), flexible (doesn't break or deform permanently), and safer upon impact (won't cause injury if it falls on the athlete). Metal bars would be heavier, could cause injuries, and wouldn't dislodge as easily.",
+        "hi": "फाइबरग्लास ऊंची कूद की छड़ों के लिए पसंद किया जाता है क्योंकि यह हल्का (छूने पर आसानी से गिर जाता है, जो निष्पक्ष निर्णय के लिए आवश्यक है), लचीला (स्थायी रूप से टूटता या विकृत नहीं होता), और प्रभाव पड़ने पर सुरक्षित (एथलीट पर गिरने पर चोट नहीं पहुंचाता) होता है। धातु की छड़ें भारी होंगी, चोट पहुंचा सकती हैं और आसानी से नहीं गिरेंगी।"
+      }
+    },
+    {
+      "questionNo": 6,
+      "question": {
+        "en": "Arrange the following Delhi Sultanate rulers in the correct chronological order of their reigns, beginning with the earliest:<br><br>1. Razia Sultan<br>2. Ghiyas ud din Balban<br>3. Qutb al-Din Aibak<br>4. Iltutmish",
+        "hi": "दिल्ली सल्तनत के निम्नलिखित शासकों को उनके शासनकाल के सही कालानुक्रमिक क्रम में व्यवस्थित करें, जो सबसे पहले से शुरू हो:<br><br>1. रजिया सुल्तान<br>2. गयासुद्दीन बलबन<br>3. कुतुब अल-दीन ऐबक<br>4. इल्तुतमिश"
+      },
+      "options": [
+        {
+          "en": "3-4-1-2",
+          "hi": "3-4-1-2"
+        },
+        {
+          "en": "4-3-1-2",
+          "hi": "4-3-1-2"
+        },
+        {
+          "en": "3-1-4-2",
+          "hi": "3-1-4-2"
+        },
+        {
+          "en": "1-3-4-2",
+          "hi": "1-3-4-2"
+        }
+      ],
+      "correctAnswer": {
+        "en": "3-4-1-2",
+        "hi": "3-4-1-2"
+      },
+      "explanation": {
+        "en": "The correct chronological order is: Qutb al-Din Aibak (1206-1210) → Iltutmish (1211-1236) → Razia Sultan (1236-1240) → Ghiyas ud din Balban (1266-1287). Aibak founded the Slave/Mamluk Dynasty, Iltutmish was his son-in-law who consolidated the Sultanate, Razia was Iltutmish's daughter and the first female ruler of Delhi, and Balban was a powerful ruler known for his 'blood and iron' policy.",
+        "hi": "सही कालानुक्रमिक क्रम है: कुतुब अल-दीन ऐबक (1206-1210) → इल्तुतमिश (1211-1236) → रजिया सुल्तान (1236-1240) → गयासुद्दीन बलबन (1266-1287)। ऐबक ने गुलाम/मामलूक वंश की स्थापना की, इल्तुतमिश उनके दामाद थे जिन्होंने सल्तनत को मजबूत किया, रजिया इल्तुतमिश की बेटी और दिल्ली की पहली महिला शासक थीं, और बलबन अपनी 'रक्त और लौह' नीति के लिए जाने जाने वाले शक्तिशाली शासक थे।"
+      }
+    },
+    {
+      "questionNo": 7,
+      "question": {
+        "en": "In football terminology, what does the term \"brace\" refer to?",
+        "hi": "फुटबॉल शब्दावली में, \"ब्रेस\" (brace) शब्द का क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "en": "Two yellow cards",
+          "hi": "दो पीले कार्ड"
+        },
+        {
+          "en": "Two consecutive wins",
+          "hi": "लगातार दो जीत"
+        },
+        {
+          "en": "Scoring two goals in a single match",
+          "hi": "एक ही मैच में दो गोल करना"
+        },
+        {
+          "en": "Saving two penalty kicks",
+          "hi": "दो पेनल्टी किक बचाना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Scoring two goals in a single match",
+        "hi": "एक ही मैच में दो गोल करना"
+      },
+      "explanation": {
+        "en": "In football, a 'brace' refers to a player scoring two goals in a single match. Scoring three goals is called a 'hat-trick,' and scoring four goals is sometimes called a 'haul' or 'poker.' The term originates from an old English word meaning 'a pair.'",
+        "hi": "फुटबॉल में, 'ब्रेस' का अर्थ है एक खिलाड़ी द्वारा एक ही मैच में दो गोल करना। तीन गोल करने को 'हैट-ट्रिक' कहा जाता है, और चार गोल करने को कभी-कभी 'हॉल' या 'पोकर' कहा जाता है। यह शब्द पुरानी अंग्रेजी शब्द से आता है जिसका अर्थ 'एक जोड़ा' है।"
+      }
+    },
+    {
+      "questionNo": 8,
+      "question": {
+        "en": "What is the main objective of the BRICS Startup Knowledge Hub launched in 2025?",
+        "hi": "2025 में लॉन्च किए गए ब्रिक्स स्टार्टअप नॉलेज हब का मुख्य उद्देश्य क्या है?"
+      },
+      "options": [
+        {
+          "en": "To serve as a financial trade platform",
+          "hi": "वित्तीय व्यापार मंच के रूप में कार्य करना"
+        },
+        {
+          "en": "To act as a startup knowledge repository",
+          "hi": "स्टार्टअप ज्ञान भंडार के रूप में कार्य करना"
+        },
+        {
+          "en": "To preserve cultural archives",
+          "hi": "सांस्कृतिक अभिलेखागार को संरक्षित करना"
+        },
+        {
+          "en": "To manage capital control systems",
+          "hi": "पूंजी नियंत्रण प्रणालियों का प्रबंधन करना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "To act as a startup knowledge repository",
+        "hi": "स्टार्टअप ज्ञान भंडार के रूप में कार्य करना"
+      },
+      "explanation": {
+        "en": "The BRICS Startup Knowledge Hub was launched to serve as a centralized knowledge repository for startups across BRICS nations. It aims to share best practices, policies, innovation frameworks, and entrepreneurship resources among member countries to foster startup ecosystems and facilitate cross-border collaboration in the startup space.",
+        "hi": "ब्रिक्स स्टार्टअप नॉलेज हब को ब्रिक्स देशों में स्टार्टअप्स के लिए एक केंद्रीकृत ज्ञान भंडार के रूप में कार्य करने के लिए लॉन्च किया गया था। इसका उद्देश्य स्टार्टअप पारिस्थितिकी तंत्र को बढ़ावा देने और स्टार्टअप क्षेत्र में सीमा पार सहयोग को सुविधाजनक बनाने के लिए सदस्य देशों के बीच सर्वोत्तम प्रथाओं, नीतियों, नवाचार ढांचे और उद्यमिता संसाधनों को साझा करना है।"
+      }
+    },
+    {
+      "questionNo": 9,
+      "question": {
+        "en": "The novel \"Sahela Re\", known for its strong portrayal of women's emotions, was written by:",
+        "hi": "महिलाओं की भावनाओं के सशक्त चित्रण के लिए जाना जाने वाला उपन्यास \"सहेला रे\" किसके द्वारा लिखा गया था:"
+      },
+      "options": [
+        {
+          "en": "Vasanti Muzumdar",
+          "hi": "वसंती मुजुमदार"
+        },
+        {
+          "en": "Mrinal Pande",
+          "hi": "मृणाल पांडे"
+        },
+        {
+          "en": "Shubhangi Tiwari",
+          "hi": "शुभांगी तिवारी"
+        },
+        {
+          "en": "Priyanka Sarkar",
+          "hi": "प्रियंका सरकार"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Mrinal Pande",
+        "hi": "मृणाल पांडे"
+      },
+      "explanation": {
+        "en": "\"Sahela Re\" was written by Mrinal Pande, a renowned Hindi author, journalist, and former Chairperson of Prasar Bharati. The novel is known for its powerful portrayal of women's emotions, relationships, and inner struggles. Mrinal Pande is the daughter of famous Hindi writer Shivani and has authored several acclaimed novels and short story collections in Hindi.",
+        "hi": "\"सहेला रे\" मृणाल पांडे द्वारा लिखा गया था, जो एक प्रसिद्ध हिंदी लेखिका, पत्रकार और प्रसार भारती की पूर्व अध्यक्ष हैं। यह उपन्यास महिलाओं की भावनाओं, रिश्तों और आंतरिक संघर्षों के सशक्त चित्रण के लिए जाना जाता है। मृणाल पांडे प्रसिद्ध हिंदी लेखिका शिवानी की बेटी हैं और उन्होंने हिंदी में कई प्रशंसित उपन्यास और कहानी संग्रह लिखे हैं।"
+      }
+    },
+    {
+      "questionNo": 10,
+      "question": {
+        "en": "Read the following Assertion (A) and Reason (R) related to the Khelo India Youth Games Table Tennis Doubles Finals, and select the correct option:<br><br>Assertion (A): Kavya Bhatt and Divyanshi Bhowmick lost only one game throughout the girls' doubles event.<br><br>Reason (R): They clinched the title by defeating Subhankrita Datta and Avisha Karmakar 3-0 in the final.",
+        "hi": "खेलो इंडिया यूथ गेम्स टेबल टेनिस डबल्स फाइनल से संबंधित निम्नलिखित अभिकथन (A) और कारण (R) को पढ़ें और सही विकल्प चुनें:<br><br>अभिकथन (A): काव्या भट्ट और दिव्यांशी भौमिक ने लड़कियों के युगल स्पर्धा के दौरान केवल एक गेम हारा।<br><br>कारण (R): उन्होंने फाइनल में सुभंकृता दत्ता और अविशा कर्मकार को 3-0 से हराकर खिताब जीता।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A गलत है, लेकिन R सत्य है"
+        },
+        {
+          "en": "A is true, but R is false",
+          "hi": "A सत्य है, लेकिन R गलत है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "A is false, but R is true",
+        "hi": "A गलत है, लेकिन R सत्य है"
+      },
+      "explanation": {
+        "en": "Reason (R) is true: Kavya Bhatt and Divyanshi Bhowmick won the title by defeating Subhankrita Datta and Avisha Karmakar 3-0 in the final. Assertion (A) is false: The claim that they lost only one game throughout the event is not accurate. A 3-0 victory in the final means they didn't lose any game in the final, but they may have lost more than one game across the entire tournament.",
+        "hi": "कारण (R) सत्य है: काव्या भट्ट और दिव्यांशी भौमिक ने फाइनल में सुभंकृता दत्ता और अविशा कर्मकार को 3-0 से हराकर खिताब जीता। अभिकथन (A) गलत है: यह दावा कि उन्होंने पूरी स्पर्धा में केवल एक गेम हारा, सटीक नहीं है। फाइनल में 3-0 की जीत का मतलब है कि उन्होंने फाइनल में कोई गेम नहीं हारा, लेकिन पूरे टूर्नामेंट में उन्होंने एक से अधिक गेम हारे हो सकते हैं।"
+      }
+    },
+    {
+      "questionNo": 11,
+      "question": {
+        "en": "Who received the Padma Shri Award in 2025 for promoting women's empowerment through the teaching of traditional Bengali folk percussion?",
+        "hi": "पारंपरिक बंगाली लोक ताल वाद्य सिखाने के माध्यम से महिला सशक्तिकरण को बढ़ावा देने के लिए 2025 में पद्म श्री पुरस्कार किसे मिला?"
+      },
+      "options": [
+        {
+          "en": "Farooq Ahmad Mir",
+          "hi": "फारूक अहमद मीर"
+        },
+        {
+          "en": "Gokul Chandra Das",
+          "hi": "गोकुल चंद्र दास"
+        },
+        {
+          "en": "Sheen Kaaf Nizam",
+          "hi": "शीन काफ निज़ाम"
+        },
+        {
+          "en": "Shyam Bihari Agrawal",
+          "hi": "श्याम बिहारी अग्रवाल"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Gokul Chandra Das",
+        "hi": "गोकुल चंद्र दास"
+      },
+      "explanation": {
+        "en": "Gokul Chandra Das received the Padma Shri Award in 2025 for his contribution to promoting women's empowerment through teaching traditional Bengali folk percussion instruments like Dhak. He has been instrumental in training women in this art form, which was traditionally practiced only by men, thereby breaking gender barriers in folk music traditions.",
+        "hi": "गोकुल चंद्र दास को 2025 में ढाक जैसे पारंपरिक बंगाली लोक ताल वाद्य सिखाने के माध्यम से महिला सशक्तिकरण को बढ़ावा देने में उनके योगदान के लिए पद्म श्री पुरस्कार मिला। उन्होंने इस कला में महिलाओं को प्रशिक्षित करने में महत्वपूर्ण भूमिका निभाई है, जो पारंपरिक रूप से केवल पुरुषों द्वारा अभ्यास की जाती थी, जिससे लोक संगीत परंपराओं में लैंगिक बाधाएं टूटीं।"
+      }
+    },
+    {
+      "questionNo": 12,
+      "question": {
+        "en": "India's total land area constitutes approximately what percentage of the world's geographical area?",
+        "hi": "भारत का कुल भूमि क्षेत्र दुनिया के भौगोलिक क्षेत्र का लगभग कितना प्रतिशत है?"
+      },
+      "options": [
+        {
+          "en": "1.4%",
+          "hi": "1.4%"
+        },
+        {
+          "en": "2.4%",
+          "hi": "2.4%"
+        },
+        {
+          "en": "3.4%",
+          "hi": "3.4%"
+        },
+        {
+          "en": "4.4%",
+          "hi": "4.4%"
+        }
+      ],
+      "correctAnswer": {
+        "en": "2.4%",
+        "hi": "2.4%"
+      },
+      "explanation": {
+        "en": "India's total land area is approximately 3.28 million sq km, which constitutes about 2.4% of the world's total geographical area (about 135.79 million sq km). Despite covering only 2.4% of the world's area, India is home to about 17.7% of the world's population, making it one of the most densely populated countries.",
+        "hi": "भारत का कुल भूमि क्षेत्र लगभग 3.28 मिलियन वर्ग किमी है, जो दुनिया के कुल भौगोलिक क्षेत्र (लगभग 135.79 मिलियन वर्ग किमी) का लगभग 2.4% है। दुनिया के क्षेत्रफल का केवल 2.4% होने के बावजूद, भारत दुनिया की लगभग 17.7% आबादी का घर है, जो इसे सबसे घनी आबादी वाले देशों में से एक बनाता है।"
+      }
+    },
+    {
+      "questionNo": 13,
+      "question": {
+        "en": "Under which type of orbit does the joint NASA-ISRO satellite 'NISAR' operate?",
+        "hi": "संयुक्त नासा-इसरो उपग्रह 'निसार' (NISAR) किस प्रकार की कक्षा के तहत कार्य करता है?"
+      },
+      "options": [
+        {
+          "en": "Geostationary Orbit (GEO)",
+          "hi": "भू-स्थिर कक्षा (GEO)"
+        },
+        {
+          "en": "Highly Elliptical Orbit (HEO)",
+          "hi": "अत्यधिक अण्डाकार कक्षा (HEO)"
+        },
+        {
+          "en": "Sun-Synchronous Orbit (SSO)",
+          "hi": "सूर्य-तुल्यकालिक कक्षा (SSO)"
+        },
+        {
+          "en": "Low Earth Orbit (LEO)",
+          "hi": "निम्न पृथ्वी कक्षा (LEO)"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Sun-Synchronous Orbit (SSO)",
+        "hi": "सूर्य-तुल्यकालिक कक्षा (SSO)"
+      },
+      "explanation": {
+        "en": "NISAR (NASA-ISRO Synthetic Aperture Radar) operates in a Sun-Synchronous Orbit (SSO) at an altitude of approximately 747 km. An SSO ensures the satellite passes over the same point on Earth at the same local solar time, providing consistent lighting conditions for radar imaging. This is ideal for monitoring land surface changes, ice sheets, vegetation, and natural hazards with its L-band and S-band SAR instruments.",
+        "hi": "NISAR (NASA-ISRO सिंथेटिक अपर्चर रडार) लगभग 747 किमी की ऊंचाई पर सूर्य-तुल्यकालिक कक्षा (SSO) में कार्य करता है। SSO यह सुनिश्चित करता है कि उपग्रह पृथ्वी पर एक ही बिंदु से एक ही स्थानीय सौर समय पर गुजरे, जिससे रडार इमेजिंग के लिए सुसंगत प्रकाश स्थितियां मिलें। यह अपने L-बैंड और S-बैंड SAR उपकरणों के साथ भूमि सतह परिवर्तन, बर्फ की चादरें, वनस्पति और प्राकृतिक आपदाओं की निगरानी के लिए आदर्श है।"
+      }
+    },
+    {
+      "questionNo": 14,
+      "question": {
+        "en": "Which of the following district-state combinations is correctly matched with respect to iron ore reserves in India?",
+        "hi": "भारत में लौह अयस्क भंडार के संबंध में निम्नलिखित में से कौन सा जिला-राज्य संयोजन सही सुमेलित है?"
+      },
+      "options": [
+        {
+          "en": "Mayurbhanj - Andhra Pradesh",
+          "hi": "मयूरभंज - आंध्र प्रदेश"
+        },
+        {
+          "en": "Keonjhar - Assam",
+          "hi": "क्योंझर - असम"
+        },
+        {
+          "en": "Singhbhum - Jharkhand",
+          "hi": "सिंहभूम - झारखंड"
+        },
+        {
+          "en": "Sundargarh - Tripura",
+          "hi": "सुंदरगढ़ - त्रिपुरा"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Singhbhum - Jharkhand",
+        "hi": "सिंहभूम - झारखंड"
+      },
+      "explanation": {
+        "en": "Singhbhum district is in Jharkhand (correct match) and is one of India's richest iron ore bearing regions. The other options are incorrectly matched: Mayurbhanj and Keonjhar are districts in Odisha (not Andhra Pradesh or Assam), and Sundargarh is also in Odisha (not Tripura). The Singhbhum-Odisha belt is part of the iron ore crescent of eastern India.",
+        "hi": "सिंहभूम जिला झारखंड में है (सही मिलान) और भारत के सबसे समृद्ध लौह अयस्क वाले क्षेत्रों में से एक है। अन्य विकल्प गलत तरीके से मिलाए गए हैं: मयूरभंज और क्योंझर ओडिशा के जिले हैं (आंध्र प्रदेश या असम नहीं), और सुंदरगढ़ भी ओडिशा में है (त्रिपुरा नहीं)। सिंहभूम-ओडिशा बेल्ट पूर्वी भारत के लौह अयस्क अर्धचंद्र का हिस्सा है।"
+      }
+    },
+    {
+      "questionNo": 15,
+      "question": {
+        "en": "Which of these biomolecules is an essential component of the plasma membrane?",
+        "hi": "इनमें से कौन सा जैव अणु प्लाज्मा झिल्ली (plasma membrane) का एक अनिवार्य घटक है?"
+      },
+      "options": [
+        {
+          "en": "DNA",
+          "hi": "DNA"
+        },
+        {
+          "en": "Glycogen",
+          "hi": "ग्लाइकोजन"
+        },
+        {
+          "en": "Cellulose",
+          "hi": "सेल्यूलोज"
+        },
+        {
+          "en": "Phospholipids",
+          "hi": "फास्फोलिपिड्स"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Phospholipids",
+        "hi": "फास्फोलिपिड्स"
+      },
+      "explanation": {
+        "en": "Phospholipids are the essential structural component of the plasma membrane, forming a bilayer (phospholipid bilayer). Each phospholipid has a hydrophilic (water-loving) head and two hydrophobic (water-fearing) tails. This arrangement creates a semi-permeable barrier. DNA is found in the nucleus, Glycogen is an energy storage molecule, and Cellulose forms plant cell walls — none are plasma membrane components.",
+        "hi": "फास्फोलिपिड्स प्लाज्मा झिल्ली का आवश्यक संरचनात्मक घटक हैं, जो एक द्विपरत (फास्फोलिपिड द्विपरत) बनाते हैं। प्रत्येक फास्फोलिपिड में एक हाइड्रोफिलिक (जल-प्रेमी) सिर और दो हाइड्रोफोबिक (जल-भयी) पूंछ होती हैं। यह व्यवस्था एक अर्ध-पारगम्य बाधा बनाती है। DNA नाभिक में पाया जाता है, ग्लाइकोजन एक ऊर्जा भंडारण अणु है, और सेल्यूलोज पौधों की कोशिका भित्ति बनाता है — इनमें से कोई भी प्लाज्मा झिल्ली का घटक नहीं है।"
+      }
+    },
+    {
+      "questionNo": 16,
+      "question": {
+        "en": "Which Constitutional Amendment is popularly known as the \"Mini-Constitution\" for bringing wide-ranging reforms to the Indian Constitution?",
+        "hi": "भारतीय संविधान में व्यापक सुधार लाने के लिए किस संवैधानिक संशोधन को \"लघु-संविधान\" के रूप में जाना जाता है?"
+      },
+      "options": [
+        {
+          "en": "52nd Amendment Act, 1985",
+          "hi": "52वां संशोधन अधिनियम, 1985"
+        },
+        {
+          "en": "44th Amendment Act, 1978",
+          "hi": "44वां संशोधन अधिनियम, 1978"
+        },
+        {
+          "en": "86th Amendment Act, 2002",
+          "hi": "86वां संशोधन अधिनियम, 2002"
+        },
+        {
+          "en": "42nd Amendment Act, 1976",
+          "hi": "42वां संशोधन अधिनियम, 1976"
+        }
+      ],
+      "correctAnswer": {
+        "en": "42nd Amendment Act, 1976",
+        "hi": "42वां संशोधन अधिनियम, 1976"
+      },
+      "explanation": {
+        "en": "The 42nd Amendment Act, 1976 is called the 'Mini-Constitution' because it brought the most extensive changes to the Indian Constitution. Enacted during the Emergency under PM Indira Gandhi, it added the words 'Socialist,' 'Secular,' and 'Integrity' to the Preamble, added Fundamental Duties (Part IVA), curtailed judicial review powers, and made several structural changes. Many of its provisions were later reversed by the 44th Amendment Act, 1978.",
+        "hi": "42वां संशोधन अधिनियम, 1976 को 'लघु-संविधान' कहा जाता है क्योंकि इसने भारतीय संविधान में सबसे व्यापक परिवर्तन लाए। प्रधानमंत्री इंदिरा गांधी के तहत आपातकाल के दौरान अधिनियमित, इसने प्रस्तावना में 'समाजवादी,' 'पंथनिरपेक्ष,' और 'अखंडता' शब्द जोड़े, मौलिक कर्तव्य (भाग IVA) जोड़े, न्यायिक समीक्षा शक्तियों को कम किया, और कई संरचनात्मक परिवर्तन किए। इसके कई प्रावधानों को बाद में 44वें संशोधन अधिनियम, 1978 द्वारा उलट दिया गया।"
+      }
+    },
+    {
+      "questionNo": 17,
+      "question": {
+        "en": "Why does steam cause deeper burns than boiling water even though both are at 100°C?",
+        "hi": "भाप उबलते पानी की तुलना में अधिक गहरा जलती है, भले ही दोनों 100°C पर हों, क्यों?"
+      },
+      "options": [
+        {
+          "en": "Because steam is at a higher temperature",
+          "hi": "क्योंकि भाप का तापमान अधिक होता है"
+        },
+        {
+          "en": "Because steam releases additional latent heat upon condensation",
+          "hi": "क्योंकि संघनन पर भाप अतिरिक्त गुप्त ऊष्मा मुक्त करती है"
+        },
+        {
+          "en": "Because steam expands rapidly on contact",
+          "hi": "क्योंकि संपर्क होने पर भाप तेजी से फैलती है"
+        },
+        {
+          "en": "Because steam has greater molecular speed",
+          "hi": "क्योंकि भाप की आणविक गति अधिक होती है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Because steam releases additional latent heat upon condensation",
+        "hi": "क्योंकि संघनन पर भाप अतिरिक्त गुप्त ऊष्मा मुक्त करती है"
+      },
+      "explanation": {
+        "en": "Steam at 100°C causes more severe burns than boiling water at 100°C because steam carries additional latent heat of vaporization (2260 kJ/kg). When steam condenses on the skin, it first releases this latent heat (2260 kJ/kg) and then cools down like normal hot water. So the total heat transferred by steam is much more than boiling water at the same temperature, causing deeper and more severe burns.",
+        "hi": "100°C पर भाप 100°C पर उबलते पानी की तुलना में अधिक गंभीर जलन का कारण बनती है क्योंकि भाप में वाष्पीकरण की अतिरिक्त गुप्त ऊष्मा (2260 kJ/kg) होती है। जब भाप त्वचा पर संघनित होती है, तो यह पहले इस गुप्त ऊष्मा (2260 kJ/kg) को मुक्त करती है और फिर सामान्य गर्म पानी की तरह ठंडी होती है। इसलिए भाप द्वारा स्थानांतरित कुल ऊष्मा समान तापमान पर उबलते पानी की तुलना में बहुत अधिक होती है।"
+      }
+    },
+    {
+      "questionNo": 18,
+      "question": {
+        "en": "With reference to the eSanjeevani platform, consider the following statements:<br><br>1. eSanjeevani OPD offers citizens virtual medical consultations from their homes.<br><br>2. eSanjeevani AB-HWC links patients with doctors at Ayushman Bharat Health and Wellness Centres.<br><br>Which of the above statements is/are correct?",
+        "hi": "ई-संजीवनी (eSanjeevani) प्लेटफॉर्म के संदर्भ में, निम्नलिखित कथनों पर विचार करें:<br><br>1. ई-संजीवनी OPD नागरिकों को उनके घरों से आभासी चिकित्सा परामर्श प्रदान करता है।<br><br>2. ई-संजीवनी AB-HWC मरीजों को आयुष्मान भारत स्वास्थ्य और कल्याण केंद्रों पर डॉक्टरों के साथ जोड़ता है।<br><br>उपरोक्त में से कौन सा/से कथन सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "Only 2",
+          "hi": "केवल 2"
+        },
+        {
+          "en": "Only 1",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "Both 1 and 2",
+          "hi": "1 और 2 दोनों"
+        },
+        {
+          "en": "Neither 1 nor 2",
+          "hi": "न तो 1 और न ही 2"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Both 1 and 2",
+        "hi": "1 और 2 दोनों"
+      },
+      "explanation": {
+        "en": "Both statements are correct. eSanjeevani has two modules: (1) eSanjeevani OPD — a patient-to-doctor telemedicine service allowing citizens to consult doctors virtually from their homes via smartphones or computers, and (2) eSanjeevani AB-HWC — a doctor-to-doctor telemedicine service linking patients at Ayushman Bharat Health and Wellness Centres with specialists at higher-level hospitals. It was developed by the Centre for Development of Advanced Computing (C-DAC) under MoHFW.",
+        "hi": "दोनों कथन सही हैं। ई-संजीवनी के दो मॉड्यूल हैं: (1) ई-संजीवनी OPD — एक रोगी-से-डॉक्टर टेलीमेडिसिन सेवा जो नागरिकों को स्मार्टफोन या कंप्यूटर के माध्यम से अपने घरों से वर्चुअली डॉक्टरों से परामर्श करने की अनुमति देती है, और (2) ई-संजीवनी AB-HWC — एक डॉक्टर-से-डॉक्टर टेलीमेडिसिन सेवा जो आयुष्मान भारत स्वास्थ्य और कल्याण केंद्रों पर मरीजों को उच्च स्तरीय अस्पतालों में विशेषज्ञों से जोड़ती है।"
+      }
+    },
+    {
+      "questionNo": 19,
+      "question": {
+        "en": "With reference to the folk dance Jhora, consider the following statements:<br><br>1. It is performed in the Kumaon region of Uttarakhand during spring fairs by groups of men and women.<br><br>2. The main accompanying instrument for this dance is the Hurka drum.<br><br>Which of the above statements is/are correct?",
+        "hi": "लोक नृत्य झोरा (Jhora) के संदर्भ में, निम्नलिखित कथनों पर विचार करें:<br><br>1. यह उत्तराखंड के कुमाऊं क्षेत्र में वसंत मेलों के दौरान पुरुषों और महिलाओं के समूहों द्वारा किया जाता है।<br><br>2. इस नृत्य के लिए मुख्य सहायक वाद्य यंत्र हुड़का (Hurka) ड्रम है।<br><br>उपरोक्त में से कौन सा/से कथन सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "Only 2",
+          "hi": "केवल 2"
+        },
+        {
+          "en": "Both 1 and 2",
+          "hi": "1 और 2 दोनों"
+        },
+        {
+          "en": "Only 1",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "Neither 1 nor 2",
+          "hi": "न तो 1 और न ही 2"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Both 1 and 2",
+        "hi": "1 और 2 दोनों"
+      },
+      "explanation": {
+        "en": "Both statements are correct. Jhora is a traditional folk dance of the Kumaon region of Uttarakhand, performed during spring fairs and festivals by groups of men and women in a circle formation. The Hurka (a small hand drum) is the primary accompanying instrument, along with singing. It is a celebratory dance expressing joy and community bonding.",
+        "hi": "दोनों कथन सही हैं। झोरा उत्तराखंड के कुमाऊं क्षेत्र का एक पारंपरिक लोक नृत्य है, जो वसंत मेलों और त्योहारों के दौरान पुरुषों और महिलाओं के समूहों द्वारा एक गोलाकार संरचना में किया जाता है। हुड़का (एक छोटा हैंड ड्रम) गायन के साथ प्राथमिक सहायक वाद्य यंत्र है। यह आनंद और सामुदायिक बंधन व्यक्त करने वाला एक उत्सव नृत्य है।"
+      }
+    },
+    {
+      "questionNo": 20,
+      "question": {
+        "en": "Read the following statements carefully and choose the correct option:<br><br>Assertion (A): Informal sectors were not included in the Global Ease of Doing Business (EoDB) rankings.<br><br>Reason (R): This is because data on informal enterprises cannot be uniformly collected or compared across countries.",
+        "hi": "निम्नलिखित कथनों को ध्यान से पढ़ें और सही विकल्प चुनें:<br><br>अभिकथन (A): अनौपचारिक क्षेत्रों को ग्लोबल ईज ऑफ डूइंग बिजनेस (EoDB) रैंकिंग में शामिल नहीं किया गया था।<br><br>कारण (R): ऐसा इसलिए है क्योंकि अनौपचारिक उद्यमों पर डेटा समान रूप से एकत्र नहीं किया जा सकता है या देशों में तुलना नहीं की जा सकती है।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R correctly explains A",
+          "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है"
+        },
+        {
+          "en": "Both A and R are true, but R does not explain A",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A की व्याख्या नहीं करता है"
+        },
+        {
+          "en": "A is true, but R is false",
+          "hi": "A सत्य है, लेकिन R गलत है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A गलत है, लेकिन R सत्य है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Both A and R are true, and R correctly explains A",
+        "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है"
+      },
+      "explanation": {
+        "en": "Both statements are true and R correctly explains A. The World Bank's Ease of Doing Business (EoDB) rankings focused on formal business regulations and their implementation. Informal sectors were excluded because informal enterprise data is difficult to collect uniformly, lacks standardization, and cannot be reliably compared across different countries with varying levels of informality.",
+        "hi": "दोनों कथन सत्य हैं और R सही रूप से A की व्याख्या करता है। विश्व बैंक की ईज ऑफ डूइंग बिजनेस (EoDB) रैंकिंग औपचारिक व्यापार नियमों और उनके कार्यान्वयन पर केंद्रित थी। अनौपचारिक क्षेत्रों को बाहर रखा गया क्योंकि अनौपचारिक उद्यम डेटा समान रूप से एकत्र करना कठिन है, मानकीकरण की कमी है, और अनौपचारिकता के विभिन्न स्तरों वाले विभिन्न देशों में विश्वसनीय रूप से तुलना नहीं की जा सकती।"
+      }
+    },
+    {
+      "questionNo": 21,
+      "question": {
+        "en": "In what major way is Indian Railways working to reduce its carbon footprint?",
+        "hi": "भारतीय रेलवे अपने कार्बन फुटप्रिंट को कम करने के लिए किस बड़े तरीके से काम कर रही है?"
+      },
+      "options": [
+        {
+          "en": "Switching back to coal-powered locomotives",
+          "hi": "वापस कोयले से चलने वाले इंजनों पर स्विच करना"
+        },
+        {
+          "en": "Increasing dependence on road transport for freight",
+          "hi": "माल ढुलाई के लिए सड़क परिवहन पर निर्भरता बढ़ाना"
+        },
+        {
+          "en": "Electrifying broad-gauge routes and adopting renewable energy sources",
+          "hi": "ब्रॉड-गेज मार्गों का विद्युतीकरण करना और अक्षय ऊर्जा स्रोतों को अपनाना"
+        },
+        {
+          "en": "Discontinuing passenger train operations",
+          "hi": "यात्री ट्रेन संचालन बंद करना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Electrifying broad-gauge routes and adopting renewable energy sources",
+        "hi": "ब्रॉड-गेज मार्गों का विद्युतीकरण करना और अक्षय ऊर्जा स्रोतों को अपनाना"
+      },
+      "explanation": {
+        "en": "Indian Railways has set a target to become a net-zero carbon emitter by 2030. The major strategy involves 100% electrification of broad-gauge routes (completed for most routes), installing solar panels at railway stations, using solar-powered trains, adopting bio-diesel, and setting up wind energy plants. By December 2023, about 96% of broad-gauge routes were electrified, significantly reducing dependence on diesel.",
+        "hi": "भारतीय रेलवे ने 2030 तक शुद्ध-शून्य कार्बन उत्सर्जक बनने का लक्ष्य निर्धारित किया है। प्रमुख रणनीति में ब्रॉड-गेज मार्गों का 100% विद्युतीकरण (अधिकांश मार्गों के लिए पूरा), रेलवे स्टेशनों पर सौर पैनल लगाना, सौर ऊर्जा से चलने वाली ट्रेनों का उपयोग, बायो-डीजल अपनाना और पवन ऊर्जा संयंत्र स्थापित करना शामिल है। दिसंबर 2023 तक, लगभग 96% ब्रॉड-गेज मार्गों का विद्युतीकरण हो चुका था।"
+      }
+    },
+    {
+      "questionNo": 22,
+      "question": {
+        "en": "Read the following Assertion (A) and Reason (R) carefully and select the correct answer:<br><br>Assertion (A): The Mahalanobis model focused on developing heavy industries and capital goods sectors.<br><br>Reason (R): This approach aimed to build a self-reliant industrial base for sustained long-term growth.",
+        "hi": "निम्नलिखित अभिकथन (A) और कारण (R) को ध्यान से पढ़ें और सही उत्तर चुनें:<br><br>अभिकथन (A): महालनोबिस मॉडल ने भारी उद्योगों और पूंजीगत वस्तु क्षेत्रों के विकास पर ध्यान केंद्रित किया।<br><br>कारण (R): इस दृष्टिकोण का उद्देश्य निरंतर दीर्घकालिक विकास के लिए एक आत्मनिर्भर औद्योगिक आधार बनाना था।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R correctly explains A",
+          "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है"
+        },
+        {
+          "en": "Both A and R are true, but R does not correctly explain A",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है"
+        },
+        {
+          "en": "A is true, but R is false",
+          "hi": "A सत्य है, लेकिन R गलत है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A गलत है, लेकिन R सत्य है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Both A and R are true, and R correctly explains A",
+        "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है"
+      },
+      "explanation": {
+        "en": "Both statements are true and R correctly explains A. The Mahalanobis Model (developed by P.C. Mahalanobis) formed the basis of India's Second Five-Year Plan (1956-61). It prioritized investment in heavy industries and capital goods (steel, machinery, chemicals) to build a self-reliant industrial base. The rationale (R) was that only by producing capital goods domestically could India achieve sustained long-term industrial growth without dependency on imports.",
+        "hi": "दोनों कथन सत्य हैं और R सही रूप से A की व्याख्या करता है। महालनोबिस मॉडल (पी.सी. महालनोबिस द्वारा विकसित) भारत की दूसरी पंचवर्षीय योजना (1956-61) का आधार था। इसने एक आत्मनिर्भर औद्योगिक आधार बनाने के लिए भारी उद्योगों और पूंजीगत वस्तुओं (इस्पात, मशीनरी, रसायन) में निवेश को प्राथमिकता दी। तर्क (R) यह था कि केवल घरेलू स्तर पर पूंजीगत वस्तुओं का उत्पादन करके ही भारत आयात पर निर्भरता के बिना निरंतर दीर्घकालिक औद्योगिक विकास प्राप्त कर सकता है।"
+      }
+    },
+    {
+      "questionNo": 23,
+      "question": {
+        "en": "As per the Indian Constitution, which Article designates Hindi in the Devanagari script as the official language of the Union?",
+        "hi": "भारतीय संविधान के अनुसार, कौन सा अनुच्छेद देवनागरी लिपि में हिंदी को संघ की आधिकारिक भाषा के रूप में नामित करता है?"
+      },
+      "options": [
+        {
+          "en": "Article 351",
+          "hi": "अनुच्छेद 351"
+        },
+        {
+          "en": "Article 343",
+          "hi": "अनुच्छेद 343"
+        },
+        {
+          "en": "Article 344",
+          "hi": "अनुच्छेद 344"
+        },
+        {
+          "en": "Article 348",
+          "hi": "अनुच्छेद 348"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Article 343",
+        "hi": "अनुच्छेद 343"
+      },
+      "explanation": {
+        "en": "Article 343 of the Indian Constitution declares Hindi in the Devanagari script as the official language of the Union. It also provides that English shall continue to be used for official purposes for 15 years from the commencement of the Constitution (i.e., until 1965). Article 344 deals with the Commission and Committee on official language, Article 348 deals with language to be used in courts and legislation, and Article 351 directs the promotion and development of Hindi.",
+        "hi": "भारतीय संविधान का अनुच्छेद 343 देवनागरी लिपि में हिंदी को संघ की राजभाषा घोषित करता है। यह यह भी प्रावधान करता है कि संविधान के प्रारंभ से 15 वर्षों तक (अर्थात 1965 तक) आधिकारिक उद्देश्यों के लिए अंग्रेजी का प्रयोग जारी रहेगा। अनुच्छेद 344 राजभाषा पर आयोग और समिति से, अनुच्छेद 348 न्यायालयों और विधान में प्रयोग की जाने वाली भाषा से, और अनुच्छेद 351 हिंदी के प्रचार और विकास के निर्देश से संबंधित है।"
+      }
+    },
+    {
+      "questionNo": 24,
+      "question": {
+        "en": "Which of the following correctly associates major geological formations with their respective tectonic plate boundary types?<br><br>1. Mid-ocean ridge<br>2. Mariana Trench<br>3. San Andreas Fault",
+        "hi": "निम्नलिखित में से कौन प्रमुख भूवैज्ञानिक संरचनाओं को उनके संबंधित टेक्टोनिक प्लेट सीमा प्रकारों के साथ सही ढंग से जोड़ता है?<br><br>1. मध्य-महासागरीय कटक<br>2. मारियाना गर्त<br>3. सैन एंड्रियास भ्रंश"
+      },
+      "options": [
+        {
+          "en": "1-Convergent, 2-Divergent, 3-Transform",
+          "hi": "1-अभिसारी, 2-अपसारी, 3-रूपांतर"
+        },
+        {
+          "en": "1-Divergent, 2-Convergent, 3-Transform",
+          "hi": "1-अपसारी, 2-अभिसारी, 3-रूपांतर"
+        },
+        {
+          "en": "1-Transform, 2-Convergent, 3-Divergent",
+          "hi": "1-रूपांतर, 2-अभिसारी, 3-अपसारी"
+        },
+        {
+          "en": "1-Divergent, 2-Transform, 3-Convergent",
+          "hi": "1-अपसारी, 2-रूपांतर, 3-अभिसारी"
+        }
+      ],
+      "correctAnswer": {
+        "en": "1-Divergent, 2-Convergent, 3-Transform",
+        "hi": "1-अपसारी, 2-अभिसारी, 3-रूपांतर"
+      },
+      "explanation": {
+        "en": "Mid-ocean ridges (like the Mid-Atlantic Ridge) form at Divergent boundaries where tectonic plates move apart and new oceanic crust is created. The Mariana Trench (deepest point on Earth at ~11,034 m) forms at a Convergent boundary where the Pacific Plate subducts under the Mariana Plate. The San Andreas Fault (California, USA) is a Transform boundary where the Pacific and North American plates slide horizontally past each other.",
+        "hi": "मध्य-महासागरीय कटक (जैसे मध्य-अटलांटिक कटक) अपसारी सीमाओं पर बनते हैं जहां टेक्टोनिक प्लेटें अलग होती हैं और नई महासागरीय परत बनती है। मारियाना गर्त (पृथ्वी पर सबसे गहरा बिंदु ~11,034 मीटर) एक अभिसारी सीमा पर बनता है जहां प्रशांत प्लेट मारियाना प्लेट के नीचे प्रवेश करती है। सैन एंड्रियास भ्रंश (कैलिफोर्निया, अमेरिका) एक रूपांतर सीमा है जहां प्रशांत और उत्तरी अमेरिकी प्लेटें एक दूसरे के पास क्षैतिज रूप से खिसकती हैं।"
+      }
+    },
+    {
+      "questionNo": 25,
+      "question": {
+        "en": "Examine the following statements regarding All India Services:<br><br>1. The Parliament may establish new All India Services if approved by the Rajya Sabha.<br><br>2. Article 312 explicitly includes 'Security Services' within the All India Services framework.",
+        "hi": "अखिल भारतीय सेवाओं के संबंध में निम्नलिखित कथनों की जांच करें:<br><br>1. यदि राज्यसभा द्वारा अनुमोदित किया जाता है, तो संसद नई अखिल भारतीय सेवाएं स्थापित कर सकती है।<br><br>2. अनुच्छेद 312 स्पष्ट रूप से अखिल भारतीय सेवा ढांचे के भीतर 'सुरक्षा सेवाओं' को शामिल करता है।"
+      },
+      "options": [
+        {
+          "en": "Only 1",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "Only 2",
+          "hi": "केवल 2"
+        },
+        {
+          "en": "Both 1 and 2",
+          "hi": "1 और 2 दोनों"
+        },
+        {
+          "en": "Neither 1 nor 2",
+          "hi": "न तो 1 और न ही 2"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1",
+        "hi": "केवल 1"
+      },
+      "explanation": {
+        "en": "Statement 1 is correct: Under Article 312 of the Indian Constitution, Parliament can create new All India Services if the Rajya Sabha passes a resolution by a two-thirds majority of members present and voting. Statement 2 is incorrect: Article 312 does not explicitly include 'Security Services.' It was the 28th Constitutional Amendment (1972) that added a provision for an All India Judicial Service, but 'Security Services' are not mentioned in Article 312.",
+        "hi": "कथन 1 सही है: भारतीय संविधान के अनुच्छेद 312 के तहत, संसद नई अखिल भारतीय सेवाएं बना सकती है यदि राज्यसभा उपस्थित और मतदान करने वाले सदस्यों के दो-तिहाई बहुमत से प्रस्ताव पारित करे। कथन 2 गलत है: अनुच्छेद 312 स्पष्ट रूप से 'सुरक्षा सेवाओं' को शामिल नहीं करता है। 28वें संविधान संशोधन (1972) ने अखिल भारतीय न्यायिक सेवा का प्रावधान जोड़ा, लेकिन 'सुरक्षा सेवाओं' का अनुच्छेद 312 में उल्लेख नहीं है।"
+      }
+    }
+  ],
+   "ssc_cgl_gk_15_sep_s2": [
+    {
+      "questionNo": 1,
+      "question": {
+        "en": "The wheels carved on the walls of the Konark Sun Temple primarily represent:",
+        "hi": "कोणार्क सूर्य मंदिर की दीवारों पर उकेरे गए पहिये मुख्य रूप से किसका प्रतिनिधित्व करते हैं:"
+      },
+      "options": [
+        {
+          "en": "Time divisions",
+          "hi": "समय विभाजन"
+        },
+        {
+          "en": "Celestial planets",
+          "hi": "खगोलीय ग्रह"
+        },
+        {
+          "en": "Cultural festivals",
+          "hi": "सांस्कृतिक उत्सव"
+        },
+        {
+          "en": "Instruments of war",
+          "hi": "युद्ध के उपकरण"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Time divisions",
+        "hi": "समय विभाजन"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Time divisions</b><br><br>The Konark Sun Temple in Odisha has <b>24 intricately carved wheels</b> (12 pairs).<br><br><b>Key Points:</b><br>• Wheels function as <b>sundials</b> representing <b>12 months</b> of the year<br>• Each wheel has <b>8 spokes</b> = 8 prahars (3-hour periods) of a day<br>• Built by King <b>Narasimhadeva I</b> (Eastern Ganga Dynasty) in <b>13th century</b><br>• Designed as a <b>chariot of Sun God (Surya)</b><br>• <b>UNESCO World Heritage Site (1984)</b>",
+        "hi": "<b>सही उत्तर: समय विभाजन</b><br><br>ओडिशा के कोणार्क सूर्य मंदिर में <b>24 जटिल नक्काशीदार पहिए</b> (12 जोड़े) हैं।<br><br><b>मुख्य बिंदु:</b><br>• पहिए <b>धूपघड़ी</b> के रूप में काम करते हैं जो वर्ष के <b>12 महीनों</b> का प्रतिनिधित्व करते हैं<br>• प्रत्येक पहिए में <b>8 तीलियां</b> = दिन के 8 प्रहर (3 घंटे की अवधि)<br>• <b>13वीं शताब्दी</b> में राजा <b>नरसिम्हादेव प्रथम</b> (पूर्वी गंग राजवंश) द्वारा निर्मित<br>• <b>सूर्य देव के रथ</b> के रूप में डिज़ाइन किया गया<br>• <b>यूनेस्को विश्व धरोहर स्थल (1984)</b>"
+      }
+    },
+    {
+      "questionNo": 2,
+      "question": {
+        "en": "During the Karam festival in Jharkhand and parts of eastern India, which celebration is observed by unmarried tribal girls?",
+        "hi": "झारखंड और पूर्वी भारत के कुछ हिस्सों में करम उत्सव के दौरान, अविवाहित आदिवासी लड़कियों द्वारा कौन सा उत्सव मनाया जाता है?"
+      },
+      "options": [
+        {
+          "en": "Sohrai",
+          "hi": "सोहराई"
+        },
+        {
+          "en": "Jawa",
+          "hi": "जावा"
+        },
+        {
+          "en": "Karma",
+          "hi": "करमा"
+        },
+        {
+          "en": "Sarhul",
+          "hi": "सरहुल"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Jawa",
+        "hi": "जावा"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Jawa</b><br><br><b>Jawa Festival:</b><br>• Celebrated by <b>unmarried tribal girls</b> during Karam festival<br>• Girls sow seeds in small baskets and nurture them<br>• Prayer for <b>brothers' well-being</b> and getting a <b>good husband</b><br><br><b>Other Festivals:</b><br>• <b>Sohrai:</b> Harvest festival (cattle worship)<br>• <b>Karma/Karam:</b> Main festival worshipping Karam tree<br>• <b>Sarhul:</b> Spring festival (marriage of Sun & Earth)",
+        "hi": "<b>सही उत्तर: जावा</b><br><br><b>जावा त्योहार:</b><br>• करम उत्सव के दौरान <b>अविवाहित आदिवासी लड़कियों</b> द्वारा मनाया जाता है<br>• लड़कियां छोटी टोकरियों में बीज बोती हैं<br>• <b>भाइयों की भलाई</b> और <b>अच्छे पति</b> के लिए प्रार्थना<br><br><b>अन्य त्योहार:</b><br>• <b>सोहराई:</b> फसल उत्सव (पशु पूजा)<br>• <b>करमा/करम:</b> करम वृक्ष की पूजा का मुख्य त्योहार<br>• <b>सरहुल:</b> वसंत उत्सव (सूर्य और पृथ्वी का विवाह)"
+      }
+    },
+    {
+      "questionNo": 3,
+      "question": {
+        "en": "Traditional Rajasthani music is best characterized by which of the following?",
+        "hi": "पारंपरिक राजस्थानी संगीत को निम्नलिखित में से किसके द्वारा सबसे अच्छी तरह से चित्रित किया गया है?"
+      },
+      "options": [
+        {
+          "en": "Dedicated solely to temple rituals",
+          "hi": "पूरी तरह से मंदिर के अनुष्ठानों के लिए समर्पित"
+        },
+        {
+          "en": "Deeply connected with nature, daily life, and folk tales",
+          "hi": "प्रकृति, दैनिक जीवन और लोक कथाओं से गहराई से जुड़ा हुआ"
+        },
+        {
+          "en": "Based mainly on electronic sounds",
+          "hi": "मुख्य रूप से इलेक्ट्रॉनिक ध्वनियों पर आधारित"
+        },
+        {
+          "en": "Exclusively composed of classical ragas",
+          "hi": "विशेष रूप से शास्त्रीय रागों से बना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Deeply connected with nature, daily life, and folk tales",
+        "hi": "प्रकृति, दैनिक जीवन और लोक कथाओं से गहराई से जुड़ा हुआ"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Deeply connected with nature, daily life, and folk tales</b><br><br><b>Rajasthani Folk Music Features:</b><br>• Reflects <b>desert life, nature, and seasons</b><br>• Themes: love, valor, daily struggles, folk legends<br>• Stories of heroes like <b>Pabuji, Tejaji, Gogaji</b><br><br><b>Famous Forms:</b> Maand, Panihari, Kesariya Balam<br><b>Instruments:</b> Kamaycha, Ravanhatta, Morchang, Khartaal<br><b>Famous Artists:</b> Langas and Manganiars communities",
+        "hi": "<b>सही उत्तर: प्रकृति, दैनिक जीवन और लोक कथाओं से गहराई से जुड़ा हुआ</b><br><br><b>राजस्थानी लोक संगीत की विशेषताएं:</b><br>• <b>रेगिस्तानी जीवन, प्रकृति और मौसमों</b> को दर्शाता है<br>• विषय: प्रेम, वीरता, दैनिक संघर्ष, लोक किंवदंतियां<br>• <b>पाबूजी, तेजाजी, गोगाजी</b> जैसे नायकों की कहानियां<br><br><b>प्रसिद्ध रूप:</b> मांड, पनिहारी, केसरिया बालम<br><b>वाद्य यंत्र:</b> कमायचा, रावणहत्था, मोरचंग, खड़ताल<br><b>प्रसिद्ध कलाकार:</b> लंगा और मांगणियार समुदाय"
+      }
+    },
+    {
+      "questionNo": 4,
+      "question": {
+        "en": "In handball, which of the following actions is considered a foul and not permitted?",
+        "hi": "हैंडबॉल में, निम्नलिखित में से कौन सी क्रिया फाउल मानी जाती है और अनुमति नहीं है?"
+      },
+      "options": [
+        {
+          "en": "Catching an airborne ball with both hands",
+          "hi": "हवा में उड़ती गेंद को दोनों हाथों से पकड़ना"
+        },
+        {
+          "en": "Pulling or punching the ball from an opponent's grip",
+          "hi": "प्रतिद्वंद्वी की पकड़ से गेंद को खींचना या मुक्का मारना"
+        },
+        {
+          "en": "Dribbling before passing to a teammate",
+          "hi": "टीम के साथी को पास देने से पहले ड्रिबलिंग करना"
+        },
+        {
+          "en": "Blocking the ball using the torso above the knees",
+          "hi": "घुटनों के ऊपर धड़ का उपयोग करके गेंद को रोकना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Pulling or punching the ball from an opponent's grip",
+        "hi": "प्रतिद्वंद्वी की पकड़ से गेंद को खींचना या मुक्का मारना"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Pulling or punching the ball from an opponent's grip</b><br><br><b>Fouls in Handball:</b><br>• <b>Snatching/punching</b> ball from opponent's hands ❌<br>• Pushing, holding, tripping opponents ❌<br>• Entering goalkeeper's area (6-meter zone) ❌<br><br><b>Allowed Actions:</b><br>• Catching ball with both hands ✓<br>• Dribbling the ball ✓<br>• Blocking with body (above knees) ✓<br><br><b>Basic Rules:</b> 7 players per team, 2 halves of 30 minutes",
+        "hi": "<b>सही उत्तर: प्रतिद्वंद्वी की पकड़ से गेंद को खींचना या मुक्का मारना</b><br><br><b>हैंडबॉल में फाउल:</b><br>• प्रतिद्वंद्वी के हाथों से गेंद <b>छीनना/मुक्का मारना</b> ❌<br>• धक्का देना, पकड़ना, गिराना ❌<br>• गोलकीपर के क्षेत्र (6-मीटर ज़ोन) में प्रवेश ❌<br><br><b>अनुमत क्रियाएं:</b><br>• दोनों हाथों से गेंद पकड़ना ✓<br>• ड्रिबल करना ✓<br>• शरीर से ब्लॉक करना (घुटनों के ऊपर) ✓<br><br><b>मूल नियम:</b> प्रति टीम 7 खिलाड़ी, 30 मिनट के 2 हाफ"
+      }
+    },
+    {
+      "questionNo": 5,
+      "question": {
+        "en": "What was the primary role of the Board of Control created under Pitt's India Act?",
+        "hi": "पिट्स इंडिया एक्ट के तहत बनाए गए बोर्ड ऑफ कंट्रोल की प्राथमिक भूमिका क्या थी?"
+      },
+      "options": [
+        {
+          "en": "Managing military operations in India exclusively",
+          "hi": "विशेष रूप से भारत में सैन्य अभियानों का प्रबंधन करना"
+        },
+        {
+          "en": "Directing both civil and military administration in British India",
+          "hi": "ब्रिटिश भारत में नागरिक और सैन्य प्रशासन दोनों को निर्देशित करना"
+        },
+        {
+          "en": "Supervising taxation and revenue collection",
+          "hi": "कराधान और राजस्व संग्रह का पर्यवेक्षण करना"
+        },
+        {
+          "en": "Regulating trade activities with China",
+          "hi": "चीन के साथ व्यापारिक गतिविधियों का विनियमन करना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Directing both civil and military administration in British India",
+        "hi": "ब्रिटिश भारत में नागरिक और सैन्य प्रशासन दोनों को निर्देशित करना"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Directing both civil and military administration in British India</b><br><br><b>Pitt's India Act, 1784:</b><br>• Passed by PM <b>William Pitt the Younger</b><br>• Created <b>Dual System of Control</b> (Double Government)<br><br><b>Board of Control:</b><br>• <b>6 members</b> including Secretary of State<br>• Controlled <b>political, civil & military affairs</b><br>• Represented <b>British Crown</b><br><br><b>Court of Directors (EIC):</b> Managed commercial affairs only<br><br><b>Key Point:</b> First time British Govt got direct control over Indian affairs",
+        "hi": "<b>सही उत्तर: ब्रिटिश भारत में नागरिक और सैन्य प्रशासन दोनों को निर्देशित करना</b><br><br><b>पिट्स इंडिया एक्ट, 1784:</b><br>• PM <b>विलियम पिट द यंगर</b> द्वारा पारित<br>• <b>दोहरी नियंत्रण प्रणाली</b> (द्वैध शासन) बनाई<br><br><b>बोर्ड ऑफ कंट्रोल:</b><br>• राज्य सचिव सहित <b>6 सदस्य</b><br>• <b>राजनीतिक, नागरिक और सैन्य मामलों</b> को नियंत्रित करता था<br>• <b>ब्रिटिश क्राउन</b> का प्रतिनिधित्व<br><br><b>कोर्ट ऑफ डायरेक्टर्स (EIC):</b> केवल वाणिज्यिक मामले<br><br><b>मुख्य बिंदु:</b> पहली बार ब्रिटिश सरकार को भारतीय मामलों पर प्रत्यक्ष नियंत्रण मिला"
+      }
+    },
+    {
+      "questionNo": 6,
+      "question": {
+        "en": "India's first Olympic medals came in 1900 at Paris through silver wins in 200m sprint and hurdles by whom?",
+        "hi": "1900 में पेरिस में भारत का पहला ओलंपिक पदक 200 मीटर दौड़ और बाधा दौड़ में रजत जीत के माध्यम से किसके द्वारा आया था?"
+      },
+      "options": [
+        {
+          "en": "Norman Pritchard",
+          "hi": "नॉर्मन प्रिचर्ड"
+        },
+        {
+          "en": "Mihir Sen",
+          "hi": "मिहिर सेन"
+        },
+        {
+          "en": "K.D. Jadhav",
+          "hi": "के.डी. जाधव"
+        },
+        {
+          "en": "Dhyan Chand",
+          "hi": "ध्यानचंद"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Norman Pritchard",
+        "hi": "नॉर्मन प्रिचर्ड"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Norman Pritchard</b><br><br><b>Norman Pritchard:</b><br>• <b>First Indian Olympic medalist</b><br>• Won <b>2 Silver medals</b> at Paris Olympics 1900<br>• Events: <b>200m sprint</b> and <b>200m hurdles</b><br>• Anglo-Indian athlete from Kolkata<br><br><b>Other Options:</b><br>• <b>K.D. Jadhav:</b> First independent India's individual medalist (Bronze, Wrestling, 1952)<br>• <b>Dhyan Chand:</b> Hockey legend, 3 Olympic golds (1928, 1932, 1936)<br>• <b>Mihir Sen:</b> Famous swimmer, not Olympian",
+        "hi": "<b>सही उत्तर: नॉर्मन प्रिचर्ड</b><br><br><b>नॉर्मन प्रिचर्ड:</b><br>• <b>पहले भारतीय ओलंपिक पदक विजेता</b><br>• पेरिस ओलंपिक 1900 में <b>2 रजत पदक</b> जीते<br>• स्पर्धाएं: <b>200 मीटर स्प्रिंट</b> और <b>200 मीटर बाधा दौड़</b><br>• कोलकाता के एंग्लो-इंडियन एथलीट<br><br><b>अन्य विकल्प:</b><br>• <b>के.डी. जाधव:</b> स्वतंत्र भारत के पहले व्यक्तिगत पदक विजेता (कांस्य, कुश्ती, 1952)<br>• <b>ध्यानचंद:</b> हॉकी के दिग्गज, 3 ओलंपिक स्वर्ण (1928, 1932, 1936)<br>• <b>मिहिर सेन:</b> प्रसिद्ध तैराक, ओलंपियन नहीं"
+      }
+    },
+    {
+      "questionNo": 7,
+      "question": {
+        "en": "Match the Korean Taekwon-Do terms with their respective English meanings.<br>| Column A (Korean Term) | Column B (English Meaning) |<br>| :--- | :--- |<br>| 1. Tae | i. Discipline or way |<br>| 2. Kwon | ii. To strike with the hand |<br>| 3. Do | iii. To strike with the feet |<br>| 4. Dojang | iv. Training Hall or place of practice |",
+        "hi": "कोरियाई टैक्वांडो शब्दों को उनके संबंधित अंग्रेजी अर्थों के साथ सुमेलित करें।<br>| कॉलम A (कोरियाई शब्द) | कॉलम B (अंग्रेजी अर्थ) |<br>| :--- | :--- |<br>| 1. ते (Tae) | i. अनुशासन या तरीका |<br>| 2. क्वोन (Kwon) | ii. हाथ से प्रहार करना |<br>| 3. डो (Do) | iii. पैरों से प्रहार करना |<br>| 4. दोजांग (Dojang) | iv. प्रशिक्षण हॉल या अभ्यास का स्थान |"
+      },
+      "options": [
+        {
+          "en": "1-iii, 2-ii, 3-i, 4-iv",
+          "hi": "1-iii, 2-ii, 3-i, 4-iv"
+        },
+        {
+          "en": "1-ii, 2-iii, 3-i, 4-iv",
+          "hi": "1-ii, 2-iii, 3-i, 4-iv"
+        },
+        {
+          "en": "1-i, 2-iv, 3-ii, 4-iii",
+          "hi": "1-i, 2-iv, 3-ii, 4-iii"
+        },
+        {
+          "en": "1-iv, 2-i, 3-iii, 4-ii",
+          "hi": "1-iv, 2-i, 3-iii, 4-ii"
+        }
+      ],
+      "correctAnswer": {
+        "en": "1-iii, 2-ii, 3-i, 4-iv",
+        "hi": "1-iii, 2-ii, 3-i, 4-iv"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: 1-iii, 2-ii, 3-i, 4-iv</b><br><br><b>Taekwondo Meanings:</b><br>• <b>Tae</b> = Strike with <b>feet</b> (iii)<br>• <b>Kwon</b> = Strike with <b>hand</b> (ii)<br>• <b>Do</b> = The <b>way/discipline</b> (i)<br>• <b>Dojang</b> = <b>Training hall</b> (iv)<br><br><b>Taekwondo = \"The way of foot and fist\"</b><br><br>• Origin: <b>South Korea</b><br>• Olympic sport since: <b>2000 Sydney</b>",
+        "hi": "<b>सही उत्तर: 1-iii, 2-ii, 3-i, 4-iv</b><br><br><b>टैक्वांडो के अर्थ:</b><br>• <b>ते (Tae)</b> = <b>पैरों</b> से प्रहार (iii)<br>• <b>क्वोन (Kwon)</b> = <b>हाथ</b> से प्रहार (ii)<br>• <b>डो (Do)</b> = <b>मार्ग/अनुशासन</b> (i)<br>• <b>दोजांग (Dojang)</b> = <b>प्रशिक्षण हॉल</b> (iv)<br><br><b>टैक्वांडो = \"पैर और मुट्ठी का मार्ग\"</b><br><br>• उत्पत्ति: <b>दक्षिण कोरिया</b><br>• ओलंपिक खेल: <b>2000 सिडनी</b> से"
+      }
+    },
+    {
+      "questionNo": 8,
+      "question": {
+        "en": "The objective of the Trilateral Highway Project is to strengthen connectivity between India and which pair of Southeast Asian countries?",
+        "hi": "त्रिपक्षीय राजमार्ग परियोजना का उद्देश्य भारत और दक्षिण पूर्व एशियाई देशों के किस जोड़े के बीच संपर्क को मजबूत करना है?"
+      },
+      "options": [
+        {
+          "en": "Afghanistan and Iran",
+          "hi": "अफगानिस्तान और ईरान"
+        },
+        {
+          "en": "Myanmar and Thailand",
+          "hi": "म्यांमार और थाईलैंड"
+        },
+        {
+          "en": "China and Bhutan",
+          "hi": "चीन और भूटान"
+        },
+        {
+          "en": "Nepal and Bangladesh",
+          "hi": "नेपाल और बांग्लादेश"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Myanmar and Thailand",
+        "hi": "म्यांमार और थाईलैंड"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Myanmar and Thailand</b><br><br><b>India-Myanmar-Thailand Trilateral Highway:</b><br>• Also called <b>IMT Highway</b> or <b>Asian Highway 1</b><br>• Route: <b>Moreh (India) → Mandalay (Myanmar) → Mae Sot (Thailand)</b><br>• Length: ~<b>1,360 km</b><br><br><b>Key Points:</b><br>• Part of India's <b>Act East Policy</b><br>• Boosts <b>trade & tourism</b> with ASEAN<br>• Extension planned to Cambodia, Laos, Vietnam<br><br><b>Remember:</b> Trilateral = 3 countries = India + Myanmar + Thailand",
+        "hi": "<b>सही उत्तर: म्यांमार और थाईलैंड</b><br><br><b>भारत-म्यांमार-थाईलैंड त्रिपक्षीय राजमार्ग:</b><br>• इसे <b>IMT राजमार्ग</b> या <b>एशियन हाईवे 1</b> भी कहते हैं<br>• मार्ग: <b>मोरेह (भारत) → मांडले (म्यांमार) → माई सोत (थाईलैंड)</b><br>• लंबाई: ~<b>1,360 किमी</b><br><br><b>मुख्य बिंदु:</b><br>• भारत की <b>एक्ट ईस्ट नीति</b> का हिस्सा<br>• आसियान के साथ <b>व्यापार और पर्यटन</b> को बढ़ावा<br>• कंबोडिया, लाओस, वियतनाम तक विस्तार की योजना<br><br><b>याद रखें:</b> त्रिपक्षीय = 3 देश = भारत + म्यांमार + थाईलैंड"
+      }
+    },
+    {
+      "questionNo": 9,
+      "question": {
+        "en": "The book 'Why Bharat Matters' authored by Dr. S. Jaishankar, primarily focuses on which of the following themes?",
+        "hi": "डॉ. एस. जयशंकर द्वारा लिखित पुस्तक 'व्हाई भारत मैटर्स' मुख्य रूप से निम्नलिखित में से किस विषय पर केंद्रित है?"
+      },
+      "options": [
+        {
+          "en": "Biography of Mahatma Gandhi",
+          "hi": "महात्मा गांधी की जीवनी"
+        },
+        {
+          "en": "India's growing cultural and economic relevance",
+          "hi": "भारत की बढ़ती सांस्कृतिक और आर्थिक प्रासंगिकता"
+        },
+        {
+          "en": "Stories from ancient mythology and festivals",
+          "hi": "प्राचीन पौराणिक कथाओं और त्योहारों की कहानियाँ"
+        },
+        {
+          "en": "A rural fiction based on moral teachings",
+          "hi": "नैतिक शिक्षाओं पर आधारित एक ग्रामीण कथा"
+        }
+      ],
+      "correctAnswer": {
+        "en": "India's growing cultural and economic relevance",
+        "hi": "भारत की बढ़ती सांस्कृतिक और आर्थिक प्रासंगिकता"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: India's growing cultural and economic relevance</b><br><br><b>Book 'Why Bharat Matters':</b><br>• Author: <b>Dr. S. Jaishankar</b> (External Affairs Minister)<br>• Published: <b>January 2024</b><br>• Focus: India's <b>rising global importance</b> in 21st century<br><br><b>Key Themes:</b><br>• India's <b>foreign policy</b> & diplomatic relations<br>• <b>Economic growth</b> & global influence<br>• Role in <b>multipolar world order</b><br><br><b>Other Book:</b> 'The India Way' (2020)",
+        "hi": "<b>सही उत्तर: भारत की बढ़ती सांस्कृतिक और आर्थिक प्रासंगिकता</b><br><br><b>पुस्तक 'व्हाई भारत मैटर्स':</b><br>• लेखक: <b>डॉ. एस. जयशंकर</b> (विदेश मंत्री)<br>• प्रकाशित: <b>जनवरी 2024</b><br>• फोकस: 21वीं सदी में भारत का <b>बढ़ता वैश्विक महत्व</b><br><br><b>मुख्य विषय:</b><br>• भारत की <b>विदेश नीति</b> और कूटनीतिक संबंध<br>• <b>आर्थिक वृद्धि</b> और वैश्विक प्रभाव<br>• <b>बहुध्रुवीय विश्व व्यवस्था</b> में भूमिका<br><br><b>अन्य पुस्तक:</b> 'द इंडिया वे' (2020)"
+      }
+    },
+    {
+      "questionNo": 10,
+      "question": {
+        "en": "The annual Subroto Cup inter-school football tournament is held in which Indian city?",
+        "hi": "वार्षिक सुब्रतो कप अंतर-स्कूल फुटबॉल टूर्नामेंट किस भारतीय शहर में आयोजित किया जाता है?"
+      },
+      "options": [
+        {
+          "en": "New Delhi",
+          "hi": "नई दिल्ली"
+        },
+        {
+          "en": "Mumbai",
+          "hi": "मुंबई"
+        },
+        {
+          "en": "Kolkata",
+          "hi": "कोलकाता"
+        },
+        {
+          "en": "Hyderabad",
+          "hi": "हैदराबाद"
+        }
+      ],
+      "correctAnswer": {
+        "en": "New Delhi",
+        "hi": "नई दिल्ली"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: New Delhi</b><br><br><b>Subroto Cup:</b><br>• <b>Asia's largest inter-school football tournament</b><br>• Venue: <b>New Delhi</b> (Ambedkar Stadium)<br>• Started: <b>1960</b><br>• Organized by: <b>Indian Air Force (IAF)</b><br><br><b>Named After:</b><br>• <b>Air Marshal Subroto Mukerjee</b><br>• First Indian Chief of Air Staff<br>• Father of Indian Air Force<br><br><b>Categories:</b> Sub-Junior (U-14), Junior (U-17), Girls",
+        "hi": "<b>सही उत्तर: नई दिल्ली</b><br><br><b>सुब्रतो कप:</b><br>• <b>एशिया का सबसे बड़ा अंतर-स्कूल फुटबॉल टूर्नामेंट</b><br>• स्थान: <b>नई दिल्ली</b> (अम्बेडकर स्टेडियम)<br>• शुरुआत: <b>1960</b><br>• आयोजक: <b>भारतीय वायु सेना (IAF)</b><br><br><b>नाम:</b><br>• <b>एयर मार्शल सुब्रतो मुखर्जी</b> के नाम पर<br>• पहले भारतीय वायु सेना प्रमुख<br>• भारतीय वायु सेना के जनक<br><br><b>श्रेणियां:</b> सब-जूनियर (U-14), जूनियर (U-17), गर्ल्स"
+      }
+    },
+    {
+      "questionNo": 11,
+      "question": {
+        "en": "During his maiden state visit to Namibia, which Indian leader received the nation's highest civilian honour?",
+        "hi": "नामीबिया की अपनी पहली राजकीय यात्रा के दौरान, किस भारतीय नेता को देश का सर्वोच्च नागरिक सम्मान प्राप्त हुआ?"
+      },
+      "options": [
+        {
+          "en": "Ram Nath Kovind",
+          "hi": "राम नाथ कोविंद"
+        },
+        {
+          "en": "Narendra Modi",
+          "hi": "नरेंद्र मोदी"
+        },
+        {
+          "en": "Amit Shah",
+          "hi": "अमित शाह"
+        },
+        {
+          "en": "Droupadi Murmu",
+          "hi": "द्रौपदी मुर्मू"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Narendra Modi",
+        "hi": "नरेंद्र मोदी"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Narendra Modi</b><br><br><b>PM Modi's Namibia Visit (2024):</b><br>• <b>First Indian PM</b> to visit Namibia<br>• Received <b>\"Order of the Most Ancient Welwitschia Mirabilis\"</b><br>• <b>Namibia's highest civilian honour</b><br><br><b>About Award:</b><br>• Named after <b>Welwitschia Mirabilis</b> - unique desert plant found only in Namibia<br>• Symbolizes <b>resilience and longevity</b><br><br><b>India-Namibia:</b> India supported Namibia's independence movement",
+        "hi": "<b>सही उत्तर: नरेंद्र मोदी</b><br><br><b>पीएम मोदी की नामीबिया यात्रा (2024):</b><br>• नामीबिया जाने वाले <b>पहले भारतीय प्रधानमंत्री</b><br>• <b>\"ऑर्डर ऑफ द मोस्ट एंशिएंट वेलविट्शिया मिराबिलिस\"</b> प्राप्त किया<br>• <b>नामीबिया का सर्वोच्च नागरिक सम्मान</b><br><br><b>पुरस्कार के बारे में:</b><br>• <b>वेलविट्शिया मिराबिलिस</b> के नाम पर - केवल नामीबिया में पाया जाने वाला अनोखा रेगिस्तानी पौधा<br>• <b>लचीलापन और दीर्घायु</b> का प्रतीक<br><br><b>भारत-नामीबिया:</b> भारत ने नामीबिया के स्वतंत्रता आंदोलन का समर्थन किया"
+      }
+    },
+    {
+      "questionNo": 12,
+      "question": {
+        "en": "The Lohit River serves as a tributary to which major Himalayan river system?",
+        "hi": "लोहित नदी किस प्रमुख हिमालयी नदी प्रणाली की सहायक नदी के रूप में कार्य करती है?"
+      },
+      "options": [
+        {
+          "en": "Brahmputra",
+          "hi": "ब्रह्मपुत्र"
+        },
+        {
+          "en": "Gomti",
+          "hi": "गोमती"
+        },
+        {
+          "en": "Indus",
+          "hi": "सिंधु"
+        },
+        {
+          "en": "Yamuna",
+          "hi": "यमुना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Brahmputra",
+        "hi": "ब्रह्मपुत्र"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Brahmaputra</b><br><br><b>Lohit River:</b><br>• Major <b>tributary of Brahmaputra</b><br>• Origin: <b>Zayal Chu</b> in eastern Tibet<br>• Enters India through <b>Arunachal Pradesh</b><br>• Joins Brahmaputra near <b>Sadiya</b> (Assam)<br><br><b>Brahmaputra Tributaries:</b><br>• <b>North Bank:</b> Subansiri, Kameng, Manas<br>• <b>South Bank:</b> Lohit, Dibang, Dhansiri<br><br><b>Brahmaputra Names:</b> Tsangpo (Tibet) → Siang/Dihang (Arunachal) → Jamuna (Bangladesh)",
+        "hi": "<b>सही उत्तर: ब्रह्मपुत्र</b><br><br><b>लोहित नदी:</b><br>• <b>ब्रह्मपुत्र की प्रमुख सहायक नदी</b><br>• उद्गम: पूर्वी तिब्बत में <b>जायल चू</b><br>• <b>अरुणाचल प्रदेश</b> से भारत में प्रवेश<br>• असम में <b>सदिया</b> के पास ब्रह्मपुत्र से मिलती है<br><br><b>ब्रह्मपुत्र की सहायक नदियां:</b><br>• <b>उत्तरी तट:</b> सुबनसिरी, कामेंग, मानस<br>• <b>दक्षिणी तट:</b> लोहित, दिबांग, धनसिरी<br><br><b>ब्रह्मपुत्र के नाम:</b> त्सांगपो (तिब्बत) → सियांग/दिहांग (अरुणाचल) → जमुना (बांग्लादेश)"
+      }
+    },
+    {
+      "questionNo": 13,
+      "question": {
+        "en": "The Laser Retroreflector Array (LRA) onboard Chandrayaan-3 was supplied by which space agency?",
+        "hi": "चंद्रयान-3 पर सवार लेजर रेट्रोरिफ्लेक्टर एरे (LRA) की आपूर्ति किस अंतरिक्ष एजेंसी द्वारा की गई थी?"
+      },
+      "options": [
+        {
+          "en": "ESA",
+          "hi": "ESA"
+        },
+        {
+          "en": "NASA",
+          "hi": "NASA"
+        },
+        {
+          "en": "JAXA",
+          "hi": "JAXA"
+        },
+        {
+          "en": "CNSA",
+          "hi": "CNSA"
+        }
+      ],
+      "correctAnswer": {
+        "en": "NASA",
+        "hi": "NASA"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: NASA</b><br><br><b>Laser Retroreflector Array (LRA):</b><br>• Supplied by <b>NASA (USA)</b><br>• <b>Passive instrument</b> (no power needed)<br>• Used for <b>precise distance measurement</b> to Moon<br>• Helps in <b>lunar laser ranging experiments</b><br><br><b>Chandrayaan-3 Payloads:</b><br>• <b>Vikram Lander:</b> RAMBHA, ChaSTE, ILSA, LRA (NASA)<br>• <b>Pragyan Rover:</b> APXS, LIBS<br><br><b>Success:</b> Landed <b>August 23, 2023</b> at <b>Shiv Shakti Point</b> (South Pole)<br>India = <b>4th country</b> on Moon, <b>1st at South Pole</b>",
+        "hi": "<b>सही उत्तर: NASA</b><br><br><b>लेजर रेट्रोरिफ्लेक्टर एरे (LRA):</b><br>• <b>NASA (अमेरिका)</b> द्वारा आपूर्ति<br>• <b>निष्क्रिय उपकरण</b> (बिजली की जरूरत नहीं)<br>• चंद्रमा तक <b>सटीक दूरी माप</b> के लिए<br>• <b>चंद्र लेजर रेंजिंग प्रयोगों</b> में मदद<br><br><b>चंद्रयान-3 पेलोड:</b><br>• <b>विक्रम लैंडर:</b> RAMBHA, ChaSTE, ILSA, LRA (NASA)<br>• <b>प्रज्ञान रोवर:</b> APXS, LIBS<br><br><b>सफलता:</b> <b>23 अगस्त, 2023</b> को <b>शिव शक्ति पॉइंट</b> (दक्षिणी ध्रुव) पर उतरा<br>भारत = चंद्रमा पर <b>चौथा देश</b>, <b>दक्षिणी ध्रुव पर पहला</b>"
+      }
+    },
+    {
+      "questionNo": 14,
+      "question": {
+        "en": "What is the correct order in which blood flows through the chambers of the human heart?",
+        "hi": "मानव हृदय के कक्षों से रक्त प्रवाहित होने का सही क्रम क्या है?"
+      },
+      "options": [
+        {
+          "en": "Right atrium -> Left atrium -> Right ventricle -> Left ventricle",
+          "hi": "दायां अलिंद -> बायां अलिंद -> दायां निलय -> बायां निलय"
+        },
+        {
+          "en": "Right atrium -> Right ventricle -> Left atrium -> Left ventricle",
+          "hi": "दायां अलिंद -> दायां निलय -> बायां अलिंद -> बायां निलय"
+        },
+        {
+          "en": "Right ventricle -> Right atrium -> Left ventricle -> Left atrium",
+          "hi": "दायां निलय -> दायां अलिंद -> बायां निलय -> बायां अलिंद"
+        },
+        {
+          "en": "Left ventricle -> Left atrium -> Right ventricle -> Right atrium",
+          "hi": "बायां निलय -> बायां अलिंद -> दायां निलय -> दायां अलिंद"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Right atrium -> Right ventricle -> Left atrium -> Left ventricle",
+        "hi": "दायां अलिंद -> दायां निलय -> बायां अलिंद -> बायां निलय"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Right atrium → Right ventricle → Left atrium → Left ventricle</b><br><br><b>Blood Flow Through Heart:</b><br>1. <b>Deoxygenated blood</b> → <b>Right Atrium</b> (via Vena Cava)<br>2. → <b>Right Ventricle</b><br>3. → <b>Lungs</b> (via Pulmonary Artery) for oxygenation<br>4. <b>Oxygenated blood</b> → <b>Left Atrium</b> (via Pulmonary Vein)<br>5. → <b>Left Ventricle</b><br>6. → <b>Body</b> (via Aorta)<br><br><b>Remember:</b><br>• Right side = Deoxygenated (to lungs)<br>• Left side = Oxygenated (to body)<br>• <b>RA → RV → Lungs → LA → LV → Body</b>",
+        "hi": "<b>सही उत्तर: दायां अलिंद → दायां निलय → बायां अलिंद → बायां निलय</b><br><br><b>हृदय में रक्त प्रवाह:</b><br>1. <b>अशुद्ध रक्त</b> → <b>दायां अलिंद</b> (वेना कावा से)<br>2. → <b>दायां निलय</b><br>3. → <b>फेफड़े</b> (पल्मोनरी धमनी से) ऑक्सीजन के लिए<br>4. <b>शुद्ध रक्त</b> → <b>बायां अलिंद</b> (पल्मोनरी शिरा से)<br>5. → <b>बायां निलय</b><br>6. → <b>शरीर</b> (महाधमनी से)<br><br><b>याद रखें:</b><br>• दाईं ओर = अशुद्ध रक्त (फेफड़ों की ओर)<br>• बाईं ओर = शुद्ध रक्त (शरीर की ओर)<br>• <b>RA → RV → फेफड़े → LA → LV → शरीर</b>"
+      }
+    },
+    {
+      "questionNo": 15,
+      "question": {
+        "en": "Which of the following statements about the relationship between State and Union laws on Concurrent List subjects is correct?<br>1. A State law reserved for the President's consideration and receiving assent prevails over the existing Union law in that State.<br>2. Parliament can subsequently override such a State law by enacting another law on the same subject.",
+        "hi": "समवर्ती सूची के विषयों पर राज्य और संघ के कानूनों के बीच संबंधों के बारे में निम्नलिखित में से कौन सा कथन सही है?<br>1. राष्ट्रपति के विचार के लिए आरक्षित और सहमति प्राप्त करने वाला राज्य कानून उस राज्य में मौजूदा संघ कानून पर हावी होता है।<br>2. संसद बाद में उसी विषय पर दूसरा कानून बनाकर ऐसे राज्य कानून को रद्द कर सकती है।"
+      },
+      "options": [
+        {
+          "en": "Only 1",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "Only 2",
+          "hi": "केवल 2"
+        },
+        {
+          "en": "Neither 1 nor 2",
+          "hi": "न तो 1 और न ही 2"
+        },
+        {
+          "en": "Both 1 and 2",
+          "hi": "1 और 2 दोनों"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Both 1 and 2",
+        "hi": "1 और 2 दोनों"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Both 1 and 2</b><br><br><b>Article 254 - Concurrent List:</b><br><br><b>Statement 1 ✓ Correct:</b><br>• State law on Concurrent List <b>reserved for President's assent</b><br>• If approved, <b>prevails over Union law</b> in that State<br>• Exception to general rule of Union law supremacy<br><br><b>Statement 2 ✓ Correct:</b><br>• Parliament can <b>override</b> such State law anytime<br>• By passing <b>new law on same subject</b><br><br><b>General Rule:</b> Union law prevails in conflict (unless State law has President's assent)",
+        "hi": "<b>सही उत्तर: 1 और 2 दोनों</b><br><br><b>अनुच्छेद 254 - समवर्ती सूची:</b><br><br><b>कथन 1 ✓ सही:</b><br>• समवर्ती सूची पर राज्य कानून <b>राष्ट्रपति की सहमति के लिए आरक्षित</b><br>• स्वीकृति मिलने पर, उस राज्य में <b>संघ कानून पर हावी</b><br>• संघ कानून की सर्वोच्चता का अपवाद<br><br><b>कथन 2 ✓ सही:</b><br>• संसद ऐसे राज्य कानून को कभी भी <b>रद्द</b> कर सकती है<br>• <b>उसी विषय पर नया कानून</b> पारित करके<br><br><b>सामान्य नियम:</b> टकराव में संघ कानून प्रभावी (जब तक राज्य कानून को राष्ट्रपति की सहमति न हो)"
+      }
+    },
+    {
+      "questionNo": 16,
+      "question": {
+        "en": "When sound travels from air to water, which of the following changes takes place?",
+        "hi": "जब ध्वनि हवा से पानी में यात्रा करती है, तो निम्नलिखित में से कौन सा परिवर्तन होता है?"
+      },
+      "options": [
+        {
+          "en": "Frequency rises while wavelength remains fixed",
+          "hi": "आवृत्ति बढ़ती है जबकि तरंगदैर्घ्य स्थिर रहता है"
+        },
+        {
+          "en": "Frequency remains the same, but the wavelength changes",
+          "hi": "आवृत्ति वही रहती है, लेकिन तरंगदैर्घ्य बदल जाता है"
+        },
+        {
+          "en": "Speed becomes slower while frequency increases",
+          "hi": "गति धीमी हो जाती है जबकि आवृत्ति बढ़ जाती है"
+        },
+        {
+          "en": "Both wavelength and frequency reduce",
+          "hi": "तरंगदैर्घ्य और आवृत्ति दोनों कम हो जाते हैं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Frequency remains the same, but the wavelength changes",
+        "hi": "आवृत्ति वही रहती है, लेकिन तरंगदैर्घ्य बदल जाता है"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Frequency remains the same, but the wavelength changes</b><br><br><b>Sound Air → Water:</b><br><br><b>What Remains Constant:</b><br>• <b>Frequency (f)</b> - depends on source, not medium<br><br><b>What Changes:</b><br>• <b>Speed (v)</b> - increases (faster in water)<br>• <b>Wavelength (λ)</b> - increases<br><br><b>Speed of Sound:</b><br>• Air: ~<b>343 m/s</b><br>• Water: ~<b>1480 m/s</b><br>• Steel: ~<b>5000 m/s</b><br><br><b>Formula:</b> v = f × λ<br>f constant, v increases → λ increases",
+        "hi": "<b>सही उत्तर: आवृत्ति वही रहती है, लेकिन तरंगदैर्घ्य बदल जाता है</b><br><br><b>ध्वनि हवा → पानी:</b><br><br><b>क्या स्थिर रहता है:</b><br>• <b>आवृत्ति (f)</b> - स्रोत पर निर्भर, माध्यम पर नहीं<br><br><b>क्या बदलता है:</b><br>• <b>गति (v)</b> - बढ़ती है (पानी में तेज़)<br>• <b>तरंगदैर्घ्य (λ)</b> - बढ़ता है<br><br><b>ध्वनि की गति:</b><br>• हवा: ~<b>343 m/s</b><br>• पानी: ~<b>1480 m/s</b><br>• स्टील: ~<b>5000 m/s</b><br><br><b>सूत्र:</b> v = f × λ<br>f स्थिर, v बढ़ती है → λ बढ़ता है"
+      }
+    },
+    {
+      "questionNo": 17,
+      "question": {
+        "en": "The Uniform Civil Code (UCC) is included under which category of principles in the Indian Constitution?",
+        "hi": "समान नागरिक संहिता (UCC) भारतीय संविधान में सिद्धांतों की किस श्रेणी के अंतर्गत शामिल है?"
+      },
+      "options": [
+        {
+          "en": "Fundamental Rights",
+          "hi": "मौलिक अधिकार"
+        },
+        {
+          "en": "Directive Principles of State Policy",
+          "hi": "राज्य के नीति निर्देशक सिद्धांत"
+        },
+        {
+          "en": "Fundamental Duties",
+          "hi": "मौलिक कर्तव्य"
+        },
+        {
+          "en": "Preamble objectives",
+          "hi": "प्रस्तावना के उद्देश्य"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Directive Principles of State Policy",
+        "hi": "राज्य के नीति निर्देशक सिद्धांत"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Directive Principles of State Policy</b><br><br><b>Uniform Civil Code (UCC):</b><br>• Mentioned in <b>Article 44</b><br>• Part of <b>DPSP</b> (Part IV, Articles 36-51)<br><br><b>Article 44:</b> \"State shall endeavour to secure <b>uniform civil code</b> throughout India\"<br><br><b>DPSP Features:</b><br>• <b>Non-justiciable</b> (not enforceable by courts)<br>• Guidelines for State<br>• Inspired by <b>Irish Constitution</b><br><br><b>Recent:</b> <b>Uttarakhand</b> = first state to implement UCC (2024)<br><b>Goa</b> already has common civil code",
+        "hi": "<b>सही उत्तर: राज्य के नीति निर्देशक सिद्धांत</b><br><br><b>समान नागरिक संहिता (UCC):</b><br>• <b>अनुच्छेद 44</b> में उल्लिखित<br>• <b>DPSP</b> का हिस्सा (भाग IV, अनुच्छेद 36-51)<br><br><b>अनुच्छेद 44:</b> \"राज्य भारत में <b>समान नागरिक संहिता</b> प्राप्त कराने का प्रयास करेगा\"<br><br><b>DPSP की विशेषताएं:</b><br>• <b>गैर-न्यायोचित</b> (अदालतों द्वारा लागू नहीं)<br>• राज्य के लिए मार्गदर्शक<br>• <b>आयरिश संविधान</b> से प्रेरित<br><br><b>हाल ही:</b> <b>उत्तराखंड</b> = UCC लागू करने वाला पहला राज्य (2024)<br><b>गोवा</b> में पहले से समान नागरिक संहिता है"
+      }
+    },
+    {
+      "questionNo": 18,
+      "question": {
+        "en": "\"Har Khet Ko Pani\" is the tagline of which government initiative?",
+        "hi": "\"हर खेत को पानी\" किस सरकारी पहल की टैगलाइन है?"
+      },
+      "options": [
+        {
+          "en": "Paramparagat Krishi Vikas Yojana",
+          "hi": "परंपरागत कृषि विकास योजना"
+        },
+        {
+          "en": "Pradhan Mantri Krishi Sinchayee Yojana",
+          "hi": "प्रधानमंत्री कृषि सिंचाई योजना"
+        },
+        {
+          "en": "Pradhan Kisan Samman Nidhi Yojana",
+          "hi": "प्रधान किसान सम्मान निधि योजना"
+        },
+        {
+          "en": "Rashtriya Krishi Vikas Yojana",
+          "hi": "राष्ट्रीय कृषि विकास योजना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Pradhan Mantri Krishi Sinchayee Yojana",
+        "hi": "प्रधानमंत्री कृषि सिंचाई योजना"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)</b><br><br><b>PMKSY:</b><br>• Launched: <b>July 2015</b><br>• Tagline: <b>\"Har Khet Ko Pani\"</b> (Water to Every Field)<br>• Another motto: <b>\"Per Drop More Crop\"</b><br><br><b>Objectives:</b><br>• Extend irrigation coverage<br>• Improve water use efficiency<br>• Promote micro-irrigation (drip & sprinkler)<br><br><b>Other Schemes:</b><br>• <b>PKVY:</b> Organic farming<br>• <b>PM-KISAN:</b> ₹6000/year income support<br>• <b>RKVY:</b> Agricultural development",
+        "hi": "<b>सही उत्तर: प्रधानमंत्री कृषि सिंचाई योजना (PMKSY)</b><br><br><b>PMKSY:</b><br>• शुरुआत: <b>जुलाई 2015</b><br>• टैगलाइन: <b>\"हर खेत को पानी\"</b><br>• अन्य नारा: <b>\"पर ड्रॉप मोर क्रॉप\"</b><br><br><b>उद्देश्य:</b><br>• सिंचाई कवरेज का विस्तार<br>• जल उपयोग दक्षता में सुधार<br>• सूक्ष्म सिंचाई को बढ़ावा (ड्रिप और स्प्रिंकलर)<br><br><b>अन्य योजनाएं:</b><br>• <b>PKVY:</b> जैविक खेती<br>• <b>PM-KISAN:</b> ₹6000/वर्ष आय सहायता<br>• <b>RKVY:</b> कृषि विकास"
+      }
+    },
+    {
+      "questionNo": 19,
+      "question": {
+        "en": "Assertion (A): Delhi often reports the highest Air Quality Index (AQI) readings among Indian cities.<br>Reason (R): This is because the city lies in a low-lying basin encircled by the Himalayas.",
+        "hi": "अभिकथन (A): दिल्ली अक्सर भारतीय शहरों में उच्चतम वायु गुणवत्ता सूचकांक (AQI) रीडिंग की रिपोर्ट करती है।<br>कारण (R): ऐसा इसलिए है क्योंकि शहर हिमालय से घिरे निचले बेसिन में स्थित है।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R correctly explains A.",
+          "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।"
+        },
+        {
+          "en": "Both A and R are true, but R does not correctly explain A.",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A गलत है, लेकिन R सत्य है"
+        },
+        {
+          "en": "A is true, but R is false.",
+          "hi": "A सत्य है, लेकिन R गलत है।"
+        }
+      ],
+      "correctAnswer": {
+        "en": "A is true, but R is false.",
+        "hi": "A सत्य है, लेकिन R गलत है।"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: A is true, but R is false</b><br><br><b>Assertion (A) ✓ TRUE:</b><br>• Delhi often reports <b>highest AQI</b> among Indian cities<br>• Especially during winter months (Oct-Jan)<br><br><b>Reason (R) ✗ FALSE:</b><br>• Delhi is <b>NOT in a low-lying basin encircled by Himalayas</b><br>• Delhi lies on <b>Indo-Gangetic Plain</b><br>• Himalayas are to the <b>north</b>, not encircling<br><br><b>Actual Reasons for High AQI:</b><br>• Stubble burning in Punjab/Haryana<br>• Vehicular emissions<br>• Industrial pollution<br>• Construction dust<br>• Winter temperature inversion trapping pollutants",
+        "hi": "<b>सही उत्तर: A सत्य है, लेकिन R गलत है</b><br><br><b>अभिकथन (A) ✓ सत्य:</b><br>• दिल्ली अक्सर भारतीय शहरों में <b>उच्चतम AQI</b> की रिपोर्ट करती है<br>• विशेषकर सर्दियों (अक्टूबर-जनवरी) में<br><br><b>कारण (R) ✗ गलत:</b><br>• दिल्ली <b>हिमालय से घिरे निचले बेसिन में नहीं</b> है<br>• दिल्ली <b>सिंधु-गंगा मैदान</b> पर स्थित है<br>• हिमालय <b>उत्तर</b> में है, चारों ओर नहीं<br><br><b>उच्च AQI के वास्तविक कारण:</b><br>• पंजाब/हरियाणा में पराली जलाना<br>• वाहन उत्सर्जन<br>• औद्योगिक प्रदूषण<br>• निर्माण धूल<br>• सर्दियों में तापमान व्युत्क्रमण से प्रदूषक फंसना"
+      }
+    },
+    {
+      "questionNo": 20,
+      "question": {
+        "en": "Which among the following regions in India are notable for their extensive coral reef ecosystems?",
+        "hi": "भारत के निम्नलिखित में से कौन से क्षेत्र अपने विस्तृत मूंगा चट्टान (coral reef) पारिस्थितिकी प्रणालियों के लिए उल्लेखनीय हैं?"
+      },
+      "options": [
+        {
+          "en": "Coastal and deltaic zones of the Bay of Bengal",
+          "hi": "बंगाल की खाड़ी के तटीय और डेल्टाई क्षेत्र"
+        },
+        {
+          "en": "Gulf of Kutch, Gulf of Mannar, Lakshadweep, and Andaman & Nicobar Islands",
+          "hi": "कच्छ की खाड़ी, मन्नार की खाड़ी, लक्षद्वीप और अंडमान एवं निकोबार द्वीप समूह"
+        },
+        {
+          "en": "Eastern coastline near major river estuaries",
+          "hi": "प्रमुख नदी मुहानों के पास पूर्वी तटरेखा"
+        },
+        {
+          "en": "Deep-sea trenches within the Indian Ocean",
+          "hi": "हिंद महासागर के भीतर गहरे समुद्र की खाइयाँ"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Gulf of Kutch, Gulf of Mannar, Lakshadweep, and Andaman & Nicobar Islands",
+        "hi": "कच्छ की खाड़ी, मन्नार की खाड़ी, लक्षद्वीप और अंडमान एवं निकोबार द्वीप समूह"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Gulf of Kutch, Gulf of Mannar, Lakshadweep, and Andaman & Nicobar Islands</b><br><br><b>4 Major Coral Reef Regions in India:</b><br><br>1. <b>Gulf of Kutch</b> (Gujarat) - Fringing reefs<br>2. <b>Gulf of Mannar</b> (Tamil Nadu) - Fringing reefs, Biosphere Reserve<br>3. <b>Lakshadweep Islands</b> - <b>Atoll reefs</b> (only atoll in India)<br>4. <b>Andaman & Nicobar Islands</b> - Fringing reefs, richest biodiversity<br><br><b>Coral Reef Requirements:</b><br>• Warm, shallow, clear water<br>• Adequate sunlight<br>• Low sediment<br><br><b>Why not river estuaries?</b> High sediment load kills corals",
+        "hi": "<b>सही उत्तर: कच्छ की खाड़ी, मन्नार की खाड़ी, लक्षद्वीप और अंडमान एवं निकोबार द्वीप समूह</b><br><br><b>भारत में 4 प्रमुख मूंगा चट्टान क्षेत्र:</b><br><br>1. <b>कच्छ की खाड़ी</b> (गुजरात) - तटीय चट्टानें<br>2. <b>मन्नार की खाड़ी</b> (तमिलनाडु) - तटीय चट्टानें, जैवमंडल रिजर्व<br>3. <b>लक्षद्वीप द्वीप</b> - <b>एटोल चट्टानें</b> (भारत में एकमात्र एटोल)<br>4. <b>अंडमान और निकोबार द्वीप</b> - तटीय चट्टानें, सबसे समृद्ध जैव विविधता<br><br><b>मूंगा चट्टान की आवश्यकताएं:</b><br>• गर्म, उथला, साफ पानी<br>• पर्याप्त सूर्य का प्रकाश<br>• कम तलछट<br><br><b>नदी मुहाने क्यों नहीं?</b> उच्च तलछट भार मूंगों को मारता है"
+      }
+    },
+{
+      "questionNo": 21,
+      "question": {
+        "en": "Assertion (A): Only the northern states of India are major producers of inorganic chemicals.<br>Reason (R): Sulphuric acid and soda ash are important inputs for industries manufacturing fertilizers, glass, and detergents.",
+        "hi": "अभिकथन (A): भारत के केवल उत्तरी राज्य अकार्बनिक रसायनों के प्रमुख उत्पादक हैं।<br>कारण (R): सल्फ्यूरिक एसिड और सोडा ऐश उर्वरकों, कांच और डिटर्जेंट बनाने वाले उद्योगों के लिए महत्वपूर्ण इनपुट हैं।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R explains A correctly",
+          "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है"
+        },
+        {
+          "en": "A is false, while R is true",
+          "hi": "A गलत है, जबकि R सत्य है"
+        },
+        {
+          "en": "A is true, while R is false",
+          "hi": "A सत्य है, जबकि R गलत है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "A is false, while R is true",
+        "hi": "A गलत है, जबकि R सत्य है"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: A is false, while R is true</b><br><br><b>Assertion (A) ✗ FALSE:</b><br>• Inorganic chemicals are produced across India, <b>NOT only in northern states</b><br><br><b>Major Producing States:</b><br>• <b>Gujarat</b> - Largest producer (soda ash, caustic soda)<br>• <b>Maharashtra</b> - Sulphuric acid, chemicals<br>• <b>Tamil Nadu</b> - Various chemicals<br>• <b>West Bengal, Rajasthan, Odisha</b> also contribute<br><br><b>Reason (R) ✓ TRUE:</b><br>• <b>Sulphuric acid</b> → Fertilizers, chemicals, batteries<br>• <b>Soda ash</b> → Glass, detergents, soaps, paper<br>• These are indeed important industrial inputs<br><br><b>Conclusion:</b> R is factually correct but A is wrong",
+        "hi": "<b>सही उत्तर: A गलत है, जबकि R सत्य है</b><br><br><b>अभिकथन (A) ✗ गलत:</b><br>• अकार्बनिक रसायन पूरे भारत में उत्पादित होते हैं, <b>केवल उत्तरी राज्यों में नहीं</b><br><br><b>प्रमुख उत्पादक राज्य:</b><br>• <b>गुजरात</b> - सबसे बड़ा उत्पादक (सोडा ऐश, कास्टिक सोडा)<br>• <b>महाराष्ट्र</b> - सल्फ्यूरिक एसिड, रसायन<br>• <b>तमिलनाडु</b> - विभिन्न रसायन<br>• <b>पश्चिम बंगाल, राजस्थान, ओडिशा</b> भी योगदान करते हैं<br><br><b>कारण (R) ✓ सत्य:</b><br>• <b>सल्फ्यूरिक एसिड</b> → उर्वरक, रसायन, बैटरी<br>• <b>सोडा ऐश</b> → कांच, डिटर्जेंट, साबुन, कागज<br>• ये वास्तव में महत्वपूर्ण औद्योगिक इनपुट हैं<br><br><b>निष्कर्ष:</b> R तथ्यात्मक रूप से सही है लेकिन A गलत है"
+      }
+    },
+    {
+      "questionNo": 22,
+      "question": {
+        "en": "Which of the following statements are accurate regarding Panthi dance?<br>1. The steps of Panthi reflect the spiritual lessons from Guru Ghasidas's Amritvani.<br>2. Ritual versions involve the use of masks symbolizing Satpurush.",
+        "hi": "पंथी नृत्य के संबंध में निम्नलिखित में से कौन से कथन सटीक हैं?<br>1. पंथी के कदम गुरु घासीदास की अमृतवाणी के आध्यात्मिक पाठों को दर्शाते हैं।<br>2. अनुष्ठानिक संस्करणों में सत्पुरुष के प्रतीक मुखौटों का उपयोग शामिल है।"
+      },
+      "options": [
+        {
+          "en": "Only 2",
+          "hi": "केवल 2"
+        },
+        {
+          "en": "Only 1",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "Both 1 and 2",
+          "hi": "1 और 2 दोनों"
+        },
+        {
+          "en": "Neither 1 nor 2",
+          "hi": "न तो 1 और न ही 2"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1",
+        "hi": "केवल 1"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Only 1</b><br><br><b>Statement 1 ✓ CORRECT:</b><br>• Panthi dance reflects spiritual teachings from <b>Guru Ghasidas's Amritvani</b><br>• Dance steps symbolize the <b>path to salvation</b><br>• Expresses devotion to <b>Satnam (True Name)</b><br><br><b>Statement 2 ✗ INCORRECT:</b><br>• Panthi dance does <b>NOT involve masks</b><br>• It is performed with <b>simple white attire</b><br>• No masks symbolizing Satpurush are used<br><br><b>About Panthi Dance:</b><br>• <b>Folk dance of Chhattisgarh</b><br>• Performed by <b>Satnami community</b><br>• Founder: <b>Guru Ghasidas</b> (18th-19th century saint)<br>• Performed during <b>Maghi Purnima</b> festival<br>• Accompanied by <b>Mandar, Jhanj, Mridang</b> instruments<br>• Dancers form <b>human pyramids</b> during performance",
+        "hi": "<b>सही उत्तर: केवल 1</b><br><br><b>कथन 1 ✓ सही:</b><br>• पंथी नृत्य <b>गुरु घासीदास की अमृतवाणी</b> की आध्यात्मिक शिक्षाओं को दर्शाता है<br>• नृत्य के कदम <b>मोक्ष के मार्ग</b> का प्रतीक हैं<br>• <b>सतनाम (सच्चा नाम)</b> के प्रति भक्ति व्यक्त करता है<br><br><b>कथन 2 ✗ गलत:</b><br>• पंथी नृत्य में <b>मुखौटों का उपयोग नहीं</b> होता<br>• यह <b>साधारण सफेद पोशाक</b> में किया जाता है<br>• सत्पुरुष के प्रतीक कोई मुखौटे नहीं होते<br><br><b>पंथी नृत्य के बारे में:</b><br>• <b>छत्तीसगढ़ का लोक नृत्य</b><br>• <b>सतनामी समुदाय</b> द्वारा किया जाता है<br>• संस्थापक: <b>गुरु घासीदास</b> (18वीं-19वीं सदी के संत)<br>• <b>माघी पूर्णिमा</b> त्योहार पर प्रदर्शन<br>• <b>मांदर, झांझ, मृदंग</b> वाद्य यंत्रों के साथ<br>• नर्तक प्रदर्शन के दौरान <b>मानव पिरामिड</b> बनाते हैं"
+      }
+    },
+    {
+      "questionNo": 23,
+      "question": {
+        "en": "For the purposes of the Constitution, the definition of State and Union Territories is given in which Article?",
+        "hi": "संविधान के प्रयोजनों के लिए, राज्य और केंद्र शासित प्रदेशों की परिभाषा किस अनुच्छेद में दी गई है?"
+      },
+      "options": [
+        {
+          "en": "Article 3",
+          "hi": "अनुच्छेद 3"
+        },
+        {
+          "en": "Article 1",
+          "hi": "अनुच्छेद 1"
+        },
+        {
+          "en": "Article 239",
+          "hi": "अनुच्छेद 239"
+        },
+        {
+          "en": "Article 229",
+          "hi": "अनुच्छेद 229"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Article 1",
+        "hi": "अनुच्छेद 1"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Article 1</b><br><br><b>Article 1 - Name and Territory of the Union:</b><br>• India, that is <b>Bharat</b>, shall be a <b>Union of States</b><br>• Territory of India comprises:<br>&nbsp;&nbsp;(a) Territories of the <b>States</b><br>&nbsp;&nbsp;(b) <b>Union Territories</b> (in First Schedule)<br>&nbsp;&nbsp;(c) Such other territories as may be acquired<br><br><b>Related Articles:</b><br>• <b>Article 1:</b> Definition of India, States & UTs<br>• <b>Article 2:</b> Admission/establishment of new states<br>• <b>Article 3:</b> Formation of new states, alteration of boundaries<br>• <b>Article 4:</b> Amendment of First & Fourth Schedules<br><br><b>First Schedule:</b> Lists all States and UTs<br><br><b>Note:</b> Article 239 deals with <b>Administration of UTs</b>, not definition",
+        "hi": "<b>सही उत्तर: अनुच्छेद 1</b><br><br><b>अनुच्छेद 1 - संघ का नाम और राज्यक्षेत्र:</b><br>• इंडिया, अर्थात् <b>भारत</b>, <b>राज्यों का संघ</b> होगा<br>• भारत के राज्यक्षेत्र में शामिल हैं:<br>&nbsp;&nbsp;(क) <b>राज्यों</b> के राज्यक्षेत्र<br>&nbsp;&nbsp;(ख) <b>केंद्र शासित प्रदेश</b> (प्रथम अनुसूची में)<br>&nbsp;&nbsp;(ग) ऐसे अन्य राज्यक्षेत्र जो अर्जित किए जाएं<br><br><b>संबंधित अनुच्छेद:</b><br>• <b>अनुच्छेद 1:</b> भारत, राज्यों और केंद्र शासित प्रदेशों की परिभाषा<br>• <b>अनुच्छेद 2:</b> नए राज्यों का प्रवेश/स्थापना<br>• <b>अनुच्छेद 3:</b> नए राज्यों का गठन, सीमाओं में परिवर्तन<br>• <b>अनुच्छेद 4:</b> प्रथम और चौथी अनुसूची में संशोधन<br><br><b>प्रथम अनुसूची:</b> सभी राज्यों और केंद्र शासित प्रदेशों की सूची<br><br><b>नोट:</b> अनुच्छेद 239 केंद्र शासित प्रदेशों के <b>प्रशासन</b> से संबंधित है, परिभाषा से नहीं"
+      }
+    },
+    {
+      "questionNo": 24,
+      "question": {
+        "en": "During solar storms, which factor is mainly responsible for the heating of the thermosphere?",
+        "hi": "सौर तूफान के दौरान, बाह्यमंडल (thermosphere) के गर्म होने के लिए मुख्य रूप से कौन सा कारक जिम्मेदार है?"
+      },
+      "options": [
+        {
+          "en": "UV and X-ray absorption",
+          "hi": "यूवी और एक्स-रे अवशोषण"
+        },
+        {
+          "en": "Molecular friction",
+          "hi": "आणविक घर्षण"
+        },
+        {
+          "en": "Cloud condensation",
+          "hi": "बादलों का संघनन"
+        },
+        {
+          "en": "Convection currents",
+          "hi": "संवहन धाराएं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "UV and X-ray absorption",
+        "hi": "यूवी और एक्स-रे अवशोषण"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: UV and X-ray absorption</b><br><br><b>Thermosphere Heating During Solar Storms:</b><br>• <b>UV (Ultraviolet) and X-ray radiation</b> from Sun increases dramatically<br>• Gas molecules in thermosphere <b>absorb this high-energy radiation</b><br>• This absorption causes <b>rapid temperature increase</b><br>• Temperature can reach <b>2000°C or higher</b> during intense storms<br><br><b>About Thermosphere:</b><br>• Altitude: <b>80-700 km</b> above Earth<br>• Contains <b>Ionosphere</b> (radio wave reflection)<br>• <b>ISS orbits</b> in this layer (~400 km)<br>• Temperature increases with altitude<br><br><b>Why Other Options are Wrong:</b><br>• <b>Molecular friction:</b> Occurs but not primary cause<br>• <b>Cloud condensation:</b> No clouds in thermosphere<br>• <b>Convection currents:</b> Minimal role at this altitude",
+        "hi": "<b>सही उत्तर: यूवी और एक्स-रे अवशोषण</b><br><br><b>सौर तूफान के दौरान थर्मोस्फीयर का गर्म होना:</b><br>• सूर्य से <b>UV (पराबैंगनी) और X-रे विकिरण</b> नाटकीय रूप से बढ़ जाता है<br>• थर्मोस्फीयर में गैस अणु इस <b>उच्च-ऊर्जा विकिरण को अवशोषित</b> करते हैं<br>• इस अवशोषण से <b>तापमान में तेजी से वृद्धि</b> होती है<br>• तीव्र तूफानों के दौरान तापमान <b>2000°C या अधिक</b> हो सकता है<br><br><b>थर्मोस्फीयर के बारे में:</b><br>• ऊंचाई: पृथ्वी से <b>80-700 किमी</b> ऊपर<br>• इसमें <b>आयनमंडल</b> है (रेडियो तरंग परावर्तन)<br>• <b>ISS</b> इसी परत में परिक्रमा करता है (~400 किमी)<br>• ऊंचाई के साथ तापमान बढ़ता है<br><br><b>अन्य विकल्प गलत क्यों:</b><br>• <b>आणविक घर्षण:</b> होता है लेकिन प्राथमिक कारण नहीं<br>• <b>बादलों का संघनन:</b> थर्मोस्फीयर में बादल नहीं होते<br>• <b>संवहन धाराएं:</b> इस ऊंचाई पर न्यूनतम भूमिका"
+      }
+    },
+    {
+      "questionNo": 25,
+      "question": {
+        "en": "Consider the following statements:<br>1. Administrative authorities are responsible for creating delegated legislation.<br>2. Delegated legislation is beyond judicial scrutiny.<br>Which of the above statements is/are correct?",
+        "hi": "निम्नलिखित कथनों पर विचार करें:<br>1. प्रशासनिक प्राधिकरण प्रत्यायोजित विधान बनाने के लिए जिम्मेदार हैं।<br>2. प्रत्यायोजित विधान न्यायिक जांच से परे है।<br>उपरोक्त में से कौन सा/से कथन सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "Only 2",
+          "hi": "केवल 2"
+        },
+        {
+          "en": "Only 1",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "Both 1 and 2",
+          "hi": "1 और 2 दोनों"
+        },
+        {
+          "en": "Neither 1 nor 2",
+          "hi": "न तो 1 और न ही 2"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1",
+        "hi": "केवल 1"
+      },
+      "explanation": {
+        "en": "<b>Correct Answer: Only 1</b><br><br><b>Statement 1 ✓ CORRECT:</b><br>• <b>Delegated/Subordinate legislation</b> is made by administrative authorities<br>• Parliament delegates power to <b>Executive/Ministries</b> to make rules<br>• Examples: <b>Rules, Regulations, Orders, Bye-laws, Notifications</b><br>• Made under authority of <b>Parent Act</b> passed by Parliament<br><br><b>Statement 2 ✗ INCORRECT:</b><br>• Delegated legislation is <b>NOT beyond judicial scrutiny</b><br>• Courts CAN review delegated legislation on grounds of:<br>&nbsp;&nbsp;- <b>Ultra vires</b> (beyond delegated powers)<br>&nbsp;&nbsp;- <b>Unconstitutionality</b><br>&nbsp;&nbsp;- <b>Violation of parent Act</b><br>&nbsp;&nbsp;- <b>Unreasonableness</b><br><br><b>Key Point:</b> Judicial review is available for all delegated legislation to ensure it doesn't exceed the scope of parent Act",
+        "hi": "<b>सही उत्तर: केवल 1</b><br><br><b>कथन 1 ✓ सही:</b><br>• <b>प्रत्यायोजित/अधीनस्थ विधान</b> प्रशासनिक प्राधिकरणों द्वारा बनाया जाता है<br>• संसद <b>कार्यपालिका/मंत्रालयों</b> को नियम बनाने की शक्ति प्रत्यायोजित करती है<br>• उदाहरण: <b>नियम, विनियम, आदेश, उपनियम, अधिसूचनाएं</b><br>• संसद द्वारा पारित <b>मूल अधिनियम</b> के तहत बनाया जाता है<br><br><b>कथन 2 ✗ गलत:</b><br>• प्रत्यायोजित विधान <b>न्यायिक जांच से परे नहीं</b> है<br>• न्यायालय प्रत्यायोजित विधान की समीक्षा कर सकते हैं इन आधारों पर:<br>&nbsp;&nbsp;- <b>अल्ट्रा वायर्स</b> (प्रत्यायोजित शक्तियों से परे)<br>&nbsp;&nbsp;- <b>असंवैधानिकता</b><br>&nbsp;&nbsp;- <b>मूल अधिनियम का उल्लंघन</b><br>&nbsp;&nbsp;- <b>अनुचितता</b><br><br><b>मुख्य बिंदु:</b> सभी प्रत्यायोजित विधान के लिए न्यायिक समीक्षा उपलब्ध है ताकि यह सुनिश्चित हो कि यह मूल अधिनियम की सीमा से अधिक न हो"
+      }
+    }
+  ],
   "ssc_cgl_gk_17_sep_s2": [
     {
       "question": {
