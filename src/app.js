@@ -17,6 +17,7 @@ app.set('trust proxy', 1);
 // ==================== CORS (SIMPLE & WORKING) ====================
 const allowedOrigins = [
   'https://exam-axis.vercel.app',
+  'https://m-axis.vercel.app',
   'http://localhost:5500',
   'http://localhost:3000'
 ];

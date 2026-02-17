@@ -46142,7 +46142,834 @@
       }
     }
   ],
-  "ssc_cgl_gk_17_sep_s2": [
+  "ssc_cgl_gk_14_sep_s1": [
+    {
+      "questionNo": 1,
+      "question": {
+        "en": "Who gave the welfare definition of economics?",
+        "hi": "अर्थशास्त्र की कल्याणकारी परिभाषा किसने दी?"
+      },
+      "options": [
+        {
+          "en": "Adam Smith",
+          "hi": "एडम स्मिथ"
+        },
+        {
+          "en": "Alfred Marshall",
+          "hi": "अल्फ्रेड मार्शल"
+        },
+        {
+          "en": "Lionel Robbins",
+          "hi": "लियोनेल रॉबिंस"
+        },
+        {
+          "en": "J.B. Say",
+          "hi": "जे.बी. से"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Alfred Marshall",
+        "hi": "अल्फ्रेड मार्शल"
+      },
+      "explanation": {
+        "en": "Alfred Marshall gave the welfare definition of economics in his book 'Principles of Economics' (1890). He defined economics as 'a study of mankind in the ordinary business of life' and emphasized material welfare. Adam Smith gave the wealth definition, and Lionel Robbins gave the scarcity definition.",
+        "hi": "अल्फ्रेड मार्शल ने अपनी पुस्तक 'प्रिंसिपल्स ऑफ इकोनॉमिक्स' (1890) में अर्थशास्त्र की कल्याणकारी परिभाषा दी। उन्होंने अर्थशास्त्र को 'जीवन के सामान्य कार्यों में मानव जाति का अध्ययन' के रूप में परिभाषित किया और भौतिक कल्याण पर जोर दिया। एडम स्मिथ ने धन की परिभाषा दी और लियोनेल रॉबिंस ने दुर्लभता की परिभाषा दी।"
+      }
+    },
+    {
+      "questionNo": 2,
+      "question": {
+        "en": "What is the objective of the Chandrayaan-3 mission?",
+        "hi": "चंद्रयान-3 मिशन का उद्देश्य क्या है?"
+      },
+      "options": [
+        {
+          "en": "To study the Sun's corona",
+          "hi": "सूर्य के कोरोना का अध्ययन करना"
+        },
+        {
+          "en": "To explore the South Pole of the Moon",
+          "hi": "चंद्रमा के दक्षिणी ध्रुव का पता लगाना"
+        },
+        {
+          "en": "To establish a human base on Mars",
+          "hi": "मंगल पर मानव आधार स्थापित करना"
+        },
+        {
+          "en": "To observe asteroids in deep space",
+          "hi": "गहरे अंतरिक्ष में क्षुद्रग्रहों का निरीक्षण करना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "To explore the South Pole of the Moon",
+        "hi": "चंद्रमा के दक्षिणी ध्रुव का पता लगाना"
+      },
+      "explanation": {
+        "en": "Chandrayaan-3, launched on 14 July 2023, successfully soft-landed on the Moon's South Pole on 23 August 2023, making India the first country to land near the lunar South Pole and the fourth country to soft-land on the Moon. Its objectives included demonstrating safe soft landing, rover operations, and in-situ scientific experiments.",
+        "hi": "चंद्रयान-3, जो 14 जुलाई 2023 को लॉन्च किया गया था, 23 अगस्त 2023 को चंद्रमा के दक्षिणी ध्रुव पर सफलतापूर्वक सॉफ्ट-लैंड हुआ, जिससे भारत चंद्र दक्षिणी ध्रुव के पास उतरने वाला पहला देश और चंद्रमा पर सॉफ्ट-लैंड करने वाला चौथा देश बन गया। इसके उद्देश्यों में सुरक्षित सॉफ्ट लैंडिंग, रोवर संचालन और स्थानीय वैज्ञानिक प्रयोग शामिल थे।"
+      }
+    },
+    {
+      "questionNo": 3,
+      "question": {
+        "en": "Which among the following was a prominent Mughal port city?",
+        "hi": "निम्नलिखित में से कौन सा एक प्रमुख मुगल बंदरगाह शहर था?"
+      },
+      "options": [
+        {
+          "en": "Lahore",
+          "hi": "लाहौर"
+        },
+        {
+          "en": "Surat",
+          "hi": "सूरत"
+        },
+        {
+          "en": "Agra",
+          "hi": "आगरा"
+        },
+        {
+          "en": "Delhi",
+          "hi": "दिल्ली"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Surat",
+        "hi": "सूरत"
+      },
+      "explanation": {
+        "en": "Surat, located in Gujarat on the western coast, was the most prominent Mughal port city. It was the chief trading port of the Mughal Empire and served as a gateway for Hajj pilgrims and European traders. Lahore, Agra, and Delhi were important Mughal cities but were landlocked, not port cities.",
+        "hi": "सूरत, जो गुजरात में पश्चिमी तट पर स्थित है, सबसे प्रमुख मुगल बंदरगाह शहर था। यह मुगल साम्राज्य का मुख्य व्यापारिक बंदरगाह था और हज यात्रियों और यूरोपीय व्यापारियों के लिए प्रवेश द्वार के रूप में कार्य करता था। लाहौर, आगरा और दिल्ली महत्वपूर्ण मुगल शहर थे लेकिन भूमि से घिरे थे, बंदरगाह शहर नहीं।"
+      }
+    },
+    {
+      "questionNo": 4,
+      "question": {
+        "en": "Which government scheme focuses on promoting digital transactions among women Self-Help Groups (SHGs)?",
+        "hi": "कौन सी सरकारी योजना महिला स्वयं सहायता समूहों (SHGs) के बीच डिजिटल लेनदेन को बढ़ावा देने पर केंद्रित है?"
+      },
+      "options": [
+        {
+          "en": "Mahila E-Haat",
+          "hi": "महिला ई-हाट"
+        },
+        {
+          "en": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+          "hi": "प्रधानमंत्री जन धन योजना (PMJDY)"
+        },
+        {
+          "en": "Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM)",
+          "hi": "दीनदयाल अंत्योदय योजना - राष्ट्रीय ग्रामीण आजीविका मिशन (DAY-NRLM)"
+        },
+        {
+          "en": "Stand-Up India Scheme",
+          "hi": "स्टैंड-अप इंडिया योजना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM)",
+        "hi": "दीनदयाल अंत्योदय योजना - राष्ट्रीय ग्रामीण आजीविका मिशन (DAY-NRLM)"
+      },
+      "explanation": {
+        "en": "DAY-NRLM promotes digital financial inclusion among women SHGs by encouraging digital transactions, providing training on digital payment tools, and linking SHGs to banking services. It aims to reduce poverty by enabling rural women to access sustainable livelihood opportunities through self-help groups.",
+        "hi": "DAY-NRLM महिला SHG के बीच डिजिटल वित्तीय समावेशन को बढ़ावा देता है, डिजिटल लेनदेन को प्रोत्साहित करता है, डिजिटल भुगतान उपकरणों पर प्रशिक्षण प्रदान करता है और SHG को बैंकिंग सेवाओं से जोड़ता है। इसका उद्देश्य ग्रामीण महिलाओं को स्वयं सहायता समूहों के माध्यम से सतत आजीविका के अवसर प्रदान करके गरीबी कम करना है।"
+      }
+    },
+    {
+      "questionNo": 5,
+      "question": {
+        "en": "When light passes from air into glass, how do its speed and wavelength change?",
+        "hi": "जब प्रकाश हवा से कांच में गुजरता है, तो उसकी गति और तरंग दैर्ध्य कैसे बदलते हैं?"
+      },
+      "options": [
+        {
+          "en": "Speed increases, wavelength decreases",
+          "hi": "गति बढ़ती है, तरंग दैर्ध्य घटती है"
+        },
+        {
+          "en": "Speed decreases, wavelength decreases",
+          "hi": "गति घटती है, तरंग दैर्ध्य घटती है"
+        },
+        {
+          "en": "Speed increases, wavelength increases",
+          "hi": "गति बढ़ती है, तरंग दैर्ध्य बढ़ती है"
+        },
+        {
+          "en": "Speed decreases, wavelength increases",
+          "hi": "गति घटती है, तरंग दैर्ध्य बढ़ती है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Speed decreases, wavelength decreases",
+        "hi": "गति घटती है, तरंग दैर्ध्य घटती है"
+      },
+      "explanation": {
+        "en": "When light travels from a rarer medium (air) to a denser medium (glass), its speed decreases and wavelength decreases. However, its frequency remains constant. This is because v = fλ; since frequency (f) stays the same and speed (v) decreases, wavelength (λ) must also decrease.",
+        "hi": "जब प्रकाश विरल माध्यम (हवा) से सघन माध्यम (कांच) में जाता है, तो इसकी गति घटती है और तरंग दैर्ध्य घटती है। हालांकि, इसकी आवृत्ति स्थिर रहती है। ऐसा इसलिए है क्योंकि v = fλ; चूंकि आवृत्ति (f) समान रहती है और गति (v) घटती है, तरंग दैर्ध्य (λ) भी घटनी चाहिए।"
+      }
+    },
+    {
+      "questionNo": 6,
+      "question": {
+        "en": "In cricket, what is the term for a ball that hits the wicket after touching the bat?",
+        "hi": "क्रिकेट में, उस गेंद के लिए क्या शब्द है जो बल्ले को छूने के बाद विकेट से टकराती है?"
+      },
+      "options": [
+        {
+          "en": "Bowled",
+          "hi": "बोल्ड"
+        },
+        {
+          "en": "Caught",
+          "hi": "कैच"
+        },
+        {
+          "en": "Edge",
+          "hi": "किनारा (एज)"
+        },
+        {
+          "en": "Hit wicket",
+          "hi": "हिट विकेट"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Bowled",
+        "hi": "बोल्ड"
+      },
+      "explanation": {
+        "en": "When a bowler's delivery hits the stumps (wicket) and dislodges the bails — even if it touches the bat first — the batsman is given out 'Bowled'. It doesn't matter if the ball deflects off the bat or pad onto the stumps; the mode of dismissal remains 'Bowled'.",
+        "hi": "जब गेंदबाज की गेंद स्टंप (विकेट) से टकराती है और गिल्लियां गिरा देती है — भले ही वह पहले बल्ले को छुए — बल्लेबाज को 'बोल्ड' आउट दिया जाता है। इससे कोई फर्क नहीं पड़ता कि गेंद बल्ले या पैड से विक्षेपित होकर स्टंप पर लगती है; आउट होने का तरीका 'बोल्ड' ही रहता है।"
+      }
+    },
+    {
+      "questionNo": 7,
+      "question": {
+        "en": "Which Mughal ruler shifted the capital of his empire from Agra to Delhi?",
+        "hi": "किस मुगल शासक ने अपने साम्राज्य की राजधानी आगरा से दिल्ली स्थानांतरित की थी?"
+      },
+      "options": [
+        {
+          "en": "Akbar",
+          "hi": "अकबर"
+        },
+        {
+          "en": "Jahangir",
+          "hi": "जहाँगीर"
+        },
+        {
+          "en": "Shah Jahan",
+          "hi": "शाहजहाँ"
+        },
+        {
+          "en": "Aurangzeb",
+          "hi": "औरंगजेब"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Shah Jahan",
+        "hi": "शाहजहाँ"
+      },
+      "explanation": {
+        "en": "Shah Jahan shifted the Mughal capital from Agra to Delhi in 1648. He built the new city of Shahjahanabad (Old Delhi), which included the Red Fort (Lal Qila) and the Jama Masjid. The Red Fort served as the imperial residence and the seat of Mughal power.",
+        "hi": "शाहजहाँ ने 1648 में मुगल राजधानी आगरा से दिल्ली स्थानांतरित की। उन्होंने शाहजहानाबाद (पुरानी दिल्ली) का नया शहर बनवाया, जिसमें लाल किला और जामा मस्जिद शामिल थे। लाल किला शाही निवास और मुगल सत्ता की सीट के रूप में कार्य करता था।"
+      }
+    },
+    {
+      "questionNo": 8,
+      "question": {
+        "en": "Which cell organelle is known as the 'powerhouse of the cell'?",
+        "hi": "किस कोशिका अंगक को 'कोशिका का पावरहाउस' कहा जाता है?"
+      },
+      "options": [
+        {
+          "en": "Nucleus",
+          "hi": "नाभिक"
+        },
+        {
+          "en": "Ribosomes",
+          "hi": "राइबोसोम"
+        },
+        {
+          "en": "Mitochondria",
+          "hi": "माइटोकॉन्ड्रिया"
+        },
+        {
+          "en": "Cytoplasm",
+          "hi": "कोशिका द्रव्य"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Mitochondria",
+        "hi": "माइटोकॉन्ड्रिया"
+      },
+      "explanation": {
+        "en": "Mitochondria are called the 'powerhouse of the cell' because they produce ATP (adenosine triphosphate) through cellular respiration. ATP is the energy currency of the cell. Mitochondria have their own DNA and a double membrane structure — the inner membrane is folded into cristae to increase surface area for energy production.",
+        "hi": "माइटोकॉन्ड्रिया को 'कोशिका का पावरहाउस' कहा जाता है क्योंकि वे कोशिकीय श्वसन के माध्यम से ATP (एडेनोसिन ट्राइफॉस्फेट) का उत्पादन करते हैं। ATP कोशिका की ऊर्जा मुद्रा है। माइटोकॉन्ड्रिया का अपना DNA और दोहरी झिल्ली संरचना होती है — आंतरिक झिल्ली ऊर्जा उत्पादन के लिए सतह क्षेत्र बढ़ाने के लिए क्रिस्टी में मुड़ी होती है।"
+      }
+    },
+    {
+      "questionNo": 9,
+      "question": {
+        "en": "In which year was the Sports Authority of India (SAI) established?",
+        "hi": "भारतीय खेल प्राधिकरण (SAI) की स्थापना किस वर्ष की गई थी?"
+      },
+      "options": [
+        {
+          "en": "1975",
+          "hi": "1975"
+        },
+        {
+          "en": "1984",
+          "hi": "1984"
+        },
+        {
+          "en": "1990",
+          "hi": "1990"
+        },
+        {
+          "en": "2001",
+          "hi": "2001"
+        }
+      ],
+      "correctAnswer": {
+        "en": "1984",
+        "hi": "1984"
+      },
+      "explanation": {
+        "en": "The Sports Authority of India (SAI) was established on 25 January 1984 as an autonomous body under the Ministry of Youth Affairs and Sports. It is the apex national sports body responsible for training sportspersons, developing coaches, and managing sports infrastructure across India.",
+        "hi": "भारतीय खेल प्राधिकरण (SAI) की स्थापना 25 जनवरी 1984 को युवा मामले और खेल मंत्रालय के तहत एक स्वायत्त निकाय के रूप में की गई थी। यह खिलाड़ियों को प्रशिक्षित करने, कोचों को विकसित करने और पूरे भारत में खेल बुनियादी ढांचे के प्रबंधन के लिए जिम्मेदार शीर्ष राष्ट्रीय खेल निकाय है।"
+      }
+    },
+    {
+      "questionNo": 10,
+      "question": {
+        "en": "Which British Viceroy is associated with the Partition of Bengal in 1905?",
+        "hi": "1905 में बंगाल के विभाजन से कौन सा ब्रिटिश वायसराय जुड़ा है?"
+      },
+      "options": [
+        {
+          "en": "Lord Ripon",
+          "hi": "लॉर्ड रिपन"
+        },
+        {
+          "en": "Lord Curzon",
+          "hi": "लॉर्ड कर्जन"
+        },
+        {
+          "en": "Lord Hardinge",
+          "hi": "लॉर्ड हार्डिंग"
+        },
+        {
+          "en": "Lord Lytton",
+          "hi": "लॉर्ड लिटन"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Lord Curzon",
+        "hi": "लॉर्ड कर्जन"
+      },
+      "explanation": {
+        "en": "Lord Curzon, the Viceroy of India (1899-1905), partitioned Bengal on 16 October 1905, dividing it into East Bengal & Assam (Muslim majority) and West Bengal (Hindu majority). The stated reason was administrative efficiency, but the real aim was to weaken the growing nationalist movement. It was annulled in 1911 by Lord Hardinge.",
+        "hi": "भारत के वायसराय लॉर्ड कर्जन (1899-1905) ने 16 अक्टूबर 1905 को बंगाल का विभाजन किया, इसे पूर्वी बंगाल और असम (मुस्लिम बहुमत) और पश्चिम बंगाल (हिंदू बहुमत) में विभाजित किया। बताया गया कारण प्रशासनिक दक्षता था, लेकिन वास्तविक उद्देश्य बढ़ते राष्ट्रवादी आंदोलन को कमजोर करना था। इसे 1911 में लॉर्ड हार्डिंग ने रद्द कर दिया।"
+      }
+    },
+    {
+      "questionNo": 11,
+      "question": {
+        "en": "What is the main objective of the Bharatiya Nyaya Sanhita (BNS)?",
+        "hi": "भारतीय न्याय संहिता (BNS) का मुख्य उद्देश्य क्या है?"
+      },
+      "options": [
+        {
+          "en": "To simplify and modernize criminal laws",
+          "hi": "आपराधिक कानूनों को सरल और आधुनिक बनाना"
+        },
+        {
+          "en": "To abolish all existing civil laws",
+          "hi": "सभी मौजूदा नागरिक कानूनों को समाप्त करना"
+        },
+        {
+          "en": "To replace the Constitution of India",
+          "hi": "भारत के संविधान को बदलना"
+        },
+        {
+          "en": "To remove the role of the judiciary",
+          "hi": "न्यायपालिका की भूमिका को हटाना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "To simplify and modernize criminal laws",
+        "hi": "आपराधिक कानूनों को सरल और आधुनिक बनाना"
+      },
+      "explanation": {
+        "en": "The Bharatiya Nyaya Sanhita (BNS), 2023, replaced the Indian Penal Code (IPC) of 1860. Its main objective is to simplify and modernize India's criminal laws, making them more relevant to contemporary society. It came into effect on 1 July 2024 along with BNSS (replacing CrPC) and BSA (replacing Indian Evidence Act).",
+        "hi": "भारतीय न्याय संहिता (BNS), 2023 ने 1860 की भारतीय दंड संहिता (IPC) की जगह ली। इसका मुख्य उद्देश्य भारत के आपराधिक कानूनों को सरल और आधुनिक बनाना है, जिससे वे समकालीन समाज के लिए अधिक प्रासंगिक हो सकें। यह 1 जुलाई 2024 को BNSS (CrPC की जगह) और BSA (भारतीय साक्ष्य अधिनियम की जगह) के साथ लागू हुआ।"
+      }
+    },
+    {
+      "questionNo": 12,
+      "question": {
+        "en": "Dr V. Narayanan, Chairman of ISRO and Secretary of the Department of Space, was honoured in 2025 with which award for his contributions to India's space programme?",
+        "hi": "इसरो के अध्यक्ष और अंतरिक्ष विभाग के सचिव डॉ. वी. नारायणन को भारत के अंतरिक्ष कार्यक्रम में उनके योगदान के लिए 2025 में किस पुरस्कार से सम्मानित किया गया?"
+      },
+      "options": [
+        {
+          "en": "Padma Vibhushan",
+          "hi": "पद्म विभूषण"
+        },
+        {
+          "en": "G.P. Birla Memorial Award",
+          "hi": "जी.पी. बिड़ला मेमोरियल अवार्ड"
+        },
+        {
+          "en": "Shanti Swarup Bhatnagar Prize",
+          "hi": "शांति स्वरूप भटनागर पुरस्कार"
+        },
+        {
+          "en": "Bharat Ratna",
+          "hi": "भारत रत्न"
+        }
+      ],
+      "correctAnswer": {
+        "en": "G.P. Birla Memorial Award",
+        "hi": "जी.पी. बिड़ला मेमोरियल अवार्ड"
+      },
+      "explanation": {
+        "en": "Dr V. Narayanan, Chairman of ISRO, was honoured with the G.P. Birla Memorial Award in 2025 for his outstanding contributions to India's space programme, including his role in the development of cryogenic engines and the Chandrayaan and Gaganyaan missions.",
+        "hi": "इसरो के अध्यक्ष डॉ. वी. नारायणन को 2025 में भारत के अंतरिक्ष कार्यक्रम में उनके उत्कृष्ट योगदान के लिए जी.पी. बिड़ला मेमोरियल अवार्ड से सम्मानित किया गया, जिसमें क्रायोजेनिक इंजन और चंद्रयान तथा गगनयान मिशन के विकास में उनकी भूमिका शामिल है।"
+      }
+    },
+    {
+      "questionNo": 13,
+      "question": {
+        "en": "\"Bihu\" is a famous folk dance associated with which Indian state?",
+        "hi": "\"बिहू\" किस भारतीय राज्य से जुड़ा एक प्रसिद्ध लोक नृत्य है?"
+      },
+      "options": [
+        {
+          "en": "Assam",
+          "hi": "असम"
+        },
+        {
+          "en": "West Bengal",
+          "hi": "पश्चिम बंगाल"
+        },
+        {
+          "en": "Odisha",
+          "hi": "ओडिशा"
+        },
+        {
+          "en": "Manipur",
+          "hi": "मणिपुर"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Assam",
+        "hi": "असम"
+      },
+      "explanation": {
+        "en": "Bihu is the most popular folk dance of Assam, performed during the Bihu festival which marks the Assamese New Year (mid-April). There are three types of Bihu — Rongali (Bohag Bihu), Kongali (Kati Bihu), and Bhogali (Magh Bihu). The dance is performed by young men and women with fast rhythmic movements accompanied by drums (dhol) and pepa (buffalo horn pipe).",
+        "hi": "बिहू असम का सबसे लोकप्रिय लोक नृत्य है, जो बिहू त्योहार के दौरान किया जाता है जो असमिया नव वर्ष (मध्य अप्रैल) का प्रतीक है। बिहू तीन प्रकार के होते हैं — रोंगाली (बोहाग बिहू), कोंगाली (काटी बिहू), और भोगाली (माघ बिहू)। यह नृत्य युवक-युवतियों द्वारा ढोल और पेपा (भैंस के सींग की पाइप) की संगत में तेज लयबद्ध गतिविधियों के साथ किया जाता है।"
+      }
+    },
+    {
+      "questionNo": 14,
+      "question": {
+        "en": "Who was the 24th Tirthankara of Jainism?",
+        "hi": "जैन धर्म के 24वें तीर्थंकर कौन थे?"
+      },
+      "options": [
+        {
+          "en": "Neminath",
+          "hi": "नेमिनाथ"
+        },
+        {
+          "en": "Rishabhdev",
+          "hi": "ऋषभदेव"
+        },
+        {
+          "en": "Mahavira",
+          "hi": "महावीर"
+        },
+        {
+          "en": "Parshvanath",
+          "hi": "पार्श्वनाथ"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Mahavira",
+        "hi": "महावीर"
+      },
+      "explanation": {
+        "en": "Mahavira (Vardhamana) was the 24th and last Tirthankara of Jainism. He was born in 540 BCE in Vaishali (Bihar) and attained Kevala Jnana (omniscience) at age 42. Rishabhdev was the 1st Tirthankara, Parshvanath was the 23rd, and Neminath was the 22nd Tirthankara.",
+        "hi": "महावीर (वर्धमान) जैन धर्म के 24वें और अंतिम तीर्थंकर थे। उनका जन्म 540 ईसा पूर्व में वैशाली (बिहार) में हुआ था और उन्होंने 42 वर्ष की आयु में कैवल्य ज्ञान (सर्वज्ञता) प्राप्त किया। ऋषभदेव पहले तीर्थंकर, पार्श्वनाथ 23वें और नेमिनाथ 22वें तीर्थंकर थे।"
+      }
+    },
+    {
+      "questionNo": 15,
+      "question": {
+        "en": "Consider the following statements about the Himalayan region:<br><br>1. The Himalayas are tectonically young and structurally folded mountains.<br><br>2. They were formed due to the collision between the Eurasian and Indo-Australian plates.<br><br>3. The Greater Himalayas are also known as Himadri.<br><br>Which of the above statements is/are correct?",
+        "hi": "हिमालयी क्षेत्र के बारे में निम्नलिखित कथनों पर विचार कीजिए:<br><br>1. हिमालय विवर्तनिक रूप से युवा और संरचनात्मक रूप से मुड़े हुए पर्वत हैं।<br><br>2. इनका निर्माण यूरेशियन और इंडो-ऑस्ट्रेलियाई प्लेटों के बीच टक्कर के कारण हुआ था।<br><br>3. महान हिमालय को हिमाद्री के नाम से भी जाना जाता है।<br><br>उपरोक्त में से कौन सा/से कथन सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "1 and 2 only",
+          "hi": "केवल 1 और 2"
+        },
+        {
+          "en": "2 and 3 only",
+          "hi": "केवल 2 और 3"
+        },
+        {
+          "en": "1 and 3 only",
+          "hi": "केवल 1 और 3"
+        },
+        {
+          "en": "1, 2 and 3",
+          "hi": "1, 2 और 3"
+        }
+      ],
+      "correctAnswer": {
+        "en": "1, 2 and 3",
+        "hi": "1, 2 और 3"
+      },
+      "explanation": {
+        "en": "All three statements are correct. The Himalayas are young fold mountains formed about 50 million years ago due to the convergence of the Indo-Australian and Eurasian tectonic plates. The Greater Himalayas (Himadri) is the innermost and highest range, with an average height of 6,000 m, containing peaks like Mt. Everest (8,849 m) and Kanchenjunga (8,586 m).",
+        "hi": "तीनों कथन सही हैं। हिमालय युवा वलित पर्वत हैं जो लगभग 50 मिलियन वर्ष पहले इंडो-ऑस्ट्रेलियाई और यूरेशियाई विवर्तनिक प्लेटों के अभिसरण के कारण बने। महान हिमालय (हिमाद्री) सबसे भीतरी और सबसे ऊँची श्रेणी है, जिसकी औसत ऊँचाई 6,000 मी. है, जिसमें माउंट एवरेस्ट (8,849 मी.) और कंचनजंगा (8,586 मी.) जैसी चोटियाँ हैं।"
+      }
+    },
+    {
+      "questionNo": 16,
+      "question": {
+        "en": "According to the 2011 Census, what was the literacy rate of India?",
+        "hi": "2011 की जनगणना के अनुसार, भारत की साक्षरता दर क्या थी?"
+      },
+      "options": [
+        {
+          "en": "64.83%",
+          "hi": "64.83%"
+        },
+        {
+          "en": "69.92%",
+          "hi": "69.92%"
+        },
+        {
+          "en": "74.04%",
+          "hi": "74.04%"
+        },
+        {
+          "en": "78.11%",
+          "hi": "78.11%"
+        }
+      ],
+      "correctAnswer": {
+        "en": "74.04%",
+        "hi": "74.04%"
+      },
+      "explanation": {
+        "en": "According to the Census 2011, India's overall literacy rate was 74.04%. Male literacy was 82.14% and female literacy was 65.46%. Kerala had the highest literacy rate (93.91%) and Bihar had the lowest (63.82%). The literacy rate improved from 64.83% in the 2001 Census.",
+        "hi": "2011 की जनगणना के अनुसार, भारत की समग्र साक्षरता दर 74.04% थी। पुरुष साक्षरता 82.14% और महिला साक्षरता 65.46% थी। केरल में सबसे अधिक साक्षरता दर (93.91%) और बिहार में सबसे कम (63.82%) थी। 2001 की जनगणना में 64.83% से साक्षरता दर में सुधार हुआ।"
+      }
+    },
+    {
+      "questionNo": 17,
+      "question": {
+        "en": "Which river originates from the Amarkantak Plateau and flows westward to join the Arabian Sea?",
+        "hi": "कौन सी नदी अमरकंटक पठार से निकलती है और अरब सागर में मिलने के लिए पश्चिम की ओर बहती है?"
+      },
+      "options": [
+        {
+          "en": "Narmada River",
+          "hi": "नर्मदा नदी"
+        },
+        {
+          "en": "Godavari River",
+          "hi": "गोदावरी नदी"
+        },
+        {
+          "en": "Mahanadi River",
+          "hi": "महानदी नदी"
+        },
+        {
+          "en": "Krishna River",
+          "hi": "कृष्णा नदी"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Narmada River",
+        "hi": "नर्मदा नदी"
+      },
+      "explanation": {
+        "en": "The Narmada River originates from the Amarkantak Plateau in Madhya Pradesh and flows westward for about 1,312 km through a rift valley to join the Arabian Sea near the Gulf of Khambhat (Gujarat). It is one of only three major rivers in India that flows westward (along with Tapi and Mahi). The Narmada does not form a delta but an estuary.",
+        "hi": "नर्मदा नदी मध्य प्रदेश में अमरकंटक पठार से निकलती है और एक रिफ्ट घाटी से होकर लगभग 1,312 किमी पश्चिम की ओर बहकर खंभात की खाड़ी (गुजरात) के पास अरब सागर में मिलती है। यह भारत की उन तीन प्रमुख नदियों में से एक है जो पश्चिम की ओर बहती है (ताप्ती और माही के साथ)। नर्मदा डेल्टा नहीं बल्कि ज्वारनदमुख बनाती है।"
+      }
+    },
+    {
+      "questionNo": 18,
+      "question": {
+        "en": "\"India's Struggle for Independence\" was authored by whom?",
+        "hi": "\"इंडियाज स्ट्रगल फॉर इंडिपेंडेंस\" किसके द्वारा लिखी गई थी?"
+      },
+      "options": [
+        {
+          "en": "Bipin Chandra",
+          "hi": "बिपिन चंद्र"
+        },
+        {
+          "en": "R.C. Majumdar",
+          "hi": "आर.सी. मजूमदार"
+        },
+        {
+          "en": "Tara Chand",
+          "hi": "तारा चंद"
+        },
+        {
+          "en": "Lala Lajpat Rai",
+          "hi": "लाला लाजपत राय"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Bipin Chandra",
+        "hi": "बिपिन चंद्र"
+      },
+      "explanation": {
+        "en": "'India's Struggle for Independence' (1989) was authored by Bipin Chandra along with co-authors Mridula Mukherjee, Aditya Mukherjee, Sucheta Mahajan, and K.N. Panikkar. It is one of the most widely read books on the Indian independence movement and is a standard reference for competitive exams in India.",
+        "hi": "'इंडियाज स्ट्रगल फॉर इंडिपेंडेंस' (1989) बिपिन चंद्र द्वारा सह-लेखकों मृदुला मुखर्जी, आदित्य मुखर्जी, सुचेता महाजन और के.एन. पणिक्कर के साथ लिखी गई थी। यह भारतीय स्वतंत्रता आंदोलन पर सबसे अधिक पढ़ी जाने वाली पुस्तकों में से एक है और भारत में प्रतियोगी परीक्षाओं के लिए एक मानक संदर्भ है।"
+      }
+    },
+    {
+      "questionNo": 19,
+      "question": {
+        "en": "Consider the following statements about the 89th General Meeting of the IEC to be hosted by India in 2025:<br><br>1. The meeting will be held in New Delhi at Bharat Mandapam from 15 to 19 September 2025.<br><br>2. India has been designated as the Global Secretariat for standardisation in Low Voltage Direct Current (LVDC) at this event.<br><br>3. This will be the first time India hosts the IEC General Meeting.<br><br>Which of the statements above is/are correct?",
+        "hi": "2025 में भारत द्वारा आयोजित की जाने वाली IEC की 89वीं आम बैठक के बारे में निम्नलिखित कथनों पर विचार कीजिए:<br><br>1. बैठक 15 से 19 सितंबर 2025 तक नई दिल्ली में भारत मंडपम में आयोजित की जाएगी।<br><br>2. भारत को इस कार्यक्रम में लो वोल्टेज डायरेक्ट करंट (LVDC) में मानकीकरण के लिए वैश्विक सचिवालय के रूप में नामित किया गया है।<br><br>3. यह पहली बार होगा जब भारत IEC की आम बैठक की मेजबानी करेगा।<br><br>उपरोक्त में से कौन सा/से कथन सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "Only 1",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "Only 2",
+          "hi": "केवल 2"
+        },
+        {
+          "en": "1 and 2 only",
+          "hi": "केवल 1 और 2"
+        },
+        {
+          "en": "All 1, 2 and 3",
+          "hi": "सभी 1, 2 और 3"
+        }
+      ],
+      "correctAnswer": {
+        "en": "1 and 2 only",
+        "hi": "केवल 1 और 2"
+      },
+      "explanation": {
+        "en": "Statements 1 and 2 are correct. The 89th IEC General Meeting will be held at Bharat Mandapam, New Delhi, from 15-19 September 2025, and India has been designated as the Global Secretariat for LVDC standardisation. Statement 3 is incorrect as India has hosted the IEC General Meeting before (in New Delhi in 1964).",
+        "hi": "कथन 1 और 2 सही हैं। 89वीं IEC आम बैठक 15-19 सितंबर 2025 को नई दिल्ली में भारत मंडपम में आयोजित की जाएगी, और भारत को LVDC मानकीकरण के लिए वैश्विक सचिवालय के रूप में नामित किया गया है। कथन 3 गलत है क्योंकि भारत ने पहले भी IEC आम बैठक की मेजबानी की है (1964 में नई दिल्ली में)।"
+      }
+    },
+    {
+      "questionNo": 20,
+      "question": {
+        "en": "To which level of government do taxes on income other than agricultural income belong?",
+        "hi": "कृषि आय के अलावा अन्य आय पर कर सरकार के किस स्तर से संबंधित हैं?"
+      },
+      "options": [
+        {
+          "en": "State",
+          "hi": "राज्य"
+        },
+        {
+          "en": "Union",
+          "hi": "संघ"
+        },
+        {
+          "en": "Municipality",
+          "hi": "नगरपालिका"
+        },
+        {
+          "en": "Panchayat",
+          "hi": "पंचायत"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Union",
+        "hi": "संघ"
+      },
+      "explanation": {
+        "en": "Taxes on income other than agricultural income fall under the Union List (Entry 82) of the Seventh Schedule of the Indian Constitution. Income Tax is levied and collected by the Union/Central Government. Agricultural income is exempt from income tax under Section 10(1) of the Income Tax Act and falls under the State List.",
+        "hi": "कृषि आय के अलावा अन्य आय पर कर भारतीय संविधान की सातवीं अनुसूची की संघ सूची (प्रविष्टि 82) के अंतर्गत आते हैं। आयकर केंद्र/संघ सरकार द्वारा लगाया और एकत्र किया जाता है। कृषि आय आयकर अधिनियम की धारा 10(1) के तहत आयकर से मुक्त है और राज्य सूची के अंतर्गत आती है।"
+      }
+    },
+    {
+      "questionNo": 21,
+      "question": {
+        "en": "Birsa Munda led the Munda Rebellion against the British in which region of India?",
+        "hi": "बिरसा मुंडा ने भारत के किस क्षेत्र में अंग्रेजों के खिलाफ मुंडा विद्रोह का नेतृत्व किया था?"
+      },
+      "options": [
+        {
+          "en": "Chotanagpur Plateau",
+          "hi": "छोटानागपुर पठार"
+        },
+        {
+          "en": "Bundelkhand",
+          "hi": "बुंदेलखंड"
+        },
+        {
+          "en": "Doab Region",
+          "hi": "दोआब क्षेत्र"
+        },
+        {
+          "en": "Malwa Plateau",
+          "hi": "मालवा पठार"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Chotanagpur Plateau",
+        "hi": "छोटानागपुर पठार"
+      },
+      "explanation": {
+        "en": "Birsa Munda (1875-1900) led the Munda Rebellion (Ulgulan, meaning 'The Great Tumult') in 1899-1900 in the Chotanagpur Plateau region (present-day Jharkhand). He fought against British colonial rule, zamindari exploitation, and conversion activities. His movement led to the Chotanagpur Tenancy Act, 1908. He is revered as 'Dharti Aaba' (Father of the Earth).",
+        "hi": "बिरसा मुंडा (1875-1900) ने 1899-1900 में छोटानागपुर पठार क्षेत्र (वर्तमान झारखंड) में मुंडा विद्रोह (उलगुलान, जिसका अर्थ है 'महान उथल-पुथल') का नेतृत्व किया। उन्होंने ब्रिटिश औपनिवेशिक शासन, जमींदारी शोषण और धर्मांतरण गतिविधियों के खिलाफ लड़ाई लड़ी। उनके आंदोलन ने छोटानागपुर काश्तकारी अधिनियम, 1908 को जन्म दिया। उन्हें 'धरती आबा' (पृथ्वी के पिता) के रूप में पूजा जाता है।"
+      }
+    },
+    {
+      "questionNo": 22,
+      "question": {
+        "en": "Which two gases primarily contribute to the greenhouse effect in Earth's atmosphere?",
+        "hi": "पृथ्वी के वायुमंडल में मुख्य रूप से कौन सी दो गैसें ग्रीनहाउस प्रभाव में योगदान करती हैं?"
+      },
+      "options": [
+        {
+          "en": "Nitrogen (N₂) and Oxygen (O₂)",
+          "hi": "नाइट्रोजन (N₂) और ऑक्सीजन (O₂)"
+        },
+        {
+          "en": "Carbon dioxide (CO₂) and Methane (CH₄)",
+          "hi": "कार्बन डाइऑक्साइड (CO₂) और मीथेन (CH₄)"
+        },
+        {
+          "en": "Argon (Ar) and Neon (Ne)",
+          "hi": "आर्गन (Ar) और नियॉन (Ne)"
+        },
+        {
+          "en": "Hydrogen (H₂) and Ozone (O₃)",
+          "hi": "हाइड्रोजन (H₂) और ओज़ोन (O₃)"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Carbon dioxide (CO₂) and Methane (CH₄)",
+        "hi": "कार्बन डाइऑक्साइड (CO₂) और मीथेन (CH₄)"
+      },
+      "explanation": {
+        "en": "Carbon dioxide (CO₂) and Methane (CH₄) are the two primary greenhouse gases contributing to global warming. CO₂ is released mainly from burning fossil fuels and deforestation. Methane is about 80 times more potent than CO₂ over 20 years and is released from livestock, rice paddies, and natural gas systems. Other greenhouse gases include nitrous oxide (N₂O) and water vapour.",
+        "hi": "कार्बन डाइऑक्साइड (CO₂) और मीथेन (CH₄) दो प्रमुख ग्रीनहाउस गैसें हैं जो ग्लोबल वार्मिंग में योगदान करती हैं। CO₂ मुख्य रूप से जीवाश्म ईंधन जलाने और वनों की कटाई से निकलती है। मीथेन 20 वर्षों में CO₂ से लगभग 80 गुना अधिक शक्तिशाली है और पशुधन, धान के खेतों और प्राकृतिक गैस प्रणालियों से निकलती है। अन्य ग्रीनहाउस गैसों में नाइट्रस ऑक्साइड (N₂O) और जल वाष्प शामिल हैं।"
+      }
+    },
+    {
+      "questionNo": 23,
+      "question": {
+        "en": "What was the main objective of India's Eighth Five-Year Plan (1992-1997)?",
+        "hi": "भारत की आठवीं पंचवर्षीय योजना (1992-1997) का मुख्य उद्देश्य क्या था?"
+      },
+      "options": [
+        {
+          "en": "Economic liberalization and market reforms",
+          "hi": "आर्थिक उदारीकरण और बाजार सुधार"
+        },
+        {
+          "en": "Achieving self-reliance in defense production",
+          "hi": "रक्षा उत्पादन में आत्मनिर्भरता प्राप्त करना"
+        },
+        {
+          "en": "Development of heavy industries",
+          "hi": "भारी उद्योगों का विकास"
+        },
+        {
+          "en": "Green Revolution expansion",
+          "hi": "हरित क्रांति का विस्तार"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Economic liberalization and market reforms",
+        "hi": "आर्थिक उदारीकरण और बाजार सुधार"
+      },
+      "explanation": {
+        "en": "The Eighth Five-Year Plan (1992-1997) was launched in the backdrop of the 1991 economic crisis and the LPG (Liberalization, Privatization, Globalization) reforms introduced by PM Narasimha Rao and Finance Minister Manmohan Singh. The plan focused on modernization of industries, fiscal discipline, reduction in subsidies, and promoting private sector participation. It achieved an actual GDP growth of 6.8%.",
+        "hi": "आठवीं पंचवर्षीय योजना (1992-1997) 1991 के आर्थिक संकट और पीएम नरसिम्हा राव तथा वित्त मंत्री मनमोहन सिंह द्वारा शुरू किए गए LPG (उदारीकरण, निजीकरण, वैश्वीकरण) सुधारों की पृष्ठभूमि में शुरू की गई थी। योजना ने उद्योगों के आधुनिकीकरण, राजकोषीय अनुशासन, सब्सिडी में कमी और निजी क्षेत्र की भागीदारी को बढ़ावा देने पर ध्यान केंद्रित किया। इसने 6.8% की वास्तविक जीडीपी वृद्धि हासिल की।"
+      }
+    },
+    {
+      "questionNo": 24,
+      "question": {
+        "en": "Disinvestment of public sector undertakings (PSUs) is a part of which economic reform pillar?",
+        "hi": "सार्वजनिक क्षेत्र के उपक्रमों (PSUs) का विनिवेश किस आर्थिक सुधार स्तंभ का हिस्सा है?"
+      },
+      "options": [
+        {
+          "en": "Liberalisation",
+          "hi": "उदारीकरण"
+        },
+        {
+          "en": "Privatisation",
+          "hi": "निजीकरण"
+        },
+        {
+          "en": "Globalisation",
+          "hi": "वैश्वीकरण"
+        },
+        {
+          "en": "Industrialisation",
+          "hi": "औद्योगीकरण"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Privatisation",
+        "hi": "निजीकरण"
+      },
+      "explanation": {
+        "en": "Disinvestment of PSUs is a key component of Privatisation under the LPG reforms (1991). Disinvestment means selling the government's equity (shares) in PSUs to private entities to improve efficiency, reduce fiscal burden, and generate revenue. Examples include the strategic sale of Air India to Tata Group (2022) and BPCL disinvestment plans.",
+        "hi": "PSU का विनिवेश LPG सुधारों (1991) के तहत निजीकरण का एक प्रमुख घटक है। विनिवेश का अर्थ है दक्षता में सुधार, राजकोषीय बोझ कम करने और राजस्व उत्पन्न करने के लिए PSU में सरकार की इक्विटी (शेयर) को निजी संस्थाओं को बेचना। उदाहरणों में एयर इंडिया की टाटा ग्रुप को रणनीतिक बिक्री (2022) और BPCL विनिवेश योजनाएं शामिल हैं।"
+      }
+    },
+    {
+      "questionNo": 25,
+      "question": {
+        "en": "Which Article empowers the President to impose President's Rule in a State?",
+        "hi": "कौन सा अनुच्छेद राष्ट्रपति को किसी राज्य में राष्ट्रपति शासन लगाने का अधिकार देता है?"
+      },
+      "options": [
+        {
+          "en": "Article 352",
+          "hi": "अनुच्छेद 352"
+        },
+        {
+          "en": "Article 356",
+          "hi": "अनुच्छेद 356"
+        },
+        {
+          "en": "Article 360",
+          "hi": "अनुच्छेद 360"
+        },
+        {
+          "en": "Article 365",
+          "hi": "अनुच्छेद 365"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Article 356",
+        "hi": "अनुच्छेद 356"
+      },
+      "explanation": {
+        "en": "Article 356 empowers the President to impose President's Rule (State Emergency) in a State if the President is satisfied that the governance of the State cannot be carried on in accordance with the Constitution. It must be approved by Parliament within 2 months and can last up to 3 years (with parliamentary approval every 6 months). Article 352 deals with National Emergency, and Article 360 deals with Financial Emergency.",
+        "hi": "अनुच्छेद 356 राष्ट्रपति को किसी राज्य में राष्ट्रपति शासन (राज्य आपातकाल) लगाने का अधिकार देता है यदि राष्ट्रपति संतुष्ट हो कि राज्य का शासन संविधान के अनुसार नहीं चलाया जा सकता। इसे 2 महीने के भीतर संसद द्वारा अनुमोदित किया जाना चाहिए और यह अधिकतम 3 वर्ष तक (हर 6 महीने में संसदीय अनुमोदन के साथ) चल सकता है। अनुच्छेद 352 राष्ट्रीय आपातकाल से और अनुच्छेद 360 वित्तीय आपातकाल से संबंधित है।"
+      }
+    }
+  ],
+"ssc_cgl_gk_17_sep_s2": [
     {
       "question": {
         "en": "Which of the following is a notable architectural feature of Notre Dame des Anges Church in Puducherry?",
