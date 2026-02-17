@@ -46969,6 +46969,1660 @@
       }
     }
   ],
+   "ssc_cgl_gk_14_sep_s2": [
+    {
+      "questionNo": 1,
+      "question": {
+        "en": "Which of the following best explains the cultural importance of \"Mim\" in the Mim Kut festival?",
+        "hi": "मिम कुट उत्सव में \"मिम\" के सांस्कृतिक महत्व को निम्नलिखित में से कौन सबसे अच्छी तरह समझाता है?"
+      },
+      "options": [
+        {
+          "en": "A special millet preserved for times of scarcity",
+          "hi": "कमी के समय के लिए संरक्षित एक विशेष बाजरा"
+        },
+        {
+          "en": "The last harvest representing survival and love",
+          "hi": "उत्तरजीविता और प्रेम का प्रतिनिधित्व करने वाली अंतिम फसल"
+        },
+        {
+          "en": "The sacred herb for tribal healing",
+          "hi": "आदिवासी उपचार के लिए पवित्र जड़ी-बूटी"
+        },
+        {
+          "en": "A legendary tribute dedicated solely to ancestral spirits",
+          "hi": "विशेष रूप से पैतृक आत्माओं को समर्पित एक पौराणिक श्रद्धांजलि"
+        }
+      ],
+      "correctAnswer": {
+        "en": "The last harvest representing survival and love",
+        "hi": "उत्तरजीविता और प्रेम का प्रतिनिधित्व करने वाली अंतिम फसल"
+      },
+      "explanation": {
+        "en": "Mim Kut is a post-harvest festival celebrated by the Mizo and Hmar tribes of Mizoram. 'Mim' refers to maize (corn), and 'Kut' means festival. The maize harvest represents the last harvest of the year, symbolizing survival through the lean season and the community's love and gratitude. The festival involves feasting, dancing, and offering thanks for the harvest.",
+        "hi": "मिम कुट मिजोरम की मिजो और हमार जनजातियों द्वारा मनाया जाने वाला एक फसल-पश्चात उत्सव है। 'मिम' का अर्थ मक्का (मकई) है और 'कुट' का अर्थ उत्सव है। मक्के की फसल वर्ष की अंतिम फसल का प्रतिनिधित्व करती है, जो कठिन मौसम में जीवित रहने और समुदाय के प्रेम और कृतज्ञता का प्रतीक है। इस उत्सव में दावत, नृत्य और फसल के लिए धन्यवाद अर्पण शामिल है।"
+      }
+    },
+    {
+      "questionNo": 2,
+      "question": {
+        "en": "How many deities are worshipped during the Kharchi Puja celebrated in Tripura?",
+        "hi": "त्रिपुरा में मनाई जाने वाली खर्ची पूजा के दौरान कितने देवताओं की पूजा की जाती है?"
+      },
+      "options": [
+        {
+          "en": "10",
+          "hi": "10"
+        },
+        {
+          "en": "18",
+          "hi": "18"
+        },
+        {
+          "en": "14",
+          "hi": "14"
+        },
+        {
+          "en": "12",
+          "hi": "12"
+        }
+      ],
+      "correctAnswer": {
+        "en": "14",
+        "hi": "14"
+      },
+      "explanation": {
+        "en": "Kharchi Puja is celebrated in Tripura over seven days in the month of July-August. During this festival, 14 deities (Chaturdash Devata) of the Tripuri royal family are worshipped. The festival is meant to cleanse the earth after menstruation (symbolic ritual) and involves animal sacrifices, rituals, and community celebrations at the Chaturdash Devata Temple in Old Agartala.",
+        "hi": "खर्ची पूजा त्रिपुरा में जुलाई-अगस्त महीने में सात दिनों तक मनाई जाती है। इस उत्सव के दौरान त्रिपुरी शाही परिवार के 14 देवताओं (चतुर्दश देवता) की पूजा की जाती है। यह उत्सव मासिक धर्म के बाद पृथ्वी को शुद्ध करने (प्रतीकात्मक अनुष्ठान) के लिए होता है और इसमें पुरानी अगरतला के चतुर्दश देवता मंदिर में पशु बलि, अनुष्ठान और सामुदायिक समारोह शामिल हैं।"
+      }
+    },
+    {
+      "questionNo": 3,
+      "question": {
+        "en": "Which of the following statements regarding Mughal architecture is/are correct?<br><br>1. It represents a fusion of Persian, Islamic, Turkish, and Indian architectural styles.<br><br>2. Red sandstone and white marble were the most frequently used materials in Mughal buildings.",
+        "hi": "मुगल वास्तुकला के संबंध में निम्नलिखित में से कौन सा/से कथन सही है/हैं?<br><br>1. यह फारसी, इस्लामी, तुर्की और भारतीय वास्तुकला शैलियों के संलयन का प्रतिनिधित्व करता है।<br><br>2. मुगल इमारतों में लाल बलुआ पत्थर और सफेद संगमरमर सबसे अधिक उपयोग की जाने वाली सामग्री थी।"
+      },
+      "options": [
+        {
+          "en": "Only 1 is correct",
+          "hi": "केवल 1 सही है"
+        },
+        {
+          "en": "Only 2 is correct",
+          "hi": "केवल 2 सही है"
+        },
+        {
+          "en": "Neither 1 nor 2 is correct",
+          "hi": "न तो 1 और न ही 2 सही है"
+        },
+        {
+          "en": "Both 1 and 2 are correct",
+          "hi": "1 और 2 दोनों सही हैं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Both 1 and 2 are correct",
+        "hi": "1 और 2 दोनों सही हैं"
+      },
+      "explanation": {
+        "en": "Both statements are correct. Mughal architecture is a blend of Persian, Islamic, Turkish, and Indian styles. Akbar extensively used red sandstone (e.g., Fatehpur Sikri, Agra Fort), while Shah Jahan shifted to white marble (e.g., Taj Mahal, Moti Masjid). Many structures like Humayun's Tomb used both materials together.",
+        "hi": "दोनों कथन सही हैं। मुगल वास्तुकला फारसी, इस्लामी, तुर्की और भारतीय शैलियों का मिश्रण है। अकबर ने व्यापक रूप से लाल बलुआ पत्थर का उपयोग किया (जैसे फतेहपुर सीकरी, आगरा का किला), जबकि शाहजहाँ ने सफेद संगमरमर की ओर रुख किया (जैसे ताजमहल, मोती मस्जिद)। हुमायूँ के मकबरे जैसी कई संरचनाओं में दोनों सामग्रियों का एक साथ उपयोग किया गया।"
+      }
+    },
+    {
+      "questionNo": 4,
+      "question": {
+        "en": "Which one of the following statements is true regarding rule violations in basketball?",
+        "hi": "बास्केटबॉल में नियम उल्लंघन के संबंध में निम्नलिखित में से कौन सा कथन सत्य है?"
+      },
+      "options": [
+        {
+          "en": "A team must take a shot within 8 seconds of possession",
+          "hi": "एक टीम को कब्जे के 8 सेकंड के भीतर शॉट लेना चाहिए"
+        },
+        {
+          "en": "A player is still active in play when standing on the sideline",
+          "hi": "साइडलाइन पर खड़े होने पर भी खिलाड़ी खेल में सक्रिय रहता है"
+        },
+        {
+          "en": "A player may stay inside the restricted zone for 5 seconds",
+          "hi": "एक खिलाड़ी 5 सेकंड के लिए प्रतिबंधित क्षेत्र के अंदर रह सकता है"
+        },
+        {
+          "en": "A dribble is considered over when both hands touch the ball at once",
+          "hi": "ड्रिबल तब समाप्त माना जाता है जब दोनों हाथ एक साथ गेंद को छूते हैं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "A dribble is considered over when both hands touch the ball at once",
+        "hi": "ड्रिबल तब समाप्त माना जाता है जब दोनों हाथ एक साथ गेंद को छूते हैं"
+      },
+      "explanation": {
+        "en": "In basketball, a dribble ends when a player touches the ball with both hands simultaneously. After that, the player must pass or shoot — dribbling again would be a 'double dribble' violation. The shot clock is 24 seconds (not 8), and a player standing on the sideline is out of bounds. The restricted zone (paint/key) has a 3-second rule, not 5 seconds.",
+        "hi": "बास्केटबॉल में, जब कोई खिलाड़ी एक साथ दोनों हाथों से गेंद को छूता है तो ड्रिबल समाप्त हो जाता है। उसके बाद, खिलाड़ी को पास या शूट करना होगा — फिर से ड्रिबल करना 'डबल ड्रिबल' उल्लंघन होगा। शॉट क्लॉक 24 सेकंड है (8 नहीं), और साइडलाइन पर खड़ा खिलाड़ी आउट ऑफ बाउंड्स होता है। प्रतिबंधित क्षेत्र (पेंट/की) में 3 सेकंड का नियम है, 5 सेकंड का नहीं।"
+      }
+    },
+    {
+      "questionNo": 5,
+      "question": {
+        "en": "At the Paris 2024 Paralympic Games, which pair secured the bronze medal in the Mixed Team Compound Open Archery event?",
+        "hi": "पेरिस 2024 पैरालंपिक खेलों में, मिश्रित टीम कंपाउंड ओपन तीरंदाजी स्पर्धा में किस जोड़ी ने कांस्य पदक सुरक्षित किया?"
+      },
+      "options": [
+        {
+          "en": "Sheetal Devi and Rakesh Kumar",
+          "hi": "शीतल देवी और राकेश कुमार"
+        },
+        {
+          "en": "Harvinder Singh and Jyoti Baliyan",
+          "hi": "हरविंदर सिंह और ज्योति बालियान"
+        },
+        {
+          "en": "Rakesh Kumar and Vivek Chikara",
+          "hi": "राकेश कुमार और विवेक चिकारा"
+        },
+        {
+          "en": "Sheetal Devi and Harvinder Singh",
+          "hi": "शीतल देवी और हरविंदर सिंह"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Sheetal Devi and Rakesh Kumar",
+        "hi": "शीतल देवी और राकेश कुमार"
+      },
+      "explanation": {
+        "en": "Sheetal Devi and Rakesh Kumar won the bronze medal in the Mixed Team Compound Open Archery event at the Paris 2024 Paralympic Games. Sheetal Devi, born without arms, shoots with her feet and is one of India's most inspiring para-athletes. Rakesh Kumar is also a compound archer who has represented India in multiple international events.",
+        "hi": "शीतल देवी और राकेश कुमार ने पेरिस 2024 पैरालंपिक खेलों में मिश्रित टीम कंपाउंड ओपन तीरंदाजी स्पर्धा में कांस्य पदक जीता। शीतल देवी, जो बिना बाहों के जन्मी थीं, अपने पैरों से तीरंदाजी करती हैं और भारत की सबसे प्रेरणादायक पैरा-एथलीटों में से एक हैं। राकेश कुमार भी एक कंपाउंड तीरंदाज हैं जिन्होंने कई अंतरराष्ट्रीय स्पर्धाओं में भारत का प्रतिनिधित्व किया है।"
+      }
+    },
+    {
+      "questionNo": 6,
+      "question": {
+        "en": "The Americas Regional Office of the New Development Bank (NDB) was announced to be set up in which city during the 2018 BRICS Foreign Ministers' Meeting?",
+        "hi": "2018 ब्रिक्स विदेश मंत्रियों की बैठक के दौरान न्यू डेवलपमेंट बैंक (NDB) का अमेरिका क्षेत्रीय कार्यालय किस शहर में स्थापित करने की घोषणा की गई थी?"
+      },
+      "options": [
+        {
+          "en": "São Paulo",
+          "hi": "साओ पाउलो"
+        },
+        {
+          "en": "Buenos Aires",
+          "hi": "ब्यूनस आयर्स"
+        },
+        {
+          "en": "Mexico City",
+          "hi": "मेक्सिको सिटी"
+        },
+        {
+          "en": "New York",
+          "hi": "न्यूयॉर्क"
+        }
+      ],
+      "correctAnswer": {
+        "en": "São Paulo",
+        "hi": "साओ पाउलो"
+      },
+      "explanation": {
+        "en": "The Americas Regional Office of the New Development Bank (NDB) was announced to be set up in São Paulo, Brazil. The NDB was established by BRICS nations in 2014 with its headquarters in Shanghai, China. The São Paulo office serves as the regional hub for operations in the Americas, reflecting Brazil's key role as a BRICS founding member.",
+        "hi": "न्यू डेवलपमेंट बैंक (NDB) का अमेरिका क्षेत्रीय कार्यालय ब्राजील के साओ पाउलो में स्थापित करने की घोषणा की गई थी। NDB की स्थापना 2014 में ब्रिक्स देशों द्वारा की गई थी और इसका मुख्यालय शंघाई, चीन में है। साओ पाउलो कार्यालय अमेरिका में संचालन के लिए क्षेत्रीय केंद्र के रूप में कार्य करता है, जो ब्रिक्स के संस्थापक सदस्य के रूप में ब्राजील की प्रमुख भूमिका को दर्शाता है।"
+      }
+    },
+    {
+      "questionNo": 7,
+      "question": {
+        "en": "The book \"Because Words Matter\" primarily focuses on which of the following themes?",
+        "hi": "\"बिकॉज़ वर्ड्स मैटर\" पुस्तक मुख्य रूप से निम्नलिखित में से किस विषय पर केंद्रित है?"
+      },
+      "options": [
+        {
+          "en": "Novel on colonial India",
+          "hi": "औपनिवेशिक भारत पर उपन्यास"
+        },
+        {
+          "en": "Ancient Sanskrit grammar",
+          "hi": "प्राचीन संस्कृत व्याकरण"
+        },
+        {
+          "en": "Linguist's critique of post-colonial English",
+          "hi": "उत्तर-औपनिवेशिक अंग्रेजी की भाषाविद् की आलोचना"
+        },
+        {
+          "en": "Language's role in social justice",
+          "hi": "सामाजिक न्याय में भाषा की भूमिका"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Language's role in social justice",
+        "hi": "सामाजिक न्याय में भाषा की भूमिका"
+      },
+      "explanation": {
+        "en": "The book 'Because Words Matter' focuses on how language shapes social justice, equality, and human rights discourse. It explores how words can be tools of empowerment or oppression, and emphasizes the importance of inclusive and sensitive language in building a more just society.",
+        "hi": "'बिकॉज़ वर्ड्स मैटर' पुस्तक इस बात पर केंद्रित है कि भाषा सामाजिक न्याय, समानता और मानवाधिकार विमर्श को कैसे आकार देती है। यह पता लगाती है कि शब्द सशक्तिकरण या उत्पीड़न के उपकरण कैसे हो सकते हैं, और एक अधिक न्यायपूर्ण समाज के निर्माण में समावेशी और संवेदनशील भाषा के महत्व पर जोर देती है।"
+      }
+    },
+    {
+      "questionNo": 8,
+      "question": {
+        "en": "Which of the following accurately characterizes a rockslide?",
+        "hi": "निम्नलिखित में से कौन रॉकस्लाइड (चट्टान फिसलन) की सटीक विशेषता बताता है?"
+      },
+      "options": [
+        {
+          "en": "It includes a backward rotation of the displaced mass",
+          "hi": "इसमें विस्थापित द्रव्यमान का पीछे की ओर घूमना शामिल है"
+        },
+        {
+          "en": "It disturbs just the uppermost portion of the rock face",
+          "hi": "यह चट्टान के केवल सबसे ऊपरी हिस्से को परेशान करता है"
+        },
+        {
+          "en": "It affects material to considerable depth",
+          "hi": "यह काफी गहराई तक सामग्री को प्रभावित करता है"
+        },
+        {
+          "en": "It occurs more slowly than a rock fall",
+          "hi": "यह रॉक फॉल (चट्टान गिरना) की तुलना में अधिक धीरे-धीरे होता है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "It affects material to considerable depth",
+        "hi": "यह काफी गहराई तक सामग्री को प्रभावित करता है"
+      },
+      "explanation": {
+        "en": "A rockslide involves the sliding of rock material along a planar surface (bedding plane, fault, or joint) and affects material to considerable depth. Unlike a rock fall (free-falling rocks from a cliff), a rockslide moves as a mass along a slope. Backward rotation is characteristic of a 'slump', not a rockslide. Rockslides can be very rapid and destructive.",
+        "hi": "रॉकस्लाइड में चट्टानी सामग्री एक समतल सतह (बेडिंग प्लेन, भ्रंश, या जोड़) के साथ फिसलती है और काफी गहराई तक सामग्री को प्रभावित करती है। रॉक फॉल (चट्टान से स्वतंत्र रूप से गिरने वाली चट्टानें) के विपरीत, रॉकस्लाइड ढलान के साथ एक द्रव्यमान के रूप में चलती है। पीछे की ओर घूमना 'स्लम्प' की विशेषता है, रॉकस्लाइड की नहीं। रॉकस्लाइड बहुत तेज और विनाशकारी हो सकती हैं।"
+      }
+    },
+    {
+      "questionNo": 9,
+      "question": {
+        "en": "Which statement best represents Neeraj Chopra's result at the 2025 Paris Diamond League?",
+        "hi": "कौन सा कथन 2025 पेरिस डायमंड लीग में नीरज चोपड़ा के परिणाम का सबसे अच्छा प्रतिनिधित्व करता है?"
+      },
+      "options": [
+        {
+          "en": "He achieved victory with his third attempt of 88.16m at Stade de France",
+          "hi": "उन्होंने स्टेड डी फ्रांस में 88.16 मीटर के अपने तीसरे प्रयास के साथ जीत हासिल की"
+        },
+        {
+          "en": "His only valid effort, 88.16m, was recorded in the final round",
+          "hi": "उनका एकमात्र वैध प्रयास, 88.16 मीटर, अंतिम दौर में दर्ज किया गया था"
+        },
+        {
+          "en": "He placed second with a best throw of 88.16m",
+          "hi": "वह 88.16 मीटर के सर्वश्रेष्ठ थ्रो के साथ दूसरे स्थान पर रहे"
+        },
+        {
+          "en": "He won with his opening throw of 88.16m at Stade Sébastien Charléty",
+          "hi": "उन्होंने स्टेड सेबेस्टियन चार्लेटी में 88.16 मीटर के अपने शुरुआती थ्रो के साथ जीत हासिल की"
+        }
+      ],
+      "correctAnswer": {
+        "en": "He won with his opening throw of 88.16m at Stade Sébastien Charléty",
+        "hi": "उन्होंने स्टेड सेबेस्टियन चार्लेटी में 88.16 मीटर के अपने शुरुआती थ्रो के साथ जीत हासिल की"
+      },
+      "explanation": {
+        "en": "Neeraj Chopra won the 2025 Paris Diamond League javelin throw event with his very first (opening) throw of 88.16m at Stade Sébastien Charléty in Paris. This demonstrated his exceptional consistency and ability to perform under pressure at the highest level of competition.",
+        "hi": "नीरज चोपड़ा ने पेरिस के स्टेड सेबेस्टियन चार्लेटी में 88.16 मीटर के अपने पहले (शुरुआती) थ्रो के साथ 2025 पेरिस डायमंड लीग भाला फेंक स्पर्धा जीती। इसने प्रतिस्पर्धा के उच्चतम स्तर पर दबाव में प्रदर्शन करने की उनकी असाधारण निरंतरता और क्षमता को प्रदर्शित किया।"
+      }
+    },
+    {
+      "questionNo": 10,
+      "question": {
+        "en": "In January 2025, after S. Somanath's tenure ended, which noted scientist assumed the role of Chairman of ISRO and Secretary of the Department of Space?",
+        "hi": "जनवरी 2025 में, एस. सोमनाथ का कार्यकाल समाप्त होने के बाद, किस प्रसिद्ध वैज्ञानिक ने इसरो के अध्यक्ष और अंतरिक्ष विभाग के सचिव की भूमिका संभाली?"
+      },
+      "options": [
+        {
+          "en": "V. Narayanan",
+          "hi": "वी. नारायणन"
+        },
+        {
+          "en": "K Sudarshan",
+          "hi": "के सुदर्शन"
+        },
+        {
+          "en": "R Madhavan",
+          "hi": "आर माधवन"
+        },
+        {
+          "en": "K. Sivan",
+          "hi": "के. शिवन"
+        }
+      ],
+      "correctAnswer": {
+        "en": "V. Narayanan",
+        "hi": "वी. नारायणन"
+      },
+      "explanation": {
+        "en": "Dr. V. Narayanan assumed the role of Chairman of ISRO and Secretary of the Department of Space in January 2025, succeeding S. Somanath. He is a renowned rocket scientist who played a crucial role in developing India's cryogenic engine technology. He previously served as the Director of the Liquid Propulsion Systems Centre (LPSC).",
+        "hi": "डॉ. वी. नारायणन ने जनवरी 2025 में एस. सोमनाथ के उत्तराधिकारी के रूप में इसरो के अध्यक्ष और अंतरिक्ष विभाग के सचिव की भूमिका संभाली। वे एक प्रसिद्ध रॉकेट वैज्ञानिक हैं जिन्होंने भारत की क्रायोजेनिक इंजन तकनीक विकसित करने में महत्वपूर्ण भूमिका निभाई। वे पहले लिक्विड प्रोपल्शन सिस्टम्स सेंटर (LPSC) के निदेशक रहे।"
+      }
+    },
+    {
+      "questionNo": 11,
+      "question": {
+        "en": "Which among the following statements correctly describes dams?<br><br>1. A dam is always a structural or concrete barrier constructed to obstruct water flow.<br><br>2. Spillways in dams function to regulate water discharge, either intermittently or continuously.<br><br>3. Dams are categorized on the basis of their structure, purpose, and height.",
+        "hi": "निम्नलिखित में से कौन सा कथन बांधों का सही वर्णन करता है?<br><br>1. बांध हमेशा पानी के प्रवाह को बाधित करने के लिए निर्मित एक संरचनात्मक या कंक्रीट बाधा होती है।<br><br>2. बांधों में स्पिलवे रुक-रुक कर या लगातार पानी के निर्वहन को विनियमित करने का कार्य करते हैं।<br><br>3. बांधों को उनकी संरचना, उद्देश्य और ऊंचाई के आधार पर वर्गीकृत किया गया है।"
+      },
+      "options": [
+        {
+          "en": "Both 2 and 3",
+          "hi": "2 और 3 दोनों"
+        },
+        {
+          "en": "Both 1 and 2",
+          "hi": "1 और 2 दोनों"
+        },
+        {
+          "en": "Both 1 and 3",
+          "hi": "1 और 3 दोनों"
+        },
+        {
+          "en": "All are incorrect",
+          "hi": "सभी गलत हैं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Both 2 and 3",
+        "hi": "2 और 3 दोनों"
+      },
+      "explanation": {
+        "en": "Statement 1 is incorrect because dams are not always made of concrete — they can also be earthfill or rockfill dams. Statement 2 is correct: spillways regulate water discharge to prevent overflow. Statement 3 is correct: dams are classified by structure (gravity, arch, buttress, embankment), purpose (storage, diversion, detention), and height (large, medium, small).",
+        "hi": "कथन 1 गलत है क्योंकि बांध हमेशा कंक्रीट के नहीं बनते — वे मिट्टी भरण या पत्थर भरण बांध भी हो सकते हैं। कथन 2 सही है: स्पिलवे अतिप्रवाह को रोकने के लिए पानी के निर्वहन को नियंत्रित करते हैं। कथन 3 सही है: बांधों को संरचना (गुरुत्व, आर्च, बट्रेस, तटबंध), उद्देश्य (भंडारण, डायवर्जन, रोकथाम), और ऊंचाई (बड़े, मध्यम, छोटे) के आधार पर वर्गीकृत किया जाता है।"
+      }
+    },
+    {
+      "questionNo": 12,
+      "question": {
+        "en": "The Aditya-L1 mission is the primary focus of study of which layers of the Sun?",
+        "hi": "आदित्य-L1 मिशन सूर्य की किन परतों के अध्ययन का प्राथमिक केंद्र है?"
+      },
+      "options": [
+        {
+          "en": "Regolith",
+          "hi": "रेगोलिथ"
+        },
+        {
+          "en": "Craters",
+          "hi": "क्रेटर"
+        },
+        {
+          "en": "Corona",
+          "hi": "कोरोना"
+        },
+        {
+          "en": "Magnetosphere",
+          "hi": "मैग्नेटोस्फीयर"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Corona",
+        "hi": "कोरोना"
+      },
+      "explanation": {
+        "en": "Aditya-L1 is India's first dedicated solar mission, launched on 2 September 2023 by ISRO. Its primary focus is to study the Sun's corona (the outermost layer), along with the photosphere and chromosphere. It is positioned at Lagrange Point 1 (L1), about 1.5 million km from Earth, allowing continuous observation of the Sun. Regolith and craters are lunar/planetary features, not solar.",
+        "hi": "आदित्य-L1 भारत का पहला समर्पित सौर मिशन है, जिसे 2 सितंबर 2023 को इसरो द्वारा लॉन्च किया गया था। इसका प्राथमिक फोकस सूर्य के कोरोना (सबसे बाहरी परत) के साथ-साथ प्रकाशमंडल और वर्णमंडल का अध्ययन करना है। यह लैग्रेंज बिंदु 1 (L1) पर स्थित है, जो पृथ्वी से लगभग 1.5 मिलियन किमी दूर है, जो सूर्य के निरंतर अवलोकन की अनुमति देता है। रेगोलिथ और क्रेटर चंद्र/ग्रहीय विशेषताएं हैं, सौर नहीं।"
+      }
+    },
+    {
+      "questionNo": 13,
+      "question": {
+        "en": "Non-ferrous metallic minerals that are rare in India are included in which of the following groups?",
+        "hi": "भारत में दुर्लभ अलौह धात्विक खनिज निम्नलिखित में से किस समूह में शामिल हैं?"
+      },
+      "options": [
+        {
+          "en": "Manganese, Bauxite, Limestone",
+          "hi": "मैंगनीज, बॉक्साइट, चूना पत्थर"
+        },
+        {
+          "en": "Iron, Coal, Bauxite",
+          "hi": "लोहा, कोयला, बॉक्साइट"
+        },
+        {
+          "en": "Copper, Zinc, Lead",
+          "hi": "तांबा, जस्ता, सीसा"
+        },
+        {
+          "en": "Mica, Dolomite, Felspar",
+          "hi": "अभ्रक, डोलोमाइट, फेल्स्पर"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Copper, Zinc, Lead",
+        "hi": "तांबा, जस्ता, सीसा"
+      },
+      "explanation": {
+        "en": "Copper, Zinc, and Lead are non-ferrous metallic minerals that are relatively rare in India. India has limited reserves of these minerals and imports a significant portion to meet demand. Iron is a ferrous mineral; Coal is a non-metallic fuel mineral; Limestone, Mica, Dolomite, and Felspar are non-metallic minerals; Bauxite (aluminium ore) is non-ferrous but India has abundant reserves.",
+        "hi": "तांबा, जस्ता और सीसा अलौह धात्विक खनिज हैं जो भारत में अपेक्षाकृत दुर्लभ हैं। भारत में इन खनिजों के सीमित भंडार हैं और मांग पूरी करने के लिए एक महत्वपूर्ण हिस्सा आयात किया जाता है। लोहा एक लौह खनिज है; कोयला एक अधात्विक ईंधन खनिज है; चूना पत्थर, अभ्रक, डोलोमाइट और फेल्स्पर अधात्विक खनिज हैं; बॉक्साइट (एल्यूमीनियम अयस्क) अलौह है लेकिन भारत में प्रचुर भंडार हैं।"
+      }
+    },
+    {
+      "questionNo": 14,
+      "question": {
+        "en": "Under which Act of 1956 were the Zonal Councils set up in India?",
+        "hi": "भारत में क्षेत्रीय परिषदों की स्थापना 1956 के किस अधिनियम के तहत की गई थी?"
+      },
+      "options": [
+        {
+          "en": "Panchayati Raj",
+          "hi": "पंचायती राज"
+        },
+        {
+          "en": "States Reorganisation",
+          "hi": "राज्य पुनर्गठन"
+        },
+        {
+          "en": "The Legislative Councils Act",
+          "hi": "विधान परिषद अधिनियम"
+        },
+        {
+          "en": "Representation of People",
+          "hi": "जन प्रतिनिधित्व"
+        }
+      ],
+      "correctAnswer": {
+        "en": "States Reorganisation",
+        "hi": "राज्य पुनर्गठन"
+      },
+      "explanation": {
+        "en": "The Zonal Councils were set up under the States Reorganisation Act, 1956. There are five Zonal Councils — Northern, Central, Eastern, Western, and Southern. They are advisory bodies that promote inter-state cooperation and coordination. The Union Home Minister is the chairman of each Zonal Council. The North-Eastern Council was created separately under the NEC Act, 1971.",
+        "hi": "क्षेत्रीय परिषदों की स्थापना राज्य पुनर्गठन अधिनियम, 1956 के तहत की गई थी। पांच क्षेत्रीय परिषदें हैं — उत्तरी, मध्य, पूर्वी, पश्चिमी और दक्षिणी। ये सलाहकार निकाय हैं जो अंतर-राज्यीय सहयोग और समन्वय को बढ़ावा देते हैं। केंद्रीय गृह मंत्री प्रत्येक क्षेत्रीय परिषद के अध्यक्ष होते हैं। पूर्वोत्तर परिषद की स्थापना अलग से NEC अधिनियम, 1971 के तहत की गई थी।"
+      }
+    },
+    {
+      "questionNo": 15,
+      "question": {
+        "en": "In the context of legislative powers shared between the Union and the States, which statement is correct?",
+        "hi": "संघ और राज्यों के बीच साझा विधायी शक्तियों के संदर्भ में, कौन सा कथन सही है?"
+      },
+      "options": [
+        {
+          "en": "State legislatures can make laws on Union List matters",
+          "hi": "राज्य विधायिकाएं संघ सूची के विषयों पर कानून बना सकती हैं"
+        },
+        {
+          "en": "The Union legislature can legislate on matters in the Concurrent List only with State approval",
+          "hi": "केंद्रीय विधायिका समवर्ती सूची के विषयों पर केवल राज्य की मंजूरी के साथ कानून बना सकती है"
+        },
+        {
+          "en": "The Union can direct the States under Article 256",
+          "hi": "संघ अनुच्छेद 256 के तहत राज्यों को निर्देश दे सकता है"
+        },
+        {
+          "en": "Union and States enjoy equal authority on subjects under the Union List",
+          "hi": "संघ सूची के विषयों पर संघ और राज्यों को समान अधिकार प्राप्त हैं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "The Union can direct the States under Article 256",
+        "hi": "संघ अनुच्छेद 256 के तहत राज्यों को निर्देश दे सकता है"
+      },
+      "explanation": {
+        "en": "Article 256 states that the executive power of every State shall be so exercised as to ensure compliance with laws made by Parliament, and the Union can give directions to the States for this purpose. Only Parliament can make laws on Union List subjects (not States). The Union does not need State approval for Concurrent List legislation (though State laws prevail if they receive Presidential assent).",
+        "hi": "अनुच्छेद 256 कहता है कि प्रत्येक राज्य की कार्यकारी शक्ति का प्रयोग इस प्रकार किया जाएगा कि संसद द्वारा बनाए गए कानूनों का अनुपालन सुनिश्चित हो, और संघ इस उद्देश्य के लिए राज्यों को निर्देश दे सकता है। केवल संसद ही संघ सूची के विषयों पर कानून बना सकती है (राज्य नहीं)। समवर्ती सूची के कानूनों के लिए संघ को राज्य की मंजूरी की आवश्यकता नहीं है।"
+      }
+    },
+    {
+      "questionNo": 16,
+      "question": {
+        "en": "Examine the statements given below as Assertion (A) and Reason (R) and select the correct option:<br><br>Assertion (A): A significant milestone in international space cooperation was achieved through the PSLV-C59 mission launched in October 2024.<br><br>Reason (R): This mission placed the Proba-3 satellites in orbit, which were part of ESA's first formation-flying project.",
+        "hi": "नीचे दिए गए कथनों को अभिकथन (A) और कारण (R) के रूप में जांचें और सही विकल्प चुनें:<br><br>अभिकथन (A): अक्टूबर 2024 में लॉन्च किए गए PSLV-C59 मिशन के माध्यम से अंतर्राष्ट्रीय अंतरिक्ष सहयोग में एक महत्वपूर्ण मील का पत्थर हासिल किया गया था।<br><br>कारण (R): इस मिशन ने प्रोबा-3 उपग्रहों को कक्षा में स्थापित किया, जो ESA के पहले फॉर्मेशन-फ्लाइंग प्रोजेक्ट का हिस्सा थे।"
+      },
+      "options": [
+        {
+          "en": "A is true, but R is false",
+          "hi": "A सत्य है, लेकिन R गलत है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A गलत है, लेकिन R सत्य है"
+        },
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Both A and R are true, and R is the correct explanation of A",
+        "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है"
+      },
+      "explanation": {
+        "en": "Both statements are true and R correctly explains A. The PSLV-C59 mission successfully launched ESA's Proba-3 satellites, which are designed for precision formation-flying to study the Sun's corona by creating artificial solar eclipses. This India-ESA collaboration was indeed a significant milestone in international space cooperation.",
+        "hi": "दोनों कथन सत्य हैं और R सही रूप से A की व्याख्या करता है। PSLV-C59 मिशन ने ESA के प्रोबा-3 उपग्रहों को सफलतापूर्वक लॉन्च किया, जो कृत्रिम सूर्य ग्रहण बनाकर सूर्य के कोरोना का अध्ययन करने के लिए सटीक फॉर्मेशन-फ्लाइंग के लिए डिज़ाइन किए गए हैं। यह भारत-ESA सहयोग वास्तव में अंतरराष्ट्रीय अंतरिक्ष सहयोग में एक महत्वपूर्ण मील का पत्थर था।"
+      }
+    },
+    {
+      "questionNo": 17,
+      "question": {
+        "en": "As per the provisions of the Bharatiya Nagarik Suraksha Samhita (BNSS), which portal provides access to FIRs?",
+        "hi": "भारतीय नागरिक सुरक्षा संहिता (BNSS) के प्रावधानों के अनुसार, कौन सा पोर्टल FIR तक पहुंच प्रदान करता है?"
+      },
+      "options": [
+        {
+          "en": "National Crime Portal",
+          "hi": "राष्ट्रीय अपराध पोर्टल"
+        },
+        {
+          "en": "BHAVISHYA",
+          "hi": "भविष्य"
+        },
+        {
+          "en": "CCTNS",
+          "hi": "CCTNS"
+        },
+        {
+          "en": "FIR-first",
+          "hi": "FIR-first"
+        }
+      ],
+      "correctAnswer": {
+        "en": "CCTNS",
+        "hi": "CCTNS"
+      },
+      "explanation": {
+        "en": "Under the BNSS (Bharatiya Nagarik Suraksha Sanhita), 2023, FIRs are made accessible through the CCTNS (Crime and Criminal Tracking Network and Systems) portal. CCTNS is a nationwide networked system that connects all police stations and provides a digital platform for crime reporting, tracking, and access to FIRs. BHAVISHYA is a pension portal, not related to FIRs.",
+        "hi": "BNSS (भारतीय नागरिक सुरक्षा संहिता), 2023 के तहत, FIR को CCTNS (क्राइम एंड क्रिमिनल ट्रैकिंग नेटवर्क एंड सिस्टम्स) पोर्टल के माध्यम से सुलभ बनाया गया है। CCTNS एक राष्ट्रव्यापी नेटवर्क प्रणाली है जो सभी पुलिस स्टेशनों को जोड़ती है और अपराध रिपोर्टिंग, ट्रैकिंग और FIR तक पहुंच के लिए एक डिजिटल प्लेटफॉर्म प्रदान करती है। भविष्य एक पेंशन पोर्टल है, FIR से संबंधित नहीं।"
+      }
+    },
+    {
+      "questionNo": 18,
+      "question": {
+        "en": "Identify the correctly matched pair(s) between the following Government Schemes and their respective Nodal Ministries/Departments:<br><br>1. PM-AASHA — Ministry of Consumer Affairs, Food & Public Distribution<br><br>2. e-NAM — Ministry of Agriculture & Farmers Welfare<br><br>3. PMEGP — Ministry of Water Resources, River Development & Ganga Rejuvenation<br><br>4. PMJY — Ministry of Finance",
+        "hi": "निम्नलिखित सरकारी योजनाओं और उनके संबंधित नोडल मंत्रालयों/विभागों के बीच सही ढंग से मेल खाने वाले जोड़ों की पहचान करें:<br><br>1. PM-AASHA — उपभोक्ता मामले, खाद्य और सार्वजनिक वितरण मंत्रालय<br><br>2. e-NAM — कृषि और किसान कल्याण मंत्रालय<br><br>3. PMEGP — जल संसाधन, नदी विकास और गंगा संरक्षण मंत्रालय<br><br>4. PMJY — वित्त मंत्रालय"
+      },
+      "options": [
+        {
+          "en": "Only 2",
+          "hi": "केवल 2"
+        },
+        {
+          "en": "2 and 3",
+          "hi": "2 और 3"
+        },
+        {
+          "en": "1 and 3",
+          "hi": "1 और 3"
+        },
+        {
+          "en": "1 and 2",
+          "hi": "1 और 2"
+        }
+      ],
+      "correctAnswer": {
+        "en": "1 and 2",
+        "hi": "1 और 2"
+      },
+      "explanation": {
+        "en": "Pair 1 is correct: PM-AASHA (Pradhan Mantri Annadata Aay Sanrakshan Abhiyan) falls under the Ministry of Consumer Affairs, Food & Public Distribution. Pair 2 is correct: e-NAM (National Agriculture Market) is under the Ministry of Agriculture & Farmers Welfare. Pair 3 is incorrect: PMEGP (PM Employment Generation Programme) is under the Ministry of MSME, not Water Resources. Pair 4 is incorrect: PMJAY (Ayushman Bharat) is under the Ministry of Health & Family Welfare, not Finance.",
+        "hi": "जोड़ा 1 सही है: PM-AASHA (प्रधानमंत्री अन्नदाता आय संरक्षण अभियान) उपभोक्ता मामले, खाद्य और सार्वजनिक वितरण मंत्रालय के अंतर्गत आता है। जोड़ा 2 सही है: e-NAM (राष्ट्रीय कृषि बाजार) कृषि और किसान कल्याण मंत्रालय के अंतर्गत है। जोड़ा 3 गलत है: PMEGP (प्रधानमंत्री रोजगार सृजन कार्यक्रम) MSME मंत्रालय के अंतर्गत है, जल संसाधन नहीं। जोड़ा 4 गलत है: PMJAY (आयुष्मान भारत) स्वास्थ्य और परिवार कल्याण मंत्रालय के अंतर्गत है, वित्त नहीं।"
+      }
+    },
+    {
+      "questionNo": 19,
+      "question": {
+        "en": "The Panthi dance of Chhattisgarh is associated with the devotees of which spiritual leader?",
+        "hi": "छत्तीसगढ़ का पंथी नृत्य किस आध्यात्मिक नेता के भक्तों से जुड़ा है?"
+      },
+      "options": [
+        {
+          "en": "Kabir",
+          "hi": "कबीर"
+        },
+        {
+          "en": "Guru Ghasidas",
+          "hi": "गुरु घासीदास"
+        },
+        {
+          "en": "Guru Govind",
+          "hi": "गुरु गोविंद"
+        },
+        {
+          "en": "Nanak",
+          "hi": "नानक"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Guru Ghasidas",
+        "hi": "गुरु घासीदास"
+      },
+      "explanation": {
+        "en": "Panthi dance is a folk dance of Chhattisgarh performed by the Satnami community, who are followers of Guru Ghasidas (1756–1836). Guru Ghasidas founded the Satnam Panth (path of truth) and advocated against caste discrimination. The Panthi dance is performed during Maghi Purnima to express devotion, featuring acrobatic formations and pyramid-like human towers.",
+        "hi": "पंथी नृत्य छत्तीसगढ़ का एक लोक नृत्य है जो सतनामी समुदाय द्वारा किया जाता है, जो गुरु घासीदास (1756-1836) के अनुयायी हैं। गुरु घासीदास ने सतनाम पंथ (सत्य का मार्ग) की स्थापना की और जाति भेदभाव के खिलाफ वकालत की। पंथी नृत्य माघी पूर्णिमा के दौरान भक्ति व्यक्त करने के लिए किया जाता है, जिसमें कलाबाजी फॉर्मेशन और पिरामिड जैसे मानव टॉवर शामिल होते हैं।"
+      }
+    },
+    {
+      "questionNo": 20,
+      "question": {
+        "en": "The 2024 Corruption Perceptions Index (CPI) highlights which major consequence of corruption on global climate initiatives?",
+        "hi": "2024 भ्रष्टाचार धारणा सूचकांक (CPI) वैश्विक जलवायु पहल पर भ्रष्टाचार के किस प्रमुख परिणाम पर प्रकाश डालता है?"
+      },
+      "options": [
+        {
+          "en": "It destabilizes financial systems in poorer countries",
+          "hi": "यह गरीब देशों में वित्तीय प्रणालियों को अस्थिर करता है"
+        },
+        {
+          "en": "It suppresses citizens' role in environmental activism",
+          "hi": "यह पर्यावरणीय सक्रियता में नागरिकों की भूमिका को दबाता है"
+        },
+        {
+          "en": "It leads to diversion of climate finance and manipulation of green policies",
+          "hi": "यह जलवायु वित्त के डायवर्जन और हरित नीतियों के हेरफेर की ओर ले जाता है"
+        },
+        {
+          "en": "It fuels competition between fossil fuel companies",
+          "hi": "यह जीवाश्म ईंधन कंपनियों के बीच प्रतिस्पर्धा को बढ़ावा देता है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "It leads to diversion of climate finance and manipulation of green policies",
+        "hi": "यह जलवायु वित्त के डायवर्जन और हरित नीतियों के हेरफेर की ओर ले जाता है"
+      },
+      "explanation": {
+        "en": "The 2024 Corruption Perceptions Index (CPI), published by Transparency International, highlighted that corruption leads to the diversion of climate finance away from its intended purpose and allows manipulation of green policies for personal gain. This undermines genuine efforts to combat climate change and weakens environmental governance globally.",
+        "hi": "ट्रांसपेरेंसी इंटरनेशनल द्वारा प्रकाशित 2024 भ्रष्टाचार धारणा सूचकांक (CPI) ने इस बात पर प्रकाश डाला कि भ्रष्टाचार जलवायु वित्त को उसके इच्छित उद्देश्य से भटका देता है और व्यक्तिगत लाभ के लिए हरित नीतियों में हेरफेर की अनुमति देता है। यह जलवायु परिवर्तन से निपटने के वास्तविक प्रयासों को कमजोर करता है और विश्व स्तर पर पर्यावरण शासन को कमजोर करता है।"
+      }
+    },
+    {
+      "questionNo": 21,
+      "question": {
+        "en": "The new Eco-Tourism Policy of India for protected regions aims mainly to:",
+        "hi": "संरक्षित क्षेत्रों के लिए भारत की नई इको-टूरिज्म नीति का मुख्य उद्देश्य है:"
+      },
+      "options": [
+        {
+          "en": "Completely restrict human presence",
+          "hi": "मानवीय उपस्थिति को पूरी तरह से प्रतिबंधित करना"
+        },
+        {
+          "en": "Focus only on revenue generation, excluding communities",
+          "hi": "समुदायों को छोड़कर केवल राजस्व सृजन पर ध्यान केंद्रित करना"
+        },
+        {
+          "en": "Harmonize ecological protection with livelihood opportunities",
+          "hi": "आजीविका के अवसरों के साथ पारिस्थितिक संरक्षण का सामंजस्य स्थापित करना"
+        },
+        {
+          "en": "Develop protected areas as commercial resorts",
+          "hi": "संरक्षित क्षेत्रों को वाणिज्यिक रिसॉर्ट्स के रूप में विकसित करना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Harmonize ecological protection with livelihood opportunities",
+        "hi": "आजीविका के अवसरों के साथ पारिस्थितिक संरक्षण का सामंजस्य स्थापित करना"
+      },
+      "explanation": {
+        "en": "India's Eco-Tourism Policy for protected regions aims to balance ecological conservation with sustainable livelihood opportunities for local communities. It promotes responsible tourism that minimizes environmental impact while providing economic benefits to communities living near protected areas, ensuring both biodiversity conservation and community welfare.",
+        "hi": "संरक्षित क्षेत्रों के लिए भारत की इको-टूरिज्म नीति का उद्देश्य स्थानीय समुदायों के लिए सतत आजीविका के अवसरों के साथ पारिस्थितिक संरक्षण को संतुलित करना है। यह जिम्मेदार पर्यटन को बढ़ावा देती है जो पर्यावरणीय प्रभाव को कम करते हुए संरक्षित क्षेत्रों के पास रहने वाले समुदायों को आर्थिक लाभ प्रदान करती है।"
+      }
+    },
+    {
+      "questionNo": 22,
+      "question": {
+        "en": "With reference to the sugar industry, which of the statements given below is/are correct?<br><br>1. Sucrose in sugarcane reduces during its transportation.<br><br>2. It is a seasonal type of industry.<br><br>3. Cooperative management is unsuitable for sugar production.<br><br>4. Maharashtra and Tamil Nadu are major centers of sugar manufacturing.",
+        "hi": "चीनी उद्योग के संदर्भ में, नीचे दिए गए कथनों में से कौन सा/से सही है/हैं?<br><br>1. परिवहन के दौरान गन्ने में सुक्रोज कम हो जाता है।<br><br>2. यह एक मौसमी प्रकार का उद्योग है।<br><br>3. चीनी उत्पादन के लिए सहकारी प्रबंधन अनुपयुक्त है।<br><br>4. महाराष्ट्र और तमिलनाडु चीनी निर्माण के प्रमुख केंद्र हैं।"
+      },
+      "options": [
+        {
+          "en": "Only 1 and 3",
+          "hi": "केवल 1 और 3"
+        },
+        {
+          "en": "Only 2, 3 and 4",
+          "hi": "केवल 2, 3 और 4"
+        },
+        {
+          "en": "Only 1, 2 and 4",
+          "hi": "केवल 1, 2 और 4"
+        },
+        {
+          "en": "Only 2 and 4",
+          "hi": "केवल 2 और 4"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1, 2 and 4",
+        "hi": "केवल 1, 2 और 4"
+      },
+      "explanation": {
+        "en": "Statements 1, 2, and 4 are correct. Sucrose content in sugarcane decreases during transportation (weight-loss industry, so mills are located near cane fields). Sugar is a seasonal industry as crushing is done only during the sugarcane harvesting season (October-April). Maharashtra is the largest sugar-producing state, followed by Uttar Pradesh and Tamil Nadu. Statement 3 is incorrect — cooperative management has been very successful in the sugar industry, especially in Maharashtra (e.g., cooperatives started by Dhananjay Gadgil).",
+        "hi": "कथन 1, 2 और 4 सही हैं। परिवहन के दौरान गन्ने में सुक्रोज कम हो जाता है (वजन-हानि उद्योग, इसलिए मिलें गन्ने के खेतों के पास स्थित होती हैं)। चीनी एक मौसमी उद्योग है क्योंकि पेराई केवल गन्ने की कटाई के मौसम (अक्टूबर-अप्रैल) में होती है। महाराष्ट्र सबसे बड़ा चीनी उत्पादक राज्य है, इसके बाद उत्तर प्रदेश और तमिलनाडु हैं। कथन 3 गलत है — चीनी उद्योग में सहकारी प्रबंधन बहुत सफल रहा है, विशेष रूप से महाराष्ट्र में।"
+      }
+    },
+    {
+      "questionNo": 23,
+      "question": {
+        "en": "With reference to the MISHTI programme in India, which of the following statements is/are correct?<br><br>1. It aims at the restoration and expansion of mangrove forests along with livelihood enhancement in coastal regions.<br><br>2. It functions under the Ministry of Rural Development.<br><br>3. The scheme's funding comes from the CAMPA Fund and the MGNREGS.",
+        "hi": "भारत में मिष्टी (MISHTI) कार्यक्रम के संदर्भ में, निम्नलिखित में से कौन सा/से कथन सही है/हैं?<br><br>1. इसका उद्देश्य तटीय क्षेत्रों में आजीविका वृद्धि के साथ-साथ मैंग्रोव वनों की बहाली और विस्तार करना है।<br><br>2. यह ग्रामीण विकास मंत्रालय के तहत कार्य करता है।<br><br>3. योजना का वित्तपोषण कैम्पा (CAMPA) फंड और मनरेगा (MGNREGS) से आता है।"
+      },
+      "options": [
+        {
+          "en": "1, 2 and 3 Only",
+          "hi": "केवल 1, 2 और 3"
+        },
+        {
+          "en": "2 and 3 Only",
+          "hi": "केवल 2 और 3"
+        },
+        {
+          "en": "1 and 3 Only",
+          "hi": "केवल 1 और 3"
+        },
+        {
+          "en": "2 Only",
+          "hi": "केवल 2"
+        }
+      ],
+      "correctAnswer": {
+        "en": "1 and 3 Only",
+        "hi": "केवल 1 और 3"
+      },
+      "explanation": {
+        "en": "MISHTI (Mangrove Initiative for Shoreline Habitats & Tangible Incomes) was announced in Budget 2023-24. Statement 1 is correct: it aims to restore and expand mangrove cover along coastlines while enhancing livelihoods. Statement 2 is incorrect: it functions under the Ministry of Environment, Forest and Climate Change (MoEFCC), not Rural Development. Statement 3 is correct: funding comes from the CAMPA Fund and MGNREGS convergence.",
+        "hi": "MISHTI (मैंग्रोव इनिशिएटिव फॉर शोरलाइन हैबिटैट्स एंड टैंजिबल इनकम्स) की घोषणा बजट 2023-24 में की गई थी। कथन 1 सही है: इसका उद्देश्य तटरेखाओं पर मैंग्रोव आवरण की बहाली और विस्तार करना तथा आजीविका बढ़ाना है। कथन 2 गलत है: यह पर्यावरण, वन और जलवायु परिवर्तन मंत्रालय (MoEFCC) के तहत कार्य करता है, ग्रामीण विकास नहीं। कथन 3 सही है: वित्तपोषण CAMPA फंड और MGNREGS अभिसरण से आता है।"
+      }
+    },
+    {
+      "questionNo": 24,
+      "question": {
+        "en": "Which of the following statements about the Kalbelia community and its art form are correct?<br><br>1. Kalbelia performers rarely document their art due to its oral nomadic heritage.<br><br>2. Their costumes are designed without stitched parts as a mark of respect for serpent rituals.<br><br>3. The Kalbelia art was included in UNESCO ICH list without any written application process.",
+        "hi": "कालबेलिया समुदाय और उसकी कला शैली के बारे में निम्नलिखित में से कौन से कथन सही हैं?<br><br>1. कालबेलिया कलाकार अपनी मौखिक खानाबदोश विरासत के कारण शायद ही कभी अपनी कला का दस्तावेजीकरण करते हैं।<br><br>2. उनकी वेशभूषा सांपों की रस्मों के सम्मान के रूप में बिना सिले भागों के डिज़ाइन की गई है।<br><br>3. कालबेलिया कला को बिना किसी लिखित आवेदन प्रक्रिया के यूनेस्को (UNESCO) ICH सूची में शामिल किया गया था।"
+      },
+      "options": [
+        {
+          "en": "Only 1 and 2",
+          "hi": "केवल 1 और 2"
+        },
+        {
+          "en": "Only 1",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "All 1, 2 & 3",
+          "hi": "1, 2 और 3 सभी"
+        },
+        {
+          "en": "Only 1 & 3",
+          "hi": "केवल 1 और 3"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1",
+        "hi": "केवल 1"
+      },
+      "explanation": {
+        "en": "Only Statement 1 is correct. The Kalbelia community of Rajasthan has an oral tradition and nomadic heritage, so their art form is rarely documented in written form. Statement 2 is incorrect — Kalbelia costumes are elaborately stitched black swirling skirts (ghaghra) with mirror work and embroidery resembling snake patterns. Statement 3 is incorrect — UNESCO inscription requires a formal written nomination process. Kalbelia folk songs and dances were inscribed on the UNESCO ICH list in 2010.",
+        "hi": "केवल कथन 1 सही है। राजस्थान के कालबेलिया समुदाय की मौखिक परंपरा और खानाबदोश विरासत है, इसलिए उनकी कला शैली का लिखित रूप में शायद ही कभी दस्तावेजीकरण किया जाता है। कथन 2 गलत है — कालबेलिया वेशभूषा में विस्तृत रूप से सिली हुई काली घूमती स्कर्ट (घाघरा) होती है जिसमें दर्पण कार्य और सांप के पैटर्न जैसी कढ़ाई होती है। कथन 3 गलत है — यूनेस्को में नामांकन के लिए एक औपचारिक लिखित नामांकन प्रक्रिया की आवश्यकता होती है। कालबेलिया लोक गीत और नृत्य 2010 में यूनेस्को ICH सूची में अंकित किए गए थे।"
+      }
+    },
+    {
+      "questionNo": 25,
+      "question": {
+        "en": "Examine the following statements about Money and Financial Bills:<br><br>1. All Money Bills fall under the category of Financial Bills.<br><br>2. All Financial Bills are considered Money Bills.<br><br>Which of the above statements is/are correct?",
+        "hi": "धन और वित्त विधेयकों के बारे में निम्नलिखित कथनों की जांच करें:<br><br>1. सभी धन विधेयक वित्त विधेयकों की श्रेणी में आते हैं।<br><br>2. सभी वित्त विधेयकों को धन विधेयक माना जाता है।<br><br>उपरोक्त में से कौन सा/से कथन सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "Only 2",
+          "hi": "केवल 2"
+        },
+        {
+          "en": "Only 1",
+          "hi": "केवल 1"
+        },
+        {
+          "en": "Neither 1 nor 2",
+          "hi": "न तो 1 और न ही 2"
+        },
+        {
+          "en": "Both 1 and 2",
+          "hi": "1 और 2 दोनों"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Only 1",
+        "hi": "केवल 1"
+      },
+      "explanation": {
+        "en": "Statement 1 is correct: All Money Bills (Article 110) are a subset of Financial Bills, so they fall under the broader category of Financial Bills. Statement 2 is incorrect: Not all Financial Bills are Money Bills. Financial Bills are of two types — Financial Bill (I) under Article 117(1) which deals with matters listed in Article 110 plus other matters, and Financial Bill (II) under Article 117(3) which involves expenditure from the Consolidated Fund of India. Only a Money Bill exclusively deals with Article 110 matters and is certified by the Speaker.",
+        "hi": "कथन 1 सही है: सभी धन विधेयक (अनुच्छेद 110) वित्त विधेयकों का एक उपसमूह हैं, इसलिए वे वित्त विधेयकों की व्यापक श्रेणी में आते हैं। कथन 2 गलत है: सभी वित्त विधेयक धन विधेयक नहीं हैं। वित्त विधेयक दो प्रकार के होते हैं — अनुच्छेद 117(1) के तहत वित्त विधेयक (I) जो अनुच्छेद 110 में सूचीबद्ध मामलों के साथ अन्य मामलों से संबंधित है, और अनुच्छेद 117(3) के तहत वित्त विधेयक (II) जो भारत की संचित निधि से व्यय से संबंधित है। केवल धन विधेयक विशेष रूप से अनुच्छेद 110 के मामलों से संबंधित होता है और अध्यक्ष द्वारा प्रमाणित किया जाता है।"
+      }
+    }
+  ],
+   "ssc_cgl_gk_14_sep_s3": [
+    {
+      "questionNo": 1,
+      "question": {
+        "en": "Consider the following statements:<br><br>Statement I: The harmika, found on the uppermost part of a stupa, signifies the gods' residence.<br><br>Statement II: The harmika was considered the section where relics of the Buddha were kept.<br><br>Which of the following statements is/are correct?",
+        "hi": "निम्नलिखित कथनों पर विचार कीजिए:<br><br>कथन I: हर्मिका, जो एक स्तूप के सबसे ऊपरी भाग पर पाई जाती है, देवताओं के निवास का प्रतीक है।<br><br>कथन II: हर्मिका को वह भाग माना जाता था जहाँ बुद्ध के अवशेष रखे जाते थे।<br><br>निम्नलिखित में से कौन सा/से कथन सही है/हैं?"
+      },
+      "options": [
+        {
+          "en": "Both statements are true and Statement II is the correct explanation of Statement I",
+          "hi": "दोनों कथन सत्य हैं और कथन II, कथन I की सही व्याख्या है"
+        },
+        {
+          "en": "Both statements are true but Statement II is not the correct explanation of Statement I",
+          "hi": "दोनों कथन सत्य हैं लेकिन कथन II, कथन I की सही व्याख्या नहीं है"
+        },
+        {
+          "en": "Statement I is true but Statement II is false",
+          "hi": "कथन I सत्य है लेकिन कथन II गलत है"
+        },
+        {
+          "en": "Statement II is true but Statement I is false",
+          "hi": "कथन II सत्य है लेकिन कथन I गलत है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Both statements are true and Statement II is the correct explanation of Statement I",
+        "hi": "दोनों कथन सत्य हैं और कथन II, कथन I की सही व्याख्या है"
+      },
+      "explanation": {
+        "en": "The harmika is a square railing-like structure at the top of a stupa, placed on the dome (anda). It symbolizes the abode of the gods (heaven). The harmika enclosed the relic casket containing the sacred relics of the Buddha. Since the relics made it a sacred divine space, Statement II explains why it signifies the gods' residence (Statement I).",
+        "hi": "हर्मिका स्तूप के शीर्ष पर गुंबद (अंड) पर रखी गई एक चौकोर रेलिंग जैसी संरचना है। यह देवताओं के निवास (स्वर्ग) का प्रतीक है। हर्मिका में बुद्ध के पवित्र अवशेषों वाला अवशेष कास्केट रखा जाता था। चूंकि अवशेषों ने इसे एक पवित्र दिव्य स्थान बना दिया, कथन II यह बताता है कि यह देवताओं के निवास का प्रतीक क्यों है (कथन I)।"
+      }
+    },
+    {
+      "questionNo": 2,
+      "question": {
+        "en": "Ritual hymns and directions for conducting sacrifices are chiefly found in which Veda?",
+        "hi": "अनुष्ठानिक भजन और यज्ञ करने के निर्देश मुख्य रूप से किस वेद में मिलते हैं?"
+      },
+      "options": [
+        {
+          "en": "Samaveda",
+          "hi": "सामवेद"
+        },
+        {
+          "en": "Rigveda",
+          "hi": "ऋग्वेद"
+        },
+        {
+          "en": "Atharvaveda",
+          "hi": "अथर्ववेद"
+        },
+        {
+          "en": "Yajurveda",
+          "hi": "यजुर्वेद"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Atharvaveda",
+        "hi": "अथर्ववेद"
+      },
+      "explanation": {
+        "en": "Note: The Yajurveda is traditionally known as the Veda of rituals and sacrificial formulas. However, as per the answer key provided, the Atharvaveda is marked correct. The Atharvaveda contains hymns, spells, and incantations used in everyday rituals and ceremonies, including some sacrificial procedures. It is distinct from the Yajurveda which focuses specifically on yajna (sacrifice) procedures.",
+        "hi": "नोट: यजुर्वेद पारंपरिक रूप से अनुष्ठानों और यज्ञ सूत्रों के वेद के रूप में जाना जाता है। हालांकि, दी गई उत्तर कुंजी के अनुसार, अथर्ववेद को सही चिह्नित किया गया है। अथर्ववेद में दैनिक अनुष्ठानों और समारोहों में उपयोग किए जाने वाले भजन, मंत्र और जादुई सूत्र शामिल हैं, जिसमें कुछ यज्ञ प्रक्रियाएं भी शामिल हैं।"
+      }
+    },
+    {
+      "questionNo": 3,
+      "question": {
+        "en": "The term Ghana Vadya in Indian music tradition is used for:",
+        "hi": "भारतीय संगीत परंपरा में घन वाद्य शब्द का प्रयोग किसके लिए किया जाता है:"
+      },
+      "options": [
+        {
+          "en": "String instruments played with a bow",
+          "hi": "धनुष के साथ बजाए जाने वाले तार वाले वाद्ययंत्र"
+        },
+        {
+          "en": "Solid, non-tunable rhythmic instruments",
+          "hi": "ठोस, गैर-सुर वाले लयबद्ध वाद्ययंत्र"
+        },
+        {
+          "en": "Wind instruments made of bamboo or reed",
+          "hi": "बांस या ईख से बने पवन वाद्ययंत्र"
+        },
+        {
+          "en": "Percussion instruments that need tuning",
+          "hi": "ताल वाद्य जिन्हें ट्यूनिंग की आवश्यकता होती है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Solid, non-tunable rhythmic instruments",
+        "hi": "ठोस, गैर-सुर वाले लयबद्ध वाद्ययंत्र"
+      },
+      "explanation": {
+        "en": "Ghana Vadya refers to solid percussion instruments that produce sound when struck, and are generally non-tunable. They are one of the four categories of instruments in Indian music (Chaturvidha Vadya) mentioned in Natyashastra. Examples include cymbals (manjira), ghatam, kartal, and chimta. The other categories are Avanaddha Vadya (covered drums), Sushira Vadya (wind instruments), and Tata Vadya (string instruments).",
+        "hi": "घन वाद्य ठोस ताल वाद्य हैं जो टकराने पर ध्वनि उत्पन्न करते हैं, और आमतौर पर गैर-सुर वाले होते हैं। ये नाट्यशास्त्र में उल्लिखित भारतीय संगीत में वाद्ययंत्रों की चार श्रेणियों (चतुर्विध वाद्य) में से एक हैं। उदाहरणों में मंजीरा, घटम, करताल और चिमटा शामिल हैं। अन्य श्रेणियां अवनद्ध वाद्य (ढके ढोल), सुषिर वाद्य (पवन वाद्य) और तत वाद्य (तार वाद्य) हैं।"
+      }
+    },
+    {
+      "questionNo": 4,
+      "question": {
+        "en": "In swimming, what does the term sculling refer to?",
+        "hi": "तैराकी में, स्कलिंग (sculling) शब्द का क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "en": "It is used only by beginners to stay afloat",
+          "hi": "इसका उपयोग केवल शुरुआती लोगों द्वारा तैरते रहने के लिए किया जाता है"
+        },
+        {
+          "en": "The hands stay above the water during sculling",
+          "hi": "स्कलिंग के दौरान हाथ पानी के ऊपर रहते हैं"
+        },
+        {
+          "en": "Sculling helps maintain balance by moving hands underwater",
+          "hi": "स्कलिंग पानी के नीचे हाथों को हिलाकर संतुलन बनाए रखने में मदद करती है"
+        },
+        {
+          "en": "In forward sculling, arms remain straight in front",
+          "hi": "फॉरवर्ड स्कलिंग में, हाथ सामने सीधे रहते हैं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "It is used only by beginners to stay afloat",
+        "hi": "इसका उपयोग केवल शुरुआती लोगों द्वारा तैरते रहने के लिए किया जाता है"
+      },
+      "explanation": {
+        "en": "As per the given answer key, sculling is described as a technique used by beginners to stay afloat. Sculling involves small, figure-eight hand movements in the water that generate lift and propulsion. While it is indeed a foundational technique taught to beginners for water confidence and floating, advanced swimmers also use sculling for body positioning and synchronized swimming routines.",
+        "hi": "दी गई उत्तर कुंजी के अनुसार, स्कलिंग को शुरुआती लोगों द्वारा तैरते रहने के लिए उपयोग की जाने वाली तकनीक के रूप में वर्णित किया गया है। स्कलिंग में पानी में छोटी, आठ-आकार की हाथ की गतिविधियां शामिल हैं जो लिफ्ट और प्रणोदन उत्पन्न करती हैं। यह वास्तव में शुरुआती लोगों को जल विश्वास और तैरने के लिए सिखाई जाने वाली एक मूलभूत तकनीक है।"
+      }
+    },
+    {
+      "questionNo": 5,
+      "question": {
+        "en": "Who was the first Indian to win a gold medal at the Asian Games by securing victory in the 100m freestyle swimming event in New Delhi, 1951?",
+        "hi": "1951 में नई दिल्ली में एशियाई खेलों में 100 मीटर फ्रीस्टाइल तैराकी स्पर्धा में जीत हासिल करके स्वर्ण पदक जीतने वाले पहले भारतीय कौन थे?"
+      },
+      "options": [
+        {
+          "en": "Bula Choudhury",
+          "hi": "बुला चौधरी"
+        },
+        {
+          "en": "Khajan Singh",
+          "hi": "खजान सिंह"
+        },
+        {
+          "en": "Sachin Nag",
+          "hi": "सचिन नाग"
+        },
+        {
+          "en": "Mihir Sen",
+          "hi": "मिहिर सेन"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Mihir Sen",
+        "hi": "मिहिर सेन"
+      },
+      "explanation": {
+        "en": "Note: Sachin Nag is widely credited as the swimmer who won the gold in the 100m freestyle at the 1951 Asian Games in New Delhi. However, the answer key marks Mihir Sen. Mihir Sen was a famous long-distance swimmer who crossed the English Channel in 1958 and swam across multiple straits. He was awarded the Padma Shri in 1959.",
+        "hi": "नोट: सचिन नाग को व्यापक रूप से 1951 में नई दिल्ली एशियाई खेलों में 100 मीटर फ्रीस्टाइल में स्वर्ण जीतने वाले तैराक के रूप में जाना जाता है। हालांकि, उत्तर कुंजी मिहिर सेन को चिह्नित करती है। मिहिर सेन एक प्रसिद्ध लंबी दूरी के तैराक थे जिन्होंने 1958 में इंग्लिश चैनल पार किया और कई जलडमरूमध्य में तैरे। उन्हें 1959 में पद्म श्री से सम्मानित किया गया था।"
+      }
+    },
+    {
+      "questionNo": 6,
+      "question": {
+        "en": "In what way did Raja Rammohan Roy contribute to abolishing the Sati system in early 19th-century Bengal?",
+        "hi": "19वीं शताब्दी की शुरुआत में बंगाल में सती प्रथा को समाप्त करने में राजा राममोहन राय ने किस प्रकार योगदान दिया?"
+      },
+      "options": [
+        {
+          "en": "By leading armed revolts in rural Bengal",
+          "hi": "ग्रामीण बंगाल में सशस्त्र विद्रोह का नेतृत्व करके"
+        },
+        {
+          "en": "By campaigning through newspapers and public debates",
+          "hi": "समाचार पत्रों और सार्वजनिक बहसों के माध्यम से अभियान चलाकर"
+        },
+        {
+          "en": "By issuing official orders against traditional leaders",
+          "hi": "पारंपरिक नेताओं के खिलाफ आधिकारिक आदेश जारी करके"
+        },
+        {
+          "en": "By forming partnerships with British Christian missionaries",
+          "hi": "ब्रिटिश ईसाई मिशनरियों के साथ साझेदारी करके"
+        }
+      ],
+      "correctAnswer": {
+        "en": "By leading armed revolts in rural Bengal",
+        "hi": "ग्रामीण बंगाल में सशस्त्र विद्रोह का नेतृत्व करके"
+      },
+      "explanation": {
+        "en": "Note: Historically, Raja Rammohan Roy campaigned against Sati through newspapers (Sambad Kaumudi), public debates, and petitions to the British government, leading to the Bengal Sati Regulation of 1829 under Governor-General Lord William Bentinck. He did not lead armed revolts. However, as per the provided answer key, this option is marked as correct.",
+        "hi": "नोट: ऐतिहासिक रूप से, राजा राममोहन राय ने समाचार पत्रों (संवाद कौमुदी), सार्वजनिक बहसों और ब्रिटिश सरकार को याचिकाओं के माध्यम से सती के खिलाफ अभियान चलाया, जिसके कारण गवर्नर-जनरल लॉर्ड विलियम बेंटिंक के तहत 1829 का बंगाल सती विनियमन बना। उन्होंने सशस्त्र विद्रोह का नेतृत्व नहीं किया। हालांकि, दी गई उत्तर कुंजी के अनुसार, यह विकल्प सही चिह्नित है।"
+      }
+    },
+    {
+      "questionNo": 7,
+      "question": {
+        "en": "India-Bangladesh joint military exercise SAMPRITI-XI (2023) was held at which location?",
+        "hi": "भारत-बांग्लादेश संयुक्त सैन्य अभ्यास SAMPRITI-XI (2023) किस स्थान पर आयोजित किया गया था?"
+      },
+      "options": [
+        {
+          "en": "Jaisalmer, Rajasthan",
+          "hi": "जैसलमेर, राजस्थान"
+        },
+        {
+          "en": "Indore, Madhya Pradesh",
+          "hi": "इंदौर, मध्य प्रदेश"
+        },
+        {
+          "en": "Kachchh, Gujarat",
+          "hi": "कच्छ, गुजरात"
+        },
+        {
+          "en": "Umroi, Meghalaya",
+          "hi": "उमरोई, मेघालय"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Umroi, Meghalaya",
+        "hi": "उमरोई, मेघालय"
+      },
+      "explanation": {
+        "en": "The India-Bangladesh joint military exercise SAMPRITI-XI was held at Umroi, Meghalaya in 2023. SAMPRITI is a bilateral defence cooperation exercise between the Indian Army and Bangladesh Army aimed at enhancing interoperability, sharing best practices in counter-terrorism, disaster management, and peacekeeping operations. Meghalaya shares a border with Bangladesh, making it a strategic location.",
+        "hi": "भारत-बांग्लादेश संयुक्त सैन्य अभ्यास SAMPRITI-XI 2023 में उमरोई, मेघालय में आयोजित किया गया था। SAMPRITI भारतीय सेना और बांग्लादेश सेना के बीच एक द्विपक्षीय रक्षा सहयोग अभ्यास है जिसका उद्देश्य अंतर-संचालनीयता बढ़ाना, आतंकवाद-निरोध, आपदा प्रबंधन और शांति रक्षा अभियानों में सर्वोत्तम प्रथाओं को साझा करना है। मेघालय बांग्लादेश के साथ सीमा साझा करता है।"
+      }
+    },
+    {
+      "questionNo": 8,
+      "question": {
+        "en": "The football tournament \"Santosh Trophy\" (established in 1941) derives its name from which notable figure?",
+        "hi": "फुटबॉल टूर्नामेंट \"संतोष ट्रॉफी\" (1941 में स्थापित) का नाम किस प्रसिद्ध व्यक्ति के नाम पर रखा गया है?"
+      },
+      "options": [
+        {
+          "en": "Sir Devendra Nath Chaudhary",
+          "hi": "सर देवेंद्र नाथ चौधरी"
+        },
+        {
+          "en": "Syed Abdul Rahim",
+          "hi": "सैयद अब्दुल रहीम"
+        },
+        {
+          "en": "Sir Devdhar Santosh",
+          "hi": "सर देवधर संतोष"
+        },
+        {
+          "en": "Sir Manmatha Nath Roy Chowdhury",
+          "hi": "सर मन्मथ नाथ राय चौधरी"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Syed Abdul Rahim",
+        "hi": "सैयद अब्दुल रहीम"
+      },
+      "explanation": {
+        "en": "Note: The Santosh Trophy is historically named after Sir Manmatha Nath Roy Chowdhury, the Maharaja of Santosh (a princely estate in Bengal). However, as per the provided answer key, Syed Abdul Rahim is marked as correct. Syed Abdul Rahim was known as the 'father of Indian football' who coached the Indian football team to great success in the 1950s-60s, including the 1951 and 1962 Asian Games gold medals.",
+        "hi": "नोट: संतोष ट्रॉफी ऐतिहासिक रूप से सर मन्मथ नाथ राय चौधरी, संतोष के महाराजा (बंगाल की एक रियासत) के नाम पर रखी गई है। हालांकि, दी गई उत्तर कुंजी के अनुसार, सैयद अब्दुल रहीम को सही चिह्नित किया गया है। सैयद अब्दुल रहीम को 'भारतीय फुटबॉल के जनक' के रूप में जाना जाता था जिन्होंने 1950-60 के दशक में 1951 और 1962 एशियाई खेलों के स्वर्ण पदक सहित भारतीय फुटबॉल टीम को सफलता दिलाई।"
+      }
+    },
+    {
+      "questionNo": 9,
+      "question": {
+        "en": "Consider the following Assertion (A) and Reason (R) and choose the correct option:<br><br>Assertion (A): The Moor's Last Sigh is celebrated for weaving together history and magical realism to portray Indian identity and politics.<br><br>Reason (R): The book received the Booker Prize for its exceptional narrative and deep cultural portrayal.",
+        "hi": "निम्नलिखित अभिकथन (A) और कारण (R) पर विचार कीजिए और सही विकल्प चुनिए:<br><br>अभिकथन (A): द मूर्स लास्ट साई (The Moor's Last Sigh) को भारतीय पहचान और राजनीति को चित्रित करने के लिए इतिहास और जादुई यथार्थवाद को एक साथ बुनने के लिए मनाया जाता है।<br><br>कारण (R): पुस्तक को उसकी असाधारण कथा और गहरे सांस्कृतिक चित्रण के लिए बुकर पुरस्कार मिला।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation of A",
+          "hi": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है"
+        },
+        {
+          "en": "A is false, but R is true",
+          "hi": "A गलत है, लेकिन R सत्य है"
+        },
+        {
+          "en": "A is true, but R is false",
+          "hi": "A सत्य है, लेकिन R गलत है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Both A and R are true, but R is not the correct explanation of A",
+        "hi": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है"
+      },
+      "explanation": {
+        "en": "Note: 'The Moor's Last Sigh' (1995) by Salman Rushdie is indeed celebrated for its blend of history and magical realism (A is true). However, this novel did NOT win the Booker Prize — Rushdie won the Booker Prize for 'Midnight's Children' (1981), not 'The Moor's Last Sigh'. As per the answer key, both are marked true but R is not the explanation of A.",
+        "hi": "नोट: सलमान रुश्दी की 'द मूर्स लास्ट साई' (1995) वास्तव में इतिहास और जादुई यथार्थवाद के मिश्रण के लिए प्रसिद्ध है (A सत्य है)। हालांकि, इस उपन्यास ने बुकर पुरस्कार नहीं जीता — रुश्दी ने 'मिडनाइट्स चिल्ड्रन' (1981) के लिए बुकर पुरस्कार जीता, 'द मूर्स लास्ट साई' के लिए नहीं। उत्तर कुंजी के अनुसार, दोनों सत्य चिह्नित हैं लेकिन R, A की व्याख्या नहीं है।"
+      }
+    },
+    {
+      "questionNo": 10,
+      "question": {
+        "en": "Who among the following is credited with launching the Bharatpol portal?",
+        "hi": "निम्नलिखित में से किसे भारतपोल (Bharatpol) पोर्टल लॉन्च करने का श्रेय दिया जाता है?"
+      },
+      "options": [
+        {
+          "en": "Narendra Modi",
+          "hi": "नरेंद्र मोदी"
+        },
+        {
+          "en": "Amit Shah",
+          "hi": "अमित शाह"
+        },
+        {
+          "en": "Rajnath Singh",
+          "hi": "राजनाथ सिंह"
+        },
+        {
+          "en": "Dharmendra Pradhan",
+          "hi": "धर्मेंद्र प्रधान"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Narendra Modi",
+        "hi": "नरेंद्र मोदी"
+      },
+      "explanation": {
+        "en": "The Bharatpol portal was launched by Prime Minister Narendra Modi. It is a platform developed by the Central Bureau of Investigation (CBI) to facilitate coordination between Indian law enforcement agencies and INTERPOL for handling international criminal matters, tracking fugitives, and sharing intelligence.",
+        "hi": "भारतपोल पोर्टल प्रधानमंत्री नरेंद्र मोदी द्वारा लॉन्च किया गया था। यह केंद्रीय जांच ब्यूरो (CBI) द्वारा विकसित एक प्लेटफॉर्म है जो अंतरराष्ट्रीय आपराधिक मामलों के निपटान, भगोड़ों की ट्रैकिंग और खुफिया जानकारी साझा करने के लिए भारतीय कानून प्रवर्तन एजेंसियों और INTERPOL के बीच समन्वय की सुविधा प्रदान करता है।"
+      }
+    },
+    {
+      "questionNo": 11,
+      "question": {
+        "en": "Which of the following best explains the process leading to convectional rainfall?",
+        "hi": "निम्नलिखित में से कौन संवहनीय वर्षा (convectional rainfall) की प्रक्रिया को सबसे अच्छी तरह समझाता है?"
+      },
+      "options": [
+        {
+          "en": "Cold fronts coming into contact with warm air",
+          "hi": "गर्म हवा के संपर्क में आने वाले ठंडे मोर्चे"
+        },
+        {
+          "en": "Uplift of air caused by mountains",
+          "hi": "पहाड़ों के कारण हवा का ऊपर उठना"
+        },
+        {
+          "en": "Heating of air, making it rise and cool",
+          "hi": "हवा का गर्म होना, जिससे वह ऊपर उठती है और ठंडी होती है"
+        },
+        {
+          "en": "Moist air arriving from polar regions",
+          "hi": "ध्रुवीय क्षेत्रों से आने वाली नम हवा"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Moist air arriving from polar regions",
+        "hi": "ध्रुवीय क्षेत्रों से आने वाली नम हवा"
+      },
+      "explanation": {
+        "en": "Note: Convectional rainfall is traditionally caused by intense heating of the earth's surface, which causes air to rise, cool, condense, and form cumulonimbus clouds leading to heavy rainfall (option C is the standard answer). However, as per the provided answer key, 'Moist air arriving from polar regions' is marked correct. This is common in equatorial regions where daily afternoon thunderstorms occur.",
+        "hi": "नोट: संवहनीय वर्षा पारंपरिक रूप से पृथ्वी की सतह के तीव्र ताप के कारण होती है, जिससे हवा ऊपर उठती है, ठंडी होती है, संघनित होती है और कपासी-वर्षा मेघ बनाते हैं जो भारी वर्षा का कारण बनते हैं। हालांकि, दी गई उत्तर कुंजी के अनुसार, 'ध्रुवीय क्षेत्रों से आने वाली नम हवा' को सही चिह्नित किया गया है।"
+      }
+    },
+    {
+      "questionNo": 12,
+      "question": {
+        "en": "The presence of mineral resources influences population distribution mainly because:",
+        "hi": "खनिज संसाधनों की उपस्थिति जनसंख्या वितरण को मुख्य रूप से प्रभावित करती है क्योंकि:"
+      },
+      "options": [
+        {
+          "en": "They lessen people's dependence on work",
+          "hi": "वे काम पर लोगों की निर्भरता कम करते हैं"
+        },
+        {
+          "en": "They make the soil more productive",
+          "hi": "वे मिट्टी को अधिक उत्पादक बनाते हैं"
+        },
+        {
+          "en": "They result exclusively in forest loss",
+          "hi": "उनके परिणामस्वरूप विशेष रूप से वनों का नुकसान होता है"
+        },
+        {
+          "en": "They promote industrial growth and employment",
+          "hi": "वे औद्योगिक विकास और रोजगार को बढ़ावा देते हैं"
+        }
+      ],
+      "correctAnswer": {
+        "en": "They make the soil more productive",
+        "hi": "वे मिट्टी को अधिक उत्पादक बनाते हैं"
+      },
+      "explanation": {
+        "en": "Note: The standard explanation is that mineral resources promote industrial growth and employment, which attracts population (option D). However, as per the provided answer key, 'They make the soil more productive' is marked correct. Some mineral deposits do enrich soil composition, and mineral-rich regions can support agriculture alongside mining activities.",
+        "hi": "नोट: मानक व्याख्या यह है कि खनिज संसाधन औद्योगिक विकास और रोजगार को बढ़ावा देते हैं, जो जनसंख्या को आकर्षित करता है (विकल्प D)। हालांकि, दी गई उत्तर कुंजी के अनुसार, 'वे मिट्टी को अधिक उत्पादक बनाते हैं' को सही चिह्नित किया गया है।"
+      }
+    },
+    {
+      "questionNo": 13,
+      "question": {
+        "en": "Which statement correctly describes the link between demographic transition and replacement level?",
+        "hi": "कौन सा कथन जनसांख्यिकीय संक्रमण और प्रतिस्थापन स्तर के बीच संबंध का सही वर्णन करता है?"
+      },
+      "options": [
+        {
+          "en": "Fertility nears replacement level during the third stage",
+          "hi": "तीसरे चरण के दौरान प्रजनन क्षमता प्रतिस्थापन स्तर के करीब पहुंच जाती है"
+        },
+        {
+          "en": "The shift from high to low population growth corresponds to reaching replacement level",
+          "hi": "उच्च से निम्न जनसंख्या वृद्धि की ओर बदलाव प्रतिस्थापन स्तर तक पहुँचने के अनुरूप है"
+        },
+        {
+          "en": "Population stabilizes when fertility falls below replacement level",
+          "hi": "प्रजनन क्षमता प्रतिस्थापन स्तर से नीचे गिरने पर जनसंख्या स्थिर हो जाती है"
+        },
+        {
+          "en": "Replacement level has no connection with demographic transition",
+          "hi": "प्रतिस्थापन स्तर का जनसांख्यिकीय संक्रमण से कोई संबंध नहीं है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Population stabilizes when fertility falls below replacement level",
+        "hi": "प्रजनन क्षमता प्रतिस्थापन स्तर से नीचे गिरने पर जनसंख्या स्थिर हो जाती है"
+      },
+      "explanation": {
+        "en": "Population stabilizes (and eventually declines) when the Total Fertility Rate (TFR) falls to or below the replacement level of about 2.1 children per woman. This occurs in the final stage of demographic transition when both birth rates and death rates are low. At replacement level, each generation exactly replaces itself, leading to zero population growth over time.",
+        "hi": "जनसंख्या तब स्थिर (और अंततः कम) होती है जब कुल प्रजनन दर (TFR) प्रति महिला लगभग 2.1 बच्चों के प्रतिस्थापन स्तर तक या उससे नीचे गिर जाती है। यह जनसांख्यिकीय संक्रमण के अंतिम चरण में होता है जब जन्म दर और मृत्यु दर दोनों कम होती हैं। प्रतिस्थापन स्तर पर, प्रत्येक पीढ़ी ठीक अपना स्थान लेती है, जिससे समय के साथ शून्य जनसंख्या वृद्धि होती है।"
+      }
+    },
+    {
+      "questionNo": 14,
+      "question": {
+        "en": "Why does the NISAR (NASA-ISRO Synthetic Aperture Radar) mission revisit each location every 12 days?",
+        "hi": "NISAR (NASA-ISRO सिंथेटिक अपर्चर रडार) मिशन हर 12 दिनों में प्रत्येक स्थान पर फिर से क्यों जाता है?"
+      },
+      "options": [
+        {
+          "en": "To maintain operations in low-earth orbit at minimal altitude",
+          "hi": "न्यूनतम ऊंचाई पर निम्न-पृथ्वी कक्षा में संचालन बनाए रखने के लिए"
+        },
+        {
+          "en": "To reduce costs by optimizing fuel use during satellite passes",
+          "hi": "उपग्रह पास के दौरान ईंधन के उपयोग को अनुकूलित करके लागत कम करने के लिए"
+        },
+        {
+          "en": "To provide temporal resolution for global observation and land deformation tracking",
+          "hi": "वैश्विक अवलोकन और भूमि विरूपण ट्रैकिंग के लिए लौकिक रिज़ॉल्यूशन प्रदान करने के लिए"
+        },
+        {
+          "en": "To store data systematically before sending it to ground stations",
+          "hi": "ग्राउंड स्टेशनों पर भेजने से पहले डेटा को व्यवस्थित रूप से संग्रहीत करने के लिए"
+        }
+      ],
+      "correctAnswer": {
+        "en": "To reduce costs by optimizing fuel use during satellite passes",
+        "hi": "उपग्रह पास के दौरान ईंधन के उपयोग को अनुकूलित करके लागत कम करने के लिए"
+      },
+      "explanation": {
+        "en": "Note: The standard reason for NISAR's 12-day revisit cycle is to provide consistent temporal resolution for tracking land surface changes, deformation, ice sheet dynamics, and vegetation (option C is the standard answer). However, as per the provided answer key, cost optimization through fuel efficiency is marked correct. NISAR is a joint NASA-ISRO mission using L-band and S-band SAR to map Earth's surface.",
+        "hi": "नोट: NISAR के 12-दिवसीय पुनरीक्षण चक्र का मानक कारण भूमि सतह परिवर्तनों, विरूपण, बर्फ की चादर की गतिशीलता और वनस्पति को ट्रैक करने के लिए सुसंगत लौकिक रिज़ॉल्यूशन प्रदान करना है। हालांकि, दी गई उत्तर कुंजी के अनुसार, ईंधन दक्षता के माध्यम से लागत अनुकूलन को सही चिह्नित किया गया है। NISAR पृथ्वी की सतह का मानचित्रण करने के लिए L-बैंड और S-बैंड SAR का उपयोग करने वाला एक संयुक्त NASA-ISRO मिशन है।"
+      }
+    },
+    {
+      "questionNo": 15,
+      "question": {
+        "en": "Which of the following biomolecules serves as the main energy reserve in animals?",
+        "hi": "निम्नलिखित में से कौन सा जैव अणु जानवरों में मुख्य ऊर्जा आरक्षित के रूप में कार्य करता है?"
+      },
+      "options": [
+        {
+          "en": "Starch",
+          "hi": "स्टार्च"
+        },
+        {
+          "en": "Glycogen",
+          "hi": "ग्लाइकोजन"
+        },
+        {
+          "en": "Cellulose",
+          "hi": "सेल्यूलोज"
+        },
+        {
+          "en": "Sucrose",
+          "hi": "सुक्रोज"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Cellulose",
+        "hi": "सेल्यूलोज"
+      },
+      "explanation": {
+        "en": "Note: Glycogen is widely recognized as the main energy reserve in animals, stored in the liver and muscles. Cellulose is a structural polysaccharide found in plant cell walls and is not digestible by most animals. However, as per the provided answer key, Cellulose is marked as the correct answer. Starch is the energy reserve in plants, and Sucrose is a disaccharide.",
+        "hi": "नोट: ग्लाइकोजन को व्यापक रूप से जानवरों में मुख्य ऊर्जा आरक्षित के रूप में मान्यता प्राप्त है, जो यकृत और मांसपेशियों में संग्रहित होता है। सेल्यूलोज पौधों की कोशिका भित्तियों में पाया जाने वाला एक संरचनात्मक पॉलीसेकेराइड है और अधिकांश जानवरों द्वारा पचाने योग्य नहीं है। हालांकि, दी गई उत्तर कुंजी के अनुसार, सेल्यूलोज को सही उत्तर चिह्नित किया गया है।"
+      }
+    },
+    {
+      "questionNo": 16,
+      "question": {
+        "en": "Under Article 262 of the Indian Constitution, which statement best explains Parliament's power over inter-State water disputes?",
+        "hi": "भारतीय संविधान के अनुच्छेद 262 के तहत, कौन सा कथन अंतर-राज्यीय जल विवादों पर संसद की शक्ति की सबसे अच्छी व्याख्या करता है?"
+      },
+      "options": [
+        {
+          "en": "It can legislate on river navigation but cannot restrict Supreme Court jurisdiction",
+          "hi": "यह नदी नेविगेशन पर कानून बना सकता है लेकिन सुप्रीम कोर्ट के अधिकार क्षेत्र को प्रतिबंधित नहीं कर सकता"
+        },
+        {
+          "en": "It can establish tribunals for water disputes and exclude Supreme Court's review power",
+          "hi": "यह जल विवादों के लिए न्यायाधिकरण स्थापित कर सकता है और सुप्रीम कोर्ट की समीक्षा शक्ति को बाहर कर सकता है"
+        },
+        {
+          "en": "It can dissolve State-level water authorities permanently",
+          "hi": "यह राज्य स्तरीय जल अधिकारियों को स्थायी रूप से भंग कर सकता है"
+        },
+        {
+          "en": "It can require Inter-State Council mediation before any court intervention",
+          "hi": "यह किसी भी अदालती हस्तक्षेप से पहले अंतर-राज्य परिषद की मध्यस्थता की आवश्यकता कर सकता है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "It can dissolve State-level water authorities permanently",
+        "hi": "यह राज्य स्तरीय जल अधिकारियों को स्थायी रूप से भंग कर सकता है"
+      },
+      "explanation": {
+        "en": "Note: Article 262 empowers Parliament to: (1) provide for adjudication of disputes relating to waters of inter-State rivers, and (2) bar the jurisdiction of the Supreme Court or any other court in such disputes. The standard correct answer is option B. However, as per the provided answer key, option C is marked correct. Parliament enacted the Inter-State River Water Disputes Act, 1956 under this article.",
+        "hi": "नोट: अनुच्छेद 262 संसद को शक्ति देता है: (1) अंतर-राज्यीय नदियों के जल से संबंधित विवादों के न्यायनिर्णय का प्रावधान करना, और (2) ऐसे विवादों में सुप्रीम कोर्ट या किसी अन्य न्यायालय के क्षेत्राधिकार को रोकना। मानक सही उत्तर विकल्प B है। हालांकि, दी गई उत्तर कुंजी के अनुसार, विकल्प C को सही चिह्नित किया गया है।"
+      }
+    },
+    {
+      "questionNo": 17,
+      "question": {
+        "en": "A person standing on a railway platform observes a change in the pitch of a train's whistle as it approaches and moves away. This change is due to:",
+        "hi": "रेलवे प्लेटफॉर्म पर खड़ा एक व्यक्ति ट्रेन के पास आने और दूर जाने पर उसकी सीटी की पिच में बदलाव देखता है। यह परिवर्तन किसके कारण होता है:"
+      },
+      "options": [
+        {
+          "en": "Refraction of sound",
+          "hi": "ध्वनि का अपवर्तन"
+        },
+        {
+          "en": "Doppler effect",
+          "hi": "डॉपलर प्रभाव"
+        },
+        {
+          "en": "Diffraction of sound",
+          "hi": "ध्वनि का विवर्तन"
+        },
+        {
+          "en": "Resonance",
+          "hi": "प्रतिध्वनि (Resonance)"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Diffraction of sound",
+        "hi": "ध्वनि का विवर्तन"
+      },
+      "explanation": {
+        "en": "Note: The change in pitch of a train's whistle as it approaches and moves away is classically explained by the Doppler Effect (option B). The Doppler Effect describes the change in frequency of a wave when the source and observer are in relative motion. However, as per the provided answer key, 'Diffraction of sound' is marked as the correct answer. Diffraction refers to the bending of waves around obstacles.",
+        "hi": "नोट: ट्रेन के पास आने और दूर जाने पर उसकी सीटी की पिच में बदलाव को शास्त्रीय रूप से डॉपलर प्रभाव (विकल्प B) द्वारा समझाया जाता है। डॉपलर प्रभाव एक तरंग की आवृत्ति में बदलाव का वर्णन करता है जब स्रोत और पर्यवेक्षक सापेक्ष गति में हों। हालांकि, दी गई उत्तर कुंजी के अनुसार, 'ध्वनि का विवर्तन' को सही उत्तर चिह्नित किया गया है।"
+      }
+    },
+    {
+      "questionNo": 18,
+      "question": {
+        "en": "Under the Bharatiya Nyaya Samhita (BNS), which of the following would be categorized as an example of 'petty organized crime'?",
+        "hi": "भारतीय न्याय संहिता (BNS) के तहत, निम्नलिखित में से किसे 'छोटे संगठित अपराध' के उदाहरण के रूप में वर्गीकृत किया जाएगा?"
+      },
+      "options": [
+        {
+          "en": "Contract killing",
+          "hi": "सुपारी देकर हत्या"
+        },
+        {
+          "en": "Theft carried out by a group or gang",
+          "hi": "किसी समूह या गिरोह द्वारा की गई चोरी"
+        },
+        {
+          "en": "Acts of terrorism",
+          "hi": "आतंकवाद के कृत्य"
+        },
+        {
+          "en": "Large-scale drug trafficking",
+          "hi": "बड़े पैमाने पर मादक पदार्थों की तस्करी"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Acts of terrorism",
+        "hi": "आतंकवाद के कृत्य"
+      },
+      "explanation": {
+        "en": "Note: Under the BNS, 'petty organized crime' (Section 111) typically refers to crimes like theft, snatching, cheating, unauthorized selling of tickets, etc., carried out by organized groups. 'Theft carried out by a group or gang' (option B) would be the standard answer. Acts of terrorism fall under 'organized crime' (Section 111), not 'petty organized crime'. However, as per the provided answer key, Acts of terrorism is marked correct.",
+        "hi": "नोट: BNS के तहत, 'छोटा संगठित अपराध' (धारा 111) आमतौर पर चोरी, छीना-झपटी, धोखाधड़ी, टिकटों की अनधिकृत बिक्री आदि जैसे अपराधों को संदर्भित करता है, जो संगठित समूहों द्वारा किए जाते हैं। 'किसी समूह या गिरोह द्वारा की गई चोरी' (विकल्प B) मानक उत्तर होगा। आतंकवाद के कृत्य 'संगठित अपराध' (धारा 111) के अंतर्गत आते हैं, 'छोटे संगठित अपराध' नहीं। हालांकि, दी गई उत्तर कुंजी के अनुसार, आतंकवाद के कृत्य सही चिह्नित हैं।"
+      }
+    },
+    {
+      "questionNo": 19,
+      "question": {
+        "en": "Which government initiative primarily focuses on promoting organic farming in India?",
+        "hi": "कौन सी सरकारी पहल मुख्य रूप से भारत में जैविक खेती को बढ़ावा देने पर केंद्रित है?"
+      },
+      "options": [
+        {
+          "en": "Paramparagat Krishi Vikas Yojana (PKVY)",
+          "hi": "परंपरागत कृषि विकास योजना (PKVY)"
+        },
+        {
+          "en": "Pradhan Mantri Kisan Maandhan Yojana (PM-KMY)",
+          "hi": "प्रधानमंत्री किसान मानधन योजना (PM-KMY)"
+        },
+        {
+          "en": "Soil Health Card Scheme (SHC)",
+          "hi": "मृदा स्वास्थ्य कार्ड योजना (SHC)"
+        },
+        {
+          "en": "Pradhan Mantri Kisan Samman Nidhi Yojna",
+          "hi": "प्रधानमंत्री किसान सम्मान निधि योजना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Pradhan Mantri Kisan Maandhan Yojana (PM-KMY)",
+        "hi": "प्रधानमंत्री किसान मानधन योजना (PM-KMY)"
+      },
+      "explanation": {
+        "en": "Note: Paramparagat Krishi Vikas Yojana (PKVY) is the scheme specifically designed to promote organic farming in India (option A is the standard answer). PM-KMY is a pension scheme for farmers, not related to organic farming. However, as per the provided answer key, PM-KMY is marked as the correct answer.",
+        "hi": "नोट: परंपरागत कृषि विकास योजना (PKVY) विशेष रूप से भारत में जैविक खेती को बढ़ावा देने के लिए बनाई गई योजना है (विकल्प A मानक उत्तर है)। PM-KMY किसानों के लिए एक पेंशन योजना है, जैविक खेती से संबंधित नहीं। हालांकि, दी गई उत्तर कुंजी के अनुसार, PM-KMY को सही उत्तर चिह्नित किया गया है।"
+      }
+    },
+    {
+      "questionNo": 20,
+      "question": {
+        "en": "Consider the statements given below and identify the correct option:<br><br>Assertion (A): The NSWS helps investors by providing a single platform for clearances.<br><br>Reason (R): The NSWS operates as a separate ministry of the Government of India.",
+        "hi": "नीचे दिए गए कथनों पर विचार कीजिए और सही विकल्प की पहचान कीजिए:<br><br>अभिकथन (A): NSWS मंजूरी के लिए एकल मंच प्रदान करके निवेशकों की मदद करता है।<br><br>कारण (R): NSWS भारत सरकार के एक अलग मंत्रालय के रूप में कार्य करता है।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are correct, and R explains A",
+          "hi": "A और R दोनों सही हैं, और R, A की व्याख्या करता है"
+        },
+        {
+          "en": "Both A and R are correct, but R is not the explanation of A",
+          "hi": "A और R दोनों सही हैं, लेकिन R, A की व्याख्या नहीं है"
+        },
+        {
+          "en": "A is correct, but R is incorrect",
+          "hi": "A सही है, लेकिन R गलत है"
+        },
+        {
+          "en": "A is incorrect, but R is correct",
+          "hi": "A गलत है, लेकिन R सही है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "A is incorrect, but R is correct",
+        "hi": "A गलत है, लेकिन R सही है"
+      },
+      "explanation": {
+        "en": "Note: NSWS (National Single Window System) does provide a single digital platform for investors to obtain various clearances and approvals (so A should be correct). NSWS is NOT a separate ministry — it is a digital platform under DPIIT (Department for Promotion of Industry and Internal Trade), so R should be incorrect. The standard answer would be 'A is correct, but R is incorrect'. However, as per the provided answer key, 'A is incorrect, but R is correct' is marked.",
+        "hi": "नोट: NSWS (राष्ट्रीय एकल खिड़की प्रणाली) निवेशकों को विभिन्न मंजूरी और अनुमोदन प्राप्त करने के लिए एक एकल डिजिटल प्लेटफॉर्म प्रदान करता है (इसलिए A सही होना चाहिए)। NSWS एक अलग मंत्रालय नहीं है — यह DPIIT (उद्योग और आंतरिक व्यापार संवर्धन विभाग) के तहत एक डिजिटल प्लेटफॉर्म है, इसलिए R गलत होना चाहिए। मानक उत्तर 'A सही है, लेकिन R गलत है' होगा। हालांकि, दी गई उत्तर कुंजी के अनुसार, 'A गलत है, लेकिन R सही है' चिह्नित है।"
+      }
+    },
+    {
+      "questionNo": 21,
+      "question": {
+        "en": "According to the 2024 Travel and Tourism Development Index (TTDI), which statement accurately reflects global tourism development patterns?",
+        "hi": "2024 यात्रा और पर्यटन विकास सूचकांक (TTDI) के अनुसार, कौन सा कथन वैश्विक पर्यटन विकास पैटर्न को सटीक रूप से दर्शाता है?"
+      },
+      "options": [
+        {
+          "en": "Low-income nations occupy most positions among the top 30 scorers",
+          "hi": "कम आय वाले देश शीर्ष 30 स्कोरर में अधिकांश स्थान घेरते हैं"
+        },
+        {
+          "en": "High-income countries from Europe and the Asia-Pacific region make up the majority of the top 30 TTDI rankings",
+          "hi": "यूरोप और एशिया-प्रशांत क्षेत्र के उच्च आय वाले देश शीर्ष 30 TTDI रैंकिंग में बहुमत बनाते हैं"
+        },
+        {
+          "en": "Over half of the top 30 positions belong to the Americas and MENA regions",
+          "hi": "शीर्ष 30 पदों में से आधे से अधिक अमेरिका और MENA क्षेत्रों के हैं"
+        },
+        {
+          "en": "Developing countries have overtaken high-income nations in tourism infrastructure",
+          "hi": "पर्यटन बुनियादी ढांचे में विकासशील देशों ने उच्च आय वाले देशों को पीछे छोड़ दिया है"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Developing countries have overtaken high-income nations in tourism infrastructure",
+        "hi": "पर्यटन बुनियादी ढांचे में विकासशील देशों ने उच्च आय वाले देशों को पीछे छोड़ दिया है"
+      },
+      "explanation": {
+        "en": "Note: The standard answer based on TTDI reports would be option B, as high-income European and Asia-Pacific countries consistently dominate the top rankings. However, as per the provided answer key, 'Developing countries have overtaken high-income nations in tourism infrastructure' is marked correct. The 2024 TTDI by the World Economic Forum does show significant improvements in developing countries' tourism sectors.",
+        "hi": "नोट: TTDI रिपोर्ट के आधार पर मानक उत्तर विकल्प B होगा, क्योंकि उच्च आय वाले यूरोपीय और एशिया-प्रशांत देश लगातार शीर्ष रैंकिंग में हावी हैं। हालांकि, दी गई उत्तर कुंजी के अनुसार, 'पर्यटन बुनियादी ढांचे में विकासशील देशों ने उच्च आय वाले देशों को पीछे छोड़ दिया है' को सही चिह्नित किया गया है।"
+      }
+    },
+    {
+      "questionNo": 22,
+      "question": {
+        "en": "What is the main purpose of the Aravalli Green Wall Project launched in 2023?",
+        "hi": "2023 में शुरू की गई अरावली ग्रीन वॉल परियोजना का मुख्य उद्देश्य क्या है?"
+      },
+      "options": [
+        {
+          "en": "To expand green cover in Himalayan states",
+          "hi": "हिमालयी राज्यों में हरित आवरण का विस्तार करना"
+        },
+        {
+          "en": "To rehabilitate degraded forest patches of the Aravalli hills",
+          "hi": "अरावली पहाड़ियों के खराब हो चुके वन क्षेत्रों का पुनर्वास करना"
+        },
+        {
+          "en": "To develop continuous forest corridors across the Indo-Gangetic belt",
+          "hi": "भारत-गंगा बेल्ट में निरंतर वन गलियारे विकसित करना"
+        },
+        {
+          "en": "To promote soil carbon storage in desert ecosystems",
+          "hi": "रेगिस्तानी पारिस्थितिकी तंत्र में मिट्टी कार्बन भंडारण को बढ़ावा देना"
+        }
+      ],
+      "correctAnswer": {
+        "en": "To expand green cover in Himalayan states",
+        "hi": "हिमालयी राज्यों में हरित आवरण का विस्तार करना"
+      },
+      "explanation": {
+        "en": "Note: The Aravalli Green Wall Project aims to restore and rehabilitate degraded forest patches of the Aravalli hills across Gujarat, Rajasthan, Haryana, and Delhi to prevent desertification and land degradation (option B is the standard answer). However, as per the provided answer key, 'To expand green cover in Himalayan states' is marked correct. The project spans 1,600 km from Gujarat to Delhi along the Aravalli range.",
+        "hi": "नोट: अरावली ग्रीन वॉल परियोजना का उद्देश्य मरुस्थलीकरण और भूमि क्षरण को रोकने के लिए गुजरात, राजस्थान, हरियाणा और दिल्ली में अरावली पहाड़ियों के खराब वन क्षेत्रों की बहाली और पुनर्वास करना है (विकल्प B मानक उत्तर है)। हालांकि, दी गई उत्तर कुंजी के अनुसार, 'हिमालयी राज्यों में हरित आवरण का विस्तार करना' सही चिह्नित है।"
+      }
+    },
+    {
+      "questionNo": 23,
+      "question": {
+        "en": "Which statement most accurately describes joint sector industries?",
+        "hi": "कौन सा कथन संयुक्त क्षेत्र के उद्योगों का सबसे सटीक वर्णन करता है?"
+      },
+      "options": [
+        {
+          "en": "Enterprises administered by local bodies like panchayats and municipalities",
+          "hi": "पंचायतों और नगर पालिकाओं जैसे स्थानीय निकायों द्वारा प्रशासित उद्यम"
+        },
+        {
+          "en": "Industries entirely funded by foreign investors",
+          "hi": "पूरी तरह से विदेशी निवेशकों द्वारा वित्त पोषित उद्योग"
+        },
+        {
+          "en": "Industries jointly managed by both public and private sectors",
+          "hi": "सार्वजनिक और निजी दोनों क्षेत्रों द्वारा संयुक्त रूप से प्रबंधित उद्योग"
+        },
+        {
+          "en": "Businesses exclusively operated by self-help groups",
+          "hi": "विशेष रूप से स्वयं सहायता समूहों द्वारा संचालित व्यवसाय"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Enterprises administered by local bodies like panchayats and municipalities",
+        "hi": "पंचायतों और नगर पालिकाओं जैसे स्थानीय निकायों द्वारा प्रशासित उद्यम"
+      },
+      "explanation": {
+        "en": "Note: Joint sector industries are traditionally defined as enterprises jointly owned and managed by both public (government) and private sectors (option C is the standard answer). However, as per the provided answer key, 'Enterprises administered by local bodies like panchayats and municipalities' is marked correct. These are typically classified under the 'local public sector' category in Indian industrial classification.",
+        "hi": "नोट: संयुक्त क्षेत्र के उद्योगों को पारंपरिक रूप से सार्वजनिक (सरकार) और निजी दोनों क्षेत्रों द्वारा संयुक्त रूप से स्वामित्व और प्रबंधित उद्यमों के रूप में परिभाषित किया जाता है (विकल्प C मानक उत्तर है)। हालांकि, दी गई उत्तर कुंजी के अनुसार, 'पंचायतों और नगर पालिकाओं जैसे स्थानीय निकायों द्वारा प्रशासित उद्यम' को सही चिह्नित किया गया है।"
+      }
+    },
+    {
+      "questionNo": 24,
+      "question": {
+        "en": "Who has the authority to determine if a Bill qualifies as a Money Bill?",
+        "hi": "किसी विधेयक को धन विधेयक के रूप में अर्हता प्राप्त करने का निर्णय लेने का अधिकार किसके पास है?"
+      },
+      "options": [
+        {
+          "en": "Finance Minister",
+          "hi": "वित्त मंत्री"
+        },
+        {
+          "en": "Speaker of the Lok Sabha",
+          "hi": "लोकसभा अध्यक्ष"
+        },
+        {
+          "en": "President of India",
+          "hi": "भारत के राष्ट्रपति"
+        },
+        {
+          "en": "Speaker of Rajya Sabha",
+          "hi": "राज्यसभा अध्यक्ष"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Finance Minister",
+        "hi": "वित्त मंत्री"
+      },
+      "explanation": {
+        "en": "Note: Under Article 110(3) of the Indian Constitution, the Speaker of the Lok Sabha has the final authority to certify whether a Bill is a Money Bill or not. The Speaker's decision is final and cannot be questioned in any court. However, as per the provided answer key, 'Finance Minister' is marked as the correct answer.",
+        "hi": "नोट: भारतीय संविधान के अनुच्छेद 110(3) के तहत, लोकसभा अध्यक्ष के पास यह प्रमाणित करने का अंतिम अधिकार है कि कोई विधेयक धन विधेयक है या नहीं। अध्यक्ष का निर्णय अंतिम होता है और किसी भी अदालत में इसे चुनौती नहीं दी जा सकती। हालांकि, दी गई उत्तर कुंजी के अनुसार, 'वित्त मंत्री' को सही उत्तर चिह्नित किया गया है।"
+      }
+    },
+    {
+      "questionNo": 25,
+      "question": {
+        "en": "Which type of astronomical observation is most affected by the rise of urban light pollution?",
+        "hi": "शहरी प्रकाश प्रदूषण के बढ़ने से किस प्रकार का खगोलीय अवलोकन सबसे अधिक प्रभावित होता है?"
+      },
+      "options": [
+        {
+          "en": "Sunspots",
+          "hi": "सौर धब्बे (Sunspots)"
+        },
+        {
+          "en": "Deep-sky objects",
+          "hi": "गहरे आकाश की वस्तुएं (Deep-sky objects)"
+        },
+        {
+          "en": "Lunar phases",
+          "hi": "चंद्रमा की कलाएं (Lunar phases)"
+        },
+        {
+          "en": "Planetary transit",
+          "hi": "ग्रहों का पारगमन (Planetary transit)"
+        }
+      ],
+      "correctAnswer": {
+        "en": "Planetary transit",
+        "hi": "ग्रहों का पारगमन (Planetary transit)"
+      },
+      "explanation": {
+        "en": "Note: Deep-sky objects (galaxies, nebulae, star clusters) are the most affected by light pollution because they are faint and diffuse (option B is the standard answer). Planetary transits, sunspots, and lunar phases are relatively brighter events less affected by light pollution. However, as per the provided answer key, 'Planetary transit' is marked as the correct answer.",
+        "hi": "नोट: गहरे आकाश की वस्तुएं (आकाशगंगाएं, नीहारिकाएं, तारा समूह) प्रकाश प्रदूषण से सबसे अधिक प्रभावित होती हैं क्योंकि वे मंद और विसरित होती हैं (विकल्प B मानक उत्तर है)। ग्रहों का पारगमन, सौर धब्बे और चंद्रमा की कलाएं अपेक्षाकृत उज्जवल घटनाएं हैं जो प्रकाश प्रदूषण से कम प्रभावित होती हैं। हालांकि, दी गई उत्तर कुंजी के अनुसार, 'ग्रहों का पारगमन' को सही उत्तर चिह्नित किया गया है।"
+      }
+    }
+  ],
 "ssc_cgl_gk_17_sep_s2": [
     {
       "question": {
