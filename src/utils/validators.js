@@ -122,6 +122,9 @@ const testAttemptValidation = [
     body('testId')
         .notEmpty().withMessage('Test ID is required')
         .isString().withMessage('Test ID must be a string'),
+    
+    body('questionsSnapshot')
+        .isArray({ min: 1 }).withMessage('questionsSnapshot is required and must include at least one question'),
 
     body('examType')
         .optional()

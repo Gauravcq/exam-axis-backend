@@ -26,10 +26,12 @@ exports.saveAttempt = async (req, res, next) => {
       answers,
       questionsSnapshot
     } = req.body;
-    
-    // Fetch test questions if not provided in snapshot
-    let questions = questionsSnapshot;
-    if (!questions) {
+    const allowFallback = String(process.env.ALLOW_SNAPSHOT_FALLBACK || '').toLowerCase() === 'true';
+    let questions = Array.isArray(questionsSnapshot) ? questionsSnapshot : [];
+    if (!questions.length) {
+      if (!allowFallback) {
+        return apiResponse(res, 400, false, 'questionsSnapshot is required and must contain the exact questions shown to the user');
+      }
       const test = await Test.findOne({
         where: { testId: String(testId) },
         attributes: ['questions']
