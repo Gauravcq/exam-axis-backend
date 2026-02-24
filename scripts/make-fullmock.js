@@ -83,13 +83,13 @@ function main() {
   }
 
   // Source section IDs (editable or via CLI)
-  const mathsId = args.math || 'ssc_cgl_maths_15_sep_s2';
-  const reasoningId = args.reasoning || 'ssc_cgl_reasoning_15_sep_s2';
-  const englishId = args.english || 'ssc_cgl_eng_15_sep_s2';
-  const gkId = args.gk || 'ssc_cgl_gk_15_sep_s2';
+  const mathsId = args.math || 'ssc_cgl_12_sep_s1';
+  const reasoningId = args.reasoning || 'ssc_cgl_12_sep_s1-r';
+  const englishId = args.english || 'ssc_cgl_eng_12_sep_s1';
+  const gkId = args.gk || 'ssc_cgl_gk_12_sep_s1';
 
   // Output test ID (single full mock of 100 questions)
-  const OUTPUT_ID = args.out || 'ssc_cgl_fullmock_15_sep_s2';
+  const OUTPUT_ID = args.out || 'ssc_cgl_fullmock_12_sep_s1';
   const OUT_BASE = args.outBase || null;
   const SHIFTS = parseInt(args.shifts || '0', 10) || 0;
   const REMOVE_KEY = args.remove || null;
